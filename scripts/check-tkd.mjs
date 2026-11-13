@@ -13,13 +13,15 @@
 //     src/seo/tool-seo/<locale>.json. This gate re-derives them with the SAME pure functions and the
 //     SAME name source the template uses (the built client dict's search[id].title), so a build that
 //     borrowed another locale's seed, or a regression to the bare navigation label, is a T4/D3/H1
-//     finding. Length is the owner's per-script window: EN title 50-60 (<=60 hard, <50 soft long-name
+//     finding. Length is the owner's per-script window: EN title 50-65 (<=65 hard, <50 soft long-name
 //     fallback), CJK title <=30; EN desc 135-158, CJK desc 70-85, other desc <=160 (<120 soft).
 //   * Home title/desc are owner-specified per locale in src/seo/keywords.json (homeTitle/homeDesc);
 //     home h1 is the seed's fixed.homeH1. The home description is exempt from the tool length window
 //     (it is a different page type, owner-exact) but still gated for presence/brand/distinctness.
-//   * Category/all/legal/404 titles are plainTitle(label, brand) = "<label> - <brand>", so the built
-//     title must equal "<built h1> - <brand>" (category/all re-derive the label from the client dict).
+//   * Category/all titles are catTitle(seoName, locale, fx, brand) and their h1 is toolH1(seoName),
+//     where seoName is the long-tail category name from the seed's cats block (NOT the bare nav label);
+//     the desc is catDesc(seoName, tagline). A regression to plainTitle(label) is a T4/H1/D3 finding.
+//     Legal/404 titles are plainTitle(label, brand) = "<label> | <brand>" (built title = "<h1> | <brand>").
 //   * Brand is "ClearLight Tools" verbatim in every title. Length is counted in code points.
 //   * Length budgets are SERP-truncation rules, so they bind only INDEXABLE pages. A noindex page
 //     (404, contact) never appears in results; its title/desc length is exempt (isIndexable), while
@@ -32,15 +34,17 @@ import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT } from './lib-node.mjs';
-import { CJK, cps, toolTitle, toolDesc, toolH1, plainTitle, catDesc, lengthVerdict } from '../src/seo/compose.mjs';
+import { CJK, cps, toolTitle, toolDesc, toolH1, plainTitle, catTitle, catDesc, lengthVerdict } from '../src/seo/compose.mjs';
+import { localeSources, applySource, localeFile } from './lib-locale-layers.mjs';
 
 const argv = process.argv.slice(2);
 const opt = (n, d = null) => { const i = argv.indexOf(`--${n}`); return i >= 0 && argv[i + 1] ? argv[i + 1] : d; };
 const flag = n => argv.includes(n);
 
 // Generic SERP budgets for NON-tool pages (home/category/all/legal/404/root). Tool pages use the
-// owner's stricter per-script window in compose.mjs lengthVerdict instead.
-const TITLE_MAX_CJK = 30, TITLE_MAX_OTHER = 60;
+// owner's stricter per-script window in compose.mjs lengthVerdict instead. The non-CJK title ceiling
+// is 65 (was 60) to match compose.mjs TITLE_MAX.other and the owner's richer long-tail category titles.
+const TITLE_MAX_CJK = 30, TITLE_MAX_OTHER = 65;
 const DESC_SOFT = 160, DESC_HARD = 170;
 const HOME_DESC_HARD = 200;   // owner-specified home desc: a sanity cap, not the tool window
 const unescape = s => String(s)
@@ -187,7 +191,14 @@ async function selftest() {
   const cleanZhTool = { locale: 'zh', kind: 'tool', path: 'zh/pdf/compress-pdf/', title: zhTitle, desc: zhDesc, h1: zhH1, keywordsPresent: false, expectedTitle: zhTitle, expectedDesc: zhDesc, expectedH1: zhH1 };
   const homeTitleEn = 'Free Online Tools & Daily Web Utilities - ClearLight Tools';
   const cleanHome = { locale: 'en', kind: 'home', path: 'en/', title: homeTitleEn, desc: 'x'.repeat(163), h1: enFx.homeH1, keywordsPresent: false, expectedTitle: homeTitleEn, expectedDesc: 'x'.repeat(163), expectedH1: enFx.homeH1 };
-  const cleanCat = { locale: 'zh', kind: 'category', path: 'zh/pdf/', title: plainTitle('PDF 工具', brand), desc: 'x'.repeat(100), h1: 'PDF 工具', keywordsPresent: false, expectedTitle: plainTitle('PDF 工具', brand), expectedDesc: 'x'.repeat(100) };
+  // A clean category row composes from the seed's long-tail cats seoName (NOT the bare nav label):
+  // title = catTitle(seoName), h1 = toolH1(seoName), desc = catDesc(seoName, tagline). Real zh pdf seoName.
+  const catSeoName = 'PDF工具与编辑器';
+  const catTagline = '合并、拆分、压缩 PDF 文件';
+  const catTitleZh = catTitle(catSeoName, 'zh', zhFx, brand);
+  const catH1Zh = toolH1(catSeoName, 'zh', zhFx);
+  const catDescZh = catDesc(catSeoName, catTagline, zhFx, 'zh');
+  const cleanCat = { locale: 'zh', kind: 'category', path: 'zh/pdf/', title: catTitleZh, desc: catDescZh, h1: catH1Zh, keywordsPresent: false, expectedTitle: catTitleZh, expectedDesc: catDescZh, expectedH1: catH1Zh };
 
   ok('clean EN tool page is silent', judge({ rows: [cleanEnTool], brand }).findings.length === 0, JSON.stringify(judge({ rows: [cleanEnTool], brand }).findings));
   ok('clean CJK tool page is silent', judge({ rows: [cleanZhTool], brand }).findings.length === 0, JSON.stringify(judge({ rows: [cleanZhTool], brand }).findings));
@@ -202,13 +213,13 @@ async function selftest() {
   // T1 / T2 / T3 / T4
   ok('missing title fires T1', judge({ rows: [{ ...cleanEnTool, title: '' }], brand }).findings.some(f => f.rule === 'T1'));
   const longEn = 'Free Online ' + 'x'.repeat(55) + ' - ' + brand;
-  ok('over-60 EN tool title fires T2 hard', judge({ rows: [{ ...cleanEnTool, title: longEn, expectedTitle: longEn }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
+  ok('over-65 EN tool title fires T2 hard', judge({ rows: [{ ...cleanEnTool, title: longEn, expectedTitle: longEn }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
   const longZh = '免费' + 'x'.repeat(20) + '｜' + brand;   // 39 cps > 30
   ok('over-30 CJK tool title fires T2 hard', judge({ rows: [{ ...cleanZhTool, title: longZh, expectedTitle: longZh }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
-  const shortEn = toolTitle('Percentage Calculator', 'en', { action: 'find %' }, enFx, brand);  // 45 cps long-name fallback
+  const shortEn = toolTitle('Percentage Calculator', 'en', { action: 'calculate percentages' }, enFx, brand);  // rich 76>65 -> mid "Free Percentage Calculator | brand" 45 cps (<50 soft)
   ok('EN long-name fallback title (<50) is a SOFT note, not hard', judge({ rows: [{ ...cleanEnTool, title: shortEn, expectedTitle: shortEn }], brand }).findings.some(f => f.rule === 'T2' && f.soft) && !judge({ rows: [{ ...cleanEnTool, title: shortEn, expectedTitle: shortEn }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
   ok('title without the brand fires T3', judge({ rows: [{ ...cleanEnTool, title: 'Free Online Merge PDF - join files', expectedTitle: 'Free Online Merge PDF - join files' }], brand }).findings.some(f => f.rule === 'T3'));
-  ok('bare-label title (regression) fires T4', judge({ rows: [{ ...cleanEnTool, title: `Merge PDF - ${brand}` }], brand }).findings.some(f => f.rule === 'T4'));
+  ok('bare-label title (regression) fires T4', judge({ rows: [{ ...cleanEnTool, title: plainTitle('Merge PDF', brand) }], brand }).findings.some(f => f.rule === 'T4'));
   ok('title wearing another locale modifier fires T4', judge({ rows: [{ ...cleanEnTool, title: enTitle.replace('Free Online', 'Gratis Online') }], brand }).findings.some(f => f.rule === 'T4'));
 
   // D1 / D2 / D3
@@ -234,6 +245,19 @@ async function selftest() {
   // SCRIPT on non-tool pages
   ok('a zh category title written in Latin fires SCRIPT', judge({ rows: [{ ...cleanCat, title: `PDF Tools - ${brand}`, expectedTitle: `PDF Tools - ${brand}` }], brand }).findings.some(f => f.rule === 'SCRIPT'));
   ok('a zh category title with Han is silent on SCRIPT', !judge({ rows: [cleanCat], brand }).findings.some(f => f.rule === 'SCRIPT'));
+
+  // Category contract regression: the listing title/h1/desc must be the long-tail catTitle/toolH1/
+  // catDesc(seoName), NOT the old bare plainTitle(label)/label/tagline-less desc. Each regression fires.
+  ok('category bare-label title (regression) fires T4', judge({ rows: [{ ...cleanCat, title: plainTitle('PDF 工具', brand) }], brand }).findings.some(f => f.rule === 'T4'));
+  ok('category bare-label h1 (regression) fires H1', judge({ rows: [{ ...cleanCat, h1: 'PDF 工具' }], brand }).findings.some(f => f.rule === 'H1'));
+  ok('category desc that is not catDesc(seoName) fires D3', judge({ rows: [{ ...cleanCat, desc: 'x'.repeat(100) }], brand }).findings.some(f => f.rule === 'D3'));
+
+  // Non-tool 65-cp ceiling counter-proof: the budget binds category/all/legal too, not just tools.
+  // 65 cps is within budget (fully silent); 66 cps fires T2 hard. Proves TITLE_MAX_OTHER=65 really bites.
+  const catEn65 = { locale: 'en', kind: 'category', path: 'en/image/', title: 'x'.repeat(46) + ' | ' + brand, desc: 'x'.repeat(100), h1: 'Image Tools', keywordsPresent: false };
+  catEn65.expectedTitle = catEn65.title;
+  ok('non-tool title 65 cps is within budget (silent)', judge({ rows: [catEn65], brand }).findings.length === 0, JSON.stringify(judge({ rows: [catEn65], brand }).findings));
+  ok('non-tool title 66 cps fires T2 hard (65 ceiling bites)', judge({ rows: [{ ...catEn65, title: 'x'.repeat(47) + ' | ' + brand, expectedTitle: 'x'.repeat(47) + ' | ' + brand }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
 
   // counter-proof: the per-script budgets really bite via lengthVerdict (the tool-path ruler).
   ok('mutation: lengthVerdict CJK title 30 ok / 31 not', lengthVerdict('zh', 'x'.repeat(30), 'x'.repeat(80)).titleOk && !lengthVerdict('zh', 'x'.repeat(31), 'x'.repeat(80)).titleOk);
@@ -335,6 +359,20 @@ for (const l of locales) {
   seeds[l] = existsSync(sp) ? JSON.parse(await readFile(sp, 'utf8')) : null;
 }
 
+// The "all" listing's meta description is catDesc(seoName, footer.tagline). Unlike the category
+// taglines (shipped in the client dict's `cat` block), footer.tagline is NOT in window.__TH_DICT — it
+// only exists in the build-time merged dictionary. Re-derive it through the SAME layer merge build.mjs
+// uses (chrome <l>.json over the English base, then bulk, then shards) so this gate answers from the
+// build's authority instead of a second copy that could drift if a shard later overrides the tagline.
+const enChrome = JSON.parse(await readFile(localeFile('en.json'), 'utf8'));
+const footerTagline = {};
+for (const l of locales) {
+  const { sources } = await localeSources(l);
+  let merged = enChrome;                       // applySource deep-copies, so the base is never mutated
+  for (const src of sources) merged = applySource(merged, src);
+  footerTagline[l] = merged.footer?.tagline;
+}
+
 const rows = [];
 const gaps = [];
 const readPage = async (l, rel, kind, ref = null) => {
@@ -362,15 +400,29 @@ const readPage = async (l, rel, kind, ref = null) => {
     row.expectedDesc = seo.homeDesc?.[l];
     row.expectedH1 = fx && fx.homeH1;
   } else if (kind === 'category' && ref) {
-    const label = d.cat?.[ref];
-    row.expectedTitle = label !== undefined ? plainTitle(label, brand) : plainTitle(row.h1, brand);
-    row.expectedH1 = label;
+    // The listing <title>/<h1>/desc compose from the seed's long-tail cats seoName, not the nav label.
+    const seoName = seed?.cats?.[ref];
     const tagline = d.cat?.[`${ref}.tagline`];
-    if (fx && label !== undefined) row.expectedDesc = catDesc(label, tagline, fx, l);
+    if (fx && seoName !== undefined) {
+      row.expectedTitle = catTitle(seoName, l, fx, brand);
+      row.expectedH1 = toolH1(seoName, l, fx);
+      row.expectedDesc = catDesc(seoName, tagline, fx, l);
+    } else {
+      const label = d.cat?.[ref];
+      row.expectedTitle = label !== undefined ? plainTitle(label, brand) : plainTitle(row.h1, brand);
+      row.expectedH1 = label;
+    }
   } else if (kind === 'all') {
-    const label = d.nav?.allTools;
-    row.expectedTitle = label !== undefined ? plainTitle(label, brand) : plainTitle(row.h1, brand);
-    row.expectedH1 = label;
+    const seoName = seed?.cats?.all;
+    if (fx && seoName !== undefined) {
+      row.expectedTitle = catTitle(seoName, l, fx, brand);
+      row.expectedH1 = toolH1(seoName, l, fx);
+      row.expectedDesc = catDesc(seoName, footerTagline[l], fx, l);
+    } else {
+      const label = d.nav?.allTools;
+      row.expectedTitle = label !== undefined ? plainTitle(label, brand) : plainTitle(row.h1, brand);
+      row.expectedH1 = label;
+    }
   } else if (kind === 'legal' || kind === '404') {
     // label source (legal/footer/404) is not in the client dict; the plainTitle invariant ties the
     // built title to the built h1, and SCRIPT catches a Latin leak on the title.
@@ -400,7 +452,7 @@ const { findings } = judge({ rows, brand });
 const hard = findings.filter(f => !f.soft), soft = findings.filter(f => f.soft);
 
 console.log(`\nTKD audit — ${rows.length} built page(s) over ${locales.length} locale(s); brand "${brand}", NO meta keywords on any page`);
-console.log(`  tool budgets: EN title 50-60 / desc 135-158; CJK title <=30 / desc 70-85; other title <=60 / desc <=160 (code points)`);
+console.log(`  tool budgets: EN title 50-65 / desc 135-158; CJK title <=30 / desc 70-85; other title <=65 / desc <=160 (code points)`);
 if (gaps.length) console.log(`  BUILD GAP: ${gaps.length} page(s) missing: ${gaps.slice(0, 6).join(', ')}${gaps.length > 6 ? ' …' : ''}`);
 
 const byLocale = {};

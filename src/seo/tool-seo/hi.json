@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "मुफ़्त",
     "freeOnline": "मुफ़्त ऑनलाइन",
     "conn": " — मुफ़्त ऑनलाइन ",
     "tail": ". 100% ब्राउज़र में, न लॉगिन, न फ़ाइल अपलोड।",
     "homeH1": "मुफ़्त ऑनलाइन टूल और तेज़ वेब उपयोगिता"
+  },
+  "cats": {
+    "pdf": "PDF टूल और एडिटर",
+    "image": "इमेज टूल और कनवर्टर",
+    "audio": "ऑडियो टूल और एडिटर",
+    "video": "वीडियो टूल और कनवर्टर",
+    "text": "टेक्स्ट टूल और जनरेटर",
+    "calc": "कैलकुलेटर और कनवर्टर",
+    "all": "सभी टूल और यूटिलिटी"
   },
   "tools": {
     "compress-pdf": { "action": "आकार घटाएं", "verb": "संपीड़ित करें अपनी PDF फ़ाइलों को छोटे आकार में, गुणवत्ता बनाए रखते हुए" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "action": "पेज प्रिंट", "verb": "बदलें किसी भी वेब पेज या HTML को एक साफ-सुथरी PDF फ़ाइल में सीधे ब्राउज़र में" },
     "pdf-page-numbers": { "action": "PDF नंबर", "verb": "नंबर दें अपने PDF दस्तावेज़ के हर पेज को सही क्रम में ताकि ढूंढना आसान हो जाए" },
     "invoice-generator": { "action": "PDF बनाएं", "verb": "बनाएं आइटम-वार ब्यौरे वाले इनवॉइस और रसीदें कुछ ही मिनटों में बहुत आसानी से" },
-    "compress-image": { "action": "आकार घटाएं", "verb": "संपीड़ित करें अपनी इमेज को छोटे फ़ाइल आकार में बिना गुणवत्ता खोए और तेज़ी से" },
+    "compress-image": { "action": "आकार घटाएं", "verb": "संपीड़ित करें अपनी इमेज को छोटे फ़ाइल आकार में बिना गुणवत्ता खोए और तेज़ी से", "titleName": "इमेज कंप्रेसर" },
     "convert-image": { "action": "फ़ॉर्मेट बदलें", "verb": "बदलें अपनी इमेज को JPG, PNG और WebP फ़ॉर्मेट के बीच आसानी से और तेज़ी से" },
     "resize-image": { "action": "काटें और मापें", "verb": "बदलें और काटें अपनी इमेज का आकार ठीक उसी माप में जो आपको चाहिए, आसानी से" },
     "image-to-base64": { "action": "डेटा URI", "verb": "एन्कोड करें किसी भी इमेज को Base64 डेटा URI स्ट्रिंग में ताकि कोड में लगा सकें" },

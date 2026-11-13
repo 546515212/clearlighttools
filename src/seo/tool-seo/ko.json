@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "무료",
     "freeOnline": "무료 온라인",
     "conn": ": ",
     "tail": ". 100% 브라우저에서 실행, 로그인·파일 업로드 불필요.",
     "homeH1": "무료 온라인 도구와 빠른 브라우저 유틸리티"
+  },
+  "cats": {
+    "pdf": "PDF 도구 & 편집",
+    "image": "이미지 도구 & 변환",
+    "audio": "오디오 도구 & 편집",
+    "video": "비디오 도구 & 변환",
+    "text": "텍스트 도구 & 생성",
+    "calc": "계산기 & 변환",
+    "all": "모든 도구 & 유틸리티"
   },
   "tools": {
     "compress-pdf": { "verb": "PDF 용량을 브라우저에서 줄이고 화질은 그대로 유지하세요" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "verb": "웹페이지나 HTML을 깔끔한 PDF로 변환해 저장·인쇄하세요" },
     "pdf-page-numbers": { "verb": "PDF 페이지에 번호를 매기고 시작 숫자와 위치를 설정하세요" },
     "invoice-generator": { "verb": "내역을 입력해 청구서와 영수증을 만들고 세액을 자동 계산하세요" },
-    "compress-image": { "verb": "이미지 용량을 줄이고 화질은 유지해 저장과 공유를 편하게 하세요" },
+    "compress-image": { "verb": "이미지 용량을 줄이고 화질은 유지해 저장과 공유를 편하게 하세요", "titleName": "이미지 압축기" },
     "convert-image": { "verb": "JPG·PNG·WebP 형식을 서로 변환해 용도에 맞게 쓰세요" },
     "resize-image": { "verb": "이미지를 원하는 크기로 조절하고 잘라내 용도에 맞게 맞추세요" },
     "image-to-base64": { "verb": "이미지를 Base64 데이터 URI로 변환하세요" },

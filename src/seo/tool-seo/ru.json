@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "Бесплатно",
     "freeOnline": "Бесплатно Онлайн",
     "conn": " с бесплатным онлайн-инструментом ",
     "tail": ". 100% в браузере, без входа и загрузки файлов.",
     "homeH1": "Бесплатные онлайн-инструменты и быстрые веб-утилиты"
+  },
+  "cats": {
+    "pdf": "PDF-инструменты и редакторы",
+    "image": "Инструменты для изображений и конвертеры",
+    "audio": "Аудиоинструменты и редакторы",
+    "video": "Видеоинструменты и конвертеры",
+    "text": "Текстовые инструменты и генераторы",
+    "calc": "Калькуляторы и конвертеры",
+    "all": "Все инструменты и утилиты"
   },
   "tools": {
     "compress-pdf": { "action": "Уменьшить размер", "verb": "Сжимайте PDF-файлы до меньшего размера без потери качества" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "action": "Печать страницы", "verb": "Превращайте любую веб-страницу или HTML в аккуратный PDF" },
     "pdf-page-numbers": { "action": "Нумерация PDF", "verb": "Нумеруйте страницы PDF-документа автоматически" },
     "invoice-generator": { "action": "Создать PDF", "verb": "Создавайте подробные счета и квитанции в PDF" },
-    "compress-image": { "action": "Уменьшить размер", "verb": "Сжимайте изображения до меньшего размера файла" },
+    "compress-image": { "action": "Уменьшить размер", "verb": "Сжимайте изображения до меньшего размера файла", "titleName": "Сжатие изображений" },
     "convert-image": { "action": "Сменить формат", "verb": "Конвертируйте изображения между JPG, PNG и WebP" },
     "resize-image": { "action": "Обрезка и масштаб", "verb": "Меняйте размер и обрезайте изображения точно по меркам" },
     "image-to-base64": { "action": "Код Base64", "verb": "Кодируйте любое изображение в Base64 data URI" },

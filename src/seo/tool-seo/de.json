@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "Kostenlos",
     "freeOnline": "Kostenlos Online",
     "conn": " mit dem kostenlosen Online-Tool ",
     "tail": ". 100% im Browser, ohne Anmeldung oder Datei-Upload.",
     "homeH1": "Kostenlose Online-Tools & schnelle Browser-Helfer"
+  },
+  "cats": {
+    "pdf": "PDF-Tools & Editoren",
+    "image": "Bild-Tools & Konverter",
+    "audio": "Audio-Tools & Editoren",
+    "video": "Video-Tools & Konverter",
+    "text": "Text-Tools & Generatoren",
+    "calc": "Rechner & Konverter",
+    "all": "Alle Tools & Dienstprogramme"
   },
   "tools": {
     "compress-pdf": { "action": "Größe reduzieren", "verb": "Komprimiere PDF-Dateien auf eine kleinere Größe" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "action": "Seite drucken", "verb": "Verwandle jede Webseite oder HTML in ein sauberes PDF" },
     "pdf-page-numbers": { "action": "PDF nummerieren", "verb": "Nummeriere die Seiten eines PDF-Dokuments" },
     "invoice-generator": { "action": "PDF erstellen", "verb": "Erstelle detaillierte Rechnungen und Belege" },
-    "compress-image": { "action": "Größe reduzieren", "verb": "Komprimiere Bilder auf eine kleinere Dateigröße" },
+    "compress-image": { "action": "Größe reduzieren", "verb": "Komprimiere Bilder auf eine kleinere Dateigröße", "titleName": "Bildkompressor" },
     "convert-image": { "action": "Format ändern", "verb": "Wandle Bilder zwischen JPG, PNG und WebP um" },
     "resize-image": { "action": "Zuschneiden & skalieren", "verb": "Skaliere und beschneide Bilder auf genaue Maße" },
     "image-to-base64": { "action": "Data-URI", "verb": "Codiere jedes Bild als Base64-Data-URI für Web und CSS" },

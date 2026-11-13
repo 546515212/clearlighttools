@@ -6,7 +6,7 @@
 // per-locale seed src/seo/tool-seo/<locale>.json (loaded into cfg.__toolSeo by build.mjs). The site
 // ships NO <meta name="keywords"> on any page (owner request, 2026 Google norms). Every page carries
 // a self-canonical and a full hreflang set + x-default, all on https://clearlighttools.com.
-import { toolTitle, toolDesc, toolH1, plainTitle, catDesc, CJK } from './seo/compose.mjs';
+import { toolTitle, toolDesc, toolH1, plainTitle, catTitle, catDesc, CJK } from './seo/compose.mjs';
 
 const esc = (s = '') => String(s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -392,18 +392,26 @@ export function toolPage({ cfg, dict, locale, tool }) {
 // ---------------------------------------------------------------------------
 export function categoryPage({ cfg, dict, locale, cat }) {
   const list = cat ? cfg.__tools.filter(t => t.cat === cat) : cfg.__tools;
-  const title = cat ? dict.cat[cat] : dict.nav.allTools;
+  const label = cat ? dict.cat[cat] : dict.nav.allTools;   // short nav label — breadcrumb only
+  const seo = cfg.__toolSeo && cfg.__toolSeo[locale];
+  const fx = seo && seo.fixed;
+  // Long-tail category seoName (modifier + secondary intent, e.g. "Image Tools & Converters") from the
+  // per-locale seed's cats block — NOT the bare nav label. Drives the <title>, <h1> and meta description
+  // so every listing page carries a precise, localized long-tail keyword. build.mjs validates that cats
+  // covers all six categories + "all"; the label fallback only guards a hypothetically absent seed.
+  const seoName = (seo && seo.cats && seo.cats[cat || 'all']) || label;
   // The "all" listing uses the concise footer tagline for its meta description: the hero subtitle is a
   // longer marketing sentence (109-143 cps) that pushed the "all" snippet to 170-229 cps. The visible
   // on-page subtitle below still uses the richer heroSubtitle — length only matters for the SERP tag.
   const tagline = cat ? dict.cat[`${cat}.tagline`] : dict.footer.tagline;
-  const fx = cfg.__toolSeo && cfg.__toolSeo[locale] && cfg.__toolSeo[locale].fixed;
-  const desc = fx ? catDesc(title, tagline, fx, locale) : `${tagline} ${cfg.brand}`;
+  const desc = fx ? catDesc(seoName, tagline, fx, locale) : `${tagline} ${cfg.brand}`;
+  const h1 = fx ? toolH1(seoName, locale, fx) : label;
+  const title = fx ? catTitle(seoName, locale, fx, cfg.brand) : plainTitle(label, cfg.brand);
   const body = `<div class="wrap">
   ${adSlot('header', { dict })}
-  <nav class="breadcrumb"><a href="${pageHref(locale, '')}">${esc(dict.nav.home)}</a><span>${esc(title)}</span></nav>
+  <nav class="breadcrumb"><a href="${pageHref(locale, '')}">${esc(dict.nav.home)}</a><span>${esc(label)}</span></nav>
   <section class="hero" style="padding-bottom:6px">
-    <h1>${esc(title)}</h1>
+    <h1>${esc(h1)}</h1>
     <p class="sub">${esc(cat ? dict.cat[`${cat}.tagline`] : dict.home.heroSubtitle)}</p>
   </section>
   <section class="section">
@@ -411,7 +419,7 @@ export function categoryPage({ cfg, dict, locale, cat }) {
   </section>
   ${adSlot('inContent', { dict })}
 </div>`;
-  return layout({ cfg, dict, locale, kind: 'category', path: cat ? `${cat}/` : 'all/', title: plainTitle(title, cfg.brand), desc, body, activeCat: cat });
+  return layout({ cfg, dict, locale, kind: 'category', path: cat ? `${cat}/` : 'all/', title, desc, body, activeCat: cat });
 }
 
 // ---------------------------------------------------------------------------

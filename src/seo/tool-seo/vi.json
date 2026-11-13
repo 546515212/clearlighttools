@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "Miễn phí",
     "freeOnline": "Miễn Phí Online",
     "conn": " với công cụ online miễn phí ",
     "tail": ". 100% trên trình duyệt, không đăng nhập hay tải tệp lên.",
     "homeH1": "Công cụ online miễn phí & tiện ích web nhanh"
+  },
+  "cats": {
+    "pdf": "Công cụ PDF & Trình chỉnh sửa",
+    "image": "Công cụ Ảnh & Chuyển đổi",
+    "audio": "Công cụ Âm thanh & Trình chỉnh sửa",
+    "video": "Công cụ Video & Chuyển đổi",
+    "text": "Công cụ Văn bản & Trình tạo",
+    "calc": "Máy tính & Bộ chuyển đổi",
+    "all": "Tất cả Công cụ & Tiện ích"
   },
   "tools": {
     "compress-pdf": { "action": "giảm dung lượng", "verb": "Nén các tệp PDF xuống kích thước nhỏ hơn để tiết kiệm dung lượng" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "action": "in trang", "verb": "Biến trang web hoặc HTML bất kỳ thành một tệp PDF gọn gàng" },
     "pdf-page-numbers": { "action": "đánh số PDF", "verb": "Đánh số thứ tự cho từng trang của tài liệu PDF" },
     "invoice-generator": { "action": "tạo PDF", "verb": "Tạo hóa đơn và biên lai liệt kê chi tiết từng mục" },
-    "compress-image": { "action": "giảm dung lượng", "verb": "Nén ảnh xuống kích thước tệp nhỏ hơn mà vẫn giữ chất lượng" },
+    "compress-image": { "action": "giảm dung lượng", "verb": "Nén ảnh xuống kích thước tệp nhỏ hơn mà vẫn giữ chất lượng", "titleName": "Nén Ảnh" },
     "convert-image": { "action": "đổi định dạng", "verb": "Chuyển đổi ảnh giữa các định dạng JPG, PNG và WebP" },
     "resize-image": { "action": "cắt & chỉnh", "verb": "Đổi kích thước và cắt ảnh theo số đo chính xác" },
     "image-to-base64": { "action": "data URI", "verb": "Mã hóa một ảnh bất kỳ thành chuỗi Base64 data URI" },

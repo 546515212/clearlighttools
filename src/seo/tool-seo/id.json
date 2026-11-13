@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "Gratis",
     "freeOnline": "Gratis Online",
     "conn": " dengan alat online gratis ",
     "tail": ". 100% di browser, tanpa login atau unggah file.",
     "homeH1": "Alat online gratis & utilitas web cepat"
+  },
+  "cats": {
+    "pdf": "Utilitas PDF & Editor",
+    "image": "Alat Gambar & Konverter",
+    "audio": "Alat Audio & Editor",
+    "video": "Alat Video & Konverter",
+    "text": "Alat Teks & Generator",
+    "calc": "Kalkulator & Konverter",
+    "all": "Semua Alat & Utilitas"
   },
   "tools": {
     "compress-pdf": { "action": "perkecil ukuran", "verb": "Kompres file PDF menjadi ukuran yang lebih kecil dan hemat ruang" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "action": "cetak halaman", "verb": "Ubah halaman web atau HTML apa pun menjadi PDF rapi" },
     "pdf-page-numbers": { "action": "nomori PDF", "verb": "Beri nomor pada setiap halaman dokumen PDF Anda" },
     "invoice-generator": { "action": "buat PDF", "verb": "Buat invoice dan kuitansi terperinci per item dengan mudah" },
-    "compress-image": { "action": "perkecil ukuran", "verb": "Kompres gambar menjadi ukuran file lebih kecil tanpa pecah" },
+    "compress-image": { "action": "perkecil ukuran", "verb": "Kompres gambar menjadi ukuran file lebih kecil tanpa pecah", "titleName": "Pengompres Gambar" },
     "convert-image": { "action": "ubah format", "verb": "Ubah gambar antara format JPG, PNG, dan WebP dengan cepat" },
     "resize-image": { "action": "pangkas & skala", "verb": "Ubah ukuran dan pangkas gambar sesuai dimensi yang tepat" },
     "image-to-base64": { "action": "data URI", "verb": "Encode gambar apa pun menjadi string data URI Base64" },

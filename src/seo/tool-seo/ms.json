@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "Percuma",
     "freeOnline": "Percuma Online",
     "conn": " dengan alat online percuma ",
     "tail": ". 100% dalam pelayar, tanpa log masuk atau muat naik fail.",
     "homeH1": "Alat online percuma & utiliti web pantas"
+  },
+  "cats": {
+    "pdf": "Utiliti PDF & Editor",
+    "image": "Alat Imej & Penukar",
+    "audio": "Alat Audio & Editor",
+    "video": "Alat Video & Penukar",
+    "text": "Alat Teks & Penjana",
+    "calc": "Kalkulator & Penukar",
+    "all": "Semua Alat & Utiliti"
   },
   "tools": {
     "compress-pdf": { "action": "kecilkan saiz", "verb": "Mampatkan fail PDF kepada saiz yang lebih kecil" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "action": "cetak laman", "verb": "Tukar mana-mana laman web atau HTML kepada PDF kemas" },
     "pdf-page-numbers": { "action": "nombor PDF", "verb": "Nomborkan setiap halaman dokumen PDF anda" },
     "invoice-generator": { "action": "buat PDF", "verb": "Hasilkan invois dan resit terperinci mengikut item" },
-    "compress-image": { "action": "kecilkan saiz", "verb": "Mampatkan imej kepada saiz fail yang lebih kecil" },
+    "compress-image": { "action": "kecilkan saiz", "verb": "Mampatkan imej kepada saiz fail yang lebih kecil", "titleName": "Pemampat Imej" },
     "convert-image": { "action": "tukar format", "verb": "Tukar imej antara format JPG, PNG dan WebP" },
     "resize-image": { "action": "pangkas & skala", "verb": "Ubah saiz dan pangkas imej mengikut dimensi tepat" },
     "image-to-base64": { "action": "data URI", "verb": "Kodkan mana-mana imej sebagai data URI Base64" },

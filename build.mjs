@@ -45,7 +45,7 @@ const enTools = normaliseToolsDict(await loadDictFile('en.tools.json'));
 const titleOverrides = await loadDictFile('titles.json');
 const TOOL_IDS = new Set(tools.map(t => t.id));
 
-// Per-locale tool SEO seeds: { fixed:{free,freeOnline,conn,tail,homeH1}, tools:{id:{action,verb,titleName?}} }.
+// Per-locale tool SEO seeds: { fixed:{free,freeOnline,conn,tail,homeH1}, cats:{cat|all:seoName}, tools:{id:{action,verb,titleName?}} }.
 // templates.mjs composes each tool's <title>/<meta description>/<h1> from these via compose.mjs, so the
 // build and the check-tool-seo gate answer from the same pure functions. A seed missing any tool would
 // compose "undefined" into a live page, so the build refuses to run on an incomplete seed rather than
@@ -58,6 +58,13 @@ for (const l of cfg.locales) {
   const missing = tools.filter(t => !seed.tools || !seed.tools[t.id]).map(t => t.id);
   if (missing.length) throw new Error(`tool SEO seed "${l}" is missing ${missing.length} tool entries`
     + ` (e.g. ${missing.slice(0, 3).join(', ')}) — author them before building`);
+  // The category/all <title>, <h1> and meta description compose from seed.cats[cat] (the localized
+  // long-tail seoName), so a missing cats entry would ship "undefined" TKD on a whole listing page.
+  // Require all six categories plus the "all" listing, mirroring the per-tool completeness guard.
+  const catKeys = [...Object.keys(categories), 'all'];
+  const missingCats = catKeys.filter(c => !seed.cats || !String(seed.cats[c] ?? '').trim());
+  if (missingCats.length) throw new Error(`tool SEO seed "${l}" is missing ${missingCats.length} category seoName(s)`
+    + ` (e.g. ${missingCats.slice(0, 3).join(', ')}) — author the cats block before building`);
   toolSeo[l] = seed;
 }
 

@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "Gratis",
     "freeOnline": "Gratis Online",
     "conn": " con la herramienta online gratuita ",
     "tail": ". 100% en el navegador, sin registro ni subida de archivos.",
     "homeH1": "Herramientas online gratuitas y utilidades web rápidas"
+  },
+  "cats": {
+    "pdf": "Utilidades PDF y Editores",
+    "image": "Herramientas de Imagen y Conversores",
+    "audio": "Herramientas de Audio y Editores",
+    "video": "Herramientas de Vídeo y Conversores",
+    "text": "Herramientas de Texto y Generadores",
+    "calc": "Calculadoras y Conversores",
+    "all": "Todas las Herramientas y Utilidades"
   },
   "tools": {
     "compress-pdf": { "action": "reduce tamaño", "verb": "Comprime archivos PDF y reduce su tamaño" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "action": "imprime página", "verb": "Convierte una página web o HTML en un PDF limpio" },
     "pdf-page-numbers": { "action": "numera PDF", "verb": "Numera las páginas de tu PDF" },
     "invoice-generator": { "action": "crea PDF", "verb": "Crea facturas y recibos detallados" },
-    "compress-image": { "action": "reduce tamaño", "verb": "Comprime imágenes y reduce su tamaño" },
+    "compress-image": { "action": "reduce tamaño", "verb": "Comprime imágenes y reduce su tamaño", "titleName": "Compresor de Imágenes" },
     "convert-image": { "action": "cambia formato", "verb": "Convierte imágenes entre JPG, PNG y WebP" },
     "resize-image": { "action": "recorta y escala", "verb": "Redimensiona y recorta imágenes a medida" },
     "image-to-base64": { "action": "data URI", "verb": "Codifica una imagen como data URI en Base64" },

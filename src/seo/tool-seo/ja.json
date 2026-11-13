@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "無料",
     "freeOnline": "無料オンライン",
     "conn": "：",
     "tail": "。100% ブラウザで完結、ログイン不要・ファイル送信なし。",
     "homeH1": "無料オンラインツールと高速ブラウザ便利ツール"
+  },
+  "cats": {
+    "pdf": "PDFツール・編集",
+    "image": "画像ツール・変換",
+    "audio": "音声ツール・編集",
+    "video": "動画ツール・変換",
+    "text": "テキストツール・生成",
+    "calc": "計算・変換ツール",
+    "all": "全ツール・ユーティリティ"
   },
   "tools": {
     "compress-pdf": { "verb": "PDFファイルの容量をブラウザで圧縮し、画質を保ったまま手軽に軽くできます" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "verb": "ウェブページやHTMLを整ったPDFに変換し、保存や印刷に使えます" },
     "pdf-page-numbers": { "verb": "PDFの各ページに番号を付け、開始数字や位置、書式を自由に設定できます" },
     "invoice-generator": { "verb": "明細を入力するだけで請求書や領収書を作成し、金額と税額を自動計算できます" },
-    "compress-image": { "verb": "画像の容量をオンラインで圧縮し、画質を保ちながらファイルを手軽に軽くできます" },
+    "compress-image": { "verb": "画像の容量をオンラインで圧縮し、画質を保ちながらファイルを手軽に軽くできます", "titleName": "画像圧縮ツール" },
     "convert-image": { "verb": "JPG・PNG・WebPの間で画像形式を変換し、用途に合わせて使い分けられます" },
     "resize-image": { "verb": "画像を指定サイズに拡大縮小や切り抜きし、用途に合う寸法へ手軽に調整できます" },
     "image-to-base64": { "verb": "画像をBase64データURI化し、HTMLやCSSに埋め込めます" },

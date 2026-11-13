@@ -1,11 +1,20 @@
 {
-  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). tools[id] = { action (2-3 word core action for the title; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise CJK title keyword) }. Composed by src/seo/compose.mjs and gated by scripts/check-tool-seo.mjs.",
+  "_note": "Per-locale tool SEO seed for ClearLight Tools. fixed = authoritative building blocks (do not edit). cats[cat] = the localized long-tail category seoName for the category/all <title> and H1 (modifier + secondary intent, not the short nav label). tools[id] = { action (2-3 word core action for the title, natural case for this locale; CJK may omit), verb (function phrase for the meta description, in this locale's script), titleName (optional concise noun-form title keyword in ANY locale; the H1/nav keep the display name) }. Composed by src/seo/compose.mjs (brand separator ' | ', CJK '｜'; non-CJK title <=65 cps, CJK <=30) and gated by scripts/check-tool-seo.mjs.",
   "fixed": {
     "free": "免费",
     "freeOnline": "免费在线",
     "conn": "：",
     "tail": "。100% 浏览器本地运行，免登录、不上传文件。",
     "homeH1": "免费在线工具与快速浏览器实用工具"
+  },
+  "cats": {
+    "pdf": "PDF工具与编辑器",
+    "image": "图片工具与转换器",
+    "audio": "音频工具与编辑器",
+    "video": "视频工具与转换器",
+    "text": "文本工具与生成器",
+    "calc": "计算器与换算工具",
+    "all": "全部工具与实用程序"
   },
   "tools": {
     "compress-pdf": { "verb": "无需安装软件，在线压缩 PDF 文件体积，智能减小大小并尽量保留画质，方便存储、上传与分享" },
@@ -19,7 +28,7 @@
     "html-to-pdf": { "verb": "将网页或 HTML 转换为排版整洁的 PDF，保留原有样式，方便离线保存与打印" },
     "pdf-page-numbers": { "verb": "为 PDF 文档逐页添加页码，自定义起始数字、位置与样式，让长文档装订、打印和查阅时条理更清晰" },
     "invoice-generator": { "verb": "在线填写明细快速生成规范发票与收据，自动计算金额与税额，导出 PDF 便于打印、寄送和对账存档" },
-    "compress-image": { "verb": "在线压缩图片文件体积，智能降低大小并尽量保留清晰画质，加快网页加载，方便存储、上传与分享" },
+    "compress-image": { "verb": "在线压缩图片文件体积，智能降低大小并尽量保留清晰画质，加快网页加载，方便存储、上传与分享", "titleName": "图片压缩器" },
     "convert-image": { "verb": "在 JPG、PNG 与 WebP 之间自由转换图片格式，兼顾画质与体积，满足不同平台上传和使用的要求" },
     "resize-image": { "verb": "按精确尺寸缩放并裁剪图片，自定义宽高与比例，快速适配头像、封面、证件照和各类平台的规格要求" },
     "image-to-base64": { "verb": "将图片编码为 Base64 数据 URI，直接嵌入网页或样式代码，方便前端开发" },
