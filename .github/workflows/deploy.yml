@@ -1,0 +1,44 @@
+name: Deploy to Cloudflare Pages
+
+# Push to main = build + deploy to production. Manual runs allowed via the Actions tab.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Least privilege: the job only needs to read the repo to check it out.
+permissions:
+  contents: read
+
+# One deploy at a time per branch; a newer push supersedes an in-flight run.
+concurrency:
+  group: pages-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
+
+      # Runs from the repo root, so wrangler auto-compiles functions/ (the /api/geo
+      # edge function) alongside the dist/ output — same as the local direct upload.
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=clearlighttools --branch=main
