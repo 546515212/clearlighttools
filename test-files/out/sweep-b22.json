@@ -1,0 +1,25 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:23:51.672Z",
+ "planned": [
+  "bmi-calculator"
+ ],
+ "rows": [
+  {
+   "tool": "bmi-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Your BMI23.5Healthy rangeunder < 18.5healthy 18.5–24.9over 25–29.9obese ≥ 30Healthy weight here53.5 kg – 72 kg",
+    "Your BMI23.5Healthy range",
+    "Healthy weight here53.5 kg – 72 kgyou are inside the range"
+   ],
+   "filled": [],
+   "throttleMs": 219,
+   "ms": 1212
+  }
+ ],
+ "finishedAt": "2026-11-07T12:23:52.887Z"
+}

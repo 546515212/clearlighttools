@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# build output (regenerate with: npm run build)
+dist/
+
+# wrangler local state / cache (may contain auth material)
+.wrangler/
+
+# logs / OS / editor noise
+*.log
+.DS_Store
+Thumbs.db

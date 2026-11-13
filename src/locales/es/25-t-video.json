@@ -1,0 +1,48 @@
+{
+  "t": {
+    "screen-recorder": {
+      "title": "Grabador de pantalla",
+      "h1": "Graba tu pantalla en línea gratis",
+      "desc": "Captura tu pantalla, una ventana o una pestaña, con audio del sistema opcional. Graba, detén, revisa y descarga un vídeo WebM sin instalar ni subir nada.",
+      "intro": "El grabador de pantalla usa la API de captura de pantalla del navegador para grabar toda la pantalla, una sola ventana o una pestaña, con audio cuando es compatible. El vídeo se monta localmente y se ofrece como descarga; nunca pasa por un servidor.",
+      "steps": [
+        "Pulsa «Grabar» y elige qué compartir (pantalla, ventana o pestaña).",
+        "Si quieres, incluye el audio en el selector para compartir.",
+        "Pulsa «Detener», o termina el uso compartido, al acabar.",
+        "Previsualiza el clip y descarga el WebM."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué navegadores admiten la grabación de pantalla?",
+          "a": "Chrome y Edge de escritorio tienen la captura de pantalla más fiable, y Firefox también la admite. Los navegadores móviles por lo general no, así que usa un navegador de escritorio."
+        },
+        {
+          "q": "¿Puede grabar el audio del sistema?",
+          "a": "Cuando compartes una pestaña o toda la pantalla, el selector ofrece una opción de audio. Que se incluya el audio del sistema depende del navegador y de lo que hayas compartido."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Grabadora de cámara web",
+      "h1": "Graba vídeo con tu cámara web en línea",
+      "desc": "Grábate con la cámara y el micrófono en tu navegador. Previsualiza la imagen en directo, pulsa grabar y descarga: gratis y sin programas.",
+      "intro": "La grabadora de cámara web muestra una vista previa en directo de tu cámara, la captura junto con el micrófono mediante MediaRecorder y guarda el clip localmente para previsualizarlo y descargarlo. El vídeo nunca sale de tu dispositivo a menos que lo descargues.",
+      "steps": [
+        "Pulsa «Grabar» y permite el acceso a la cámara y al micrófono.",
+        "Comprueba la vista previa en directo y encuádrate.",
+        "Pulsa «Detener» cuando termines.",
+        "Previsualiza la grabación y descárgala."
+      ],
+      "faq": [
+        {
+          "q": "¿Se sube el vídeo a algún sitio?",
+          "a": "No. Se graba y se guarda en tu navegador, y luego se ofrece como descarga local. No se envía nada a ningún servidor."
+        },
+        {
+          "q": "¿En qué formato está la grabación?",
+          "a": "Un vídeo WebM (VP8/VP9 con audio Opus) cuando el navegador lo admite, que se reproduce en los navegadores modernos y en la mayoría de editores. Algunos navegadores pueden generar MP4."
+        }
+      ]
+    }
+  }
+}

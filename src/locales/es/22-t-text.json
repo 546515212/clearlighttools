@@ -1,0 +1,351 @@
+{
+  "t": {
+    "word-counter": {
+      "desc": "Cuenta palabras, caracteres, espacios, frases, párrafos, tiempo de lectura y repeticiones de palabras clave. Útil para redacciones, tuits y textos de SEO.",
+      "intro": "El recuento es local e inmediato, y la lista de palabras clave te dice qué frases estás repitiendo de más.",
+      "steps": [
+        "Pega tu texto.",
+        "Lee los totales: palabras, caracteres con y sin espacios, frases, párrafos.",
+        "Consulta el tiempo de lectura y el de locución.",
+        "Revisa las palabras que más se repiten."
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo se calcula el tiempo de lectura?",
+          "a": "200 palabras por minuto para leer en silencio y 150 para locutar, las cifras editoriales de referencia."
+        },
+        {
+          "q": "¿Las palabras con guion cuentan una sola vez?",
+          "a": "Sí, cuentan como una palabra, igual que hacen los límites de la mayoría de centros escolares y de las publicaciones."
+        }
+      ]
+    },
+    "case-converter": {
+      "title": "Convertidor de mayúsculas",
+      "h1": "Pasa un texto a MAYÚSCULAS, a minúsculas o a Tipo Título",
+      "desc": "Convierte un bloque de texto a tipo título, a frase, a camelCase, snake_case, kebab-case o al caso inverso con un solo clic.",
+      "intro": "Las reglas tienen en cuenta el idioma: palabras pequeñas como of o the siguen en minúscula dentro de los títulos, y la salida snake o kebab es segura para nombres de archivo y para código.",
+      "steps": [
+        "Pega el texto.",
+        "Elige un caso.",
+        "Copia o descarga el resultado."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué el Tipo Título no queda perfecto en mis encabezados?",
+          "a": "Las siglas y las marcas son excepciones; edítalas sobre la salida o desactiva los títulos inteligentes."
+        },
+        {
+          "q": "¿Maneja los acentos?",
+          "a": "Sí, la conversión conoce Unicode, así que É, ß e ı conservan las reglas de su idioma en lo posible."
+        }
+      ]
+    },
+    "remove-duplicate-lines": {
+      "title": "Quitar líneas duplicadas",
+      "h1": "Limpia una lista: quita duplicados, ordena y recorta líneas",
+      "desc": "Borra las líneas repetidas de una lista, ignora mayúsculas y minúsculas, quita espacios sueltos, descarta las vacías y ordena de la A a la Z o por longitud.",
+      "intro": "Uso típico: pegar una lista de correos o de teléfonos desde una hoja de cálculo y quedarse con una sola columna limpia, lista para importar.",
+      "steps": [
+        "Pega la lista.",
+        "Marca las opciones de limpieza que necesites.",
+        "Mira cuántas líneas se han quitado.",
+        "Copia o descarga el resultado."
+      ],
+      "faq": [
+        {
+          "q": "¿Una línea con un espacio al final se trata como única?",
+          "a": "Solo cuando Quitar espacios está desactivado; actívalo para cazar las diferencias invisibles."
+        },
+        {
+          "q": "¿Puedo seguir viendo los duplicados?",
+          "a": "Sí, ejecuta Contar duplicados para ver primero cada línea con su número de apariciones."
+        }
+      ]
+    },
+    "lorem-ipsum-generator": {
+      "desc": "Genera exactamente la cantidad de texto de relleno que necesita tu maqueta: palabras, frases o párrafos, incluido el clásico arranque de Cicerón.",
+      "intro": "Útil para diseñadores que necesitan longitudes de línea realistas sin inventarse textos, y para desarrolladores que quieren llenar una tabla con datos creíbles.",
+      "steps": [
+        "Elige párrafos, frases o palabras.",
+        "Fija la cantidad.",
+        "Decide si quieres empezar con Lorem ipsum dolor sit amet.",
+        "Copia el texto."
+      ],
+      "faq": [
+        {
+          "q": "¿Para qué usar relleno en latín?",
+          "a": "Evita que los clientes lean las palabras y discutan sobre ellas, así que la conversación se queda en la maquetación."
+        },
+        {
+          "q": "¿Puedo obtener un inglés realista en su lugar?",
+          "a": "Marca la opción legible para usar relleno en inglés sencillo en las revisiones de accesibilidad."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "desc": "Codifica texto a Base64 o devuélvelo a texto, con alfabeto seguro para URL y errores inmediatos de carácter no válido.",
+      "intro": "Base64 es la forma en que tokens, cabeceras y recursos incrustados viajan a salvo por sistemas que solo aceptan caracteres normales.",
+      "steps": [
+        "Escribe o pega la entrada.",
+        "Elige Codificar o Decodificar.",
+        "Selecciona el alfabeto seguro para URL si el valor va en una cadena de consulta.",
+        "Copia el resultado."
+      ],
+      "faq": [
+        {
+          "q": "¿Base64 es cifrado?",
+          "a": "No. Es una codificación reversible y sin ninguna clave, así que no la uses nunca para proteger una contraseña."
+        },
+        {
+          "q": "¿Por qué falla la decodificación?",
+          "a": "Suele ser un carácter suelto o una longitud que no es múltiplo de cuatro; la herramienta señala la posición."
+        }
+      ]
+    },
+    "url-encode-decode": {
+      "title": "Codificar / decodificar URL",
+      "h1": "Escapa y desescapa componentes de una URL",
+      "desc": "Codifica por porcentajes un valor de consulta o una URL entera, o convierte una cadena escapada en texto legible, con la semántica de encodeURIComponent.",
+      "intro": "El ticket de soporte más frecuente — un enlace que se rompe por un espacio, un ampersand o una vocal acentuada — se resuelve aquí en un solo paso.",
+      "steps": [
+        "Pega el valor.",
+        "Elige el modo componente, ruta o URL completa.",
+        "Codifica o decodifica.",
+        "Copia el resultado ya seguro."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué diferencia hay entre encodeURI y encodeURIComponent?",
+          "a": "encodeURIComponent escapa también los caracteres que son legales dentro de la estructura de una URL, que es lo que quieres para un único valor de consulta."
+        },
+        {
+          "q": "¿Por qué un signo más no equivale a %20?",
+          "a": "Los formularios usan + para los espacios y las URL reales usan %20. La herramienta muestra ambas para que encajes con tu servidor."
+        }
+      ]
+    },
+    "html-entities": {
+      "title": "Escapar HTML",
+      "h1": "Escapa y desescapa entidades HTML",
+      "desc": "Convierte <, >, &, las comillas y las letras acentuadas en entidades seguras, o devuelve las entidades a caracteres para poder mostrarlas.",
+      "intro": "Úsalo cuando pegas código en un blog, cuando rellenas un campo de un CMS que se come tus etiquetas o cuando limpias una página recién extraída.",
+      "steps": [
+        "Pega tu marcado o tu texto.",
+        "Pulsa Escapar o Desescapar.",
+        "Copia el resultado."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué mi CMS sigue borrando etiquetas?",
+          "a": "Su editor las interpreta como HTML. Escapa primero el bloque y llegará intacto."
+        },
+        {
+          "q": "¿Convierte las entidades numéricas?",
+          "a": "Sí, reconoce tanto las formas con nombre como las numéricas decimales o hexadecimales."
+        }
+      ]
+    },
+    "reverse-text": {
+      "title": "Texto invertido",
+      "h1": "Invierte un texto, ponlo boca abajo o haz su espejo",
+      "desc": "Escribe una cadena de atrás hacia adelante, genera Unicode boca abajo para publicaciones sociales o invierte el orden de las palabras sin mezclar cada una.",
+      "intro": "Muy popular en biografías y pegatinas, y de verdad útil cuando necesitas un espejo visual rápido de una etiqueta.",
+      "steps": [
+        "Escribe el texto.",
+        "Elige hacia atrás, boca abajo u orden de palabras.",
+        "Copia la salida."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué algunas letras no se giran?",
+          "a": "Unos pocos glifos no tienen pareja espejo en Unicode; se dejan tal cual para que el texto siga siendo legible."
+        },
+        {
+          "q": "¿Conserva los emojis?",
+          "a": "Las secuencias de emojis compuestos se mantienen juntas en lugar de romperse en banderas sueltas."
+        }
+      ]
+    },
+    "json-formatter": {
+      "desc": "Da formato a un JSON desordenado, señala la línea exacta del error de sintaxis, ordena claves, minifica y pliega o despliega nodos en la vista de árbol.",
+      "intro": "Los desarrolladores pegan aquí la respuesta de una API para leerla; el mensaje de error apunta al carácter problemático en vez de decir simplemente Invalid JSON.",
+      "steps": [
+        "Pega el JSON.",
+        "Pulsa Formato y ajusta la sangría si necesitas 2 o 4 espacios.",
+        "Corrige el error que se reporte y vuelve a lanzarlo.",
+        "Usa Minificar cuando el archivo tenga que salir a producción."
+      ],
+      "faq": [
+        {
+          "q": "¿Acepta JSON Lines?",
+          "a": "Sí, detecta un objeto por línea y lo formatea como secuencia."
+        },
+        {
+          "q": "¿Por qué mis números grandes salen redondeados?",
+          "a": "JavaScript no los sostiene como enteros; la herramienta los conserva como texto cuando la opción de números grandes está activada."
+        }
+      ]
+    },
+    "csv-to-json": {
+      "desc": "Sube o pega una hoja de cálculo y obtén un array de objetos, con campos entre comillas, separadores de miles y celdas vacías bien tratados.",
+      "intro": "Se emplea un analizador RFC-4180 de verdad, así que las comas dentro de comillas y los saltos de línea incrustados no desplazan las columnas.",
+      "steps": [
+        "Pega texto CSV o suelta un archivo .csv.",
+        "Indica el delimitador y si la primera fila son cabeceras.",
+        "Pulsa Convertir.",
+        "Descarga el .json o cópialo."
+      ],
+      "faq": [
+        {
+          "q": "¿Los números se convierten en números?",
+          "a": "Sí, y las fechas ISO siguen siendo texto. Desactiva la inferencia de tipos para que todo quede como texto."
+        },
+        {
+          "q": "¿Puedo hacer el proceso inverso?",
+          "a": "Usa la acción de descargar como CSV del Formateador JSON, para un array plano de objetos."
+        }
+      ]
+    },
+    "markdown-to-html": {
+      "desc": "Pega Markdown y copia fuera el HTML ya renderizado, con tablas, código cercado, enlaces tipo nota al pie y el sabor de GitHub opcional.",
+      "intro": "El mismo renderizador mueve la documentación del propio sitio, así que lo que ves en la vista previa es lo que copias.",
+      "steps": [
+        "Escribe o pega Markdown.",
+        "Observa los paneles de HTML y de vista previa en directo.",
+        "Copia el HTML o descarga el archivo."
+      ],
+      "faq": [
+        {
+          "q": "¿Sanea la salida?",
+          "a": "El HTML en crudo pasa tal cual, porque eso es Markdown válido; añade un saneador antes de mostrar entrada que no controles."
+        },
+        {
+          "q": "¿Puedo recuperar Markdown a partir de HTML?",
+          "a": "No con esta herramienta; es deliberadamente unidireccional para que la vista previa siga siendo rápida."
+        }
+      ]
+    },
+    "hash-generator": {
+      "desc": "Obtén el resumen de cualquier texto, o la suma de verificación de un archivo para comprobar una descarga, en el algoritmo que espera tu sistema.",
+      "intro": "Los hash fuertes salen del motor criptográfico del navegador; MD5 está implementado en local solo por compatibilidad con sistemas antiguos.",
+      "steps": [
+        "Escribe el texto, o carga un archivo.",
+        "Elige uno o varios algoritmos.",
+        "Copia los resúmenes.",
+        "Compáralos con la suma de verificación publicada."
+      ],
+      "faq": [
+        {
+          "q": "¿MD5 es seguro?",
+          "a": "No: provocar colisiones es factible. Úsalo solo como huella heredada, nunca para seguridad."
+        },
+        {
+          "q": "¿Puedo calcular el hash de una contraseña?",
+          "a": "No deberías. Las contraseñas necesitan una función lenta y con sal, como bcrypt o Argon2, y una herramienta del navegador no debe ejecutarla por ti."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "desc": "Crea tantos identificadores de versión 4 como necesites, con el formato que espera tu herramienta: con guiones, entre llaves, en mayúsculas o tal cual.",
+      "intro": "Los valores salen de la fuente aleatoria criptográfica del navegador, así que sirven para claves, sesiones y datos de prueba.",
+      "steps": [
+        "Di cuántos UUID quieres.",
+        "Elige el formato.",
+        "Copia la lista o descárgala."
+      ],
+      "faq": [
+        {
+          "q": "¿Son de verdad únicos?",
+          "a": "La versión 4 usa 122 bits aleatorios; una colisión es astronómicamente improbable salvo que generes miles de millones."
+        },
+        {
+          "q": "¿Qué es la versión 7?",
+          "a": "Un UUID ordenado por el tiempo que mantiene las inserciones en secuencia dentro de un índice de base de datos, útil en tablas grandes."
+        }
+      ]
+    },
+    "password-generator": {
+      "desc": "Crea una contraseña memorable o difícil de adivinar con la longitud y los símbolos que admitas, consulta su fuerza y cópiala sin tocar un servidor.",
+      "intro": "Las propuestas se sacan de la fuente aleatoria del navegador dentro de la propia página, así que no se transmite ni se registra nada.",
+      "steps": [
+        "Fija la longitud; 16 caracteres o más es el consejo actual.",
+        "Elige los juegos de caracteres que necesites.",
+        "Pulsa Generar.",
+        "Cópiala en tu gestor de contraseñas."
+      ],
+      "faq": [
+        {
+          "q": "¿Un generador en línea es seguro?",
+          "a": "Este funciona por completo dentro de la página y no envía nada a ningún sitio, algo que puedes comprobar en la pestaña de red."
+        },
+        {
+          "q": "¿No debería usar mejor un gestor de contraseñas?",
+          "a": "Sí. Genera aquí, guárdalo allí y no repitas nunca una contraseña entre sitios."
+        }
+      ]
+    },
+    "regex-tester": {
+      "desc": "Prueba un patrón contra un texto con resaltado en directo, detalle de grupos capturados, banderas y la expresión explicada en lenguaje claro.",
+      "intro": "Escribe el patrón una sola vez en lugar de adivinar: cada coincidencia queda resaltada y cada grupo se lista con su posición.",
+      "steps": [
+        "Introduce el patrón y las banderas.",
+        "Pega la cadena de prueba.",
+        "Lee las coincidencias y los grupos resaltados.",
+        "Abre la explicación para el desglose token a token."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué mi patrón funciona en otro sitio pero aquí no?",
+          "a": "JavaScript no tuvo look-behind en los motores antiguos y no admite la sintaxis de conjuntos con nombre; el probador avisa de esa diferencia de motor."
+        },
+        {
+          "q": "¿Protege contra la backtrack catastrófica?",
+          "a": "A los patrones que explotan se les corta el tiempo con un aviso claro, en lugar de congelar la pestaña."
+        }
+      ]
+    },
+    "diff-checker": {
+      "desc": "Compara línea a línea dos versiones de un archivo, contrato o artículo, con adiciones y borrados por color y un resumen listo para copiar.",
+      "intro": "Viene muy bien antes de devolverle un documento a un compañero: enseña exactamente qué frases se han movido.",
+      "steps": [
+        "Pega el original a la izquierda y la versión modificada a la derecha.",
+        "Ignora mayúsculas o espacios si el ruido del formato te molesta.",
+        "Lee la comparación con colores.",
+        "Copia solo las líneas modificadas si las necesitas."
+      ],
+      "faq": [
+        {
+          "q": "¿Cuánto pueden pesar los archivos?",
+          "a": "Unos pocos miles de líneas van cómodos; más allá, a un navegador le viene mejor una herramienta de comparación específica."
+        },
+        {
+          "q": "¿Detecta cambios a nivel de palabra?",
+          "a": "Sí, cuando una línea difiere la herramienta recurre a comparar palabras dentro de esa misma línea."
+        }
+      ]
+    },
+    "text-to-speech": {
+      "title": "Texto a voz",
+      "h1": "Lee un texto en voz alta con una voz natural del navegador",
+      "desc": "Convierte cualquier párrafo en voz, elige una voz y un idioma, ajusta la velocidad y el tono y revisa un guion escuchándolo.",
+      "intro": "Las voces son las que tu sistema operativo ya tiene instaladas: sin cuenta, sin descargas, y en la mayoría de dispositivos funciona sin red.",
+      "steps": [
+        "Pega el texto.",
+        "Elige una voz; la lista refleja la de tu sistema.",
+        "Ajusta la velocidad y el tono.",
+        "Pulsa Reproducir."
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo descargar el audio?",
+          "a": "No de forma directa; la API del navegador lo emite como flujo de audio. Usa la grabadora de tu sistema si necesitas un archivo."
+        },
+        {
+          "q": "¿Por qué hay tan pocas voces?",
+          "a": "El número depende del sistema operativo y de los paquetes de idioma instalados. Windows y macOS dejan añadir más."
+        }
+      ]
+    }
+  }
+}

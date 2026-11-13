@@ -1,0 +1,73 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T11:29:59.109Z",
+ "planned": [
+  "color-converter",
+  "calorie-calculator",
+  "timestamp-converter",
+  "random-number-generator"
+ ],
+ "rows": [
+  {
+   "tool": "color-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "#3366FF"
+   ],
+   "filled": [],
+   "throttleMs": 782,
+   "ms": 1772
+  },
+  {
+   "tool": "calorie-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Maintenance1,869 kcalBMR 1,359 kcal × 1.375 activityDaily target1,869 kcalweight stays where it isProtein99 kc",
+    "Maintenance1,869 kcalBMR 1,359 kcal × 1.375 activity",
+    "Daily target1,869 kcalweight stays where it isProtein99 kcal1.6 g/kg → 99 gFat502 kcal0.9 g/kg → 56 gCarbohydr"
+   ],
+   "filled": [],
+   "throttleMs": 782,
+   "ms": 1000
+  },
+  {
+   "tool": "timestamp-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "That moment isNovember 7, 2026read as seconds (10 digits)LocalSaturday, November 7, 2026 at 7:30:01 PM GMT+8co",
+    "That moment isNovember 7, 2026read as seconds (10 digits)",
+    "LocalSaturday, November 7, 2026 at 7:30:01 PM GMT+8copyISO 86012026-11-07T11:30:01.000ZcopyUTCSat, 07 Nov 2026"
+   ],
+   "filled": [],
+   "throttleMs": 782,
+   "ms": 999
+  },
+  {
+   "tool": "random-number-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Drawn10repeats allowedRange1 – 1000 decimal placesSum478Average47.8expected around 50.5Lowest / highest14 / 10",
+    "Drawn10repeats allowed",
+    "Range1 – 1000 decimal placesSum478Average47.8expected around 50.5Lowest / highest14 / 100"
+   ],
+   "filled": [],
+   "throttleMs": 782,
+   "ms": 1004
+  }
+ ],
+ "finishedAt": "2026-11-07T11:30:03.888Z"
+}

@@ -1,0 +1,48 @@
+{
+  "t": {
+    "screen-recorder": {
+      "title": "Gravador de Tela",
+      "h1": "Grave sua tela online grátis",
+      "desc": "Capture sua tela, uma janela ou uma aba com áudio do sistema opcional. Grave, pare, veja a prévia e baixe um vídeo WebM — sem instalação, sem upload.",
+      "intro": "O gravador de tela usa a API de captura de tela do navegador para gravar a tela inteira, uma única janela ou uma aba, com áudio quando houver suporte. O vídeo é montado localmente e oferecido como download; ele nunca passa por um servidor.",
+      "steps": [
+        "Pressione Gravar e escolha o que compartilhar (tela, janela ou aba).",
+        "Se quiser, inclua o áudio no seletor de compartilhamento.",
+        "Pressione Parar, ou encerre o compartilhamento, ao terminar.",
+        "Veja a prévia do clipe e baixe o WebM."
+      ],
+      "faq": [
+        {
+          "q": "Quais navegadores oferecem suporte à gravação de tela?",
+          "a": "Chrome e Edge no computador têm a captura de tela mais confiável, e o Firefox também oferece suporte. Navegadores móveis geralmente não, então use um navegador de computador."
+        },
+        {
+          "q": "Ele pode gravar o áudio do sistema?",
+          "a": "Ao compartilhar uma aba ou a tela inteira, o seletor oferece uma opção de áudio. A inclusão do áudio do sistema depende do navegador e do que você compartilhou."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Gravador de Webcam",
+      "h1": "Grave vídeo da sua webcam online",
+      "desc": "Grave a si mesmo com a câmera e o microfone no navegador. Veja a prévia ao vivo, pressione gravar e baixe — grátis, sem software.",
+      "intro": "O gravador de webcam mostra uma prévia ao vivo da sua câmera, captura a imagem junto com o microfone por meio do MediaRecorder e salva o clipe localmente para prévia e download. O vídeo nunca sai do seu dispositivo, a menos que você o baixe.",
+      "steps": [
+        "Pressione Gravar e permita o acesso à câmera e ao microfone.",
+        "Confira a prévia ao vivo e enquadre-se.",
+        "Pressione Parar quando terminar.",
+        "Veja a prévia da gravação e baixe-a."
+      ],
+      "faq": [
+        {
+          "q": "O vídeo é enviado para algum lugar?",
+          "a": "Não. Ele é gravado e mantido no seu navegador, depois oferecido como download local. Nada é enviado a um servidor."
+        },
+        {
+          "q": "Qual é o formato da gravação?",
+          "a": "Um vídeo WebM (VP8/VP9 com áudio Opus) quando o navegador oferece suporte, que roda em navegadores modernos e na maioria dos editores. Alguns navegadores podem gerar MP4."
+        }
+      ]
+    }
+  }
+}

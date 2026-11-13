@@ -1,0 +1,184 @@
+{
+  "t": {
+    "compress-pdf": {
+      "desc": "Comprime un PDF en tu navegador: quita el peso incrustado, remuestrea las imágenes y deja el texto seleccionable. Sin subidas, sin marcas de agua ni registro.",
+      "intro": "Comprimir PDF funciona por completo en tu propio equipo. Lee el archivo, reescribe las referencias duplicadas de fuentes y objetos, reduce opcionalmente las imágenes grandes y te devuelve el PDF más pequeño como una descarga del navegador.",
+      "steps": [
+        "Suelta uno o varios archivos PDF en el panel, o haz clic para elegirlos.",
+        "Elige un nivel: Máxima calidad lo conserva todo, Recomendado equilibra el tamaño y Archivo más pequeño remuestrea las imágenes con más fuerza.",
+        "Pulsa Comprimir y observa las cifras de antes y después de cada archivo.",
+        "Descarga el resultado, o baja todos de golpe en un solo zip."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué un PDF escaneado apenas se reduce?",
+          "a": "Una página escaneada es en realidad una fotografía. El ahorro viene de recodificar esas imágenes de página, así que usa el nivel Archivo más pequeño o convierte antes las páginas a JPEG."
+        },
+        {
+          "q": "¿Elimina páginas o texto?",
+          "a": "No. El número de páginas, la capa de texto y los enlaces siguen intactos; solo se recodifican los objetos redundantes y las imágenes sobredimensionadas."
+        }
+      ]
+    },
+    "merge-pdf": {
+      "desc": "Combina varios PDF en el orden que tú elijas, con miniaturas de página que puedes arrastrar antes de unirlas. Funciona en local, en tu navegador y gratis.",
+      "intro": "Unir PDF copia los objetos de página de cada archivo dentro de un solo documento sin rasterizarlos, así que el texto sigue siendo seleccionable y buscable después de la unión.",
+      "steps": [
+        "Añade todos los PDF que quieras unir.",
+        "Arrastra las miniaturas para fijar el orden, o quita un archivo que hayas añadido por error.",
+        "Pulsa Combinar.",
+        "Descarga el PDF ya combinado."
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo combinar páginas de solo una parte de un archivo?",
+          "a": "Sí, usa primero Dividir PDF para aislar el rango y después combina las partes que necesites."
+        },
+        {
+          "q": "¿Hay límite en el número de archivos?",
+          "a": "Solo la memoria de tu dispositivo. En la práctica, varios cientos de páginas se combinan sin agobios en un móvil."
+        }
+      ]
+    },
+    "split-pdf": {
+      "desc": "Saca un rango de páginas de un PDF, convierte cada página en un archivo aparte o parte un documento largo en bloques. Todo ocurre en tu propio equipo.",
+      "intro": "Dividir PDF reconstruye un archivo nuevo a partir de las páginas que conservas. Como copia los objetos de página en lugar de imprimirlos, la calidad es idéntica a la del original.",
+      "steps": [
+        "Abre tu PDF en el panel.",
+        "Elige Extraer un rango, Guardar cada página en un archivo aparte o Dividir en bloques.",
+        "Escribe el rango, por ejemplo 3-8 o 1,4,9-12.",
+        "Pulsa Dividir y descarga el resultado."
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo más bien borrar páginas?",
+          "a": "Sí. Selecciona todas las páginas que quieras conservar, o escribe en la caja complementaria el rango que quieras quitar, y la herramienta genera el archivo sin ellas."
+        },
+        {
+          "q": "¿Al dividir se conservan los marcadores?",
+          "a": "Los marcadores que apuntan a páginas eliminadas se descartan; el contenido de las páginas, los enlaces y las capas de texto se conservan."
+        }
+      ]
+    },
+    "rotate-pdf": {
+      "desc": "Gira todas las páginas, o solo las que selecciones, 90, 180 o 270 grados. Gratis, al momento, y el archivo nunca sale de tu equipo.",
+      "intro": "Las páginas se reorientan en el sitio; no hay recodificación, así que un giro no cuesta nada de calidad y tarda un segundo incluso con un archivo grande.",
+      "steps": [
+        "Suelta el PDF.",
+        "Elige 90° a la derecha, 180° o 90° a la izquierda.",
+        "Si quieres, limita el cambio a un rango de páginas.",
+        "Pulsa Aplicar y descarga."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué mis páginas apaisadas se ven mal después de escanear?",
+          "a": "Muchos escáneres guardan la imagen girada con una bandera de página. Rota el rango concreto en lugar de todo el documento."
+        },
+        {
+          "q": "¿Puedo girar páginas sueltas de forma distinta?",
+          "a": "Sí, ejecuta la herramienta una vez por rango; cada pasada deja el resto tal como estaba."
+        }
+      ]
+    },
+    "watermark-pdf": {
+      "desc": "Sella BORRADOR, CONFIDENCIAL, una fecha o el nombre de tu empresa sobre todas las páginas, con control del tamaño, el color, la opacidad y el ángulo.",
+      "intro": "La marca de agua se dibuja como texto vectorial de verdad en cada página, así que escala con nitidez al imprimir y nadie la desplaza arrastrando una capa de imagen.",
+      "steps": [
+        "Carga el PDF que quieras sellar.",
+        "Escribe el texto y elige color, opacidad y rotación.",
+        "Decide si va detrás del contenido o por encima.",
+        "Pulsa Añadir marca de agua y luego descarga."
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo marcar solo algunas páginas?",
+          "a": "Sí, restringe el sello a un rango de páginas como 1 o 2-5."
+        },
+        {
+          "q": "¿El texto será seleccionable?",
+          "a": "Se inserta como texto, así que aparece en los resultados de búsqueda del archivo terminado."
+        }
+      ]
+    },
+    "pdf-to-jpg": {
+      "desc": "Convierte cada página de un PDF a JPG o PNG a la resolución que elijas, previsualízalas en pantalla y descarga una página suelta o todo el conjunto en un zip.",
+      "intro": "El renderizado usa el mismo motor que muestra los PDF en tu navegador, así que las fuentes y la maquetación coinciden exactamente con el original. No se sube nada a ningún servidor.",
+      "steps": [
+        "Suelta el archivo PDF.",
+        "Ajusta el formato de salida y el multiplicador de resolución.",
+        "Revisa las páginas ya renderizadas.",
+        "Descarga una sola imagen o el zip completo."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué calidad elijo para imprimir?",
+          "a": "Usa PNG a 2x para documentos de texto y JPG a 2x para páginas con fotos; 3x ronda los 300 dpi en un A4."
+        },
+        {
+          "q": "¿Puedo obtener solo una página?",
+          "a": "Sí, renderiza el rango que necesites en lugar de todo el documento."
+        }
+      ]
+    },
+    "pdf-to-text": {
+      "desc": "Saca el texto legible de un PDF, conserva el diseño en líneas o párrafos, cópialo al portapapeles o guárdalo como archivo .txt. Todo en tu navegador.",
+      "intro": "El texto procede de la propia capa de texto del PDF, así que la extracción es precisa en documentos e informes. Las páginas escaneadas no tienen capa de texto y necesitan OCR.",
+      "steps": [
+        "Añade tu PDF.",
+        "Elige Conservar el diseño o Texto plano.",
+        "Pulsa Extraer texto.",
+        "Copia el resultado o descárgalo como archivo de texto."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué he obtenido un resultado vacío?",
+          "a": "Seguramente el archivo es un escaneo de papel. El OCR es una tecnología que corre en el servidor; la solución de emergencia es pasar las páginas por una app de OCR en la que confíes."
+        },
+        {
+          "q": "¿Conserva las tablas?",
+          "a": "Las columnas se mantienen con espaciado cuando eliges Conservar el diseño, aunque las tablas complejas van mejor convirtiéndolas a imágenes."
+        }
+      ]
+    },
+    "images-to-pdf": {
+      "desc": "Une fotos en JPG, PNG, WebP o GIF dentro de un solo PDF, en el orden que quieras y con el tamaño de página, el margen y la orientación que tú decidas.",
+      "intro": "Viene muy bien con una pila de escaneos hechos desde el móvil: sueltas las fotos, las ordenas y obtienes un documento que se envía por correo sin problemas y se imprime bien.",
+      "steps": [
+        "Selecciona las fotos.",
+        "Arrastra para reordenar y elimina lo que hayas fotografiado dos veces.",
+        "Elige el tamaño de página y los márgenes.",
+        "Pulsa Crear PDF y descarga."
+      ],
+      "faq": [
+        {
+          "q": "¿Ajusta las fotos a la página?",
+          "a": "Sí, cada imagen se escala dentro de la zona imprimible sin recortes, salvo que elijas Llenar la página."
+        },
+        {
+          "q": "¿Puedo añadir un pie de foto?",
+          "a": "Usa después la herramienta Marca de agua en PDF para sellar un título o una fecha en cada página."
+        }
+      ]
+    },
+    "html-to-pdf": {
+      "desc": "Pega HTML, elige el tamaño de papel y los márgenes y manda a imprimir el resultado renderizado a PDF directamente desde tu navegador. Gratis y privado.",
+      "intro": "Esta herramienta construye una vista de impresión limpia a partir de tu marcado y se la entrega al propio generador de PDF del navegador, que entiende CSS, imágenes y saltos de página.",
+      "steps": [
+        "Pega tu HTML o carga un archivo .html.",
+        "Ajusta el papel, la orientación y los márgenes.",
+        "Abre el diálogo de impresión.",
+        "Elige «Guardar como PDF» como destino."
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo convertir una URL en directo?",
+          "a": "Los navegadores impiden leer el marcado de otros sitios desde una página, así que pega el HTML o usa la función Imprimir como PDF que tu navegador ya trae en esa página."
+        },
+        {
+          "q": "¿Se incluyen las imágenes externas?",
+          "a": "Solo cuando el navegador consigue cargarlas; las URI de datos en línea funcionan siempre."
+        }
+      ]
+    }
+  }
+}

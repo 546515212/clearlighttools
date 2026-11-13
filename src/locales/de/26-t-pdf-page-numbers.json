@@ -1,0 +1,26 @@
+{
+  "t": {
+    "pdf-page-numbers": {
+      "title": "PDF-Seitenzahlen",
+      "h1": "PDF online mit Seitenzahlen versehen",
+      "desc": "Füge Seitenzahlen oben oder unten in ein PDF ein – links, mittig oder rechts. Lege Startnummer, Schriftgröße und Präfix fest. Kostenlos, ohne Upload.",
+      "intro": "Dieses Tool stempelt mit pdf-lib auf jede Seite deines PDF eine echte Text-Seitenzahl, sodass die Zahlen bei jedem Zoom gestochen scharf bleiben und sich auswählen lassen. Platziere sie in Kopf- oder Fußzeile, überspringe das Deckblatt und füge optional ein Präfix hinzu.",
+      "steps": [
+        "Lade das PDF, das du nummerieren möchtest.",
+        "Wähle Position, Ausrichtung und Startnummer.",
+        "Lege Schriftgröße und optional ein Präfix fest; überspringe bei Bedarf das Deckblatt.",
+        "Klicke auf „Seitenzahlen hinzufügen“ und lade herunter."
+      ],
+      "faq": [
+        {
+          "q": "Kann ich bei einer bestimmten Seite oder Nummer beginnen?",
+          "a": "Ja. Lege die Startnummer fest und nummeriere über den Seitenbereich nur bestimmte Seiten, oder setze ein Häkchen bei „Erste Seite überspringen“, um das Deckblatt ohne Nummer zu lassen."
+        },
+        {
+          "q": "Werden die Zahlen als Text oder als Bild eingefügt?",
+          "a": "Als echter Vektortext, sodass sie im Druck sauber skalieren und sich im fertigen PDF auswählen und durchsuchen lassen."
+        }
+      ]
+    }
+  }
+}

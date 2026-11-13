@@ -1,0 +1,26 @@
+{
+  "t": {
+    "pdf-page-numbers": {
+      "title": "Nombor Halaman PDF",
+      "h1": "Tambah nombor halaman pada PDF dalam talian",
+      "desc": "Sisipkan nombor halaman ke dalam PDF di atas atau bawah, kiri, tengah atau kanan. Tetapkan nombor mula, saiz fon dan awalan. Percuma, tanpa muat naik.",
+      "intro": "Alat ini mengecap nombor halaman teks sebenar pada setiap halaman PDF anda dengan pdf-lib, jadi nombor kekal tajam pada sebarang zum dan boleh dipilih. Letakkannya di pengepala atau pengaki, langkau halaman kulit, dan tambah awalan pilihan.",
+      "steps": [
+        "Muatkan PDF yang anda mahu nomborkan.",
+        "Pilih kedudukan, jajaran dan nombor permulaan.",
+        "Tetapkan saiz fon dan awalan pilihan; langkau kulit jika perlu.",
+        "Tekan Tambah nombor halaman dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya mula dari halaman atau nombor tertentu?",
+          "a": "Ya. Tetapkan nombor permulaan dan gunakan julat halaman untuk menomborkan halaman tertentu sahaja, atau tandakan “langkau halaman pertama” supaya kulit tidak bernombor."
+        },
+        {
+          "q": "Adakah nombor ditambah sebagai teks atau imej?",
+          "a": "Sebagai teks vektor sebenar, jadi nombor itu berskala dengan kemas dalam cetakan dan boleh dipilih serta dicari dalam PDF yang siap."
+        }
+      ]
+    }
+  }
+}

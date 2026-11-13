@@ -1,0 +1,57 @@
+
+i18n-wrap dry run — 29 new dictionary key(s)
+
+pdf.js  (2 edit(s))
+  ui2150Dpi4300                field() arg 3      "2× ≈ 150 dpi, 4× ≈ 300 dpi"
+  htmlMarkup                   field() arg 3      "HTML markup"
+
+image.js  (6 edit(s))
+  ui01Modules2Px               note() arg 1       "{0}×{1} modules · {2}px · payload {3}"
+  kb0Off                       field() arg 3      "KB, 0 = off"
+  jpgWebp                      field() arg 3      "JPG / WebP"
+  lowerSmaller                 field() arg 3      "lower = smaller"
+  gif256Colours                select() options   "GIF (256 colours)"
+  wpaWpa2                      select() options   "WPA / WPA2"
+
+text.js  (8 edit(s))
+  showing8Of0Rows              note() arg 1       "Showing 8 of {0} rows."
+  showing60Of0                 note() arg 1       "Showing 60 of {0}."
+  nameCityAgeAdaLondon         area() arg 1       "name,city,age\nAda,London,36\nGrace,New York,45"
+  noRepeats                    stat() arg 3       "no repeats"
+  ui0Added1Removed             stat() arg 3       "{0} added · {1} removed"
+  everyWordHere                select() options   "Every Word Here"
+  inverse                      select() options   "iNVERSE cASE"
+  base64Text                   select() options   "base64 → text"
+
+calc.js  (13 edit(s))
+  enterAPrice                  note() arg 1       "Enter a price."
+  enterANumber                 note() arg 1       "Enter a number."
+  ui0IfUnsure                  field() arg 3      "0 if unsure"
+  hexRgbOrHsl                  field() arg 3      "hex, rgb() or hsl()"
+  upTo10000                    field() arg 3      "up to 10000"
+  plainDays                    stat() arg 3       "plain days"
+  standard01Extra              stat() arg 3       "standard {0} + {1} extra"
+  including0Tax                stat() arg 3       "including {0}% tax"
+  bmr0Kcal1Activity            stat() arg 3       "BMR {0} kcal × {1} activity"
+  exactlyNow                   stat() arg 1       "Exactly now"
+  light13SessionsA             select() options   "Light — 1–3 sessions a week"
+  moderate35Sessions           select() options   "Moderate — 3–5 sessions"
+  diceLotteryCoin              select() options   "dice, lottery, coin…"
+
+MANUAL — 7 site(s) the codemod refused to rewrite:
+  image.js@24025  note() arg 1: interpolation holds a plain literal (a data value or a sentence) — wrap it by hand
+      "`${mode === 'wifi' ? 'Wi-Fi' : 'Text'} payload: ${data.length > 90 ? data.slice(0, 90) + '"
+  text.js@25203  note() arg 1: interpolation holds a plain literal (a data value or a sentence) — wrap it by hand
+      "`Not valid JSON${line ? ` around line ${line}` : ''}: ${e.message}`"
+  text.js@53572  note() arg 1: interpolation holds a plain literal (a data value or a sentence) — wrap it by hand
+      "`Playback failed: ${e.error || e.message || 'unknown'}.`"
+  text.js@25403  text: attribute: interpolation holds a plain literal (a data value or a sentence) — wrap it by hand
+      "`${line}: ${lines[line - 1] || ''}\\n${' '.repeat(Math.max(0, pos - (lines.slice(0, line - "
+  text.js@47880  text: attribute: interpolation holds a plain literal (a data value or a sentence) — wrap it by hand
+      "`groups: ${x.groups.map(g => g === undefined ? '∅' : JSON.stringify(g)).join(', ')}`"
+  calc.js@38231  stat() arg 3: interpolation holds a plain literal (a data value or a sentence) — wrap it by hand
+      "`${shift > 0 ? '+' : '−'}${Math.round(Math.abs(shift) * 100)}% versus maintenance (${int(M"
+  calc.js@46795  stat() arg 3: interpolation holds a plain literal (a data value or a sentence) — wrap it by hand
+      "`${dp} decimal place${dp === 1 ? '' : 's'}`"
+
+nothing written — re-run with --apply

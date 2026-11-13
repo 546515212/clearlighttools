@@ -1,0 +1,180 @@
+{
+  "t": {
+    "audio-joiner": {
+      "title": "Unidor de audio",
+      "h1": "Une archivos de audio y fusiona MP3 en línea",
+      "desc": "Combina archivos MP3, WAV, M4A y OGG en una sola pista en el orden que elijas. Gratis, sin subir nada ni marca de agua: une audio en tu navegador.",
+      "intro": "Añade dos o más clips, arrástralos hasta ponerlos en el orden correcto y el unidor decodifica cada archivo, iguala la frecuencia de muestreo y los canales, y los concatena en un único MP3 o WAV. Todo se ejecuta localmente, así que las grabaciones privadas nunca salen de tu dispositivo.",
+      "steps": [
+        "Añade los archivos de audio que quieras combinar.",
+        "Arrastra o usa las flechas para fijar el orden de reproducción.",
+        "Elige MP3 o WAV y una tasa de bits.",
+        "Pulsa «Unir» y descarga la pista única."
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo unir archivos de formatos distintos?",
+          "a": "Sí. Cada archivo se decodifica a muestras sin procesar y luego se remuestrea a una frecuencia y un número de canales comunes antes de concatenarlos, así que se pueden mezclar MP3, WAV, M4A y OGG."
+        },
+        {
+          "q": "¿Hay un límite de archivos que puedo fusionar?",
+          "a": "No hay un límite fijo, pero el audio largo se mantiene en memoria mientras se decodifica y codifica, así que mantén un total razonable en dispositivos con poca memoria."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Conversor de audio",
+      "h1": "Convierte audio a MP3, WAV y más en línea",
+      "desc": "Convierte WAV a MP3, M4A, OGG y otros formatos de audio en tu navegador. Elige frecuencia de muestreo y tasa de bits, y descarga sin subir nada ni registrarte.",
+      "intro": "El conversor decodifica tu archivo con el motor de audio del navegador, lo remuestrea a la frecuencia que elijas y lo vuelve a codificar como MP3 (pequeño y universal) o WAV (sin pérdida). Como todo ocurre en tu equipo, el original nunca sale de tu dispositivo.",
+      "steps": [
+        "Carga el archivo de audio que quieras convertir.",
+        "Elige la frecuencia de muestreo de salida.",
+        "Elige MP3 o WAV y, para MP3, una tasa de bits.",
+        "Pulsa «Convertir» y descarga el nuevo archivo."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué formatos de entrada puede leer?",
+          "a": "Cualquiera que tu navegador pueda decodificar: normalmente MP3, WAV, OGG, M4A/AAC y FLAC. Algunos códecs poco comunes o protegidos con DRM son rechazados por el propio navegador."
+        },
+        {
+          "q": "¿Por qué mi MP3 es más pequeño que el WAV?",
+          "a": "MP3 es compresión con pérdida; WAV guarda cada muestra sin comprimir. Para voz y para compartir, un MP3 a 128–192 kbps suele ser suficiente; elige WAV para un máster sin pérdida."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Amplificador de volumen",
+      "h1": "Cambia el volumen del audio: súbelo o bájalo en línea",
+      "desc": "Sube o baja el volumen de un archivo MP3, WAV o M4A. Ajusta el nivel de 0 a 400%, escucha y descarga. Gratis y totalmente en el navegador.",
+      "intro": "Esta herramienta multiplica cada muestra por la ganancia que fijes: 100% mantiene el volumen original, 200% lo duplica y 50% lo reduce a la mitad. Subirlo mucho más allá del 100% puede recortar los picos fuertes, así que escucha antes de exportar.",
+      "steps": [
+        "Carga el archivo de audio.",
+        "Arrastra el control de volumen hasta el nivel que quieras.",
+        "Elige salida MP3 o WAV.",
+        "Pulsa «Aplicar», escucha y descarga."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué se distorsiona el audio si lo subo mucho?",
+          "a": "Las muestras que superan la escala completa se recortan. Si el original ya suena fuerte, una subida grande empuja los picos más allá del límite; prueba primero con una ganancia menor."
+        },
+        {
+          "q": "¿Puedo hacer que un archivo suene más bajo?",
+          "a": "Sí: coloca el control por debajo del 100%. El 50% es la mitad de la amplitud, una caída de volumen claramente perceptible."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Invertir audio",
+      "h1": "Invierte el audio y reproduce el sonido al revés en línea",
+      "desc": "Da la vuelta a un archivo de audio para que suene del final al principio. La duración y el tono no cambian. Inversor MP3/WAV gratis y sin subir nada.",
+      "intro": "Invertir copia la forma de onda desde la última muestra hasta la primera, de modo que el sonido se reproduce al revés conservando su duración y su tono. Es la forma clásica de crear un efecto riser, buscar mensajes ocultos o escuchar una canción al revés.",
+      "steps": [
+        "Carga el archivo de audio.",
+        "Si quieres, elige salida MP3 o WAV.",
+        "Pulsa «Invertir».",
+        "Reproduce el resultado y descárgalo."
+      ],
+      "faq": [
+        {
+          "q": "¿Invertir cambia el tono o la velocidad?",
+          "a": "No. Las muestras simplemente se leen en orden inverso, así que la duración y las frecuencias no cambian: solo se invierte la dirección del tiempo."
+        },
+        {
+          "q": "¿Para qué puedo usar el audio invertido?",
+          "a": "Para efectos riser de transición, diseño sonoro, comprobar mensajes ocultos grabados al revés o crear un clip tipo palíndromo que suene igual hacia delante y hacia atrás."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Cambiador de velocidad de audio",
+      "h1": "Acelera o ralentiza el audio sin cambiar el tono",
+      "desc": "Cambia el tempo del audio del 50% al 200% manteniendo un tono natural. Acelera conferencias o ralentiza música para aprenderla, en tu navegador.",
+      "intro": "El cambiador de velocidad usa estiramiento temporal por solapamiento y suma, así que una voz acelerada no suena como una ardilla y una canción ralentizada no baja de tono. 100% es la velocidad original; 200% reproduce el doble de rápido en la mitad de tiempo.",
+      "steps": [
+        "Carga el archivo de audio.",
+        "Ajusta el control de velocidad (50%–200%).",
+        "Elige salida MP3 o WAV.",
+        "Pulsa «Aplicar» y descarga el clip con el nuevo tempo."
+      ],
+      "faq": [
+        {
+          "q": "¿Acelerar el audio sube el tono?",
+          "a": "No: ese es el objetivo del estiramiento temporal. El tempo cambia pero el tono se mantiene, a diferencia de simplemente remuestrear el archivo."
+        },
+        {
+          "q": "¿Hasta dónde puede llegar el cambio de velocidad?",
+          "a": "El control va del 50% al 200%. Los estiramientos muy grandes pueden añadir una ligera vibración en material complejo; los cambios moderados suenan más naturales."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Cambiador de tono",
+      "h1": "Sube o baja el tono del audio en línea",
+      "desc": "Desplaza el tono del audio hasta 12 semitonos en cualquier dirección sin cambiar la duración. Sube o baja una voz o un instrumento y descarga gratis.",
+      "intro": "El cambio de tono remuestrea el audio para desplazar la frecuencia y luego lo estira en el tiempo hasta su duración original, así que el clip dura lo mismo pero suena más agudo o más grave. +12 semitonos es una octava hacia arriba; −12 es una octava hacia abajo.",
+      "steps": [
+        "Carga el archivo de audio.",
+        "Fija el desplazamiento de tono en semitonos (−12 a +12).",
+        "Elige salida MP3 o WAV.",
+        "Pulsa «Aplicar» y descarga el clip con el tono cambiado."
+      ],
+      "faq": [
+        {
+          "q": "¿Cambiar el tono cambia la duración del archivo?",
+          "a": "No. La herramienta restaura la duración original después del desplazamiento, así que solo se mueve el tono, no el tiempo."
+        },
+        {
+          "q": "¿Qué es un semitono?",
+          "a": "El paso más pequeño de la música occidental: una tecla del piano. Doce semitonos forman una octava, así que +12 duplica la frecuencia y −12 la reduce a la mitad."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Ecualizador de audio",
+      "h1": "Ecualizador de audio en línea con realce de graves y agudos",
+      "desc": "Ajusta cinco bandas (60 Hz–12 kHz) para realzar los graves, dar brillo a los agudos o moldear una voz. Usa preajustes o afínalo y exporta MP3 o WAV gratis.",
+      "intro": "Un ecualizador de cinco bandas con filtros de pico te permite atenuar o realzar graves, medios bajos, medios, medios altos y agudos hasta 12 dB cada uno. Empieza con un preajuste —Plano, Realce de graves, Voz o Realce de agudos—, ajusta con precisión y renderiza el cambio en un archivo nuevo.",
+      "steps": [
+        "Carga el archivo de audio.",
+        "Elige un preajuste o arrastra los cinco controles de banda.",
+        "Elige salida MP3 o WAV.",
+        "Pulsa «Aplicar» y descarga la pista ecualizada."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué controlan las cinco bandas?",
+          "a": "60 Hz es el peso de los graves, 250 Hz la calidez, 1 kHz el cuerpo de las voces, 4 kHz la presencia y claridad, y 12 kHz el aire y el brillo. Realza o atenúa cada una a tu gusto."
+        },
+        {
+          "q": "¿Se aplica el ecualizador al archivo descargado?",
+          "a": "Sí. A diferencia de un ecualizador que solo afecta a la reproducción, este renderiza el filtrado dentro del MP3 o WAV exportado, así que el cambio es permanente en el archivo que conservas."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Grabadora de voz",
+      "h1": "Graba audio en línea con tu micrófono",
+      "desc": "Graba tu voz con el micrófono directamente en el navegador. Pulsa grabar, detén, escucha y descarga: sin apps, sin subir nada y sin cuenta.",
+      "intro": "La grabadora captura tu micrófono con la API MediaRecorder del navegador y guarda la toma localmente para que puedas escucharla y descargarla. No se envía nada a ningún servidor: la grabación permanece en tu dispositivo hasta que la guardas.",
+      "steps": [
+        "Pulsa «Grabar» y permite el acceso al micrófono.",
+        "Habla o reproduce el sonido que quieras capturar.",
+        "Pulsa «Detener» cuando termines.",
+        "Escucha la toma y descárgala."
+      ],
+      "faq": [
+        {
+          "q": "¿Dónde se guarda mi grabación?",
+          "a": "Solo en la memoria de tu navegador hasta que la descargues. No se sube nada, así que si cierras la página, la toma sin guardar desaparece."
+        },
+        {
+          "q": "¿Por qué el navegador pide permiso?",
+          "a": "El acceso al micrófono siempre requiere tu consentimiento explícito. Si lo denegaste, vuelve a activar el permiso de micrófono para este sitio y pulsa «Grabar» de nuevo."
+        }
+      ]
+    }
+  }
+}

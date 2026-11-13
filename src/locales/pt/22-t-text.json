@@ -1,0 +1,351 @@
+{
+  "t": {
+    "word-counter": {
+      "desc": "Conte palavras, caracteres, espaços, frases, parágrafos, tempo de leitura e palavras-chave repetidas enquanto escreve. Útil para trabalhos, tweets e SEO.",
+      "intro": "A contagem é local e instantânea, e a lista de palavras-chave diz-lhe que expressões está a usar em excesso.",
+      "steps": [
+        "Cole o seu texto.",
+        "Leia os totais: palavras, caracteres com e sem espaços, frases e parágrafos.",
+        "Verifique o tempo de leitura e o tempo de fala.",
+        "Reveja as palavras mais repetidas."
+      ],
+      "faq": [
+        {
+          "q": "Como é calculado o tempo de leitura?",
+          "a": "200 palavras por minuto para a leitura silenciosa e 150 para a fala, os valores editoriais habituais."
+        },
+        {
+          "q": "As palavras com hífen contam uma vez?",
+          "a": "Sim, contam como uma palavra, tal como a maioria dos limites escolares e editoriais considera."
+        }
+      ]
+    },
+    "case-converter": {
+      "title": "Conversor de caixa",
+      "h1": "Altere o texto para MAIÚSCULAS, minúsculas ou Iniciais Maiúsculas",
+      "desc": "Converta um bloco de texto para iniciais maiúsculas, frase com inicial maiúscula, camelCase, snake_case, kebab-case ou iNVERSÃO cAsE num único clique.",
+      "intro": "As regras conhecem o idioma: palavras curtas como de e o ficam em minúsculas nos títulos, e a saída snake ou kebab é segura para nomes de ficheiros e código.",
+      "steps": [
+        "Cole o texto.",
+        "Escolha uma caixa.",
+        "Copie ou transfira o resultado."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que as Iniciais Maiúsculas não ficam perfeitas nos meus títulos?",
+          "a": "Siglas e nomes de marcas são exceções; corrija-as na saída ou desligue os títulos inteligentes."
+        },
+        {
+          "q": "Funciona com acentos?",
+          "a": "Sim, a conversão conhece o Unicode, por isso É, ß e ı mantêm as regras do seu idioma sempre que possível."
+        }
+      ]
+    },
+    "remove-duplicate-lines": {
+      "title": "Remover linhas duplicadas",
+      "h1": "Limpe uma lista: remover duplicados, ordenar e aparar linhas",
+      "desc": "Elimine linhas repetidas de uma lista, ignore maiúsculas e minúsculas, apare espaços extra, descarte linhas vazias e ordene de A a Z ou pela mais longa.",
+      "intro": "Utilização típica: colar uma lista de emails ou de telefones a partir de uma folha de cálculo e ficar com uma coluna limpa pronta a importar.",
+      "steps": [
+        "Cole a lista.",
+        "Assinale as opções de limpeza de que precisa.",
+        "Veja quantas linhas foram removidas.",
+        "Copie ou transfira o resultado."
+      ],
+      "faq": [
+        {
+          "q": "Uma linha com um espaço no fim é tratada como única?",
+          "a": "Só quando Remover espaços está desligado; ligue-o para apanhar diferenças invisíveis."
+        },
+        {
+          "q": "Posso manter os duplicados à vista?",
+          "a": "Sim, execute Contar repetições para ver primeiro cada linha com o seu número de ocorrências."
+        }
+      ]
+    },
+    "lorem-ipsum-generator": {
+      "desc": "Gere exatamente a quantidade de texto fictício de que o seu protótipo precisa — palavras, frases ou parágrafos, incluindo a abertura clássica de Cícero.",
+      "intro": "Útil para designers que precisam de comprimentos de linha realistas sem inventar texto, e para programadores que enchem uma tabela com dados credíveis.",
+      "steps": [
+        "Escolha parágrafos, frases ou palavras.",
+        "Defina a quantidade.",
+        "Decida se quer começar com Lorem ipsum dolor sit amet.",
+        "Copie o texto."
+      ],
+      "faq": [
+        {
+          "q": "Porque usar de todo texto de preenchimento em latim?",
+          "a": "Evita que os intervenientes leiam as palavras e discutam sobre elas, por isso a conversa mantém-se no layout."
+        },
+        {
+          "q": "Posso obter inglês realista em vez disso?",
+          "a": "Assinale a opção legível para usar texto de preenchimento em inglês simples nas revisões de acessibilidade."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "desc": "Codifique texto em Base64 ou descodifique-o de volta, com apoio para o alfabeto seguro para URL e erros imediatos de caractere inválido.",
+      "intro": "O Base64 é a forma como tokens, cabeçalhos e recursos inline viajam em segurança por sistemas que só aceitam caracteres simples.",
+      "steps": [
+        "Escreva ou cole a entrada.",
+        "Escolha Codificar ou Descodificar.",
+        "Escolha o alfabeto seguro para URL se o valor entrar numa cadeia de consulta.",
+        "Copie o resultado."
+      ],
+      "faq": [
+        {
+          "q": "O Base64 é encriptação?",
+          "a": "Não. É uma codificação reversível e sem segredo, por isso nunca a use para proteger uma palavra-passe."
+        },
+        {
+          "q": "Porque é que a descodificação falha?",
+          "a": "Normalmente um caractere sobressalente ou um comprimento que não é múltiplo de quatro; a ferramenta aponta a posição."
+        }
+      ]
+    },
+    "url-encode-decode": {
+      "title": "Codificar / Descodificar URL",
+      "h1": "Escapar e remover escapes a componentes de URL",
+      "desc": "Codifique em percentagem um valor de consulta ou um URL inteiro, ou descodifique uma cadeia escapada em texto legível, com a semântica de encodeURIComponent.",
+      "intro": "O pedido de apoio mais frequente — uma ligação que se parte por causa de um espaço, de um e comercial ou de um caractere acentuado — fica resolvido aqui num passo.",
+      "steps": [
+        "Cole o valor.",
+        "Escolha o modo componente, caminho ou URL inteiro.",
+        "Codifique ou descodifique.",
+        "Copie o resultado seguro."
+      ],
+      "faq": [
+        {
+          "q": "Qual é a diferença entre encodeURI e encodeURIComponent?",
+          "a": "encodeURIComponent também escapa caracteres que são legais na estrutura de um URL, que é o que quer para um único valor de consulta."
+        },
+        {
+          "q": "Porque é que um sinal de mais é diferente de %20?",
+          "a": "Os formulários usam + para espaços, os URLs reais usam %20. A ferramenta mostra os dois para que possa corresponder ao que o seu servidor espera."
+        }
+      ]
+    },
+    "html-entities": {
+      "title": "Escapar HTML",
+      "h1": "Escapar e remover escapes a entidades HTML",
+      "desc": "Converta <, >, &, aspas e letras acentuadas em entidades seguras, ou converta entidades de volta em caracteres para apresentação.",
+      "intro": "Use-o ao colar código num blogue, ao escrever num campo de um CMS que come as suas etiquetas, ou ao limpar uma página recolhida por scraping.",
+      "steps": [
+        "Cole a sua marcação ou o seu texto.",
+        "Carregue em Escapar ou Remover escapes.",
+        "Copie o resultado."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que o meu CMS continua a apagar etiquetas?",
+          "a": "O editor analisa-as como HTML. Escape primeiro o bloco e ele sobrevive intacto."
+        },
+        {
+          "q": "Converte entidades numéricas?",
+          "a": "Sim, são reconhecidas tanto as formas com nome como as numéricas decimais ou hexadecimais."
+        }
+      ]
+    },
+    "reverse-text": {
+      "title": "Inverter texto",
+      "h1": "Inverta texto, vire-o de cabeça para baixo ou espelhe-o",
+      "desc": "Escreva uma cadeia ao contrário, crie Unicode de cabeça para baixo para redes sociais ou inverta a ordem das palavras sem baralhar cada uma.",
+      "intro": "Popular em biografias e autocolantes, e genuinamente útil quando precisa de um espelho visual rápido de uma etiqueta.",
+      "steps": [
+        "Escreva o texto.",
+        "Escolha ao contrário, de cabeça para baixo ou ordem das palavras.",
+        "Copie a saída."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que algumas letras não se viram?",
+          "a": "Alguns glifos não têm equivalente espelhado em Unicode; são mantidos como estão para que o texto continue legível."
+        },
+        {
+          "q": "Mantém os emoji?",
+          "a": "As sequências combinadas de emoji mantêm-se juntas em vez de se dividirem em flags separadas."
+        }
+      ]
+    },
+    "json-formatter": {
+      "desc": "Formate JSON desorganizado, encontre a linha exata de um erro de sintaxe, ordene chaves, minimize um payload e recole ou expanda nós numa vista de árvore.",
+      "intro": "Os programadores colam aqui uma resposta de uma API para a ler; a mensagem de erro aponta para o caractere problemático em vez de dizer apenas «JSON inválido».",
+      "steps": [
+        "Cole o JSON.",
+        "Carregue em Formatar e defina a indentação se precisar de 2 ou 4 espaços.",
+        "Corrija o erro assinalado e execute de novo.",
+        "Use Minimizar quando o ficheiro tiver de ser publicado."
+      ],
+      "faq": [
+        {
+          "q": "Aceita JSON Lines?",
+          "a": "Sim, um objeto por linha é detetado e formatado como uma sequência."
+        },
+        {
+          "q": "Porque é que os meus números grandes ficam arredondados?",
+          "a": "O JavaScript não os consegue guardar como inteiros; a ferramenta mantém-nos como cadeias quando «Manter números grandes» está ligado."
+        }
+      ]
+    },
+    "csv-to-json": {
+      "desc": "Carregue ou cole uma folha de cálculo e obtenha uma matriz de objetos, com tratamento correto de aspas, separadores de milhares e células vazias.",
+      "intro": "É usado um analisador RFC-4180 completo, por isso vírgulas dentro de aspas e quebras de linha incorporadas não deslocam as colunas.",
+      "steps": [
+        "Cole o texto CSV ou largue um ficheiro .csv.",
+        "Defina o separador e se a primeira linha contém cabeçalhos.",
+        "Carregue em Converter.",
+        "Transfira o .json ou copie-o."
+      ],
+      "faq": [
+        {
+          "q": "Os números são convertidos em números?",
+          "a": "Sim, e as datas ISO continuam cadeias. Desligue a inferência de tipos para manter tudo como texto."
+        },
+        {
+          "q": "Posso fazer o percurso inverso?",
+          "a": "Use a ação de transferir como CSV do Formatador JSON para uma matriz plana de objetos."
+        }
+      ]
+    },
+    "markdown-to-html": {
+      "desc": "Cole Markdown e copie o HTML renderizado, com tabelas, código delimitado, ligações em notas de rodapé e opcionalmente o estilo do GitHub.",
+      "intro": "O mesmo renderizador alimenta a documentação do próprio site, por isso o que vê na pré-visualização é o que copia.",
+      "steps": [
+        "Escreva ou cole Markdown.",
+        "Acompanhe os painéis de HTML e de pré-visualização em direto.",
+        "Copie o HTML ou transfira o ficheiro."
+      ],
+      "faq": [
+        {
+          "q": "Higieniza a saída?",
+          "a": "O HTML cru é transmitido tal como está porque isso é Markdown válido; junte um higienizador antes de mostrar entrada não fiável."
+        },
+        {
+          "q": "Consigo obter Markdown de volta a partir de HTML?",
+          "a": "Não nesta ferramenta; é deliberadamente unidirecional para que a pré-visualização se mantenha rápida."
+        }
+      ]
+    },
+    "hash-generator": {
+      "desc": "Obtenha o resumo de qualquer texto, ou a soma de verificação de um ficheiro para validar uma transferência, no algoritmo que o seu sistema espera.",
+      "intro": "Os resumos fortes vêm do motor criptográfico do navegador; o MD5 está implementado localmente apenas por compatibilidade com sistemas antigos.",
+      "steps": [
+        "Escreva o texto ou carregue um ficheiro.",
+        "Escolha um ou mais algoritmos.",
+        "Copie os resumos.",
+        "Compare-os com a soma de verificação publicada."
+      ],
+      "faq": [
+        {
+          "q": "O MD5 é seguro?",
+          "a": "Não — as colisões são práticas. Use-o apenas como impressão digital antiga, nunca para segurança."
+        },
+        {
+          "q": "Posso calcular o resumo de uma palavra-passe?",
+          "a": "Não deve. As palavras-passe precisam de uma função lenta e com sal, como bcrypt ou Argon2, que uma ferramenta de navegador não deve executar por si."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "desc": "Crie tantos identificadores da versão 4 quanto precisar, no formato que a sua ferramenta espera: com traços, entre chaves, em maiúsculas ou simples.",
+      "intro": "Os valores vêm da fonte aleatória criptográfica do navegador, por isso servem para chaves, sessões e dados de teste.",
+      "steps": [
+        "Defina quantos UUID quer.",
+        "Escolha o formato.",
+        "Copie a lista ou transfira-a."
+      ],
+      "faq": [
+        {
+          "q": "São mesmo únicos?",
+          "a": "A versão 4 usa 122 bits aleatórios; as colisões são astronomicamente improváveis a menos que gere milhares de milhões."
+        },
+        {
+          "q": "O que é a versão 7?",
+          "a": "Um UUID ordenado por tempo que mantém as inserções sequenciais num índice de base de dados, útil para tabelas grandes."
+        }
+      ]
+    },
+    "password-generator": {
+      "desc": "Crie uma palavra-passe memorável ou inadivinhável com o comprimento e os símbolos que permitir, veja a sua força e copie-a sem que ela chegue a um servidor.",
+      "intro": "As sugestões são tiradas da fonte aleatória do navegador dentro da própria página, por isso nada é transmitido nem registado.",
+      "steps": [
+        "Defina o comprimento; 16 caracteres ou mais é a recomendação atual.",
+        "Escolha os conjuntos de caracteres de que precisa.",
+        "Carregue em Gerar.",
+        "Copie-a para o seu gestor de palavras-passe."
+      ],
+      "faq": [
+        {
+          "q": "Um gerador online é seguro?",
+          "a": "Este corre por completo na página e não envia nada a lado nenhum, o que pode confirmar no separador de rede."
+        },
+        {
+          "q": "Devo usar antes um gestor de palavras-passe?",
+          "a": "Sim. Gere aqui, guarde ali e nunca reutilize uma palavra-passe entre sites."
+        }
+      ]
+    },
+    "regex-tester": {
+      "desc": "Compare um padrão com texto de exemplo: destaque em direto, grupos de captura, sinalizadores e a expressão explicada em linguagem simples.",
+      "intro": "Escreva o padrão uma vez em vez de andar a adivinhar: cada correspondência é destacada e cada grupo é listado com a sua posição.",
+      "steps": [
+        "Introduza o padrão e os sinalizadores.",
+        "Cole a cadeia de teste.",
+        "Leia as correspondências e os grupos destacados.",
+        "Abra a explicação para uma decomposição caractere a caractere."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que o meu padrão funciona noutro lado e aqui não?",
+          "a": "O JavaScript não tem look-behind em motores antigos nem sintaxe de conjuntos nomeados; o testador assinala essa diferença de motor."
+        },
+        {
+          "q": "Protege contra o backtracking catastrófico?",
+          "a": "Os padrões que explodem são interrompidos por tempo limite com um aviso claro, em vez de bloquearem o separador."
+        }
+      ]
+    },
+    "diff-checker": {
+      "desc": "Comparação linha a linha de duas versões de um ficheiro, de um contrato ou de um artigo, com adições e remoções a cores e um resumo pronto a copiar.",
+      "intro": "Ótimo antes de devolver um documento a um colega: mostra exatamente que frases se moveram.",
+      "steps": [
+        "Cole o original à esquerda e a versão alterada à direita.",
+        "Ignore maiúsculas ou espaços se o ruído de formatação o incomodar.",
+        "Leia as diferenças assinaladas a cores.",
+        "Copie apenas as linhas alteradas se precisar delas."
+      ],
+      "faq": [
+        {
+          "q": "Quão grandes podem ser os ficheiros?",
+          "a": "Alguns milhares de linhas correm bem; acima disso uma ferramenta de diferenças específica serve melhor o navegador."
+        },
+        {
+          "q": "Mostra alterações ao nível da palavra?",
+          "a": "Sim, quando uma linha difere a ferramenta recorre à comparação por palavras dentro dessa linha."
+        }
+      ]
+    },
+    "text-to-speech": {
+      "title": "Síntese de voz",
+      "h1": "Leia texto em voz alta com uma voz natural do navegador",
+      "desc": "Converta qualquer parágrafo em fala, escolha voz e idioma, ajuste velocidade e tom e reveja um guião ao ouvido.",
+      "intro": "As vozes são as que o seu sistema operativo já instalou — sem conta, sem downloads, e funciona sem rede na maioria dos dispositivos.",
+      "steps": [
+        "Cole o texto.",
+        "Escolha uma voz; a lista reflete o seu sistema.",
+        "Defina a velocidade e o tom.",
+        "Carregue em Reproduzir."
+      ],
+      "faq": [
+        {
+          "q": "Posso transferir o áudio?",
+          "a": "Não diretamente; a API do navegador transmite-o. Use o gravador de áudio do seu sistema operativo se precisar de um ficheiro."
+        },
+        {
+          "q": "Porque é que há poucas vozes?",
+          "a": "A quantidade depende do sistema operativo e dos pacotes de idioma instalados. O Windows e o macOS deixam acrescentar mais."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "search": "78 kostenlose Tools suchen…",
+  "kw": {
+    "zero width watermark": "Zero-Width-Wasserzeichen",
+    "hidden text watermark": "Wasserzeichen mit verstecktem Text",
+    "invisible unicode watermark": "Unsichtbares Unicode-Wasserzeichen",
+    "css shadow generator": "CSS-Schatten-Generator",
+    "box shadow generator": "Box-Shadow-Generator",
+    "css grid generator": "CSS-Grid-Generator",
+    "json to svg": "JSON zu SVG",
+    "json tree diagram": "JSON-Baumdiagramm",
+    "json structure visualizer": "JSON-Struktur-Visualisierer",
+    "aes encrypt online": "AES online verschlüsseln",
+    "aes decrypt online": "AES online entschlüsseln",
+    "encrypt text with password": "Text mit Passwort verschlüsseln",
+    "photo mosaic tool": "Foto-Mosaik-Tool",
+    "pixelate image online": "Bild online verpixeln",
+    "blur face in photo": "Gesicht im Foto weichzeichnen",
+    "image grid splitter": "Bild-Raster-Teiler",
+    "nine square split": "Neun-Felder-Raster teilen",
+    "instagram grid maker": "Instagram-Raster-Generator",
+    "webcam test online": "Webcam-Test online",
+    "microphone test online": "Mikrofon-Test online",
+    "camera test": "Kamera-Test",
+    "online teleprompter": "Online-Teleprompter",
+    "free teleprompter": "Kostenloser Teleprompter",
+    "script prompter": "Skript-Teleprompter",
+    "sound level meter": "Schallpegelmesser",
+    "decibel meter online": "Dezibel-Messer online",
+    "noise meter": "Lärmmesser"
+  },
+  "w": {
+    "wfHint": "Zieh über die Wellenform, um den Teil zu wählen, den du behalten willst, oder gib die Zeiten unten ein.",
+    "slmUnit": "Dezibel (relativ, unkalibriert)",
+    "slmIntro": "Drücke Start und erlaube den Mikrofonzugriff, um den relativen Schallpegel um dich herum zu sehen.",
+    "slmStopped": "Messgerät gestoppt.",
+    "slmRunning": "Hört zu… der Pegel wird live aktualisiert.",
+    "slmNow": "Aktuell",
+    "slmMax": "Spitzenwert",
+    "slmAvg": "Durchschnitt",
+    "slmDenied": "Der Mikrofonzugriff wurde verweigert. Erlaube ihn in den Browsereinstellungen und versuche es erneut.",
+    "slmFail": "Das Mikrofon konnte nicht gestartet werden.",
+    "slmReset": "Spitzenwert zurücksetzen",
+    "slmNote": "Dies ist ein relatives Messgerät, kein kalibriertes Schallpegelmessgerät: Der Dezibelwert ist auf die digitale Vollaussteuerung bezogen und hängt damit von deinem Mikrofon und dessen Verstärkung ab. Nutze es, um Lautstärke zu vergleichen oder Störgeräusche zu erkennen, nicht für rechtliche oder sicherheitsrelevante Messungen. Audio wird in deinem Browser analysiert und nie aufgezeichnet oder hochgeladen.",
+    "mosWaiting": "Füge ein Bild hinzu und zieh dann über die Bereiche, die du verbergen willst.",
+    "mosDecodeFail": "Dieses Bild konnte nicht gelesen werden.",
+    "mosHint": "PNG, JPG, WebP…",
+    "mosReset": "Original wiederherstellen",
+    "mosNeedImage": "Füge zuerst ein Bild hinzu",
+    "mosMode": "Effekt",
+    "mosPixel": "Verpixeln",
+    "mosBlur": "Weichzeichnen",
+    "mosBrush": "Pinselgröße",
+    "mosStrength": "Stärke",
+    "mosStrengthHint": "größer = gröbere Blöcke / stärkere Unschärfe",
+    "mosNote": "Zieh über ein Gesicht, ein Nummernschild oder ein privates Detail, um es zu verpixeln oder weichzuzeichnen. Das Bild wird auf einem Canvas in deinem Browser bearbeitet und nie hochgeladen. Lade das Ergebnis als PNG herunter.",
+    "gridWaiting": "Füge ein Bild hinzu, um es in ein Raster aus Quadraten zu schneiden.",
+    "gridPreview": "{0} × {1} Raster · {2} Teile",
+    "gridHint": "PNG, JPG, WebP…",
+    "gridSplit": "Bild aufteilen",
+    "gridSize": "Raster",
+    "gridSizeHint": "3 × 3 ist das klassische Neun-Felder-Raster für Social Media",
+    "gridSquare": "Zuerst quadratisch zuschneiden",
+    "gridNote": "Das Bild wird auf einem Canvas in deinem Browser in gleich große Teile geschnitten. Lade sie einzeln oder als eine ZIP-Datei herunter und poste sie dann der Reihe nach für ein nahtloses Neun-Felder-Raster. Nichts wird hochgeladen.",
+    "zwCarrier": "Trägertext — die sichtbare Nachricht, die andere lesen…",
+    "zwSecret": "Geheimer Text, der darin versteckt wird…",
+    "zwPasted": "Füge den Text mit Wasserzeichen hier ein, um seine versteckte Nachricht sichtbar zu machen…",
+    "zwEmbed": "Versteckte Nachricht einbetten",
+    "zwNeedSecret": "Gib zuerst eine geheime Nachricht zum Verstecken ein",
+    "zwVisibleChars": "Sichtbare Zeichen",
+    "zwHiddenChars": "Versteckte Zeichen",
+    "zwInvisible": "unsichtbar",
+    "zwTotalChars": "Gesamtlänge",
+    "zwNone": "In diesem Text wurde keine versteckte Nachricht gefunden.",
+    "zwRevealedChars": "Sichtbar gemachte Zeichen",
+    "zwCarrierLabel": "Trägertext",
+    "zwPastedLabel": "Text mit Wasserzeichen",
+    "zwSecretLabel": "Geheime Nachricht",
+    "zwExtract": "Versteckte Nachricht sichtbar machen",
+    "zwMode": "Aktion",
+    "zwEmbedMode": "Nachricht verstecken",
+    "zwExtractMode": "Nachricht sichtbar machen",
+    "zwNote": "Das Geheimnis wird als Unicode-Zeichen mit Nullbreite (U+200B/U+200C) kodiert, eingebettet in Word-Joiner. Sie sind unsichtbar und überstehen normales Kopieren und Einfügen, aber jeder Editor, der Formatierung entfernt oder Unicode normalisiert, löscht sie. Das ist Verschleierung, keine Verschlüsselung — verstecke damit keine Passwörter oder sensiblen Daten.",
+    "cssOffsetX": "Schatten X",
+    "cssOffsetY": "Schatten Y",
+    "cssBlur": "Unschärfe",
+    "cssSpread": "Ausbreitung",
+    "cssRadius": "Eckenradius",
+    "cssOpacity": "Schattendeckkraft",
+    "cssShadowColor": "Schattenfarbe",
+    "cssBoxColor": "Box-Farbe",
+    "cssInset": "Innenliegender Schatten",
+    "cssColumns": "Spalten",
+    "cssGap": "Abstand",
+    "cssItems": "Elemente",
+    "cssRowHeight": "Zeilenhöhe",
+    "cssMode": "Generator",
+    "cssBoxMode": "Box-Schatten & Radius",
+    "cssGridMode": "Grid-Layout",
+    "cssGenerated": "Generiertes CSS",
+    "cssNote": "Zieh an den Reglern und sieh zu, wie sich Vorschau und CSS live aktualisieren. Kopiere das CSS in dein Stylesheet. Alles wird in deinem Browser berechnet.",
+    "jsvgInput": "Füge hier JSON ein — ein Objekt oder Array wird zu einem Strukturbaum…",
+    "jsvgBadJson": "Das ist kein gültiges JSON. Prüfe auf ein fehlendes Komma oder Anführungszeichen.",
+    "jsvgRender": "Diagramm rendern",
+    "jsvgNeedJson": "Füge zuerst JSON ein",
+    "jsvgRenderFirst": "Rendere zuerst ein Diagramm",
+    "jsvgInputLabel": "JSON-Eingabe",
+    "jsvgSvgCode": "SVG-Code",
+    "jsvgNote": "Das JSON wird geparst und als Strukturbaum von links nach rechts angeordnet, vollständig in deinem Browser gezeichnet. Lade es als SVG herunter, das du in Dokumente oder Folien einfügen kannst, oder kopiere das Markup. Große Arrays sind auf 40 Zweige und 8 Ebenen Tiefe begrenzt, damit das Diagramm lesbar bleibt.",
+    "jsvgHint": "Gib JSON ein und drücke „Diagramm rendern“, um die Struktur als SVG-Baum zu zeichnen.",
+    "encInput": "Gib den Text ein oder füge ihn ein, der verschlüsselt oder entschlüsselt werden soll…",
+    "encPassPlaceholder": "Passphrase",
+    "encNoSubtle": "Dieser Browser unterstützt kein Web Crypto. Eine sichere (https) Seite ist erforderlich.",
+    "encrypt": "Verschlüsseln",
+    "encNeedText": "Gib zuerst Text ein",
+    "encNeedPass": "Gib eine Passphrase ein",
+    "decrypt": "Entschlüsseln",
+    "encNeedCipher": "Füge zuerst den verschlüsselten Text ein",
+    "encBadCipher": "Das ist kein gültiger verschlüsselter Text.",
+    "encWrongPass": "Entschlüsseln fehlgeschlagen — falsche Passphrase oder beschädigter Text.",
+    "encPassHint": "Zum Entschlüsseln wird dieselbe Passphrase benötigt. Sie wird nie gespeichert oder irgendwohin gesendet.",
+    "encNote": "AES-256-GCM mit einem über PBKDF2 abgeleiteten Schlüssel (150.000 Iterationen, SHA-256). Das zufällige Salt und der IV werden in die Ausgabe gepackt, sodass allein die Passphrase entschlüsselt. Alles läuft über die Web Crypto API in deinem Browser — nichts wird hochgeladen.",
+    "camIntro": "Teste deine Kamera, dein Mikrofon und deinen Bildschirm — alles lokal. Nichts wird aufgezeichnet oder hochgeladen.",
+    "camMicLevel": "Mikrofonpegel",
+    "camStartCam": "Kamera starten",
+    "camStartMic": "Mikrofon testen",
+    "camStopCam": "Kamera stoppen",
+    "camRunning": "Die Kamera ist live. Wenn du dich selbst siehst, funktioniert die Kamera.",
+    "camDenied": "Der Kamerazugriff wurde verweigert. Erlaube ihn in den Browsereinstellungen und versuche es erneut.",
+    "camFail": "Die Kamera konnte nicht gestartet werden.",
+    "camStopMic": "Mikrofon stoppen",
+    "camMicRunning": "Sprich oder tippe auf das Mikrofon — der Pegelbalken sollte sich bewegen.",
+    "camMicDenied": "Der Mikrofonzugriff wurde verweigert. Erlaube ihn in den Browsereinstellungen und versuche es erneut.",
+    "camMicFail": "Das Mikrofon konnte nicht gestartet werden.",
+    "camRed": "Rot",
+    "camGreen": "Grün",
+    "camBlue": "Blau",
+    "camWhite": "Weiß",
+    "camBlack": "Schwarz",
+    "camGray": "Grau",
+    "camScreen": "Bildschirm-Totpixel-Test",
+    "camScreenHint": "Tippe irgendwohin, um die Farbe zu wechseln, und halte nach festsitzenden oder toten Pixeln Ausschau.",
+    "camExit": "Beenden",
+    "camNote": "Die Kameravorschau und der Mikrofonpegel laufen vollständig in deinem Browser über getUserMedia und die Web Audio API. Kein Video oder Audio wird aufgezeichnet, gespeichert oder irgendwohin gesendet. Nutze den Bildschirmtest, um tote Pixel auf einem Monitor oder Handydisplay zu erkennen.",
+    "teleInput": "Füge hier dein Skript oder deine Rede ein…",
+    "teleNeedText": "Füge zuerst dein Skript ein",
+    "teleReset": "Neu starten",
+    "teleFullscreen": "Vollbild",
+    "teleScript": "Dein Skript",
+    "teleSpeedHint": "Scroll-Pixel pro Sekunde",
+    "teleMirror": "Spiegeln (für einen Strahlteiler)",
+    "teleNote": "Füge deine Rede ein, stell Schriftgröße und Scrollgeschwindigkeit ein und drücke dann Start. Spiegeln dreht den Text für einen Teleprompter-Aufbau mit Strahlteiler um, und Vollbild füllt den Bildschirm. Dein Skript bleibt in diesem Browser-Tab und wird nie hochgeladen."
+  },
+  "t": {
+    "zero-width-watermark": {
+      "title": "Zero-Width-Wasserzeichen",
+      "h1": "Zero-Width-Wasserzeichen — Text in Text verstecken",
+      "desc": "Verstecke eine geheime Nachricht in normalem Text mit unsichtbaren Zero-Width-Zeichen. Übersteht Kopieren/Einfügen. Gratis im Browser einbetten oder enthüllen.",
+      "intro": "Dieses Tool versteckt eine geheime Nachricht in einem normal aussehenden Text, indem es sie als unsichtbare Unicode-Zeichen mit Nullbreite (U+200B und U+200C) kodiert, eingebettet in Word-Joiner. Der Trägertext liest sich genau gleich, aber die versteckte Nutzlast wandert beim Kopieren und Einfügen mit. Wechsle zu „Sichtbar machen“, um eine Nachricht aus einem Text mit Wasserzeichen zu extrahieren. Das ist Verschleierung, keine Verschlüsselung: Alles, was Formatierung entfernt oder Unicode normalisiert, löscht die Markierung — nutze es also nie für Passwörter oder sensible Daten.",
+      "steps": [
+        "Gib den sichtbaren Trägertext ein.",
+        "Gib die geheime Nachricht ein, die versteckt werden soll.",
+        "Drücke „Einbetten“ und kopiere den Text mit Wasserzeichen.",
+        "Um sie wiederzulesen, füge ihn in den Modus „Sichtbar machen“ ein."
+      ],
+      "faq": [
+        {
+          "q": "Übersteht die versteckte Nachricht Kopieren und Einfügen?",
+          "a": "Ja, bei normalem Kopieren und Einfügen von reinem Text, weil die Zero-Width-Zeichen Teil der Zeichenkette sind. Aber Rich-Text-Editoren, soziale Plattformen und jedes Tool, das Unicode normalisiert oder Formatierung entfernt, können sie löschen — teste also immer am Zielort."
+        },
+        {
+          "q": "Ist das eine sichere Verschlüsselung?",
+          "a": "Nein. Es ist Steganografie durch Verschleierung — jeder, der weiß, dass er nach Zero-Width-Zeichen suchen muss, kann die Nachricht sichtbar machen. Nutze das AES-Tool zum Ver- und Entschlüsseln für echte Geheimhaltung."
+        }
+      ]
+    },
+    "css-generator": {
+      "title": "CSS-Schatten- und Grid-Generator",
+      "h1": "CSS-Generator — Box-Schatten, Radius und Grid",
+      "desc": "Erzeuge CSS für box-shadow, border-radius und Grid-Layouts visuell. Zieh an den Reglern, sieh die Live-Vorschau und kopiere das CSS. Gratis, ohne Anmeldung.",
+      "intro": "Gestalte CSS visuell, statt Zahlen zu raten. Im Box-Modus ziehst du Regler für Schattenversatz, Unschärfe, Ausbreitung, Eckenradius, Farbe und Deckkraft, mit optionalem innenliegendem Schatten, und siehst eine Live-Vorschau. Im Grid-Modus stellst du Spaltenzahl, Abstand, Elementzahl und Zeilenhöhe ein, um ein responsives Grid anzuordnen. Das passende CSS wird während der Arbeit erzeugt — kopiere es direkt in dein Stylesheet. Alles läuft in deinem Browser.",
+      "steps": [
+        "Wähle „Box-Schatten & Radius“ oder „Grid-Layout“.",
+        "Zieh an den Reglern, um den Effekt zu formen.",
+        "Sieh zu, wie sich Vorschau und CSS live aktualisieren.",
+        "Kopiere das generierte CSS in dein Projekt."
+      ],
+      "faq": [
+        {
+          "q": "Welches CSS wird erzeugt?",
+          "a": "Standardmäßiges, kopierfertiges CSS: eine .box-Regel mit background, border-radius und box-shadow oder eine .grid-Regel mit display:grid, grid-template-columns und gap. Für diese Eigenschaften sind in modernen Browsern keine Vendor-Prefixe nötig."
+        },
+        {
+          "q": "Kann ich das Grid-CSS auf einer echten Website nutzen?",
+          "a": "Ja. Die Grid-Regel nutzt repeat() und fraktionale Spalten und ist damit responsiv. Füge sie in dein Stylesheet ein und platziere deinen Inhalt im Grid-Container."
+        }
+      ]
+    },
+    "json-to-svg": {
+      "title": "JSON-zu-SVG-Diagramm",
+      "h1": "JSON zu SVG — Strukturbaum visualisieren",
+      "desc": "Wandle JSON in einen bunten SVG-Strukturbaum. Objekt oder Array einfügen, Diagramm rendern, dann SVG herunterladen oder Markup kopieren. Gratis, lokal.",
+      "intro": "Füge ein beliebiges JSON-Objekt oder Array ein, und das Tool parst es und ordnet es als Strukturbaum von links nach rechts an, der vollständig in deinem Browser als buntes SVG gezeichnet wird. Jeder Schlüssel wird zu einem Knoten, verschachtelte Objekte und Arrays zweigen ab, und Blattwerte werden inline angezeigt. Lade das Ergebnis als SVG herunter, das du in Dokumentation oder Folien einfügen kannst, oder kopiere das rohe Markup. Große Arrays sind auf 40 Zweige und acht Ebenen Tiefe begrenzt, damit das Diagramm lesbar bleibt.",
+      "steps": [
+        "Füge dein JSON in die Eingabe ein.",
+        "Drücke „Diagramm rendern“.",
+        "Sieh dir die Strukturbaum-Vorschau an.",
+        "Lade das SVG herunter oder kopiere das Markup."
+      ],
+      "faq": [
+        {
+          "q": "Welche JSON-Formen werden unterstützt?",
+          "a": "Jedes gültige JSON: Objekte, Arrays, Strings, Zahlen, Booleans und null. Objekte und Arrays werden zu verzweigenden Knoten; primitive Werte erscheinen als Blätter. Ungültiges JSON meldet einen klaren Fehler, statt zu zeichnen."
+        },
+        {
+          "q": "Ist das SVG bearbeitbar?",
+          "a": "Ja. Es ist reines SVG-Markup, du kannst es also in jedem Vektor-Editor öffnen oder in HTML einfügen. Der Download ist eine eigenständige .svg-Datei ohne externe Abhängigkeiten."
+        }
+      ]
+    },
+    "encrypt-decrypt": {
+      "title": "Text ver- & entschlüsseln",
+      "h1": "AES-Text online ver- und entschlüsseln",
+      "desc": "Ver- und entschlüssle Text mit AES-256-GCM und einer Passphrase, direkt im Browser. PBKDF2-Schlüsselableitung, nichts hochgeladen. Gratis und privat.",
+      "intro": "Schütze eine Nachricht mit starker, moderner Kryptografie, ohne etwas zu installieren. Gib deinen Text und eine Passphrase ein und drücke dann „Verschlüsseln“: Das Tool leitet mit PBKDF2 (150.000 Iterationen, SHA-256) einen 256-Bit-Schlüssel ab und verschlüsselt mit AES-GCM, wobei es das zufällige Salt und den IV in die Base64-Ausgabe packt, sodass später allein die Passphrase zum Entschlüsseln genügt. Füge den Geheimtext und dieselbe Passphrase ein, um zu entschlüsseln. Alles nutzt die Web Crypto API des Browsers und verlässt nie dein Gerät.",
+      "steps": [
+        "Gib den Text ein oder füge ihn ein.",
+        "Gib eine starke Passphrase ein.",
+        "Drücke „Verschlüsseln“, um Geheimtext zu erzeugen.",
+        "Zum Umkehren füge den Geheimtext ein und drücke „Entschlüsseln“."
+      ],
+      "faq": [
+        {
+          "q": "Wie sicher ist das?",
+          "a": "Es nutzt AES-256-GCM, einen Standard für authentifizierte Verschlüsselung, mit einem Schlüssel, der über PBKDF2 mit 150.000 Iterationen abgeleitet wird. Die Sicherheit hängt davon ab, dass deine Passphrase stark und geheim ist; Salt und IV sind bei jeder Verschlüsselung zufällig."
+        },
+        {
+          "q": "Kann ich ohne diese Website entschlüsseln?",
+          "a": "Die Ausgabe ist Standard-Base64 und packt Salt (16 Byte), IV (12 Byte) und AES-GCM-Geheimtext. Jede Bibliothek, die PBKDF2-SHA256 mit 150.000 Iterationen und AES-256-GCM nachbildet, kann ihn mit derselben Passphrase entschlüsseln."
+        }
+      ]
+    },
+    "image-mosaic": {
+      "title": "Foto-Mosaik & Unschärfe",
+      "h1": "Foto-Mosaik — lokal verpixeln und weichzeichnen",
+      "desc": "Verpixle oder weichzeichne Gesichter, Kennzeichen und private Details im Foto per Pinsel. Lokal auf Canvas bearbeiten, PNG herunterladen. Gratis, kein Upload.",
+      "intro": "Verbirg sensible Teile eines Bildes, ohne es irgendwohin zu senden. Lade ein Foto hoch, wähle „Verpixeln“ oder „Weichzeichnen“, stell Pinselgröße und Stärke ein und zieh dann über die Gesichter, Nummernschilder oder Dokumente, die du unkenntlich machen willst. Der Effekt wird auf einem Canvas in deinem Browser angewendet; stelle jederzeit das Original wieder her und lade das Ergebnis als PNG herunter. Nichts wird hochgeladen.",
+      "steps": [
+        "Lade ein Foto hoch.",
+        "Wähle „Verpixeln“ oder „Weichzeichnen“ und stell den Pinsel ein.",
+        "Zieh über die Bereiche, die du verbergen willst.",
+        "Lade das bearbeitete PNG herunter."
+      ],
+      "faq": [
+        {
+          "q": "Ist Verpixelung umkehrbar?",
+          "a": "Starke Verpixelung mittelt jeden Block zu einer Farbe und zerstört so das originale Detail — sie lässt sich aus der Ausgabe nicht rückgängig machen. Nutze eine grobe Blockgröße für sensible Daten; leichte Unschärfe kann manchmal nachträglich verstärkt werden, zieh also Verpixelung für Gesichter und Kennzeichen vor."
+        },
+        {
+          "q": "Werden meine Fotos hochgeladen?",
+          "a": "Nein. Das Bild wird vollständig in deinem Browser auf einem Canvas gezeichnet und bearbeitet, und das PNG wird lokal erzeugt. Nichts wird an einen Server gesendet."
+        }
+      ]
+    },
+    "grid-splitter": {
+      "title": "Bild-Raster-Teiler",
+      "h1": "Bild-Raster-Teiler — Neun-Felder-Raster und NxN",
+      "desc": "Schneide ein Bild in ein 3×3-Neun-Felder-Raster oder NxN-Layout für Social Media. Quadratisch zuschneiden, Teile als ZIP herunterladen. Gratis, lokal.",
+      "intro": "Schneide ein Bild in ein nahtloses Raster für Instagram, Weibo oder einen beliebigen Social-Feed. Lade ein Bild hoch, wähle ein Raster von 2×2 bis 6×6 (3×3 ist das klassische Neun-Felder-Raster) und schneide es optional zuerst quadratisch zu, damit jedes Teil quadratisch ist. Das Tool zerteilt es auf einem Canvas in deinem Browser, dann lädst du die Teile einzeln oder als eine ZIP-Datei herunter, bereit zum Posten der Reihe nach. Nichts wird hochgeladen.",
+      "steps": [
+        "Lade das Bild hoch, das du aufteilen willst.",
+        "Wähle die Rastergröße, z. B. 3×3.",
+        "Aktiviere „Quadratisch zuschneiden“ für quadratische Teile.",
+        "Teile auf und lade die Teile oder die ZIP-Datei herunter."
+      ],
+      "faq": [
+        {
+          "q": "Wie poste ich ein nahtloses Neun-Felder-Raster?",
+          "a": "Teile in 3×3 auf, lade die ZIP-Datei herunter und lade die neun Teile in nummerierter Reihenfolge (grid-01 bis grid-09) in deine Social-App hoch. Die meisten Apps lassen dich mehrere Bilder gleichzeitig auswählen; behalte die Reihenfolge bei, damit das Bild zusammenpasst."
+        },
+        {
+          "q": "Warum zuerst quadratisch zuschneiden?",
+          "a": "Ein Neun-Felder-Feed zeigt quadratische Vorschaubilder. Wenn du die Quelle vor dem Aufteilen auf ein zentriertes Quadrat zuschneidest, bleibt jedes Teil quadratisch und ungleichmäßige Ränder werden vermieden. Schalte es aus, um stattdessen das volle Rechteck aufzuteilen."
+        }
+      ]
+    },
+    "camera-mic-test": {
+      "title": "Kamera- & Mikrofon-Test",
+      "h1": "Kamera-, Mikrofon- und Bildschirmtest",
+      "desc": "Teste Webcam, Mikrofon und Bildschirm im Browser. Sieh eine Live-Kameravorschau, einen Mikrofonpegel und einen Farbtest für tote Pixel. Gratis, privat.",
+      "intro": "Prüfe deine Hardware vor einem Anruf oder einer Aufnahme, vollständig in deinem Browser. Starte die Kamera für eine Live-Vorschau, teste das Mikrofon und sieh zu, wie sich der Pegelbalken beim Sprechen bewegt, und führe den Bildschirm-Totpixel-Test aus, um vollflächige Vollbildfarben durchzuschalten und festsitzende Pixel zu erkennen. Kein Video oder Audio wird aufgezeichnet, gespeichert oder hochgeladen — die Streams stoppen, wenn du „Stopp“ drückst oder die Seite verlässt.",
+      "steps": [
+        "Drücke „Kamera starten“, um das Video zu prüfen.",
+        "Drücke „Mikrofon testen“ und sprich.",
+        "Starte den Bildschirmtest und tippe, um die Farben durchzuschalten.",
+        "Stoppe jeden Test, wenn du fertig bist."
+      ],
+      "faq": [
+        {
+          "q": "Zeichnet es etwas auf oder lädt es hoch?",
+          "a": "Nein. Kamera und Mikrofon werden nur live in deinem Browser über getUserMedia und die Web Audio API als Vorschau angezeigt und analysiert. Nichts wird aufgezeichnet, gespeichert oder irgendwohin gesendet, und die Tracks stoppen, wenn du „Stopp“ drückst."
+        },
+        {
+          "q": "Warum fragt der Browser nach einer Berechtigung?",
+          "a": "Der Zugriff auf eine Kamera oder ein Mikrofon erfordert immer deine ausdrückliche Erlaubnis und eine sichere (https) Seite. Wenn du sie verweigert hast, erlaube sie in den Website-Einstellungen deines Browsers und versuche es erneut."
+        }
+      ]
+    },
+    "teleprompter": {
+      "title": "Teleprompter",
+      "h1": "Online-Teleprompter für dein Skript",
+      "desc": "Gratis-Teleprompter online: Skript einfügen, in großer Schrift scrollen, Tempo und Schriftgröße anpassen, spiegeln, Vollbild. Nichts wird hochgeladen.",
+      "intro": "Lies deine Rede flüssig ab, während du aufnimmst. Füge dein Skript ein, stell eine angenehme Schriftgröße und Scrollgeschwindigkeit ein und drücke dann Start, um den Text laufen zu lassen. „Spiegeln“ dreht ihn horizontal für einen Teleprompter-Aufbau mit Strahlteiler um, und „Vollbild“ füllt den Bildschirm, sodass du aus der Entfernung ablesen kannst. Dein Skript bleibt in diesem Browser-Tab und wird nie hochgeladen.",
+      "steps": [
+        "Füge dein Skript oder deine Rede ein.",
+        "Stell Schriftgröße und Scrollgeschwindigkeit ein.",
+        "Drücke Start zum Laufenlassen; spiegle, wenn du einen Aufbau nutzt.",
+        "Nutze „Vollbild“ für eine große Anzeige."
+      ],
+      "faq": [
+        {
+          "q": "Wofür ist die Spiegeln-Option?",
+          "a": "Ein Teleprompter mit Strahlteiler spiegelt den Bildschirm auf ein Glas vor dem Objektiv, was den Text umkehrt. „Spiegeln“ dreht ihn horizontal, sodass er in der Reflexion richtig lesbar ist. Lass es aus, wenn du direkt vom Bildschirm abliest."
+        },
+        {
+          "q": "Wird mein Skript gespeichert oder irgendwohin gesendet?",
+          "a": "Nein. Das Skript existiert nur in diesem Browser-Tab, während du das Tool nutzt, und wird nie hochgeladen oder auf einem Server gespeichert. Ein Neuladen der Seite löscht es."
+        }
+      ]
+    },
+    "sound-level-meter": {
+      "title": "Schallpegelmesser",
+      "h1": "Schallpegelmesser — Online-Dezibel-Messer",
+      "desc": "Gratis-Schallpegelmesser online: relativen Dezibelpegel um dich herum live sehen, mit Spitzenwert und Durchschnitt. Mikrofon lokal, nichts aufgezeichnet.",
+      "intro": "Miss, wie laut deine Umgebung ist, mit dem Mikrofon deines Geräts. Drücke Start, erlaube den Zugriff, und das Messgerät zeigt den relativen Schallpegel in Dezibel mit einem Live-Balken sowie Spitzenwert- und Durchschnittsanzeige. Es ist ein relatives, unkalibriertes Messgerät, bezogen auf die digitale Vollaussteuerung — nutze es also, um Lautstärke zu vergleichen oder Störgeräusche zu erkennen, statt für rechtliche oder sicherheitsrelevante Messungen. Audio wird in deinem Browser analysiert und nie aufgezeichnet oder hochgeladen.",
+      "steps": [
+        "Drücke Start und erlaube den Mikrofonzugriff.",
+        "Beachte die Live-Dezibelanzeige und den Balken.",
+        "Prüfe Spitzenwert und Durchschnittspegel.",
+        "Setze den Spitzenwert zurück oder stoppe, wenn du fertig bist."
+      ],
+      "faq": [
+        {
+          "q": "Ist das ein kalibriertes Dezibel-Messgerät?",
+          "a": "Nein. Es ist ein relatives Messgerät, bezogen auf die digitale Vollaussteuerung, der absolute Wert hängt also von deinem Mikrofon und dessen Verstärkung ab. Es ist nützlich, um Lautstärke zu vergleichen, nicht für zertifizierte Lärmmessungen."
+        },
+        {
+          "q": "Wird das Audio aufgezeichnet?",
+          "a": "Nein. Der Mikrofon-Stream wird nur live in deinem Browser analysiert, um den Pegel zu berechnen. Nichts wird aufgezeichnet, gespeichert oder hochgeladen, und das Mikrofon stoppt, wenn du „Stopp“ drückst oder die Seite verlässt."
+        }
+      ]
+    }
+  }
+}

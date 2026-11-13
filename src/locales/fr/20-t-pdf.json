@@ -1,0 +1,184 @@
+{
+  "t": {
+    "compress-pdf": {
+      "desc": "Comprimez un PDF dans votre navigateur : données superflues retirées, images rééchantillonnées, texte sélectionnable, sans téléversement, filigrane ni compte.",
+      "intro": "Compresser PDF fonctionne entièrement sur votre propre machine. Il lit le fichier, réécrit les références dupliquées de polices et d'objets, réduit la définition des images volumineuses si vous le demandez, puis vous rend le PDF allégé par le téléchargement habituel du navigateur.",
+      "steps": [
+        "Déposez un ou plusieurs fichiers PDF sur le panneau, ou cliquez pour les choisir.",
+        "Choisissez un niveau : Meilleure qualité conserve tout, Recommandé équilibre la taille, Fichier le plus petit rééchantillonne le plus fortement les images.",
+        "Appuyez sur Compresser et consultez les chiffres avant/après de chaque fichier.",
+        "Téléchargez le résultat, ou récupérez tous les fichiers dans une seule archive zip."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi un PDF scanné rétrécit-il à peine ?",
+          "a": "Une page scannée est en réalité une photographie. Le gain vient du ré-encodage de ces images de page, donc utilisez le niveau Fichier le plus petit ou convertissez d'abord les pages en JPEG."
+        },
+        {
+          "q": "Supprime-t-il des pages ou du texte ?",
+          "a": "Non. Le nombre de pages, la couche de texte et les liens restent intacts ; seuls les objets redondants et les images surdimensionnées sont ré-encodés."
+        }
+      ]
+    },
+    "merge-pdf": {
+      "desc": "Assemblez plusieurs PDF dans l'ordre choisi, avec des miniatures de pages déplaçables avant de les joindre. Gratuit, en local dans votre navigateur.",
+      "intro": "Fusionner PDF recopie les objets de pages de chaque fichier dans un document unique sans les rastériser, si bien que le texte reste sélectionnable et trouvable par la recherche après la fusion.",
+      "steps": [
+        "Ajoutez tous les PDF que vous souhaitez assembler.",
+        "Glissez les miniatures pour fixer l'ordre, ou retirez un fichier ajouté par erreur.",
+        "Appuyez sur Fusionner.",
+        "Téléchargez le PDF fusionné."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je fusionner les pages d'une partie seulement d'un fichier ?",
+          "a": "Oui, utilisez d'abord Diviser PDF pour isoler la plage voulue, puis fusionnez les morceaux dont vous avez besoin."
+        },
+        {
+          "q": "Y a-t-il une limite sur le nombre de fichiers ?",
+          "a": "Seule la mémoire de votre appareil en pose une. En pratique, plusieurs centaines de pages se fusionnent confortablement sur un téléphone."
+        }
+      ]
+    },
+    "split-pdf": {
+      "desc": "Extrayez une plage de pages d'un PDF, séparez chaque page en fichier distinct ou découpez un long document en blocs. Tout se déroule en local.",
+      "intro": "Diviser PDF reconstruit un nouveau fichier à partir des pages que vous conservez. Comme il recopie les objets de pages au lieu de les réimprimer, la qualité est identique à celle de l'original.",
+      "steps": [
+        "Ouvrez votre PDF dans le panneau.",
+        "Choisissez Extraire une plage, Enregistrer chaque page dans un fichier séparé ou Diviser en blocs.",
+        "Saisissez la plage, par exemple 3-8 ou 1,4,9-12.",
+        "Appuyez sur Diviser, puis téléchargez le résultat."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je plutôt supprimer des pages ?",
+          "a": "Oui. Sélectionnez toutes les pages à conserver, ou saisissez dans la case complémentaire la plage à retirer, et l'outil produit le fichier sans elles."
+        },
+        {
+          "q": "La division conserve-t-elle les signets ?",
+          "a": "Les signets qui pointent vers des pages retirées sont supprimés ; le contenu des pages, les liens et les couches de texte sont préservés."
+        }
+      ]
+    },
+    "rotate-pdf": {
+      "desc": "Faites pivoter toutes les pages, ou celles choisies, de 90, 180 ou 270 degrés. Gratuit, instantané, et le fichier ne quitte jamais votre ordinateur.",
+      "intro": "Les pages sont réorientées sur place ; il n'y a aucun ré-encodage, donc une rotation ne coûte rien en qualité et prend une seconde même sur un gros fichier.",
+      "steps": [
+        "Déposez le PDF.",
+        "Choisissez 90° vers la droite, 180° ou 90° vers la gauche.",
+        "Limitez éventuellement la modification à une plage de pages.",
+        "Appuyez sur Appliquer, puis téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi mes pages paysage semblent-elles fausses après un scan ?",
+          "a": "Beaucoup de scanners écrivent l'image tournée avec un indicateur de page. Faites pivoter la plage concernée plutôt que tout le document."
+        },
+        {
+          "q": "Puis-je faire pivoter certaines pages différemment ?",
+          "a": "Oui, lancez l'outil une fois par plage ; chaque passage laisse le reste inchangé."
+        }
+      ]
+    },
+    "watermark-pdf": {
+      "desc": "Apposez BROUILLON, CONFIDENTIEL, une date ou le nom de votre société sur chaque page, en réglant la taille, la couleur, l'opacité et l'angle.",
+      "intro": "Le filigrane est dessiné en vrai texte vectoriel sur chaque page, donc il passe bien à l'impression et personne ne peut le décaler en déplaçant un calque d'image.",
+      "steps": [
+        "Chargez le PDF que vous souhaitez tamponner.",
+        "Saisissez le texte et choisissez la couleur, l'opacité et la rotation.",
+        "Décidez s'il se place derrière ou au-dessus du contenu.",
+        "Appuyez sur Ajouter un filigrane, puis téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je filigraner seulement quelques pages ?",
+          "a": "Oui, limitez le tampon à une plage de pages comme 1 ou 2-5."
+        },
+        {
+          "q": "Le texte sera-t-il sélectionnable ?",
+          "a": "Il est inséré comme du texte, donc il apparaît dans les résultats de recherche du fichier final."
+        }
+      ]
+    },
+    "pdf-to-jpg": {
+      "desc": "Convertissez chaque page d'un PDF en JPG ou PNG à la résolution voulue, prévisualisez-la, puis téléchargez une page ou l'ensemble en archive zip.",
+      "intro": "Le rendu utilise le moteur même qui affiche les PDF dans votre navigateur, donc les polices et la mise en page correspondent exactement à l'original. Rien n'est téléversé où que ce soit.",
+      "steps": [
+        "Déposez le fichier PDF.",
+        "Réglez le format de sortie et le multiplicateur de résolution.",
+        "Prévisualisez les pages générées.",
+        "Téléchargez une image seule ou l'archive zip complète."
+      ],
+      "faq": [
+        {
+          "q": "Quelle qualité choisir pour l'impression ?",
+          "a": "Prenez PNG en 2x pour les documents de texte et JPG en 2x pour les pages photo ; 3x approche les 300 dpi sur une feuille A4."
+        },
+        {
+          "q": "Puis-je n'obtenir qu'une seule page ?",
+          "a": "Oui, générez la plage dont vous avez besoin plutôt que tout le document."
+        }
+      ]
+    },
+    "pdf-to-text": {
+      "desc": "Extrayez le texte lisible d'un PDF, conservez la disposition en lignes ou paragraphes, copiez-le ou enregistrez-le en .txt. Fonctionne dans le navigateur.",
+      "intro": "Le texte provient de la couche de texte du PDF lui-même, si bien que l'extraction est fiable pour les documents et les rapports. Les pages scannées n'ont pas de couche de texte et exigent de l'OCR.",
+      "steps": [
+        "Ajoutez votre PDF.",
+        "Choisissez Conserver la mise en page ou Texte brut.",
+        "Appuyez sur Extraire.",
+        "Copiez le résultat ou téléchargez-le sous forme de fichier texte."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi ai-je obtenu un résultat vide ?",
+          "a": "Le fichier est probablement un scan de papier. L'OCR est une technologie côté serveur ; la solution de contournement consiste à passer les pages par une application d'OCR à laquelle vous faites confiance."
+        },
+        {
+          "q": "Conserve-t-il les tableaux ?",
+          "a": "Les colonnes sont préservées grâce à l'espacement quand vous choisissez Conserver la mise en page, mais les tableaux complexes se traitent mieux en convertissant les pages en images."
+        }
+      ]
+    },
+    "images-to-pdf": {
+      "desc": "Assemblez des photos JPG, PNG, WebP ou GIF dans un seul PDF, dans l'ordre voulu, avec le format de page, les marges et l'orientation que vous choisissez.",
+      "intro": "Surtout pratique pour une pile de scans faits au mobile : déposez vos photos, classez-les, et vous obtenez un document qui s'envoie proprement par courriel et qui s'imprime correctement.",
+      "steps": [
+        "Sélectionnez les photos.",
+        "Glissez pour réordonner et supprimez celles prises deux fois.",
+        "Choisissez le format de page et les marges.",
+        "Appuyez sur Créer un PDF, puis téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Les photos sont-elles ajustées à la page ?",
+          "a": "Oui, chaque image est réduite à l'intérieur de la zone imprimable sans recadrage, sauf si vous choisissez Remplir la page (rogner)."
+        },
+        {
+          "q": "Puis-je ajouter une légende ?",
+          "a": "Utilisez ensuite l'outil Filigrane PDF pour inscrire un titre ou une date sur chaque page."
+        }
+      ]
+    },
+    "html-to-pdf": {
+      "desc": "Collez du HTML, choisissez le format de papier et les marges, puis imprimez le résultat en PDF depuis votre navigateur. Gratuit et confidentiel.",
+      "intro": "Cet outil construit une vue d'impression propre à partir de votre balisage et la confie au moteur PDF intégré au navigateur, qui comprend le CSS, les images et les sauts de page.",
+      "steps": [
+        "Collez votre HTML ou chargez un fichier .html.",
+        "Réglez le papier, l'orientation et les marges.",
+        "Ouvrez la fenêtre d'impression.",
+        "Choisissez « Enregistrer au format PDF » comme destination."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je convertir une URL en ligne ?",
+          "a": "Les navigateurs bloquent la lecture du balisage d'autres sites depuis une page, donc collez le HTML ou utilisez l'impression PDF intégrée de votre navigateur sur cette page."
+        },
+        {
+          "q": "Les images externes sont-elles incluses ?",
+          "a": "Seulement quand le navigateur peut les charger ; les URI de données en ligne fonctionnent toujours."
+        }
+      ]
+    }
+  }
+}

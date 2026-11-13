@@ -1,0 +1,202 @@
+{
+  "t": {
+    "shoe-size-converter": {
+      "title": "Penukar Saiz Kasut",
+      "h1": "Penukar saiz kasut — US, EU, UK dan CN",
+      "desc": "Tukar saiz kasut antara US, EU, UK dan CN untuk lelaki dan wanita. Masukkan saiz atau panjang kaki dan lihat semua sistem serentak — percuma dan segera.",
+      "intro": "Penukar ini memetakan saiz kasut atau panjang kaki dalam sentimeter merentas sistem US, EU, UK dan CN, untuk padanan lelaki dan wanita. Taip saiz dalam mana-mana sistem, atau ukur kaki anda dari tumit ke jari, dan ia menunjukkan padanan dalam semua sistem lain serta panjang kaki dalam cm dan inci. Penukaran ialah standard runcit anggaran dan berbeza mengikut jenama dan acuan kasut.",
+      "steps": [
+        "Pilih padanan lelaki atau wanita.",
+        "Pilih sistem saiz yang anda tahu (US, EU, UK, CN atau cm).",
+        "Masukkan saiz atau panjang kaki anda.",
+        "Baca saiz yang setara dalam setiap sistem."
+      ],
+      "faq": [
+        {
+          "q": "Bagaimana saya mengukur kaki saya untuk saiz yang betul?",
+          "a": "Berdiri di atas kertas pada waktu petang, tandakan tumit dan jari kaki paling panjang, dan ukur jarak itu dalam sentimeter. Masukkan panjang itu dalam sistem cm; ukur kedua-dua kaki dan gunakan yang lebih besar."
+        },
+        {
+          "q": "Adakah penukaran ini tepat?",
+          "a": "Ia ialah standard runcit anggaran. Jenama dan acuan kasut berbeza, jadi sentiasa semak carta saiz pengeluar sendiri dan pilih saiz yang lebih besar apabila anda berada antara dua saiz."
+        }
+      ]
+    },
+    "rmb-uppercase": {
+      "title": "Penukar Huruf Besar RMB",
+      "h1": "Tukar amaun kepada RMB huruf besar China",
+      "desc": "Tukar nombor kepada amaun RMB huruf besar China yang digunakan pada cek dan invois. Mengendalikan yuan, jiao dan fen. Percuma, segera, tanpa muat naik.",
+      "intro": "Taip amaun dan penukar menulisnya dalam bentuk huruf besar kewangan China (daxie) yang digunakan pada cek, invois dan kontrak untuk mengelakkan pengubahan. Ia mengendalikan yuan, jiao dan fen, menandakan amaun bulat tepat dengan betul, dan berfungsi sehingga hampir satu trilion. Pengiraan menggunakan sen integer untuk mengelakkan ralat titik terapung.",
+      "steps": [
+        "Masukkan amaun, contohnya 1234.56.",
+        "Amaun RMB huruf besar muncul serta-merta.",
+        "Semak bahagian yuan, jiao dan fen.",
+        "Salin hasilnya untuk cek atau invois anda."
+      ],
+      "faq": [
+        {
+          "q": "Apakah kegunaan amaun huruf besar China?",
+          "a": "Ia ialah bentuk kewangan tahan ubah (daxie) yang diperlukan pada cek, invois dan kontrak di China, di mana digit biasa boleh diubah. Setiap digit mempunyai aksara kompleks yang sukar dipalsukan."
+        },
+        {
+          "q": "Bagaimana perpuluhan dikendalikan?",
+          "a": "Tempat perpuluhan pertama ialah jiao dan yang kedua ialah fen. Amaun bulat tepat berakhir dengan aksara yang menandakan “tiada sen”, jadi 100 dan 100.00 kedua-duanya ditulis dengan betul."
+        }
+      ]
+    },
+    "world-clock": {
+      "title": "Jam Dunia",
+      "h1": "Jam dunia — zon waktu dan perancang mesyuarat",
+      "desc": "Lihat waktu langsung di 12 bandar dunia, banding zon waktu dan rancang mesyuarat merentasinya, dengan sorotan waktu bekerja. Percuma, tanpa daftar.",
+      "intro": "Jam dunia menunjukkan waktu langsung di dua belas bandar utama, setiap satu dengan tarikhnya dan titik hijau semasa waktu bekerja tempatan (09:00–18:00). Seret perancang untuk menyusun mesyuarat merentas zon waktu dan lihat waktu ia jatuh di setiap bandar, dengan lencana apabila sesebuah bandar berada pada hari kalendar yang berbeza. Waktu dipaparkan berbanding zon waktu anda sendiri.",
+      "steps": [
+        "Lihat waktu langsung di dua belas bandar dunia.",
+        "Perhatikan titik hijau waktu bekerja dan lencana hari.",
+        "Seret perancang untuk menetapkan waktu mesyuarat.",
+        "Baca waktu tempatan di setiap bandar."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia mengambil kira waktu jimat siang?",
+          "a": "Ya. Waktu dikira dengan pangkalan data zon waktu pelayar anda, jadi peralihan waktu jimat siang diterapkan secara automatik bagi setiap bandar."
+        },
+        {
+          "q": "Bagaimana saya merancang mesyuarat merentas zon waktu?",
+          "a": "Seret peluncur perancang ke suatu waktu dalam zon anda sendiri; setiap kad bandar dikemas kini untuk menunjukkan waktu tempatannya, dan lencana menandakan mana-mana bandar yang jatuh pada hari yang berbeza."
+        }
+      ]
+    },
+    "pomodoro-timer": {
+      "title": "Pemasa Pomodoro",
+      "h1": "Pemasa fokus Pomodoro dengan rehat",
+      "desc": "Pemasa Pomodoro untuk kerja fokus: sesi 25 minit, rehat pendek dan panjang, pembilang sesi dan loceng pilihan. Percuma, dalam pelayar.",
+      "intro": "Teknik Pomodoro berselang-seli antara kerja fokus dengan rehat pendek, dan rehat yang lebih panjang selepas beberapa pusingan. Tetapkan tempoh fokus, rehat pendek dan rehat panjang, mulakan pemasa, dan ia mengira undur dengan pembilang sesi dan loceng pilihan pada setiap perubahan fasa. Mod skrin penuh memastikan kiraan undur yang besar kelihatan semasa anda bekerja. Pemasa berjalan selagi tab dibuka.",
+      "steps": [
+        "Tetapkan tempoh fokus dan rehat anda.",
+        "Tekan Mula untuk memulakan sesi fokus.",
+        "Bekerja sehingga loceng berbunyi, kemudian berehat.",
+        "Ulangi; rehat panjang datang selepas beberapa pusingan."
+      ],
+      "faq": [
+        {
+          "q": "Apakah tempoh Pomodoro lalai?",
+          "a": "Kitaran klasik ialah 25 minit fokus, rehat pendek 5 minit, dan rehat panjang 15 minit selepas empat sesi fokus. Anda boleh mengubah ketiga-tiga tempoh dan bilangan pusingan."
+        },
+        {
+          "q": "Adakah ia kekal tepat jika saya bertukar tab?",
+          "a": "Pemasa mengira berdasarkan jam dan bukannya mengurangkan, jadi ia kekal tepat walaupun pelayar memperlahankan tab latar belakang. Biarkan tab dibuka, atau gunakan skrin penuh untuk kiraan undur yang besar."
+        }
+      ]
+    },
+    "random-picker": {
+      "title": "Pemilih Rawak",
+      "h1": "Pemilih nama rawak dan pusing roda",
+      "desc": "Pusing roda untuk memilih nama rawak atau cabut pemenang serta-merta. Tambah satu nama setiap baris, buang pemenang dan pilih pasukan. Percuma.",
+      "intro": "Taip satu nama setiap baris, pusing roda, dan pemenang dipilih dengan crypto.getRandomValues() supaya setiap nama mempunyai peluang yang sama. Buang pemenang selepas setiap cabutan untuk memilih seluruh pasukan mengikut turutan, atau gunakan Cabutan pantas untuk hasil serta-merta tanpa animasi. Tetapkan semula untuk mula semula. Semuanya berjalan secara setempat dalam pelayar anda.",
+      "steps": [
+        "Masukkan satu nama setiap baris.",
+        "Tekan Pusing roda (atau Cabutan pantas).",
+        "Baca pemenangnya.",
+        "Buang pemenang untuk mencabut lagi, atau tetapkan semula."
+      ],
+      "faq": [
+        {
+          "q": "Adakah pilihan itu benar-benar rawak?",
+          "a": "Ya. Ia menggunakan crypto.getRandomValues() pelayar, suatu sumber rawak yang selamat secara kriptografi, jadi setiap nama mempunyai peluang yang sama dan hasilnya tidak boleh diramal."
+        },
+        {
+          "q": "Bolehkah saya memilih beberapa pemenang tanpa ulangan?",
+          "a": "Ya. Gunakan “Buang pemenang” selepas setiap cabutan untuk mengeluarkan nama itu daripada roda, jadi anda boleh memilih seluruh pasukan mengikut turutan. Tetapkan semula mengembalikan semua nama."
+        }
+      ]
+    },
+    "invoice-generator": {
+      "title": "Penjana Invois",
+      "h1": "Penjana invois percuma — buat invois PDF",
+      "desc": "Buat invois profesional dalam pelayar anda. Tambah butiran anda, item baris, cukai dan diskaun, kemudian muat turun PDF atau PNG. Percuma.",
+      "intro": "Isikan butiran penjual dan pelanggan, tambah item baris dengan kuantiti dan harga, tetapkan diskaun dan kadar cukai, dan penjana menyusun invois yang kemas dengan jumlah. Pratontonnya, kemudian eksport PDF satu halaman atau imej PNG. Semuanya dilukis secara setempat dalam pelayar anda, jadi butiran kewangan anda tidak pernah meninggalkan peranti anda.",
+      "steps": [
+        "Masukkan butiran anda dan butiran pelanggan.",
+        "Tambah item baris dengan kuantiti dan harga seunit.",
+        "Tetapkan mata wang, diskaun dan kadar cukai.",
+        "Jana, kemudian muat turun PDF atau PNG."
+      ],
+      "faq": [
+        {
+          "q": "Adakah data invois saya dimuat naik ke mana-mana?",
+          "a": "Tidak. Invois dipaparkan pada kanvas dalam pelayar anda dan dieksport secara setempat sebagai PDF atau PNG. Tiada apa-apa dihantar ke pelayan, jadi angka anda kekal peribadi."
+        },
+        {
+          "q": "Bolehkah saya menggunakan mata wang dan kadar cukai sendiri?",
+          "a": "Ya. Pilih daripada lapan mata wang dan tetapkan apa-apa peratusan diskaun dan kadar cukai; subtotal, diskaun, cukai dan jumlah dikira untuk anda."
+        }
+      ]
+    },
+    "signature-pad": {
+      "title": "Pad Tandatangan",
+      "h1": "Lukis tandatangan anda dalam talian — PNG lutsinar",
+      "desc": "Lukis tandatangan anda dengan tetikus, jari atau stilus dan muat turun PNG lutsinar. Buat asal, kosongkan dan potong ruang kosong. Percuma.",
+      "intro": "Tandatangan pada kanvas dengan tetikus, skrin sentuh atau stilus, pilih warna dan lebar pen, dan muat turun PNG dengan latar belakang lutsinar supaya ia terletak kemas pada kontrak atau borang. Buat asal coretan, kosongkan pad, atau potong ruang kosong di sekeliling tandatangan anda. Tiada apa-apa dimuat naik — lukisan kekal dalam pelayar anda.",
+      "steps": [
+        "Lukis tandatangan anda pada pad.",
+        "Laraskan warna dan lebar pen jika perlu.",
+        "Buat asal atau kosongkan untuk membetulkan kesilapan; potong ruang kosong.",
+        "Muat turun PNG lutsinar itu."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa latar belakangnya lutsinar?",
+          "a": "PNG dieksport dengan saluran alfa, jadi hanya coretan anda yang legap. Itu membolehkan anda meletakkan tandatangan di atas dokumen tanpa kotak putih di sekelilingnya."
+        },
+        {
+          "q": "Bolehkah saya menandatangani pada telefon atau tablet?",
+          "a": "Ya. Pad menggunakan peristiwa penuding, jadi jari atau stilus berfungsi seperti tetikus. Lukis, kemudian muat turun PNG ke peranti anda."
+        }
+      ]
+    },
+    "id-photo-maker": {
+      "title": "Pembuat Foto ID",
+      "h1": "Pembuat foto pasport dan ID dalam talian",
+      "desc": "Buat foto pasport, visa dan ID di rumah. Pangkas ke saiz yang betul, tetapkan dpi, dan ganti latar belakang dengan putih, biru atau merah. Percuma.",
+      "intro": "Muat naik potret, pilih pratetap (China 1 inci, China 2 inci, pasport/visa atau pasport AS) atau saiz tersuai dalam milimeter, dan tetapkan resolusi cetakan. Zum dan alihkan untuk membingkai kepala, kemudian jika mahu ganti latar belakang polos dengan putih, biru atau merah. Foto diproses secara setempat dan dimuat turun sebagai JPEG sedia untuk dicetak.",
+      "steps": [
+        "Muat naik potret yang jelas dan menghadap depan.",
+        "Pilih pratetap saiz atau tetapkan lebar dan tinggi tersuai.",
+        "Zum dan laraskan kedudukan; jika mahu ganti latar belakang.",
+        "Buat foto dan muat turun JPEG itu."
+      ],
+      "faq": [
+        {
+          "q": "Adakah foto ini akan diterima untuk pasport saya?",
+          "a": "Ia menghasilkan foto bersaiz betul dan beresolusi tinggi, tetapi penerimaan bergantung pada peraturan pihak berkuasa pengeluaran anda tentang pose, pencahayaan dan latar belakang. Sentiasa semak keperluan rasmi sebelum mencetak."
+        },
+        {
+          "q": "Bagaimana penggantian latar belakang berfungsi?",
+          "a": "Ia membuang warna di penjuru kiri atas foto anda, jadi mulakan dengan latar yang polos dan diterangi sekata. Laraskan toleransi untuk membuang lebih banyak atau lebih sedikit latar belakang lama."
+        }
+      ]
+    },
+    "contract-generator": {
+      "title": "Penjana Kontrak",
+      "h1": "Penjana NDA dan perjanjian perkhidmatan percuma",
+      "desc": "Jana NDA bersama atau perjanjian perkhidmatan daripada templat ringkas. Isikan pihak, tujuan dan terma, kemudian muat turun atau cetak. Percuma.",
+      "intro": "Pilih perjanjian kerahsiaan bersama atau perjanjian perkhidmatan, isikan pihak-pihak, tarikh berkuat kuasa, tujuan atau skop, tempoh dan undang-undang yang mentadbir, dan penjana menyusun draf dalam bahasa mudah. Muat turunnya sebagai fail teks atau cetak. Draf dicipta dalam pelayar anda dan tidak pernah dimuat naik. Ini ialah templat umum, bukan nasihat guaman — minta peguam bertauliah menyemaknya sebelum menandatangani.",
+      "steps": [
+        "Pilih NDA atau perjanjian perkhidmatan.",
+        "Masukkan pihak-pihak, tarikh dan terma utama.",
+        "Jana draf dan baca semula.",
+        "Muat turun .txt atau cetak."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ini kontrak yang mengikat di sisi undang-undang?",
+          "a": "Ia ialah templat umum untuk bermula, bukan nasihat guaman. Undang-undang berbeza mengikut negara dan situasi, jadi minta peguam bertauliah menyemak dan menyesuaikannya sebelum sesiapa menandatangani."
+        },
+        {
+          "q": "Apakah yang boleh saya sesuaikan?",
+          "a": "Pihak-pihak, tarikh berkuat kuasa, tujuan atau skop perkhidmatan, fi, tempoh dan undang-undang yang mentadbir. Padamkan klausa yang tidak terpakai dan tambah butiran khusus untuk urus niaga anda."
+        }
+      ]
+    }
+  }
+}

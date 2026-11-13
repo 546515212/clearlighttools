@@ -1,0 +1,23 @@
+ALPHA
+page 1 of 3
+The quick brown fox jumps over the lazy dog.
+0123456789 - sample figures for extraction
+ALPHA-1
+
+— page 1 —
+
+ALPHA
+page 2 of 3
+The quick brown fox jumps over the lazy dog.
+0123456789 - sample figures for extraction
+ALPHA-2
+
+— page 2 —
+
+ALPHA
+page 3 of 3
+The quick brown fox jumps over the lazy dog.
+0123456789 - sample figures for extraction
+ALPHA-3
+
+— page 3 —

@@ -1,0 +1,49 @@
+{
+  "t": {
+    "prose-a": {
+      "title": "Unisc i file",
+      "desc": "parola pa",
+      "intro": "parola paro",
+      "steps": [
+        "parola",
+        "parola"
+      ],
+      "faq": [
+        {
+          "q": "parola",
+          "a": "parola p"
+        }
+      ]
+    },
+    "prose-b": {
+      "title": "Unisc i file",
+      "desc": "parola pa",
+      "intro": "parola paro",
+      "steps": [
+        "parola",
+        "parola"
+      ],
+      "faq": [
+        {
+          "q": "parola",
+          "a": "parola p"
+        }
+      ]
+    },
+    "prose-c": {
+      "title": "Unisc i file",
+      "desc": "parola pa",
+      "intro": "parola paro",
+      "steps": [
+        "parola",
+        "parola"
+      ],
+      "faq": [
+        {
+          "q": "parola",
+          "a": "parola p"
+        }
+      ]
+    }
+  }
+}

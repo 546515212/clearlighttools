@@ -1,0 +1,15 @@
+{
+  "w": {
+    "clipInfo": "{0} clip · {1} Hz",
+    "pages": "Pages",
+    "rate": "Rate",
+    "percent": "{0}% versus {1}%",
+    "iconHint": "Add <link rel=\"icon\" href=\"a.png\"> now"
+  },
+  "t": {
+    "merge-pdf": {
+      "title": "Merge PDF",
+      "intro": "Regroupez plusieurs fichiers dans l’ordre choisi."
+    }
+  }
+}

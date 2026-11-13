@@ -1,0 +1,219 @@
+{
+  "t": {
+    "percentage-calculator": {
+      "desc": "Quatre questions de pourcentage très cherchées : combien font X pour cent de Y, X représente quel pourcentage de Y, augmenter ou diminuer de X pour cent.",
+      "intro": "Chaque mode affiche le calcul, si bien que vous pouvez vérifier la réponse ou expliquer la méthode à quelqu'un d'autre.",
+      "steps": [
+        "Choisissez le type de question.",
+        "Renseignez les deux nombres.",
+        "Lisez la réponse et les étapes détaillées."
+      ],
+      "faq": [
+        {
+          "q": "De 40 à 52 — quelle est l'augmentation en pourcentage ?",
+          "a": "30 pour cent : on divise la différence par le nombre d'origine, donc 12 / 40 = 0,3."
+        },
+        {
+          "q": "Pourquoi une hausse de 20 pour cent suivie d'une baisse de 20 pour cent n'est-elle pas neutre ?",
+          "a": "La seconde variation porte sur la nouvelle base, plus grande. 100 devient 120, puis 96."
+        }
+      ]
+    },
+    "bmi-calculator": {
+      "desc": "Calculez votre indice de masse corporelle, voyez dans quelle tranche vous vous situez et obtenez la plage de poids considérée comme saine pour votre taille.",
+      "intro": "L'IMC est un chiffre de dépistage, pas un diagnostic — la calculatrice affiche les tranches et leurs limites pour que vous les lisiez correctement.",
+      "steps": [
+        "Sélectionnez métrique ou impérial.",
+        "Saisissez la taille et le poids.",
+        "Lisez votre IMC et la plage de la catégorie."
+      ],
+      "faq": [
+        {
+          "q": "L'IMC est-il fiable pour les athlètes ?",
+          "a": "Pas vraiment. Le muscle pèse plus lourd que la graisse, donc une personne sèche et très musclée peut être signalée comme en surpoids."
+        },
+        {
+          "q": "Les enfants sont-ils jugés de la même façon ?",
+          "a": "Non. Avant 18 ans, on utilise des percentiles d'âge et de sexe, donc consultez un clinicien plutôt que de vous fier à ce chiffre."
+        }
+      ]
+    },
+    "age-calculator": {
+      "desc": "Obtenez un âge exact en années, mois et jours, les jours vécus au total, le prochain anniversaire et le jour de la semaine de votre naissance.",
+      "intro": "Pratique pour les formulaires qui demandent des jours, et pour préparer un anniversaire dans la semaine qui le précède.",
+      "steps": [
+        "Saisissez la date de naissance.",
+        "Choisissez éventuellement une autre date pour mesurer par rapport à elle.",
+        "Lisez la ventilation."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi deux âges s'affichent-ils ?",
+          "a": "Les années révolues d'un côté, le total en mois et jours de l'autre ; les formulaires officiels veulent en général les années révolues."
+        },
+        {
+          "q": "Comment les années bissextiles sont-elles traitées ?",
+          "a": "Exactement : une personne née un 29 février compte une année de plus le jour suivant, les années non bissextiles."
+        }
+      ]
+    },
+    "date-calculator": {
+      "desc": "Comptez les jours entre deux dates, ajoutez ou retirez des jours ouvrés et calendaires, et obtenez la date qui en résulte avec son jour de semaine.",
+      "intro": "Utile pour les échéances, les durées de location, les plans de projet et toute question sur le temps que quelque chose dure.",
+      "steps": [
+        "Choisissez Jours entre deux dates ou Ajouter ou soustraire du temps.",
+        "Saisissez les dates et le nombre de jours.",
+        "Décidez si les week-ends et les jours fériés comptent.",
+        "Lisez la date obtenue et le total."
+      ],
+      "faq": [
+        {
+          "q": "La date de fin est-elle incluse ?",
+          "a": "Par défaut, la différence compte les jours pleins entre les deux, donc l'outil indique clairement si l'un ou l'autre jour est inclus."
+        },
+        {
+          "q": "Puis-je soustraire des jours ouvrés ?",
+          "a": "Oui, passez aux jours ouvrés ; les jours fériés demandent encore un comptage à la main."
+        }
+      ]
+    },
+    "loan-calculator": {
+      "desc": "Estimez la mensualité d'un prêt personnel ou d'un crédit immobilier, le total des intérêts payés, et la part des premières années qui part en intérêts.",
+      "intro": "Le calcul suit la formule d'amortissement classique, et le résumé montre le rapport des intérêts au capital que les prêteurs n'affichent pas toujours.",
+      "steps": [
+        "Saisissez le montant, le taux annuel et la durée.",
+        "Lisez la mensualité.",
+        "Consultez le total des intérêts et le total remboursé.",
+        "Comparez les durées pour voir ce qu'un prêt plus long coûte vraiment."
+      ],
+      "faq": [
+        {
+          "q": "Cela inclut-il les frais ou l'assurance ?",
+          "a": "Non, ce sont uniquement le capital et les intérêts. Ajoutez au montant des produits comme l'assurance emprunteur pour approcher le vrai paiement."
+        },
+        {
+          "q": "Quel taux dois-je saisir ?",
+          "a": "Le taux nominal annuel divisé par douze est appliqué automatiquement chaque mois, donc entrez le pourcentage annuel annoncé."
+        }
+      ]
+    },
+    "discount-calculator": {
+      "desc": "Saisissez le prix d'origine et la remise pour voir ce que vous payez, ce que vous économisez, et ce que coûte l'article si plusieurs offres se cumulent.",
+      "intro": "Elle répond aussi à la question inverse : si vous connaissez le prix avant et après, elle vous donne le pourcentage de réduction.",
+      "steps": [
+        "Saisissez le prix initial.",
+        "Ajoutez le pourcentage de remise, ou le prix final.",
+        "Lisez ce que vous payez et ce que vous économisez.",
+        "Ajoutez une seconde remise pour tester une offre cumulable."
+      ],
+      "faq": [
+        {
+          "q": "30 pour cent de remise puis 20 pour cent, cela fait-il 50 pour cent ?",
+          "a": "Non, la seconde réduction s'applique au prix déjà remisé, donc le total réel est de 44 pour cent."
+        },
+        {
+          "q": "Peut-elle inclure la taxe de vente ?",
+          "a": "Oui, ajoutez un taux de taxe pour voir le montant qui quitte réellement votre compte."
+        }
+      ]
+    },
+    "unit-converter": {
+      "desc": "Un seul convertisseur pour les unités courantes : mètres et pieds, kilogrammes et livres, Celsius et Fahrenheit, litres, miles par heure, mégaoctets.",
+      "intro": "Les valeurs se convertissent dans les deux sens pendant la saisie, et le facteur utilisé s'affiche pour que vous puissiez contrôler un résultat étrange.",
+      "steps": [
+        "Choisissez la catégorie.",
+        "Sélectionnez l'unité source et saisissez la valeur.",
+        "Lisez le nombre converti, ou inversez les unités pour aller dans l'autre sens."
+      ],
+      "faq": [
+        {
+          "q": "Quelle précision est affichée ?",
+          "a": "Six chiffres significatifs ; survolez le champ pour la valeur décimale exacte."
+        },
+        {
+          "q": "Les pintes britanniques et américaines diffèrent-elles ?",
+          "a": "Oui, 568 ml contre 473 ml, et le convertisseur les garde distinctes."
+        }
+      ]
+    },
+    "color-converter": {
+      "desc": "Passez du HEX au RGB, au HSL et aux noms CSS, vérifiez le contraste contre le blanc et le noir, et obtenez automatiquement des nuances accessibles.",
+      "intro": "Collez une valeur dans n'importe quelle notation et les autres se mettent à jour instantanément, y compris le rapport de contraste WCAG qu'il faut vérifier avant de publier la couleur d'un bouton.",
+      "steps": [
+        "Saisissez ou choisissez une couleur.",
+        "Lisez le HEX, le RGB et le HSL.",
+        "Vérifiez le contraste sur un fond clair et un fond sombre."
+      ],
+      "faq": [
+        {
+          "q": "Quel contraste me faut-il ?",
+          "a": "4.5:1 pour le texte courant et 3:1 pour les gros textes selon WCAG AA."
+        },
+        {
+          "q": "Pourquoi mon HEX rend-il différemment sur le téléphone ?",
+          "a": "Les écrans appliquent des profils colorimétriques ; les valeurs numériques restent identiques même quand la perception ne l'est pas."
+        }
+      ]
+    },
+    "calorie-calculator": {
+      "title": "Calculatrice de calories",
+      "h1": "Calcul des calories quotidiennes et du métabolisme de base",
+      "desc": "Estimez le métabolisme de base avec l'équation de Mifflin-St Jeor et les calories quotidiennes pour maintenir, perdre ou prendre du poids.",
+      "intro": "Les chiffres sont des estimations bâties sur des moyennes de population, utiles comme point de départ plutôt que comme prescription.",
+      "steps": [
+        "Saisissez l'âge, le sexe, la taille et le poids.",
+        "Choisissez votre niveau d'activité.",
+        "Lisez le métabolisme de base et les calories de maintien.",
+        "Comparez les objectifs de déficit et de surplus progressifs."
+      ],
+      "faq": [
+        {
+          "q": "Quel est le degré de précision ?",
+          "a": "En général à dix ou vingt pour cent près pour un adulte en bonne santé ; la dépense énergétique mesurée reste la seule réponse exacte."
+        },
+        {
+          "q": "Dois-je manger selon le chiffre du déficit ?",
+          "a": "Considérez-le comme une référence et vérifiez tout changement significatif auprès d'un professionnel qualifié."
+        }
+      ]
+    },
+    "timestamp-converter": {
+      "desc": "Convertissez un horodatage Unix ou en millisecondes en une date lisible, locale et UTC, ou transformez une date en nombre tel que l'attend votre API.",
+      "intro": "Il vous dit aussi quelle unité vous avez collée, ce qui est la cause habituelle d'une date qui atterrit en 1970 ou en 45000.",
+      "steps": [
+        "Collez l'horodatage, ou choisissez une date.",
+        "Vérifiez la détection entre secondes et millisecondes.",
+        "Lisez les sorties locale, UTC et ISO."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi ma date tombe-t-elle en janvier 1970 ?",
+          "a": "Vous avez passé une valeur dans la mauvaise unité, ou une chaîne analysée comme zéro."
+        },
+        {
+          "q": "Quel fuseau horaire est employé ?",
+          "a": "Le fuseau de votre navigateur pour la ligne locale, plus les chaînes UTC et ISO explicites."
+        }
+      ]
+    },
+    "random-number-generator": {
+      "desc": "Tirez un nombre dans un intervalle, lancez des dés, jouez pile ou face, mélangez une liste de noms ou désignez des gagnants sans doublon pour un jeu concours.",
+      "intro": "Les valeurs viennent de la source aléatoire cryptographique du navigateur, donc les résultats conviennent aux décisions qui comptent vraiment pour vous.",
+      "steps": [
+        "Définissez le minimum et le maximum.",
+        "Choisissez combien de valeurs et si les répétitions sont permises.",
+        "Générez, ou employez les préréglages dés et pièce."
+      ],
+      "faq": [
+        {
+          "q": "Est-ce vraiment aléatoire ?",
+          "a": "Cela utilise la réserve d'entropie de votre système d'exploitation, la source la plus forte à laquelle un navigateur ait le droit d'accéder."
+        },
+        {
+          "q": "Puis-je tirer plusieurs gagnants dans une liste ?",
+          "a": "Oui, collez les noms, activez l'option sans doublons et indiquez combien de noms tirer."
+        }
+      ]
+    }
+  }
+}

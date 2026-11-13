@@ -1,0 +1,347 @@
+{
+  "search": "Rechercher parmi 60 outils gratuits…",
+  "home": "ClearLight Tools — Outils PDF, image, audio et vidéo gratuits en ligne",
+  "cat": {
+    "image": "Outils image",
+    "image.tagline": "Compressez, convertissez et redimensionnez des photos, créez des codes QR et des favicons, choisissez des couleurs et réalisez des GIF.",
+    "audio": "Outils audio",
+    "audio.tagline": "Coupez, joignez, convertissez et enregistrez du son ; modifiez le volume, la vitesse et la hauteur, et égalisez les pistes.",
+    "video": "Outils vidéo",
+    "video.tagline": "Compressez des clips et enregistrez votre écran ou votre webcam — le tout dans le navigateur."
+  },
+  "kw": {
+    "join audio files": "fusionner des fichiers audio",
+    "merge mp3": "fusionner des MP3",
+    "combine audio online": "combiner l'audio en ligne",
+    "audio converter": "convertisseur audio",
+    "convert to mp3": "convertir en MP3",
+    "wav to mp3": "WAV vers MP3",
+    "change audio volume": "changer le volume audio",
+    "increase mp3 volume": "augmenter le volume MP3",
+    "audio volume booster": "amplificateur de volume audio",
+    "reverse audio": "inverser l'audio",
+    "play audio backwards": "lire l'audio à l'envers",
+    "reverse mp3 online": "inverser un MP3 en ligne",
+    "change audio speed": "changer la vitesse audio",
+    "speed up audio": "accélérer l'audio",
+    "slow down audio online": "ralentir l'audio en ligne",
+    "change pitch": "changer la hauteur",
+    "pitch shifter online": "changeur de hauteur en ligne",
+    "raise pitch of audio": "augmenter la hauteur de l'audio",
+    "audio equalizer": "égaliseur audio",
+    "online equalizer": "égaliseur en ligne",
+    "bass boost audio": "renforcement des basses audio",
+    "voice recorder online": "enregistreur vocal en ligne",
+    "record audio": "enregistrer de l'audio",
+    "online microphone recorder": "enregistreur micro en ligne",
+    "screen recorder online": "enregistreur d'écran en ligne",
+    "record screen free": "enregistrer l'écran gratuitement",
+    "online screen capture": "capture d'écran en ligne",
+    "webcam recorder": "enregistreur webcam",
+    "record camera online": "enregistrer la caméra en ligne",
+    "video recorder online": "enregistreur vidéo en ligne",
+    "add page numbers to pdf": "ajouter des numéros de page à un PDF",
+    "pdf page numbering": "numérotation des pages PDF",
+    "number pdf pages": "numéroter les pages PDF"
+  },
+  "w": {
+    "decodingFile": "Décodage de {0}…",
+    "mp3SmallestWavLossless": "Le MP3 est petit et universel ; le WAV est sans perte et volumineux.",
+    "mp3Only": "MP3 uniquement",
+    "addAudioFilesInOrder": "Ajoutez les fichiers audio dans l'ordre où vous voulez les fusionner. Utilisez les flèches pour les réordonner.",
+    "join": "Fusionner",
+    "ui0Files1Duration": "{0} fichiers · {1}",
+    "ui0To1": "{0} → {1}",
+    "volumeHint": "100 % correspond au niveau sonore d'origine. Amplifier bien au-delà peut provoquer de la distorsion.",
+    "ui0Volume": "{0}% de volume",
+    "reverseHint": "Inverse la forme d'onde pour que le son soit lu à l'envers. La durée et la hauteur restent identiques.",
+    "speed": "Vitesse",
+    "speedHint": "Modifie le tempo sans changer la hauteur. 100 % correspond à la vitesse d'origine.",
+    "ui0SpeedResult": "{0} · {1}% de vitesse",
+    "pitchHint": "Décale la hauteur sans changer la durée du son. +12 correspond à une octave vers le haut.",
+    "ui0Semitones": "{0} demi-tons",
+    "eqBass": "Basses",
+    "eqLowMid": "Bas-médium",
+    "eqMid": "Médium",
+    "eqHighMid": "Haut-médium",
+    "eqTreble": "Aigus",
+    "preset": "Préréglage",
+    "presetFlat": "Plat",
+    "presetBass": "Basses renforcées",
+    "presetVocal": "Voix",
+    "presetTreble": "Aigus renforcés",
+    "eqHint": "Amplifiez ou atténuez cinq bandes, puis appuyez sur Appliquer pour effectuer le rendu du changement.",
+    "eqApplied": "Égaliseur 5 bandes appliqué",
+    "noWebAudio": "Ce navigateur ne prend pas en charge Web Audio, il ne peut donc pas décoder le son.",
+    "recorderReady": "Appuyez sur Enregistrer pour commencer. Rien n'est envoyé.",
+    "noScreenCapture": "Ce navigateur ne peut pas capturer l'écran. Essayez Chrome ou Edge sur ordinateur.",
+    "noMicCamera": "Ce navigateur ne peut pas accéder au microphone ni à la caméra. Une page sécurisée (https) est requise.",
+    "ui0SOfRecording": "{0} d'enregistrement",
+    "recordingSaved": "Votre enregistrement est ci-dessous. Téléchargez-le pour le conserver.",
+    "record": "Enregistrer",
+    "requestingPermission": "Autorisez l'accès lorsque votre navigateur le demande.",
+    "recordingInProgress": "Enregistrement… appuyez sur Arrêter lorsque vous avez terminé.",
+    "permissionDenied": "L'accès a été refusé. Activez l'autorisation du microphone, de la caméra ou de l'écran, puis réessayez.",
+    "recordingFailed": "L'enregistrement n'a pas pu démarrer.",
+    "bottom": "Bas",
+    "top": "Haut",
+    "alignment": "Alignement",
+    "alignLeft": "Gauche",
+    "alignCenter": "Centre",
+    "alignRight": "Droite",
+    "startNumber": "Numéro de départ",
+    "prefixHint": "Texte facultatif avant le numéro, p. ex. « Page ».",
+    "skipFirst": "Ignorer la première page (couverture)",
+    "addPageNumbers": "Ajouter les numéros de page",
+    "noPagesSelected": "Aucune page à numéroter avec cette plage.",
+    "ui0PagesNumbered": "{0} pages numérotées",
+    "pageNumbersNote": "Les numéros sont ajoutés sous forme de texte réel dans la marge ; le contenu d'origine de la page reste intact.",
+    "loadingFile": "Chargement de {0}…",
+    "preparing": "Préparation…",
+    "audioReversed": "Inversé"
+  },
+  "t": {
+    "audio-joiner": {
+      "title": "Fusion audio",
+      "h1": "Fusionnez des fichiers audio et assemblez des MP3 en ligne",
+      "desc": "Combinez des fichiers MP3, WAV, M4A et OGG en une piste dans l'ordre voulu. Gratuit, sans envoi ni filigrane — fusionnez l'audio dans votre navigateur.",
+      "intro": "Ajoutez deux clips ou plus, faites-les glisser dans le bon ordre, et l'outil décode chacun, harmonise la fréquence d'échantillonnage et les canaux, puis les concatène en un seul MP3 ou WAV. Tout s'exécute localement : vos enregistrements privés ne quittent jamais votre appareil.",
+      "steps": [
+        "Ajoutez les fichiers audio à combiner.",
+        "Faites glisser les fichiers ou utilisez les flèches pour définir l'ordre de lecture.",
+        "Choisissez MP3 ou WAV et un débit binaire.",
+        "Appuyez sur Fusionner et téléchargez la piste unique."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je fusionner des fichiers de formats différents ?",
+          "a": "Oui. Chaque fichier est décodé en échantillons bruts, puis rééchantillonné à une fréquence et un nombre de canaux communs avant d'être concaténé ; MP3, WAV, M4A et OGG peuvent donc être mélangés."
+        },
+        {
+          "q": "Y a-t-il une limite au nombre de fichiers que je peux fusionner ?",
+          "a": "Il n'y a pas de plafond fixe, mais les longs audio sont conservés en mémoire pendant le décodage et l'encodage ; gardez donc un total raisonnable sur les appareils à faible mémoire."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Convertisseur audio",
+      "h1": "Convertissez l'audio en MP3, WAV et plus en ligne",
+      "desc": "Convertissez WAV en MP3, M4A, OGG et plus dans le navigateur. Choisissez la fréquence d'échantillonnage et le débit, puis téléchargez — sans envoi ni compte.",
+      "intro": "Le convertisseur décode votre fichier avec le moteur audio du navigateur, le rééchantillonne à la fréquence choisie, puis le réencode en MP3 (petit et universel) ou WAV (sans perte). Comme tout se passe sur votre machine, l'original ne quitte jamais votre appareil.",
+      "steps": [
+        "Chargez le fichier audio à convertir.",
+        "Choisissez la fréquence d'échantillonnage de sortie.",
+        "Choisissez MP3 ou WAV et, pour MP3, un débit binaire.",
+        "Appuyez sur Convertir et téléchargez le nouveau fichier."
+      ],
+      "faq": [
+        {
+          "q": "Quels formats d'entrée peut-il lire ?",
+          "a": "Tout ce que votre navigateur peut décoder — généralement MP3, WAV, OGG, M4A/AAC et FLAC. Certains codecs protégés par DRM ou inhabituels sont refusés par le navigateur lui-même."
+        },
+        {
+          "q": "Pourquoi mon MP3 est-il plus petit que le WAV ?",
+          "a": "Le MP3 est une compression avec perte ; le WAV stocke chaque échantillon sans compression. Pour la voix et le partage, un MP3 à 128–192 kbps suffit généralement ; choisissez le WAV pour un master sans perte."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Amplificateur de volume",
+      "h1": "Changez le volume audio — amplifiez-le ou baissez-le en ligne",
+      "desc": "Augmentez ou diminuez le volume d'un fichier MP3, WAV ou M4A. Réglez le niveau de 0 à 400 %, prévisualisez et téléchargez. Gratuit, tout dans le navigateur.",
+      "intro": "Cet outil multiplie chaque échantillon par le gain défini : 100 % conserve le niveau d'origine, 200 % le double et 50 % le divise par deux. Amplifier bien au-delà de 100 % peut écrêter les pics forts ; prévisualisez donc avant d'exporter.",
+      "steps": [
+        "Chargez le fichier audio.",
+        "Faites glisser le curseur de volume jusqu'au niveau souhaité.",
+        "Choisissez la sortie MP3 ou WAV.",
+        "Appuyez sur Appliquer, écoutez, puis téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi l'audio se déforme-t-il quand je l'amplifie beaucoup ?",
+          "a": "Les échantillons dépassant la pleine échelle sont écrêtés. Si l'original est déjà fort, une forte amplification pousse les pics au-delà de la limite ; essayez d'abord un gain plus faible."
+        },
+        {
+          "q": "Puis-je au contraire rendre un fichier moins fort ?",
+          "a": "Oui — réglez le curseur sous 100 %. 50 % correspond à la moitié de l'amplitude, soit une baisse de niveau clairement perceptible."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Inversion audio",
+      "h1": "Inversez l'audio et lisez le son à l'envers en ligne",
+      "desc": "Inversez un fichier audio pour le lire à l'envers, de la fin au début. La durée et la hauteur restent identiques. Un inverseur MP3/WAV gratuit, sans envoi.",
+      "intro": "L'inversion copie la forme d'onde du dernier échantillon au premier, de sorte que le son est lu à l'envers tout en conservant sa durée et sa hauteur. C'est la méthode classique pour créer un effet de montée (riser), vérifier la présence de messages cachés ou écouter une chanson à l'envers.",
+      "steps": [
+        "Chargez le fichier audio.",
+        "Choisissez facultativement la sortie MP3 ou WAV.",
+        "Appuyez sur Inverser.",
+        "Lisez le résultat et téléchargez-le."
+      ],
+      "faq": [
+        {
+          "q": "L'inversion modifie-t-elle la hauteur ou la vitesse ?",
+          "a": "Non. Les échantillons sont simplement lus dans l'ordre inverse : la durée et les fréquences restent inchangées — seule la direction du temps s'inverse."
+        },
+        {
+          "q": "À quoi sert l'audio inversé ?",
+          "a": "Effets de montée pour les transitions, conception sonore, vérification de messages masqués à l'envers (backmasking), ou clip de type palindrome qui se lit de la même façon à l'endroit et à l'envers."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Changeur de vitesse audio",
+      "h1": "Accélérez ou ralentissez l'audio sans changer la hauteur",
+      "desc": "Modifiez le tempo audio de 50 % à 200 % en gardant une hauteur naturelle. Accélérez des cours ou ralentissez la musique pour l'apprendre — dans le navigateur.",
+      "intro": "Le changeur de vitesse utilise l'étirement temporel par recouvrement-addition (overlap-add) : une voix accélérée ne se transforme pas en voix de chipmunk et une chanson ralentie ne baisse pas en hauteur. 100 % correspond à la vitesse d'origine ; 200 % lit deux fois plus vite, en deux fois moins de temps.",
+      "steps": [
+        "Chargez le fichier audio.",
+        "Réglez le curseur de vitesse (50 %–200 %).",
+        "Choisissez la sortie MP3 ou WAV.",
+        "Appuyez sur Appliquer et téléchargez le clip au nouveau tempo."
+      ],
+      "faq": [
+        {
+          "q": "Accélérer l'audio augmente-t-il la hauteur ?",
+          "a": "Non — c'est tout l'intérêt de l'étirement temporel. Le tempo change mais la hauteur reste identique, contrairement à un simple rééchantillonnage du fichier."
+        },
+        {
+          "q": "Jusqu'où peut aller le changement de vitesse ?",
+          "a": "Le curseur va de 50 % à 200 %. De très grands étirements peuvent ajouter un léger flottement sur les passages complexes ; les changements modérés sonnent le plus naturellement."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Changeur de hauteur",
+      "h1": "Montez ou descendez la hauteur de l'audio en ligne",
+      "desc": "Décalez la hauteur audio jusqu'à ±12 demi-tons sans changer la durée. Montez ou descendez une voix ou un instrument, puis téléchargez gratuitement.",
+      "intro": "Le changement de hauteur rééchantillonne l'audio pour déplacer la fréquence, puis l'étire temporellement jusqu'à sa durée d'origine : le clip dure donc le même temps mais sonne plus haut ou plus bas. +12 demi-tons correspond à une octave vers le haut ; −12 à une octave vers le bas.",
+      "steps": [
+        "Chargez le fichier audio.",
+        "Réglez le décalage de hauteur en demi-tons (−12 à +12).",
+        "Choisissez la sortie MP3 ou WAV.",
+        "Appuyez sur Appliquer et téléchargez le clip transposé."
+      ],
+      "faq": [
+        {
+          "q": "Changer la hauteur modifie-t-il la durée du fichier ?",
+          "a": "Non. L'outil rétablit la durée d'origine après le décalage : seule la hauteur est modifiée, pas la durée."
+        },
+        {
+          "q": "Qu'est-ce qu'un demi-ton ?",
+          "a": "Le plus petit intervalle de la musique occidentale — une touche sur un piano. Douze demi-tons forment une octave : +12 double donc la fréquence et −12 la divise par deux."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Égaliseur audio",
+      "h1": "Égaliseur audio en ligne avec renforcement des basses et des aigus",
+      "desc": "Réglez 5 bandes (60 Hz–12 kHz) pour doper les basses, éclaircir les aigus ou modeler une voix. Préréglages ou affinage, puis exportez gratuitement en MP3/WAV.",
+      "intro": "Un égaliseur à crête cinq bandes vous permet d'atténuer ou de renforcer les basses, le bas-médium, le médium, le haut-médium et les aigus jusqu'à 12 dB chacun. Partez d'un préréglage — Plat, Basses renforcées, Voix ou Aigus renforcés — puis affinez et effectuez le rendu du changement dans un nouveau fichier.",
+      "steps": [
+        "Chargez le fichier audio.",
+        "Choisissez un préréglage ou faites glisser les cinq curseurs de bande.",
+        "Choisissez la sortie MP3 ou WAV.",
+        "Appuyez sur Appliquer et téléchargez la piste égalisée."
+      ],
+      "faq": [
+        {
+          "q": "Que contrôlent les cinq bandes ?",
+          "a": "60 Hz correspond au poids des basses, 250 Hz à la chaleur, 1 kHz au corps des voix, 4 kHz à la présence et à la clarté, et 12 kHz à l'air et à la brillance. Renforcez ou atténuez chacune à votre goût."
+        },
+        {
+          "q": "L'égalisation est-elle appliquée au fichier téléchargé ?",
+          "a": "Oui. Contrairement à un égaliseur limité à la lecture, celui-ci effectue le rendu du filtrage dans le MP3 ou WAV exporté : le changement est donc permanent dans le fichier que vous conservez."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Enregistreur vocal",
+      "h1": "Enregistrez de l'audio en ligne avec votre microphone",
+      "desc": "Enregistrez votre voix au micro directement dans le navigateur. Lancez, arrêtez, prévisualisez et téléchargez — sans appli, sans envoi ni compte.",
+      "intro": "L'enregistreur capte votre microphone via l'API MediaRecorder du navigateur et enregistre la prise localement pour que vous puissiez la prévisualiser et la télécharger. Rien n'est envoyé à un serveur ; l'enregistrement reste sur votre appareil jusqu'à ce que vous le conserviez.",
+      "steps": [
+        "Appuyez sur Enregistrer et autorisez l'accès au microphone.",
+        "Parlez ou jouez le son que vous voulez capturer.",
+        "Appuyez sur Arrêter lorsque vous avez terminé.",
+        "Prévisualisez la prise et téléchargez-la."
+      ],
+      "faq": [
+        {
+          "q": "Où mon enregistrement est-il stocké ?",
+          "a": "Uniquement dans la mémoire de votre navigateur jusqu'à ce que vous le téléchargiez. Rien n'est envoyé : si vous fermez la page, une prise non enregistrée est perdue."
+        },
+        {
+          "q": "Pourquoi le navigateur demande-t-il une autorisation ?",
+          "a": "L'accès au microphone exige toujours votre consentement explicite. Si vous l'avez refusé, réactivez l'autorisation du microphone pour ce site et appuyez à nouveau sur Enregistrer."
+        }
+      ]
+    },
+    "screen-recorder": {
+      "title": "Enregistreur d'écran",
+      "h1": "Enregistrez votre écran en ligne gratuitement",
+      "desc": "Capturez l'écran, une fenêtre ou un onglet, audio système en option. Enregistrez, arrêtez, prévisualisez et téléchargez le WebM — sans installation ni envoi.",
+      "intro": "L'enregistreur d'écran utilise l'API de capture d'affichage du navigateur pour enregistrer tout votre écran, une seule fenêtre ou un onglet, avec l'audio lorsque c'est pris en charge. La vidéo est assemblée localement et proposée au téléchargement ; elle ne touche jamais un serveur.",
+      "steps": [
+        "Appuyez sur Enregistrer et choisissez quoi partager (écran, fenêtre ou onglet).",
+        "Incluez facultativement l'audio dans le sélecteur de partage.",
+        "Appuyez sur Arrêter, ou mettez fin au partage, lorsque vous avez terminé.",
+        "Prévisualisez le clip et téléchargez le WebM."
+      ],
+      "faq": [
+        {
+          "q": "Quels navigateurs prennent en charge l'enregistrement d'écran ?",
+          "a": "Chrome et Edge sur ordinateur offrent la capture d'affichage la plus fiable, et Firefox la prend aussi en charge. Les navigateurs mobiles ne le font généralement pas ; utilisez donc un navigateur de bureau."
+        },
+        {
+          "q": "Peut-il enregistrer l'audio système ?",
+          "a": "Lorsque vous partagez un onglet ou tout l'écran, le sélecteur propose une option audio. L'inclusion de l'audio système dépend du navigateur et de ce que vous avez partagé."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Enregistreur webcam",
+      "h1": "Enregistrez une vidéo depuis votre webcam en ligne",
+      "desc": "Enregistrez-vous avec caméra et micro dans le navigateur. Prévisualisez le flux en direct, lancez l'enregistrement, puis téléchargez — gratuit, sans logiciel.",
+      "intro": "L'enregistreur webcam affiche un aperçu en direct de votre caméra, le capture avec le microphone via MediaRecorder et enregistre le clip localement pour prévisualisation et téléchargement. La vidéo ne quitte jamais votre appareil, sauf si vous la téléchargez.",
+      "steps": [
+        "Appuyez sur Enregistrer et autorisez l'accès à la caméra et au microphone.",
+        "Vérifiez l'aperçu en direct et cadrez-vous.",
+        "Appuyez sur Arrêter lorsque vous avez terminé.",
+        "Prévisualisez l'enregistrement et téléchargez-le."
+      ],
+      "faq": [
+        {
+          "q": "La vidéo est-elle envoyée quelque part ?",
+          "a": "Non. Elle est enregistrée et conservée dans votre navigateur, puis proposée en téléchargement local. Rien n'est envoyé à un serveur."
+        },
+        {
+          "q": "Quel est le format de l'enregistrement ?",
+          "a": "Une vidéo WebM (VP8/VP9 avec audio Opus) lorsque le navigateur la prend en charge, lisible dans les navigateurs modernes et la plupart des éditeurs. Certains navigateurs peuvent produire du MP4."
+        }
+      ]
+    },
+    "pdf-page-numbers": {
+      "title": "Numéros de page PDF",
+      "h1": "Ajoutez des numéros de page à un PDF en ligne",
+      "desc": "Numérotez un PDF en haut ou en bas, à gauche, au centre ou à droite. Réglez le numéro de départ, la taille de police et un préfixe. Gratuit, sans envoi.",
+      "intro": "Cet outil appose un vrai numéro de page textuel sur chaque page de votre PDF avec pdf-lib : les numéros restent nets à tout zoom et sont sélectionnables. Placez-les dans l'en-tête ou le pied de page, ignorez la couverture et ajoutez un préfixe facultatif.",
+      "steps": [
+        "Chargez le PDF à numéroter.",
+        "Choisissez la position, l'alignement et le numéro de départ.",
+        "Réglez la taille de police et un préfixe facultatif ; ignorez la couverture si nécessaire.",
+        "Appuyez sur Ajouter les numéros de page et téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je commencer à une page ou un numéro précis ?",
+          "a": "Oui. Réglez le numéro de départ et utilisez la plage de pages pour n'en numéroter que certaines, ou cochez « ignorer la première page » pour laisser une couverture non numérotée."
+        },
+        {
+          "q": "Les numéros sont-ils ajoutés comme texte ou comme image ?",
+          "a": "Comme un vrai texte vectoriel : ils restent nets à l'impression et peuvent être sélectionnés et recherchés dans le PDF final."
+        }
+      ]
+    }
+  }
+}

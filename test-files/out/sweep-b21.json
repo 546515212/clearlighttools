@@ -1,0 +1,174 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:22:40.677Z",
+ "planned": [
+  "age-calculator",
+  "date-calculator",
+  "loan-calculator",
+  "discount-calculator",
+  "unit-converter",
+  "color-converter",
+  "calorie-calculator",
+  "timestamp-converter",
+  "random-number-generator"
+ ],
+ "rows": [
+  {
+   "tool": "age-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Age31 years, 4 months, 23 daysborn Thursday, June 15, 1995Total days11,4681,638 weeksTotal hours275,23216,513,",
+    "Age31 years, 4 months, 23 daysborn Thursday, June 15, 1995",
+    "Total days11,4681,638 weeksTotal hours275,23216,513,920 minutesNext birthdayin 220 daysTuesday, June 15Birthda"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1203
+  },
+  {
+   "tool": "date-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "30 days laterMonday, December 7, 20262026-12-07Calendar days30plain daysWeeks + days4 w 2 d720 hoursThat month",
+    "30 days laterMonday, December 7, 20262026-12-07",
+    "Calendar days30plain daysWeeks + days4 w 2 d720 hoursThat monthDecember has 31 days"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1004
+  },
+  {
+   "tool": "loan-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Monthly payment607.5336 paymentsTotal interest1,871.199.36% of what you borrowedTotal repaid21,871.191.0935593",
+    "Monthly payment607.5336 payments",
+    "Total interest1,871.199.36% of what you borrowedTotal repaid21,871.191.093559324× the amountTerm3 y 0 mas agre"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1003
+  },
+  {
+   "tool": "discount-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "You pay90.00before any taxYou save30.0025% off the sticker priceAfter discount90.0090.00Tax amount0.00calculat",
+    "You pay90.00before any tax",
+    "You save30.0025% off the sticker priceAfter discount90.0090.00Tax amount0.00calculated on the discounted price"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 990
+  },
+  {
+   "tool": "unit-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "1 m equalsResult3.280839895 ft1 m = 3.280839895 ftAll units at oncem1copykm0.001copycm100copymm1,000copyµm1,00",
+    "Result3.280839895 ft1 m = 3.280839895 ft",
+    "m1copykm0.001copycm100copymm1,000copyµm1,000,000copynm1,000,000,000copymi0.0006213711922copyyd1.093613298copyf"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1009
+  },
+  {
+   "tool": "color-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "#3366FF"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1002
+  },
+  {
+   "tool": "calorie-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Maintenance1,869 kcalBMR 1,359 kcal × 1.375 activityDaily target1,869 kcalweight stays where it isProtein99 kc",
+    "Maintenance1,869 kcalBMR 1,359 kcal × 1.375 activity",
+    "Daily target1,869 kcalweight stays where it isProtein99 kcal1.6 g/kg → 99 gFat502 kcal0.9 g/kg → 56 gCarbohydr"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 989
+  },
+  {
+   "tool": "timestamp-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Now (seconds)",
+    "Now (seconds)",
+    "Now (milliseconds)",
+    "One year from now",
+    "Now (milliseconds)",
+    "Now (seconds)",
+    "Now (milliseconds)",
+    "One year from now",
+    "One year from now",
+    "Now (seconds)",
+    "Now (milliseconds)",
+    "One year from now"
+   ],
+   "bytes": [],
+   "output": [
+    "That moment isNovember 7, 2027read as seconds (10 digits)LocalSunday, November 7, 2027 at 8:22:58 PM GMT+8copy",
+    "That moment isNovember 7, 2027read as seconds (10 digits)",
+    "LocalSunday, November 7, 2027 at 8:22:58 PM GMT+8copyISO 86012027-11-07T12:22:58.000ZcopyUTCSun, 07 Nov 2027 1"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 12996
+  },
+  {
+   "tool": "random-number-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Draw again",
+    "Draw again",
+    ".txt",
+    ".txt"
+   ],
+   "bytes": [
+    "random-random-numbers.txt | 28 | text/plain",
+    "random-random-numbers.txt | 28 | text/plain"
+   ],
+   "output": [
+    "Drawn10repeats allowedRange1 – 1000 decimal placesSum519Average51.9expected around 50.5Lowest / highest3 / 88N",
+    "Drawn10repeats allowed",
+    "Range1 – 1000 decimal placesSum519Average51.9expected around 50.5Lowest / highest3 / 88"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 5006
+  }
+ ],
+ "finishedAt": "2026-11-07T12:23:05.890Z"
+}

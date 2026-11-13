@@ -1,0 +1,431 @@
+{
+  "_note": "Authoritative English source for the first media batch. Translate every value into the target language; keep every key, every {0}/{1} placeholder and every % sign. Do not summarise. desc must be <=160 code points (hard fail >170); title <=50; home <=65. Output scripts/media-i18n/<locale>.json with exactly: search, home, cat{6}, kw{33}, w{53}, t{11 tools each title/h1/desc/intro/steps[4]/faq[2]{q,a}}.",
+  "locales": [
+    "zh",
+    "es",
+    "fr",
+    "de",
+    "pt",
+    "ja",
+    "ko",
+    "ru",
+    "vi",
+    "ms",
+    "id",
+    "hi"
+  ],
+  "newIds": [
+    "audio-joiner",
+    "audio-converter",
+    "change-volume",
+    "reverse-audio",
+    "change-speed",
+    "change-pitch",
+    "equalizer",
+    "voice-recorder",
+    "screen-recorder",
+    "webcam-recorder",
+    "pdf-page-numbers"
+  ],
+  "en_search": "Search 60 free tools…",
+  "en_home": "ClearLight Tools — Free Online PDF, Image, Audio & Video Tools",
+  "en_cat": {
+    "image": "Image tools",
+    "image.tagline": "Compress, convert and resize photos, build QR codes and favicons, pick colours and make GIFs.",
+    "audio": "Audio tools",
+    "audio.tagline": "Cut, join, convert and record sound; change volume, speed and pitch, and equalise tracks.",
+    "video": "Video tools",
+    "video.tagline": "Compress clips and record your screen or webcam — all in the browser."
+  },
+  "w_keys": [
+    "decodingFile",
+    "mp3SmallestWavLossless",
+    "mp3Only",
+    "addAudioFilesInOrder",
+    "join",
+    "ui0Files1Duration",
+    "ui0To1",
+    "volumeHint",
+    "ui0Volume",
+    "reverseHint",
+    "speed",
+    "speedHint",
+    "ui0SpeedResult",
+    "pitchHint",
+    "ui0Semitones",
+    "eqBass",
+    "eqLowMid",
+    "eqMid",
+    "eqHighMid",
+    "eqTreble",
+    "preset",
+    "presetFlat",
+    "presetBass",
+    "presetVocal",
+    "presetTreble",
+    "eqHint",
+    "eqApplied",
+    "noWebAudio",
+    "recorderReady",
+    "noScreenCapture",
+    "noMicCamera",
+    "ui0SOfRecording",
+    "recordingSaved",
+    "record",
+    "requestingPermission",
+    "recordingInProgress",
+    "permissionDenied",
+    "recordingFailed",
+    "bottom",
+    "top",
+    "alignment",
+    "alignLeft",
+    "alignCenter",
+    "alignRight",
+    "startNumber",
+    "prefixHint",
+    "skipFirst",
+    "addPageNumbers",
+    "noPagesSelected",
+    "ui0PagesNumbered",
+    "pageNumbersNote",
+    "loadingFile",
+    "preparing",
+    "audioReversed"
+  ],
+  "en_w": {
+    "decodingFile": "Decoding {0}…",
+    "mp3SmallestWavLossless": "MP3 is small and universal; WAV is lossless and large.",
+    "mp3Only": "MP3 only",
+    "addAudioFilesInOrder": "Add audio files in the order you want them joined. Use the arrows to reorder.",
+    "join": "Join",
+    "ui0Files1Duration": "{0} files · {1}",
+    "ui0To1": "{0} → {1}",
+    "volumeHint": "100% is the original loudness. Boosting far above it can distort.",
+    "ui0Volume": "{0}% volume",
+    "reverseHint": "Reverses the waveform so the sound plays backwards. Duration and pitch stay the same.",
+    "speed": "Speed",
+    "speedHint": "Changes tempo without changing pitch. 100% is the original speed.",
+    "ui0SpeedResult": "{0} · {1}% speed",
+    "pitchHint": "Shifts pitch without changing how long the sound lasts. +12 is one octave up.",
+    "ui0Semitones": "{0} semitones",
+    "eqBass": "Bass",
+    "eqLowMid": "Low mid",
+    "eqMid": "Mid",
+    "eqHighMid": "High mid",
+    "eqTreble": "Treble",
+    "preset": "Preset",
+    "presetFlat": "Flat",
+    "presetBass": "Bass boost",
+    "presetVocal": "Vocal",
+    "presetTreble": "Treble boost",
+    "eqHint": "Boost or cut five bands, then press Apply to render the change.",
+    "eqApplied": "5-band EQ applied",
+    "noWebAudio": "This browser has no Web Audio support, so it cannot decode sound.",
+    "recorderReady": "Press Record to begin. Nothing is uploaded.",
+    "noScreenCapture": "This browser cannot capture the screen. Try Chrome or Edge on desktop.",
+    "noMicCamera": "This browser cannot reach the microphone or camera. A secure (https) page is required.",
+    "ui0SOfRecording": "{0} recording",
+    "recordingSaved": "Your recording is below. Download it to keep it.",
+    "record": "Record",
+    "requestingPermission": "Allow access when your browser asks for it.",
+    "recordingInProgress": "Recording… press Stop when you are done.",
+    "permissionDenied": "Access was denied. Enable the microphone, camera or screen permission and try again.",
+    "recordingFailed": "Recording could not start.",
+    "bottom": "Bottom",
+    "top": "Top",
+    "alignment": "Alignment",
+    "alignLeft": "Left",
+    "alignCenter": "Center",
+    "alignRight": "Right",
+    "startNumber": "Start number",
+    "prefixHint": "Optional text before the number, e.g. \"Page \".",
+    "skipFirst": "Skip the first page (cover)",
+    "addPageNumbers": "Add page numbers",
+    "noPagesSelected": "No pages left to number with that range.",
+    "ui0PagesNumbered": "{0} pages numbered",
+    "pageNumbersNote": "Numbers are added as real text in the margin; the original page content is untouched.",
+    "loadingFile": "Loading {0}…",
+    "preparing": "Preparing…",
+    "audioReversed": "Reversed"
+  },
+  "kw_phrases": [
+    "join audio files",
+    "merge mp3",
+    "combine audio online",
+    "audio converter",
+    "convert to mp3",
+    "wav to mp3",
+    "change audio volume",
+    "increase mp3 volume",
+    "audio volume booster",
+    "reverse audio",
+    "play audio backwards",
+    "reverse mp3 online",
+    "change audio speed",
+    "speed up audio",
+    "slow down audio online",
+    "change pitch",
+    "pitch shifter online",
+    "raise pitch of audio",
+    "audio equalizer",
+    "online equalizer",
+    "bass boost audio",
+    "voice recorder online",
+    "record audio",
+    "online microphone recorder",
+    "screen recorder online",
+    "record screen free",
+    "online screen capture",
+    "webcam recorder",
+    "record camera online",
+    "video recorder online",
+    "add page numbers to pdf",
+    "pdf page numbering",
+    "number pdf pages"
+  ],
+  "en_t": {
+    "audio-joiner": {
+      "title": "Audio Joiner",
+      "h1": "Join audio files and merge MP3 online",
+      "desc": "Combine MP3, WAV, M4A and OGG files into one track in the order you choose. Free, no upload, no watermark — merge audio in your browser.",
+      "intro": "Add two or more clips, drag them into the right order, and the joiner decodes each one, matches sample rate and channels, and concatenates them into a single MP3 or WAV. Everything runs locally, so private recordings never leave your device.",
+      "steps": [
+        "Add the audio files you want to combine.",
+        "Drag or use the arrows to set the playback order.",
+        "Choose MP3 or WAV and a bitrate.",
+        "Press Join and download the single track."
+      ],
+      "faq": [
+        {
+          "q": "Can I join files of different formats?",
+          "a": "Yes. Each file is decoded to raw samples, then resampled to a common rate and channel count before they are concatenated, so MP3, WAV, M4A and OGG can be mixed."
+        },
+        {
+          "q": "Is there a limit on how many files I can merge?",
+          "a": "There is no fixed cap, but long audio is held in memory while it is decoded and encoded, so keep the total reasonable on low-memory devices."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Audio Converter",
+      "h1": "Convert audio to MP3, WAV and more online",
+      "desc": "Convert WAV to MP3, M4A, OGG and other audio formats in your browser. Pick the sample rate and bitrate, then download — no upload, no account.",
+      "intro": "The converter decodes your file with the browser’s audio engine, resamples it to the rate you choose, and re-encodes it to MP3 (small and universal) or WAV (lossless). Because it all happens on your machine, the original never leaves your device.",
+      "steps": [
+        "Load the audio file you want to convert.",
+        "Choose the output sample rate.",
+        "Pick MP3 or WAV and, for MP3, a bitrate.",
+        "Press Convert and download the new file."
+      ],
+      "faq": [
+        {
+          "q": "Which input formats can it read?",
+          "a": "Anything your browser can decode — commonly MP3, WAV, OGG, M4A/AAC and FLAC. Some DRM-protected or unusual codecs are refused by the browser itself."
+        },
+        {
+          "q": "Why is my MP3 smaller than the WAV?",
+          "a": "MP3 is lossy compression; WAV stores every sample uncompressed. For voice and sharing, MP3 at 128–192 kbps is usually plenty; choose WAV for a lossless master."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Volume Booster",
+      "h1": "Change audio volume — boost or lower it online",
+      "desc": "Increase or decrease the volume of an MP3, WAV or M4A file. Set the level from 0 to 400%, preview and download. Free and fully in-browser.",
+      "intro": "This tool multiplies every sample by the gain you set, so 100% keeps the original loudness, 200% doubles it and 50% halves it. Boosting far past 100% can clip loud peaks, so preview before you export.",
+      "steps": [
+        "Load the audio file.",
+        "Drag the volume slider to the level you want.",
+        "Choose MP3 or WAV output.",
+        "Press Apply, listen, then download."
+      ],
+      "faq": [
+        {
+          "q": "Why does the audio distort when I boost it a lot?",
+          "a": "Samples above full scale are clipped. If the original is already loud, a large boost pushes peaks past the limit; try a smaller gain first."
+        },
+        {
+          "q": "Can I make a file quieter instead?",
+          "a": "Yes — set the slider below 100%. 50% is half the amplitude, a clearly noticeable drop in loudness."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Reverse Audio",
+      "h1": "Reverse audio and play sound backwards online",
+      "desc": "Flip an audio file so it plays backwards, from end to start. Duration and pitch stay the same. A free MP3/WAV reverser with no upload.",
+      "intro": "Reversing copies the waveform from the last sample to the first, so the sound plays in reverse while keeping its length and pitch. It is the classic way to make a riser effect, check for hidden messages, or hear a song backwards.",
+      "steps": [
+        "Load the audio file.",
+        "Optionally pick MP3 or WAV output.",
+        "Press Reverse.",
+        "Play the result and download it."
+      ],
+      "faq": [
+        {
+          "q": "Does reversing change the pitch or speed?",
+          "a": "No. The samples are simply read in the opposite order, so duration and frequencies are unchanged — only the time direction flips."
+        },
+        {
+          "q": "What can I use reversed audio for?",
+          "a": "Transition risers, sound design, checking for backmasked messages, or a palindrome-style clip that reads the same forwards and backwards."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Audio Speed Changer",
+      "h1": "Speed up or slow down audio without changing pitch",
+      "desc": "Change audio tempo from 50% to 200% while keeping the pitch natural. Speed up lectures or slow down music to learn it — in your browser.",
+      "intro": "The speed changer uses overlap-add time stretching, so a voice sped up does not turn into a chipmunk and a slowed-down song does not drop in pitch. 100% is the original speed; 200% plays twice as fast in half the time.",
+      "steps": [
+        "Load the audio file.",
+        "Set the speed slider (50%–200%).",
+        "Choose MP3 or WAV output.",
+        "Press Apply and download the retimed clip."
+      ],
+      "faq": [
+        {
+          "q": "Will speeding up audio raise the pitch?",
+          "a": "No — that is the point of time stretching. The tempo changes but the pitch stays the same, unlike simply resampling the file."
+        },
+        {
+          "q": "How extreme can the speed change be?",
+          "a": "The slider runs from 50% to 200%. Very large stretches can add a slight warble on complex material; moderate changes sound most natural."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Pitch Shifter",
+      "h1": "Change the pitch of audio up or down online",
+      "desc": "Shift audio pitch by up to 12 semitones either way without changing the duration. Raise or lower a voice or instrument, then download free.",
+      "intro": "Pitch shifting resamples the audio to move the frequency, then time-stretches it back to the original length, so the clip lasts the same time but sounds higher or lower. +12 semitones is one octave up; −12 is one octave down.",
+      "steps": [
+        "Load the audio file.",
+        "Set the pitch shift in semitones (−12 to +12).",
+        "Choose MP3 or WAV output.",
+        "Press Apply and download the shifted clip."
+      ],
+      "faq": [
+        {
+          "q": "Does changing pitch change how long the file is?",
+          "a": "No. The tool restores the original duration after shifting, so only the pitch moves, not the timing."
+        },
+        {
+          "q": "What is a semitone?",
+          "a": "The smallest step in Western music — one key on a piano. Twelve semitones make an octave, so +12 doubles the frequency and −12 halves it."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Audio Equalizer",
+      "h1": "Online audio equalizer with bass and treble boost",
+      "desc": "Adjust five bands (60 Hz–12 kHz) to boost bass, brighten treble or shape a vocal. Use presets or fine-tune, then export MP3 or WAV free.",
+      "intro": "A five-band peaking equalizer lets you cut or boost bass, low mid, mid, high mid and treble by up to 12 dB each. Start from a preset — Flat, Bass boost, Vocal or Treble boost — then fine-tune and render the change to a new file.",
+      "steps": [
+        "Load the audio file.",
+        "Pick a preset or drag the five band sliders.",
+        "Choose MP3 or WAV output.",
+        "Press Apply and download the equalized track."
+      ],
+      "faq": [
+        {
+          "q": "What do the five bands control?",
+          "a": "60 Hz is bass weight, 250 Hz warmth, 1 kHz the body of vocals, 4 kHz presence and clarity, and 12 kHz air and sparkle. Boost or cut each to taste."
+        },
+        {
+          "q": "Is the EQ applied to the downloaded file?",
+          "a": "Yes. Unlike a playback-only equalizer, this renders the filtering into the exported MP3 or WAV, so the change is permanent in the file you keep."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Voice Recorder",
+      "h1": "Record audio online with your microphone",
+      "desc": "Record your voice from the microphone straight in the browser. Press record, stop, preview and download — no app, no upload, no account.",
+      "intro": "The recorder captures your microphone with the browser’s MediaRecorder API and saves the take locally so you can preview and download it. Nothing is sent to a server; the recording stays on your device until you keep it.",
+      "steps": [
+        "Press Record and allow microphone access.",
+        "Speak or play the sound you want to capture.",
+        "Press Stop when you are done.",
+        "Preview the take and download it."
+      ],
+      "faq": [
+        {
+          "q": "Where is my recording stored?",
+          "a": "Only in your browser’s memory until you download it. Nothing is uploaded, so once you close the page an unsaved take is gone."
+        },
+        {
+          "q": "Why does the browser ask for permission?",
+          "a": "Microphone access always needs your explicit consent. If you denied it, re-enable the microphone permission for this site and press Record again."
+        }
+      ]
+    },
+    "screen-recorder": {
+      "title": "Screen Recorder",
+      "h1": "Record your screen online for free",
+      "desc": "Capture your screen, a window or a tab with optional system audio. Record, stop, preview and download a WebM video — no install, no upload.",
+      "intro": "The screen recorder uses the browser’s display-capture API to record your whole screen, a single window or a tab, with audio where supported. The video is assembled locally and offered as a download; it never touches a server.",
+      "steps": [
+        "Press Record and choose what to share (screen, window or tab).",
+        "Optionally include audio in the share picker.",
+        "Press Stop, or end the share, when finished.",
+        "Preview the clip and download the WebM."
+      ],
+      "faq": [
+        {
+          "q": "Which browsers support screen recording?",
+          "a": "Chrome and Edge on desktop have the most reliable display capture, and Firefox supports it too. Mobile browsers generally do not, so use a desktop browser."
+        },
+        {
+          "q": "Can it record system audio?",
+          "a": "When you share a tab or the whole screen the picker offers an audio option. Whether system audio is included depends on the browser and what you shared."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Webcam Recorder",
+      "h1": "Record video from your webcam online",
+      "desc": "Record yourself with the camera and microphone in your browser. Preview the live feed, press record, then download — free, no software.",
+      "intro": "The webcam recorder shows a live preview from your camera, captures it with the microphone through MediaRecorder, and saves the clip locally for preview and download. The video never leaves your device unless you download it.",
+      "steps": [
+        "Press Record and allow camera and microphone access.",
+        "Check the live preview and frame yourself.",
+        "Press Stop when you are done.",
+        "Preview the recording and download it."
+      ],
+      "faq": [
+        {
+          "q": "Is the video uploaded anywhere?",
+          "a": "No. It is recorded and held in your browser, then offered as a local download. Nothing is sent to a server."
+        },
+        {
+          "q": "What format is the recording?",
+          "a": "A WebM video (VP8/VP9 with Opus audio) where the browser supports it, which plays in modern browsers and most editors. Some browsers may produce MP4."
+        }
+      ]
+    },
+    "pdf-page-numbers": {
+      "title": "PDF Page Numbers",
+      "h1": "Add page numbers to a PDF online",
+      "desc": "Insert page numbers into a PDF at the top or bottom, left, centre or right. Set the start number, font size and a prefix. Free, no upload.",
+      "intro": "This tool stamps a real text page number onto each page of your PDF with pdf-lib, so the numbers stay crisp at any zoom and are selectable. Position them in the header or footer, skip the cover, and add an optional prefix.",
+      "steps": [
+        "Load the PDF you want to number.",
+        "Choose the position, alignment and starting number.",
+        "Set the font size and an optional prefix; skip the cover if needed.",
+        "Press Add page numbers and download."
+      ],
+      "faq": [
+        {
+          "q": "Can I start from a specific page or number?",
+          "a": "Yes. Set the starting number and use the page range to number only certain pages, or tick “skip the first page” to leave a cover unnumbered."
+        },
+        {
+          "q": "Are the numbers added as text or an image?",
+          "a": "As real vector text, so they scale cleanly in print and can be selected and searched in the finished PDF."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2888 @@
+{
+  "w": {
+    "level": "Level",
+    "mode": "Mode",
+    "width": "Width",
+    "height": "Height",
+    "lockRatio": "Keep aspect ratio",
+    "format": "Format",
+    "dpi": "Resolution",
+    "scale": "Scale",
+    "pages": "Pages",
+    "pageRange": "Page range",
+    "allPages": "All pages",
+    "from": "From",
+    "to": "To",
+    "angle": "Angle",
+    "text": "Text",
+    "opacity": "Opacity",
+    "fontSize": "Font size",
+    "color": "Colour",
+    "background": "Background",
+    "position": "Position",
+    "filename": "Output file name",
+    "resultSize": "Result",
+    "originalSize": "Original",
+    "newSize": "Compressed",
+    "reducedBy": "Reduced by",
+    "count": "Count",
+    "start": "Start",
+    "end": "End",
+    "length": "Length",
+    "includeNumbers": "Include numbers",
+    "includeSymbols": "Include symbols",
+    "uppercase": "Uppercase letters",
+    "lowercase": "Lowercase letters",
+    "generate": "Generate",
+    "regenerate": "Regenerate",
+    "strength": "Strength",
+    "quantity": "How many",
+    "paragraphs": "Paragraphs",
+    "sentences": "Sentences",
+    "wordsOut": "Words",
+    "prefix": "Prefix",
+    "version": "Version",
+    "flags": "Flags",
+    "pattern": "Pattern",
+    "testString": "Test string",
+    "matches": "Matches",
+    "explain": "Explanation",
+    "left": "Original",
+    "right": "Changed",
+    "onlyDiff": "Show changed lines only",
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop",
+    "voice": "Voice",
+    "rate": "Speed",
+    "pitch": "Pitch",
+    "volume": "Volume",
+    "trimFrom": "Cut from",
+    "trimTo": "Cut until",
+    "fadeOut": "Fade out (s)",
+    "loop": "Loop",
+    "frameDelay": "Frame delay (ms)",
+    "targetSize": "Target size",
+    "bitrate": "Bitrate",
+    "crop": "Crop",
+    "rotate": "Rotate",
+    "grayscale": "Grayscale",
+    "brightness": "Brightness",
+    "contrast": "Contrast",
+    "saturation": "Saturation",
+    "blur": "Blur",
+    "apply": "Apply",
+    "value": "Value",
+    "unit": "Unit",
+    "convert": "Convert",
+    "equals": "Equals",
+    "category": "Category",
+    "date": "Date",
+    "number": "Number",
+    "percent": "Percent",
+    "amount": "Amount",
+    "price": "Price",
+    "discount": "Discount",
+    "payAfter": "You pay",
+    "youSave": "You save",
+    "weight": "Weight",
+    "cm": "Height (cm)",
+    "kg": "Weight (kg)",
+    "result": "Result",
+    "birthDate": "Date of birth",
+    "onDate": "On this date",
+    "years": "years",
+    "months": "months",
+    "days": "days",
+    "principal": "Loan amount",
+    "rateYear": "Annual interest rate",
+    "termYears": "Term (years)",
+    "monthly": "Monthly payment",
+    "totalInterest": "Total interest",
+    "totalPaid": "Total paid",
+    "frequency": "Activity level",
+    "sex": "Sex",
+    "age": "Age",
+    "target": "Target",
+    "male": "Male",
+    "female": "Female",
+    "maintain": "Maintain",
+    "lose": "Lose weight",
+    "gain": "Gain weight",
+    "timezone": "Time zone",
+    "localTime": "Local time",
+    "utc": "UTC",
+    "epoch": "Unix timestamp",
+    "iso": "ISO 8601",
+    "min": "Minimum",
+    "max": "Maximum",
+    "unique": "No repeats",
+    "output": "Output",
+    "copyList": "Copy list",
+    "sortAsc": "Sort A to Z",
+    "removeBlank": "Remove empty lines",
+    "trimSpaces": "Trim spaces",
+    "uniqueOnly": "Keep unique lines",
+    "countOnly": "Count duplicates",
+    "reversed": "Reverse order",
+    "download": "Download",
+    "sentencesOut": "Sentences",
+    "readingTime": "Reading time",
+    "speakingTime": "Speaking time",
+    "noRepeat": "No repeats",
+    "lineCount": "Lines",
+    "bytes": "Bytes",
+    "downloadTxt": "Download as .txt",
+    "startPage": "Start page",
+    "endPage": "End page",
+    "extractEach": "Save each page as a separate file",
+    "mergeNote": "Files are merged in the order shown.",
+    "qualityAuto": "Recommended",
+    "qualityHigh": "Best quality",
+    "qualitySmall": "Smallest file",
+    "imageFormat": "Output format",
+    "maxWidth": "Max width (px)",
+    "minify": "Minify",
+    "indent": "Indent",
+    "validate": "Validate",
+    "delimiter": "Delimiter",
+    "hasHeader": "First row is a header",
+    "escape": "Escape",
+    "unescape": "Unescape",
+    "encode": "Encode",
+    "decode": "Decode",
+    "algorithm": "Algorithm",
+    "inputText": "Input",
+    "titleCase": "Title Case",
+    "sentenceCase": "Sentence case",
+    "lower": "lowercase",
+    "upper": "UPPERCASE",
+    "camel": "camelCase",
+    "snake": "snake_case",
+    "kebab": "kebab-case",
+    "altCase": "aLtErNaTiNg",
+    "inverse": "iNVERSE cASE",
+    "targetFormat": "Convert to",
+    "sourceFormat": "Source",
+    "preview": "Preview",
+    "swatch": "Swatch",
+    "hues": "Palette",
+    "pickFromImage": "Pick colours from an image",
+    "eyedropper": "Use the screen eyedropper",
+    "paletteSize": "Colours in palette",
+    "wifi": "Wi-Fi",
+    "ssid": "Network name",
+    "password": "Password",
+    "encryption": "Encryption",
+    "openUrl": "Open a link",
+    "content": "Content",
+    "errorCorrection": "Error correction",
+    "quietZone": "Quiet zone",
+    "pixelSize": "Pixel size",
+    "printable": "Printable size",
+    "sizes": "Sizes",
+    "sizesNote": "16, 32, 48, 64, 128 and 180 px plus a ready favicon.ico",
+    "url": "URL",
+    "pageUrl": "Web page URL",
+    "print": "Open the print dialog",
+    "paper": "Paper",
+    "margins": "Margins",
+    "orientation": "Orientation",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "keepImages": "Keep images and colours",
+    "fileName": "File name",
+    "filesReady": "files ready",
+    "oneFileOnly": "Add a single file for this mode.",
+    "dropMore": "Drop more files",
+    "emptyState": "Your result appears here.",
+    "progress": "Progress",
+    "estimated": "Estimated",
+    "actual": "Actual",
+    "ratio": "Ratio",
+    "freeHint": "Works offline in your browser. Nothing is uploaded.",
+    "pctWhatIs": "What is X% of Y?",
+    "pctIsWhat": "X is what percent of Y?",
+    "pctChange": "Increase or decrease",
+    "pctReverse": "Reverse percentage",
+    "change": "Change",
+    "afterChange": "After the change",
+    "byPercent": "by (%)",
+    "units": "Units",
+    "heightFt": "Height (ft)",
+    "inchesPlus": "+ inches",
+    "weightLb": "Weight (lb)",
+    "yourBmi": "Your BMI",
+    "healthyWeight": "Healthy weight here",
+    "metricUnits": "Metric (cm, kg)",
+    "imperialUnits": "Imperial (ft/in, lb)",
+    "bmiUnderweight": "Underweight",
+    "bmiHealthy": "Healthy range",
+    "bmiOverweight": "Overweight",
+    "bmiObese": "Obesity class I–III",
+    "bmiBandUnder": "Under < {0}",
+    "bmiBandHealthy": "Healthy {0} – {1}",
+    "bmiBandOver": "Over {0} – {1}",
+    "bmiBandObese": "Obese ≥ {0}",
+    "ageAsOf": "Age as of",
+    "totalDays": "Total days",
+    "totalHours": "Total hours",
+    "nextBirthday": "Next birthday",
+    "birthdaysSoFar": "Birthdays so far",
+    "startDate": "Start date",
+    "secondDate": "Second date",
+    "direction": "Direction",
+    "skipWeekends": "Skip weekends",
+    "daysUnit": "Days",
+    "weeksUnit": "Weeks",
+    "monthsUnit": "Months",
+    "yearsUnit": "Years",
+    "addDir": "Add",
+    "subDir": "Subtract",
+    "calendarDays": "Calendar days",
+    "weeksAndDaysShort": "Weeks + days",
+    "thatMonth": "That month",
+    "addTimeTitle": "Add or subtract time",
+    "betweenDatesTitle": "Days between two dates",
+    "betweenDates": "Between the two dates",
+    "brokenDown": "Broken down",
+    "weeksAndDays": "Weeks and days",
+    "workingDays": "Working days",
+    "weekendDays": "Weekend days",
+    "hours": "Hours",
+    "amountBorrowed": "Amount borrowed",
+    "ratePerYear": "Rate (% per year)",
+    "extraEachMonth": "Extra each month",
+    "totalRepaid": "Total repaid",
+    "term": "Term",
+    "interestShare": "Interest share",
+    "schedule": "Schedule",
+    "originalPrice": "Original price",
+    "discountOne": "Discount 1 (%)",
+    "discountTwo": "Discount 2 (%)",
+    "taxRate": "Tax / VAT (%)",
+    "afterDiscount": "After discount",
+    "taxAmount": "Tax amount",
+    "allUnits": "All units at once",
+    "contrastAgainstText": "Contrast against text",
+    "whiteText": "White text",
+    "blackText": "Black text",
+    "luminance": "Luminance",
+    "whiteOnColour": "White on this colour",
+    "blackOnColour": "Black on this colour",
+    "shadesAndTints": "Shades and tints",
+    "harmonies": "Harmonies",
+    "maintenance": "Maintenance",
+    "protein": "Protein",
+    "fatLabel": "Fat",
+    "carbohydrate": "Carbohydrate",
+    "activity": "Activity",
+    "goal": "Goal",
+    "keepWeight": "Keep my weight",
+    "loseFat": "Lose fat",
+    "buildMuscle": "Build muscle",
+    "weeklyDrift": "Weekly drift if you follow it",
+    "nowSeconds": "Now (seconds)",
+    "nowMillis": "Now (milliseconds)",
+    "oneYearFromNow": "One year from now",
+    "timestampOrDate": "Timestamp or date",
+    "thatMomentIs": "That moment is",
+    "detectByLength": "Detect by length",
+    "treatAsSeconds": "Treat as seconds",
+    "treatAsMillis": "Treat as milliseconds",
+    "random": "Random",
+    "numbers": "Numbers",
+    "drawn": "Drawn",
+    "range": "Range",
+    "sum": "Sum",
+    "average": "Average",
+    "lowestHighest": "Lowest / highest",
+    "drawAgain": "Draw again",
+    "presets": "Presets",
+    "decimals": "Decimals",
+    "skipStep": "Skip",
+    "sortAscending": "Sort ascending",
+    "allowNegatives": "Allow negatives",
+    "presetOneDie": "One die (1–6)",
+    "presetThreeDice": "Three dice",
+    "presetLotto": "Lotto 6 of 49",
+    "presetCode": "4-digit code (0–999)",
+    "presetCoin": "Coin flip (0 or 1)",
+    "presetSingle": "Single number",
+    "charactersOut": "Characters",
+    "averageWord": "Average word",
+    "longestLine": "Longest line",
+    "ignoreCase": "Ignore case",
+    "sort": "Sort",
+    "keep": "Keep",
+    "duplicatesOnly": "Duplicates only",
+    "sentencesEach": "Sentences each",
+    "startWithLorem": "Start with “Lorem ipsum…”",
+    "wrapInParagraphs": "Wrap in <p> tags",
+    "addHeadingOne": "Add an <h1> too",
+    "urlSafeVariant": "URL-safe (- and _, no padding)",
+    "scope": "Scope",
+    "plusForSpaces": "Use + for spaces",
+    "style": "Style",
+    "encodeAccents": "Also encode accents & emoji",
+    "reverse": "Reverse",
+    "sortKeys": "Sort keys",
+    "convertScalars": "Convert numbers & booleans",
+    "githubFlavour": "GitHub flavour (tables, strikethrough)",
+    "singleNewlineBreak": "Single newline = <br>",
+    "headingIds": "Add id to headings",
+    "noHyphens": "No hyphens",
+    "symbolsOption": "!@# symbols",
+    "avoidConfusable": "Avoid confusing characters (Il1O0)",
+    "examples": "Examples",
+    "changedLines": "Changed lines",
+    "identical": "Identical",
+    "ignoreEdgeSpaces": "Ignore leading/trailing spaces",
+    "resume": "Resume",
+    "mostUsedWords": "Most used words",
+    "queryPart": "query",
+    "thisUrlMeans": "This URL means",
+    "replaceWith": "Replace with",
+    "replacement": "Replacement",
+    "orHashWholeFile": "…or hash a whole file",
+    "keepOriginalOrder": "Keep original order",
+    "mostFrequentFirst": "Most frequent first",
+    "firstCopy": "First copy",
+    "lastCopy": "Last copy",
+    "queryValueScope": "Query value (also escapes & = ? #)",
+    "queryStringScope": "Query string (keeps & = ?)",
+    "wholeUrlScope": "Whole URL (keeps structure)",
+    "strictAsciiScope": "Everything except A–Z a–z 0–9 -_.~",
+    "escapeForHtml": "Escape for HTML",
+    "unescapeEntities": "Unescape entities",
+    "byCharacters": "Characters (keeps emoji whole)",
+    "byWords": "Word order",
+    "byLines": "Line order",
+    "bySentences": "Sentence order",
+    "lettersPerWord": "Letters, word by word",
+    "tabIndent": "Tab",
+    "jsonArray": "JSON array",
+    "objectKeyedByRow": "Object keyed by row",
+    "jsonLines": "JSON Lines",
+    "pagesPerFile": "Pages per file",
+    "stampBehind": "Put the stamp behind the content",
+    "addWatermark": "Add watermark",
+    "extractText": "Extract text",
+    "landscapePages": "Landscape pages",
+    "createPdf": "Create PDF",
+    "loadHtmlFile": "Load an .html file",
+    "extractRange": "Extract a range",
+    "splitIntoChunks": "Split into chunks",
+    "colorGray": "Gray",
+    "colorRed": "Red",
+    "colorBlue": "Blue",
+    "readingOrder": "Reading order (merge lines into paragraphs)",
+    "oneItemPerLine": "One text item per line",
+    "fitImageToPage": "Fit image to page",
+    "fillPageCrop": "Fill page (crop)",
+    "quotedForCode": "Quoted, for CSS / JS",
+    "hiddenNetwork": "Hidden network",
+    "pickFromScreen": "Pick from screen",
+    "fitKeepsAll": "Fit (keeps all)",
+    "fillCrops": "Fill (crops)",
+    "stretch": "Stretch",
+    "fitPads": "Fit (pads)",
+    "btnMerge": "Merge",
+    "btnCompress": "Compress",
+    "btnConvert": "Convert",
+    "btnResize": "Resize",
+    "btnCut": "Cut",
+    "contentType": "Content type",
+    "fitMode": "Fit",
+    "caseMode": "Case",
+    "waitingFile": "Waiting for a file.",
+    "waitingInput": "Waiting for input.",
+    "copy": "Copy",
+    "copyImage": "Copy image",
+    "copyFirst": "Copy first",
+    "dataUrlPrefix": "Data URL prefix",
+    "sampleRate": "Sample rate",
+    "foregroundColor": "Foreground",
+    "inputLines": "Lines",
+    "inputJson": "JSON input",
+    "inputCsv": "CSV",
+    "inputMarkdown": "Markdown",
+    "inputBase64": "Paste base64",
+    "inputOrFile": "Text or file",
+    "notBase64": "This is not valid base64.",
+    "contentTextUrl": "Text / URL",
+    "moduleSize": "Module size",
+    "btnPrint": "Print",
+    "btnCreateGif": "Create GIF",
+    "keepAudio": "Keep audio",
+    "highlighted": "Highlighted",
+    "textPlain": "Text",
+    "caseUpper": "UPPERCASE",
+    "caseLower": "lowercase",
+    "htmlOut": "HTML",
+    "passwordsOut": "Passwords",
+    "keepUnique": "Unique",
+    "ui0AlreadyEfficient12": "{0}: already efficient ({1} → {2}). Try the Smallest file level.",
+    "ui0FilesProduced": "{0} files produced.",
+    "thisPdfHasNoText": "This PDF has no text layer — it is a scan of paper. Text extraction needs OCR, which does not run in a browser tab.",
+    "unsupportedFileType": "Unsupported file type",
+    "enterAPageRangeSuch": "Enter a page range such as 2-5",
+    "thatRangeDoesNotMatch": "That range does not match any page",
+    "typeTheStampTextFirst": "Type the stamp text first",
+    "onlyUsedBySmallestFile": "only used by Smallest file",
+    "usedByChunkMode": "used by chunk mode",
+    "leaveEmptyForEveryPage": "leave empty for every page",
+    "emptyEveryPage": "empty = every page",
+    "theStampIsDrawnAs": "The stamp is drawn as real text, so it scales cleanly in print.",
+    "chooseSaveAsPdfAs": "Choose Save as PDF as the destination.",
+    "ui012LowerThe": "{0}: {1} → {2}. Lower the quality, add a max width, or set a target size.",
+    "thisIsNotValidBase64": "This is not valid base64: the character count is impossible.",
+    "decodedTheBytesButThey": "Decoded the bytes, but they do not look like a PNG, JPEG, GIF, WebP or BMP image.",
+    "theQrLibraryCouldNot": "The QR library could not be loaded.",
+    "tooMuchTextForOne": "Too much text for one code ({0}). Shorten it, or use error level L.",
+    "couldNotReadThatImage": "Could not read that image.",
+    "enterA36Or": "Enter a 3, 6 or 8-digit hex value such as #36F or #3366FF",
+    "couldNotDecodeThatImage": "Could not decode that image.",
+    "clickThePictureToSample": "Click the picture to sample a pixel.",
+    "ui0Frames123": "{0} frames · {1}×{2} · {3} · {4}s per loop",
+    "couldNotDecodeThatFile": "Could not decode that file. Browsers refuse some AAC/AMR/DRM recordings.",
+    "wavIsUncompressedSoIt": "WAV is uncompressed, so it is bigger than the MP3 you started with. Use a lower sample rate and mono for voice; re-encode to MP3 with a dedicated encoder if you need the smallest file.",
+    "thisBrowserCannotPlayThat": "This browser cannot play that file, so it cannot re-encode it either.",
+    "theBrowserBlockedPlaybackSo": "The browser blocked playback, so recording cannot start. Press play yourself and try again.",
+    "reEncodingHappensLiveA": "Re-encoding happens live: a 3 minute clip takes 3 minutes. The container is WebM; browsers cannot write MP4 locally.",
+    "nothingToCopy": "Nothing to copy",
+    "thisBrowserCannotCopyImages": "This browser cannot copy images",
+    "popupBlocked": "Popup blocked",
+    "thatPixelIsTransparent": "That pixel is transparent",
+    "decodeFailed": "decode failed",
+    "pickAtLeastOneSize": "Pick at least one size",
+    "addAtLeastTwoImages": "Add at least two images",
+    "endMustBeAfterStart": "End must be after start",
+    "thisBrowserHasNoMediarecorder": "This browser has no MediaRecorder/canvas capture support",
+    "theClipHasNotFinished": "The clip has not finished loading",
+    "noSupportedWebmRecordingProfile": "No supported WebM recording profile in this browser",
+    "nothingWasRecorded": "Nothing was recorded",
+    "fillsTransparencyInJpg": "fills transparency in JPG",
+    "higherSurvivesMoreDamage": "higher = survives more damage",
+    "lowerSmallerFile": "lower = smaller file",
+    "livePreviewOnly": "live preview only",
+    "typeAtLeastACouple": "Type at least a couple of sentences to see word frequencies.",
+    "these0WordsMakeUp": "These {0} words make up {1}% of all words used.",
+    "couldNotDecodeThis0": "Could not decode this: {0}. Base64 length must not leave a single leftover character.",
+    "cannotDecode0AMust": "Cannot decode: {0}. A % must be followed by exactly two hex digits.",
+    "noDataRowsWereFound": "No data rows were found — only a header line.",
+    "theMarkdownLibraryCouldNot": "The Markdown library could not be loaded.",
+    "unexpectedMarkedBuild": "Unexpected marked build.",
+    "couldNotRender0": "Could not render: {0}",
+    "couldNotHash0Web": "Could not hash: {0}. Web Crypto hashes need an https or localhost page.",
+    "generatedWithTheBrowserCryptographic": "Generated with the browser cryptographic random number generator. Nothing is stored or sent; for shared secrets use a password manager.",
+    "typeAPatternToTest": "Type a pattern to test.",
+    "invalidPattern0": "Invalid pattern: {0}",
+    "stoppedAfter5000MatchesThe": "Stopped after 5000 matches — the pattern may match empty strings everywhere.",
+    "noMatchTryRemovingAnchors": "No match. Try removing anchors (^ $) or the case-sensitive flag.",
+    "replacementFailed0": "Replacement failed: {0}",
+    "noDifferencesBothSidesMatch": "No differences — both sides match.",
+    "nothingToCompareYet": "Nothing to compare yet.",
+    "thisBrowserHasNoSpeech": "This browser has no speech engine. Edge, Chrome and Safari on macOS/iOS do.",
+    "ui0VoicesAvailableFromYour": "{0} voices available from your operating system.",
+    "nothingToRead": "Nothing to read.",
+    "audioComesFromYourOwn": "Audio comes from your own system voices, so there is no file to download. Record with your OS if you need an MP3.",
+    "nothingGenerated": "Nothing generated",
+    "pasteOrTypeYourText": "Paste or type your text here…",
+    "typeOrPasteText": "Type or paste text…",
+    "oneItemPerLine2": "One item per line…",
+    "pasteTextToEncodeOr": "Paste text to encode, or base64 to decode…",
+    "typeSomething": "Type something…",
+    "textToHash": "Text to hash…",
+    "firstLineSecondLineThird": "First line\nSecond line\nThird line",
+    "firstLineSecondOneThird": "First line\nSecond one\nThird line\nFourth line",
+    "typeTheTextYouWant": "Type the text you want read aloud.",
+    "characterCountIsNotValid": "character count is not valid base64",
+    "md5IsImplementedForText": "MD5 is implemented for text only",
+    "allFourShaSizes": "All four SHA sizes",
+    "md5LegacyNotSecure": "MD5 — legacy, not secure",
+    "v7SortableByTime": "v7 — sortable by time",
+    "loadingVoices": "Loading voices…",
+    "worksOnWholeTextOr": "Works on whole text or a single identifier",
+    "onlyMattersForCaseInsensitive": "Only matters for case-insensitive matches",
+    "textIsTreatedAsUtf": "Text is treated as UTF-8, so accents and CJK work",
+    "escapeBeforePuttingTextInside": "Escape before putting text inside HTML",
+    "excelInManyRegionsExports": "Excel in many regions exports semicolons",
+    "md5AndSha1Are": "MD5 and SHA-1 are for checksums only",
+    "v4IsTheSafeDefault": "v4 is the safe default",
+    "ui16IsAGoodDefault": "16 is a good default",
+    "writtenAsPattern": "written as /pattern/",
+    "commonRecipes": "common recipes",
+    "dependsOnYourOsVoices": "depends on your OS voices",
+    "ui0WithoutSpaces": "{0} without spaces",
+    "ui0AppearTwiceOrMore": "{0} appear twice or more",
+    "enterARealisticHeightAnd": "Enter a realistic height and weight.",
+    "bmiIsAPopulationScreen": "BMI is a population screen, not a diagnosis. It ignores muscle mass, bone density, age, sex and where fat sits, so athletes and older adults often land in the wrong band.",
+    "pickBothDatesTheDay": "Pick both dates — the day has to exist in that month.",
+    "theBirthDateIsAfter": "The birth date is after the reference date.",
+    "monthLengthsAreBorrowedFrom": "Month lengths are borrowed from the real calendar, so end-of-month birthdays stay correct through February.",
+    "pickAStartDate": "Pick a start date.",
+    "enterAnAmount": "Enter an amount.",
+    "pickBothDates": "Pick both dates.",
+    "enterAPositiveAmountA": "Enter a positive amount, a term longer than zero and a rate of 0 or more.",
+    "thatPaymentDoesNotEven": "That payment does not even cover the monthly interest, so the balance never reaches zero. Increase the payment or shorten the term.",
+    "withNoExtraPaymentYou": "With no extra payment you would pay {0} in total; the {1} a month saves {2}.",
+    "assumesAFixedRateWith": "Assumes a fixed rate with monthly compounding and equal payments. Real contracts add fees, insurance or different compounding, and then the numbers move.",
+    "stacked0And1Are": "Stacked {0}% and {1}% are one discount of {2}%, not {3}%.",
+    "taxIsAppliedAfterThe": "Tax is applied after the discount, which is how most shops and marketplaces do it — check your local rules for digital goods.",
+    "temperatureIsNotARatio": "Temperature is not a ratio scale, so 20 °C is not “twice as hot” as 10 °C.",
+    "baseUnit0EveryLine": "Base unit: {0}. Every line above is converted through it, so rounding stays consistent.",
+    "iUnderstandRgbRrggbbRrggbbaa": "I understand #rgb, #rrggbb, #rrggbbaa, rgb(10,20,30,.5) and hsl(210,60%,50%).",
+    "alpha0ShownOverThe": "Alpha {0}% — shown over the panel background.",
+    "pasteAnyOfTheseValues": "Paste any of these values straight into CSS. Print colours (CMYK) never match screen colours exactly.",
+    "useAnAgeBetween10": "Use an age between 10 and 100, height in cm (100–230) and weight in kg (25–350).",
+    "theseArePopulationEquationsSo": "These are population equations, so they are a starting point, not a prescription. Weigh in weekly and adjust by 150–200 kcal if the scale refuses to move. Pregnancy, breastfeeding, kidney disease and eating disorders need a professional instead of a calculator.",
+    "pasteAnEpochNumberOr": "Paste an epoch number or a date.",
+    "thatIsNeitherATimestamp": "That is neither a timestamp I recognise nor a valid date.",
+    "a10DigitNumberIs": "A 10-digit number is seconds, a 13-digit one is milliseconds. Force the unit above if your value is unusual, such as 0 or a negative date.",
+    "enterTwoNumbers": "Enter two numbers.",
+    "youCannotDraw0Unique": "You cannot draw {0} unique values from {1} possibilities between {2} and {3}.",
+    "usesCryptoGetrandomvaluesSoIt": "Uses crypto.getRandomValues(), so it is fair enough for raffles, sample data and test ids. It is not a source of secrets, and it is not reproducible — for a repeatable study use a seeded generator.",
+    "sedentaryDeskWorkNoExercise": "Sedentary — desk work, no exercise",
+    "veryActive67Sessions": "Very active — 6–7 sessions",
+    "athleteOrHeavyManualWork": "Athlete or heavy manual work",
+    "useANegativeNumberFor": "use a negative number for a drop",
+    "defaultsToToday": "defaults to today",
+    "comparedWithTheStartDate": "compared with the start date above",
+    "ui0StandardSchedule": "0 = standard schedule",
+    "stackedCoupon0IfNone": "stacked coupon, 0 if none",
+    "theEquationUsesIt": "the equation uses it",
+    "epochIsoStringOr2026": "epoch, ISO string, or 2026-06-01 14:30",
+    "ui0WholeNumbers": "0 = whole numbers",
+    "ui0BringsItBackTo": "±{0}% brings it back to {1}",
+    "about0MoreToReach": "about {0} more to reach 18.5",
+    "about0LessToReach": "about {0} less to reach 24.9",
+    "youAreInsideTheRange": "you are inside the range",
+    "ui0LeapDaysLived": "{0} leap days lived",
+    "weekendsSkippedWhileCounting": "weekends skipped while counting",
+    "theSecondDateIsEarlier": "the second date is earlier",
+    "inclusiveOfLeapDays": "inclusive of leap days",
+    "monFriPublicHolidaysNot": "Mon–Fri, public holidays not counted",
+    "ui0OfWhatYouBorrowed": "{0}% of what you borrowed",
+    "ui0TheAmount": "{0}× the amount",
+    "paidOff0MonthsEarlier": "paid off {0} months earlier than the schedule",
+    "ofEveryPaymentAtThe": "of every payment at the start",
+    "beforeAnyTax": "before any tax",
+    "ui0OffTheStickerPrice": "{0}% off the sticker price",
+    "noDiscountApplied": "no discount applied",
+    "calculatedOnTheDiscountedPrice": "calculated on the discounted price",
+    "wcagRelativeLuminance": "WCAG relative luminance",
+    "weightStaysWhereItIs": "weight stays where it is",
+    "ui7700Kcal1KgOf": "7700 kcal ≈ 1 kg of body fat",
+    "thisFarAheadUsuallyMeans": "this far ahead usually means the unit is wrong",
+    "withoutRepeats": "without repeats",
+    "repeatsAllowed": "repeats allowed",
+    "expectedAround0": "expected around {0}",
+    "fourEverydayPercentageQuestionsType": "Four everyday percentage questions. Type in any box and every result updates.",
+    "ui413NeverOutputThese": "4, 13 — never output these",
+    "fatLossTarget": "Fat-loss target",
+    "muscleGainTarget": "Muscle-gain target",
+    "dailyTarget": "Daily target",
+    "inTheFutureBy": "In the future by",
+    "inThePastBy": "In the past by",
+    "ui2150Dpi4300": "2× ≈ 150 dpi, 4× ≈ 300 dpi",
+    "htmlMarkup": "HTML markup",
+    "ui01Modules2Px": "{0}×{1} modules · {2}px · payload {3}",
+    "kb0Off": "KB, 0 = off",
+    "jpgWebp": "JPG / WebP",
+    "lowerSmaller": "lower = smaller",
+    "gif256Colours": "GIF (256 colours)",
+    "wpaWpa2": "WPA / WPA2",
+    "showing8Of0Rows": "Showing 8 of {0} rows.",
+    "showing60Of0": "Showing 60 of {0}.",
+    "nameCityAgeAdaLondon": "name,city,age\nAda,London,36\nGrace,New York,45",
+    "noRepeats": "no repeats",
+    "ui0Added1Removed": "{0} added · {1} removed",
+    "everyWordHere": "Every Word Here",
+    "base64Text": "base64 → text",
+    "enterAPrice": "Enter a price.",
+    "enterANumber": "Enter a number.",
+    "ui0IfUnsure": "0 if unsure",
+    "hexRgbOrHsl": "hex, rgb() or hsl()",
+    "upTo10000": "up to 10000",
+    "plainDays": "plain days",
+    "standard01Extra": "standard {0} + {1} extra",
+    "including0Tax": "including {0}% tax",
+    "bmr0Kcal1Activity": "BMR {0} kcal × {1} activity",
+    "exactlyNow": "Exactly now",
+    "light13SessionsA": "Light — 1–3 sessions a week",
+    "moderate35Sessions": "Moderate — 3–5 sessions",
+    "diceLotteryCoin": "dice, lottery, coin…",
+    "ui0PagesRotated": "{0} pages rotated",
+    "ui0PagesStamped": "{0} pages stamped",
+    "ui01From2Base64": "{0} · {1} · from {2} base64 characters",
+    "ui0SizesInOneFile": "{0} sizes in one file",
+    "ui012SOf": "{0} → {1} · {2}s of real time",
+    "useASquareImageAt": "Use a square image, at least 512×512 for the largest size",
+    "optionalDropAnImageThen": "Optional: drop an image, then click it to sample a pixel",
+    "mp3WavOggM4a": "MP3, WAV, OGG, M4A…",
+    "mp4WebmMov": "MP4, WebM, MOV…",
+    "inputCharacters": "Input characters",
+    "outputCharacters": "Output characters",
+    "validJson": "Valid JSON",
+    "ui0LeafValues": "{0} leaf values",
+    "delimitedBy": "Delimited by",
+    "htmlCharacters": "HTML characters",
+    "wordsRendered": "Words rendered",
+    "randomRfc4122": "random (RFC 4122)",
+    "pool0Characters": "pool {0} characters",
+    "bruteForce": "Brute force",
+    "addTheGFlagTo": "add the g flag to find more than one",
+    "atNormalSpeed": "at normal speed",
+    "eG38Or": "e.g. 3-8 or 1,4,9-12",
+    "ui0Pages": "{0} pages",
+    "ui0Characters": "{0} characters",
+    "preview2": "preview",
+    "copy2": "copy",
+    "mono": "Mono",
+    "ui0Keep": "0 = keep",
+    "modules": "modules",
+    "seconds": "seconds",
+    "hue": "Hue",
+    "open": "Open",
+    "wiFi": "Wi‑Fi",
+    "ui0Files": "{0} files",
+    "finished": "Finished.",
+    "speaking": "Speaking…",
+    "stopped": "Stopped.",
+    "max1000": "max 1000",
+    "ui0Unique": "{0}% unique",
+    "ui0Paragraphs": "{0} paragraphs",
+    "characters": "characters",
+    "ui0Removed": "{0} removed",
+    "lines": "lines",
+    "ui2Spaces": "2 spaces",
+    "ui4Spaces": "4 spaces",
+    "comma": "Comma",
+    "semicolon": "Semicolon",
+    "pipe": "Pipe",
+    "v4Random": "v4 — random",
+    "v1TimeIsh": "v1 — time-ish",
+    "upper2": "upper",
+    "yes": "yes",
+    "keys": "Keys",
+    "ui0Arrays": "{0} arrays",
+    "depth": "Depth",
+    "size": "Size",
+    "ui0Chars": "{0} chars",
+    "rows": "Rows",
+    "columns": "Columns",
+    "comma2": "comma",
+    "tab": "tab",
+    "semicolon2": "semicolon",
+    "headings": "Headings",
+    "generated": "Generated",
+    "timeOrdered": "time-ordered",
+    "timeIsh": "time-ish",
+    "entropy": "Entropy",
+    "ui0Bits": "{0} bits",
+    "subject": "Subject",
+    "listening": "≈ listening",
+    "at0": "at {0}",
+    "swap": "⇄ swap",
+    "of": "of",
+    "apr": "APR",
+    "ui0Absolute": "{0} absolute",
+    "before": "Before",
+    "born0123": "born {0}, {1} {2}, {3}",
+    "ui0Weeks": "{0} weeks",
+    "ui0Minutes": "{0} minutes",
+    "long": "long",
+    "numeric": "numeric",
+    "ui01Later": "{0} {1} later",
+    "ui01Earlier": "{0} {1} earlier",
+    "ui0Hours": "{0} hours",
+    "ui0Payments": "{0} payments",
+    "asAgreed": "as agreed",
+    "ui0Then1": "{0} then −{1}%",
+    "ui01Equals": "{0} {1} equals",
+    "target2": "target",
+    "lightness0": "lightness {0}%",
+    "ui0Lines": "{0} lines",
+    "ui012Here": "{0}: {1}\n{2}^ here",
+    "groups0": "groups: {0}",
+    "ui01VersusMaintenance2": "{0}{1}% versus maintenance ({2} kcal/day)",
+    "oneDecimalPlace": "{0} decimal place",
+    "nDecimalPlaces": "{0} decimal places",
+    "urlSafeBase64": "URL-safe (for file names)",
+    "qrPayloadPreview": "{0} payload: {1}",
+    "qrModeText": "Text",
+    "readyAtSize": "{0}×{1} ready.",
+    "faviconMarkupHint": "Reference it with {0} and {1}.",
+    "clipRateAndChannels": "{0} clip · {1} Hz · {2}",
+    "monoAudio": "mono",
+    "nChannels": "{0} ch",
+    "textToBase64": "Text → base64",
+    "wrapAt76": "Wrap at 76 characters",
+    "notValidJson": "Not valid JSON",
+    "aroundLine0": " around line {0}",
+    "base64Output": "Base64 instead of hex",
+    "playbackFailed0": "Playback failed: {0}.",
+    "unknownCause": "unknown",
+    "ui0Years1Months2Days": "{0} years, {1} months, {2} days",
+    "today": "today",
+    "in0Days": "in {0} days",
+    "ui0W1D": "{0} w {1} d",
+    "ui0Has1Days": "{0} has {1} days",
+    "ui0Days": "{0} days",
+    "ui0Y1M": "{0} y {1} m",
+    "yearCol": "Year",
+    "paidInYear": "Paid in year",
+    "interestInYear": "Interest in year",
+    "principalInYear": "Principal in year",
+    "balanceLeft": "Balance left",
+    "aaaText": "AAA text",
+    "aaText": "AA text",
+    "largeTextOnly": "large text only",
+    "failsWcag": "fails WCAG",
+    "webSafe": "Web safe",
+    "inverseColor": "Inverse",
+    "readAsMilliseconds13Digits": "read as milliseconds (13 digits)",
+    "readAsSeconds10Digits": "read as seconds (10 digits)",
+    "forced0": "forced {0}",
+    "milliseconds": "milliseconds",
+    "parsedAsADateString": "parsed as a date string",
+    "localCol": "Local",
+    "unixSeconds": "Unix seconds",
+    "unixMilliseconds": "Unix milliseconds",
+    "yourTimezone": "Your timezone",
+    "weekDayCol": "Week / day",
+    "week01": "week {0}, {1}",
+    "ui0Seconds": "{0} seconds",
+    "ui0MinutesShort": "{0} min",
+    "about0Wpm": "≈{0} wpm",
+    "ui0HoursShort": "{0} h",
+    "wrapInBraces": "Wrap in {braces}",
+    "weak": "weak",
+    "okayForLowValueAccounts": "okay for low-value accounts",
+    "strong": "strong",
+    "veryStrong": "very strong",
+    "instantly": "instantly",
+    "ui0YearsAtATrillionGuessesPerSecond": "~{0} years at a trillion guesses per second",
+    "ui0Bytes": "{0} bytes",
+    "ui0CharactersOfTextBase64Is": "{0} characters of text (base64 is ~33% larger than the bytes it encodes)",
+    "reading0": "Reading {0}…",
+    "closestName": "Closest name",
+    "ui0Years": "{0} years",
+    "unitCatLength": "Length",
+    "unitCatMass": "Mass",
+    "unitCatVolume": "Volume",
+    "unitCatArea": "Area",
+    "unitCatSpeed": "Speed",
+    "unitCatTime": "Time",
+    "unitCatData": "Data",
+    "unitCatEnergy": "Energy",
+    "unitCatPressure": "Pressure",
+    "unitCatAngle": "Angle",
+    "unitCatTemperature": "Temperature",
+    "unitBaseMeter": "meter",
+    "unitBaseKilogram": "kilogram",
+    "unitBaseLitre": "litre",
+    "unitBaseSquareMetre": "square metre",
+    "unitBaseMetrePerSecond": "metre/second",
+    "unitBaseSecond": "second",
+    "unitBaseByte": "byte",
+    "unitBaseJoule": "joule",
+    "unitBasePascal": "pascal",
+    "unitBaseDegree": "degree",
+    "unitBaseCelsius": "celsius",
+    "harmonyComplement": "complement",
+    "harmonyTriadPlus": "triad +",
+    "harmonyTriadMinus": "triad −",
+    "harmonyAnalogPlus": "analog +",
+    "harmonyAnalogMinus": "analog −",
+    "presetEmail": "Email",
+    "presetUrl": "URL",
+    "presetIpv4Address": "IPv4",
+    "presetDate": "Date YYYY-MM-DD",
+    "presetHexColour": "Hex colour",
+    "presetPhoneLoose": "Phone (loose)",
+    "presetSlug": "Slug",
+    "presetHtmlTag": "HTML tag",
+    "presetPasswordMixed": "Password ≥8 mixed",
+    "sampleContactAdaOr": "Contact ada@example.com or grace@example.org for details.",
+    "unitDay": "day",
+    "unitWeek": "week",
+    "unitMonth": "month",
+    "unitYear": "year",
+    "decodingFile": "Decoding {0}…",
+    "mp3SmallestWavLossless": "MP3 is small and universal; WAV is lossless and large.",
+    "mp3Only": "MP3 only",
+    "addAudioFilesInOrder": "Add audio files in the order you want them joined. Use the arrows to reorder.",
+    "join": "Join",
+    "ui0Files1Duration": "{0} files · {1}",
+    "ui0To1": "{0} → {1}",
+    "volumeHint": "100% is the original loudness. Boosting far above it can distort.",
+    "ui0Volume": "{0}% volume",
+    "reverseHint": "Reverses the waveform so the sound plays backwards. Duration and pitch stay the same.",
+    "speed": "Speed",
+    "speedHint": "Changes tempo without changing pitch. 100% is the original speed.",
+    "ui0SpeedResult": "{0} · {1}% speed",
+    "pitchHint": "Shifts pitch without changing how long the sound lasts. +12 is one octave up.",
+    "ui0Semitones": "{0} semitones",
+    "eqBass": "Bass",
+    "eqLowMid": "Low mid",
+    "eqMid": "Mid",
+    "eqHighMid": "High mid",
+    "eqTreble": "Treble",
+    "preset": "Preset",
+    "presetFlat": "Flat",
+    "presetBass": "Bass boost",
+    "presetVocal": "Vocal",
+    "presetTreble": "Treble boost",
+    "eqHint": "Boost or cut five bands, then press Apply to render the change.",
+    "eqApplied": "5-band EQ applied",
+    "noWebAudio": "This browser has no Web Audio support, so it cannot decode sound.",
+    "recorderReady": "Press Record to begin. Nothing is uploaded.",
+    "noScreenCapture": "This browser cannot capture the screen. Try Chrome or Edge on desktop.",
+    "noMicCamera": "This browser cannot reach the microphone or camera. A secure (https) page is required.",
+    "ui0SOfRecording": "{0} recording",
+    "recordingSaved": "Your recording is below. Download it to keep it.",
+    "record": "Record",
+    "requestingPermission": "Allow access when your browser asks for it.",
+    "recordingInProgress": "Recording… press Stop when you are done.",
+    "permissionDenied": "Access was denied. Enable the microphone, camera or screen permission and try again.",
+    "recordingFailed": "Recording could not start.",
+    "bottom": "Bottom",
+    "top": "Top",
+    "alignment": "Alignment",
+    "alignLeft": "Left",
+    "alignCenter": "Center",
+    "alignRight": "Right",
+    "startNumber": "Start number",
+    "prefixHint": "Optional text before the number, e.g. \"Page \".",
+    "skipFirst": "Skip the first page (cover)",
+    "addPageNumbers": "Add page numbers",
+    "noPagesSelected": "No pages left to number with that range.",
+    "ui0PagesNumbered": "{0} pages numbered",
+    "pageNumbersNote": "Numbers are added as real text in the margin; the original page content is untouched.",
+    "loadingFile": "Loading {0}…",
+    "preparing": "Preparing…",
+    "audioReversed": "Reversed",
+    "loanEqualInstallment": "Equal instalment",
+    "loanEqualPrincipal": "Equal principal",
+    "loanCompareTitle": "Equal instalment vs equal principal",
+    "loanFixedEveryMonth": "the same payment every month",
+    "loanFallsTo": "falls to {0} in the last month",
+    "loanInterestInstallment": "Interest — equal instalment",
+    "loanStandardSchedule": "standard schedule, no extra payment",
+    "loanInterestPrincipal": "Interest — equal principal",
+    "loanSavesYou": "saves you {0}",
+    "loanMethodNote": "Equal instalment spreads the cost evenly, so the payment never changes. Equal principal repays the borrowed amount faster at the start, so the payment is higher early and lower later, and less interest accrues overall. The chart compares the standard schedules; any extra payment above applies to the equal-instalment plan.",
+    "shoeMen": "Men",
+    "shoeWomen": "Women",
+    "shoeSysCm": "Foot length (cm)",
+    "shoeEnterSize": "Enter a size or foot length greater than zero.",
+    "shoeOutOfRange": "That converts to an unusual foot length — check the size system and the value.",
+    "shoeColSystem": "System",
+    "shoeColSize": "Size",
+    "shoeFootLength": "Foot length",
+    "shoeInches": "{0} in",
+    "shoeEverySystem": "The same foot in every system",
+    "shoeApproxNote": "Sizes are approximate retail conversions and differ by brand and last. Measure your foot in the evening from heel to longest toe, and choose the larger size when you fall between two.",
+    "shoeGender": "Fit",
+    "shoeSystem": "Size system",
+    "shoeValue": "Size",
+    "shoeValueHint": "in the system chosen above",
+    "rmbEnterAmount": "Enter an amount, for example 1234.56.",
+    "rmbTooLarge": "That amount is too large — this converter handles values below one trillion.",
+    "rmbAmount": "Amount",
+    "rmbCny": "Chinese yuan (CNY)",
+    "rmbUppercase": "Amount in Chinese uppercase",
+    "rmbNote": "This is the financial uppercase form used on cheques, invoices and contracts to prevent tampering. The two decimal places are jiao and fen; the trailing character marks an exact amount with no cents.",
+    "rmbAmountField": "Amount",
+    "rmbAmountHint": "digits, optional decimals",
+    "cityLosAngeles": "Los Angeles",
+    "cityNewYork": "New York",
+    "cityLondon": "London",
+    "cityParis": "Paris",
+    "cityMoscow": "Moscow",
+    "cityDubai": "Dubai",
+    "cityMumbai": "Mumbai",
+    "cityShanghai": "Shanghai",
+    "cityTokyo": "Tokyo",
+    "citySydney": "Sydney",
+    "cityAuckland": "Auckland",
+    "citySaoPaulo": "São Paulo",
+    "clockPlusDay": "+{0} day",
+    "clockMinusDay": "−{0} day",
+    "clockBusiness": "Business hours",
+    "clockOffHours": "Outside business hours",
+    "clockLive": "Live — update every second",
+    "clockPlan": "Planned time (your local time)",
+    "clockPlanHint": "drag to line up a meeting",
+    "clockNow": "Back to now",
+    "clockBaseNote": "Times are shown against your own time zone ({0}). A green dot marks 09:00–18:00 local business hours; the badge shows when a city is on a different calendar day.",
+    "pomoStart": "Start",
+    "pomoFocus": "Focus",
+    "pomoShortBreak": "Short break",
+    "pomoLongBreak": "Long break",
+    "pomoCount": "Completed focus sessions: {0}",
+    "pomoPause": "Pause",
+    "pomoResume": "Resume",
+    "pomoFullscreen": "Fullscreen",
+    "pomoNoFullscreen": "Fullscreen is not available in this browser.",
+    "pomoWorkMin": "Focus (minutes)",
+    "pomoShortMin": "Short break (minutes)",
+    "pomoLongMin": "Long break (minutes)",
+    "pomoCycles": "Focus sessions before a long break",
+    "pomoSound": "Chime when a phase ends",
+    "pomoReset": "Reset",
+    "pomoNote": "The Pomodoro technique alternates a stretch of focused work with a short break, and a longer break after a few rounds. Adjust the lengths to suit you; the timer keeps counting while this tab is open.",
+    "pickerDefaultNames": "Alice\nBob\nCarlos\nDiana\nEmil\nFatima",
+    "pickerPlaceholder": "One name per line",
+    "pickerWinner": "Winner",
+    "pickerRemove": "Remove winner",
+    "pickerRemaining": "{0} names left in the wheel.",
+    "pickerAgain": "Spin again",
+    "pickerNeedTwo": "Add at least two names to spin the wheel.",
+    "pickerNeedOne": "Add at least one name.",
+    "pickerNames": "Names",
+    "pickerNamesHint": "one per line",
+    "pickerSpin": "Spin the wheel",
+    "pickerDraw": "Quick draw",
+    "pickerReset": "Reset names",
+    "pickerNote": "Picks use crypto.getRandomValues(), so every name has an equal chance. Remove the winner after each draw to pick a whole team in order, or reset to start again.",
+    "signDownload": "Download PNG",
+    "signDrawFirst": "Draw your signature first.",
+    "signPenColor": "Pen colour",
+    "signBlack": "Black",
+    "signBlue": "Blue",
+    "signRed": "Red",
+    "signPenWidth": "Pen width",
+    "signTrim": "Trim empty space",
+    "signUndo": "Undo",
+    "signClear": "Clear",
+    "signNote": "Draw with a mouse, finger or stylus. The PNG keeps a transparent background, so you can place it over a contract or form. Nothing is uploaded.",
+    "idUploadHint": "Upload a portrait photo",
+    "idPresetCn1": "China 1-inch (25×35 mm)",
+    "idPresetCn2": "China 2-inch (35×49 mm)",
+    "idPresetPassport": "Passport / visa (33×48 mm)",
+    "idPresetUs": "US passport (51×51 mm)",
+    "idPresetCustom": "Custom size",
+    "idApply": "Make photo",
+    "idPreset": "Photo size",
+    "idWidth": "Width (mm)",
+    "idHeight": "Height (mm)",
+    "idDpi": "Resolution",
+    "idDpiHint": "300 dpi is standard for print",
+    "idZoom": "Zoom",
+    "idOffsetY": "Vertical position",
+    "idChangeBg": "Replace background",
+    "idTargetBg": "New background",
+    "idWhite": "White",
+    "idBlue": "Blue",
+    "idRed": "Red",
+    "idTolerance": "Colour tolerance",
+    "idToleranceHint": "higher removes more of the old background",
+    "idBgNote": "Background replacement keys out the colour in the top-left corner, so start with a plain, evenly lit backdrop. Crop and zoom to frame the head, then check the result against the exact rules of your issuing authority before printing.",
+    "invoiceSellerName": "Your name or company",
+    "invoiceSellerAddress": "Your address, email, phone",
+    "invoiceBuyerName": "Client name or company",
+    "invoiceBuyerAddress": "Client address",
+    "invoiceNoPlaceholder": "INV-0001",
+    "invoiceNotesPlaceholder": "Payment details, bank account, a thank-you note…",
+    "invoiceTermsPlaceholder": "Payment due in 14 days. Late payments incur…",
+    "invoiceItemDesc": "Description of the item or service",
+    "invoiceRemoveItem": "Remove",
+    "invoiceGenerate": "Generate invoice",
+    "invoiceTitle": "INVOICE",
+    "invoiceBillTo": "Bill To",
+    "invoiceNo": "Invoice no.",
+    "invoiceDate": "Date",
+    "invoiceDescription": "Description",
+    "invoiceQty": "Qty",
+    "invoiceUnitPrice": "Unit price",
+    "invoiceAmount": "Amount",
+    "invoiceSubtotal": "Subtotal",
+    "invoiceDiscount": "Discount",
+    "invoiceTax": "Tax",
+    "invoiceTotal": "Total",
+    "invoiceNotes": "Notes",
+    "invoiceTerms": "Terms",
+    "invoiceThanks": "Thank you for your business.",
+    "invoiceDownloadPdf": "Download PDF",
+    "invoiceDownloadPng": "Download PNG",
+    "invoiceSeller": "From (seller)",
+    "invoiceSellerAddressLabel": "Seller address",
+    "invoiceBuyer": "Bill To (client)",
+    "invoiceBuyerAddressLabel": "Client address",
+    "invoiceCurrency": "Currency",
+    "invoiceItems": "Line items",
+    "invoiceAddItem": "Add item",
+    "invoiceNote": "Everything is drawn in your browser and exported as a PNG or a one-page PDF — no data is uploaded. Check the totals and your local tax rules before sending.",
+    "contractNamePlaceholder": "Full legal name",
+    "contractPurposePlaceholder": "e.g. a possible partnership",
+    "contractScopePlaceholder": "Describe the services to be performed…",
+    "contractFeePlaceholder": "e.g. USD 2,000 payable in 14 days",
+    "contractTermDefault": "12 months",
+    "contractJurisdictionPlaceholder": "e.g. England and Wales",
+    "contractNda": "Non-disclosure agreement (NDA)",
+    "contractService": "Service agreement",
+    "contractPurpose": "Purpose of the discussion",
+    "contractScope": "Services to be performed",
+    "contractFee": "Fee and payment terms",
+    "contractJurisdiction": "This Agreement is governed by the laws of {0}, and the parties submit to the courts of that place for any dispute.",
+    "contractGenerate": "Generate draft",
+    "contractNdaTitle": "MUTUAL NON-DISCLOSURE AGREEMENT",
+    "contractNdaIntro": "This Non-Disclosure Agreement (\"Agreement\") is entered into on {0} between {1} (\"Party A\") and {2} (\"Party B\").",
+    "contractNdaPurpose": "The parties wish to explore {0} and may disclose confidential information to each other for that purpose.",
+    "contractNdaDefinition": "\"Confidential Information\" means any non-public information disclosed by one party to the other, in any form, that is marked confidential or would reasonably be understood to be confidential.",
+    "contractNdaObligations": "Each party shall keep the other's Confidential Information secret, use it only for the purpose above, and share it only with people who need to know it and are bound by similar duties.",
+    "contractNdaExclusions": "Confidential Information does not include information that becomes public through no fault of the receiver, was already lawfully known to the receiver, or is independently developed without using the discloser's information.",
+    "contractNdaTerm": "The obligations in this Agreement continue for {0} from the date above.",
+    "contractNdaReturn": "On request, each party shall return or destroy the other's Confidential Information and confirm in writing that it has done so.",
+    "contractSignatures": "Signed by the parties on the date above.",
+    "contractServiceTitle": "SERVICE AGREEMENT",
+    "contractServiceIntro": "This Service Agreement (\"Agreement\") is made on {0} between {1} (\"Client\") and {2} (\"Provider\").",
+    "contractServiceScope": "The Provider shall perform the following services: {0}.",
+    "contractServiceFee": "The Client shall pay {0} for the services. Each invoice is payable within the period stated on it.",
+    "contractServiceTerm": "This Agreement begins on the date above and continues for {0}, unless ended earlier under this Agreement.",
+    "contractServiceIndependent": "The Provider is an independent contractor, not an employee of the Client, and is responsible for its own taxes and insurance.",
+    "contractServiceConfidentiality": "Each party shall keep the other's non-public information confidential and use it only to perform this Agreement.",
+    "contractServiceTermination": "Either party may end this Agreement by written notice if the other materially breaches it and fails to cure the breach within a reasonable time.",
+    "contractPartyA": "Party A",
+    "contractPartyB": "Party B",
+    "contractDownload": "Download .txt",
+    "contractGenerateFirst": "Generate a draft first.",
+    "contractPrint": "Print",
+    "contractPrintBlocked": "Allow pop-ups to print the draft.",
+    "contractDisclaimer": "This is a general template, not legal advice. Laws differ by country and situation — have a qualified lawyer review it before you sign.",
+    "contractTemplate": "Template",
+    "contractDate": "Effective date",
+    "contractTerm": "Term",
+    "contractJurisdictionLabel": "Governing law",
+    "contractOutput": "Your draft",
+    "contractNote": "The draft is generated in your browser and never uploaded. Fill the blanks, delete the clauses that do not apply, and add the details that matter for your deal.",
+    "wfHint": "Drag across the waveform to choose the part to keep, or type the times below.",
+    "slmUnit": "decibels (relative, uncalibrated)",
+    "slmIntro": "Press Start and allow microphone access to see the relative sound level around you.",
+    "slmStopped": "Meter stopped.",
+    "slmRunning": "Listening… the level updates live.",
+    "slmNow": "Current",
+    "slmMax": "Peak",
+    "slmAvg": "Average",
+    "slmDenied": "Microphone access was denied. Allow it in your browser settings and try again.",
+    "slmFail": "Could not start the microphone.",
+    "slmReset": "Reset peak",
+    "slmNote": "This is a relative meter, not a calibrated sound-level instrument: the decibel value is referenced to digital full scale, so it depends on your microphone and its gain. Use it to compare loudness or spot noise, not for legal or safety measurements. Audio is analysed in your browser and never recorded or uploaded.",
+    "mosWaiting": "Add an image, then drag over the areas you want to hide.",
+    "mosDecodeFail": "Could not read that image.",
+    "mosHint": "PNG, JPG, WebP…",
+    "mosReset": "Restore original",
+    "mosNeedImage": "Add an image first",
+    "mosMode": "Effect",
+    "mosPixel": "Pixelate",
+    "mosBlur": "Blur",
+    "mosBrush": "Brush size",
+    "mosStrength": "Strength",
+    "mosStrengthHint": "bigger = coarser blocks / stronger blur",
+    "mosNote": "Drag across a face, a number plate or any private detail to pixelate or blur it. The image is edited on a canvas in your browser and never uploaded. Download the result as a PNG.",
+    "gridWaiting": "Add an image to slice it into a grid of squares.",
+    "gridPreview": "{0} × {1} grid · {2} pieces",
+    "gridHint": "PNG, JPG, WebP…",
+    "gridSplit": "Split image",
+    "gridSize": "Grid",
+    "gridSizeHint": "3 × 3 is the classic social-media nine-square",
+    "gridSquare": "Crop to square first",
+    "gridNote": "The image is cut into equal pieces on a canvas in your browser. Download them one by one or as a single ZIP, then post them in order for a seamless nine-square grid. Nothing is uploaded.",
+    "zwCarrier": "Carrier text — the visible message people will read…",
+    "zwSecret": "Secret text to hide inside it…",
+    "zwPasted": "Paste the watermarked text here to reveal its hidden message…",
+    "zwEmbed": "Embed hidden message",
+    "zwNeedSecret": "Type a secret message to hide first",
+    "zwVisibleChars": "Visible characters",
+    "zwHiddenChars": "Hidden characters",
+    "zwInvisible": "invisible",
+    "zwTotalChars": "Total length",
+    "zwNone": "No hidden message was found in this text.",
+    "zwRevealedChars": "Revealed characters",
+    "zwCarrierLabel": "Carrier text",
+    "zwPastedLabel": "Watermarked text",
+    "zwSecretLabel": "Secret message",
+    "zwExtract": "Reveal hidden message",
+    "zwMode": "Action",
+    "zwEmbedMode": "Hide a message",
+    "zwExtractMode": "Reveal a message",
+    "zwNote": "The secret is encoded as zero-width Unicode characters (U+200B/U+200C) wrapped in word-joiners. They are invisible and survive ordinary copy-paste, but any editor that strips formatting or normalises Unicode will remove them. This is obfuscation, not encryption — do not hide passwords or sensitive data with it.",
+    "cssOffsetX": "Shadow X",
+    "cssOffsetY": "Shadow Y",
+    "cssBlur": "Blur",
+    "cssSpread": "Spread",
+    "cssRadius": "Corner radius",
+    "cssOpacity": "Shadow opacity",
+    "cssShadowColor": "Shadow colour",
+    "cssBoxColor": "Box colour",
+    "cssInset": "Inset shadow",
+    "cssColumns": "Columns",
+    "cssGap": "Gap",
+    "cssItems": "Items",
+    "cssRowHeight": "Row height",
+    "cssMode": "Generator",
+    "cssBoxMode": "Box shadow & radius",
+    "cssGridMode": "Grid layout",
+    "cssGenerated": "Generated CSS",
+    "cssNote": "Drag the sliders and watch the preview and the CSS update live. Copy the CSS into your stylesheet. Everything is computed in your browser.",
+    "jsvgInput": "Paste JSON here — an object or array becomes a structure tree…",
+    "jsvgBadJson": "That is not valid JSON. Check for a missing comma or quote.",
+    "jsvgRender": "Render diagram",
+    "jsvgNeedJson": "Paste some JSON first",
+    "jsvgRenderFirst": "Render a diagram first",
+    "jsvgInputLabel": "JSON input",
+    "jsvgSvgCode": "SVG code",
+    "jsvgNote": "The JSON is parsed and laid out as a left-to-right structure tree, drawn entirely in your browser. Download it as an SVG you can drop into docs or slides, or copy the markup. Large arrays are capped at 40 branches and 8 levels deep to keep the diagram readable.",
+    "jsvgHint": "Enter JSON and press Render to draw its structure as an SVG tree.",
+    "encInput": "Type or paste the text to encrypt or decrypt…",
+    "encPassPlaceholder": "Passphrase",
+    "encNoSubtle": "This browser has no Web Crypto support. A secure (https) page is required.",
+    "encrypt": "Encrypt",
+    "encNeedText": "Enter some text first",
+    "encNeedPass": "Enter a passphrase",
+    "decrypt": "Decrypt",
+    "encNeedCipher": "Paste the encrypted text first",
+    "encBadCipher": "That is not valid encrypted text.",
+    "encWrongPass": "Could not decrypt — wrong passphrase or corrupted text.",
+    "encPassHint": "The same passphrase is needed to decrypt. It is never stored or sent anywhere.",
+    "encNote": "AES-256-GCM with a PBKDF2-derived key (150,000 iterations, SHA-256). The random salt and IV are packed into the output, so the passphrase alone decrypts it. Everything runs in your browser via the Web Crypto API — nothing is uploaded.",
+    "camIntro": "Test your camera, microphone and screen — all locally. Nothing is recorded or uploaded.",
+    "camMicLevel": "Microphone level",
+    "camStartCam": "Start camera",
+    "camStartMic": "Test microphone",
+    "camStopCam": "Stop camera",
+    "camRunning": "Camera is live. If you can see yourself, the camera works.",
+    "camDenied": "Camera access was denied. Allow it in your browser settings and try again.",
+    "camFail": "Could not start the camera.",
+    "camStopMic": "Stop microphone",
+    "camMicRunning": "Speak or tap the microphone — the level bar should move.",
+    "camMicDenied": "Microphone access was denied. Allow it in your browser settings and try again.",
+    "camMicFail": "Could not start the microphone.",
+    "camRed": "Red",
+    "camGreen": "Green",
+    "camBlue": "Blue",
+    "camWhite": "White",
+    "camBlack": "Black",
+    "camGray": "Gray",
+    "camScreen": "Screen dead-pixel test",
+    "camScreenHint": "Tap anywhere to change colour and look for stuck or dead pixels.",
+    "camExit": "Exit",
+    "camNote": "The camera preview and microphone level run entirely in your browser through getUserMedia and the Web Audio API. No video or audio is recorded, saved or sent anywhere. Use the screen test to spot dead pixels on a monitor or phone display.",
+    "teleInput": "Paste your script or speech here…",
+    "teleNeedText": "Paste your script first",
+    "teleReset": "Restart",
+    "teleFullscreen": "Fullscreen",
+    "teleScript": "Your script",
+    "teleSpeedHint": "scroll pixels per second",
+    "teleMirror": "Mirror (for a beam-splitter)",
+    "teleNote": "Paste your speech, set the font size and scroll speed, then press Start. Mirror flips the text for a beam-splitter teleprompter rig, and Fullscreen fills the display. Your script stays in this browser tab and is never uploaded."
+  },
+  "t": {
+    "compress-pdf": {
+      "title": "Compress PDF",
+      "h1": "Compress PDF files online for free",
+      "desc": "Shrink a PDF by rebuilding it in your browser: drop embedded bloat, resample images and keep the text selectable. No upload, no watermark, no sign-up.",
+      "intro": "Compress PDF works entirely on your own machine. It reads the file, rewrites duplicate font and object references, optionally downsamples large images, and hands you the smaller PDF back through your browser download.",
+      "steps": [
+        "Drop one or more PDF files on the panel, or click to choose them.",
+        "Pick a level: Best quality keeps everything, Recommended balances size, Smallest file resamples images hardest.",
+        "Press Compress and watch the before/after numbers for each file.",
+        "Download the result, or grab all of them as one zip."
+      ],
+      "faq": [
+        {
+          "q": "Why does a scanned PDF barely shrink?",
+          "a": "A scanned page is really a photograph. The savings come from re-encoding those page images, so use the Smallest file level or convert the pages to JPEG first."
+        },
+        {
+          "q": "Does it remove pages or text?",
+          "a": "No. The page count, text layer and links stay intact; only redundant objects and oversized images are re-encoded."
+        }
+      ]
+    },
+    "merge-pdf": {
+      "title": "Merge PDF",
+      "h1": "Merge PDF files into one document",
+      "desc": "Combine several PDFs in the order you choose, with page thumbnails you can drag around before joining them. Runs locally in your browser for free.",
+      "intro": "Merge PDF copies the page objects of each file into a single document without rasterising them, so text stays selectable and searchable after the merge.",
+      "steps": [
+        "Add every PDF you want to join.",
+        "Drag the thumbnails to set the order, or remove a file you added by mistake.",
+        "Press Merge.",
+        "Download the combined PDF."
+      ],
+      "faq": [
+        {
+          "q": "Can I merge pages from only part of a file?",
+          "a": "Yes, use Split PDF first to isolate the range, then merge the pieces you need."
+        },
+        {
+          "q": "Is there a limit on file count?",
+          "a": "Only your device memory. Practically, a few hundred pages merge comfortably on a phone."
+        }
+      ]
+    },
+    "split-pdf": {
+      "title": "Split PDF",
+      "h1": "Split PDF: extract pages or cut a file in two",
+      "desc": "Pull one page range out of a PDF, split every page into separate files, or break a long document into chunks. Everything happens locally.",
+      "intro": "Split PDF rebuilds a new file from the pages you keep. Because it copies page objects instead of printing them, quality is identical to the original.",
+      "steps": [
+        "Open your PDF in the panel.",
+        "Choose Extract a range, Every page separately, or Split into chunks.",
+        "Type the range, for example 3-8 or 1,4,9-12.",
+        "Press Split and download the output."
+      ],
+      "faq": [
+        {
+          "q": "Can I delete pages instead?",
+          "a": "Yes. Select every page you want to keep, or type the range to drop in the complement box, and the tool produces the file without them."
+        },
+        {
+          "q": "Does splitting keep bookmarks?",
+          "a": "Bookmarks that point at removed pages are dropped; page content, links and text layers are preserved."
+        }
+      ]
+    },
+    "rotate-pdf": {
+      "title": "Rotate PDF",
+      "h1": "Rotate PDF pages online",
+      "desc": "Turn every page, or only the pages you select, by 90, 180 or 270 degrees. Free, instant, and the file never leaves your computer.",
+      "intro": "Pages are re-oriented in place; there is no re-encoding, so a rotation costs nothing in quality and takes a second even on a large file.",
+      "steps": [
+        "Drop the PDF.",
+        "Choose 90° right, 180° or 90° left.",
+        "Optionally limit the change to a page range.",
+        "Press Apply and download."
+      ],
+      "faq": [
+        {
+          "q": "Why do my landscape pages look wrong after scanning?",
+          "a": "Many scanners write the image rotated with a page-flag. Rotate the specific range instead of the whole document."
+        },
+        {
+          "q": "Can I rotate single pages differently?",
+          "a": "Yes, run the tool once per range; each pass keeps the rest untouched."
+        }
+      ]
+    },
+    "watermark-pdf": {
+      "title": "Watermark PDF",
+      "h1": "Add a text watermark or stamp to a PDF",
+      "desc": "Stamp DRAFT, CONFIDENTIAL, a date or your company name across every page, with control over size, colour, opacity and angle.",
+      "intro": "The watermark is drawn as real vector text on each page, so it scales cleanly in print and cannot be shifted by dragging an image layer.",
+      "steps": [
+        "Load the PDF you want to stamp.",
+        "Type the text and choose colour, opacity and rotation.",
+        "Pick whether it sits behind or above the content.",
+        "Press Add watermark, then download."
+      ],
+      "faq": [
+        {
+          "q": "Can I watermark only some pages?",
+          "a": "Yes, restrict the stamp to a page range such as 1 or 2-5."
+        },
+        {
+          "q": "Will the text be selectable?",
+          "a": "It is inserted as text, so it appears in search results of the finished file."
+        }
+      ]
+    },
+    "pdf-to-jpg": {
+      "title": "PDF to JPG",
+      "h1": "Convert PDF to JPG or PNG images",
+      "desc": "Render each PDF page to a JPG or PNG at the resolution you choose, preview them on screen and download one page or the whole set as a zip.",
+      "intro": "Rendering uses the same engine that displays PDFs in your browser, so fonts and layout match the original exactly. Nothing is uploaded anywhere.",
+      "steps": [
+        "Drop the PDF file.",
+        "Set the output format and the resolution multiplier.",
+        "Preview the rendered pages.",
+        "Download a single image or the complete zip."
+      ],
+      "faq": [
+        {
+          "q": "Which quality should I pick for printing?",
+          "a": "Use PNG at 2x for text documents and JPG at 2x for photo pages; 3x approaches 300 dpi on A4."
+        },
+        {
+          "q": "Can I get only one page?",
+          "a": "Yes, render the range you need instead of the whole document."
+        }
+      ]
+    },
+    "pdf-to-text": {
+      "title": "PDF to Text",
+      "h1": "Extract text from a PDF",
+      "desc": "Pull the readable text out of a PDF, keep line or paragraph layout, copy it to the clipboard or save it as a .txt file. Runs in your browser.",
+      "intro": "Text comes from the PDF's own text layer, so extraction is accurate for documents and reports. Scanned pages have no text layer and need OCR instead.",
+      "steps": [
+        "Add your PDF.",
+        "Choose Keep layout or Plain text.",
+        "Press Extract.",
+        "Copy the result or download it as a text file."
+      ],
+      "faq": [
+        {
+          "q": "Why did I get an empty result?",
+          "a": "The file is probably a scan of paper. OCR is a server-side technology; the workaround is to run the pages through an OCR app you trust."
+        },
+        {
+          "q": "Does it keep tables?",
+          "a": "Columns are preserved with spacing when you choose Keep layout, though complex tables are better handled by converting to images."
+        }
+      ]
+    },
+    "images-to-pdf": {
+      "title": "JPG to PDF",
+      "h1": "Turn images into a single PDF",
+      "desc": "Combine JPG, PNG, WebP or GIF photos into one PDF, in the order you want, with page size, margin and orientation you control.",
+      "intro": "Especially handy for a mobile scan stack: drop your photos, order them, and you get one document that emails cleanly and prints correctly.",
+      "steps": [
+        "Select the photos.",
+        "Drag to reorder and delete anything shot twice.",
+        "Choose page size and margins.",
+        "Press Create PDF and download."
+      ],
+      "faq": [
+        {
+          "q": "Does it fit photos to the page?",
+          "a": "Yes, each image is scaled inside the printable area without cropping unless you choose Fill page."
+        },
+        {
+          "q": "Can I add a caption?",
+          "a": "Use the Watermark PDF tool afterwards to stamp a title or date on each page."
+        }
+      ]
+    },
+    "html-to-pdf": {
+      "title": "HTML to PDF",
+      "h1": "Save any web page or HTML snippet as a PDF",
+      "desc": "Paste HTML, choose paper size and margins, then print the rendered result to PDF straight from your browser. Free and private.",
+      "intro": "This tool builds a clean print view from your markup and hands it to the browser's own PDF writer, which understands CSS, images and page breaks.",
+      "steps": [
+        "Paste your HTML or load a .html file.",
+        "Set paper, orientation and margins.",
+        "Open the print dialog.",
+        "Choose Save as PDF as the destination."
+      ],
+      "faq": [
+        {
+          "q": "Can I convert a live URL?",
+          "a": "Browsers block reading other sites' markup from a page, so paste the HTML or use your browser's built-in Print to PDF on that page."
+        },
+        {
+          "q": "Are external images included?",
+          "a": "Only when the browser can load them; inline data URIs always work."
+        }
+      ]
+    },
+    "compress-image": {
+      "title": "Compress Image",
+      "h1": "Compress JPG, PNG and WebP images online",
+      "desc": "Shrink photos without a visible quality loss, see the before and after side by side, and batch-process many files at once — all inside the browser.",
+      "intro": "Compression re-encodes the picture through your browser's own image encoder. EXIF metadata is stripped by default, which is often where the biggest saving hides.",
+      "steps": [
+        "Drop one or many photos.",
+        "Move the quality slider, usually 70 to 85 is enough for web.",
+        "Press Compress.",
+        "Compare the sizes and download."
+      ],
+      "faq": [
+        {
+          "q": "What quality should I use for a website?",
+          "a": "80 for photography, 90 for text-heavy screenshots, and convert to WebP when the browser supports it."
+        },
+        {
+          "q": "Does it work on HEIC from an iPhone?",
+          "a": "Safari and Chrome on most devices decode HEIC; if yours cannot, convert to JPEG first with the Convert Image tool."
+        }
+      ]
+    },
+    "convert-image": {
+      "title": "Convert Image",
+      "h1": "Convert images between PNG, JPG and WebP",
+      "desc": "Change picture format in one step: PNG to JPG, JPG to WebP, WebP to PNG and more, with transparency handling and quality control.",
+      "intro": "Decoding and re-encoding happen on canvas, so conversions are lossless apart from the target format itself. Transparent PNGs get an optional background when saved as JPG.",
+      "steps": [
+        "Add your images.",
+        "Pick the target format.",
+        "Set quality and, for JPG, a background for transparent areas.",
+        "Convert and download, or grab all files as a zip."
+      ],
+      "faq": [
+        {
+          "q": "Will WebP really be smaller?",
+          "a": "Typically 25 to 35 percent smaller than an equivalent-quality JPEG, and every current browser displays it."
+        },
+        {
+          "q": "Do you support BMP, TIFF or SVG?",
+          "a": "Browsers decode BMP and TIFF; SVG is vector and cannot be rasterised without executing it, so it is intentionally skipped."
+        }
+      ]
+    },
+    "resize-image": {
+      "title": "Resize Image",
+      "h1": "Resize and crop images to exact pixel dimensions",
+      "desc": "Set a precise width and height, keep the ratio, or crop to a preset such as 1:1, 4:5 or 16:9. Useful for avatars, thumbnails and forms.",
+      "intro": "Resizing uses a high-quality canvas path, and the crop box can be dragged over the interesting part of the photo before export.",
+      "steps": [
+        "Load the picture.",
+        "Type the new width or choose a ratio preset.",
+        "Drag the crop frame to position the subject.",
+        "Apply and download."
+      ],
+      "faq": [
+        {
+          "q": "Will upscaling make it sharper?",
+          "a": "No tool can invent detail; enlarging only makes the file bigger. Keep upscales below 150 percent."
+        },
+        {
+          "q": "Can I resize many photos identically?",
+          "a": "Yes, add all files and the same rule applies to each one."
+        }
+      ]
+    },
+    "image-to-base64": {
+      "title": "Image to Base64",
+      "h1": "Convert an image to a Base64 data URI",
+      "desc": "Get a ready-to-paste data URI from any picture, with CSS and HTML snippets already wrapped, for inline icons and offline pages.",
+      "intro": "The encoding is done from the file bytes in memory. Handy for a logo you want to inline so the browser makes one request instead of two.",
+      "steps": [
+        "Choose the image.",
+        "Pick the output: data URI, raw Base64, or CSS snippet.",
+        "Copy the result.",
+        "Paste it into your stylesheet or HTML."
+      ],
+      "faq": [
+        {
+          "q": "How big can the file be?",
+          "a": "Keep inlined assets under roughly 30 KB; larger files slow down the page instead of speeding it up."
+        },
+        {
+          "q": "Why is the string so long?",
+          "a": "Base64 grows about 33 percent because it packs three bytes into four characters."
+        }
+      ]
+    },
+    "base64-to-image": {
+      "title": "Base64 to Image",
+      "h1": "Turn a Base64 string back into an image file",
+      "desc": "Paste a data URI or a raw Base64 block, preview the picture and download it as PNG, JPG or WebP.",
+      "intro": "Useful when a page or an email hands you an image as text. The decoder accepts the mime prefix, whitespace and line breaks.",
+      "steps": [
+        "Paste the string.",
+        "Check the preview.",
+        "Download the decoded image."
+      ],
+      "faq": [
+        {
+          "q": "Why does the preview stay empty?",
+          "a": "The string is usually truncated when copying. A valid image Base64 ends with = or == padding, or a multiple of four characters."
+        },
+        {
+          "q": "Can it decode text, not pictures?",
+          "a": "Use the Base64 encode/decode tool for plain strings."
+        }
+      ]
+    },
+    "qr-code-generator": {
+      "title": "QR Code Generator",
+      "h1": "Create a free QR code for links, Wi-Fi and text",
+      "desc": "Build a high-resolution QR code for a URL, Wi-Fi login, vCard, SMS or plain text, with size, margin and colour choices. No expiry, no account.",
+      "intro": "The code is drawn on your own device, so it can never expire or be switched to another destination — a real advantage over dynamic QR services.",
+      "steps": [
+        "Choose the content type and fill it in.",
+        "Set pixel size, quiet zone and error correction.",
+        "Adjust colours if needed, keeping strong contrast.",
+        "Download as PNG or SVG."
+      ],
+      "faq": [
+        {
+          "q": "Do free QR codes expire?",
+          "a": "Not here. Static codes are printed into the image itself, so they work as long as the target link does."
+        },
+        {
+          "q": "Why is my link code so dense?",
+          "a": "Long URLs need a bigger symbol. Shorten the link, or increase the pixel size and error correction for print."
+        }
+      ]
+    },
+    "favicon-generator": {
+      "title": "Favicon Generator",
+      "h1": "Make a favicon and app icons from one picture",
+      "desc": "Upload a logo and download every size a site needs: favicon.ico, 16 to 180 px PNGs, an Apple touch icon and the matching HTML tags.",
+      "intro": "Cropping is centred and each size is re-rendered separately, which keeps thin strokes legible at 16 px instead of smearing a single scaled copy.",
+      "steps": [
+        "Add a square image, ideally 512 px or larger.",
+        "Choose a background or keep transparency.",
+        "Generate.",
+        "Download the zip and paste the HTML snippet into your head."
+      ],
+      "faq": [
+        {
+          "q": "Which files do I actually need?",
+          "a": "favicon.ico for legacy browsers, a 32 px PNG, a 180 px apple-touch-icon and a 192/512 px pair if you use a manifest."
+        },
+        {
+          "q": "My logo has tiny text and it disappears.",
+          "a": "Favicons need a simplified mark; keep the full logo for the touch icon only."
+        }
+      ]
+    },
+    "color-picker": {
+      "title": "Colour Picker",
+      "h1": "Pick colours from an image or your screen",
+      "desc": "Get the exact HEX, RGB and HSL of any pixel: click inside a picture or use the screen eyedropper, then build a matching palette.",
+      "intro": "On supporting browsers the eyedropper reads anything on your screen, including a video or a design file you cannot export.",
+      "steps": [
+        "Load an image, or start the screen eyedropper.",
+        "Click the pixel you want.",
+        "Copy HEX, RGB or HSL.",
+        "Optionally extract a full palette from the picture."
+      ],
+      "faq": [
+        {
+          "q": "Why do two screenshots give different values?",
+          "a": "Colour management and display profiles shift rendered values; the tool reports the stored pixel, which is what a browser will ship."
+        },
+        {
+          "q": "Does the eyedropper work on mobile?",
+          "a": "The screen API is desktop-only; upload the screenshot and tap the image instead."
+        }
+      ]
+    },
+    "image-to-gif": {
+      "title": "Images to GIF",
+      "h1": "Make an animated GIF from a set of images",
+      "desc": "Turn a burst of photos or frames into a looping animated GIF, with control over delay, loop count and final width.",
+      "intro": "Encoding runs in the browser tab rather than on a worker, so it is straightforward to watch progress and cancel a job that will be too large.",
+      "steps": [
+        "Add the frames in the order they should play.",
+        "Set the width and the frame delay.",
+        "Choose loop forever or a fixed count.",
+        "Press Create GIF and download."
+      ],
+      "faq": [
+        {
+          "q": "Why is my GIF enormous?",
+          "a": "GIF is 256-colour and inefficient. Cut frames, reduce width, or keep a WebM/MP4 clip instead."
+        },
+        {
+          "q": "Can I make a GIF from a video?",
+          "a": "Not in this build; upload the frames you want, or trim the clip with the video tool first."
+        }
+      ]
+    },
+    "trim-audio": {
+      "title": "Trim Audio",
+      "h1": "Cut MP3, WAV and M4A files online",
+      "desc": "Set in and out points, add a fade-out, and export a clean WAV or MP3-ready clip. Nothing is uploaded, so private recordings stay private.",
+      "intro": "Decoding uses your browser's audio engine, then the sample window is written to a 16-bit WAV. Great for a ringtone, a podcast intro or a class recording.",
+      "steps": [
+        "Load the audio file.",
+        "Play it and mark the start and end, or type the seconds.",
+        "Add a fade-out if the cut is abrupt.",
+        "Press Trim and download."
+      ],
+      "faq": [
+        {
+          "q": "Why does the output WAV sound identical but bigger?",
+          "a": "WAV is uncompressed. Run the exported file through Compress Image's sibling tools, or encode to MP3 with your usual player."
+        },
+        {
+          "q": "Does it support trimming mid-song precisely?",
+          "a": "Resolution is one sample, so type the timestamp or nudge by 0.05 s for a clean edit."
+        }
+      ]
+    },
+    "compress-video": {
+      "title": "Compress Video",
+      "h1": "Shrink a video in the browser",
+      "desc": "Re-encode a clip to WebM with a lower resolution or bitrate so it fits in an email, a form upload or a web page. Files stay on your device.",
+      "intro": "This works by playing the clip, redrawing each frame on canvas and recording the canvas — so it runs in real time and outputs a WebM file.",
+      "steps": [
+        "Open the video.",
+        "Choose scale and target bitrate.",
+        "Press Start and let it run; playback and conversion happen together.",
+        "Download the resulting .webm."
+      ],
+      "faq": [
+        {
+          "q": "Why must I wait through the whole clip?",
+          "a": "Recording happens live from playback. A two-minute video needs two minutes."
+        },
+        {
+          "q": "Is audio kept?",
+          "a": "Yes, when your browser supports recording the audio track; if the clip has an unusual codec the audio may be dropped, and the tool warns you."
+        }
+      ]
+    },
+    "image-contrast-brightness": {
+      "title": "Adjust Photo",
+      "h1": "Change brightness, contrast and saturation of an image",
+      "desc": "Fix a dark photo, boost a washed-out one, convert to grayscale or blur a background with live sliders, then export the result.",
+      "intro": "Every filter is a CSS-canvas operation, so you see the outcome before exporting and the original is never overwritten.",
+      "steps": [
+        "Load the picture.",
+        "Move the sliders; the right-hand preview updates instantly.",
+        "Optional: apply grayscale, sepia or blur.",
+        "Export as PNG or JPG."
+      ],
+      "faq": [
+        {
+          "q": "Does it repair a badly exposed photo?",
+          "a": "It can lift shadows and rebalance contrast, but detail lost to clipping cannot return."
+        },
+        {
+          "q": "Can I reuse the settings on other photos?",
+          "a": "Yes, add all files before pressing Apply and the same slider set is used for each."
+        }
+      ]
+    },
+    "word-counter": {
+      "title": "Word Counter",
+      "h1": "Word and character counter",
+      "desc": "Count words, characters, spaces, sentences, paragraphs, reading time and keyword repetition as you type. Handy for essays, tweets and SEO briefs.",
+      "intro": "Counting is local and instant, and the keyword list tells you which phrases you are over-using.",
+      "steps": [
+        "Paste your text.",
+        "Read the totals: words, characters with and without spaces, sentences, paragraphs.",
+        "Check reading and speaking time.",
+        "Review the top repeated words."
+      ],
+      "faq": [
+        {
+          "q": "How is reading time calculated?",
+          "a": "200 words per minute for silent reading and 150 for speaking, the standard editorial figures."
+        },
+        {
+          "q": "Do hyphenated words count once?",
+          "a": "Yes, they count as one word, matching what most school and publication limits use."
+        }
+      ]
+    },
+    "case-converter": {
+      "title": "Case Converter",
+      "h1": "Change text to UPPERCASE, lowercase or Title Case",
+      "desc": "Convert a block of text to title case, sentence case, camelCase, snake_case, kebab-case or inverse case in a single click.",
+      "intro": "Rules are language-aware: small words such as of and the stay lowercase in titles, and snake or kebab output is safe for filenames and code.",
+      "steps": [
+        "Paste the text.",
+        "Choose a case.",
+        "Copy or download the result."
+      ],
+      "faq": [
+        {
+          "q": "Why is Title Case not perfect on my headings?",
+          "a": "Acronyms and brand names are exceptions; edit them in the output or turn off smart titles."
+        },
+        {
+          "q": "Does it handle accents?",
+          "a": "Yes, the conversion is Unicode-aware so É, ß and ı keep their language rules where possible."
+        }
+      ]
+    },
+    "remove-duplicate-lines": {
+      "title": "Remove Duplicate Lines",
+      "h1": "Clean a list: dedupe, sort and trim lines",
+      "desc": "Delete repeated lines from a list, ignore letter case, trim stray spaces, drop blanks and sort A to Z or longest first.",
+      "intro": "Typical use: pasting an email or phone list from a spreadsheet and ending up with one clean column ready to import.",
+      "steps": [
+        "Paste the list.",
+        "Tick the clean-up options you need.",
+        "Check how many lines were removed.",
+        "Copy or download the result."
+      ],
+      "faq": [
+        {
+          "q": "Is a line with a trailing space treated as unique?",
+          "a": "Only when Trim spaces is off; turn it on to catch invisible differences."
+        },
+        {
+          "q": "Can I keep the duplicates visible?",
+          "a": "Yes, run Count duplicates to see each line with its occurrence number first."
+        }
+      ]
+    },
+    "lorem-ipsum-generator": {
+      "title": "Lorem Ipsum",
+      "h1": "Lorem Ipsum placeholder text generator",
+      "desc": "Generate exactly the amount of dummy text your mock-up needs — words, sentences or paragraphs, including the classic Cicero opening.",
+      "intro": "Useful for designers who need realistic line lengths without inventing copy, and for developers filling a table with believable data.",
+      "steps": [
+        "Choose paragraphs, sentences or words.",
+        "Set the amount.",
+        "Decide whether to start with Lorem ipsum dolor sit amet.",
+        "Copy the text."
+      ],
+      "faq": [
+        {
+          "q": "Why use Latin filler at all?",
+          "a": "It stops stakeholders reading the words and arguing about them, so the discussion stays on layout."
+        },
+        {
+          "q": "Can I get realistic English instead?",
+          "a": "Tick the readable option to use plain English filler for accessibility reviews."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "title": "Base64 Encode / Decode",
+      "h1": "Base64 encoder and decoder for text",
+      "desc": "Encode text to Base64 or decode it back, with URL-safe alphabet support and instant invalid-character errors.",
+      "intro": "Base64 is how tokens, headers and inline assets travel safely through systems that only accept plain characters.",
+      "steps": [
+        "Type or paste the input.",
+        "Pick Encode or Decode.",
+        "Choose the URL-safe alphabet if the value goes in a query string.",
+        "Copy the result."
+      ],
+      "faq": [
+        {
+          "q": "Is Base64 encryption?",
+          "a": "No. It is reversible encoding with no secret, so never use it to protect a password."
+        },
+        {
+          "q": "Why does decoding fail?",
+          "a": "Usually a stray character or a length that is not a multiple of four; the tool points at the position."
+        }
+      ]
+    },
+    "url-encode-decode": {
+      "title": "URL Encode / Decode",
+      "h1": "Escape and unescape URL components",
+      "desc": "Percent-encode a query value, encode a whole URL, or decode an escaped string back to readable text, with encodeURIComponent semantics.",
+      "intro": "The most common support ticket — a link that breaks because of a space, an ampersand or an accented character — is fixed here in one step.",
+      "steps": [
+        "Paste the value.",
+        "Choose component, path or full URL mode.",
+        "Encode or decode.",
+        "Copy the safe result."
+      ],
+      "faq": [
+        {
+          "q": "What is the difference between encodeURI and encodeURIComponent?",
+          "a": "encodeURIComponent also escapes characters that are legal in a URL structure, which is what you want for a single query value."
+        },
+        {
+          "q": "Why is a plus sign different from %20?",
+          "a": "Forms use + for spaces, real URLs use %20. The tool shows both so you can match your server."
+        }
+      ]
+    },
+    "html-entities": {
+      "title": "HTML Escape",
+      "h1": "Escape and unescape HTML entities",
+      "desc": "Turn <, >, &, quotes and accented letters into safe entities, or convert entities back into characters for display.",
+      "intro": "Use it when pasting code into a blog, writing a CMS field that eats your tags, or cleaning a scraped page.",
+      "steps": [
+        "Paste your markup or text.",
+        "Press Escape or Unescape.",
+        "Copy the result."
+      ],
+      "faq": [
+        {
+          "q": "Why does my CMS keep deleting tags?",
+          "a": "Its editor parses them as HTML. Escape the block first and it survives intact."
+        },
+        {
+          "q": "Does it convert numeric entities?",
+          "a": "Yes, both named and decimal or hexadecimal numeric forms are recognised."
+        }
+      ]
+    },
+    "reverse-text": {
+      "title": "Reverse Text",
+      "h1": "Reverse text, flip it upside down or mirror it",
+      "desc": "Write a string backwards, produce upside-down Unicode for social posts, or reverse word order without scrambling each word.",
+      "intro": "Popular for bios and stickers, and genuinely useful when you need a quick visual mirror of a label.",
+      "steps": [
+        "Type the text.",
+        "Choose backwards, upside-down or word order.",
+        "Copy the output."
+      ],
+      "faq": [
+        {
+          "q": "Why do some letters not flip?",
+          "a": "A few glyphs have no Unicode mirror; they are kept as-is so the text stays readable."
+        },
+        {
+          "q": "Does it keep emojis?",
+          "a": "Combined emoji sequences stay together rather than splitting into separate flags."
+        }
+      ]
+    },
+    "json-formatter": {
+      "title": "JSON Formatter",
+      "h1": "Format, validate and minify JSON",
+      "desc": "Pretty-print messy JSON, spot the exact line of a syntax error, sort keys, minify a payload, and collapse or expand nodes on a tree view.",
+      "intro": "Developers paste an API response here to read it; the error message points to the offending character instead of just saying Invalid JSON.",
+      "steps": [
+        "Paste the JSON.",
+        "Press Format, and set the indent if you need 2 or 4 spaces.",
+        "Fix any reported error and re-run.",
+        "Use Minify when the file has to ship."
+      ],
+      "faq": [
+        {
+          "q": "Does it accept JSON Lines?",
+          "a": "Yes, one object per line is detected and formatted as a sequence."
+        },
+        {
+          "q": "Why are my big numbers rounded?",
+          "a": "JavaScript cannot hold them as integers; the tool keeps them as strings when Preserve large numbers is on."
+        }
+      ]
+    },
+    "csv-to-json": {
+      "title": "CSV to JSON",
+      "h1": "Convert CSV or TSV to clean JSON",
+      "desc": "Upload or paste a spreadsheet export and get an array of objects, with quoted fields, thousands separators and empty cells handled correctly.",
+      "intro": "A real RFC-4180 parser is used, so commas inside quotes and embedded newlines do not shift the columns.",
+      "steps": [
+        "Paste CSV text or drop a .csv file.",
+        "Set the delimiter and whether the first row holds headers.",
+        "Press Convert.",
+        "Download the .json or copy it."
+      ],
+      "faq": [
+        {
+          "q": "Are numbers converted to numbers?",
+          "a": "Yes, and ISO dates stay strings. Turn on Type inference off to keep everything text."
+        },
+        {
+          "q": "Can I do the reverse?",
+          "a": "Use JSON Formatter's download-as-CSV action for a flat array of objects."
+        }
+      ]
+    },
+    "markdown-to-html": {
+      "title": "Markdown to HTML",
+      "h1": "Convert Markdown to HTML",
+      "desc": "Paste Markdown and copy the rendered HTML out, with tables, fenced code, footnotes-style links and optional GitHub flavour.",
+      "intro": "The same renderer powers the site's own documentation, so what you see in preview is what you copy.",
+      "steps": [
+        "Write or paste Markdown.",
+        "Watch the live HTML and preview panes.",
+        "Copy HTML or download the file."
+      ],
+      "faq": [
+        {
+          "q": "Does it sanitise the output?",
+          "a": "Raw HTML is passed through because that is valid Markdown; add a sanitiser before showing untrusted input."
+        },
+        {
+          "q": "Can I get Markdown back from HTML?",
+          "a": "Not in this tool; it is deliberately one-directional to keep the preview fast."
+        }
+      ]
+    },
+    "hash-generator": {
+      "title": "Hash Generator",
+      "h1": "MD5, SHA-1, SHA-256 and SHA-512 hash generator",
+      "desc": "Get a message digest from any text, or a file checksum for download verification, in the algorithm your system expects.",
+      "intro": "Strong hashes come from the browser's crypto engine; MD5 is implemented locally for legacy compatibility only.",
+      "steps": [
+        "Type the text, or load a file.",
+        "Choose one or more algorithms.",
+        "Copy the digests.",
+        "Compare them with the published checksum."
+      ],
+      "faq": [
+        {
+          "q": "Is MD5 safe?",
+          "a": "No — collisions are practical. Use it only as a legacy fingerprint, never for security."
+        },
+        {
+          "q": "Can I hash a password?",
+          "a": "You should not. Passwords need a slow, salted function such as bcrypt or Argon2, which a browser tool should not run for you."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "title": "UUID Generator",
+      "h1": "Generate random UUIDs and GUIDs",
+      "desc": "Create as many version 4 identifiers as you need, in the format your tool expects: dashes, braces, uppercase or plain.",
+      "intro": "Values come from the browser's cryptographic random source, so they are suitable for keys, sessions and test data.",
+      "steps": [
+        "Set how many UUIDs you want.",
+        "Pick the format.",
+        "Copy the list or download it."
+      ],
+      "faq": [
+        {
+          "q": "Are these really unique?",
+          "a": "Version 4 uses 122 random bits; collisions are astronomically unlikely unless you generate billions."
+        },
+        {
+          "q": "What is version 7?",
+          "a": "A time-ordered UUID that keeps inserts sequential in a database index, useful for large tables."
+        }
+      ]
+    },
+    "password-generator": {
+      "title": "Password Generator",
+      "h1": "Generate a strong random password",
+      "desc": "Build a memorable or unguessable password with the length and symbols you allow, see its strength, and copy it without it ever touching a server.",
+      "intro": "The suggestions are drawn from your browser's random source inside the page, so nothing is transmitted or logged.",
+      "steps": [
+        "Set the length; 16 characters or more is the current advice.",
+        "Choose the character sets you need.",
+        "Press Generate.",
+        "Copy it into your password manager."
+      ],
+      "faq": [
+        {
+          "q": "Is an online generator safe?",
+          "a": "This one runs entirely in the page and sends nothing anywhere, which you can confirm in the network tab."
+        },
+        {
+          "q": "Should I use a password manager instead?",
+          "a": "Yes. Generate here, store there, and never reuse a password between sites."
+        }
+      ]
+    },
+    "regex-tester": {
+      "title": "Regex Tester",
+      "h1": "Test JavaScript regular expressions online",
+      "desc": "Match a pattern against sample text with live highlighting, capture-group details, flags, and a plain-language breakdown of the expression.",
+      "intro": "Write the pattern once instead of guessing: every match is highlighted and each group is listed with its position.",
+      "steps": [
+        "Enter the pattern and the flags.",
+        "Paste the test string.",
+        "Read the highlighted matches and groups.",
+        "Open the explanation for a token-by-token breakdown."
+      ],
+      "faq": [
+        {
+          "q": "Why does my pattern work elsewhere but not here?",
+          "a": "JavaScript has no look-behind in older engines and no named-set syntax; the tester reports the engine difference."
+        },
+        {
+          "q": "Does it protect against catastrophic backtracking?",
+          "a": "Patterns that explode are timed out with a clear warning instead of freezing the tab."
+        }
+      ]
+    },
+    "diff-checker": {
+      "title": "Diff Checker",
+      "h1": "Compare two texts and see what changed",
+      "desc": "Line-by-line comparison of two versions of a file, contract or article, with additions and deletions colour-coded and a copy-ready summary.",
+      "intro": "Great before sending a document back to a colleague: it shows exactly which sentences moved.",
+      "steps": [
+        "Paste the original on the left and the changed version on the right.",
+        "Ignore case or whitespace if formatting noise bothers you.",
+        "Read the coloured diff.",
+        "Copy only the changed lines if you need them."
+      ],
+      "faq": [
+        {
+          "q": "How large can the files be?",
+          "a": "A few thousand lines is comfortable; beyond that the browser is better served by a dedicated diff tool."
+        },
+        {
+          "q": "Does it do word-level changes?",
+          "a": "Yes, when a line differs the tool falls back to word comparison inside that line."
+        }
+      ]
+    },
+    "text-to-speech": {
+      "title": "Text to Speech",
+      "h1": "Read text aloud with a natural browser voice",
+      "desc": "Turn any paragraph into speech, choose a voice and language, adjust speed and pitch, and proofread a script by ear.",
+      "intro": "Voices are the ones your operating system already installed — no account, no download, and it works without a network on most devices.",
+      "steps": [
+        "Paste the text.",
+        "Pick a voice; the list reflects your system.",
+        "Set rate and pitch.",
+        "Press Play."
+      ],
+      "faq": [
+        {
+          "q": "Can I download the audio?",
+          "a": "Not directly; the browser API streams it. Use the audio recorder in your OS if you need a file."
+        },
+        {
+          "q": "Why are there few voices?",
+          "a": "Count depends on the operating system and installed language packs. Windows and macOS let you add more."
+        }
+      ]
+    },
+    "percentage-calculator": {
+      "title": "Percentage Calculator",
+      "h1": "Percentage calculator: increase, decrease and share",
+      "desc": "Answer the four percentage questions people actually search for: what is X percent of Y, X is what percent of Y, increase or decrease by X percent.",
+      "intro": "Each mode shows the arithmetic, so you can check the answer or explain the method to someone else.",
+      "steps": [
+        "Choose the question type.",
+        "Fill the two numbers.",
+        "Read the answer and the worked steps."
+      ],
+      "faq": [
+        {
+          "q": "From 40 to 52 — what is the percentage increase?",
+          "a": "30 percent: divide the difference by the original number, so 12 / 40 = 0.3."
+        },
+        {
+          "q": "Why is a 20 percent rise then 20 percent fall not neutral?",
+          "a": "The second change uses the new, larger base. 100 becomes 120, then 96."
+        }
+      ]
+    },
+    "bmi-calculator": {
+      "title": "BMI Calculator",
+      "h1": "BMI calculator for metric and imperial",
+      "desc": "Work out body mass index, see which band you fall in, and get the weight range that counts as healthy for your height.",
+      "intro": "BMI is a screening figure, not a diagnosis — the calculator shows the bands and their limits so you can read them correctly.",
+      "steps": [
+        "Select metric or imperial.",
+        "Enter height and weight.",
+        "Read your BMI and the category range."
+      ],
+      "faq": [
+        {
+          "q": "Is BMI accurate for athletes?",
+          "a": "Poorly. Muscle weighs more than fat, so a lean, muscular person can be flagged as overweight."
+        },
+        {
+          "q": "Are children judged the same way?",
+          "a": "No. Under 18 uses age and sex percentiles, so speak to a clinician instead of using this figure."
+        }
+      ]
+    },
+    "age-calculator": {
+      "title": "Age Calculator",
+      "h1": "Age calculator from a date of birth",
+      "desc": "Get an exact age in years, months and days, plus total days lived, the next birthday, the weekday you were born on and the year you turn each milestone.",
+      "intro": "Handy for forms that ask for days, and for planning a birthday the week before it lands.",
+      "steps": [
+        "Enter the date of birth.",
+        "Optionally pick another date to measure against.",
+        "Read the breakdown."
+      ],
+      "faq": [
+        {
+          "q": "Why do two ages appear?",
+          "a": "Completed years versus total months and days; official forms usually want completed years."
+        },
+        {
+          "q": "How are leap years handled?",
+          "a": "Exactly: a February 29 birthday counts a year on the following day in non-leap years."
+        }
+      ]
+    },
+    "date-calculator": {
+      "title": "Date Calculator",
+      "h1": "Days between two dates, add or subtract days",
+      "desc": "Count the days between dates, add or subtract days and weekdays, and get the resulting calendar date with the weekday name.",
+      "intro": "Useful for deadlines, rental periods, project plans and any question about how long something lasts.",
+      "steps": [
+        "Choose Count between or Add to date.",
+        "Enter the dates and the number of days.",
+        "Decide whether weekends and holidays count.",
+        "Read the result date and the total."
+      ],
+      "faq": [
+        {
+          "q": "Is the end date included?",
+          "a": "By default the difference counts full days between the two, so the tool states clearly whether either day is included."
+        },
+        {
+          "q": "Can I subtract business days?",
+          "a": "Yes, switch to working days; public holidays still need to be counted by hand."
+        }
+      ]
+    },
+    "loan-calculator": {
+      "title": "Loan Calculator",
+      "h1": "Loan and EMI calculator with total interest",
+      "desc": "Estimate the monthly payment on a personal loan or mortgage, the total interest paid, and how much of the first years goes to interest.",
+      "intro": "The maths is the standard amortisation formula, and the summary shows the interest-to-principal ratio that lenders do not always advertise.",
+      "steps": [
+        "Enter the amount, the annual rate and the term.",
+        "Read the monthly payment.",
+        "Check total interest and total repaid.",
+        "Compare terms to see how much a longer loan really costs."
+      ],
+      "faq": [
+        {
+          "q": "Does this include fees or insurance?",
+          "a": "No, it is principal and interest only. Add products such as mortgage insurance to the amount to approximate the real payment."
+        },
+        {
+          "q": "What rate should I type?",
+          "a": "The nominal annual rate divided by twelve monthly is applied automatically, so enter the advertised yearly percentage."
+        }
+      ]
+    },
+    "discount-calculator": {
+      "title": "Discount Calculator",
+      "h1": "Sale price and percent-off calculator",
+      "desc": "Enter the original price and the discount to see what you pay, what you save, and what the item costs if several offers stack.",
+      "intro": "Also answers the reverse question: if you know the price before and after, it tells you the percentage off.",
+      "steps": [
+        "Type the original price.",
+        "Add the discount percent, or the final price.",
+        "Read what you pay and what you save.",
+        "Add a second discount to test a stacked offer."
+      ],
+      "faq": [
+        {
+          "q": "Is 30 percent off then 20 percent off equal to 50 percent?",
+          "a": "No, the second cut applies to the reduced price, so the true total is 44 percent off."
+        },
+        {
+          "q": "Can it include sales tax?",
+          "a": "Yes, add a tax rate to see the amount that actually leaves your account."
+        }
+      ]
+    },
+    "unit-converter": {
+      "title": "Unit Converter",
+      "h1": "Convert length, weight, temperature, volume and data",
+      "desc": "A single converter for the everyday units: metres and feet, kilograms and pounds, Celsius and Fahrenheit, litres, miles per hour, megabytes and more.",
+      "intro": "Values convert both ways as you type, and the factor used is shown so you can sanity-check a strange result.",
+      "steps": [
+        "Pick the category.",
+        "Choose the source unit and type the value.",
+        "Read the converted number, or switch units to go the other way."
+      ],
+      "faq": [
+        {
+          "q": "Which precision is shown?",
+          "a": "Six significant digits; hover the field for the exact decimal value."
+        },
+        {
+          "q": "Are UK and US pints different?",
+          "a": "Yes, 568 ml versus 473 ml, and the converter keeps them separate."
+        }
+      ]
+    },
+    "color-converter": {
+      "title": "Colour Converter",
+      "h1": "Convert HEX to RGB and HSL",
+      "desc": "Move between HEX, RGB, HSL and CSS names, check contrast against white and black, and get accessible shades automatically.",
+      "intro": "Paste a value in any notation and the others update instantly, including the WCAG contrast ratio you need before shipping a button colour.",
+      "steps": [
+        "Type or pick a colour.",
+        "Read HEX, RGB and HSL.",
+        "Check contrast on light and dark backgrounds."
+      ],
+      "faq": [
+        {
+          "q": "What contrast do I need?",
+          "a": "4.5:1 for normal body text and 3:1 for large text under WCAG AA."
+        },
+        {
+          "q": "Why does my HEX look different on the phone?",
+          "a": "Screens apply colour profiles; the numeric values are identical even when perception is not."
+        }
+      ]
+    },
+    "calorie-calculator": {
+      "title": "Calorie Calculator",
+      "h1": "Daily calorie and BMR calculator",
+      "desc": "Estimate basal metabolic rate with the Mifflin-St Jeor equation and the daily calories for maintaining, losing or gaining weight.",
+      "intro": "The numbers are estimates built on population averages, useful as a starting point rather than a prescription.",
+      "steps": [
+        "Enter age, sex, height and weight.",
+        "Choose your activity level.",
+        "Read BMR and maintenance calories.",
+        "Compare the gentle deficit and surplus targets."
+      ],
+      "faq": [
+        {
+          "q": "How accurate is it?",
+          "a": "Typically within ten to twenty percent for a healthy adult; measured energy expenditure is the only exact answer."
+        },
+        {
+          "q": "Should I eat at the deficit figure?",
+          "a": "Treat it as a reference and check any significant change with a qualified professional."
+        }
+      ]
+    },
+    "timestamp-converter": {
+      "title": "Timestamp Converter",
+      "h1": "Unix timestamp to date and back",
+      "desc": "Convert a Unix or millisecond timestamp into a readable local and UTC date, or turn a date into the number your API expects.",
+      "intro": "It also tells you which unit you pasted, which is the usual cause of a date landing in 1970 or 45000.",
+      "steps": [
+        "Paste the timestamp, or pick a date.",
+        "Check seconds versus milliseconds detection.",
+        "Read local, UTC and ISO output."
+      ],
+      "faq": [
+        {
+          "q": "Why is my date in January 1970?",
+          "a": "You passed a value in the wrong unit or a string that parsed to zero."
+        },
+        {
+          "q": "Which time zone is used?",
+          "a": "Your browser zone for the local row, plus explicit UTC and ISO strings."
+        }
+      ]
+    },
+    "random-number-generator": {
+      "title": "Random Number Generator",
+      "h1": "Random number, dice and coin flip generator",
+      "desc": "Pick a number in a range, roll dice, flip a coin, shuffle a list of names, or draw winners without repeats for a giveaway.",
+      "intro": "Values come from the browser's cryptographic random source, so results are suitable for decisions you actually care about.",
+      "steps": [
+        "Set the minimum and maximum.",
+        "Choose how many values and whether repeats are allowed.",
+        "Generate, or use the dice and coin presets."
+      ],
+      "faq": [
+        {
+          "q": "Is it truly random?",
+          "a": "It uses your operating system's entropy pool, which is the strongest source a browser is allowed to reach."
+        },
+        {
+          "q": "Can I pick several winners from a list?",
+          "a": "Yes, paste the names, enable no repeats and set how many to draw."
+        }
+      ]
+    },
+    "audio-joiner": {
+      "title": "Audio Joiner",
+      "h1": "Join audio files and merge MP3 online",
+      "desc": "Combine MP3, WAV, M4A and OGG files into one track in the order you choose. Free, no upload, no watermark — merge audio in your browser.",
+      "intro": "Add two or more clips, drag them into the right order, and the joiner decodes each one, matches sample rate and channels, and concatenates them into a single MP3 or WAV. Everything runs locally, so private recordings never leave your device.",
+      "steps": [
+        "Add the audio files you want to combine.",
+        "Drag or use the arrows to set the playback order.",
+        "Choose MP3 or WAV and a bitrate.",
+        "Press Join and download the single track."
+      ],
+      "faq": [
+        {
+          "q": "Can I join files of different formats?",
+          "a": "Yes. Each file is decoded to raw samples, then resampled to a common rate and channel count before they are concatenated, so MP3, WAV, M4A and OGG can be mixed."
+        },
+        {
+          "q": "Is there a limit on how many files I can merge?",
+          "a": "There is no fixed cap, but long audio is held in memory while it is decoded and encoded, so keep the total reasonable on low-memory devices."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Audio Converter",
+      "h1": "Convert audio to MP3, WAV and more online",
+      "desc": "Convert WAV to MP3, M4A, OGG and other audio formats in your browser. Pick the sample rate and bitrate, then download — no upload, no account.",
+      "intro": "The converter decodes your file with the browser’s audio engine, resamples it to the rate you choose, and re-encodes it to MP3 (small and universal) or WAV (lossless). Because it all happens on your machine, the original never leaves your device.",
+      "steps": [
+        "Load the audio file you want to convert.",
+        "Choose the output sample rate.",
+        "Pick MP3 or WAV and, for MP3, a bitrate.",
+        "Press Convert and download the new file."
+      ],
+      "faq": [
+        {
+          "q": "Which input formats can it read?",
+          "a": "Anything your browser can decode — commonly MP3, WAV, OGG, M4A/AAC and FLAC. Some DRM-protected or unusual codecs are refused by the browser itself."
+        },
+        {
+          "q": "Why is my MP3 smaller than the WAV?",
+          "a": "MP3 is lossy compression; WAV stores every sample uncompressed. For voice and sharing, MP3 at 128–192 kbps is usually plenty; choose WAV for a lossless master."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Volume Booster",
+      "h1": "Change audio volume — boost or lower it online",
+      "desc": "Increase or decrease the volume of an MP3, WAV or M4A file. Set the level from 0 to 400%, preview and download. Free and fully in-browser.",
+      "intro": "This tool multiplies every sample by the gain you set, so 100% keeps the original loudness, 200% doubles it and 50% halves it. Boosting far past 100% can clip loud peaks, so preview before you export.",
+      "steps": [
+        "Load the audio file.",
+        "Drag the volume slider to the level you want.",
+        "Choose MP3 or WAV output.",
+        "Press Apply, listen, then download."
+      ],
+      "faq": [
+        {
+          "q": "Why does the audio distort when I boost it a lot?",
+          "a": "Samples above full scale are clipped. If the original is already loud, a large boost pushes peaks past the limit; try a smaller gain first."
+        },
+        {
+          "q": "Can I make a file quieter instead?",
+          "a": "Yes — set the slider below 100%. 50% is half the amplitude, a clearly noticeable drop in loudness."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Reverse Audio",
+      "h1": "Reverse audio and play sound backwards online",
+      "desc": "Flip an audio file so it plays backwards, from end to start. Duration and pitch stay the same. A free MP3/WAV reverser with no upload.",
+      "intro": "Reversing copies the waveform from the last sample to the first, so the sound plays in reverse while keeping its length and pitch. It is the classic way to make a riser effect, check for hidden messages, or hear a song backwards.",
+      "steps": [
+        "Load the audio file.",
+        "Optionally pick MP3 or WAV output.",
+        "Press Reverse.",
+        "Play the result and download it."
+      ],
+      "faq": [
+        {
+          "q": "Does reversing change the pitch or speed?",
+          "a": "No. The samples are simply read in the opposite order, so duration and frequencies are unchanged — only the time direction flips."
+        },
+        {
+          "q": "What can I use reversed audio for?",
+          "a": "Transition risers, sound design, checking for backmasked messages, or a palindrome-style clip that reads the same forwards and backwards."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Audio Speed Changer",
+      "h1": "Speed up or slow down audio without changing pitch",
+      "desc": "Change audio tempo from 50% to 200% while keeping the pitch natural. Speed up lectures or slow down music to learn it — in your browser.",
+      "intro": "The speed changer uses overlap-add time stretching, so a voice sped up does not turn into a chipmunk and a slowed-down song does not drop in pitch. 100% is the original speed; 200% plays twice as fast in half the time.",
+      "steps": [
+        "Load the audio file.",
+        "Set the speed slider (50%–200%).",
+        "Choose MP3 or WAV output.",
+        "Press Apply and download the retimed clip."
+      ],
+      "faq": [
+        {
+          "q": "Will speeding up audio raise the pitch?",
+          "a": "No — that is the point of time stretching. The tempo changes but the pitch stays the same, unlike simply resampling the file."
+        },
+        {
+          "q": "How extreme can the speed change be?",
+          "a": "The slider runs from 50% to 200%. Very large stretches can add a slight warble on complex material; moderate changes sound most natural."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Pitch Shifter",
+      "h1": "Change the pitch of audio up or down online",
+      "desc": "Shift audio pitch by up to 12 semitones either way without changing the duration. Raise or lower a voice or instrument, then download free.",
+      "intro": "Pitch shifting resamples the audio to move the frequency, then time-stretches it back to the original length, so the clip lasts the same time but sounds higher or lower. +12 semitones is one octave up; −12 is one octave down.",
+      "steps": [
+        "Load the audio file.",
+        "Set the pitch shift in semitones (−12 to +12).",
+        "Choose MP3 or WAV output.",
+        "Press Apply and download the shifted clip."
+      ],
+      "faq": [
+        {
+          "q": "Does changing pitch change how long the file is?",
+          "a": "No. The tool restores the original duration after shifting, so only the pitch moves, not the timing."
+        },
+        {
+          "q": "What is a semitone?",
+          "a": "The smallest step in Western music — one key on a piano. Twelve semitones make an octave, so +12 doubles the frequency and −12 halves it."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Audio Equalizer",
+      "h1": "Online audio equalizer with bass and treble boost",
+      "desc": "Adjust five bands (60 Hz–12 kHz) to boost bass, brighten treble or shape a vocal. Use presets or fine-tune, then export MP3 or WAV free.",
+      "intro": "A five-band peaking equalizer lets you cut or boost bass, low mid, mid, high mid and treble by up to 12 dB each. Start from a preset — Flat, Bass boost, Vocal or Treble boost — then fine-tune and render the change to a new file.",
+      "steps": [
+        "Load the audio file.",
+        "Pick a preset or drag the five band sliders.",
+        "Choose MP3 or WAV output.",
+        "Press Apply and download the equalized track."
+      ],
+      "faq": [
+        {
+          "q": "What do the five bands control?",
+          "a": "60 Hz is bass weight, 250 Hz warmth, 1 kHz the body of vocals, 4 kHz presence and clarity, and 12 kHz air and sparkle. Boost or cut each to taste."
+        },
+        {
+          "q": "Is the EQ applied to the downloaded file?",
+          "a": "Yes. Unlike a playback-only equalizer, this renders the filtering into the exported MP3 or WAV, so the change is permanent in the file you keep."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Voice Recorder",
+      "h1": "Record audio online with your microphone",
+      "desc": "Record your voice from the microphone straight in the browser. Press record, stop, preview and download — no app, no upload, no account.",
+      "intro": "The recorder captures your microphone with the browser’s MediaRecorder API and saves the take locally so you can preview and download it. Nothing is sent to a server; the recording stays on your device until you keep it.",
+      "steps": [
+        "Press Record and allow microphone access.",
+        "Speak or play the sound you want to capture.",
+        "Press Stop when you are done.",
+        "Preview the take and download it."
+      ],
+      "faq": [
+        {
+          "q": "Where is my recording stored?",
+          "a": "Only in your browser’s memory until you download it. Nothing is uploaded, so once you close the page an unsaved take is gone."
+        },
+        {
+          "q": "Why does the browser ask for permission?",
+          "a": "Microphone access always needs your explicit consent. If you denied it, re-enable the microphone permission for this site and press Record again."
+        }
+      ]
+    },
+    "screen-recorder": {
+      "title": "Screen Recorder",
+      "h1": "Record your screen online for free",
+      "desc": "Capture your screen, a window or a tab with optional system audio. Record, stop, preview and download a WebM video — no install, no upload.",
+      "intro": "The screen recorder uses the browser’s display-capture API to record your whole screen, a single window or a tab, with audio where supported. The video is assembled locally and offered as a download; it never touches a server.",
+      "steps": [
+        "Press Record and choose what to share (screen, window or tab).",
+        "Optionally include audio in the share picker.",
+        "Press Stop, or end the share, when finished.",
+        "Preview the clip and download the WebM."
+      ],
+      "faq": [
+        {
+          "q": "Which browsers support screen recording?",
+          "a": "Chrome and Edge on desktop have the most reliable display capture, and Firefox supports it too. Mobile browsers generally do not, so use a desktop browser."
+        },
+        {
+          "q": "Can it record system audio?",
+          "a": "When you share a tab or the whole screen the picker offers an audio option. Whether system audio is included depends on the browser and what you shared."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Webcam Recorder",
+      "h1": "Record video from your webcam online",
+      "desc": "Record yourself with the camera and microphone in your browser. Preview the live feed, press record, then download — free, no software.",
+      "intro": "The webcam recorder shows a live preview from your camera, captures it with the microphone through MediaRecorder, and saves the clip locally for preview and download. The video never leaves your device unless you download it.",
+      "steps": [
+        "Press Record and allow camera and microphone access.",
+        "Check the live preview and frame yourself.",
+        "Press Stop when you are done.",
+        "Preview the recording and download it."
+      ],
+      "faq": [
+        {
+          "q": "Is the video uploaded anywhere?",
+          "a": "No. It is recorded and held in your browser, then offered as a local download. Nothing is sent to a server."
+        },
+        {
+          "q": "What format is the recording?",
+          "a": "A WebM video (VP8/VP9 with Opus audio) where the browser supports it, which plays in modern browsers and most editors. Some browsers may produce MP4."
+        }
+      ]
+    },
+    "pdf-page-numbers": {
+      "title": "PDF Page Numbers",
+      "h1": "Add page numbers to a PDF online",
+      "desc": "Insert page numbers into a PDF at the top or bottom, left, centre or right. Set the start number, font size and a prefix. Free, no upload.",
+      "intro": "This tool stamps a real text page number onto each page of your PDF with pdf-lib, so the numbers stay crisp at any zoom and are selectable. Position them in the header or footer, skip the cover, and add an optional prefix.",
+      "steps": [
+        "Load the PDF you want to number.",
+        "Choose the position, alignment and starting number.",
+        "Set the font size and an optional prefix; skip the cover if needed.",
+        "Press Add page numbers and download."
+      ],
+      "faq": [
+        {
+          "q": "Can I start from a specific page or number?",
+          "a": "Yes. Set the starting number and use the page range to number only certain pages, or tick “skip the first page” to leave a cover unnumbered."
+        },
+        {
+          "q": "Are the numbers added as text or an image?",
+          "a": "As real vector text, so they scale cleanly in print and can be selected and searched in the finished PDF."
+        }
+      ]
+    },
+    "shoe-size-converter": {
+      "title": "Shoe Size Converter",
+      "h1": "Shoe size converter — US, EU, UK and CN",
+      "desc": "Convert shoe sizes between US, EU, UK and CN for men and women. Enter a size or foot length and see every system at once — free and instant.",
+      "intro": "This converter maps a shoe size or a foot length in centimetres across the US, EU, UK and CN systems, for both men’s and women’s fits. Type a size in any system, or measure your foot heel-to-toe, and it shows the equivalent in all the others plus the foot length in cm and inches. Conversions are approximate retail standards and vary by brand and last.",
+      "steps": [
+        "Choose men’s or women’s fit.",
+        "Pick the size system you know (US, EU, UK, CN or cm).",
+        "Enter your size or foot length.",
+        "Read the equivalent sizes in every system."
+      ],
+      "faq": [
+        {
+          "q": "How do I measure my foot for the right size?",
+          "a": "Stand on paper in the evening, mark the heel and the longest toe, and measure the distance in centimetres. Enter that length in the cm system; measure both feet and use the larger one."
+        },
+        {
+          "q": "Are these conversions exact?",
+          "a": "They are approximate retail standards. Brands and shoe lasts differ, so always check the maker’s own size chart and choose the larger size when you fall between two."
+        }
+      ]
+    },
+    "rmb-uppercase": {
+      "title": "RMB Uppercase Converter",
+      "h1": "Convert an amount to Chinese uppercase RMB",
+      "desc": "Convert a number to the Chinese uppercase RMB amount used on cheques and invoices. Handles yuan, jiao and fen. Free, instant, no upload.",
+      "intro": "Type an amount and the converter writes it in the financial Chinese uppercase form (daxie) used on cheques, invoices and contracts to prevent tampering. It handles yuan, jiao and fen, marks an exact whole amount correctly, and works up to just under one trillion. The calculation uses integer cents to avoid floating-point errors.",
+      "steps": [
+        "Enter the amount, for example 1234.56.",
+        "The uppercase RMB amount appears instantly.",
+        "Check the yuan, jiao and fen parts.",
+        "Copy the result for your cheque or invoice."
+      ],
+      "faq": [
+        {
+          "q": "What is the Chinese uppercase amount for?",
+          "a": "It is the tamper-resistant financial form (daxie) required on cheques, invoices and contracts in China, where ordinary digits could be altered. Each digit has a complex character that is hard to forge."
+        },
+        {
+          "q": "How are decimals handled?",
+          "a": "The first decimal place is jiao and the second is fen. An exact whole amount ends with a character marking “no cents”, so 100 and 100.00 are both written correctly."
+        }
+      ]
+    },
+    "world-clock": {
+      "title": "World Clock",
+      "h1": "World clock — time zones and meeting planner",
+      "desc": "See the live time in 12 world cities, compare time zones and plan a meeting across them, with business-hours highlights. Free, no sign-up.",
+      "intro": "The world clock shows the live time in twelve major cities, each with its date and a green dot during local business hours (09:00–18:00). Drag the planner to line up a meeting across time zones and see what time it lands in each city, with a badge when a city is on a different calendar day. Times are shown against your own time zone.",
+      "steps": [
+        "See the live time in twelve world cities.",
+        "Note the green business-hours dots and day badges.",
+        "Drag the planner to set a meeting time.",
+        "Read the local time in each city."
+      ],
+      "faq": [
+        {
+          "q": "Does it account for daylight saving time?",
+          "a": "Yes. Times are computed with your browser’s time-zone database, so daylight saving transitions are applied automatically for each city."
+        },
+        {
+          "q": "How do I plan a meeting across time zones?",
+          "a": "Drag the planner slider to a time in your own zone; every city card updates to show its local time, and a badge marks any city that falls on a different day."
+        }
+      ]
+    },
+    "pomodoro-timer": {
+      "title": "Pomodoro Timer",
+      "h1": "Pomodoro focus timer with breaks",
+      "desc": "A Pomodoro timer for focused work: 25-minute sessions, short and long breaks, a session counter and an optional chime. Free, in-browser.",
+      "intro": "The Pomodoro technique alternates focused work with short breaks, and a longer break after a few rounds. Set the focus, short-break and long-break lengths, start the timer, and it counts down with a session counter and an optional chime at each phase change. Fullscreen mode keeps a large countdown visible while you work. The timer runs while the tab is open.",
+      "steps": [
+        "Set your focus and break lengths.",
+        "Press Start to begin a focus session.",
+        "Work until the chime, then take a break.",
+        "Repeat; a long break comes after a few rounds."
+      ],
+      "faq": [
+        {
+          "q": "What are the default Pomodoro lengths?",
+          "a": "The classic cycle is 25 minutes of focus, a 5-minute short break, and a 15-minute long break after four focus sessions. You can change all three lengths and the number of rounds."
+        },
+        {
+          "q": "Does it stay accurate if I switch tabs?",
+          "a": "The timer counts against the clock rather than decrementing, so it stays accurate even when the browser throttles a background tab. Keep the tab open, or use fullscreen for a large countdown."
+        }
+      ]
+    },
+    "random-picker": {
+      "title": "Random Picker",
+      "h1": "Random name picker and spin-the-wheel",
+      "desc": "Spin a wheel to pick a random name, or draw a winner instantly. Add one name per line, remove winners and pick a whole team. Free, no upload.",
+      "intro": "Type one name per line, spin the wheel, and a winner is chosen with crypto.getRandomValues() so every name has an equal chance. Remove the winner after each draw to pick a whole team in order, or use Quick draw for an instant result without the animation. Reset to start again. Everything runs locally in your browser.",
+      "steps": [
+        "Enter one name per line.",
+        "Press Spin the wheel (or Quick draw).",
+        "Read the winner.",
+        "Remove the winner to draw again, or reset."
+      ],
+      "faq": [
+        {
+          "q": "Is the pick truly random?",
+          "a": "Yes. It uses the browser’s crypto.getRandomValues(), a cryptographically secure random source, so each name has an equal chance and the result is not predictable."
+        },
+        {
+          "q": "Can I pick several winners without repeats?",
+          "a": "Yes. Use “Remove winner” after each draw to take that name out of the wheel, so you can pick a whole team in order. Reset restores all the names."
+        }
+      ]
+    },
+    "invoice-generator": {
+      "title": "Invoice Generator",
+      "h1": "Free invoice generator — create a PDF invoice",
+      "desc": "Create a professional invoice in your browser. Add your details, line items, tax and discount, then download a PDF or PNG. Free, no upload.",
+      "intro": "Fill in the seller and client details, add line items with quantities and prices, set a discount and tax rate, and the generator lays out a clean invoice with totals. Preview it, then export a one-page PDF or a PNG image. Everything is drawn locally in your browser, so your financial details never leave your device.",
+      "steps": [
+        "Enter your details and the client’s details.",
+        "Add line items with quantity and unit price.",
+        "Set the currency, discount and tax rate.",
+        "Generate, then download the PDF or PNG."
+      ],
+      "faq": [
+        {
+          "q": "Is my invoice data uploaded anywhere?",
+          "a": "No. The invoice is rendered on a canvas in your browser and exported locally as a PDF or PNG. Nothing is sent to a server, so your figures stay private."
+        },
+        {
+          "q": "Can I use my own currency and tax rate?",
+          "a": "Yes. Pick from eight currencies and set any discount percentage and tax rate; the subtotal, discount, tax and total are calculated for you."
+        }
+      ]
+    },
+    "signature-pad": {
+      "title": "Signature Pad",
+      "h1": "Draw your signature online — transparent PNG",
+      "desc": "Draw your signature with a mouse, finger or stylus and download a transparent PNG. Undo, clear and trim empty space. Free, no upload.",
+      "intro": "Sign on the canvas with a mouse, touch screen or stylus, choose a pen colour and width, and download a PNG with a transparent background so it drops cleanly onto a contract or form. Undo strokes, clear the pad, or trim the empty space around your signature. Nothing is uploaded — the drawing stays in your browser.",
+      "steps": [
+        "Draw your signature on the pad.",
+        "Adjust the pen colour and width if needed.",
+        "Undo or clear to fix mistakes; trim empty space.",
+        "Download the transparent PNG."
+      ],
+      "faq": [
+        {
+          "q": "Why is the background transparent?",
+          "a": "The PNG is exported with an alpha channel, so only your strokes are opaque. That lets you place the signature over a document without a white box around it."
+        },
+        {
+          "q": "Can I sign on a phone or tablet?",
+          "a": "Yes. The pad uses pointer events, so a finger or stylus works just like a mouse. Draw, then download the PNG to your device."
+        }
+      ]
+    },
+    "id-photo-maker": {
+      "title": "ID Photo Maker",
+      "h1": "Passport and ID photo maker online",
+      "desc": "Make passport, visa and ID photos at home. Crop to the right size, set the dpi, and replace the background with white, blue or red. Free.",
+      "intro": "Upload a portrait, choose a preset (China 1-inch, China 2-inch, passport/visa or US passport) or a custom size in millimetres, and set the print resolution. Zoom and shift to frame the head, then optionally replace a plain background with white, blue or red. The photo is processed locally and downloaded as a JPEG ready to print.",
+      "steps": [
+        "Upload a clear, front-facing portrait.",
+        "Pick a size preset or set a custom width and height.",
+        "Zoom and adjust the position; optionally replace the background.",
+        "Make the photo and download the JPEG."
+      ],
+      "faq": [
+        {
+          "q": "Will this photo be accepted for my passport?",
+          "a": "It produces a correctly sized, high-resolution photo, but acceptance depends on your issuing authority’s rules for pose, lighting and background. Always check the official requirements before printing."
+        },
+        {
+          "q": "How does background replacement work?",
+          "a": "It keys out the colour in the top-left corner of your photo, so start with a plain, evenly lit backdrop. Adjust the tolerance to remove more or less of the old background."
+        }
+      ]
+    },
+    "contract-generator": {
+      "title": "Contract Generator",
+      "h1": "Free NDA and service agreement generator",
+      "desc": "Generate a mutual NDA or a service agreement from a simple template. Fill in the parties, purpose and terms, then download or print. Free.",
+      "intro": "Choose a mutual non-disclosure agreement or a service agreement, fill in the parties, the effective date, the purpose or scope, the term and the governing law, and the generator assembles a plain-language draft. Download it as a text file or print it. The draft is created in your browser and never uploaded. This is a general template, not legal advice — have a qualified lawyer review it before signing.",
+      "steps": [
+        "Choose NDA or service agreement.",
+        "Enter the parties, date and key terms.",
+        "Generate the draft and read it over.",
+        "Download the .txt or print it."
+      ],
+      "faq": [
+        {
+          "q": "Is this a legally binding contract?",
+          "a": "It is a general template to start from, not legal advice. Laws differ by country and situation, so have a qualified lawyer review and adapt it before anyone signs."
+        },
+        {
+          "q": "What can I customise?",
+          "a": "The parties, effective date, purpose or scope of services, fee, term and governing law. Delete clauses that do not apply and add the details specific to your deal."
+        }
+      ]
+    },
+    "zero-width-watermark": {
+      "title": "Zero-Width Watermark",
+      "h1": "Zero-width watermark — hide text inside text",
+      "desc": "Hide a secret message inside ordinary text using invisible zero-width Unicode characters. It survives copy-paste. Embed or reveal it free, in your browser.",
+      "intro": "This tool hides a secret message inside a normal-looking piece of text by encoding it as invisible zero-width Unicode characters (U+200B and U+200C) wrapped in word-joiners. The carrier text reads exactly the same, but the hidden payload travels with it when you copy and paste. Switch to Reveal to extract a message from watermarked text. It is obfuscation, not encryption: anything that strips formatting or normalises Unicode will remove the mark, so never use it for passwords or sensitive data.",
+      "steps": [
+        "Type the visible carrier text.",
+        "Type the secret message to hide.",
+        "Press Embed and copy the watermarked text.",
+        "To read it back, paste it into Reveal mode."
+      ],
+      "faq": [
+        {
+          "q": "Will the hidden message survive copy-paste?",
+          "a": "Yes, through ordinary plain-text copy-paste, because zero-width characters are part of the string. But rich-text editors, social platforms and any tool that normalises Unicode or strips formatting can remove them, so always test on the destination."
+        },
+        {
+          "q": "Is this secure encryption?",
+          "a": "No. It is steganography through obscurity — anyone who knows to look for zero-width characters can reveal the message. Use the AES encrypt/decrypt tool for real secrecy."
+        }
+      ]
+    },
+    "css-generator": {
+      "title": "CSS Shadow & Grid Generator",
+      "h1": "CSS generator — box shadow, radius and grid",
+      "desc": "Generate CSS box-shadow, border-radius and grid layouts visually. Drag the sliders, watch the live preview and copy the CSS. Free, no sign-up.",
+      "intro": "Design CSS visually instead of guessing numbers. In Box mode, drag sliders for shadow offset, blur, spread, corner radius, colour and opacity, with an optional inset shadow, and watch a live preview update. In Grid mode, set the column count, gap, item count and row height to lay out a responsive grid. The matching CSS is generated as you work — copy it straight into your stylesheet. Everything runs in your browser.",
+      "steps": [
+        "Choose Box shadow & radius or Grid layout.",
+        "Drag the sliders to shape the effect.",
+        "Watch the preview and CSS update live.",
+        "Copy the generated CSS into your project."
+      ],
+      "faq": [
+        {
+          "q": "What CSS does it generate?",
+          "a": "Standard, copy-ready CSS: a .box rule with background, border-radius and box-shadow, or a .grid rule using display:grid with grid-template-columns and gap. No vendor prefixes are needed for these properties in modern browsers."
+        },
+        {
+          "q": "Can I use the grid CSS on a real site?",
+          "a": "Yes. The grid rule uses repeat() and fractional columns, so it is responsive. Paste it into your stylesheet and put your content inside the grid container."
+        }
+      ]
+    },
+    "json-to-svg": {
+      "title": "JSON to SVG Diagram",
+      "h1": "JSON to SVG — visualise a structure tree",
+      "desc": "Turn JSON into a colourful SVG structure tree. Paste an object or array, render the diagram, then download the SVG or copy the markup. Free, local.",
+      "intro": "Paste any JSON object or array and the tool parses it and lays it out as a left-to-right structure tree, drawn as a colourful SVG entirely in your browser. Each key becomes a node, nested objects and arrays branch out, and leaf values are shown inline. Download the result as an SVG you can drop into documentation or slides, or copy the raw markup. Large arrays are capped at 40 branches and eight levels deep to keep the diagram readable.",
+      "steps": [
+        "Paste your JSON into the input.",
+        "Press Render diagram.",
+        "Inspect the structure tree preview.",
+        "Download the SVG or copy the markup."
+      ],
+      "faq": [
+        {
+          "q": "What JSON shapes are supported?",
+          "a": "Any valid JSON: objects, arrays, strings, numbers, booleans and null. Objects and arrays become branching nodes; primitive values are shown as leaves. Invalid JSON reports a clear error instead of drawing."
+        },
+        {
+          "q": "Is the SVG editable?",
+          "a": "Yes. It is plain SVG markup, so you can open it in any vector editor or paste it into HTML. The download is a self-contained .svg file with no external dependencies."
+        }
+      ]
+    },
+    "encrypt-decrypt": {
+      "title": "Encrypt / Decrypt Text",
+      "h1": "AES encrypt / decrypt text online",
+      "desc": "Encrypt and decrypt text with AES-256-GCM and a passphrase, right in your browser. PBKDF2 key derivation, nothing uploaded. Free and private.",
+      "intro": "Protect a message with strong, modern cryptography without installing anything. Type your text and a passphrase, then Encrypt: the tool derives a 256-bit key with PBKDF2 (150,000 iterations, SHA-256) and encrypts with AES-GCM, packing the random salt and IV into the base64 output so the passphrase alone is enough to decrypt later. Paste the ciphertext and the same passphrase to Decrypt. All of it uses the browser’s Web Crypto API and never leaves your device.",
+      "steps": [
+        "Type or paste the text.",
+        "Enter a strong passphrase.",
+        "Press Encrypt to produce ciphertext.",
+        "To reverse it, paste the ciphertext and Decrypt."
+      ],
+      "faq": [
+        {
+          "q": "How secure is this?",
+          "a": "It uses AES-256-GCM, an authenticated encryption standard, with a key derived by PBKDF2 at 150,000 iterations. Security depends on your passphrase being strong and secret; the salt and IV are random for every encryption."
+        },
+        {
+          "q": "Can I decrypt without this site?",
+          "a": "The output is standard base64 packing salt (16 bytes), IV (12 bytes) and AES-GCM ciphertext. Any library that reproduces PBKDF2-SHA256 at 150,000 iterations and AES-256-GCM can decrypt it with the same passphrase."
+        }
+      ]
+    },
+    "image-mosaic": {
+      "title": "Photo Mosaic & Blur",
+      "h1": "Photo mosaic — pixelate and blur locally",
+      "desc": "Pixelate or blur faces, number plates and private details in a photo by dragging a brush. Edit locally on a canvas and download a PNG. Free, no upload.",
+      "intro": "Hide sensitive parts of an image without sending it anywhere. Upload a photo, choose Pixelate or Blur, set the brush size and strength, then drag across the faces, number plates or documents you want to obscure. The effect is applied on a canvas in your browser; restore the original at any time and download the result as a PNG. Nothing is uploaded.",
+      "steps": [
+        "Upload a photo.",
+        "Pick Pixelate or Blur and set the brush.",
+        "Drag over the areas to hide.",
+        "Download the edited PNG."
+      ],
+      "faq": [
+        {
+          "q": "Is pixelation reversible?",
+          "a": "Strong pixelation averages each block into one colour, destroying the original detail, so it cannot be undone from the output. Use a coarse block size for sensitive data; light blur can sometimes be enhanced, so prefer pixelation for faces and plates."
+        },
+        {
+          "q": "Are my photos uploaded?",
+          "a": "No. The image is drawn and edited on a canvas entirely in your browser, and the PNG is generated locally. Nothing is sent to a server."
+        }
+      ]
+    },
+    "grid-splitter": {
+      "title": "Image Grid Splitter",
+      "h1": "Image grid splitter — nine-square and NxN",
+      "desc": "Slice an image into a 3×3 nine-square grid or any NxN layout for social media. Crop to square, then download the pieces as a ZIP. Free, local.",
+      "intro": "Cut one picture into a seamless grid for Instagram, Weibo or any social feed. Upload an image, choose a grid from 2×2 up to 6×6 (3×3 is the classic nine-square), and optionally crop to a square first so every piece is square. The tool slices it on a canvas in your browser, then you download the pieces individually or as one ZIP, ready to post in order. Nothing is uploaded.",
+      "steps": [
+        "Upload the image you want to split.",
+        "Choose the grid size, e.g. 3×3.",
+        "Toggle Crop to square for square pieces.",
+        "Split and download the pieces or the ZIP."
+      ],
+      "faq": [
+        {
+          "q": "How do I post a seamless nine-square?",
+          "a": "Split into 3×3, download the ZIP, and upload the nine pieces to your social app in numbered order (grid-01 to grid-09). Most apps let you select multiple images at once; keep the order so the picture lines up."
+        },
+        {
+          "q": "Why crop to a square first?",
+          "a": "A nine-square feed shows square thumbnails. Cropping the source to a centred square before splitting keeps every piece square and avoids uneven edges. Turn it off to split the full rectangle instead."
+        }
+      ]
+    },
+    "camera-mic-test": {
+      "title": "Camera & Mic Test",
+      "h1": "Camera, microphone and screen test",
+      "desc": "Test your webcam, microphone and screen in the browser. See a live camera preview, a mic level meter and a dead-pixel colour test. Free, private.",
+      "intro": "Check your hardware before a call or recording, entirely in your browser. Start the camera for a live preview, test the microphone and watch the level bar move as you speak, and run the screen dead-pixel test to cycle full-screen solid colours and spot stuck pixels. No video or audio is recorded, saved or uploaded — the streams stop when you press Stop or leave the page.",
+      "steps": [
+        "Press Start camera to check the video.",
+        "Press Test microphone and speak.",
+        "Run the screen test and tap to cycle colours.",
+        "Stop each test when you are done."
+      ],
+      "faq": [
+        {
+          "q": "Does it record or upload anything?",
+          "a": "No. The camera and microphone are only previewed and analysed live in your browser through getUserMedia and the Web Audio API. Nothing is recorded, saved or sent anywhere, and the tracks stop when you press Stop."
+        },
+        {
+          "q": "Why does the browser ask for permission?",
+          "a": "Accessing a camera or microphone always requires your explicit permission, and a secure (https) page. If you denied it, allow it in your browser’s site settings and try again."
+        }
+      ]
+    },
+    "teleprompter": {
+      "title": "Teleprompter",
+      "h1": "Online teleprompter for your script",
+      "desc": "A free online teleprompter: paste your script, scroll it in big text, adjust speed and font size, mirror it and go fullscreen. Nothing uploaded.",
+      "intro": "Read your speech smoothly while recording. Paste your script, set a comfortable font size and scroll speed, then press Start to roll the text. Mirror flips it horizontally for a beam-splitter teleprompter rig, and Fullscreen fills the display so you can read from a distance. Your script stays in this browser tab and is never uploaded.",
+      "steps": [
+        "Paste your script or speech.",
+        "Set the font size and scroll speed.",
+        "Press Start to roll; mirror if you use a rig.",
+        "Use Fullscreen for a large display."
+      ],
+      "faq": [
+        {
+          "q": "What is the mirror option for?",
+          "a": "A beam-splitter teleprompter reflects the screen onto glass in front of the lens, which reverses the text. Mirroring flips it horizontally so it reads correctly in the reflection. Leave it off when reading directly from the screen."
+        },
+        {
+          "q": "Is my script saved or sent anywhere?",
+          "a": "No. The script lives only in this browser tab while you use the tool and is never uploaded or stored on a server. Refreshing the page clears it."
+        }
+      ]
+    },
+    "sound-level-meter": {
+      "title": "Sound Level Meter",
+      "h1": "Sound level meter — online decibel meter",
+      "desc": "A free online sound level meter: see the relative decibel level around you live, with peak and average. Uses your mic locally, nothing recorded.",
+      "intro": "Measure how loud your surroundings are using your device’s microphone. Press Start, allow access, and the meter shows the relative sound level in decibels with a live bar plus peak and average readings. It is a relative, uncalibrated meter referenced to digital full scale, so use it to compare loudness or spot noise rather than for legal or safety measurements. Audio is analysed in your browser and never recorded or uploaded.",
+      "steps": [
+        "Press Start and allow microphone access.",
+        "Watch the live decibel reading and bar.",
+        "Check the peak and average levels.",
+        "Reset the peak or Stop when done."
+      ],
+      "faq": [
+        {
+          "q": "Is this a calibrated decibel meter?",
+          "a": "No. It is a relative meter referenced to digital full scale, so the absolute value depends on your microphone and its gain. It is useful for comparing loudness, not for certified noise measurements."
+        },
+        {
+          "q": "Is the audio recorded?",
+          "a": "No. The microphone stream is only analysed live in your browser to compute the level. Nothing is recorded, saved or uploaded, and the mic stops when you press Stop or leave the page."
+        }
+      ]
+    }
+  }
+}

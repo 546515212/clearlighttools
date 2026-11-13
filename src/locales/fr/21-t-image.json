@@ -1,0 +1,253 @@
+{
+  "t": {
+    "compress-image": {
+      "desc": "Réduisez la taille de vos photos sans perte visible, comparez l'avant et l'après et traitez plusieurs fichiers à la fois, dans le navigateur.",
+      "intro": "La compression ré-encode l'image avec l'encodeur d'images du navigateur lui-même. Les métadonnées EXIF sont retirées par défaut, car c'est souvent là que se cache le plus gros gain.",
+      "steps": [
+        "Déposez une ou plusieurs photos.",
+        "Déplacez le curseur de qualité : 70 à 85 suffisent en général pour le web.",
+        "Appuyez sur Compresser.",
+        "Comparez les tailles, puis téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Quelle qualité faut-il pour un site web ?",
+          "a": "80 pour la photographie, 90 pour les captures d'écran chargées de texte, et convertissez en WebP quand le navigateur le permet."
+        },
+        {
+          "q": "Cela fonctionne-t-il avec les HEIC d'un iPhone ?",
+          "a": "Safari et Chrome décodent le HEIC sur la plupart des appareils ; si le vôtre n'y parvient pas, convertissez d'abord en JPEG avec l'outil Convertir image."
+        }
+      ]
+    },
+    "convert-image": {
+      "desc": "Changez le format d'une image en une étape : PNG en JPG, JPG en WebP, WebP en PNG et plus, en gérant la transparence et la qualité.",
+      "intro": "Le décodage et le ré-encodage se font sur un canevas, donc les conversions sont sans perte en dehors du format de destination lui-même. Les PNG transparents reçoivent un fond optionnel quand on les enregistre en JPG.",
+      "steps": [
+        "Ajoutez vos images.",
+        "Choisissez le format de destination.",
+        "Réglez la qualité et, pour le JPG, un fond derrière les zones transparentes.",
+        "Convertissez et téléchargez, ou récupérez tous les fichiers dans une archive zip."
+      ],
+      "faq": [
+        {
+          "q": "Le WebP sera-t-il vraiment plus petit ?",
+          "a": "En général 25 à 35 % de moins qu'un JPEG de qualité équivalente, et tous les navigateurs actuels l'affichent."
+        },
+        {
+          "q": "Gérez-vous le BMP, le TIFF ou le SVG ?",
+          "a": "Les navigateurs décodent le BMP et le TIFF ; le SVG est vectoriel et ne peut pas être rastérisé sans exécuter son code, donc il est volontairement écarté."
+        }
+      ]
+    },
+    "resize-image": {
+      "desc": "Fixez une largeur et une hauteur précises, gardez le ratio ou recadrez sur 1:1, 4:5 ou 16:9. Idéal pour avatars, miniatures et formulaires.",
+      "intro": "Le redimensionnement passe par une voie de canevas de haute qualité, et le cadre de recadrage se déplace sur la partie intéressante de la photo avant l'export.",
+      "steps": [
+        "Chargez l'image.",
+        "Saisissez la nouvelle largeur ou choisissez un préréglage de ratio.",
+        "Glissez le cadre de recadrage pour placer le sujet.",
+        "Appliquez, puis téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Agrandir rendra-t-il l'image plus nette ?",
+          "a": "Aucun outil ne peut inventer du détail ; agrandir ne fait que grossir le fichier. Gardez les agrandissements sous 150 %."
+        },
+        {
+          "q": "Puis-je redimensionner beaucoup de photos à l'identique ?",
+          "a": "Oui, ajoutez tous les fichiers et la même règle s'applique à chacun."
+        }
+      ]
+    },
+    "image-to-base64": {
+      "desc": "Générez une URI de données prête à coller depuis n'importe quelle image, extraits CSS et HTML inclus, pour icônes en ligne et pages hors connexion.",
+      "intro": "L'encodage se fait à partir des octets du fichier en mémoire. Pratique pour un logo que vous voulez intégrer afin que le navigateur fasse une requête au lieu de deux.",
+      "steps": [
+        "Choisissez l'image.",
+        "Sélectionnez la sortie : URI de données, Base64 brut ou extrait CSS.",
+        "Copiez le résultat.",
+        "Collez-le dans votre feuille de style ou dans votre HTML."
+      ],
+      "faq": [
+        {
+          "q": "Quelle taille maximale pour le fichier ?",
+          "a": "Gardez les ressources intégrées sous environ 30 KB ; au-delà, le fichier ralentit la page au lieu de l'accélérer."
+        },
+        {
+          "q": "Pourquoi la chaîne est-elle si longue ?",
+          "a": "Le Base64 grossit d'environ 33 %, car il emballe trois octets dans quatre caractères."
+        }
+      ]
+    },
+    "base64-to-image": {
+      "title": "Base64 en image",
+      "h1": "Retransformer une chaîne Base64 en fichier image",
+      "desc": "Collez une URI de données ou un bloc Base64 brut, prévisualisez l'image et téléchargez-la en PNG, JPG ou WebP.",
+      "intro": "Utile quand une page ou un courriel vous remet une image sous forme de texte. Le décodeur accepte le préfixe MIME, les espaces et les sauts de ligne.",
+      "steps": [
+        "Collez la chaîne.",
+        "Vérifiez la prévisualisation.",
+        "Téléchargez l'image décodée."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi la prévisualisation reste-t-elle vide ?",
+          "a": "La chaîne est le plus souvent tronquée à la copie. Un Base64 d'image valide se termine par un remplissage = ou ==, ou par un multiple de quatre caractères."
+        },
+        {
+          "q": "Peut-il décoder du texte, pas des images ?",
+          "a": "Utilisez pour cela l'outil Encoder / décoder Base64."
+        }
+      ]
+    },
+    "qr-code-generator": {
+      "desc": "Créez un QR code haute résolution pour une URL, un Wi-Fi, une vCard, un SMS ou du texte, avec taille, marge et couleurs au choix, sans expiration ni compte.",
+      "intro": "Le code est dessiné sur votre propre appareil, donc il ne peut jamais expirer ni être détourné vers une autre destination — un vrai avantage sur les services de QR dynamiques.",
+      "steps": [
+        "Choisissez le type de contenu et remplissez-le.",
+        "Réglez la taille en pixels, la marge de silence et la correction d'erreurs.",
+        "Ajustez les couleurs si besoin, en gardant un contraste fort.",
+        "Téléchargez en PNG ou en SVG."
+      ],
+      "faq": [
+        {
+          "q": "Les QR code gratuits expirent-ils ?",
+          "a": "Pas ici. Les codes statiques sont imprimés dans l'image elle-même, donc ils fonctionnent aussi longtemps que le lien cible."
+        },
+        {
+          "q": "Pourquoi mon code de lien est-il si dense ?",
+          "a": "Les URL longues exigent un symbole plus grand. Raccourcissez le lien, ou augmentez la taille en pixels et la correction d'erreurs pour l'impression."
+        }
+      ]
+    },
+    "favicon-generator": {
+      "desc": "Téléversez un logo et récupérez toutes les tailles utiles à un site : favicon.ico, PNG de 16 à 180 px, icône tactile Apple et les balises HTML.",
+      "intro": "Le recadrage est centré et chaque taille est recalculée à part, ce qui garde les traits fins lisibles à 16 px au lieu d'étaler une seule copie mise à l'échelle.",
+      "steps": [
+        "Ajoutez une image carrée, idéalement 512 px ou plus.",
+        "Choisissez un fond ou conservez la transparence.",
+        "Générez.",
+        "Téléchargez l'archive zip et collez l'extrait HTML dans l'en-tête de vos pages."
+      ],
+      "faq": [
+        {
+          "q": "De quels fichiers ai-je vraiment besoin ?",
+          "a": "favicon.ico pour les anciens navigateurs, un PNG en 32 px, une apple-touch-icon en 180 px et une paire en 192/512 px si vous utilisez un manifeste."
+        },
+        {
+          "q": "Mon logo a du texte minuscule et il disparaît.",
+          "a": "Les favicons demandent une marque simplifiée ; gardez le logo complet seulement pour l'icône tactile."
+        }
+      ]
+    },
+    "color-picker": {
+      "desc": "Obtenez le HEX, le RGB et le HSL exact de n'importe quel pixel : cliquez dans une image ou utilisez la pipette de l'écran, puis composez une palette assortie.",
+      "intro": "Sur les navigateurs compatibles, la pipette lit tout ce qui s'affiche à l'écran, y compris une vidéo ou un fichier de design que vous ne pouvez pas exporter.",
+      "steps": [
+        "Chargez une image, ou lancez la pipette de l'écran.",
+        "Cliquez sur le pixel voulu.",
+        "Copiez le HEX, le RGB ou le HSL.",
+        "Extrayez éventuellement une palette complète de l'image."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi deux captures d'écran donnent-elles des valeurs différentes ?",
+          "a": "La gestion des couleurs et les profils d'affichage déplacent les valeurs rendues ; l'outil indique le pixel stocké, qui est ce que le navigateur enverra."
+        },
+        {
+          "q": "La pipette fonctionne-t-elle sur mobile ?",
+          "a": "L'API d'écran est réservée aux ordinateurs ; téléversez la capture d'écran et touchez l'image à la place."
+        }
+      ]
+    },
+    "image-to-gif": {
+      "title": "Images en GIF",
+      "h1": "Créer un GIF animé à partir d'un jeu d'images",
+      "desc": "Transformez une rafale de photos ou une suite d'images en GIF animé en boucle, avec le contrôle du délai, du nombre de boucles et de la largeur finale.",
+      "intro": "L'encodage tourne dans l'onglet du navigateur plutôt que dans un worker, donc il est simple de suivre la progression et d'annuler un travail qui sera trop gros.",
+      "steps": [
+        "Ajoutez les images dans l'ordre où elles doivent défiler.",
+        "Réglez la largeur et le délai entre les images.",
+        "Choisissez la boucle infinie ou un nombre fixé de passages.",
+        "Appuyez sur Créer un GIF, puis téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi mon GIF est-il énorme ?",
+          "a": "Le GIF est limité à 256 couleurs et reste inefficace. Coupez des images, réduisez la largeur, ou gardez plutôt un extrait WebM/MP4."
+        },
+        {
+          "q": "Puis-je faire un GIF à partir d'une vidéo ?",
+          "a": "Pas dans cette version ; téléversez les images voulues, ou rognez d'abord l'extrait avec l'outil vidéo."
+        }
+      ]
+    },
+    "trim-audio": {
+      "title": "Couper l'audio",
+      "h1": "Découper vos fichiers MP3, WAV et M4A en ligne",
+      "desc": "Fixez les points d'entrée et de sortie, ajoutez un fondu de sortie et exportez un extrait propre en WAV ou prêt pour le MP3. Rien n'est téléversé.",
+      "intro": "Le décodage utilise le moteur audio de votre navigateur, puis la fenêtre d'échantillons est écrite dans un WAV 16 bits. Parfait pour une sonnerie, un générique de podcast ou un enregistrement de cours.",
+      "steps": [
+        "Chargez le fichier audio.",
+        "Jouez-le et marquez le début et la fin, ou saisissez les secondes.",
+        "Ajoutez un fondu de sortie si la coupe est brutale.",
+        "Appuyez sur Couper, puis téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi le WAV de sortie sonne-t-il pareil mais pèse-t-il plus lourd ?",
+          "a": "Le WAV n'est pas compressé. Passez le fichier exporté par les outils de la même famille que Compresser image, ou encodez-le en MP3 avec votre lecteur habituel."
+        },
+        {
+          "q": "Permet-il de couper en pleine chanson avec précision ?",
+          "a": "La résolution est le sample unique, donc saisissez l'horodatage ou avancez par pas de 0,05 s pour un montage propre."
+        }
+      ]
+    },
+    "compress-video": {
+      "title": "Compresser une vidéo",
+      "h1": "Réduire une vidéo dans le navigateur",
+      "desc": "Ré-encodez un extrait en WebM avec une résolution ou un débit moindres pour l'envoyer par courriel ou le publier sur une page. Les fichiers restent locaux.",
+      "intro": "Cela fonctionne en lisant l'extrait, en redessinant chaque image sur un canevas puis en enregistrant ce canevas — le traitement se fait donc en temps réel et produit un fichier WebM.",
+      "steps": [
+        "Ouvrez la vidéo.",
+        "Choisissez l'échelle et le débit visé.",
+        "Appuyez sur Démarrer et laissez tourner ; la lecture et la conversion se font ensemble.",
+        "Téléchargez le .webm obtenu."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi dois-je attendre tout l'extrait ?",
+          "a": "L'enregistrement se fait en direct depuis la lecture. Une vidéo de deux minutes demande deux minutes."
+        },
+        {
+          "q": "Le son est-il conservé ?",
+          "a": "Oui, quand votre navigateur sait enregistrer la piste audio ; si l'extrait utilise un codec inhabituel, l'audio peut être perdu, et l'outil vous en avertit."
+        }
+      ]
+    },
+    "image-contrast-brightness": {
+      "title": "Retoucher une photo",
+      "h1": "Modifier la luminosité, le contraste et la saturation d'une image",
+      "desc": "Corrigez une photo sombre, relevez une image délavée, passez en niveaux de gris ou floutez l'arrière-plan avec des curseurs, puis exportez le résultat.",
+      "intro": "Chaque filtre est une opération CSS sur canevas, donc vous voyez le rendu avant l'export et l'original n'est jamais écrasé.",
+      "steps": [
+        "Chargez l'image.",
+        "Déplacez les curseurs ; la prévisualisation de droite se met à jour instantanément.",
+        "Facultatif : appliquez les niveaux de gris, la sépia ou le flou.",
+        "Exportez en PNG ou en JPG."
+      ],
+      "faq": [
+        {
+          "q": "Répare-t-elle une photo mal exposée ?",
+          "a": "Elle peut éclaircir les ombres et rééquilibrer le contraste, mais le détail perdu dans les zones écrêtées ne revient pas."
+        },
+        {
+          "q": "Puis-je réutiliser ces réglages sur d'autres photos ?",
+          "a": "Oui, ajoutez tous les fichiers avant d'appuyer sur Appliquer et le même jeu de curseurs sert pour chacun."
+        }
+      ]
+    }
+  }
+}

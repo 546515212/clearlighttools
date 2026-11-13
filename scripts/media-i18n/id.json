@@ -1,0 +1,347 @@
+{
+  "search": "Cari 60 alat gratis…",
+  "home": "ClearLight Tools — Alat PDF, Gambar, Audio & Video Gratis Online",
+  "cat": {
+    "image": "Alat gambar",
+    "image.tagline": "Kompres, konversi, dan ubah ukuran foto, buat kode QR dan favicon, pilih warna, serta buat GIF.",
+    "audio": "Alat audio",
+    "audio.tagline": "Potong, gabung, konversi, dan rekam suara; ubah volume, kecepatan, dan nada, serta seimbangkan trek.",
+    "video": "Alat video",
+    "video.tagline": "Kompres klip dan rekam layar atau webcam Anda — semua di browser."
+  },
+  "kw": {
+    "join audio files": "gabung file audio",
+    "merge mp3": "gabung MP3",
+    "combine audio online": "gabungkan audio online",
+    "audio converter": "konverter audio",
+    "convert to mp3": "konversi ke MP3",
+    "wav to mp3": "WAV ke MP3",
+    "change audio volume": "ubah volume audio",
+    "increase mp3 volume": "tingkatkan volume MP3",
+    "audio volume booster": "penguat volume audio",
+    "reverse audio": "balik audio",
+    "play audio backwards": "putar audio terbalik",
+    "reverse mp3 online": "balik MP3 online",
+    "change audio speed": "ubah kecepatan audio",
+    "speed up audio": "percepat audio",
+    "slow down audio online": "perlambat audio online",
+    "change pitch": "ubah nada",
+    "pitch shifter online": "penggeser nada online",
+    "raise pitch of audio": "tinggikan nada audio",
+    "audio equalizer": "equalizer audio",
+    "online equalizer": "equalizer online",
+    "bass boost audio": "penguat bass audio",
+    "voice recorder online": "perekam suara online",
+    "record audio": "rekam audio",
+    "online microphone recorder": "perekam mikrofon online",
+    "screen recorder online": "perekam layar online",
+    "record screen free": "rekam layar gratis",
+    "online screen capture": "tangkap layar online",
+    "webcam recorder": "perekam webcam",
+    "record camera online": "rekam kamera online",
+    "video recorder online": "perekam video online",
+    "add page numbers to pdf": "tambah nomor halaman ke PDF",
+    "pdf page numbering": "penomoran halaman PDF",
+    "number pdf pages": "beri nomor halaman PDF"
+  },
+  "w": {
+    "decodingFile": "Mendekode {0}…",
+    "mp3SmallestWavLossless": "MP3 kecil dan universal; WAV lossless dan besar.",
+    "mp3Only": "Hanya MP3",
+    "addAudioFilesInOrder": "Tambahkan file audio sesuai urutan yang Anda inginkan untuk digabung. Gunakan panah untuk mengurutkan ulang.",
+    "join": "Gabung",
+    "ui0Files1Duration": "{0} file · {1}",
+    "ui0To1": "{0} → {1}",
+    "volumeHint": "100% adalah kekerasan suara asli. Menguatkan jauh di atasnya bisa menyebabkan distorsi.",
+    "ui0Volume": "volume {0}%",
+    "reverseHint": "Membalik gelombang suara agar diputar terbalik. Durasi dan nada tetap sama.",
+    "speed": "Kecepatan",
+    "speedHint": "Mengubah tempo tanpa mengubah nada. 100% adalah kecepatan asli.",
+    "ui0SpeedResult": "{0} · kecepatan {1}%",
+    "pitchHint": "Menggeser nada tanpa mengubah durasi suara. +12 adalah naik satu oktaf.",
+    "ui0Semitones": "{0} semitone",
+    "eqBass": "Bass",
+    "eqLowMid": "Mid rendah",
+    "eqMid": "Mid",
+    "eqHighMid": "Mid tinggi",
+    "eqTreble": "Treble",
+    "preset": "Preset",
+    "presetFlat": "Datar",
+    "presetBass": "Penguat bass",
+    "presetVocal": "Vokal",
+    "presetTreble": "Penguat treble",
+    "eqHint": "Tingkatkan atau kurangi lima pita, lalu tekan Terapkan untuk merender perubahan.",
+    "eqApplied": "EQ 5 pita diterapkan",
+    "noWebAudio": "Browser ini tidak mendukung Web Audio, jadi tidak bisa mendekode suara.",
+    "recorderReady": "Tekan Rekam untuk memulai. Tidak ada yang diunggah.",
+    "noScreenCapture": "Browser ini tidak bisa menangkap layar. Coba Chrome atau Edge di desktop.",
+    "noMicCamera": "Browser ini tidak bisa mengakses mikrofon atau kamera. Diperlukan halaman aman (https).",
+    "ui0SOfRecording": "Rekaman {0}",
+    "recordingSaved": "Rekaman Anda ada di bawah. Unduh untuk menyimpannya.",
+    "record": "Rekam",
+    "requestingPermission": "Izinkan akses saat browser Anda memintanya.",
+    "recordingInProgress": "Merekam… tekan Berhenti saat selesai.",
+    "permissionDenied": "Akses ditolak. Aktifkan izin mikrofon, kamera, atau layar lalu coba lagi.",
+    "recordingFailed": "Perekaman tidak bisa dimulai.",
+    "bottom": "Bawah",
+    "top": "Atas",
+    "alignment": "Perataan",
+    "alignLeft": "Kiri",
+    "alignCenter": "Tengah",
+    "alignRight": "Kanan",
+    "startNumber": "Nomor awal",
+    "prefixHint": "Teks opsional sebelum nomor, mis. \"Halaman \".",
+    "skipFirst": "Lewati halaman pertama (sampul)",
+    "addPageNumbers": "Tambah nomor halaman",
+    "noPagesSelected": "Tidak ada halaman tersisa untuk dinomori dengan rentang itu.",
+    "ui0PagesNumbered": "{0} halaman dinomori",
+    "pageNumbersNote": "Nomor ditambahkan sebagai teks asli di margin; konten halaman asli tidak diubah.",
+    "loadingFile": "Memuat {0}…",
+    "preparing": "Menyiapkan…",
+    "audioReversed": "Dibalik"
+  },
+  "t": {
+    "audio-joiner": {
+      "title": "Penggabung Audio",
+      "h1": "Gabung file audio dan satukan MP3 online",
+      "desc": "Gabungkan file MP3, WAV, M4A, dan OGG menjadi satu trek sesuai urutan pilihan Anda. Gratis, tanpa unggah, tanpa tanda air — gabung audio di browser.",
+      "intro": "Tambahkan dua klip atau lebih, seret ke urutan yang benar, dan penggabung akan mendekode tiap file, menyamakan sample rate dan kanal, lalu menyatukannya menjadi satu MP3 atau WAV. Semuanya berjalan secara lokal, jadi rekaman pribadi tidak pernah meninggalkan perangkat Anda.",
+      "steps": [
+        "Tambahkan file audio yang ingin Anda gabungkan.",
+        "Seret atau gunakan panah untuk mengatur urutan pemutaran.",
+        "Pilih MP3 atau WAV dan bitrate.",
+        "Tekan Gabung dan unduh trek tunggalnya."
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya menggabung file dengan format berbeda?",
+          "a": "Bisa. Tiap file didekode menjadi sampel mentah, lalu di-resample ke sample rate dan jumlah kanal yang sama sebelum disatukan, jadi MP3, WAV, M4A, dan OGG bisa dicampur."
+        },
+        {
+          "q": "Apakah ada batas jumlah file yang bisa saya gabung?",
+          "a": "Tidak ada batas tetap, tetapi audio panjang disimpan di memori saat didekode dan dienkode, jadi jaga totalnya tetap wajar pada perangkat bermemori rendah."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Konverter Audio",
+      "h1": "Konversi audio ke MP3, WAV, dan lainnya online",
+      "desc": "Konversi WAV ke MP3, M4A, OGG, dan format audio lain di browser Anda. Pilih sample rate dan bitrate, lalu unduh — tanpa unggah, tanpa akun.",
+      "intro": "Konverter mendekode file Anda dengan mesin audio browser, me-resample ke sample rate yang Anda pilih, lalu mengenkodenya ulang ke MP3 (kecil dan universal) atau WAV (lossless). Karena semuanya terjadi di perangkat Anda, file asli tidak pernah meninggalkan perangkat Anda.",
+      "steps": [
+        "Muat file audio yang ingin Anda konversi.",
+        "Pilih sample rate keluaran.",
+        "Pilih MP3 atau WAV dan, untuk MP3, sebuah bitrate.",
+        "Tekan Konversi dan unduh file barunya."
+      ],
+      "faq": [
+        {
+          "q": "Format masukan apa saja yang bisa dibaca?",
+          "a": "Apa pun yang bisa didekode browser Anda — umumnya MP3, WAV, OGG, M4A/AAC, dan FLAC. Beberapa codec yang dilindungi DRM atau tidak umum ditolak oleh browser itu sendiri."
+        },
+        {
+          "q": "Mengapa MP3 saya lebih kecil daripada WAV?",
+          "a": "MP3 adalah kompresi lossy; WAV menyimpan tiap sampel tanpa kompresi. Untuk suara dan berbagi, MP3 pada 128–192 kbps biasanya sudah cukup; pilih WAV untuk master lossless."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Penguat Volume",
+      "h1": "Ubah volume audio — kuatkan atau turunkan online",
+      "desc": "Tingkatkan atau turunkan volume file MP3, WAV, atau M4A. Atur level dari 0 hingga 400%, pratinjau, dan unduh. Gratis dan sepenuhnya di browser.",
+      "intro": "Alat ini mengalikan tiap sampel dengan gain yang Anda atur, jadi 100% mempertahankan kekerasan asli, 200% menggandakannya, dan 50% membaginya setengah. Menguatkan jauh melewati 100% bisa memotong puncak suara keras, jadi pratinjau sebelum mengekspor.",
+      "steps": [
+        "Muat file audio.",
+        "Seret slider volume ke level yang Anda inginkan.",
+        "Pilih keluaran MP3 atau WAV.",
+        "Tekan Terapkan, dengarkan, lalu unduh."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa audio terdistorsi saat saya menguatkan banyak?",
+          "a": "Sampel di atas skala penuh akan terpotong. Jika audio asli sudah keras, penguatan besar mendorong puncak melewati batas; coba gain yang lebih kecil dulu."
+        },
+        {
+          "q": "Bisakah saya membuat file lebih pelan?",
+          "a": "Bisa — atur slider di bawah 100%. 50% adalah setengah amplitudo, penurunan kekerasan yang jelas terasa."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Pembalik Audio",
+      "h1": "Balik audio dan putar suara terbalik online",
+      "desc": "Balik file audio agar diputar terbalik, dari akhir ke awal. Durasi dan nada tetap sama. Pembalik MP3/WAV gratis tanpa unggah.",
+      "intro": "Membalik menyalin gelombang suara dari sampel terakhir ke yang pertama, jadi suara diputar terbalik sambil mempertahankan durasi dan nadanya. Ini cara klasik untuk membuat efek riser, memeriksa pesan tersembunyi, atau mendengar lagu secara terbalik.",
+      "steps": [
+        "Muat file audio.",
+        "Opsional: pilih keluaran MP3 atau WAV.",
+        "Tekan Balik.",
+        "Putar hasilnya dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Apakah membalik mengubah nada atau kecepatan?",
+          "a": "Tidak. Sampel hanya dibaca dalam urutan terbalik, jadi durasi dan frekuensi tidak berubah — hanya arah waktunya yang berbalik."
+        },
+        {
+          "q": "Untuk apa saya bisa menggunakan audio terbalik?",
+          "a": "Riser transisi, desain suara, memeriksa pesan backmasked, atau klip bergaya palindrom yang sama dibaca maju maupun mundur."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Pengubah Kecepatan Audio",
+      "h1": "Percepat atau perlambat audio tanpa mengubah nada",
+      "desc": "Ubah tempo audio dari 50% hingga 200% sambil menjaga nada tetap alami. Percepat kuliah atau perlambat musik untuk mempelajarinya — di browser Anda.",
+      "intro": "Pengubah kecepatan memakai time stretching overlap-add, jadi suara yang dipercepat tidak berubah seperti tupai dan lagu yang diperlambat tidak turun nadanya. 100% adalah kecepatan asli; 200% diputar dua kali lebih cepat dalam separuh waktu.",
+      "steps": [
+        "Muat file audio.",
+        "Atur slider kecepatan (50%–200%).",
+        "Pilih keluaran MP3 atau WAV.",
+        "Tekan Terapkan dan unduh klip yang diubah temponya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah mempercepat audio akan menaikkan nada?",
+          "a": "Tidak — itulah inti time stretching. Tempo berubah tetapi nada tetap sama, tidak seperti sekadar me-resample file."
+        },
+        {
+          "q": "Seberapa ekstrem perubahan kecepatannya?",
+          "a": "Slider berjalan dari 50% hingga 200%. Peregangan sangat besar bisa menambah sedikit getaran pada materi kompleks; perubahan sedang terdengar paling alami."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Penggeser Nada",
+      "h1": "Ubah nada audio naik atau turun online",
+      "desc": "Geser nada audio hingga 12 semitone ke arah mana pun tanpa mengubah durasi. Tinggikan atau rendahkan suara atau instrumen, lalu unduh gratis.",
+      "intro": "Penggeseran nada me-resample audio untuk memindahkan frekuensi, lalu melakukan time stretch kembali ke panjang asli, jadi klip berdurasi sama tetapi terdengar lebih tinggi atau rendah. +12 semitone adalah naik satu oktaf; −12 adalah turun satu oktaf.",
+      "steps": [
+        "Muat file audio.",
+        "Atur pergeseran nada dalam semitone (−12 hingga +12).",
+        "Pilih keluaran MP3 atau WAV.",
+        "Tekan Terapkan dan unduh klip yang digeser."
+      ],
+      "faq": [
+        {
+          "q": "Apakah mengubah nada mengubah durasi file?",
+          "a": "Tidak. Alat ini memulihkan durasi asli setelah pergeseran, jadi hanya nada yang berpindah, bukan waktunya."
+        },
+        {
+          "q": "Apa itu semitone?",
+          "a": "Langkah terkecil dalam musik Barat — satu tuts pada piano. Dua belas semitone membentuk satu oktaf, jadi +12 menggandakan frekuensi dan −12 membaginya setengah."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Equalizer Audio",
+      "h1": "Equalizer audio online dengan penguat bass dan treble",
+      "desc": "Atur lima pita (60 Hz–12 kHz) untuk menguatkan bass, mencerahkan treble, atau membentuk vokal. Pakai preset atau setel halus, lalu ekspor MP3 atau WAV gratis.",
+      "intro": "Equalizer peaking lima pita memungkinkan Anda mengurangi atau menguatkan bass, mid rendah, mid, mid tinggi, dan treble hingga 12 dB masing-masing. Mulai dari preset — Datar, Penguat bass, Vokal, atau Penguat treble — lalu setel halus dan render perubahan ke file baru.",
+      "steps": [
+        "Muat file audio.",
+        "Pilih preset atau seret slider lima pita.",
+        "Pilih keluaran MP3 atau WAV.",
+        "Tekan Terapkan dan unduh trek yang telah diseimbangkan."
+      ],
+      "faq": [
+        {
+          "q": "Apa yang dikendalikan kelima pita?",
+          "a": "60 Hz adalah bobot bass, 250 Hz kehangatan, 1 kHz tubuh vokal, 4 kHz kehadiran dan kejernihan, serta 12 kHz udara dan kilau. Kuatkan atau kurangi tiap pita sesuai selera."
+        },
+        {
+          "q": "Apakah EQ diterapkan pada file yang diunduh?",
+          "a": "Ya. Tidak seperti equalizer yang hanya untuk pemutaran, alat ini merender pemfilteran ke dalam MP3 atau WAV yang diekspor, jadi perubahannya permanen pada file yang Anda simpan."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Perekam Suara",
+      "h1": "Rekam audio online dengan mikrofon Anda",
+      "desc": "Rekam suara Anda dari mikrofon langsung di browser. Tekan rekam, berhenti, pratinjau, dan unduh — tanpa aplikasi, tanpa unggah, tanpa akun.",
+      "intro": "Perekam menangkap mikrofon Anda dengan MediaRecorder API browser dan menyimpan rekaman secara lokal agar Anda bisa mempratinjau dan mengunduhnya. Tidak ada yang dikirim ke server; rekaman tetap di perangkat Anda sampai Anda menyimpannya.",
+      "steps": [
+        "Tekan Rekam dan izinkan akses mikrofon.",
+        "Bicara atau putar suara yang ingin Anda tangkap.",
+        "Tekan Berhenti saat selesai.",
+        "Pratinjau rekaman dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Di mana rekaman saya disimpan?",
+          "a": "Hanya di memori browser Anda sampai Anda mengunduhnya. Tidak ada yang diunggah, jadi begitu Anda menutup halaman, rekaman yang belum disimpan akan hilang."
+        },
+        {
+          "q": "Mengapa browser meminta izin?",
+          "a": "Akses mikrofon selalu memerlukan persetujuan tegas Anda. Jika Anda menolaknya, aktifkan kembali izin mikrofon untuk situs ini dan tekan Rekam lagi."
+        }
+      ]
+    },
+    "screen-recorder": {
+      "title": "Perekam Layar",
+      "h1": "Rekam layar Anda online gratis",
+      "desc": "Tangkap layar, jendela, atau tab Anda dengan audio sistem opsional. Rekam, berhenti, pratinjau, dan unduh video WebM — tanpa instal, tanpa unggah.",
+      "intro": "Perekam layar memakai API display-capture browser untuk merekam seluruh layar, satu jendela, atau tab Anda, dengan audio bila didukung. Video dirakit secara lokal dan ditawarkan sebagai unduhan; tidak pernah menyentuh server.",
+      "steps": [
+        "Tekan Rekam dan pilih yang ingin dibagikan (layar, jendela, atau tab).",
+        "Opsional: sertakan audio di pemilih berbagi.",
+        "Tekan Berhenti, atau akhiri berbagi, saat selesai.",
+        "Pratinjau klip dan unduh WebM."
+      ],
+      "faq": [
+        {
+          "q": "Browser mana yang mendukung perekaman layar?",
+          "a": "Chrome dan Edge di desktop memiliki display capture paling andal, dan Firefox juga mendukungnya. Browser seluler umumnya tidak, jadi gunakan browser desktop."
+        },
+        {
+          "q": "Bisakah merekam audio sistem?",
+          "a": "Saat Anda membagikan tab atau seluruh layar, pemilih menawarkan opsi audio. Apakah audio sistem disertakan bergantung pada browser dan apa yang Anda bagikan."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Perekam Webcam",
+      "h1": "Rekam video dari webcam Anda online",
+      "desc": "Rekam diri Anda dengan kamera dan mikrofon di browser. Pratinjau tampilan langsung, tekan rekam, lalu unduh — gratis, tanpa perangkat lunak.",
+      "intro": "Perekam webcam menampilkan pratinjau langsung dari kamera Anda, menangkapnya bersama mikrofon melalui MediaRecorder, dan menyimpan klip secara lokal untuk dipratinjau dan diunduh. Video tidak pernah meninggalkan perangkat Anda kecuali Anda mengunduhnya.",
+      "steps": [
+        "Tekan Rekam dan izinkan akses kamera dan mikrofon.",
+        "Periksa pratinjau langsung dan atur posisi Anda dalam bingkai.",
+        "Tekan Berhenti saat selesai.",
+        "Pratinjau rekaman dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Apakah video diunggah ke suatu tempat?",
+          "a": "Tidak. Video direkam dan disimpan di browser Anda, lalu ditawarkan sebagai unduhan lokal. Tidak ada yang dikirim ke server."
+        },
+        {
+          "q": "Apa format rekamannya?",
+          "a": "Video WebM (VP8/VP9 dengan audio Opus) bila browser mendukungnya, yang bisa diputar di browser modern dan sebagian besar editor. Beberapa browser mungkin menghasilkan MP4."
+        }
+      ]
+    },
+    "pdf-page-numbers": {
+      "title": "Nomor Halaman PDF",
+      "h1": "Tambah nomor halaman ke PDF online",
+      "desc": "Sisipkan nomor halaman ke PDF di atas atau bawah, kiri, tengah, atau kanan. Atur nomor awal, ukuran font, dan awalan. Gratis, tanpa unggah.",
+      "intro": "Alat ini mencap nomor halaman berupa teks asli ke tiap halaman PDF Anda dengan pdf-lib, jadi nomor tetap tajam pada zoom berapa pun dan bisa dipilih. Tempatkan di header atau footer, lewati sampul, dan tambahkan awalan opsional.",
+      "steps": [
+        "Muat PDF yang ingin Anda beri nomor.",
+        "Pilih posisi, perataan, dan nomor awal.",
+        "Atur ukuran font dan awalan opsional; lewati sampul bila perlu.",
+        "Tekan Tambah nomor halaman dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya mulai dari halaman atau nomor tertentu?",
+          "a": "Bisa. Atur nomor awal dan gunakan rentang halaman untuk menomori halaman tertentu saja, atau centang \"lewati halaman pertama\" agar sampul tidak bernomor."
+        },
+        {
+          "q": "Apakah nomor ditambahkan sebagai teks atau gambar?",
+          "a": "Sebagai teks vektor asli, jadi nomor terskala dengan bersih saat dicetak dan bisa dipilih serta dicari pada PDF yang sudah jadi."
+        }
+      ]
+    }
+  }
+}

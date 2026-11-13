@@ -1,0 +1,11 @@
+{
+ "done": false,
+ "startedAt": "2026-11-07T10:38:46.384Z",
+ "planned": [
+  "pdf-to-jpg",
+  "base64-to-image",
+  "image-to-gif",
+  "image-contrast-brightness"
+ ],
+ "rows": []
+}

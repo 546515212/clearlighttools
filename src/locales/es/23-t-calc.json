@@ -1,0 +1,219 @@
+{
+  "t": {
+    "percentage-calculator": {
+      "desc": "Responde las cuatro preguntas de porcentajes más buscadas: cuánto es X por ciento de Y, X qué porcentaje es de Y, o subir y bajar X por ciento.",
+      "intro": "Cada modo muestra la operación, así que puedes comprobar el resultado o explicarle el método a otra persona.",
+      "steps": [
+        "Elige el tipo de pregunta.",
+        "Rellena los dos números.",
+        "Lee el resultado y los pasos desarrollados."
+      ],
+      "faq": [
+        {
+          "q": "De 40 a 52 — ¿cuál es el aumento en porcentaje?",
+          "a": "Un 30 por ciento: divide la diferencia entre el número original, es decir 12 / 40 = 0.3."
+        },
+        {
+          "q": "¿Por qué una subida del 20 por ciento y luego una bajada del 20 por ciento no se compensan?",
+          "a": "El segundo cambio usa la base nueva, que ya es más grande. 100 pasa a 120 y después a 96."
+        }
+      ]
+    },
+    "bmi-calculator": {
+      "desc": "Calcula el índice de masa corporal, ve en qué tramo te sitúa y obtén el rango de peso que se considera sano para tu estatura.",
+      "intro": "El IMC es una cifra de cribado, no un diagnóstico: la calculadora muestra los tramos y sus límites para que los leas con corrección.",
+      "steps": [
+        "Selecciona métrico o imperial.",
+        "Introduce la altura y el peso.",
+        "Lee tu IMC y el rango de la categoría."
+      ],
+      "faq": [
+        {
+          "q": "¿El IMC es preciso en deportistas?",
+          "a": "Se queda corto. El músculo pesa más que la grasa, así que a una persona delgada y musculosa la puede marcar con sobrepeso."
+        },
+        {
+          "q": "¿A los niños se les evalúa igual?",
+          "a": "No. Por debajo de 18 años se usan percentiles de edad y sexo, así que consulta con un profesional sanitario en vez de fiarte de esta cifra."
+        }
+      ]
+    },
+    "age-calculator": {
+      "desc": "Averigua la edad exacta en años, meses y días, los días vividos, el próximo cumpleaños, el día de la semana en que naciste y el año de cada hito.",
+      "intro": "Viene bien para los formularios que piden días, y para planear un cumpleaños la semana anterior a que llegue.",
+      "steps": [
+        "Introduce la fecha de nacimiento.",
+        "Si quieres, elige otra fecha como referencia.",
+        "Lee el desglose."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué aparecen dos edades?",
+          "a": "Los años cumplidos frente al total de meses y días; los formularios oficiales suelen querer los años cumplidos."
+        },
+        {
+          "q": "¿Cómo se tratan los años bisiestos?",
+          "a": "Con exactitud: un cumpleaños del 29 de febrero suma un año el día siguiente en los años que no son bisiestos."
+        }
+      ]
+    },
+    "date-calculator": {
+      "desc": "Cuenta los días entre fechas, suma o resta días naturales y laborables, y obtén la fecha resultante con el nombre de su día de la semana.",
+      "intro": "Útil para plazos, periodos de alquiler, planificaciones de proyecto y cualquier pregunta sobre cuánto dura algo.",
+      "steps": [
+        "Elige Contar entre o Sumar a una fecha.",
+        "Introduce las fechas y el número de días.",
+        "Decide si cuentan los fines de semana y los festivos.",
+        "Lee la fecha resultante y el total."
+      ],
+      "faq": [
+        {
+          "q": "¿Se incluye la fecha del final?",
+          "a": "Por defecto la diferencia cuenta los días completos que hay entre las dos, así que la herramienta dice con claridad si alguno de los dos días entra."
+        },
+        {
+          "q": "¿Puedo restar días laborables?",
+          "a": "Sí, cambia a Días laborables; los festivos oficiales todavía hay que contarlos a mano."
+        }
+      ]
+    },
+    "loan-calculator": {
+      "desc": "Estima la cuota mensual de un préstamo personal o de una hipoteca, los intereses totales que pagas y qué parte de los primeros años se va en intereses.",
+      "intro": "El cálculo es la fórmula de amortización estándar, y el resumen muestra la proporción de intereses frente al capital que las entidades prestamistas no siempre anuncian.",
+      "steps": [
+        "Introduce el importe, la tasa anual y el plazo.",
+        "Lee la cuota mensual.",
+        "Revisa los intereses totales y el total devuelto.",
+        "Compara plazos para ver cuánto cuesta de verdad un préstamo más largo."
+      ],
+      "faq": [
+        {
+          "q": "¿Esto incluye comisiones o seguros?",
+          "a": "No, solo capital e intereses. Añade productos como el seguro de la hipoteca al importe para acercarte a la cuota real."
+        },
+        {
+          "q": "¿Qué tasa debo escribir?",
+          "a": "La tasa nominal anual; dividirla entre doce para el cobro mensual se hace de forma automática, así que escribe el porcentaje anual que anuncian."
+        }
+      ]
+    },
+    "discount-calculator": {
+      "desc": "Escribe el precio original y el descuento para ver lo que pagas, lo que ahorras y cuánto cuesta el artículo cuando se acumulan varias ofertas.",
+      "intro": "También responde a la pregunta inversa: si conoces el precio de antes y de después, te dice el porcentaje de rebaja.",
+      "steps": [
+        "Escribe el precio original.",
+        "Añade el porcentaje de descuento, o el precio final.",
+        "Lee lo que pagas y lo que ahorras.",
+        "Añade un segundo descuento para probar una oferta acumulada."
+      ],
+      "faq": [
+        {
+          "q": "¿Un 30 por ciento menos y luego un 20 por ciento menos equivale a un 50 por ciento?",
+          "a": "No, la segunda rebaja se aplica sobre el precio ya rebajado, así que el total real es un 44 por ciento menos."
+        },
+        {
+          "q": "¿Puede incluir el impuesto sobre las ventas?",
+          "a": "Sí, añade una tasa de impuesto para ver la cantidad que sale de verdad de tu cuenta."
+        }
+      ]
+    },
+    "unit-converter": {
+      "desc": "Un solo conversor para las unidades del día a día: metros y pies, kilogramos y libras, Celsius y Fahrenheit, litros, millas por hora, megabytes y más.",
+      "intro": "Los valores se convierten en ambos sentidos mientras escribes, y se muestra el factor empleado para que puedas revisar un resultado extraño.",
+      "steps": [
+        "Elige la categoría.",
+        "Escoge la unidad de origen y escribe el valor.",
+        "Lee el número convertido, o cambia las unidades para ir en el sentido contrario."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué precisión se muestra?",
+          "a": "Seis cifras significativas; pasa el cursor sobre el campo para ver el valor decimal exacto."
+        },
+        {
+          "q": "¿La pinta británica y la estadounidense son distintas?",
+          "a": "Sí, 568 ml frente a 473 ml, y el conversor las mantiene separadas."
+        }
+      ]
+    },
+    "color-converter": {
+      "desc": "Muévete entre HEX, RGB, HSL y nombres CSS, comprueba el contraste con el blanco y el negro y consigue tonos accesibles de forma automática.",
+      "intro": "Pega un valor en cualquier notación y las demás se actualizan al momento, incluido el ratio de contraste WCAG que necesitas antes de dar por bueno el color de un botón.",
+      "steps": [
+        "Escribe o elige un color.",
+        "Lee el HEX, el RGB y el HSL.",
+        "Comprueba el contraste sobre fondos claros y oscuros."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué contraste necesito?",
+          "a": "4.5:1 para el texto normal del cuerpo y 3:1 para textos grandes según WCAG AA."
+        },
+        {
+          "q": "¿Por qué mi HEX se ve distinto en el teléfono?",
+          "a": "Las pantallas aplican perfiles de color; los valores numéricos son idénticos aunque la percepción no lo sea."
+        }
+      ]
+    },
+    "calorie-calculator": {
+      "title": "Calculadora de calorías",
+      "h1": "Calculadora de calorías diarias y de metabolismo basal",
+      "desc": "Estima el metabolismo basal con la ecuación de Mifflin-St Jeor y las calorías diarias para mantener, perder o ganar peso.",
+      "intro": "Las cifras son estimaciones construidas sobre promedios de población, útiles como punto de partida más que como una prescripción.",
+      "steps": [
+        "Introduce la edad, el sexo, la altura y el peso.",
+        "Elige tu nivel de actividad.",
+        "Lee el metabolismo basal y las calorías de mantenimiento.",
+        "Compara los objetivos de déficit y de superávit suaves."
+      ],
+      "faq": [
+        {
+          "q": "¿Cuánto acierta?",
+          "a": "Suele quedarse dentro de un diez o un veinte por ciento en un adulto sano; el gasto energético medido es la única respuesta exacta."
+        },
+        {
+          "q": "¿Debo comer según la cifra de déficit?",
+          "a": "Tómalo como una referencia y consulta con un profesional cualificado cualquier cambio relevante."
+        }
+      ]
+    },
+    "timestamp-converter": {
+      "desc": "Convierte una marca de tiempo Unix o en milisegundos a una fecha legible en hora local y en UTC, o pasa una fecha al número que espera tu API.",
+      "intro": "También te dice qué unidad has pegado, que es la causa habitual de una fecha que acaba en 1970 o en 45000.",
+      "steps": [
+        "Pega la marca de tiempo, o elige una fecha.",
+        "Comprueba si la detección la hizo como segundos o como milisegundos.",
+        "Lee la salida local, la de UTC y la de ISO."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué mi fecha cae en enero de 1970?",
+          "a": "Has pasado un valor en la unidad equivocada o una cadena que se interpretó como cero."
+        },
+        {
+          "q": "¿Qué zona horaria se usa?",
+          "a": "La zona de tu navegador para la fila local, más cadenas explícitas en UTC y en ISO."
+        }
+      ]
+    },
+    "random-number-generator": {
+      "desc": "Elige un número dentro de un rango, lanza dados, tira una moneda, baraja una lista de nombres o saca ganadores sin repeticiones para un sorteo.",
+      "intro": "Los valores vienen de la fuente aleatoria criptográfica del navegador, así que sirven para decisiones que de verdad te importan.",
+      "steps": [
+        "Fija el mínimo y el máximo.",
+        "Elige cuántos valores y si se permiten repeticiones.",
+        "Genera, o usa los preajustes de dados y moneda."
+      ],
+      "faq": [
+        {
+          "q": "¿Es aleatorio de verdad?",
+          "a": "Usa la reserva de entropía de tu sistema operativo, que es la fuente más fuerte a la que un navegador puede llegar."
+        },
+        {
+          "q": "¿Puedo elegir varios ganadores de una lista?",
+          "a": "Sí, pega los nombres, activa la opción de sin repeticiones y di cuántos quieres sacar."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:16:41.979Z",
+ "planned": [
+  "pdf-to-text",
+  "images-to-pdf",
+  "html-to-pdf",
+  "compress-image",
+  "convert-image",
+  "resize-image"
+ ],
+ "rows": [
+  {
+   "tool": "pdf-to-text",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Extract text",
+    "Download as .txt"
+   ],
+   "bytes": [
+    "pdf-to-text-sample-a.txt | 391 | text/plain"
+   ],
+   "output": [
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH",
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH",
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 6915
+  },
+  {
+   "tool": "images-to-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Create PDF",
+    "Download"
+   ],
+   "bytes": [
+    "images-to-pdf-photo-pdf.pdf | 32628 | application/pdf"
+   ],
+   "output": [
+    "photo-pdf.pdf32 KB2 pagesDownload",
+    "photo-pdf.pdf32 KB2 pagesDownload"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 4993
+  },
+  {
+   "tool": "html-to-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 4990
+  },
+  {
+   "tool": "compress-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Compress",
+    "Download"
+   ],
+   "bytes": [
+    "compress-image-photo.jpg | 4144 | image/jpeg"
+   ],
+   "output": [
+    "photo.jpg4 KB34 KB → 4 KB (−88%)Download",
+    "photo.jpg4 KB34 KB → 4 KB (−88%)Download"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 6998
+  },
+  {
+   "tool": "convert-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Convert",
+    "Download"
+   ],
+   "bytes": [
+    "convert-image-photo.png | 5624 | image/png"
+   ],
+   "output": [
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload",
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 7000
+  },
+  {
+   "tool": "resize-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Resize",
+    "Download"
+   ],
+   "bytes": [
+    "resize-image-photo.png | 88387 | image/png"
+   ],
+   "output": [
+    "photo.png86 KB240×160 → 1024×683Download",
+    "photo.png86 KB240×160 → 1024×683Download"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 7011
+  }
+ ],
+ "finishedAt": "2026-11-07T12:17:19.896Z"
+}

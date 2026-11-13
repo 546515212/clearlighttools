@@ -1,0 +1,8 @@
+{
+  "pdf": { "icon": "📄", "order": 1 },
+  "image": { "icon": "🖼️", "order": 2 },
+  "audio": { "icon": "🎵", "order": 3 },
+  "video": { "icon": "🎬", "order": 4 },
+  "text": { "icon": "🔤", "order": 5 },
+  "calc": { "icon": "🧮", "order": 6 }
+}

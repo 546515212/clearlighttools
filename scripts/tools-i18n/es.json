@@ -1,0 +1,354 @@
+{
+  "search": "Buscar 78 herramientas gratis…",
+  "kw": {
+    "zero width watermark": "marca de agua de ancho cero",
+    "hidden text watermark": "marca de agua de texto oculto",
+    "invisible unicode watermark": "marca de agua unicode invisible",
+    "css shadow generator": "generador de sombras css",
+    "box shadow generator": "generador de box shadow",
+    "css grid generator": "generador de cuadrícula css",
+    "json to svg": "json a svg",
+    "json tree diagram": "diagrama de árbol json",
+    "json structure visualizer": "visualizador de estructuras json",
+    "aes encrypt online": "cifrar aes online",
+    "aes decrypt online": "descifrar aes online",
+    "encrypt text with password": "cifrar texto con contraseña",
+    "photo mosaic tool": "herramienta de mosaico de fotos",
+    "pixelate image online": "pixelar imagen online",
+    "blur face in photo": "desenfocar cara en foto",
+    "image grid splitter": "divisor de imágenes en cuadrícula",
+    "nine square split": "división en nueve cuadrados",
+    "instagram grid maker": "creador de cuadrícula de instagram",
+    "webcam test online": "prueba de webcam online",
+    "microphone test online": "prueba de micrófono online",
+    "camera test": "prueba de cámara",
+    "online teleprompter": "teleprónter online",
+    "free teleprompter": "teleprónter gratis",
+    "script prompter": "teleprónter de guion",
+    "sound level meter": "medidor de nivel de sonido",
+    "decibel meter online": "medidor de decibelios online",
+    "noise meter": "medidor de ruido"
+  },
+  "w": {
+    "wfHint": "Arrastra sobre la forma de onda para elegir la parte que quieres conservar, o escribe los tiempos abajo.",
+    "slmUnit": "decibelios (relativo, sin calibrar)",
+    "slmIntro": "Pulsa Iniciar y permite el acceso al micrófono para ver el nivel de sonido relativo a tu alrededor.",
+    "slmStopped": "Medidor detenido.",
+    "slmRunning": "Escuchando… el nivel se actualiza en directo.",
+    "slmNow": "Actual",
+    "slmMax": "Pico",
+    "slmAvg": "Promedio",
+    "slmDenied": "Se denegó el acceso al micrófono. Permítelo en la configuración de tu navegador e inténtalo de nuevo.",
+    "slmFail": "No se pudo iniciar el micrófono.",
+    "slmReset": "Restablecer pico",
+    "slmNote": "Este es un medidor relativo, no un instrumento de nivel de sonido calibrado: el valor en decibelios se referencia a la escala completa digital, así que depende de tu micrófono y de su ganancia. Úsalo para comparar el volumen o detectar ruido, no para mediciones legales o de seguridad. El audio se analiza en tu navegador y nunca se graba ni se sube.",
+    "mosWaiting": "Añade una imagen y luego arrastra sobre las zonas que quieres ocultar.",
+    "mosDecodeFail": "No se pudo leer esa imagen.",
+    "mosHint": "PNG, JPG, WebP…",
+    "mosReset": "Restaurar original",
+    "mosNeedImage": "Añade primero una imagen",
+    "mosMode": "Efecto",
+    "mosPixel": "Pixelar",
+    "mosBlur": "Desenfocar",
+    "mosBrush": "Tamaño del pincel",
+    "mosStrength": "Intensidad",
+    "mosStrengthHint": "mayor = bloques más gruesos / desenfoque más fuerte",
+    "mosNote": "Arrastra sobre una cara, una matrícula o cualquier detalle privado para pixelarlo o desenfocarlo. La imagen se edita en un canvas en tu navegador y nunca se sube. Descarga el resultado como PNG.",
+    "gridWaiting": "Añade una imagen para dividirla en una cuadrícula de cuadrados.",
+    "gridPreview": "cuadrícula de {0} × {1} · {2} piezas",
+    "gridHint": "PNG, JPG, WebP…",
+    "gridSplit": "Dividir imagen",
+    "gridSize": "Cuadrícula",
+    "gridSizeHint": "3 × 3 es el clásico formato de nueve cuadrados para redes sociales",
+    "gridSquare": "Recortar a cuadrado primero",
+    "gridNote": "La imagen se corta en piezas iguales en un canvas en tu navegador. Descárgalas una a una o como un solo ZIP, y luego publícalas en orden para lograr una cuadrícula de nueve cuadrados sin cortes. No se sube nada.",
+    "zwCarrier": "Texto portador: el mensaje visible que la gente leerá…",
+    "zwSecret": "Texto secreto que quieres ocultar dentro…",
+    "zwPasted": "Pega aquí el texto con marca de agua para revelar su mensaje oculto…",
+    "zwEmbed": "Insertar mensaje oculto",
+    "zwNeedSecret": "Escribe primero un mensaje secreto para ocultar",
+    "zwVisibleChars": "Caracteres visibles",
+    "zwHiddenChars": "Caracteres ocultos",
+    "zwInvisible": "invisible",
+    "zwTotalChars": "Longitud total",
+    "zwNone": "No se encontró ningún mensaje oculto en este texto.",
+    "zwRevealedChars": "Caracteres revelados",
+    "zwCarrierLabel": "Texto portador",
+    "zwPastedLabel": "Texto con marca de agua",
+    "zwSecretLabel": "Mensaje secreto",
+    "zwExtract": "Revelar mensaje oculto",
+    "zwMode": "Acción",
+    "zwEmbedMode": "Ocultar un mensaje",
+    "zwExtractMode": "Revelar un mensaje",
+    "zwNote": "El secreto se codifica como caracteres Unicode de ancho cero (U+200B/U+200C) envueltos en uniones de palabras. Son invisibles y sobreviven al copiado y pegado normal, pero cualquier editor que quite el formato o normalice Unicode los eliminará. Esto es ofuscación, no cifrado: no ocultes con ello contraseñas ni datos sensibles.",
+    "cssOffsetX": "Sombra X",
+    "cssOffsetY": "Sombra Y",
+    "cssBlur": "Desenfoque",
+    "cssSpread": "Expansión",
+    "cssRadius": "Radio de las esquinas",
+    "cssOpacity": "Opacidad de la sombra",
+    "cssShadowColor": "Color de la sombra",
+    "cssBoxColor": "Color de la caja",
+    "cssInset": "Sombra interior",
+    "cssColumns": "Columnas",
+    "cssGap": "Espacio",
+    "cssItems": "Elementos",
+    "cssRowHeight": "Altura de fila",
+    "cssMode": "Generador",
+    "cssBoxMode": "Sombra de caja y radio",
+    "cssGridMode": "Diseño de cuadrícula",
+    "cssGenerated": "CSS generado",
+    "cssNote": "Arrastra los deslizadores y observa cómo la vista previa y el CSS se actualizan en directo. Copia el CSS en tu hoja de estilos. Todo se calcula en tu navegador.",
+    "jsvgInput": "Pega aquí el JSON: un objeto o array se convierte en un árbol de estructura…",
+    "jsvgBadJson": "Eso no es JSON válido. Comprueba si falta una coma o una comilla.",
+    "jsvgRender": "Renderizar diagrama",
+    "jsvgNeedJson": "Pega primero algo de JSON",
+    "jsvgRenderFirst": "Renderiza primero un diagrama",
+    "jsvgInputLabel": "Entrada JSON",
+    "jsvgSvgCode": "Código SVG",
+    "jsvgNote": "El JSON se analiza y se organiza como un árbol de estructura de izquierda a derecha, dibujado enteramente en tu navegador. Descárgalo como un SVG que puedes insertar en documentos o diapositivas, o copia el marcado. Los arrays grandes se limitan a 40 ramas y 8 niveles de profundidad para mantener el diagrama legible.",
+    "jsvgHint": "Introduce JSON y pulsa Renderizar para dibujar su estructura como un árbol SVG.",
+    "encInput": "Escribe o pega el texto que quieres cifrar o descifrar…",
+    "encPassPlaceholder": "Contraseña",
+    "encNoSubtle": "Este navegador no admite Web Crypto. Se requiere una página segura (https).",
+    "encrypt": "Cifrar",
+    "encNeedText": "Introduce primero algo de texto",
+    "encNeedPass": "Introduce una contraseña",
+    "decrypt": "Descifrar",
+    "encNeedCipher": "Pega primero el texto cifrado",
+    "encBadCipher": "Eso no es texto cifrado válido.",
+    "encWrongPass": "No se pudo descifrar: contraseña incorrecta o texto dañado.",
+    "encPassHint": "Se necesita la misma contraseña para descifrar. Nunca se almacena ni se envía a ningún sitio.",
+    "encNote": "AES-256-GCM con una clave derivada mediante PBKDF2 (150.000 iteraciones, SHA-256). La sal y el IV aleatorios se empaquetan en la salida, así que basta la contraseña para descifrarlo. Todo se ejecuta en tu navegador mediante la Web Crypto API: no se sube nada.",
+    "camIntro": "Prueba tu cámara, micrófono y pantalla, todo localmente. No se graba ni se sube nada.",
+    "camMicLevel": "Nivel del micrófono",
+    "camStartCam": "Iniciar cámara",
+    "camStartMic": "Probar micrófono",
+    "camStopCam": "Detener cámara",
+    "camRunning": "La cámara está en directo. Si te ves, la cámara funciona.",
+    "camDenied": "Se denegó el acceso a la cámara. Permítelo en la configuración de tu navegador e inténtalo de nuevo.",
+    "camFail": "No se pudo iniciar la cámara.",
+    "camStopMic": "Detener micrófono",
+    "camMicRunning": "Habla o golpea suavemente el micrófono: la barra de nivel debería moverse.",
+    "camMicDenied": "Se denegó el acceso al micrófono. Permítelo en la configuración de tu navegador e inténtalo de nuevo.",
+    "camMicFail": "No se pudo iniciar el micrófono.",
+    "camRed": "Rojo",
+    "camGreen": "Verde",
+    "camBlue": "Azul",
+    "camWhite": "Blanco",
+    "camBlack": "Negro",
+    "camGray": "Gris",
+    "camScreen": "Prueba de píxeles muertos de la pantalla",
+    "camScreenHint": "Toca en cualquier lugar para cambiar de color y busca píxeles atascados o muertos.",
+    "camExit": "Salir",
+    "camNote": "La vista previa de la cámara y el nivel del micrófono se ejecutan enteramente en tu navegador mediante getUserMedia y la Web Audio API. No se graba, guarda ni envía ningún vídeo o audio a ningún sitio. Usa la prueba de pantalla para detectar píxeles muertos en un monitor o en la pantalla de un móvil.",
+    "teleInput": "Pega aquí tu guion o discurso…",
+    "teleNeedText": "Pega primero tu guion",
+    "teleReset": "Reiniciar",
+    "teleFullscreen": "Pantalla completa",
+    "teleScript": "Tu guion",
+    "teleSpeedHint": "píxeles de desplazamiento por segundo",
+    "teleMirror": "Espejo (para un divisor de haz)",
+    "teleNote": "Pega tu discurso, define el tamaño de letra y la velocidad de desplazamiento, y luego pulsa Iniciar. Espejo voltea el texto para un teleprónter con divisor de haz, y Pantalla completa llena la pantalla. Tu guion permanece en esta pestaña del navegador y nunca se sube."
+  },
+  "t": {
+    "zero-width-watermark": {
+      "title": "Marca de agua de ancho cero",
+      "h1": "Marca de agua de ancho cero: oculta texto dentro de texto",
+      "desc": "Oculta un mensaje secreto en texto normal con caracteres invisibles de ancho cero. Sobrevive al copiado y pegado. Insértalo o revélalo gratis en tu navegador.",
+      "intro": "Esta herramienta oculta un mensaje secreto dentro de un texto de aspecto normal codificándolo como caracteres Unicode invisibles de ancho cero (U+200B y U+200C) envueltos en uniones de palabras. El texto portador se lee exactamente igual, pero la carga oculta viaja con él al copiar y pegar. Cambia a Revelar para extraer un mensaje de un texto con marca de agua. Es ofuscación, no cifrado: cualquier cosa que quite el formato o normalice Unicode eliminará la marca, así que no lo uses nunca para contraseñas ni datos sensibles.",
+      "steps": [
+        "Escribe el texto portador visible.",
+        "Escribe el mensaje secreto que quieres ocultar.",
+        "Pulsa Insertar y copia el texto con marca de agua.",
+        "Para volver a leerlo, pégalo en el modo Revelar."
+      ],
+      "faq": [
+        {
+          "q": "¿Sobrevivirá el mensaje oculto al copiado y pegado?",
+          "a": "Sí, con el copiado y pegado normal de texto sin formato, porque los caracteres de ancho cero forman parte de la cadena. Pero los editores de texto enriquecido, las plataformas sociales y cualquier herramienta que normalice Unicode o quite el formato pueden eliminarlos, así que pruébalo siempre en el destino."
+        },
+        {
+          "q": "¿Es un cifrado seguro?",
+          "a": "No. Es esteganografía por oscuridad: cualquiera que sepa buscar caracteres de ancho cero puede revelar el mensaje. Usa la herramienta de cifrado y descifrado AES para un secreto real."
+        }
+      ]
+    },
+    "css-generator": {
+      "title": "Generador CSS de sombras y cuadrícula",
+      "h1": "Generador CSS: sombra de caja, radio y cuadrícula",
+      "desc": "Genera CSS de box-shadow, border-radius y cuadrículas. Arrastra los deslizadores, ve la vista previa en directo y copia el CSS. Gratis, sin registro.",
+      "intro": "Diseña CSS visualmente en lugar de adivinar números. En el modo Caja, arrastra los deslizadores de desplazamiento de la sombra, desenfoque, expansión, radio de las esquinas, color y opacidad, con una sombra interior opcional, y observa cómo se actualiza la vista previa en directo. En el modo Cuadrícula, define el número de columnas, el espacio, el número de elementos y la altura de fila para organizar una cuadrícula responsiva. El CSS correspondiente se genera mientras trabajas: cópialo directamente en tu hoja de estilos. Todo se ejecuta en tu navegador.",
+      "steps": [
+        "Elige Sombra de caja y radio o Diseño de cuadrícula.",
+        "Arrastra los deslizadores para dar forma al efecto.",
+        "Observa cómo la vista previa y el CSS se actualizan en directo.",
+        "Copia el CSS generado en tu proyecto."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué CSS genera?",
+          "a": "CSS estándar listo para copiar: una regla .box con background, border-radius y box-shadow, o una regla .grid que usa display:grid con grid-template-columns y gap. No se necesitan prefijos de fabricante para estas propiedades en los navegadores modernos."
+        },
+        {
+          "q": "¿Puedo usar el CSS de cuadrícula en un sitio real?",
+          "a": "Sí. La regla de cuadrícula usa repeat() y columnas fraccionarias, así que es responsiva. Pégala en tu hoja de estilos y coloca tu contenido dentro del contenedor de la cuadrícula."
+        }
+      ]
+    },
+    "json-to-svg": {
+      "title": "Diagrama de JSON a SVG",
+      "h1": "JSON a SVG: visualiza un árbol de estructura",
+      "desc": "Convierte JSON en un colorido árbol de estructura SVG. Pega un objeto o array, renderiza el diagrama y descarga el SVG o copia el marcado. Gratis y local.",
+      "intro": "Pega cualquier objeto o array JSON y la herramienta lo analiza y lo organiza como un árbol de estructura de izquierda a derecha, dibujado como un colorido SVG enteramente en tu navegador. Cada clave se convierte en un nodo, los objetos y arrays anidados se ramifican y los valores hoja se muestran en línea. Descarga el resultado como un SVG que puedes insertar en documentación o diapositivas, o copia el marcado sin formato. Los arrays grandes se limitan a 40 ramas y ocho niveles de profundidad para mantener el diagrama legible.",
+      "steps": [
+        "Pega tu JSON en la entrada.",
+        "Pulsa Renderizar diagrama.",
+        "Inspecciona la vista previa del árbol de estructura.",
+        "Descarga el SVG o copia el marcado."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué formas de JSON se admiten?",
+          "a": "Cualquier JSON válido: objetos, arrays, cadenas, números, booleanos y null. Los objetos y arrays se convierten en nodos ramificados; los valores primitivos se muestran como hojas. Un JSON no válido muestra un error claro en lugar de dibujar."
+        },
+        {
+          "q": "¿Es editable el SVG?",
+          "a": "Sí. Es marcado SVG simple, así que puedes abrirlo en cualquier editor vectorial o pegarlo en HTML. La descarga es un archivo .svg autónomo sin dependencias externas."
+        }
+      ]
+    },
+    "encrypt-decrypt": {
+      "title": "Cifrar / Descifrar texto",
+      "h1": "Cifrar y descifrar texto AES online",
+      "desc": "Cifra y descifra texto con AES-256-GCM y una contraseña, en tu navegador. Derivación de clave PBKDF2, no se sube nada. Gratis y privado.",
+      "intro": "Protege un mensaje con criptografía moderna y sólida sin instalar nada. Escribe tu texto y una contraseña, y luego pulsa Cifrar: la herramienta deriva una clave de 256 bits con PBKDF2 (150.000 iteraciones, SHA-256) y cifra con AES-GCM, empaquetando la sal y el IV aleatorios en la salida base64 para que baste la contraseña para descifrarlo después. Pega el texto cifrado y la misma contraseña para Descifrar. Todo usa la Web Crypto API del navegador y nunca sale de tu dispositivo.",
+      "steps": [
+        "Escribe o pega el texto.",
+        "Introduce una contraseña segura.",
+        "Pulsa Cifrar para producir el texto cifrado.",
+        "Para revertirlo, pega el texto cifrado y pulsa Descifrar."
+      ],
+      "faq": [
+        {
+          "q": "¿Qué tan seguro es esto?",
+          "a": "Usa AES-256-GCM, un estándar de cifrado autenticado, con una clave derivada mediante PBKDF2 a 150.000 iteraciones. La seguridad depende de que tu contraseña sea fuerte y secreta; la sal y el IV son aleatorios en cada cifrado."
+        },
+        {
+          "q": "¿Puedo descifrar sin este sitio?",
+          "a": "La salida es base64 estándar que empaqueta la sal (16 bytes), el IV (12 bytes) y el texto cifrado AES-GCM. Cualquier librería que reproduzca PBKDF2-SHA256 a 150.000 iteraciones y AES-256-GCM puede descifrarlo con la misma contraseña."
+        }
+      ]
+    },
+    "image-mosaic": {
+      "title": "Mosaico y desenfoque de fotos",
+      "h1": "Mosaico de fotos: pixela y desenfoca localmente",
+      "desc": "Pixela o desenfoca caras, matrículas y detalles privados arrastrando un pincel. Edita localmente en un canvas y descarga un PNG. Gratis, sin subir nada.",
+      "intro": "Oculta partes sensibles de una imagen sin enviarla a ningún sitio. Sube una foto, elige Pixelar o Desenfocar, define el tamaño y la intensidad del pincel, y luego arrastra sobre las caras, matrículas o documentos que quieres ocultar. El efecto se aplica en un canvas en tu navegador; restaura el original en cualquier momento y descarga el resultado como PNG. No se sube nada.",
+      "steps": [
+        "Sube una foto.",
+        "Elige Pixelar o Desenfocar y ajusta el pincel.",
+        "Arrastra sobre las zonas que quieres ocultar.",
+        "Descarga el PNG editado."
+      ],
+      "faq": [
+        {
+          "q": "¿Es reversible la pixelación?",
+          "a": "Una pixelación fuerte promedia cada bloque en un solo color, destruyendo el detalle original, así que no se puede deshacer a partir del resultado. Usa un tamaño de bloque grueso para datos sensibles; un desenfoque ligero a veces se puede realzar, así que prefiere la pixelación para caras y matrículas."
+        },
+        {
+          "q": "¿Se suben mis fotos?",
+          "a": "No. La imagen se dibuja y se edita en un canvas enteramente en tu navegador, y el PNG se genera localmente. No se envía nada a un servidor."
+        }
+      ]
+    },
+    "grid-splitter": {
+      "title": "Divisor de imágenes en cuadrícula",
+      "h1": "Divisor de imágenes en cuadrícula: nueve cuadrados y NxN",
+      "desc": "Divide una imagen en una cuadrícula de nueve cuadrados 3×3 o NxN para redes sociales. Recorta a cuadrado y descarga las piezas como ZIP. Gratis y local.",
+      "intro": "Corta una imagen en una cuadrícula sin cortes para Instagram, Weibo o cualquier feed social. Sube una imagen, elige una cuadrícula de 2×2 hasta 6×6 (3×3 es el clásico formato de nueve cuadrados) y, opcionalmente, recorta primero a un cuadrado para que cada pieza sea cuadrada. La herramienta la divide en un canvas en tu navegador, y luego descargas las piezas individualmente o como un solo ZIP, listas para publicar en orden. No se sube nada.",
+      "steps": [
+        "Sube la imagen que quieres dividir.",
+        "Elige el tamaño de la cuadrícula, p. ej. 3×3.",
+        "Activa Recortar a cuadrado para obtener piezas cuadradas.",
+        "Divide y descarga las piezas o el ZIP."
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo publico un nueve cuadrados sin cortes?",
+          "a": "Divide en 3×3, descarga el ZIP y sube las nueve piezas a tu app social en orden numerado (grid-01 a grid-09). La mayoría de las apps te permiten seleccionar varias imágenes a la vez; mantén el orden para que la imagen encaje."
+        },
+        {
+          "q": "¿Por qué recortar a un cuadrado primero?",
+          "a": "Un feed de nueve cuadrados muestra miniaturas cuadradas. Recortar el origen a un cuadrado centrado antes de dividir mantiene cada pieza cuadrada y evita bordes desiguales. Desactívalo para dividir el rectángulo completo en su lugar."
+        }
+      ]
+    },
+    "camera-mic-test": {
+      "title": "Prueba de cámara y micrófono",
+      "h1": "Prueba de cámara, micrófono y pantalla",
+      "desc": "Prueba tu webcam, micrófono y pantalla en el navegador: cámara en directo, medidor de nivel de micrófono y prueba de píxeles muertos. Gratis y privado.",
+      "intro": "Comprueba tu hardware antes de una llamada o grabación, enteramente en tu navegador. Inicia la cámara para una vista previa en directo, prueba el micrófono y observa cómo se mueve la barra de nivel mientras hablas, y ejecuta la prueba de píxeles muertos de la pantalla para alternar colores sólidos a pantalla completa y detectar píxeles atascados. No se graba, guarda ni sube ningún vídeo o audio: los flujos se detienen cuando pulsas Detener o sales de la página.",
+      "steps": [
+        "Pulsa Iniciar cámara para comprobar el vídeo.",
+        "Pulsa Probar micrófono y habla.",
+        "Ejecuta la prueba de pantalla y toca para alternar colores.",
+        "Detén cada prueba cuando termines."
+      ],
+      "faq": [
+        {
+          "q": "¿Graba o sube algo?",
+          "a": "No. La cámara y el micrófono solo se previsualizan y analizan en directo en tu navegador mediante getUserMedia y la Web Audio API. No se graba, guarda ni envía nada a ningún sitio, y las pistas se detienen cuando pulsas Detener."
+        },
+        {
+          "q": "¿Por qué el navegador pide permiso?",
+          "a": "Acceder a una cámara o un micrófono siempre requiere tu permiso explícito y una página segura (https). Si lo denegaste, permítelo en la configuración del sitio de tu navegador e inténtalo de nuevo."
+        }
+      ]
+    },
+    "teleprompter": {
+      "title": "Teleprónter",
+      "h1": "Teleprónter online para tu guion",
+      "desc": "Teleprónter online gratis: pega tu guion, desplázalo en texto grande, ajusta velocidad y tamaño de letra, refléjalo y usa pantalla completa. No se sube nada.",
+      "intro": "Lee tu discurso con fluidez mientras grabas. Pega tu guion, define un tamaño de letra y una velocidad de desplazamiento cómodos, y luego pulsa Iniciar para hacer rodar el texto. Espejo lo voltea horizontalmente para un teleprónter con divisor de haz, y Pantalla completa llena la pantalla para que puedas leer desde lejos. Tu guion permanece en esta pestaña del navegador y nunca se sube.",
+      "steps": [
+        "Pega tu guion o discurso.",
+        "Define el tamaño de letra y la velocidad de desplazamiento.",
+        "Pulsa Iniciar para rodar; usa el espejo si usas un soporte.",
+        "Usa Pantalla completa para una pantalla grande."
+      ],
+      "faq": [
+        {
+          "q": "¿Para qué sirve la opción de espejo?",
+          "a": "Un teleprónter con divisor de haz refleja la pantalla en un cristal delante del objetivo, lo que invierte el texto. El espejo lo voltea horizontalmente para que se lea correctamente en el reflejo. Déjalo desactivado cuando leas directamente de la pantalla."
+        },
+        {
+          "q": "¿Se guarda o se envía mi guion a algún sitio?",
+          "a": "No. El guion solo existe en esta pestaña del navegador mientras usas la herramienta y nunca se sube ni se almacena en un servidor. Al actualizar la página se borra."
+        }
+      ]
+    },
+    "sound-level-meter": {
+      "title": "Medidor de nivel de sonido",
+      "h1": "Medidor de nivel de sonido: medidor de decibelios online",
+      "desc": "Medidor de nivel de sonido online gratis: ve en directo los decibelios relativos a tu alrededor, con pico y promedio. Micrófono local, no se graba nada.",
+      "intro": "Mide el volumen de tu entorno con el micrófono de tu dispositivo. Pulsa Iniciar, permite el acceso y el medidor muestra el nivel de sonido relativo en decibelios con una barra en directo, además de lecturas de pico y promedio. Es un medidor relativo y sin calibrar referenciado a la escala completa digital, así que úsalo para comparar el volumen o detectar ruido en lugar de para mediciones legales o de seguridad. El audio se analiza en tu navegador y nunca se graba ni se sube.",
+      "steps": [
+        "Pulsa Iniciar y permite el acceso al micrófono.",
+        "Observa la lectura de decibelios y la barra en directo.",
+        "Consulta los niveles de pico y promedio.",
+        "Restablece el pico o pulsa Detener cuando termines."
+      ],
+      "faq": [
+        {
+          "q": "¿Es un medidor de decibelios calibrado?",
+          "a": "No. Es un medidor relativo referenciado a la escala completa digital, así que el valor absoluto depende de tu micrófono y de su ganancia. Es útil para comparar el volumen, no para mediciones de ruido certificadas."
+        },
+        {
+          "q": "¿Se graba el audio?",
+          "a": "No. El flujo del micrófono solo se analiza en directo en tu navegador para calcular el nivel. No se graba, guarda ni sube nada, y el micrófono se detiene cuando pulsas Detener o sales de la página."
+        }
+      ]
+    }
+  }
+}

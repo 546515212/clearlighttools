@@ -1,0 +1,253 @@
+{
+  "t": {
+    "compress-image": {
+      "desc": "Kecilkan foto tanpa kehilangan kualiti yang ketara, bandingkan sebelum dan selepas, dan proses banyak fail serentak — semuanya dalam pelayar.",
+      "intro": "Pemampatan mengekod semula gambar melalui pengekod imej milik pelayar anda. Metadata EXIF dibuang secara lalai, dan di situlah selalunya penjimatan terbesar tersembunyi.",
+      "steps": [
+        "Seret satu atau banyak foto.",
+        "Gerakkan slider kualiti; biasanya 70 hingga 85 sudah cukup untuk web.",
+        "Tekan Mampat.",
+        "Bandingkan saiz dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Kualiti mana yang patut saya guna untuk laman web?",
+          "a": "80 untuk fotografi, 90 untuk tangkapan layar yang banyak teks, dan tukar kepada WebP apabila pelayar menyokongnya."
+        },
+        {
+          "q": "Adakah ia berfungsi dengan HEIC daripada iPhone?",
+          "a": "Safari dan Chrome pada kebanyakan peranti boleh menyahkod HEIC; jika peranti anda tidak mampu, tukarkan kepada JPEG dahulu dengan alat Convert Image."
+        }
+      ]
+    },
+    "convert-image": {
+      "desc": "Tukar format gambar dalam satu langkah: PNG ke JPG, JPG ke WebP, WebP ke PNG dan banyak lagi, dengan pengendalian ketelusan dan kawalan kualiti.",
+      "intro": "Penyahkodan dan pengekodan semula berlaku pada kanvas, jadi penukaran itu tanpa kerugian selain daripada format sasaran itu sendiri. PNG telus boleh diberi latar belakang pilihan apabila disimpan sebagai JPG.",
+      "steps": [
+        "Tambah imej anda.",
+        "Pilih format sasaran.",
+        "Tetapkan kualiti dan, untuk JPG, latar belakang bagi kawasan telus.",
+        "Tukar dan muat turun, atau ambil semua fail sebagai zip."
+      ],
+      "faq": [
+        {
+          "q": "Adakah WebP benar-benar lebih kecil?",
+          "a": "Biasanya 25 hingga 35 peratus lebih kecil daripada JPEG pada kualiti setara, dan semua pelayar semasa dapat memaparkannya."
+        },
+        {
+          "q": "Adakah anda menyokong BMP, TIFF atau SVG?",
+          "a": "Pelayar boleh menyahkod BMP dan TIFF; SVG ialah vektor dan tidak dapat diresterkan tanpa melaksanakannya, jadi ia sengaja ditinggalkan."
+        }
+      ]
+    },
+    "resize-image": {
+      "desc": "Tetapkan lebar dan tinggi yang tepat, kekalkan nisbah, atau pangkas kepada pra tetapan seperti 1:1, 4:5 atau 16:9. Sesuai untuk avatar dan gambar kecil.",
+      "intro": "Pensaizuran menggunakan laluan kanvas berkualiti tinggi, dan kotak pangkas boleh diseret ke bahagian gambar yang penting sebelum dieksport.",
+      "steps": [
+        "Muatkan gambar.",
+        "Taipkan lebar baharu atau pilih pra tetapan nisbah.",
+        "Seret bingkai pangkas untuk meletakkan subjek.",
+        "Guna dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Adakah pembesaran menjadikan gambar lebih tajam?",
+          "a": "Tiada alat boleh mereka butiran; membesarkan hanya menjadikan fail lebih besar. Kekalkan pembesaran di bawah 150 peratus."
+        },
+        {
+          "q": "Bolehkah saya mengubah saiz banyak foto dengan cara yang sama?",
+          "a": "Boleh, tambah semua fail dan peraturan yang sama akan dipakai pada setiap satu."
+        }
+      ]
+    },
+    "image-to-base64": {
+      "desc": "Dapatkan data URI siap tampal daripada mana-mana gambar, dengan serpihan CSS dan HTML yang sudah dibungkus, untuk ikon sebaris dan halaman luar talian.",
+      "intro": "Pengekodan dibuat daripada bait fail dalam memori. Berguna untuk logo yang anda mahu sebariskan supaya pelayar membuat satu permintaan dan bukan dua.",
+      "steps": [
+        "Pilih imej.",
+        "Pilih output: data URI, Base64 mentah, atau serpihan CSS.",
+        "Salin hasilnya.",
+        "Tampalkannya ke lembaran gaya atau HTML anda."
+      ],
+      "faq": [
+        {
+          "q": "Berapa besarnya fail yang dibenarkan?",
+          "a": "Kekalkan aset sebaris di bawah lebih kurang 30 KB; fail yang lebih besar memperlambat halaman dan bukan mempercepatkannya."
+        },
+        {
+          "q": "Mengapa rentetannya begitu panjang?",
+          "a": "Base64 bertambah lebih kurang 33 peratus kerana ia memadatkan tiga bait kepada empat karakter."
+        }
+      ]
+    },
+    "base64-to-image": {
+      "title": "Base64 ke Imej",
+      "h1": "Tukar rentetan Base64 semula menjadi fail imej",
+      "desc": "Tampal data URI atau blok Base64 mentah, pratonton gambar itu dan muat turun sebagai PNG, JPG atau WebP.",
+      "intro": "Berguna apabila sesebuah halaman atau e-mel memberikan gambar dalam bentuk teks. Penyahkod menerima awalan mime, ruang kosong dan baris baharu.",
+      "steps": [
+        "Tampal rentetan itu.",
+        "Periksa pratonton.",
+        "Muat turun imej yang telah disahkod."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa pratonton tetap kosong?",
+          "a": "Biasanya rentetan terpotong semasa disalin. Base64 imej yang sah berakhir dengan padanan = atau ==, atau panjangnya gandaan empat karakter."
+        },
+        {
+          "q": "Bolehkah ia menyahkod teks dan bukan gambar?",
+          "a": "Guna alat Base64 encode/decode untuk rentetan biasa."
+        }
+      ]
+    },
+    "qr-code-generator": {
+      "desc": "Bina kod QR beresolusi tinggi untuk URL, log masuk Wi-Fi, vCard, SMS atau teks biasa, dengan pilihan saiz, margin dan warna. Tiada luput, tiada akaun.",
+      "intro": "Kod itu dilukis pada peranti anda sendiri, jadi ia tidak boleh luput atau dialihkan ke destinasi lain — kelebihan sebenar berbanding perkhidmatan QR dinamik.",
+      "steps": [
+        "Pilih jenis kandungan dan isikannya.",
+        "Tetapkan saiz piksel, zon senyap dan pembetulan ralat.",
+        "Sesuaikan warna jika perlu, dengan kontras yang kuat.",
+        "Muat turun sebagai PNG atau SVG."
+      ],
+      "faq": [
+        {
+          "q": "Adakah kod QR percuma boleh luput?",
+          "a": "Tidak di sini. Kod statik dilukis terus ke dalam imej itu sendiri, jadi ia berfungsi selama pautan sasarannya berfungsi."
+        },
+        {
+          "q": "Mengapa kod pautan saya begitu padat?",
+          "a": "URL panjang memerlukan simbol yang lebih besar. Pendekkan pautan, atau tingkatkan saiz piksel dan pembetulan ralat untuk cetakan."
+        }
+      ]
+    },
+    "favicon-generator": {
+      "desc": "Muat naik logo dan muat turun setiap saiz yang diperlukan tapak: favicon.ico, PNG 16 hingga 180 px, ikon sentuh Apple dan tag HTML yang sepadan.",
+      "intro": "Pemangkasan berpusat dan setiap saiz dilukis semula secara berasingan, jadi garisan nipis tetap terbaca pada 16 px dan tidak comel akibat satu salinan yang diskalakan.",
+      "steps": [
+        "Tambah imej segi empat, idealnya 512 px atau lebih besar.",
+        "Pilih latar belakang atau kekalkan ketelusan.",
+        "Jana.",
+        "Muat turun zip dan tampal serpihan HTML ke bahagian head anda."
+      ],
+      "faq": [
+        {
+          "q": "Fail mana yang benar-benar saya perlukan?",
+          "a": "favicon.ico untuk pelayar lama, PNG 32 px, apple-touch-icon 180 px dan pasangan 192/512 px jika anda menggunakan manifest."
+        },
+        {
+          "q": "Logo saya ada teks kecil dan ia hilang.",
+          "a": "Favicon memerlukan tanda yang dipermudahkan; simpan logo penuh untuk ikon sentuh sahaja."
+        }
+      ]
+    },
+    "color-picker": {
+      "desc": "Dapatkan HEX, RGB dan HSL tepat bagi mana-mana piksel: klik dalam gambar atau guna picagari skrin, kemudian bina palet yang sepadan.",
+      "intro": "Pada pelayar yang menyokongnya, picagari membaca apa sahaja pada skrin anda, termasuk video atau fail rekaan yang tidak boleh dieksport.",
+      "steps": [
+        "Muatkan imej, atau mulakan picagari skrin.",
+        "Klik piksel yang anda mahu.",
+        "Salin HEX, RGB atau HSL.",
+        "Jika perlu, ekstraksikan palet penuh daripada gambar itu."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa dua tangkapan layar memberikan nilai berbeza?",
+          "a": "Pengurusan warna dan profil paparan menganjak nilai terpapar; alat ini melaporkan piksel tersimpan, iaitu yang akan dihantar oleh pelayar."
+        },
+        {
+          "q": "Adakah picagari berfungsi pada telefon?",
+          "a": "API skrin hanya untuk desktop; muat naik tangkapan layar dan ketuk imej itu sebaliknya."
+        }
+      ]
+    },
+    "image-to-gif": {
+      "title": "Imej ke GIF",
+      "h1": "Bina GIF beranimasi daripada sekumpulan imej",
+      "desc": "Tukar siri foto atau bingkai menjadi GIF beranimasi yang berulang, dengan kawalan kelewatan, bilangan ulang dan lebar akhir.",
+      "intro": "Pengekodan berjalan dalam tab pelayar dan bukan pada pekerja, jadi mudah untuk memantau kemajuan dan membatalkan kerja yang terlalu besar.",
+      "steps": [
+        "Tambah bingkai mengikut urutan ia perlu dimainkan.",
+        "Tetapkan lebar dan kelewatan bingkai.",
+        "Pilih ulang selamanya atau bilangan yang tetap.",
+        "Tekan Cipta GIF dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa GIF saya begitu besar?",
+          "a": "GIF hanya 256 warna dan tidak cekap. Kurangkan bingkai, kecilkan lebar, atau kekal dengan klip WebM/MP4."
+        },
+        {
+          "q": "Bolehkah saya membuat GIF daripada video?",
+          "a": "Tidak dalam binaan ini; muat naik bingkai yang anda mahu, atau pangkas klip dengan alat video dahulu."
+        }
+      ]
+    },
+    "trim-audio": {
+      "title": "Pangkas Audio",
+      "h1": "Potong fail MP3, WAV dan M4A dalam talian",
+      "desc": "Tetapkan titik masuk dan keluar, tambah pudar keluar, dan eksport klip WAV bersih atau MP3. Tiada apa dimuat naik, jadi rakaman peribadi tetap peribadi.",
+      "intro": "Penyahkodan menggunakan enjin audio pelayar anda, kemudian tetingkap sampel ditulis sebagai WAV 16-bit. Sesuai untuk nada dering, intro podcast atau rakaman kelas.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Mainkannya dan tandakan permulaan serta penghujung, atau taipkan saatnya.",
+        "Tambah pudar keluar jika potongannya terlalu mendadak.",
+        "Tekan Pangkas dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa output WAV kedengaran sama tetapi lebih besar?",
+          "a": "WAV tidak dimampatkan. Proses fail yang dieksport itu melalui alat saudara Compress Image, atau kodkan kepada MP3 dengan pemain biasa anda."
+        },
+        {
+          "q": "Adakah ia mendukung pemangkasan tepat di tengah lagu?",
+          "a": "Resolusinya satu sampel, jadi taipkan cap masa atau sesuaikan 0.05 s untuk suntingan yang kemas."
+        }
+      ]
+    },
+    "compress-video": {
+      "title": "Mampat Video",
+      "h1": "Kecilkan video dalam pelayar",
+      "desc": "Kodkan semula klip kepada WebM dengan resolusi atau kadar bit lebih rendah supaya muat dalam e-mel atau muat naik borang. Fail kekal pada peranti anda.",
+      "intro": "Ia berfungsi dengan memainkan klip, melukis semula setiap bingkai pada kanvas dan merakam kanvas itu, jadi ia berjalan secara masa nyata dan mengeluarkan fail WebM.",
+      "steps": [
+        "Buka video.",
+        "Pilih skala dan kadar bit sasaran.",
+        "Tekan Mula dan biarkannya berjalan; mainan dan penukaran berlaku serentak.",
+        "Muat turun .webm yang terhasil."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa saya perlu menunggu sepanjang klip?",
+          "a": "Perakaman berlaku secara langsung daripada mainan. Video berdurasi dua minit memerlukan dua minit."
+        },
+        {
+          "q": "Adakah audio dikekalkan?",
+          "a": "Ya, apabila pelayar anda menyokong rakaman track audio; jika klip memakai kodek luar biasa, audio mungkin dibuang dan alat ini akan memberi amaran."
+        }
+      ]
+    },
+    "image-contrast-brightness": {
+      "title": "Sesuaikan Foto",
+      "h1": "Ubah kecerahan, kontras dan ketepuan sesuatu imej",
+      "desc": "Baiki foto gelap, cerahkan yang kusam, tukar kepada skala kelabu atau kaburkan latar belakang dengan slider langsung, kemudian eksport hasilnya.",
+      "intro": "Setiap penapis ialah operasi kanvas CSS, jadi anda melihat hasilnya sebelum mengeksport dan fail asal tidak pernah ditulis ganti.",
+      "steps": [
+        "Muatkan gambar.",
+        "Gerakkan slider; pratonton di sebelah kanan bertukar serta-merta.",
+        "Pilihan: guna skala kelabu, sepia atau kabur.",
+        "Eksport sebagai PNG atau JPG."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia membaiki foto yang terdedah dengan teruk?",
+          "a": "Ia boleh menaikkan bayang dan mengimbangi kontras semula, tetapi butiran yang hilang akibat clipping tidak boleh dikembalikan."
+        },
+        {
+          "q": "Bolehkah saya guna semula tetapan pada foto lain?",
+          "a": "Boleh, tambah semua fail sebelum menekan Guna dan set slider yang sama dipakai untuk setiap satu."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "t": {
+    "word-counter": {
+      "desc": "Đếm số từ, ký tự, dấu cách, câu, đoạn, thời gian đọc và mức lặp từ khóa ngay khi bạn gõ. Tiện cho bài luận, tweet và bản yêu cầu SEO.",
+      "intro": "Việc đếm diễn ra trên máy và tức thì, còn danh sách từ khóa cho bạn biết những cụm nào bạn đang dùng quá nhiều.",
+      "steps": [
+        "Dán văn bản của bạn.",
+        "Xem các tổng: số từ, số ký tự có và không tính dấu cách, số câu, số đoạn.",
+        "Xem thời gian đọc và thời gian nói.",
+        "Xem những từ bị lặp nhiều nhất."
+      ],
+      "faq": [
+        {
+          "q": "Thời gian đọc được tính thế nào?",
+          "a": "200 từ mỗi phút cho đọc thầm và 150 từ mỗi phút cho đọc thành tiếng, theo các con số chuẩn trong nghề biên tập."
+        },
+        {
+          "q": "Từ có dấu gạch nối được tính mấy lần?",
+          "a": "Một lần, nó được tính là một từ, giống cách hầu hết giới hạn của nhà trường và nhà xuất bản đang dùng."
+        }
+      ]
+    },
+    "case-converter": {
+      "title": "Chuyển đổi kiểu chữ",
+      "h1": "Đổi văn bản sang in HOA, in thường hoặc Viết hoa mỗi từ",
+      "desc": "Chuyển một khối văn bản sang viết hoa mỗi từ, viết hoa đầu câu, camelCase, snake_case, kebab-case hoặc iNVERSE cASE chỉ bằng một cú bấm.",
+      "intro": "Các quy tắc có tính đến ngôn ngữ: những từ nhỏ như of và the vẫn để in thường trong tiêu đề, còn kết quả snake hoặc kebab thì an toàn cho tên tệp và mã nguồn.",
+      "steps": [
+        "Dán văn bản.",
+        "Chọn một kiểu chữ.",
+        "Sao chép hoặc tải kết quả về."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao Viết hoa mỗi từ chưa chuẩn trên các tiêu đề của tôi?",
+          "a": "Từ viết tắt và tên thương hiệu là ngoại lệ; hãy sửa chúng trong kết quả hoặc tắt chế độ tiêu đề thông minh."
+        },
+        {
+          "q": "Công cụ có xử lý các chữ có dấu phụ không?",
+          "a": "Có, phép chuyển đổi nhận biết Unicode nên É, ß và ı vẫn giữ theo quy tắc ngôn ngữ của chúng khi có thể."
+        }
+      ]
+    },
+    "remove-duplicate-lines": {
+      "title": "Xóa dòng trùng lặp",
+      "h1": "Làm sạch một danh sách: loại trùng, sắp xếp và lược khoảng trắng",
+      "desc": "Xóa những dòng lặp lại trong một danh sách, bỏ qua hoa thường, lược khoảng trắng thừa, bỏ dòng trống và sắp xếp A đến Z hoặc dòng dài nhất trước.",
+      "intro": "Trường hợp điển hình: dán một danh sách email hoặc số điện thoại từ bảng tính và thu về một cột sạch sẽ, sẵn sàng để nhập.",
+      "steps": [
+        "Dán danh sách.",
+        "Đánh dấu các tùy chọn làm sạch bạn cần.",
+        "Xem có bao nhiêu dòng đã bị loại bỏ.",
+        "Sao chép hoặc tải kết quả về."
+      ],
+      "faq": [
+        {
+          "q": "Một dòng có dấu cách ở cuối có bị coi là khác biệt không?",
+          "a": "Chỉ khi tùy chọn Lược khoảng trắng đang tắt; hãy bật nó để bắt những khác biệt không nhìn thấy."
+        },
+        {
+          "q": "Tôi có thể giữ các dòng trùng hiện ra không?",
+          "a": "Được, hãy chạy Đếm dòng trùng trước để xem mỗi dòng kèm số lần xuất hiện của nó."
+        }
+      ]
+    },
+    "lorem-ipsum-generator": {
+      "desc": "Tạo đúng lượng văn bản giả mà bản mô phỏng của bạn cần — số từ, số câu hoặc số đoạn, kèm cả câu mở đầu kinh điển của Cicero.",
+      "intro": "Hữu ích cho nhà thiết kế cần độ dài dòng thực tế mà không phải nghĩ nội dung, và cho lập trình viên cần điền một bảng bằng dữ liệu hợp lý.",
+      "steps": [
+        "Chọn Đoạn văn, Câu hoặc Số từ.",
+        "Đặt số lượng.",
+        "Quyết định có bắt đầu bằng “Lorem ipsum…” hay không.",
+        "Sao chép văn bản."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao phải dùng chữ Latinh làm nội dung giả?",
+          "a": "Nó ngăn những người liên quan mải đọc chữ rồi tranh luận về chữ, nhờ đó cuộc trao đổi vẫn tập trung vào bố cục."
+        },
+        {
+          "q": "Thay vào đó tôi có thể lấy tiếng Anh như thật không?",
+          "a": "Hãy đánh dấu tùy chọn dễ đọc để dùng phần văn bản giả bằng tiếng Anh thông thường khi rà soát khả năng tiếp cận."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "desc": "Mã hóa văn bản sang Base64 hoặc giải mã ngược lại, có hỗ trợ bảng ký tự an toàn cho URL và báo ngay lỗi ký tự không hợp lệ.",
+      "intro": "Base64 là cách các token, phần đầu và tài nguyên nhúng đi qua an toàn những hệ thống chỉ chấp nhận ký tự thông thường.",
+      "steps": [
+        "Nhập hoặc dán dữ liệu vào.",
+        "Chọn Mã hóa hoặc Giải mã.",
+        "Chọn bảng ký tự an toàn cho URL nếu giá trị nằm trong query string.",
+        "Sao chép kết quả."
+      ],
+      "faq": [
+        {
+          "q": "Base64 có phải là mã hóa bảo mật không?",
+          "a": "Không. Đó là phép biến đổi thuận nghịch và không có khóa bí mật, nên đừng bao giờ dùng nó để bảo vệ mật khẩu."
+        },
+        {
+          "q": "Vì sao giải mã thất bại?",
+          "a": "Thông thường do một ký tự lạc lẫn vào hoặc độ dài không phải bội số của bốn; công cụ sẽ chỉ đúng vị trí đó."
+        }
+      ]
+    },
+    "url-encode-decode": {
+      "title": "Mã hóa / giải mã URL",
+      "h1": "Mã hóa và giải mã các thành phần của URL",
+      "desc": "Mã hóa phần trăm giá trị truy vấn, mã hóa cả URL, hoặc giải mã chuỗi đã mã hóa về văn bản đọc được, đúng theo ngữ nghĩa của encodeURIComponent.",
+      "intro": "Vấn đề hỗ trợ phổ biến nhất — một liên kết hỏng vì một dấu cách, một ký hiệu & hay một ký tự có dấu — được sửa ở đây chỉ trong một bước.",
+      "steps": [
+        "Dán giá trị.",
+        "Chọn chế độ thành phần, đường dẫn hoặc toàn bộ URL.",
+        "Mã hóa hoặc giải mã.",
+        "Sao chép kết quả an toàn."
+      ],
+      "faq": [
+        {
+          "q": "encodeURI và encodeURIComponent khác nhau chỗ nào?",
+          "a": "encodeURIComponent cũng mã hóa cả những ký tự vốn hợp lệ trong cấu trúc URL, và đó chính là điều bạn muốn với một giá trị truy vấn đơn lẻ."
+        },
+        {
+          "q": "Vì sao dấu cộng lại khác với %20?",
+          "a": "Biểu mẫu dùng + cho dấu cách còn URL thật dùng %20. Công cụ hiển thị cả hai để bạn khớp với máy chủ của mình."
+        }
+      ]
+    },
+    "html-entities": {
+      "title": "Mã hóa HTML",
+      "h1": "Mã hóa và giải mã thực thể HTML",
+      "desc": "Biến <, >, &, dấu ngoặc kép và các chữ có dấu thành thực thể an toàn, hoặc chuyển thực thể trở lại thành ký tự để hiển thị.",
+      "intro": "Hãy dùng nó khi dán mã vào blog, khi viết nội dung vào một trường CMS hay nuốt thẻ của bạn, hoặc khi làm sạch một trang vừa thu thập về.",
+      "steps": [
+        "Dán mã đánh dấu hoặc văn bản của bạn.",
+        "Bấm Mã hóa hoặc Giải mã.",
+        "Sao chép kết quả."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao CMS của tôi cứ xóa các thẻ?",
+          "a": "Trình soạn thảo của nó phân tích chúng như HTML. Hãy mã hóa khối đó trước thì nó sẽ còn nguyên."
+        },
+        {
+          "q": "Công cụ có chuyển các thực thể dạng số không?",
+          "a": "Có, cả dạng có tên lẫn dạng số thập phân hoặc thập lục phân đều được nhận ra."
+        }
+      ]
+    },
+    "reverse-text": {
+      "title": "Đảo ngược văn bản",
+      "h1": "Đảo ngược văn bản, lộn đầu hoặc soi gương nó",
+      "desc": "Viết một chuỗi ngược từ cuối, tạo Unicode lộn đầu cho bài đăng mạng xã hội, hoặc đảo thứ tự từ mà không làm xáo bên trong từng từ.",
+      "intro": "Được ưa chuộng cho phần tiểu sử và sticker, và thực sự hữu ích khi bạn cần một bản soi gương nhanh của một nhãn.",
+      "steps": [
+        "Nhập văn bản.",
+        "Chọn ngược từ cuối, lộn đầu hay đảo thứ tự từ.",
+        "Sao chép kết quả."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao một số chữ không lộn được?",
+          "a": "Vài glyph không có bản soi gương trong Unicode; chúng được giữ nguyên để văn bản vẫn đọc được."
+        },
+        {
+          "q": "Có giữ nguyên emoji không?",
+          "a": "Các chuỗi emoji ghép vẫn đi cùng nhau thay vì bị tách thành từng mảnh riêng."
+        }
+      ]
+    },
+    "json-formatter": {
+      "desc": "Trình bày đẹp một tệp JSON rối, chỉ đúng dòng chứa lỗi cú pháp, sắp xếp khóa, rút gọn payload, và thu gọn hoặc mở rộng các nút trong dạng cây.",
+      "intro": "Lập trình viên dán phản hồi API vào đây để đọc; thông báo lỗi chỉ thẳng ký tự gây lỗi thay vì chỉ nói JSON không hợp lệ.",
+      "steps": [
+        "Dán JSON.",
+        "Bấm Định dạng, và đặt Thụt lề nếu bạn cần 2 hay 4 dấu cách.",
+        "Sửa lỗi được báo rồi chạy lại.",
+        "Dùng Rút gọn khi tệp cần đưa lên môi trường thật."
+      ],
+      "faq": [
+        {
+          "q": "Có nhận định dạng JSON Lines không?",
+          "a": "Có, mỗi dòng một đối tượng sẽ được nhận ra và định dạng thành một chuỗi."
+        },
+        {
+          "q": "Vì sao các số lớn của tôi bị làm tròn?",
+          "a": "JavaScript không giữ được chúng ở dạng số nguyên; công cụ để chúng dưới dạng chuỗi khi bật Giữ số lớn."
+        }
+      ]
+    },
+    "csv-to-json": {
+      "desc": "Tải lên hoặc dán tệp xuất từ bảng tính và nhận về mảng đối tượng, với trường có dấu ngoặc kép, dấu phân cách hàng nghìn và ô trống đều xử lý đúng.",
+      "intro": "Một bộ phân tích RFC-4180 thực thụ được sử dụng, nên dấu phẩy trong ngoặc kép và ký tự xuống dòng nằm trong ô không làm lệch các cột.",
+      "steps": [
+        "Dán văn bản CSV hoặc thả một tệp .csv.",
+        "Đặt Ký phân cách và cho biết hàng đầu tiên có phải tiêu đề hay không.",
+        "Bấm Chuyển đổi.",
+        "Tải tệp .json hoặc sao chép nó."
+      ],
+      "faq": [
+        {
+          "q": "Số có được chuyển sang kiểu số không?",
+          "a": "Có, và ngày kiểu ISO vẫn là chuỗi. Hãy tắt Chuyển số và boolean để giữ mọi thứ là văn bản."
+        },
+        {
+          "q": "Tôi có thể làm ngược lại không?",
+          "a": "Hãy dùng hành động tải xuống dạng CSV của Định dạng JSON khi bạn có một mảng đối tượng phẳng."
+        }
+      ]
+    },
+    "markdown-to-html": {
+      "desc": "Dán Markdown và sao phần HTML đã kết xuất ra, hỗ trợ bảng, khối code, kiểu liên kết chú thích chân trang và tùy chọn cú pháp GitHub.",
+      "intro": "Chính bộ kết xuất ấy chạy cho phần tài liệu của trang này, nên những gì bạn thấy ở bản xem trước là những gì bạn sao chép.",
+      "steps": [
+        "Viết hoặc dán Markdown.",
+        "Theo dõi hai bảng HTML trực tiếp và xem trước đang cập nhật.",
+        "Sao chép HTML hoặc tải tệp về."
+      ],
+      "faq": [
+        {
+          "q": "Kết quả có được làm sạch không?",
+          "a": "HTML thô được giữ nguyên vì đó là Markdown hợp lệ; hãy thêm một bộ làm sạch trước khi hiển thị dữ liệu không đáng tin."
+        },
+        {
+          "q": "Tôi có thể lấy lại Markdown từ HTML không?",
+          "a": "Công cụ này thì không; nó cố ý chỉ chạy một chiều để bản xem trước luôn nhanh."
+        }
+      ]
+    },
+    "hash-generator": {
+      "desc": "Lấy giá trị băm của thông điệp từ bất kỳ văn bản nào, hoặc mã kiểm tra của một tệp để xác minh tải xuống, theo đúng thuật toán mà hệ thống của bạn mong đợi.",
+      "intro": "Các hàm băm mạnh lấy từ engine mật mã của trình duyệt; MD5 được cài đặt ngay trên máy chỉ để tương thích với hệ thống cũ.",
+      "steps": [
+        "Nhập văn bản, hoặc tải lên một tệp.",
+        "Chọn một hoặc nhiều thuật toán.",
+        "Sao chép các giá trị băm.",
+        "So chúng với mã kiểm tra đã công bố."
+      ],
+      "faq": [
+        {
+          "q": "MD5 còn an toàn không?",
+          "a": "Không — va chạm đã tạo được trong thực tế. Chỉ dùng nó như một dấu vân tay cho hệ thống cũ, đừng dùng cho bảo mật."
+        },
+        {
+          "q": "Tôi có thể băm mật khẩu không?",
+          "a": "Bạn không nên. Mật khẩu cần một hàm chậm và có salt như bcrypt hay Argon2, và một công cụ chạy trên trình duyệt không nên làm việc đó thay cho bạn."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "desc": "Tạo bao nhiêu định danh phiên bản 4 cũng được, theo đúng dạng mà công cụ của bạn mong đợi: có gạch ngang, trong ngoặc nhọn, viết hoa hoặc thuần.",
+      "intro": "Các giá trị lấy từ nguồn ngẫu nhiên mật mã của trình duyệt, nên chúng phù hợp cho khóa, phiên làm việc và dữ liệu kiểm thử.",
+      "steps": [
+        "Đặt số UUID bạn muốn.",
+        "Chọn định dạng.",
+        "Sao chép danh sách hoặc tải danh sách về."
+      ],
+      "faq": [
+        {
+          "q": "Những giá trị này có thực sự duy nhất không?",
+          "a": "Phiên bản 4 dùng 122 bit ngẫu nhiên; khả năng va chạm là cực kỳ nhỏ trừ khi bạn tạo tới hàng tỉ cái."
+        },
+        {
+          "q": "Phiên bản 7 là gì?",
+          "a": "Là UUID sắp xếp theo thời gian, giúp các bản chèn vào chỉ mục cơ sở dữ liệu giữ đúng thứ tự, rất hữu ích cho bảng lớn."
+        }
+      ]
+    },
+    "password-generator": {
+      "desc": "Tạo một mật khẩu dễ nhớ hoặc khó đoán với độ dài và ký tự do bạn cho phép, xem độ mạnh của nó và sao chép nó mà nó không bao giờ đi qua máy chủ nào.",
+      "intro": "Các gợi ý được rút từ nguồn ngẫu nhiên của trình duyệt ngay trong trang, nên không có gì được truyền đi hay ghi log.",
+      "steps": [
+        "Đặt độ dài; khuyến nghị hiện tại là 16 ký tự trở lên.",
+        "Chọn các bộ ký tự bạn cần.",
+        "Bấm Tạo.",
+        "Sao chép nó vào trình quản lý mật khẩu của bạn."
+      ],
+      "faq": [
+        {
+          "q": "Công cụ tạo mật khẩu trực tuyến có an toàn không?",
+          "a": "Công cụ này chạy hoàn toàn trong trang và không gửi đi đâu cả, điều bạn có thể tự xác minh ở tab mạng."
+        },
+        {
+          "q": "Tôi có nên dùng trình quản lý mật khẩu thay thế không?",
+          "a": "Nên. Hãy tạo ở đây, lưu ở đó, và không bao giờ dùng lại một mật khẩu trên nhiều trang."
+        }
+      ]
+    },
+    "regex-tester": {
+      "desc": "Khớp một mẫu regex với văn bản mẫu kèm tô sáng trực tiếp, chi tiết các nhóm bắt, các cờ và phần phân tích biểu thức bằng lời nói dễ hiểu.",
+      "intro": "Hãy viết mẫu một lần thay vì đoán mò: mỗi chỗ khớp đều được tô sáng và từng nhóm được liệt kê kèm vị trí của nó.",
+      "steps": [
+        "Nhập mẫu và các cờ.",
+        "Dán chuỗi thử.",
+        "Xem các chỗ khớp và các nhóm được tô sáng.",
+        "Mở phần Giải thích để xem biểu thức bóc theo từng token."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao mẫu của tôi chạy ở nơi khác nhưng không chạy ở đây?",
+          "a": "JavaScript ở engine cũ không có look-behind và không có cú pháp named-set; trình thử sẽ báo rõ khác biệt engine."
+        },
+        {
+          "q": "Có được bảo vệ trước backtracking thảm họa không?",
+          "a": "Những mẫu bùng nổ sẽ bị cắt theo thời gian kèm một cảnh báo rõ ràng, thay vì làm treo tab."
+        }
+      ]
+    },
+    "diff-checker": {
+      "desc": "So sánh từng dòng giữa hai phiên bản của một tệp, một hợp đồng hay một bài viết, với phần thêm và phần xóa được tô màu cùng một bản tóm tắt sẵn để sao chép.",
+      "intro": "Rất hợp trước khi trả lại một tài liệu cho đồng nghiệp: nó cho thấy chính xác những câu nào đã bị dịch chuyển.",
+      "steps": [
+        "Dán bản gốc ở bên trái và bản đã sửa ở bên phải.",
+        "Bỏ qua hoa thường hoặc khoảng trắng nếu bạn bị nhiễu bởi định dạng.",
+        "Đọc phần khác biệt được tô màu.",
+        "Chỉ sao chép những dòng thay đổi nếu bạn cần chúng."
+      ],
+      "faq": [
+        {
+          "q": "Tệp có thể lớn tới đâu?",
+          "a": "Vài nghìn dòng thì vẫn thoải mái; vượt mức đó thì một công cụ so sánh chuyên dụng sẽ phù hợp với trình duyệt hơn."
+        },
+        {
+          "q": "Có phát hiện thay đổi ở mức từ không?",
+          "a": "Có, khi một dòng khác biệt, công cụ sẽ chuyển sang so sánh từng từ bên trong dòng đó."
+        }
+      ]
+    },
+    "text-to-speech": {
+      "title": "Văn bản thành giọng nói",
+      "h1": "Đọc văn bản to lên bằng giọng nói tự nhiên của trình duyệt",
+      "desc": "Biến bất kỳ đoạn nào thành giọng nói, chọn giọng và ngôn ngữ, chỉnh tốc độ và độ cao, rồi rà soát một kịch bản bằng tai.",
+      "intro": "Các giọng đọc chính là những giọng hệ điều hành của bạn đã cài sẵn — không tài khoản, không tải về, và trên hầu hết thiết bị vẫn chạy được khi không có mạng.",
+      "steps": [
+        "Dán văn bản.",
+        "Chọn một giọng; danh sách phản ánh đúng hệ thống của bạn.",
+        "Đặt Tốc độ và Độ cao.",
+        "Bấm Phát."
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể tải phần âm thanh về không?",
+          "a": "Không trực tiếp; API của trình duyệt chỉ phát luồng. Nếu bạn cần một tệp, hãy dùng trình ghi âm có sẵn trong hệ điều hành."
+        },
+        {
+          "q": "Vì sao có ít giọng đọc?",
+          "a": "Số lượng phụ thuộc vào hệ điều hành và các gói ngôn ngữ đã cài. Windows và macOS cho phép bạn thêm giọng mới."
+        }
+      ]
+    }
+  }
+}

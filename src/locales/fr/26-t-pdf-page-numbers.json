@@ -1,0 +1,26 @@
+{
+  "t": {
+    "pdf-page-numbers": {
+      "title": "Numéros de page PDF",
+      "h1": "Ajoutez des numéros de page à un PDF en ligne",
+      "desc": "Numérotez un PDF en haut ou en bas, à gauche, au centre ou à droite. Réglez le numéro de départ, la taille de police et un préfixe. Gratuit, sans envoi.",
+      "intro": "Cet outil appose un vrai numéro de page textuel sur chaque page de votre PDF avec pdf-lib : les numéros restent nets à tout zoom et sont sélectionnables. Placez-les dans l'en-tête ou le pied de page, ignorez la couverture et ajoutez un préfixe facultatif.",
+      "steps": [
+        "Chargez le PDF à numéroter.",
+        "Choisissez la position, l'alignement et le numéro de départ.",
+        "Réglez la taille de police et un préfixe facultatif ; ignorez la couverture si nécessaire.",
+        "Appuyez sur Ajouter les numéros de page et téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je commencer à une page ou un numéro précis ?",
+          "a": "Oui. Réglez le numéro de départ et utilisez la plage de pages pour n'en numéroter que certaines, ou cochez « ignorer la première page » pour laisser une couverture non numérotée."
+        },
+        {
+          "q": "Les numéros sont-ils ajoutés comme texte ou comme image ?",
+          "a": "Comme un vrai texte vectoriel : ils restent nets à l'impression et peuvent être sélectionnés et recherchés dans le PDF final."
+        }
+      ]
+    }
+  }
+}

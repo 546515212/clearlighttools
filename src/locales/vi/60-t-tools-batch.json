@@ -1,0 +1,202 @@
+{
+  "t": {
+    "shoe-size-converter": {
+      "title": "Đổi cỡ giày",
+      "h1": "Đổi cỡ giày — US, EU, UK và CN",
+      "desc": "Đổi cỡ giày giữa US, EU, UK và CN cho nam và nữ. Nhập cỡ giày hoặc chiều dài bàn chân để xem mọi hệ cùng lúc — miễn phí, tức thì.",
+      "intro": "Công cụ này quy đổi cỡ giày hoặc chiều dài bàn chân tính bằng xentimét giữa các hệ US, EU, UK và CN, cho cả dáng giày nam và nữ. Hãy nhập cỡ giày theo bất kỳ hệ nào, hoặc đo bàn chân từ gót đến ngón, và công cụ sẽ hiển thị cỡ tương đương ở tất cả các hệ còn lại cùng chiều dài bàn chân theo cm và inch. Các quy đổi là chuẩn bán lẻ xấp xỉ và thay đổi theo thương hiệu và khuôn giày.",
+      "steps": [
+        "Chọn dáng giày nam hoặc nữ.",
+        "Chọn hệ cỡ giày bạn biết (US, EU, UK, CN hoặc cm).",
+        "Nhập cỡ giày hoặc chiều dài bàn chân của bạn.",
+        "Xem cỡ tương đương trong mọi hệ."
+      ],
+      "faq": [
+        {
+          "q": "Làm sao để đo bàn chân chọn đúng cỡ giày?",
+          "a": "Hãy đứng trên một tờ giấy vào buổi tối, đánh dấu gót chân và ngón dài nhất, rồi đo khoảng cách bằng xentimét. Nhập chiều dài đó vào hệ cm; đo cả hai bàn chân và dùng số lớn hơn."
+        },
+        {
+          "q": "Các quy đổi này có chính xác không?",
+          "a": "Đây là các chuẩn bán lẻ xấp xỉ. Thương hiệu và khuôn giày khác nhau, nên hãy luôn kiểm tra bảng cỡ giày riêng của nhà sản xuất và chọn cỡ lớn hơn nếu bạn nằm giữa hai cỡ."
+        }
+      ]
+    },
+    "rmb-uppercase": {
+      "title": "Đổi nhân dân tệ chữ hoa",
+      "h1": "Đổi số tiền sang nhân dân tệ viết hoa kiểu Trung Quốc",
+      "desc": "Đổi một số sang số tiền nhân dân tệ viết hoa kiểu Trung Quốc dùng trên séc và hóa đơn. Hỗ trợ yuan, jiao và fen. Miễn phí, tức thì, không tải lên.",
+      "intro": "Hãy nhập số tiền và công cụ sẽ viết nó dưới dạng chữ hoa tài chính Trung Quốc (daxie) dùng trên séc, hóa đơn và hợp đồng để chống sửa đổi. Công cụ hỗ trợ yuan (nguyên), jiao (hào) và fen (xu), đánh dấu đúng số tiền chẵn, và hoạt động đến gần một nghìn tỷ. Phép tính dùng số xu nguyên để tránh lỗi dấu phẩy động.",
+      "steps": [
+        "Nhập số tiền, ví dụ 1234.56.",
+        "Số tiền nhân dân tệ viết hoa hiện ra ngay lập tức.",
+        "Kiểm tra các phần yuan, jiao và fen.",
+        "Sao chép kết quả cho séc hoặc hóa đơn của bạn."
+      ],
+      "faq": [
+        {
+          "q": "Số tiền viết hoa kiểu Trung Quốc dùng để làm gì?",
+          "a": "Đó là dạng tài chính chống sửa đổi (daxie) bắt buộc trên séc, hóa đơn và hợp đồng ở Trung Quốc, nơi các chữ số thường có thể bị thay đổi. Mỗi chữ số có một ký tự phức tạp khó làm giả."
+        },
+        {
+          "q": "Phần thập phân được xử lý thế nào?",
+          "a": "Chữ số thập phân thứ nhất là jiao (hào) và thứ hai là fen (xu). Số tiền chẵn kết thúc bằng một ký tự đánh dấu \"không có xu lẻ\", nên cả 100 và 100.00 đều được viết đúng."
+        }
+      ]
+    },
+    "world-clock": {
+      "title": "Đồng hồ thế giới",
+      "h1": "Đồng hồ thế giới — múi giờ và lịch họp",
+      "desc": "Xem giờ trực tiếp tại 12 thành phố, so sánh múi giờ và lên lịch họp giữa chúng, có tô sáng giờ làm việc. Miễn phí, không cần đăng ký.",
+      "intro": "Đồng hồ thế giới hiển thị giờ trực tiếp tại mười hai thành phố lớn, mỗi thành phố kèm ngày và một chấm xanh trong giờ làm việc địa phương (09:00–18:00). Hãy kéo thanh lịch họp để khớp một cuộc họp giữa các múi giờ và xem nó rơi vào mấy giờ ở từng thành phố, với nhãn khi một thành phố đang ở ngày khác. Giờ được hiển thị theo múi giờ của chính bạn.",
+      "steps": [
+        "Xem giờ trực tiếp tại mười hai thành phố trên thế giới.",
+        "Chú ý các chấm xanh giờ làm việc và nhãn ngày.",
+        "Kéo thanh lịch họp để đặt giờ họp.",
+        "Đọc giờ địa phương ở từng thành phố."
+      ],
+      "faq": [
+        {
+          "q": "Công cụ có tính đến giờ mùa hè không?",
+          "a": "Có. Giờ được tính bằng cơ sở dữ liệu múi giờ của trình duyệt, nên các đợt chuyển giờ mùa hè được áp dụng tự động cho từng thành phố."
+        },
+        {
+          "q": "Làm sao để lên lịch họp giữa các múi giờ?",
+          "a": "Hãy kéo thanh lịch họp đến một giờ trong múi giờ của bạn; mỗi thẻ thành phố sẽ cập nhật để hiển thị giờ địa phương, và một nhãn đánh dấu bất kỳ thành phố nào rơi vào ngày khác."
+        }
+      ]
+    },
+    "pomodoro-timer": {
+      "title": "Đồng hồ Pomodoro",
+      "h1": "Đồng hồ tập trung Pomodoro kèm nghỉ giải lao",
+      "desc": "Đồng hồ Pomodoro cho làm việc tập trung: phiên 25 phút, nghỉ ngắn và dài, bộ đếm phiên và chuông tùy chọn. Miễn phí, chạy trong trình duyệt.",
+      "intro": "Kỹ thuật Pomodoro xen kẽ làm việc tập trung với các lần nghỉ ngắn, và một lần nghỉ dài hơn sau vài vòng. Hãy đặt thời lượng tập trung, nghỉ ngắn và nghỉ dài, rồi bắt đầu đồng hồ; nó sẽ đếm ngược kèm bộ đếm phiên và chuông tùy chọn ở mỗi lần chuyển giai đoạn. Chế độ toàn màn hình giữ cho bộ đếm ngược lớn luôn hiển thị khi bạn làm việc. Đồng hồ chạy khi tab còn mở.",
+      "steps": [
+        "Đặt thời lượng tập trung và nghỉ giải lao.",
+        "Nhấn Bắt đầu để mở một phiên tập trung.",
+        "Làm việc đến khi chuông reo, rồi nghỉ giải lao.",
+        "Lặp lại; một lần nghỉ dài sẽ đến sau vài vòng."
+      ],
+      "faq": [
+        {
+          "q": "Thời lượng Pomodoro mặc định là bao nhiêu?",
+          "a": "Chu kỳ cổ điển là 25 phút tập trung, nghỉ ngắn 5 phút, và nghỉ dài 15 phút sau bốn phiên tập trung. Bạn có thể thay đổi cả ba thời lượng và số vòng."
+        },
+        {
+          "q": "Đồng hồ có chính xác khi tôi chuyển tab không?",
+          "a": "Đồng hồ đếm theo thời gian thực thay vì trừ dần, nên vẫn chính xác ngay cả khi trình duyệt giảm tốc một tab chạy nền. Hãy giữ tab mở, hoặc dùng toàn màn hình để xem bộ đếm ngược lớn."
+        }
+      ]
+    },
+    "random-picker": {
+      "title": "Chọn ngẫu nhiên",
+      "h1": "Chọn tên ngẫu nhiên và quay vòng quay",
+      "desc": "Quay vòng quay để chọn một tên ngẫu nhiên, hoặc bốc người thắng ngay. Thêm mỗi tên một dòng, loại người thắng và chọn cả đội. Miễn phí, không tải lên.",
+      "intro": "Hãy nhập mỗi tên một dòng, quay vòng quay, và người thắng được chọn bằng crypto.getRandomValues() nên mỗi tên có cơ hội như nhau. Loại người thắng sau mỗi lần bốc để chọn cả một đội theo thứ tự, hoặc dùng Bốc nhanh để có kết quả tức thì không cần hoạt ảnh. Đặt lại để bắt đầu lại. Mọi thứ chạy cục bộ trong trình duyệt của bạn.",
+      "steps": [
+        "Nhập mỗi tên một dòng.",
+        "Nhấn Quay vòng quay (hoặc Bốc nhanh).",
+        "Xem người thắng.",
+        "Loại người thắng để bốc lại, hoặc đặt lại."
+      ],
+      "faq": [
+        {
+          "q": "Việc chọn có thực sự ngẫu nhiên không?",
+          "a": "Có. Công cụ dùng crypto.getRandomValues() của trình duyệt, một nguồn ngẫu nhiên an toàn về mặt mật mã, nên mỗi tên có cơ hội như nhau và kết quả không thể đoán trước."
+        },
+        {
+          "q": "Tôi có thể chọn nhiều người thắng mà không lặp lại không?",
+          "a": "Có. Hãy dùng \"Loại người thắng\" sau mỗi lần bốc để đưa tên đó ra khỏi vòng quay, nhờ vậy bạn có thể chọn cả một đội theo thứ tự. Đặt lại sẽ khôi phục tất cả các tên."
+        }
+      ]
+    },
+    "invoice-generator": {
+      "title": "Tạo hóa đơn",
+      "h1": "Tạo hóa đơn miễn phí — tạo hóa đơn PDF",
+      "desc": "Tạo hóa đơn chuyên nghiệp ngay trong trình duyệt. Thêm thông tin, các dòng hàng, thuế và giảm giá, rồi tải PDF hoặc PNG. Miễn phí, không tải lên.",
+      "intro": "Hãy điền thông tin bên bán và khách hàng, thêm các dòng hàng kèm số lượng và đơn giá, đặt mức giảm giá và thuế suất, rồi công cụ sẽ dàn dựng một hóa đơn gọn gàng với các tổng số. Xem trước, sau đó xuất ra PDF một trang hoặc ảnh PNG. Mọi thứ được vẽ cục bộ trong trình duyệt của bạn, nên thông tin tài chính không bao giờ rời khỏi thiết bị.",
+      "steps": [
+        "Nhập thông tin của bạn và của khách hàng.",
+        "Thêm các dòng hàng kèm số lượng và đơn giá.",
+        "Đặt tiền tệ, mức giảm giá và thuế suất.",
+        "Tạo hóa đơn, rồi tải PDF hoặc PNG."
+      ],
+      "faq": [
+        {
+          "q": "Dữ liệu hóa đơn của tôi có bị tải lên đâu không?",
+          "a": "Không. Hóa đơn được vẽ trên canvas trong trình duyệt của bạn và xuất cục bộ dưới dạng PDF hoặc PNG. Không có gì được gửi tới máy chủ, nên các số liệu của bạn vẫn riêng tư."
+        },
+        {
+          "q": "Tôi có thể dùng tiền tệ và thuế suất riêng không?",
+          "a": "Có. Hãy chọn trong tám loại tiền tệ và đặt bất kỳ phần trăm giảm giá và thuế suất nào; tạm tính, giảm giá, thuế và tổng cộng sẽ được tính cho bạn."
+        }
+      ]
+    },
+    "signature-pad": {
+      "title": "Bảng vẽ chữ ký",
+      "h1": "Vẽ chữ ký trực tuyến — PNG trong suốt",
+      "desc": "Vẽ chữ ký bằng chuột, ngón tay hoặc bút cảm ứng và tải PNG trong suốt. Hoàn tác, xóa và cắt khoảng trống. Miễn phí, không tải lên.",
+      "intro": "Hãy ký trên canvas bằng chuột, màn hình cảm ứng hoặc bút cảm ứng, chọn màu và độ dày nét bút, rồi tải ảnh PNG có nền trong suốt để đặt gọn gàng lên hợp đồng hoặc biểu mẫu. Hoàn tác từng nét, xóa bảng vẽ, hoặc cắt khoảng trống quanh chữ ký. Không có gì được tải lên — nét vẽ vẫn nằm trong trình duyệt của bạn.",
+      "steps": [
+        "Vẽ chữ ký của bạn trên bảng vẽ.",
+        "Điều chỉnh màu và độ dày nét bút nếu cần.",
+        "Hoàn tác hoặc xóa để sửa lỗi; cắt khoảng trống.",
+        "Tải ảnh PNG trong suốt."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao nền lại trong suốt?",
+          "a": "Ảnh PNG được xuất kèm kênh alpha, nên chỉ các nét vẽ của bạn là đục. Điều đó cho phép bạn đặt chữ ký lên tài liệu mà không có khung trắng bao quanh."
+        },
+        {
+          "q": "Tôi có thể ký trên điện thoại hoặc máy tính bảng không?",
+          "a": "Có. Bảng vẽ dùng sự kiện con trỏ, nên ngón tay hoặc bút cảm ứng hoạt động giống hệt chuột. Hãy vẽ, rồi tải ảnh PNG về thiết bị của bạn."
+        }
+      ]
+    },
+    "id-photo-maker": {
+      "title": "Tạo ảnh thẻ",
+      "h1": "Tạo ảnh hộ chiếu và ảnh thẻ trực tuyến",
+      "desc": "Tạo ảnh hộ chiếu, visa và ảnh thẻ tại nhà. Cắt đúng kích thước, đặt dpi, và thay nền bằng màu trắng, xanh dương hoặc đỏ. Miễn phí.",
+      "intro": "Hãy tải lên một ảnh chân dung, chọn cỡ có sẵn (Trung Quốc 1 inch, Trung Quốc 2 inch, hộ chiếu/visa hoặc hộ chiếu Mỹ) hoặc cỡ tùy chỉnh tính bằng milimét, rồi đặt độ phân giải in. Thu phóng và dịch chuyển để căn khung phần đầu, sau đó tùy chọn thay nền trơn bằng màu trắng, xanh dương hoặc đỏ. Ảnh được xử lý cục bộ và tải xuống dưới dạng JPEG sẵn sàng để in.",
+      "steps": [
+        "Tải lên ảnh chân dung rõ nét, nhìn thẳng.",
+        "Chọn cỡ có sẵn hoặc đặt chiều rộng và chiều cao tùy chỉnh.",
+        "Thu phóng và chỉnh vị trí; tùy chọn thay nền.",
+        "Tạo ảnh và tải JPEG."
+      ],
+      "faq": [
+        {
+          "q": "Ảnh này có được chấp nhận cho hộ chiếu của tôi không?",
+          "a": "Công cụ tạo ra ảnh đúng kích thước, độ phân giải cao, nhưng việc chấp nhận phụ thuộc vào quy định của cơ quan cấp về tư thế, ánh sáng và nền. Hãy luôn kiểm tra yêu cầu chính thức trước khi in."
+        },
+        {
+          "q": "Việc thay nền hoạt động thế nào?",
+          "a": "Công cụ tách bỏ màu ở góc trên bên trái ảnh của bạn, nên hãy bắt đầu với phông nền trơn, được chiếu sáng đều. Điều chỉnh dung sai để loại bỏ nhiều hoặc ít nền cũ hơn."
+        }
+      ]
+    },
+    "contract-generator": {
+      "title": "Tạo hợp đồng",
+      "h1": "Tạo NDA và hợp đồng dịch vụ miễn phí",
+      "desc": "Tạo NDA song phương hoặc hợp đồng dịch vụ từ một mẫu đơn giản. Điền các bên, mục đích và điều khoản, rồi tải xuống hoặc in. Miễn phí.",
+      "intro": "Hãy chọn thỏa thuận bảo mật song phương hoặc hợp đồng dịch vụ, điền các bên, ngày hiệu lực, mục đích hoặc phạm vi, thời hạn và luật điều chỉnh, rồi công cụ sẽ ghép thành một bản nháp bằng ngôn ngữ dễ hiểu. Tải xuống dưới dạng tệp văn bản hoặc in ra. Bản nháp được tạo trong trình duyệt của bạn và không bao giờ được tải lên. Đây là mẫu chung, không phải tư vấn pháp lý — hãy để luật sư đủ trình độ xem lại trước khi ký.",
+      "steps": [
+        "Chọn NDA hoặc hợp đồng dịch vụ.",
+        "Nhập các bên, ngày và điều khoản chính.",
+        "Tạo bản nháp và đọc kỹ.",
+        "Tải tệp .txt hoặc in ra."
+      ],
+      "faq": [
+        {
+          "q": "Đây có phải hợp đồng ràng buộc pháp lý không?",
+          "a": "Đây là mẫu chung để bắt đầu, không phải tư vấn pháp lý. Luật khác nhau theo quốc gia và tình huống, nên hãy để luật sư đủ trình độ xem lại và điều chỉnh trước khi bất kỳ ai ký."
+        },
+        {
+          "q": "Tôi có thể tùy chỉnh những gì?",
+          "a": "Các bên, ngày hiệu lực, mục đích hoặc phạm vi dịch vụ, phí, thời hạn và luật điều chỉnh. Hãy xóa các điều khoản không áp dụng và thêm những chi tiết riêng cho thỏa thuận của bạn."
+        }
+      ]
+    }
+  }
+}

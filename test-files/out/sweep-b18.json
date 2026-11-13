@@ -1,0 +1,129 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:20:28.093Z",
+ "planned": [
+  "base64-encode-decode",
+  "url-encode-decode",
+  "html-entities",
+  "reverse-text",
+  "json-formatter",
+  "csv-to-json",
+  "markdown-to-html"
+ ],
+ "rows": [
+  {
+   "tool": "base64-encode-decode",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy",
+    "Input characters16Output characters28+75%",
+    "Input characters16"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 1801
+  },
+  {
+   "tool": "url-encode-decode",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 989
+  },
+  {
+   "tool": "html-entities",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy",
+    "Input characters29Output characters45",
+    "Input characters29"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 1008
+  },
+  {
+   "tool": "reverse-text",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 995
+  },
+  {
+   "tool": "json-formatter",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".json"
+   ],
+   "bytes": [
+    "json-formatted.json | 66 | application/json"
+   ],
+   "output": [
+    "JSON inputResultCopy.json",
+    "Valid JSONyesKeys41 arraysDepth34 leaf valuesSize66 chars",
+    "Valid JSONyes"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 1994
+  },
+  {
+   "tool": "csv-to-json",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".json"
+   ],
+   "bytes": [
+    "csv-data.json | 85 | application/json"
+   ],
+   "output": [
+    "CSVResultCopy.jsonPreviewnameageAnn31Bo25null",
+    "nameageAnn31Bo25",
+    "Rows2Columns2Delimited bycomma"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 2003
+  },
+  {
+   "tool": "markdown-to-html",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".html"
+   ],
+   "bytes": [
+    "md-rendered.html | 99 | text/html"
+   ],
+   "output": [
+    "MarkdownHTMLCopy.htmlPreviewTitle Some bold text and a link.",
+    "Title Some bold text and a link.",
+    "HTML characters99Words rendered7Headings1"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 1993
+  }
+ ],
+ "finishedAt": "2026-11-07T12:20:38.883Z"
+}

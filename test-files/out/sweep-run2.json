@@ -1,0 +1,837 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T10:27:29.557Z",
+ "planned": [
+  "compress-pdf",
+  "merge-pdf",
+  "split-pdf",
+  "split-pdf",
+  "rotate-pdf",
+  "watermark-pdf",
+  "pdf-to-jpg",
+  "pdf-to-text",
+  "images-to-pdf",
+  "html-to-pdf",
+  "compress-image",
+  "convert-image",
+  "resize-image",
+  "image-to-base64",
+  "base64-to-image",
+  "qr-code-generator",
+  "favicon-generator",
+  "color-picker",
+  "image-to-gif",
+  "trim-audio",
+  "image-contrast-brightness",
+  "word-counter",
+  "case-converter",
+  "remove-duplicate-lines",
+  "lorem-ipsum-generator",
+  "base64-encode-decode",
+  "url-encode-decode",
+  "html-entities",
+  "reverse-text",
+  "json-formatter",
+  "csv-to-json",
+  "markdown-to-html",
+  "hash-generator",
+  "uuid-generator",
+  "password-generator",
+  "regex-tester",
+  "diff-checker",
+  "text-to-speech",
+  "percentage-calculator",
+  "bmi-calculator",
+  "age-calculator",
+  "date-calculator",
+  "loan-calculator",
+  "discount-calculator",
+  "unit-converter",
+  "color-converter",
+  "calorie-calculator",
+  "timestamp-converter",
+  "random-number-generator"
+ ],
+ "rows": [
+  {
+   "tool": "compress-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "compress-pdf-sample-long.pdf | 7424 | application/pdf"
+   ],
+   "output": [
+    "sample-long.pdf7.3 KB−1%Download",
+    "sample-long.pdf7.3 KB−1%Download"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1853
+  },
+  {
+   "tool": "merge-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "merge-pdf-merged-6-pages.pdf | 4074 | application/pdf"
+   ],
+   "output": [
+    "merged-6-pages.pdf4.0 KB6 pagesDownload",
+    "merged-6-pages.pdf4.0 KB6 pagesDownload"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1502
+  },
+  {
+   "tool": "split-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "split-pdf-sample-a-pages.pdf | 1256 | application/pdf"
+   ],
+   "output": [
+    "sample-a-pages.pdf1.2 KB1pDownload",
+    "sample-a-pages.pdf1.2 KB1pDownload"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2316
+  },
+  {
+   "tool": "split-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download all (.zip)"
+   ],
+   "bytes": [
+    "split-each-sample-long-split.zip | 16399 | application/zip"
+   ],
+   "output": [
+    "12 files produced.Download all (.zip)"
+   ],
+   "filled": [
+    "Mode=each"
+   ],
+   "throttleMs": 328,
+   "ms": 2246
+  },
+  {
+   "tool": "rotate-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Apply",
+    "Download"
+   ],
+   "bytes": [
+    "rotate-pdf-sample-a.pdf | 2436 | application/pdf"
+   ],
+   "output": [
+    "sample-a.pdf2.4 KB3 pages rotatedDownload",
+    "sample-a.pdf2.4 KB3 pages rotatedDownload"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1477
+  },
+  {
+   "tool": "watermark-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Add watermark",
+    "Download"
+   ],
+   "bytes": [
+    "watermark-pdf-sample-a.pdf | 3360 | application/pdf"
+   ],
+   "output": [
+    "sample-a.pdf3.3 KB3 pages stampedDownload",
+    "sample-a.pdf3.3 KB3 pages stampedDownload"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2058
+  },
+  {
+   "tool": "pdf-to-jpg",
+   "ok": false,
+   "why": "Run still working after 120 s | notes: file tool produced no download button (new buttons: none; buttons after run: 1/3)",
+   "clicks": [
+    "Run"
+   ],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 121852
+  },
+  {
+   "tool": "pdf-to-text",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Extract text",
+    "Download as .txt"
+   ],
+   "bytes": [
+    "pdf-to-text-sample-a.txt | 391 | text/plain"
+   ],
+   "output": [
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH",
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH",
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2405
+  },
+  {
+   "tool": "images-to-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Create PDF",
+    "Download"
+   ],
+   "bytes": [
+    "images-to-pdf-photo-pdf.pdf | 32627 | application/pdf"
+   ],
+   "output": [
+    "photo-pdf.pdf32 KB2 pagesDownload",
+    "photo-pdf.pdf32 KB2 pagesDownload"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2510
+  },
+  {
+   "tool": "html-to-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 982
+  },
+  {
+   "tool": "compress-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "compress-image-photo.jpg | 4144 | image/jpeg"
+   ],
+   "output": [
+    "photo.jpg4.0 KB34 KB → 4.0 KB (−88%)Download",
+    "photo.jpg4.0 KB34 KB → 4.0 KB (−88%)Download"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2956
+  },
+  {
+   "tool": "convert-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "convert-image-photo.png | 5624 | image/png"
+   ],
+   "output": [
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload",
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2903
+  },
+  {
+   "tool": "resize-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "resize-image-photo.png | 88387 | image/png"
+   ],
+   "output": [
+    "photo.png86 KB240×160 → 1024×683Download",
+    "photo.png86 KB240×160 → 1024×683Download"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2895
+  },
+  {
+   "tool": "image-to-base64",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "photo-small.png · 12 KB · 16,166 characters of text (base64 is ~33% larger than the bytes it encodes)Copy list"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 181
+  },
+  {
+   "tool": "base64-to-image",
+   "ok": false,
+   "why": "nothing happened: no button fired and no output",
+   "clicks": [],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 960
+  },
+  {
+   "tool": "qr-code-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "29×29 modules · 296px · payload 28 BDownload PNGDownload SVGCopy listOpen the print dialogText payload: https:",
+    "29×29 modules · 296px · payload 28 B"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2154
+  },
+  {
+   "tool": "favicon-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Generate",
+    "Download",
+    "Download",
+    "Download",
+    "Download",
+    "Download",
+    "Download .zip"
+   ],
+   "bytes": [
+    "favicon-favicon-16x16.png | 663 | image/png",
+    "favicon-favicon-32x32.png | 1288 | image/png",
+    "favicon-favicon-48x48.png | 2088 | image/png",
+    "favicon-favicon-180x180.png | 8099 | image/png",
+    "favicon-favicon.ico | 12208 | image/x-icon",
+    "favicon-favicon.zip | 24910 | application/zip"
+   ],
+   "output": [
+    "favicon-16x16.png663 B16×16Downloadfavicon-32x32.png1.3 KB32×32Downloadfavicon-48x48.png2.0 KB48×48Downloadfav",
+    "favicon-16x16.png663 B16×16Download",
+    "favicon-32x32.png1.3 KB32×32Download"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 12271
+  },
+  {
+   "tool": "color-picker",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 105
+  },
+  {
+   "tool": "image-to-gif",
+   "ok": false,
+   "why": "notes: file tool produced no download button (new buttons: none; buttons after run: generate)",
+   "clicks": [
+    "Generate"
+   ],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 3063
+  },
+  {
+   "tool": "trim-audio",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "trim-audio-tone.wav | 105884 | audio/wav"
+   ],
+   "output": [
+    "tone.wav103 KB00:01.20 clip · 44100 Hz · monoDownloadWAV is uncompressed, so it is bigger than the MP3 you sta",
+    "tone.wav103 KB00:01.20 clip · 44100 Hz · monoDownload"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2846
+  },
+  {
+   "tool": "image-contrast-brightness",
+   "ok": false,
+   "why": "notes: file tool produced no download button (new buttons: none; buttons after run: apply)",
+   "clicks": [
+    "Apply"
+   ],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2610
+  },
+  {
+   "tool": "word-counter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Words1283% uniqueCharacters6150 without spacesSentences2Lines11 paragraphsReading time1 min≈200 wpmSpeaking ti",
+    "Words1283% unique",
+    "Characters6150 without spaces"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1039
+  },
+  {
+   "tool": "case-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Text to hashResultCopy list",
+    "Words4Characters21Caseupper",
+    "Words4"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1243
+  },
+  {
+   "tool": "remove-duplicate-lines",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "ResultLines6 → 33 removedNo repeats32 appear twice or moreLongest line1charactersa ×2b ×2Copy list.txt",
+    "Lines6 → 33 removedNo repeats32 appear twice or moreLongest line1characters",
+    "Lines6 → 33 removed"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 24057
+  },
+  {
+   "tool": "lorem-ipsum-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "ResultRegenerateCopy list",
+    "Words205Sentences18Characters1390",
+    "Words205"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 61
+  },
+  {
+   "tool": "base64-encode-decode",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Text to hashResultCopy list",
+    "Input characters16Output characters28+75%",
+    "Input characters16"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 954
+  },
+  {
+   "tool": "url-encode-decode",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Text to hashResultCopy list"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 951
+  },
+  {
+   "tool": "html-entities",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Text to hashResultCopy list",
+    "Input characters29Output characters45",
+    "Input characters29"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 6896
+  },
+  {
+   "tool": "reverse-text",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Text to hashResultCopy list"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 961
+  },
+  {
+   "tool": "json-formatter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Text to hashResultCopy list.json",
+    "Valid JSONyesKeys41 arraysDepth34 leaf valuesSize66 chars",
+    "Valid JSONyes"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 958
+  },
+  {
+   "tool": "csv-to-json",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Text to hashResultCopy list.jsonPreviewnameageAnn31Bo25null",
+    "nameageAnn31Bo25",
+    "Rows2Columns2Delimited bycomma"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1981
+  },
+  {
+   "tool": "markdown-to-html",
+   "ok": false,
+   "why": "notes: The Markdown library could not be loaded.",
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Text to hashResultCopy list.htmlThe Markdown library could not be loaded.Preview"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1032
+  },
+  {
+   "tool": "hash-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "5 charactersSHA-2562cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824Copy list",
+    "SHA-2562cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824Copy list",
+    "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 2482
+  },
+  {
+   "tool": "uuid-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "ResultRegenerateCopy list.txt",
+    "Generated10random (RFC 4122)Unique10Characters369",
+    "Generated10random (RFC 4122)"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 64
+  },
+  {
+   "tool": "password-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "ResultRegenerateCopy listGenerated with the browser cryptographic random number generator. Nothing is stored o",
+    "Length16pool 84 charactersEntropy102.3 bitsvery strongBrute force~3.6e+14 years at a trillion guesses per seco",
+    "Length16pool 84 characters"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 65
+  },
+  {
+   "tool": "regex-tester",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Previeworder 4821 and order 9015No match. Try removing anchors (^ $) or the case-sensitive flag.Replace with",
+    "order 4821 and order 9015",
+    "Matches0Subject25 chars1 lines"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1090
+  },
+  {
+   "tool": "diff-checker",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Changed lines41 added · 3 removedIdentical0lines− alpha− beta− gamma+ null",
+    "Changed lines41 added · 3 removedIdentical0lines",
+    "Changed lines41 added · 3 removed"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 953
+  },
+  {
+   "tool": "text-to-speech",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Play"
+   ],
+   "bytes": [],
+   "output": [
+    "Words2≈ listening1 minat normal speed",
+    "Words2",
+    "≈ listening1 minat normal speed"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 1887
+  },
+  {
+   "tool": "percentage-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "What is X% of Y?PercentofResult5025% × 200X is what percent of Y?ValueofResult83.33333333%÷ 180Increase or dec",
+    "Result5025% × 200",
+    "Result83.33333333%÷ 180"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 85
+  },
+  {
+   "tool": "bmi-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Your BMI23.52941176Healthy rangeunder < 18.5healthy 18.5–24.9over 25–29.9obese ≥ 30Healthy weight here53.465 u",
+    "Your BMI23.52941176Healthy range",
+    "Healthy weight here53.465 undefined – 71.961 undefinedyou are inside the range"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 52
+  },
+  {
+   "tool": "age-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Age31 years, 4 months, 23 daysborn Thursday, June 15, 1995Total days11,4681,638 weeksTotal hours275,23216,513,",
+    "Age31 years, 4 months, 23 daysborn Thursday, June 15, 1995",
+    "Total days11,4681,638 weeksTotal hours275,23216,513,920 minutesNext birthdayin 220 days6月15日星期二Birthdays so fa"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 55
+  },
+  {
+   "tool": "date-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "30 days later2026年12月7日星期一2026-12-07Calendar days30plain daysWeeks + days4 w 2 d720 hoursThat monthDecember ha",
+    "30 days later2026年12月7日星期一2026-12-07",
+    "Calendar days30plain daysWeeks + days4 w 2 d720 hoursThat monthDecember has 31 days"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 51
+  },
+  {
+   "tool": "loan-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Monthly payment607.5336 paymentsTotal interest-20,000.00-100% of what you borrowedTotal repaid0.000× the amoun",
+    "Monthly payment607.5336 payments",
+    "Total interest-20,000.00-100% of what you borrowedTotal repaid0.000× the amountTerm3 y 0 mas agreedInterest sh"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 52
+  },
+  {
+   "tool": "discount-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "You pay90.00before any taxYou save30.0025% off the sticker priceAfter discount90.0090.00Tax amount0.00calculat",
+    "You pay90.00before any tax",
+    "You save30.0025% off the sticker priceAfter discount90.0090.00Tax amount0.00calculated on the discounted price"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 51
+  },
+  {
+   "tool": "unit-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "1 m equalsResult3.280839895 ft1 m = 3.280839895 ftAll units at oncem1copykm0.001copycm100copymm1000copyµm10000",
+    "Result3.280839895 ft1 m = 3.280839895 ft",
+    "m1copykm0.001copycm100copymm1000copyµm1000000copynm1000000000copymi0.0006213711922copyyd1.093613298copyft3.280"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 53
+  },
+  {
+   "tool": "color-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "#3366FF"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 53
+  },
+  {
+   "tool": "calorie-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Maintenance1,869 kcalBMR 1,359 kcal × 1.375 activityDaily target1,869 kcalweight stays where it isProtein99 kc",
+    "Maintenance1,869 kcalBMR 1,359 kcal × 1.375 activity",
+    "Daily target1,869 kcalweight stays where it isProtein99 kcal1.6 g/kg → 99 gFat502 kcal0.9 g/kg → 56 gCarbohydr"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 51
+  },
+  {
+   "tool": "timestamp-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "That moment is2026年11月7日read as seconds (10 digits)Local2026年11月7日星期六 GMT+8 18:31:09copyISO 86012026-11-07T10:",
+    "That moment is2026年11月7日read as seconds (10 digits)",
+    "Local2026年11月7日星期六 GMT+8 18:31:09copyISO 86012026-11-07T10:31:09.000ZcopyUTCSat, 07 Nov 2026 10:31:09 GMTcopyU"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 54
+  },
+  {
+   "tool": "random-number-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Drawn10repeats allowedRange1 – 1000 decimal placesSum462Average46.2expected around 50.5Lowest / highest16 / 94",
+    "Drawn10repeats allowed",
+    "Range1 – 1000 decimal placesSum462Average46.2expected around 50.5Lowest / highest16 / 94"
+   ],
+   "filled": [],
+   "throttleMs": 328,
+   "ms": 52
+  }
+ ],
+ "finishedAt": "2026-11-07T10:31:09.413Z"
+}

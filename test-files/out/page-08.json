@@ -1,0 +1,31 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:28:11.282Z",
+ "planned": [
+  "/en/image/qr-code-generator/"
+ ],
+ "rows": [
+  {
+   "tool": "/en/image/qr-code-generator/",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download PNG",
+    "Download SVG",
+    "Print"
+   ],
+   "bytes": [
+    "page-qr-qr-code.png | 4122 | image/png",
+    "page-qr-qr-code.svg | 6081 | image/svg+xml"
+   ],
+   "output": [
+    "29×29 modules · 296px · payload 40 BDownload PNGDownload SVGCopy imagePrintText payload: https://example.com/d",
+    "29×29 modules · 296px · payload 40 B"
+   ],
+   "filled": [],
+   "throttleMs": 603,
+   "ms": 8614
+  }
+ ],
+ "finishedAt": "2026-11-07T12:28:19.899Z"
+}

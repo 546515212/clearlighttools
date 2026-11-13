@@ -1,0 +1,184 @@
+{
+  "t": {
+    "compress-pdf": {
+      "desc": "Reduza um PDF no navegador: elimine o excesso incorporado, reamostre as imagens e mantenha o texto selecionável. Sem envio, sem marca de água, sem registo.",
+      "intro": "O Compactar PDF funciona inteiramente no seu próprio computador. Lê o ficheiro, reescreve as referências duplicadas de tipos de letra e de objetos, reduz a resolução das imagens maiores, se quiser, e devolve-lhe o PDF mais pequeno através da transferência do navegador.",
+      "steps": [
+        "Largue um ou mais ficheiros PDF no painel, ou clique para os escolher.",
+        "Escolha um nível: Melhor qualidade conserva tudo, Recomendado equilibra o tamanho, Ficheiro mais pequeno reamostra as imagens a fundo.",
+        "Carregue em Comprimir e veja os números antes e depois de cada ficheiro.",
+        "Transfira o resultado, ou obtenha todos num único zip."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que um PDF digitalizado quase não reduz?",
+          "a": "Uma página digitalizada é na prática uma fotografia. A poupança vem da recodificação dessas imagens de página, por isso use o nível Ficheiro mais pequeno ou converta primeiro as páginas para JPEG."
+        },
+        {
+          "q": "Elimina páginas ou texto?",
+          "a": "Não. O número de páginas, a camada de texto e as ligações ficam intactos; apenas os objetos redundantes e as imagens demasiado grandes são recodificados."
+        }
+      ]
+    },
+    "merge-pdf": {
+      "desc": "Junte vários PDFs na ordem que escolher, com miniaturas de página que pode arrastar antes de os unir. Corre localmente no seu navegador e é gratuito.",
+      "intro": "O Juntar PDF copia os objetos de página de cada ficheiro para um único documento sem os rasterizar, por isso o texto continua selecionável e pesquisável depois da junção.",
+      "steps": [
+        "Adicione todos os PDFs que quer juntar.",
+        "Arraste as miniaturas para definir a ordem, ou remova um ficheiro adicionado por engano.",
+        "Carregue em Unir.",
+        "Transfira o PDF já combinado."
+      ],
+      "faq": [
+        {
+          "q": "Posso juntar páginas apenas de parte de um ficheiro?",
+          "a": "Sim, use primeiro o Separar PDF para isolar o intervalo e depois una as partes de que precisa."
+        },
+        {
+          "q": "Há limite no número de ficheiros?",
+          "a": "Só a memória do seu dispositivo. Na prática, várias centenas de páginas unem-se sem esforço num telemóvel."
+        }
+      ]
+    },
+    "split-pdf": {
+      "desc": "Retire um intervalo de páginas de um PDF, guarde cada página num ficheiro separado ou divida um documento longo em blocos. Tudo acontece localmente.",
+      "intro": "O Separar PDF reconstrói um ficheiro novo a partir das páginas que manter. Como copia os objetos de página em vez de os imprimir, a qualidade é idêntica à do original.",
+      "steps": [
+        "Abra o seu PDF no painel.",
+        "Escolha Extrair um intervalo, Guardar cada página num ficheiro separado, ou Dividir em blocos.",
+        "Introduza o intervalo, por exemplo 3-8 ou 1,4,9-12.",
+        "Carregue em Separar e transfira o resultado."
+      ],
+      "faq": [
+        {
+          "q": "Posso em vez disso eliminar páginas?",
+          "a": "Sim. Selecione todas as páginas que quer manter, ou introduza o intervalo a descartar na caixa complementar, e a ferramenta produz o ficheiro sem elas."
+        },
+        {
+          "q": "A separação mantém os marcadores?",
+          "a": "Os marcadores que apontam para páginas removidas são descartados; o conteúdo das páginas, as ligações e as camadas de texto são preservados."
+        }
+      ]
+    },
+    "rotate-pdf": {
+      "desc": "Gire todas as páginas, ou só as que selecionar, 90, 180 ou 270 graus. Gratuito, instantâneo, e o ficheiro nunca sai do seu computador.",
+      "intro": "As páginas são reorientadas no sítio; não há recodificação, por isso uma rotação não custa nada em qualidade e demora um segundo mesmo num ficheiro grande.",
+      "steps": [
+        "Largue o PDF.",
+        "Escolha 90° à direita, 180° ou 90° à esquerda.",
+        "Se quiser, limite a alteração a um intervalo de páginas.",
+        "Carregue em Aplicar e transfira."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que as minhas páginas em paisagem ficam erradas depois da digitalização?",
+          "a": "Muitos digitalizadores escrevem a imagem rodada com uma marca de página. Rode apenas o intervalo específico em vez de todo o documento."
+        },
+        {
+          "q": "Posso girar páginas individuais de formas diferentes?",
+          "a": "Sim, execute a ferramenta uma vez por intervalo; cada passagem deixa o resto intacto."
+        }
+      ]
+    },
+    "watermark-pdf": {
+      "desc": "Carimbe RASCUNHO, CONFIDENCIAL, uma data ou o nome da sua empresa sobre todas as páginas, com controlo de tamanho, cor, opacidade e ângulo.",
+      "intro": "A marca de água é desenhada como texto vetorial real em cada página, por isso escala com nitidez na impressão e não pode ser deslocada ao arrastar uma camada de imagem.",
+      "steps": [
+        "Carregue o PDF que quer carimbar.",
+        "Introduza o texto e escolha a cor, a opacidade e a rotação.",
+        "Escolha se o carimbo fica atrás ou acima do conteúdo.",
+        "Carregue em Adicionar marca de água e depois transfira."
+      ],
+      "faq": [
+        {
+          "q": "Posso pôr marca de água apenas em algumas páginas?",
+          "a": "Sim, restrinja o carimbo a um intervalo de páginas como 1 ou 2-5."
+        },
+        {
+          "q": "O texto fica selecionável?",
+          "a": "É inserido como texto, por isso aparece nos resultados de pesquisa do ficheiro final."
+        }
+      ]
+    },
+    "pdf-to-jpg": {
+      "desc": "Renderize cada página de um PDF como JPG ou PNG à resolução que escolher, pré-visualize-as no ecrã e transfira uma página ou o conjunto todo num zip.",
+      "intro": "A renderização usa o mesmo motor que mostra PDFs no seu navegador, por isso os tipos de letra e o layout coincidem exatamente com o original. Nada é enviado para lado nenhum.",
+      "steps": [
+        "Largue o ficheiro PDF.",
+        "Defina o formato de saída e o multiplicador de resolução.",
+        "Pré-visualize as páginas renderizadas.",
+        "Transfira uma única imagem ou o zip completo."
+      ],
+      "faq": [
+        {
+          "q": "Que qualidade devo escolher para imprimir?",
+          "a": "Use PNG a 2x para documentos de texto e JPG a 2x para páginas com fotografias; 3x aproxima-se dos 300 dpi em A4."
+        },
+        {
+          "q": "Posso obter apenas uma página?",
+          "a": "Sim, renderize o intervalo de que precisa em vez do documento inteiro."
+        }
+      ]
+    },
+    "pdf-to-text": {
+      "desc": "Extraia o texto legível de um PDF, mantenha o layout das linhas, copie-o para a área de transferência ou guarde-o como .txt. Corre no seu navegador.",
+      "intro": "O texto vem da própria camada de texto do PDF, por isso a extração é rigorosa em documentos e relatórios. As páginas digitalizadas não têm camada de texto e precisam de OCR.",
+      "steps": [
+        "Adicione o seu PDF.",
+        "Escolha Manter o layout ou Texto simples.",
+        "Carregue em Extrair.",
+        "Copie o resultado ou transfira-o como ficheiro de texto."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que o resultado veio vazio?",
+          "a": "O ficheiro é provavelmente uma digitalização de papel. O OCR é uma tecnologia de servidor; a solução de recurso é passar as páginas por uma aplicação de OCR em que confie."
+        },
+        {
+          "q": "Mantém as tabelas?",
+          "a": "As colunas são preservadas com espaçamento quando escolhe Manter o layout, embora tabelas complexas fiquem melhor resolvidas se converter as páginas em imagens."
+        }
+      ]
+    },
+    "images-to-pdf": {
+      "desc": "Junte fotografias JPG, PNG, WebP ou GIF num único PDF, na ordem que quiser, com tamanho de página, margem e orientação à sua escolha.",
+      "intro": "Muito prático para uma pilha de digitalizações feitas no telemóvel: largue as fotografias, ordene-as e recebe um documento que se envia por email sem problemas e se imprime corretamente.",
+      "steps": [
+        "Selecione as fotografias.",
+        "Arraste para reordenar e elimine o que foi fotografado duas vezes.",
+        "Escolha o tamanho de página e as margens.",
+        "Carregue em Criar PDF e transfira."
+      ],
+      "faq": [
+        {
+          "q": "As fotografias são ajustadas à página?",
+          "a": "Sim, cada imagem é dimensionada dentro da área de impressão sem recortar, a menos que escolha Preencher a página."
+        },
+        {
+          "q": "Posso adicionar uma legenda?",
+          "a": "Use depois a ferramenta Marca de água no PDF para carimbar um título ou uma data em cada página."
+        }
+      ]
+    },
+    "html-to-pdf": {
+      "desc": "Cole HTML, escolha o tamanho do papel e as margens e imprima o resultado renderizado em PDF diretamente do seu navegador. Gratuito e privado.",
+      "intro": "Esta ferramenta constrói uma vista de impressão limpa a partir da sua marcação e entrega-a ao próprio gravador de PDF do navegador, que entende CSS, imagens e quebras de página.",
+      "steps": [
+        "Cole o seu HTML ou carregue um ficheiro .html.",
+        "Defina o papel, a orientação e as margens.",
+        "Abra a janela de impressão.",
+        "Escolha «Guardar como PDF» como destino."
+      ],
+      "faq": [
+        {
+          "q": "Posso converter o URL de uma página ativa?",
+          "a": "Os navegadores bloqueiam a leitura da marcação de outros sites a partir de uma página, por isso cole o HTML ou use a função Imprimir em PDF que o navegador já tem nessa página."
+        },
+        {
+          "q": "As imagens externas são incluídas?",
+          "a": "Só quando o navegador consegue carregá-las; os URI de dados inline funcionam sempre."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T10:42:21.254Z",
+ "planned": [
+  "compress-image",
+  "base64-to-image",
+  "qr-code-generator",
+  "image-to-gif",
+  "image-contrast-brightness",
+  "markdown-to-html"
+ ],
+ "rows": [
+  {
+   "tool": "compress-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Compress",
+    "Download"
+   ],
+   "bytes": [
+    "compress-image-photo.jpg | 4144 | image/jpeg"
+   ],
+   "output": [
+    "photo.jpg4.0 KB34 KB → 4.0 KB (−88%)Download",
+    "photo.jpg4.0 KB34 KB → 4.0 KB (−88%)Download"
+   ],
+   "filled": [],
+   "throttleMs": 634,
+   "ms": 6635
+  },
+  {
+   "tool": "base64-to-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download"
+   ],
+   "bytes": [
+    "base64-to-image-decoded.png | 12108 | image/png"
+   ],
+   "output": [
+    "decoded.png12 KBimage/png · 80×60 · from 16,144 base64 charactersDownload",
+    "decoded.png12 KBimage/png · 80×60 · from 16,144 base64 charactersDownload"
+   ],
+   "filled": [],
+   "throttleMs": 634,
+   "ms": 4996
+  },
+  {
+   "tool": "qr-code-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download PNG",
+    "Download SVG"
+   ],
+   "bytes": [
+    "qr-code-qr-code.png | 4199 | image/png",
+    "qr-code-qr-code.svg | 6057 | image/svg+xml"
+   ],
+   "output": [
+    "29×29 modules · 296px · payload 28 BDownload PNGDownload SVGCopy imagePrintText payload: https://example.com/p",
+    "29×29 modules · 296px · payload 28 B"
+   ],
+   "filled": [],
+   "throttleMs": 634,
+   "ms": 6003
+  },
+  {
+   "tool": "image-to-gif",
+   "ok": false,
+   "why": "notes: file tool produced no download button (new buttons: none; buttons after run: create gif)",
+   "clicks": [
+    "Create GIF"
+   ],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 634,
+   "ms": 5995
+  },
+  {
+   "tool": "image-contrast-brightness",
+   "ok": false,
+   "why": "notes: file tool produced no download button (new buttons: none; buttons after run: apply)",
+   "clicks": [
+    "Apply"
+   ],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 634,
+   "ms": 6008
+  },
+  {
+   "tool": "markdown-to-html",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "MarkdownHTMLCopy.htmlPreviewTitle Some bold text and a link.",
+    "Title Some bold text and a link.",
+    "HTML characters99Words rendered7Headings1"
+   ],
+   "filled": [],
+   "throttleMs": 634,
+   "ms": 993
+  }
+ ],
+ "finishedAt": "2026-11-07T10:42:51.890Z"
+}

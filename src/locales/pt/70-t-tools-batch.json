@@ -1,0 +1,202 @@
+{
+  "t": {
+    "zero-width-watermark": {
+      "title": "Marca de água de largura zero",
+      "h1": "Marca de água de largura zero — oculte texto dentro de texto",
+      "desc": "Oculte uma mensagem secreta em texto normal com caracteres Unicode invisíveis de largura zero. Sobrevive ao copiar-colar. Grátis, no navegador.",
+      "intro": "Esta ferramenta oculta uma mensagem secreta dentro de um texto de aspeto normal, codificando-a como caracteres Unicode invisíveis de largura zero (U+200B e U+200C) envolvidos em word-joiners. O texto portador lê-se exatamente da mesma forma, mas a carga oculta viaja com ele quando o copia e cola. Mude para Revelar para extrair uma mensagem de um texto com marca de água. É ofuscação, não encriptação: tudo o que remova a formatação ou normalize o Unicode eliminará a marca, por isso nunca a use para palavras-passe ou dados sensíveis.",
+      "steps": [
+        "Escreva o texto portador visível.",
+        "Escreva a mensagem secreta a ocultar.",
+        "Prima Incorporar e copie o texto com a marca de água.",
+        "Para a ler de volta, cole-o no modo Revelar."
+      ],
+      "faq": [
+        {
+          "q": "A mensagem oculta sobrevive ao copiar-colar?",
+          "a": "Sim, num copiar-colar normal de texto simples, porque os caracteres de largura zero fazem parte da cadeia. Mas editores de texto formatado, plataformas sociais e qualquer ferramenta que normalize o Unicode ou remova a formatação podem eliminá-los, por isso teste sempre no destino."
+        },
+        {
+          "q": "Isto é encriptação segura?",
+          "a": "Não. É esteganografia por obscuridade — qualquer pessoa que saiba procurar caracteres de largura zero pode revelar a mensagem. Use a ferramenta de encriptar/desencriptar AES para um segredo real."
+        }
+      ]
+    },
+    "css-generator": {
+      "title": "Gerador CSS de sombras e grelhas",
+      "h1": "Gerador CSS — sombra de caixa, raio e grelha",
+      "desc": "Gere CSS box-shadow, border-radius e grelhas visualmente. Arraste os cursores, veja a pré-visualização em direto e copie o CSS. Grátis, sem registo.",
+      "intro": "Desenhe CSS visualmente em vez de adivinhar números. No modo Caixa, arraste cursores para o deslocamento da sombra, o desfoque, a expansão, o raio dos cantos, a cor e a opacidade, com uma sombra interior opcional, e veja a pré-visualização atualizar-se em direto. No modo Grelha, defina o número de colunas, o espaçamento, o número de itens e a altura da linha para compor uma grelha responsiva. O CSS correspondente é gerado enquanto trabalha — copie-o diretamente para a sua folha de estilos. Tudo corre no seu navegador.",
+      "steps": [
+        "Escolha Sombra e raio da caixa ou Layout em grelha.",
+        "Arraste os cursores para moldar o efeito.",
+        "Veja a pré-visualização e o CSS atualizarem-se em direto.",
+        "Copie o CSS gerado para o seu projeto."
+      ],
+      "faq": [
+        {
+          "q": "Que CSS é gerado?",
+          "a": "CSS padrão, pronto a copiar: uma regra .box com background, border-radius e box-shadow, ou uma regra .grid que usa display:grid com grid-template-columns e gap. Não são necessários prefixos de fabricante para estas propriedades nos navegadores modernos."
+        },
+        {
+          "q": "Posso usar o CSS da grelha num site real?",
+          "a": "Sim. A regra da grelha usa repeat() e colunas fracionárias, pelo que é responsiva. Cole-a na sua folha de estilos e coloque o conteúdo dentro do contentor da grelha."
+        }
+      ]
+    },
+    "json-to-svg": {
+      "title": "Diagrama de JSON para SVG",
+      "h1": "JSON para SVG — visualize uma árvore de estrutura",
+      "desc": "Transforme JSON numa árvore de estrutura SVG colorida. Cole um objeto ou matriz, renderize o diagrama e descarregue o SVG ou copie a marcação. Grátis, local.",
+      "intro": "Cole qualquer objeto ou matriz JSON e a ferramenta analisa-o e dispõe-no como uma árvore de estrutura da esquerda para a direita, desenhada como um SVG colorido inteiramente no seu navegador. Cada chave torna-se um nó, os objetos e as matrizes aninhados ramificam-se e os valores folha são mostrados na própria linha. Descarregue o resultado como um SVG que pode inserir em documentação ou diapositivos, ou copie a marcação em bruto. As matrizes grandes são limitadas a 40 ramos e oito níveis de profundidade para manter o diagrama legível.",
+      "steps": [
+        "Cole o seu JSON na entrada.",
+        "Prima Renderizar diagrama.",
+        "Consulte a pré-visualização da árvore de estrutura.",
+        "Descarregue o SVG ou copie a marcação."
+      ],
+      "faq": [
+        {
+          "q": "Que formas de JSON são suportadas?",
+          "a": "Qualquer JSON válido: objetos, matrizes, cadeias, números, booleanos e null. Os objetos e as matrizes tornam-se nós com ramos; os valores primitivos são mostrados como folhas. Um JSON inválido devolve um erro claro em vez de desenhar."
+        },
+        {
+          "q": "O SVG é editável?",
+          "a": "Sim. É marcação SVG simples, pelo que pode abri-la em qualquer editor vetorial ou colá-la em HTML. O ficheiro descarregado é um .svg autónomo, sem dependências externas."
+        }
+      ]
+    },
+    "encrypt-decrypt": {
+      "title": "Encriptar / Desencriptar texto",
+      "h1": "Encriptar / desencriptar texto AES online",
+      "desc": "Encripte e desencripte texto com AES-256-GCM e uma frase-passe, no seu navegador. Derivação de chave PBKDF2, nada é carregado. Grátis e privado.",
+      "intro": "Proteja uma mensagem com criptografia forte e moderna sem instalar nada. Escreva o seu texto e uma frase-passe e depois prima Encriptar: a ferramenta deriva uma chave de 256 bits com PBKDF2 (150 000 iterações, SHA-256) e encripta com AES-GCM, incluindo o sal aleatório e o IV no resultado em base64, para que apenas a frase-passe seja suficiente para desencriptar mais tarde. Cole o texto cifrado e a mesma frase-passe para Desencriptar. Tudo usa a Web Crypto API do navegador e nunca sai do seu dispositivo.",
+      "steps": [
+        "Escreva ou cole o texto.",
+        "Introduza uma frase-passe forte.",
+        "Prima Encriptar para produzir o texto cifrado.",
+        "Para o reverter, cole o texto cifrado e prima Desencriptar."
+      ],
+      "faq": [
+        {
+          "q": "Quão seguro é isto?",
+          "a": "Usa AES-256-GCM, uma norma de encriptação autenticada, com uma chave derivada por PBKDF2 com 150 000 iterações. A segurança depende de a sua frase-passe ser forte e secreta; o sal e o IV são aleatórios em cada encriptação."
+        },
+        {
+          "q": "Posso desencriptar sem este site?",
+          "a": "O resultado é base64 padrão que inclui o sal (16 bytes), o IV (12 bytes) e o texto cifrado AES-GCM. Qualquer biblioteca que reproduza PBKDF2-SHA256 com 150 000 iterações e AES-256-GCM pode desencriptá-lo com a mesma frase-passe."
+        }
+      ]
+    },
+    "image-mosaic": {
+      "title": "Mosaico e desfoque de fotos",
+      "h1": "Mosaico de fotos — pixelize e desfoque localmente",
+      "desc": "Pixelize ou desfoque rostos, matrículas e detalhes privados numa foto arrastando um pincel. Edite num canvas local e descarregue um PNG. Grátis, sem envio.",
+      "intro": "Oculte partes sensíveis de uma imagem sem a enviar para lado nenhum. Carregue uma foto, escolha Pixelizar ou Desfocar, defina o tamanho e a intensidade do pincel e depois arraste sobre os rostos, as matrículas ou os documentos que quer obscurecer. O efeito é aplicado num canvas no seu navegador; restaure o original a qualquer momento e descarregue o resultado como PNG. Nada é carregado.",
+      "steps": [
+        "Carregue uma foto.",
+        "Escolha Pixelizar ou Desfocar e defina o pincel.",
+        "Arraste sobre as áreas a ocultar.",
+        "Descarregue o PNG editado."
+      ],
+      "faq": [
+        {
+          "q": "A pixelização é reversível?",
+          "a": "Uma pixelização forte faz a média de cada bloco numa só cor, destruindo o detalhe original, pelo que não pode ser revertida a partir do resultado. Use blocos grosseiros para dados sensíveis; um desfoque ligeiro pode por vezes ser realçado, por isso prefira a pixelização para rostos e matrículas."
+        },
+        {
+          "q": "As minhas fotos são carregadas?",
+          "a": "Não. A imagem é desenhada e editada num canvas inteiramente no seu navegador, e o PNG é gerado localmente. Nada é enviado para um servidor."
+        }
+      ]
+    },
+    "grid-splitter": {
+      "title": "Divisor de imagem em grelha",
+      "h1": "Divisor de imagem em grelha — nove quadrados e NxN",
+      "desc": "Divida uma imagem numa grelha 3×3 de nove quadrados ou em qualquer layout NxN para redes sociais. Recorte para quadrado e descarregue as peças num ZIP. Grátis.",
+      "intro": "Corte uma imagem numa grelha sem emendas para o Instagram, o Weibo ou qualquer feed social. Carregue uma imagem, escolha uma grelha de 2×2 até 6×6 (3×3 é a clássica grelha de nove quadrados) e, opcionalmente, recorte primeiro para um quadrado, para que todas as peças sejam quadradas. A ferramenta divide-a num canvas no seu navegador e depois pode descarregar as peças individualmente ou num único ZIP, prontas a publicar por ordem. Nada é carregado.",
+      "steps": [
+        "Carregue a imagem que quer dividir.",
+        "Escolha o tamanho da grelha, p. ex. 3×3.",
+        "Ative Recortar primeiro para quadrado para obter peças quadradas.",
+        "Divida e descarregue as peças ou o ZIP."
+      ],
+      "faq": [
+        {
+          "q": "Como publico uma grelha de nove quadrados sem emendas?",
+          "a": "Divida em 3×3, descarregue o ZIP e carregue as nove peças na sua aplicação social pela ordem numerada (grid-01 a grid-09). A maioria das aplicações permite selecionar várias imagens de uma vez; mantenha a ordem para que a imagem fique alinhada."
+        },
+        {
+          "q": "Porque recortar primeiro para um quadrado?",
+          "a": "Um feed de nove quadrados mostra miniaturas quadradas. Recortar a origem para um quadrado centrado antes de dividir mantém todas as peças quadradas e evita bordas irregulares. Desative a opção para dividir o retângulo completo."
+        }
+      ]
+    },
+    "camera-mic-test": {
+      "title": "Teste de câmara e microfone",
+      "h1": "Teste de câmara, microfone e ecrã",
+      "desc": "Teste a webcam, o microfone e o ecrã no navegador: veja a câmara em direto, o nível do microfone e o teste de cores para pixels mortos. Grátis e privado.",
+      "intro": "Verifique o seu equipamento antes de uma chamada ou gravação, inteiramente no seu navegador. Inicie a câmara para uma pré-visualização em direto, teste o microfone e veja a barra de nível mover-se enquanto fala, e execute o teste de pixels mortos do ecrã para percorrer cores sólidas em ecrã inteiro e detetar pixels bloqueados. Nenhum vídeo ou áudio é gravado, guardado ou carregado — as transmissões param quando prima Parar ou sai da página.",
+      "steps": [
+        "Prima Iniciar câmara para verificar o vídeo.",
+        "Prima Testar microfone e fale.",
+        "Execute o teste de ecrã e toque para percorrer as cores.",
+        "Pare cada teste quando terminar."
+      ],
+      "faq": [
+        {
+          "q": "Grava ou carrega alguma coisa?",
+          "a": "Não. A câmara e o microfone são apenas pré-visualizados e analisados em direto no seu navegador através de getUserMedia e da Web Audio API. Nada é gravado, guardado ou enviado para lado nenhum, e as faixas param quando prima Parar."
+        },
+        {
+          "q": "Porque é que o navegador pede permissão?",
+          "a": "O acesso a uma câmara ou a um microfone exige sempre a sua permissão explícita e uma página segura (https). Se a negou, permita-o nas definições do site no navegador e tente novamente."
+        }
+      ]
+    },
+    "teleprompter": {
+      "title": "Teleprompter",
+      "h1": "Teleprompter online para o seu guião",
+      "desc": "Teleprompter online grátis: cole o guião, faça-o rolar em texto grande, ajuste a velocidade e o tamanho da letra, espelhe e use ecrã inteiro. Nada é carregado.",
+      "intro": "Leia o seu discurso com fluidez enquanto grava. Cole o guião, defina um tamanho de letra confortável e a velocidade de deslocamento e depois prima Iniciar para fazer rolar o texto. Espelhar inverte-o horizontalmente para um suporte de teleprompter com divisor de feixe, e Ecrã inteiro preenche todo o ecrã para que possa ler à distância. O seu guião fica neste separador do navegador e nunca é carregado.",
+      "steps": [
+        "Cole o seu guião ou discurso.",
+        "Defina o tamanho da letra e a velocidade de deslocamento.",
+        "Prima Iniciar para rolar; espelhe se usar um suporte.",
+        "Use Ecrã inteiro para uma visualização grande."
+      ],
+      "faq": [
+        {
+          "q": "Para que serve a opção Espelhar?",
+          "a": "Um teleprompter com divisor de feixe reflete o ecrã num vidro à frente da lente, o que inverte o texto. A opção Espelhar inverte-o horizontalmente para que se leia corretamente no reflexo. Deixe-a desativada quando ler diretamente do ecrã."
+        },
+        {
+          "q": "O meu guião é guardado ou enviado para algum lado?",
+          "a": "Não. O guião existe apenas neste separador do navegador enquanto usa a ferramenta e nunca é carregado nem guardado num servidor. Atualizar a página limpa-o."
+        }
+      ]
+    },
+    "sound-level-meter": {
+      "title": "Medidor de nível sonoro",
+      "h1": "Medidor de nível sonoro — medidor de decibéis online",
+      "desc": "Medidor de nível sonoro online grátis: veja em direto o nível relativo em decibéis à sua volta, com pico e média. Usa o microfone localmente, nada é gravado.",
+      "intro": "Meça o volume do que o rodeia usando o microfone do seu dispositivo. Prima Iniciar, permita o acesso e o medidor mostra o nível sonoro relativo em decibéis, com uma barra em direto e leituras de pico e média. É um medidor relativo e não calibrado, referido à escala máxima digital, pelo que deve usá-lo para comparar volumes ou detetar ruído e não para medições legais ou de segurança. O áudio é analisado no seu navegador e nunca é gravado nem carregado.",
+      "steps": [
+        "Prima Iniciar e permita o acesso ao microfone.",
+        "Veja a leitura de decibéis e a barra em direto.",
+        "Consulte os níveis de pico e médio.",
+        "Reponha o pico ou prima Parar quando terminar."
+      ],
+      "faq": [
+        {
+          "q": "Este é um medidor de decibéis calibrado?",
+          "a": "Não. É um medidor relativo referido à escala máxima digital, pelo que o valor absoluto depende do seu microfone e do respetivo ganho. É útil para comparar volumes, não para medições de ruído certificadas."
+        },
+        {
+          "q": "O áudio é gravado?",
+          "a": "Não. A transmissão do microfone é apenas analisada em direto no seu navegador para calcular o nível. Nada é gravado, guardado ou carregado, e o microfone para quando prima Parar ou sai da página."
+        }
+      ]
+    }
+  }
+}

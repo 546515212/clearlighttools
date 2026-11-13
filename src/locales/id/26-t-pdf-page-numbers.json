@@ -1,0 +1,26 @@
+{
+  "t": {
+    "pdf-page-numbers": {
+      "title": "Nomor Halaman PDF",
+      "h1": "Tambah nomor halaman ke PDF online",
+      "desc": "Sisipkan nomor halaman ke PDF di atas atau bawah, kiri, tengah, atau kanan. Atur nomor awal, ukuran font, dan awalan. Gratis, tanpa unggah.",
+      "intro": "Alat ini mencap nomor halaman berupa teks asli ke tiap halaman PDF Anda dengan pdf-lib, jadi nomor tetap tajam pada zoom berapa pun dan bisa dipilih. Tempatkan di header atau footer, lewati sampul, dan tambahkan awalan opsional.",
+      "steps": [
+        "Muat PDF yang ingin Anda beri nomor.",
+        "Pilih posisi, perataan, dan nomor awal.",
+        "Atur ukuran font dan awalan opsional; lewati sampul bila perlu.",
+        "Tekan Tambah nomor halaman dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya mulai dari halaman atau nomor tertentu?",
+          "a": "Bisa. Atur nomor awal dan gunakan rentang halaman untuk menomori halaman tertentu saja, atau centang \"lewati halaman pertama\" agar sampul tidak bernomor."
+        },
+        {
+          "q": "Apakah nomor ditambahkan sebagai teks atau gambar?",
+          "a": "Sebagai teks vektor asli, jadi nomor terskala dengan bersih saat dicetak dan bisa dipilih serta dicari pada PDF yang sudah jadi."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "t": {
+    "word-counter": {
+      "desc": "Kira perkataan, aksara, ruang, ayat, perenggan, masa baca dan pengulangan kata kunci sambil anda menulis. Berguna untuk esei, tweet dan ringkasan SEO.",
+      "intro": "Pengiraan berlaku secara setempat serta-merta, dan senarai kata kunci memaklumkan frasa mana yang anda terlalu kerap gunakan.",
+      "steps": [
+        "Tampal teks anda.",
+        "Baca jumlah: perkataan, aksara dengan dan tanpa ruang, ayat, perenggan.",
+        "Periksa masa membaca dan masa bertutur.",
+        "Semak perkataan berulang teratas."
+      ],
+      "faq": [
+        {
+          "q": "Bagaimana masa baca dikira?",
+          "a": "200 perkataan seminit untuk membaca dalam hati dan 150 untuk bertutur, iaitu angka editorial standard."
+        },
+        {
+          "q": "Adakah perkataan bersepadu dikira sekali?",
+          "a": "Ya, ia dikira sebagai satu perkataan, seiring dengan had yang digunakan kebanyakan sekolah dan penerbit."
+        }
+      ]
+    },
+    "case-converter": {
+      "title": "Penukar Huruf",
+      "h1": "Tukar teks kepada HURUF BESAR, huruf kecil atau Huruf Tajuk",
+      "desc": "Tukar satu blok teks kepada huruf tajuk, huruf ayat, camelCase, snake_case, kebab-case atau huruf songsang dalam satu klik.",
+      "intro": "Peraturannya peka bahasa: kata kecil seperti of dan the kekal huruf kecil dalam tajuk, dan output snake atau kebab selamat untuk nama fail serta kod.",
+      "steps": [
+        "Tampal teks.",
+        "Pilih kes huruf.",
+        "Salin atau muat turun hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa Huruf Tajuk tidak sempurna pada kepala tajuk saya?",
+          "a": "Singkatan dan nama jenama ialah pengecualian; suntingnya pada output atau matikan tajuk pintar."
+        },
+        {
+          "q": "Adakah ia menguruskan aksen?",
+          "a": "Ya, penukaran itu memahami Unicode, jadi É, ß dan ı kekal mengikut peraturan bahasa masing-masing jika boleh."
+        }
+      ]
+    },
+    "remove-duplicate-lines": {
+      "title": "Buang Baris Pendua",
+      "h1": "Bersihkan senarai: buang pendua, isih dan kemas baris",
+      "desc": "Padam baris berulang dalam senarai, abaikan besar kecil huruf, buang ruang lebihan dan baris kosong, serta isih A ke Z atau paling panjang dahulu.",
+      "intro": "Kegunaan biasa: menampal senarai e-mel atau telefon daripada hamparan dan berakhir dengan satu lajur bersih yang sedia untuk diimport.",
+      "steps": [
+        "Tampal senarai itu.",
+        "Tandakan pilihan pembersihan yang anda perlukan.",
+        "Periksa berapa banyak baris telah dibuang.",
+        "Salin atau muat turun hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah baris beraksara hujung kosong dianggap unik?",
+          "a": "Hanya apabila Buang ruang dimatikan; hidupkannya untuk menangkap perbezaan yang tidak kelihatan."
+        },
+        {
+          "q": "Bolehkah saya terus melihat baris pendua itu?",
+          "a": "Boleh, jalankan Kira pendua untuk melihat setiap baris bersama bilangan kemunculannya terlebih dahulu."
+        }
+      ]
+    },
+    "lorem-ipsum-generator": {
+      "desc": "Jana jumlah teks rekaan yang tepat untuk mock-up anda — perkataan, ayat atau perenggan, termasuk pembukaan Cicero yang klasik.",
+      "intro": "Berguna untuk pereka yang perlukan panjang baris realistik tanpa mereka salinan, dan untuk pembangun yang mengisi jadual dengan data yang meyakinkan.",
+      "steps": [
+        "Pilih perenggan, ayat atau perkataan.",
+        "Tetapkan jumlahnya.",
+        "Putuskan sama ada mahu bermula dengan Lorem ipsum dolor sit amet.",
+        "Salin teks itu."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa langsung gunakan pengisi berbahasa Latin?",
+          "a": "Ia menghalang pihak berkepentingan daripada membaca perkataan dan membahaskannya, jadi perbincangan kekal pada susun atur."
+        },
+        {
+          "q": "Bolehkah saya mendapat bahasa Inggeris yang lebih realistik?",
+          "a": "Tandakan pilihan boleh baca untuk menggunakan pengisi bahasa Inggeris biasa bagi semakan kebolehcapaian."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "desc": "Kodkan teks kepada Base64 atau sahkodkannya kembali, dengan sokongan abjad selamat URL dan ralat aksara tidak sah serta-merta.",
+      "intro": "Base64 ialah cara token, header dan aset sebaris bergerak dengan selamat melalui sistem yang hanya menerima aksara biasa.",
+      "steps": [
+        "Taip atau tampal input.",
+        "Pilih Kod atau Sahkod.",
+        "Pilih abjad selamat URL jika nilai itu masuk ke dalam rentetan pertanyaan.",
+        "Salin hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah Base64 itu penyulitan?",
+          "a": "Tidak. Ia pengekodan boleh balik tanpa sebarang rahsia, jadi jangan gunakannya untuk melindungi kata laluan."
+        },
+        {
+          "q": "Mengapa penyahkodan gagal?",
+          "a": "Biasanya aksara sesat atau panjang yang bukan gandaan empat; alat ini menunjuk kedudukannya."
+        }
+      ]
+    },
+    "url-encode-decode": {
+      "title": "Kod / Sahkod URL",
+      "h1": "Sekap dan batal sekap komponen URL",
+      "desc": "Kod peratus nilai pertanyaan, kod keseluruhan URL, atau sahkodkan rentetan tersekap kembali kepada teks boleh baca, dengan semantik encodeURIComponent.",
+      "intro": "Tiket sokongan paling biasa — pautan rosak kerana ruang, tanda dan atau aksara beraksen — diselesaikan di sini dalam satu langkah.",
+      "steps": [
+        "Tampal nilai itu.",
+        "Pilih mod komponen, laluan atau URL penuh.",
+        "Kodkan atau sahkodkan.",
+        "Salin hasil yang selamat."
+      ],
+      "faq": [
+        {
+          "q": "Apa bezanya encodeURI dengan encodeURIComponent?",
+          "a": "encodeURIComponent turut menykap aksara yang sah dalam struktur URL, dan itulah yang anda mahu untuk satu nilai pertanyaan."
+        },
+        {
+          "q": "Mengapa tanda tambah berbeza daripada %20?",
+          "a": "Borang guna + untuk ruang, URL sebenar guna %20. Alat ini menunjukkan kedua-duanya supaya anda boleh sepadan dengan pelayan anda."
+        }
+      ]
+    },
+    "html-entities": {
+      "title": "Sekap HTML",
+      "h1": "Sekap dan batal sekap entiti HTML",
+      "desc": "Tukar <, >, &, petikan dan huruf beraksen menjadi entiti selamat, atau tukar entiti kembali kepada aksara untuk paparan.",
+      "intro": "Gunakannya apabila menampal kod ke dalam blog, menulis medan CMS yang memakan tag anda, atau membersihkan halaman yang dikorek.",
+      "steps": [
+        "Tampal markup atau teks anda.",
+        "Tekan Sekap atau Batal sekap.",
+        "Salin hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa CMS saya terus memadam tag?",
+          "a": "Editornya menghurai tag itu sebagai HTML. Sekap blok tersebut dahulu dan ia kekal utuh."
+        },
+        {
+          "q": "Adakah ia menukar entiti berangka?",
+          "a": "Ya, bentuk bernama mahupun berangka perpuluhan atau heksa dikenali."
+        }
+      ]
+    },
+    "reverse-text": {
+      "title": "Songsangkan Teks",
+      "h1": "Songsangkan teks, terbalikkannya atau cerminkannya",
+      "desc": "Tulis sesuatu rentetan dari belakang, hasilkan Unicode terbalik untuk hantaran sosial, atau songsangkan urutan perkataan tanpa mengacau setiap perkataan.",
+      "intro": "Popular untuk bio dan pelekat, serta benar-benar berguna apabila anda perlukan cermin visual yang pantas bagi sesuatu label.",
+      "steps": [
+        "Taipkan teks.",
+        "Pilih belakang, terbalik atau urutan perkataan.",
+        "Salin output."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa beberapa huruf tidak terbalik?",
+          "a": "Segilintir glif tiada padanan cermin dalam Unicode; ia dibiarkan seperti itu supaya teks kekal boleh baca."
+        },
+        {
+          "q": "Adakah ia mengekalkan emoji?",
+          "a": "Jujukan emoji gabungan kekal bersama dan tidak dipecahkan kepada bendera berasingan."
+        }
+      ]
+    },
+    "json-formatter": {
+      "desc": "Cantikkan JSON yang berselerak, kesan baris tepat sesuatu ralat sintaks, isih kunci, kecilkan muatan, serta kembangkan atau kuncupkan nod dalam paparan pokok.",
+      "intro": "Pembangun menampal respons API di sini untuk membacanya; mesej ralat menunjuk aksara bermasalah dan bukan sekadar menyatakan Invalid JSON.",
+      "steps": [
+        "Tampal JSON itu.",
+        "Tekan Format, dan tetapkan inden jika anda perlukan 2 atau 4 ruang.",
+        "Baiki sebarang ralat yang dilaporkan dan jalankan semula.",
+        "Guna Kecilkan apabila fail itu perlu dihantar."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia menerima JSON Lines?",
+          "a": "Ya, satu objek setiap baris dikesan dan diformat sebagai satu jujukan."
+        },
+        {
+          "q": "Mengapa nombor besar saya dibundarkan?",
+          "a": "JavaScript tidak boleh menyimpannya sebagai integer; alat ini mengekalkannya sebagai rentetan apabila Kekalkan nombor besar dihidupkan."
+        }
+      ]
+    },
+    "csv-to-json": {
+      "desc": "Muat naik atau tampal eksport hamparan dan dapatkan jujukan objek, dengan medan berpetik, pemisah ribu dan sel kosong ditangani dengan betul.",
+      "intro": "Parser RFC-4180 sebenar digunakan, jadi koma di dalam petikan dan baris baharu terbenam tidak menggeser lajur.",
+      "steps": [
+        "Tampal teks CSV atau seret fail .csv.",
+        "Tetapkan pemisah dan sama ada baris pertama mengandungi header.",
+        "Tekan Tukar.",
+        "Muat turun .json atau salinnya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah nombor ditukar kepada nombor?",
+          "a": "Ya, dan tarikh ISO kekal sebagai rentetan. Matikan Inferens jenis untuk menyimpan semuanya sebagai teks."
+        },
+        {
+          "q": "Bolehkah saya buat proses sebaliknya?",
+          "a": "Guna tindakan muat turun sebagai CSV dalam JSON Formatter untuk jujukan rata objek."
+        }
+      ]
+    },
+    "markdown-to-html": {
+      "desc": "Tampal Markdown dan salin keluar HTML terpapar, dengan jadual, kod berpagar, pautan gaya nota kaki dan gaya GitHub pilihan.",
+      "intro": "Renderer yang sama menggerakkan dokumentasi tapak ini, jadi apa yang anda lihat dalam pratonton ialah apa yang anda salin.",
+      "steps": [
+        "Tulis atau tampal Markdown.",
+        "Perhatikan panel HTML langsung dan pratonton.",
+        "Salin HTML atau muat turun failnya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia mensterilkan output?",
+          "a": "HTML mentah dilepaskan begitu sahaja kerana itu Markdown yang sah; tambah pensteril sebelum memaparkan input yang tidak dipercaya."
+        },
+        {
+          "q": "Bolehkah saya mendapat kembali Markdown daripada HTML?",
+          "a": "Tidak dalam alat ini; ia sengaja sehala supaya pratonton kekal laju."
+        }
+      ]
+    },
+    "hash-generator": {
+      "desc": "Dapatkan ringkasan mesej daripada mana-mana teks, atau hasil semakan fail untuk pengesahan muat turun, dalam algoritma yang sistem anda jangkakan.",
+      "intro": "Hash kukuh datang daripada enjin krypto pelayar; MD5 dilaksanakan secara setempat hanya untuk keserasian lama.",
+      "steps": [
+        "Taipkan teks, atau muatkan fail.",
+        "Pilih satu atau lebih algoritma.",
+        "Salin ringkasan itu.",
+        "Bandingkannya dengan hasil semakan yang diterbitkan."
+      ],
+      "faq": [
+        {
+          "q": "Adakah MD5 selamat?",
+          "a": "Tidak — perlanggaran boleh dilakukan secara praktikal. Guna ia hanya sebagai cap jari lama, tidak sekali-kali untuk keselamatan."
+        },
+        {
+          "q": "Bolehkah saya menghash kata laluan?",
+          "a": "Sepatutnya jangan. Kata laluan memerlukan fungsi berperiuk dan lambat seperti bcrypt atau Argon2, yang tidak patut dijalankan oleh alat pelayar bagi pihak anda."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "desc": "Cipta seberapa banyak pengenal versi 4 yang anda perlukan, dalam format yang alat anda jangkakan: sengkang, kurung, huruf besar atau biasa.",
+      "intro": "Nilai datang daripada sumber rawak kryptografik pelayar, jadi ia sesuai untuk kunci, sesi dan data ujian.",
+      "steps": [
+        "Tetapkan berapa banyak UUID yang anda mahu.",
+        "Pilih formatnya.",
+        "Salin senarai itu atau muat turunnya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ini benar-benar unik?",
+          "a": "Versi 4 menggunakan 122 bit rawak; perlanggaran hampir mustahil melainkan anda menjana berbilion-bilion."
+        },
+        {
+          "q": "Apa itu versi 7?",
+          "a": "UUID tertib masa yang menjadikan sisipan kekal berurutan dalam indeks pangkalan data, berguna untuk jadual besar."
+        }
+      ]
+    },
+    "password-generator": {
+      "desc": "Bina kata laluan yang mudah diingat atau sukar diteka dengan panjang dan simbol pilihan anda, lihat kekuatannya, dan salin tanpa ia menyentuh pelayan.",
+      "intro": "Cadangan diperoleh daripada sumber rawak pelayar dalam halaman itu sendiri, jadi tiada apa yang dihantar atau dilog.",
+      "steps": [
+        "Tetapkan panjangnya; 16 aksara atau lebih ialah nasihat semasa.",
+        "Pilih set aksara yang anda perlukan.",
+        "Tekan Jana.",
+        "Salinnya ke dalam pengurus kata laluan anda."
+      ],
+      "faq": [
+        {
+          "q": "Adakah penjana dalam talian selamat?",
+          "a": "Yang ini berjalan sepenuhnya dalam halaman dan tidak menghantar apa-apa ke mana-mana, dan anda boleh sahakan sendiri dalam tab rangkaian."
+        },
+        {
+          "q": "Patutkah saya guna pengurus kata laluan sebaliknya?",
+          "a": "Ya. Jana di sini, simpan di sana, dan jangan sesekali guna semula kata laluan antara tapak."
+        }
+      ]
+    },
+    "regex-tester": {
+      "desc": "Cocokkan sesuatu pola dengan teks sampel bersama sorotan langsung, butiran kumpulan tangkapan, bendera dan uraian ungkapan dalam bahasa mudah.",
+      "intro": "Tulis pola itu sekali dan bukan dengan tekaan: setiap padanan disorot dan setiap kumpulan disenaraikan bersama kedudukannya.",
+      "steps": [
+        "Masukkan pola dan benderanya.",
+        "Tampal rentetan ujian.",
+        "Baca padanan dan kumpulan yang disorot.",
+        "Buka penjelasan untuk huraian simbol demi simbol."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa pola saya berfungsi di tempat lain tetapi tidak di sini?",
+          "a": "JavaScript tiada lihat belakang pada enjin lama dan tiada sintaks set bernama; penguji ini melaporkan perbezaan enjin tersebut."
+        },
+        {
+          "q": "Adakah ia melindungi daripada backtracking yang buruk?",
+          "a": "Pola yang meletup diberi had masa dengan amaran yang jelas dan bukan membekukan tab anda."
+        }
+      ]
+    },
+    "diff-checker": {
+      "desc": "Perbandingan baris demi baris antara dua versi fail, kontrak atau artikel, dengan penambahan dan pemadaman berwarza serta ringkasan siap salin.",
+      "intro": "Bagus sebelum memulangkan dokumen kepada rakan sekerja: ia menunjukkan dengan tepat ayat mana yang berubah.",
+      "steps": [
+        "Tampal versi asal di kiri dan versi berubah di kanan.",
+        "Abaikan besar kecil huruf atau ruang jika bunyi format mengganggu anda.",
+        "Baca beza berwarza itu.",
+        "Salin baris yang berubah sahaja jika anda memerlukannya."
+      ],
+      "faq": [
+        {
+          "q": "Berapa besarnya fail yang dibenarkan?",
+          "a": "Beberapa ribu baris masih selesa; melebihi itu, pelayar anda lebih sesuai dengan alat beza yang khusus."
+        },
+        {
+          "q": "Adakah ia membuat perubahan peringkat perkataan?",
+          "a": "Ya, apabila sesuatu baris berbeza, alat ini jatuh kepada perbandingan perkataan di dalam baris tersebut."
+        }
+      ]
+    },
+    "text-to-speech": {
+      "title": "Teks ke Ucapan",
+      "h1": "Bacakan teks dengan suara pelayar yang natural",
+      "desc": "Tukar mana-mana perenggan menjadi ucapan, pilih suara dan bahasa, laras kelajuan dan nada, serta semak skrip dengan telinga.",
+      "intro": "Suara yang ada ialah yang telah dipasang oleh sistem operasi anda — tiada akaun, tiada muat turun, dan ia berfungsi tanpa rangkaian pada kebanyakan peranti.",
+      "steps": [
+        "Tampal teks.",
+        "Pilih suara; senarai itu mencerminkan sistem anda.",
+        "Tetapkan kelajuan dan nada.",
+        "Tekan Main."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya memuat turun audionya?",
+          "a": "Tidak secara langsung; API pelayar menstrimkannya. Guna perakam audio dalam OS anda jika anda perlukan sesuatu fail."
+        },
+        {
+          "q": "Mengapa suaranya sedikit?",
+          "a": "Bilangan bergantung pada sistem operasi dan pek bahasa yang dipasang. Windows dan macOS membolehkan anda menambah lagi."
+        }
+      ]
+    }
+  }
+}

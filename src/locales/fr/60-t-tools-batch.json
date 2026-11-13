@@ -1,0 +1,202 @@
+{
+  "t": {
+    "shoe-size-converter": {
+      "title": "Convertisseur de pointure",
+      "h1": "Convertisseur de pointures — US, EU, UK et CN",
+      "desc": "Convertissez les pointures US, EU, UK et CN, homme et femme. Entrez une pointure ou une longueur de pied et voyez tous les systèmes — gratuit et instantané.",
+      "intro": "Ce convertisseur fait correspondre une pointure ou une longueur de pied en centimètres entre les systèmes US, EU, UK et CN, pour les coupes homme et femme. Saisissez une pointure dans n'importe quel système, ou mesurez votre pied du talon à l'orteil, et il affiche l'équivalent dans tous les autres, plus la longueur du pied en cm et en pouces. Les conversions sont des standards commerciaux approximatifs et varient selon la marque et la forme.",
+      "steps": [
+        "Choisissez la coupe homme ou femme.",
+        "Sélectionnez le système de pointure que vous connaissez (US, EU, UK, CN ou cm).",
+        "Saisissez votre pointure ou la longueur de votre pied.",
+        "Lisez les pointures équivalentes dans chaque système."
+      ],
+      "faq": [
+        {
+          "q": "Comment mesurer mon pied pour choisir la bonne pointure ?",
+          "a": "Tenez-vous debout sur une feuille de papier le soir, marquez le talon et l'orteil le plus long, puis mesurez la distance en centimètres. Saisissez cette longueur dans le système cm ; mesurez les deux pieds et retenez le plus grand."
+        },
+        {
+          "q": "Ces conversions sont-elles exactes ?",
+          "a": "Ce sont des standards commerciaux approximatifs. Les marques et les formes de chaussures diffèrent : consultez toujours le guide des pointures du fabricant et choisissez la pointure supérieure si vous êtes entre deux."
+        }
+      ]
+    },
+    "rmb-uppercase": {
+      "title": "Convertisseur RMB en majuscules",
+      "h1": "Convertir un montant en RMB majuscules chinoises",
+      "desc": "Convertissez un nombre en montant RMB majuscules chinois, utilisé sur les chèques et factures. Gère yuan, jiao et fen. Gratuit, instantané, sans envoi.",
+      "intro": "Saisissez un montant et le convertisseur l'écrit dans la forme financière en majuscules chinoises (daxie) utilisée sur les chèques, factures et contrats pour empêcher toute falsification. Il gère les yuan, les jiao et les fen, marque correctement un montant entier exact et fonctionne jusqu'à un peu moins de mille milliards. Le calcul utilise des centimes entiers pour éviter les erreurs de virgule flottante.",
+      "steps": [
+        "Saisissez le montant, par exemple 1234.56.",
+        "Le montant en RMB majuscules s'affiche instantanément.",
+        "Vérifiez les parties yuan, jiao et fen.",
+        "Copiez le résultat pour votre chèque ou votre facture."
+      ],
+      "faq": [
+        {
+          "q": "À quoi sert le montant en majuscules chinoises ?",
+          "a": "C'est la forme financière infalsifiable (daxie) exigée sur les chèques, factures et contrats en Chine, où les chiffres ordinaires pourraient être modifiés. Chaque chiffre possède un caractère complexe, difficile à falsifier."
+        },
+        {
+          "q": "Comment les décimales sont-elles gérées ?",
+          "a": "La première décimale correspond aux jiao et la seconde aux fen. Un montant entier exact se termine par un caractère signifiant « sans centimes », ainsi 100 et 100.00 sont tous deux écrits correctement."
+        }
+      ]
+    },
+    "world-clock": {
+      "title": "Horloge mondiale",
+      "h1": "Horloge mondiale — fuseaux horaires et planificateur de réunion",
+      "desc": "Heure en direct dans 12 villes du monde : comparez les fuseaux horaires et planifiez une réunion, avec heures ouvrables en évidence. Gratuit, sans inscription.",
+      "intro": "L'horloge mondiale affiche l'heure en direct dans douze grandes villes, chacune avec sa date et un point vert pendant les heures ouvrables locales (09:00–18:00). Faites glisser le planificateur pour caler une réunion entre les fuseaux horaires et voyez à quelle heure elle tombe dans chaque ville, avec un badge quand une ville est à un jour différent. Les heures sont affichées par rapport à votre propre fuseau horaire.",
+      "steps": [
+        "Consultez l'heure en direct dans douze villes du monde.",
+        "Repérez les points verts des heures ouvrables et les badges de jour.",
+        "Faites glisser le planificateur pour fixer l'heure d'une réunion.",
+        "Lisez l'heure locale dans chaque ville."
+      ],
+      "faq": [
+        {
+          "q": "Tient-elle compte de l'heure d'été ?",
+          "a": "Oui. Les heures sont calculées avec la base de données des fuseaux horaires de votre navigateur : les changements d'heure d'été sont donc appliqués automatiquement pour chaque ville."
+        },
+        {
+          "q": "Comment planifier une réunion entre plusieurs fuseaux horaires ?",
+          "a": "Faites glisser le curseur du planificateur jusqu'à une heure dans votre propre fuseau ; chaque carte de ville se met à jour pour afficher son heure locale, et un badge signale toute ville qui tombe un autre jour."
+        }
+      ]
+    },
+    "pomodoro-timer": {
+      "title": "Minuteur Pomodoro",
+      "h1": "Minuteur Pomodoro avec pauses pour la concentration",
+      "desc": "Minuteur Pomodoro pour le travail concentré : sessions de 25 minutes, pauses courtes et longues, compteur et carillon facultatif. Gratuit, dans le navigateur.",
+      "intro": "La technique Pomodoro alterne travail concentré et pauses courtes, puis une pause plus longue après quelques cycles. Réglez les durées de concentration, de pause courte et de pause longue, lancez le minuteur : il décompte avec un compteur de sessions et un carillon facultatif à chaque changement de phase. Le mode plein écran garde un grand décompte visible pendant que vous travaillez. Le minuteur tourne tant que l'onglet est ouvert.",
+      "steps": [
+        "Réglez vos durées de concentration et de pause.",
+        "Appuyez sur Démarrer pour lancer une session de concentration.",
+        "Travaillez jusqu'au carillon, puis prenez une pause.",
+        "Répétez ; une pause longue arrive après quelques cycles."
+      ],
+      "faq": [
+        {
+          "q": "Quelles sont les durées Pomodoro par défaut ?",
+          "a": "Le cycle classique est de 25 minutes de concentration, une pause courte de 5 minutes et une pause longue de 15 minutes après quatre sessions de concentration. Vous pouvez modifier les trois durées et le nombre de cycles."
+        },
+        {
+          "q": "Reste-t-il précis si je change d'onglet ?",
+          "a": "Le minuteur se base sur l'horloge plutôt que de décrémenter : il reste donc précis même quand le navigateur ralentit un onglet en arrière-plan. Gardez l'onglet ouvert, ou utilisez le plein écran pour un grand décompte."
+        }
+      ]
+    },
+    "random-picker": {
+      "title": "Tirage au sort",
+      "h1": "Tirage au sort de noms et roue à faire tourner",
+      "desc": "Roue à tourner pour tirer un nom au sort, ou tirage instantané d'un gagnant. Un nom par ligne, retirez les gagnants, composez une équipe. Gratuit, sans envoi.",
+      "intro": "Saisissez un nom par ligne, faites tourner la roue : un gagnant est choisi avec crypto.getRandomValues(), chaque nom a donc la même chance. Retirez le gagnant après chaque tirage pour composer toute une équipe dans l'ordre, ou utilisez le Tirage rapide pour un résultat instantané sans animation. Réinitialisez pour recommencer. Tout s'exécute localement dans votre navigateur.",
+      "steps": [
+        "Saisissez un nom par ligne.",
+        "Appuyez sur Faire tourner la roue (ou Tirage rapide).",
+        "Lisez le gagnant.",
+        "Retirez le gagnant pour tirer à nouveau, ou réinitialisez."
+      ],
+      "faq": [
+        {
+          "q": "Le tirage est-il vraiment aléatoire ?",
+          "a": "Oui. Il utilise crypto.getRandomValues() du navigateur, une source aléatoire cryptographiquement sûre : chaque nom a la même chance et le résultat n'est pas prévisible."
+        },
+        {
+          "q": "Puis-je tirer plusieurs gagnants sans doublons ?",
+          "a": "Oui. Utilisez « Retirer le gagnant » après chaque tirage pour sortir ce nom de la roue : vous pouvez ainsi composer toute une équipe dans l'ordre. La réinitialisation restaure tous les noms."
+        }
+      ]
+    },
+    "invoice-generator": {
+      "title": "Générateur de facture",
+      "h1": "Générateur de facture gratuit — créez une facture PDF",
+      "desc": "Créez une facture professionnelle dans votre navigateur : vos coordonnées, les lignes, TVA et remise, puis un PDF ou PNG à télécharger. Gratuit, sans envoi.",
+      "intro": "Renseignez les coordonnées du vendeur et du client, ajoutez des lignes avec quantités et prix, définissez une remise et un taux de TVA : le générateur met en page une facture nette avec les totaux. Prévisualisez-la, puis exportez un PDF d'une page ou une image PNG. Tout est dessiné localement dans votre navigateur : vos données financières ne quittent jamais votre appareil.",
+      "steps": [
+        "Saisissez vos coordonnées et celles du client.",
+        "Ajoutez des lignes avec quantité et prix unitaire.",
+        "Définissez la devise, la remise et le taux de TVA.",
+        "Générez, puis téléchargez le PDF ou le PNG."
+      ],
+      "faq": [
+        {
+          "q": "Les données de ma facture sont-elles envoyées quelque part ?",
+          "a": "Non. La facture est rendue sur un canvas dans votre navigateur et exportée localement en PDF ou en PNG. Rien n'est transmis à un serveur : vos chiffres restent privés."
+        },
+        {
+          "q": "Puis-je utiliser ma propre devise et mon taux de TVA ?",
+          "a": "Oui. Choisissez parmi huit devises et définissez n'importe quel pourcentage de remise et taux de TVA ; le sous-total, la remise, la TVA et le total sont calculés pour vous."
+        }
+      ]
+    },
+    "signature-pad": {
+      "title": "Pad de signature",
+      "h1": "Dessinez votre signature en ligne — PNG transparent",
+      "desc": "Dessinez votre signature à la souris, au doigt ou au stylet et téléchargez un PNG transparent. Annulez, effacez, rognez l'espace vide. Gratuit, sans envoi.",
+      "intro": "Signez sur le canvas avec une souris, un écran tactile ou un stylet, choisissez la couleur et l'épaisseur du trait, puis téléchargez un PNG à fond transparent qui se pose proprement sur un contrat ou un formulaire. Annulez des traits, effacez le pad ou rognez l'espace vide autour de votre signature. Rien n'est envoyé : le dessin reste dans votre navigateur.",
+      "steps": [
+        "Dessinez votre signature sur le pad.",
+        "Ajustez la couleur et l'épaisseur du trait si besoin.",
+        "Annulez ou effacez pour corriger ; rognez l'espace vide.",
+        "Téléchargez le PNG transparent."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi le fond est-il transparent ?",
+          "a": "Le PNG est exporté avec une couche alpha : seuls vos traits sont opaques. Vous pouvez ainsi poser la signature sur un document sans cadre blanc autour."
+        },
+        {
+          "q": "Puis-je signer sur un téléphone ou une tablette ?",
+          "a": "Oui. Le pad utilise les événements de pointeur : un doigt ou un stylet fonctionne comme une souris. Dessinez, puis téléchargez le PNG sur votre appareil."
+        }
+      ]
+    },
+    "id-photo-maker": {
+      "title": "Créateur de photo d'identité",
+      "h1": "Créateur de photos de passeport et d'identité en ligne",
+      "desc": "Créez vos photos de passeport, visa et identité chez vous. Recadrez au bon format, réglez les dpi et remplacez le fond par blanc, bleu ou rouge. Gratuit.",
+      "intro": "Importez un portrait, choisissez un format prédéfini (Chine 1 pouce, Chine 2 pouces, passeport/visa ou passeport américain) ou une taille personnalisée en millimètres, et réglez la résolution d'impression. Zoomez et déplacez pour cadrer la tête, puis remplacez si besoin un fond uni par du blanc, du bleu ou du rouge. La photo est traitée localement et téléchargée en JPEG prêt à imprimer.",
+      "steps": [
+        "Importez un portrait net, de face.",
+        "Choisissez un format prédéfini ou une largeur et une hauteur personnalisées.",
+        "Zoomez et ajustez la position ; remplacez le fond si besoin.",
+        "Créez la photo et téléchargez le JPEG."
+      ],
+      "faq": [
+        {
+          "q": "Cette photo sera-t-elle acceptée pour mon passeport ?",
+          "a": "Elle produit une photo au bon format et en haute résolution, mais l'acceptation dépend des règles de votre autorité de délivrance concernant la pose, l'éclairage et le fond. Vérifiez toujours les exigences officielles avant d'imprimer."
+        },
+        {
+          "q": "Comment fonctionne le remplacement d'arrière-plan ?",
+          "a": "Il supprime la couleur présente dans le coin supérieur gauche de votre photo : partez donc d'un fond uni et uniformément éclairé. Ajustez la tolérance pour supprimer plus ou moins d'ancien arrière-plan."
+        }
+      ]
+    },
+    "contract-generator": {
+      "title": "Générateur de contrat",
+      "h1": "Générateur gratuit de NDA et de contrat de prestation",
+      "desc": "Générez un NDA mutuel ou un contrat de prestation à partir d'un modèle simple. Renseignez parties, objet et conditions, puis téléchargez ou imprimez. Gratuit.",
+      "intro": "Choisissez un accord de confidentialité mutuel ou un contrat de prestation de services, renseignez les parties, la date d'effet, l'objet ou le périmètre, la durée et le droit applicable : le générateur assemble un projet en langage clair. Téléchargez-le en fichier texte ou imprimez-le. Le projet est créé dans votre navigateur et jamais envoyé. Ceci est un modèle général, pas un conseil juridique — faites-le relire par un avocat qualifié avant de signer.",
+      "steps": [
+        "Choisissez NDA ou contrat de prestation.",
+        "Saisissez les parties, la date et les conditions clés.",
+        "Générez le projet et relisez-le.",
+        "Téléchargez le .txt ou imprimez-le."
+      ],
+      "faq": [
+        {
+          "q": "Est-ce un contrat juridiquement contraignant ?",
+          "a": "C'est un modèle général pour démarrer, pas un conseil juridique. Les lois varient selon le pays et la situation : faites-le relire et adapter par un avocat qualifié avant que quiconque signe."
+        },
+        {
+          "q": "Que puis-je personnaliser ?",
+          "a": "Les parties, la date d'effet, l'objet ou le périmètre des services, les honoraires, la durée et le droit applicable. Supprimez les clauses qui ne s'appliquent pas et ajoutez les détails propres à votre accord."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "t": {
+    "audio-joiner": {
+      "title": "Audio zusammenfügen",
+      "h1": "Audiodateien zusammenfügen und MP3 online verbinden",
+      "desc": "Füge MP3-, WAV-, M4A- und OGG-Dateien in der Reihenfolge deiner Wahl zu einem Titel zusammen. Kostenlos, ohne Upload, ohne Wasserzeichen — direkt im Browser.",
+      "intro": "Füge zwei oder mehr Clips hinzu und ziehe sie in die richtige Reihenfolge. Das Tool dekodiert jede Datei, gleicht Abtastrate und Kanäle an und fügt sie zu einer einzigen MP3- oder WAV-Datei zusammen. Alles läuft lokal, sodass private Aufnahmen dein Gerät niemals verlassen.",
+      "steps": [
+        "Füge die Audiodateien hinzu, die du zusammenfügen möchtest.",
+        "Ziehe sie oder nutze die Pfeile, um die Abspielreihenfolge festzulegen.",
+        "Wähle MP3 oder WAV und eine Bitrate.",
+        "Klicke auf „Zusammenfügen“ und lade den einzelnen Titel herunter."
+      ],
+      "faq": [
+        {
+          "q": "Kann ich Dateien unterschiedlicher Formate zusammenfügen?",
+          "a": "Ja. Jede Datei wird in Roh-Samples dekodiert und vor dem Zusammenfügen auf eine gemeinsame Abtastrate und Kanalzahl gebracht, sodass MP3, WAV, M4A und OGG gemischt werden können."
+        },
+        {
+          "q": "Gibt es eine Grenze für die Anzahl der Dateien, die ich verbinden kann?",
+          "a": "Es gibt keine feste Obergrenze, aber lange Audiodateien werden beim De- und Enkodieren im Speicher gehalten. Halte die Gesamtmenge auf Geräten mit wenig Arbeitsspeicher daher überschaubar."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Audio konvertieren",
+      "h1": "Audio online in MP3, WAV und mehr konvertieren",
+      "desc": "Wandle WAV im Browser in MP3, M4A, OGG und andere Audioformate um. Wähle Abtastrate und Bitrate und lade das Ergebnis herunter — ohne Upload, ohne Konto.",
+      "intro": "Der Konverter dekodiert deine Datei mit der Audio-Engine des Browsers, rechnet sie auf die gewünschte Abtastrate um und enkodiert sie neu als MP3 (klein und universell) oder WAV (verlustfrei). Da alles auf deinem Gerät abläuft, verlässt die Originaldatei es niemals.",
+      "steps": [
+        "Lade die Audiodatei, die du konvertieren möchtest.",
+        "Wähle die Abtastrate für die Ausgabe.",
+        "Wähle MP3 oder WAV und bei MP3 zusätzlich eine Bitrate.",
+        "Klicke auf „Konvertieren“ und lade die neue Datei herunter."
+      ],
+      "faq": [
+        {
+          "q": "Welche Eingabeformate kann das Tool lesen?",
+          "a": "Alles, was dein Browser dekodieren kann — gängig sind MP3, WAV, OGG, M4A/AAC und FLAC. Manche DRM-geschützten oder ungewöhnlichen Codecs lehnt der Browser selbst ab."
+        },
+        {
+          "q": "Warum ist meine MP3-Datei kleiner als die WAV-Datei?",
+          "a": "MP3 ist eine verlustbehaftete Komprimierung; WAV speichert jedes Sample unkomprimiert. Für Sprache und zum Teilen reichen meist 128–192 kbps; für ein verlustfreies Master wähle WAV."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Lautstärke verstärken",
+      "h1": "Audio-Lautstärke online ändern — verstärken oder senken",
+      "desc": "Erhöhe oder senke die Lautstärke von MP3-, WAV- oder M4A-Dateien. Wähle 0 bis 400%, höre hinein und lade herunter. Kostenlos, komplett im Browser.",
+      "intro": "Dieses Tool multipliziert jedes Sample mit dem eingestellten Verstärkungsfaktor: 100% erhält die ursprüngliche Lautstärke, 200% verdoppelt sie und 50% halbiert sie. Eine Anhebung weit über 100% kann laute Spitzen abschneiden — höre das Ergebnis daher vor dem Export an.",
+      "steps": [
+        "Lade die Audiodatei.",
+        "Ziehe den Lautstärkeregler auf den gewünschten Pegel.",
+        "Wähle MP3 oder WAV als Ausgabe.",
+        "Klicke auf „Anwenden“, höre hinein und lade herunter."
+      ],
+      "faq": [
+        {
+          "q": "Warum verzerrt der Ton, wenn ich ihn stark anhebe?",
+          "a": "Samples über dem Vollpegel werden abgeschnitten. Ist das Original schon laut, schiebt eine starke Anhebung die Spitzen über die Grenze; versuche es zuerst mit einem geringeren Faktor."
+        },
+        {
+          "q": "Kann ich eine Datei stattdessen auch leiser machen?",
+          "a": "Ja — stelle den Regler unter 100%. 50% entspricht der halben Amplitude, einem deutlich hörbaren Abfall der Lautstärke."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Audio umkehren",
+      "h1": "Audio online umkehren und rückwärts abspielen",
+      "desc": "Kehre eine Audiodatei um, sodass sie rückwärts läuft — vom Ende zum Anfang. Dauer und Tonhöhe bleiben gleich. Kostenlos für MP3 und WAV, ohne Upload.",
+      "intro": "Beim Umkehren wird die Wellenform vom letzten Sample zum ersten kopiert, sodass der Ton rückwärts läuft, aber Länge und Tonhöhe behält. So erzeugst du klassische Riser-Effekte, prüfst versteckte Botschaften oder hörst einen Song rückwärts.",
+      "steps": [
+        "Lade die Audiodatei.",
+        "Wähle optional MP3 oder WAV als Ausgabe.",
+        "Klicke auf „Umkehren“.",
+        "Spiele das Ergebnis ab und lade es herunter."
+      ],
+      "faq": [
+        {
+          "q": "Ändern sich beim Umkehren Tonhöhe oder Geschwindigkeit?",
+          "a": "Nein. Die Samples werden lediglich in umgekehrter Reihenfolge gelesen, daher bleiben Dauer und Frequenzen unverändert — nur die Zeitrichtung dreht sich um."
+        },
+        {
+          "q": "Wofür kann ich umgekehrtes Audio verwenden?",
+          "a": "Für Riser-Übergänge, Sounddesign, die Suche nach rückwärts versteckten Botschaften (Backmasking) oder für palindrome Clips, die vorwärts und rückwärts gleich klingen."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Audio-Tempo ändern",
+      "h1": "Audio beschleunigen oder verlangsamen, ohne die Tonhöhe zu ändern",
+      "desc": "Ändere das Audio-Tempo von 50% bis 200%, während die Tonhöhe natürlich bleibt. Vorträge beschleunigen oder Musik zum Lernen verlangsamen — im Browser.",
+      "intro": "Der Tempo-Änderer arbeitet mit Overlap-Add-Zeitdehnung, sodass eine beschleunigte Stimme nicht wie ein Chipmunk klingt und ein verlangsamter Song nicht tiefer wird. 100% ist das Originaltempo; 200% spielt doppelt so schnell in der halben Zeit.",
+      "steps": [
+        "Lade die Audiodatei.",
+        "Stelle den Tempo-Regler ein (50%–200%).",
+        "Wähle MP3 oder WAV als Ausgabe.",
+        "Klicke auf „Anwenden“ und lade den Clip mit neuem Tempo herunter."
+      ],
+      "faq": [
+        {
+          "q": "Wird die Tonhöhe höher, wenn ich Audio beschleunige?",
+          "a": "Nein — genau das ist der Sinn der Zeitdehnung. Das Tempo ändert sich, aber die Tonhöhe bleibt gleich, anders als beim einfachen Resampling der Datei."
+        },
+        {
+          "q": "Wie extrem darf die Tempoänderung sein?",
+          "a": "Der Regler reicht von 50% bis 200%. Sehr starke Dehnungen können bei komplexem Material ein leichtes Flattern erzeugen; moderate Änderungen klingen am natürlichsten."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Tonhöhe ändern",
+      "h1": "Tonhöhe von Audio online erhöhen oder senken",
+      "desc": "Ändere die Tonhöhe um bis zu 12 Halbtöne in beide Richtungen – ohne die Dauer zu ändern. Stimme oder Instrument erhöhen oder senken, gratis herunterladen.",
+      "intro": "Beim Pitch-Shifting wird das Audio zunächst umgesampelt, um die Frequenz zu verschieben, und dann auf die ursprüngliche Länge zeitgedehnt. Der Clip dauert also gleich lang, klingt aber höher oder tiefer. +12 Halbtöne sind eine Oktave nach oben; −12 ist eine Oktave nach unten.",
+      "steps": [
+        "Lade die Audiodatei.",
+        "Stelle die Tonhöhenverschiebung in Halbtönen ein (−12 bis +12).",
+        "Wähle MP3 oder WAV als Ausgabe.",
+        "Klicke auf „Anwenden“ und lade den Clip mit neuer Tonhöhe herunter."
+      ],
+      "faq": [
+        {
+          "q": "Ändert sich die Dateilänge, wenn ich die Tonhöhe ändere?",
+          "a": "Nein. Das Tool stellt nach der Verschiebung die ursprüngliche Dauer wieder her, sodass sich nur die Tonhöhe ändert, nicht das Timing."
+        },
+        {
+          "q": "Was ist ein Halbton?",
+          "a": "Der kleinste Schritt in der westlichen Musik — eine Taste auf dem Klavier. Zwölf Halbtöne ergeben eine Oktave: +12 verdoppelt die Frequenz, −12 halbiert sie."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Audio-Equalizer",
+      "h1": "Online-Audio-Equalizer mit Bass- und Höhen-Boost",
+      "desc": "Passe fünf Bänder (60 Hz–12 kHz) an, um Bass zu verstärken, Höhen aufzuhellen oder Vocals zu formen. Presets oder manuell – gratis Export als MP3 oder WAV.",
+      "intro": "Ein Fünf-Band-Peaking-Equalizer lässt dich Bässe, Tiefmitten, Mitten, Hochmitten und Höhen um jeweils bis zu 12 dB anheben oder absenken. Starte mit einer Voreinstellung — Linear, Bass-Boost, Gesang oder Höhen-Boost — justiere nach und rendere die Änderung in eine neue Datei.",
+      "steps": [
+        "Lade die Audiodatei.",
+        "Wähle eine Voreinstellung oder ziehe die fünf Bandregler.",
+        "Wähle MP3 oder WAV als Ausgabe.",
+        "Klicke auf „Anwenden“ und lade den bearbeiteten Titel herunter."
+      ],
+      "faq": [
+        {
+          "q": "Was steuern die fünf Bänder?",
+          "a": "60 Hz geben dem Bass Gewicht, 250 Hz Wärme, 1 kHz den Körper der Stimme, 4 kHz Präsenz und Klarheit und 12 kHz Luft und Glanz. Hebe jedes Band nach Geschmack an oder senke es ab."
+        },
+        {
+          "q": "Wird der EQ auf die heruntergeladene Datei angewendet?",
+          "a": "Ja. Anders als ein reiner Wiedergabe-Equalizer rendert dieses Tool die Filterung in die exportierte MP3- oder WAV-Datei, sodass die Änderung in der Datei dauerhaft ist."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Sprachrekorder",
+      "h1": "Audio online mit dem Mikrofon aufnehmen",
+      "desc": "Nimm deine Stimme direkt im Browser über das Mikrofon auf. Aufnehmen, stoppen, vorhören und herunterladen — ohne App, ohne Upload, ohne Konto.",
+      "intro": "Der Rekorder nimmt dein Mikrofon mit der MediaRecorder-API des Browsers auf und speichert die Aufnahme lokal, sodass du sie vorhören und herunterladen kannst. Nichts wird an einen Server gesendet; die Aufnahme bleibt auf deinem Gerät, bis du sie sicherst.",
+      "steps": [
+        "Klicke auf „Aufnehmen“ und erlaube den Mikrofonzugriff.",
+        "Sprich oder spiele den Ton ab, den du aufnehmen möchtest.",
+        "Klicke auf „Stoppen“, wenn du fertig bist.",
+        "Höre die Aufnahme vor und lade sie herunter."
+      ],
+      "faq": [
+        {
+          "q": "Wo wird meine Aufnahme gespeichert?",
+          "a": "Bis zum Download nur im Speicher deines Browsers. Es wird nichts hochgeladen — sobald du die Seite schließt, ist eine nicht gespeicherte Aufnahme verloren."
+        },
+        {
+          "q": "Warum fragt der Browser nach einer Berechtigung?",
+          "a": "Der Mikrofonzugriff erfordert immer deine ausdrückliche Zustimmung. Hast du ihn abgelehnt, aktiviere die Mikrofonberechtigung für diese Seite erneut und klicke wieder auf „Aufnehmen“."
+        }
+      ]
+    }
+  }
+}

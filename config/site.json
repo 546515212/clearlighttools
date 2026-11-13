@@ -1,0 +1,77 @@
+{
+  "brand": "ClearLight Tools",
+  "brandTldHint": "clearlighttools.com",
+  "baselineUrl": "https://clearlighttools.com",
+  "productName": "Free online tools that run entirely in your browser",
+  "supportEmail": "546515212@qq.com",
+  "defaultLocale": "en",
+  "locales": ["en", "zh", "es", "fr", "de", "pt", "ja", "ko", "ru", "vi", "ms", "id", "hi"],
+
+  "localeNames": {
+    "en": "English", "zh": "中文", "es": "Español", "fr": "Français", "de": "Deutsch",
+    "pt": "Português", "ja": "日本語", "ko": "한국어", "ru": "Русский", "vi": "Tiếng Việt",
+    "ms": "Bahasa Melayu", "id": "Bahasa Indonesia", "hi": "हिन्दी"
+  },
+
+  "routing": {
+    "comment": "Retained reference table only. The root / always opens the English home /en/ (server 301/308 plus a client fallback); language changes only via the manual header menu. The platform country header is used solely to gate the GDPR consent banner, never to pick a language or redirect.",
+    "countryToLocales": {
+      "CN": ["zh"], "TW": ["zh"], "HK": ["zh"], "MO": ["zh"],
+      "JP": ["ja"], "KR": ["ko"], "KP": ["ko"],
+      "VN": ["vi"],
+      "MY": ["ms", "en", "zh"], "BN": ["ms", "en"], "ID": ["id", "ms", "en"], "SG": ["en", "zh", "ms"],
+      "IN": ["hi", "en"], "NP": ["hi", "en"], "BT": ["hi", "en"],
+      "RU": ["ru"], "BY": ["ru"], "KZ": ["ru"], "KG": ["ru"], "TJ": ["ru"], "TM": ["ru"], "UZ": ["ru", "en"], "MD": ["ru", "en"], "AM": ["ru", "en"], "AZ": ["ru", "en"], "GE": ["ru", "en"],
+
+      "ES": ["es"], "MX": ["es"], "AR": ["es"], "CO": ["es"], "CL": ["es"], "PE": ["es"], "VE": ["es"], "EC": ["es"], "GT": ["es"], "CU": ["es"], "DO": ["es"], "BO": ["es"], "UY": ["es"], "PY": ["es"], "CR": ["es"], "PA": ["es"], "NI": ["es"], "HN": ["es"], "SV": ["es"], "PR": ["es"],
+      "BR": ["pt"], "PT": ["pt"], "AO": ["pt"], "MZ": ["pt"], "CV": ["pt"], "GW": ["pt"], "ST": ["pt"], "TL": ["pt"],
+
+      "FR": ["fr"], "MC": ["fr"], "LU": ["fr"], "BE": ["fr", "nl", "de", "en"], "CH": ["de", "fr", "it", "en"], "CA": ["en", "fr"],
+      "DE": ["de"], "AT": ["de"], "LI": ["de"],
+      "DZ": ["fr", "ar", "en"], "MA": ["fr", "ar", "en"], "TN": ["fr", "ar", "en"], "LY": ["fr", "ar"],
+
+      "GB": ["en"], "IE": ["en"], "US": ["en"], "AU": ["en"], "NZ": ["en"],
+      "IT": ["en"], "NL": ["en"], "SE": ["en"], "NO": ["en"], "DK": ["en"], "FI": ["en"], "IS": ["en"],
+      "PL": ["en"], "SK": ["en"], "CZ": ["cs", "en"], "HU": ["hu", "en"], "RO": ["ro", "en"], "BG": ["bg", "en"],
+      "GR": ["en"], "HR": ["en"], "SI": ["en"], "RS": ["en"], "BA": ["en"], "MK": ["en"], "AL": ["en"], "MT": ["en"], "CY": ["en"], "UA": ["uk", "ru", "en"], "EE": ["en"], "LV": ["en"], "LT": ["en"],
+
+      "ZA": ["en"], "NG": ["en"], "KE": ["en"], "GH": ["en"], "UG": ["en"], "TZ": ["en"], "ZM": ["en"], "ZW": ["en"], "MW": ["en"], "BW": ["en"], "NA": ["en"], "RW": ["fr", "en"], "BI": ["fr", "en"], "BJ": ["fr", "en"], "TG": ["fr", "en"], "CF": ["fr", "en"], "GA": ["fr", "en"], "CG": ["fr", "en"], "CD": ["fr", "en"], "CM": ["fr", "en"], "BF": ["fr", "en"], "ML": ["fr", "en"], "NE": ["fr", "en"], "TD": ["fr", "en"], "CI": ["fr", "en"], "SN": ["fr", "en"], "GM": ["en"], "SL": ["en"], "LR": ["en"], "ET": ["en"], "ER": ["en"], "SO": ["en"], "DJ": ["fr", "en"], "SD": ["en"], "SS": ["en"], "MR": ["fr", "en"], "GN": ["fr", "en"], "MU": ["en"], "SC": ["en"], "MG": ["fr", "en"], "LS": ["en"], "SZ": ["en"], "GQ": ["es", "fr", "en"], "EH": ["fr", "en"], "SH": ["en"], "YT": ["fr"], "RE": ["fr"], "GP": ["fr"], "MQ": ["fr"], "GF": ["fr"], "AW": ["en"], "CW": ["en"], "SX": ["en"], "BQ": ["en"],
+
+      "AE": ["en", "ar"], "SA": ["en", "ar"], "QA": ["en", "ar"], "KW": ["en", "ar"], "BH": ["en", "ar"], "OM": ["en", "ar"], "JO": ["en", "ar"], "LB": ["en", "ar"], "IL": ["en", "he"], "TR": ["en", "tr"], "IR": ["en", "fa"], "IQ": ["en", "ar"], "SY": ["en", "ar"], "YE": ["en", "ar"], "PS": ["en", "ar"],
+
+      "TH": ["en"], "KH": ["en"], "LA": ["en"], "MM": ["en"], "PH": ["en"],
+      "PK": ["en"], "BD": ["en"], "LK": ["en"], "MV": ["en"], "AF": ["en"], "MN": ["en"]
+    },
+
+    "timezoneToLocale": {
+      "Asia/Shanghai": "zh", "Asia/Urumqi": "zh", "Asia/Taipei": "zh", "Asia/Hong_Kong": "zh",
+      "Asia/Tokyo": "ja", "Asia/Seoul": "ko", "Asia/Ho_Chi_Minh": "vi", "Asia/Jakarta": "ms", "Asia/Kuala_Lumpur": "ms", "Asia/Singapore": "en",
+      "Asia/Kolkata": "hi", "Asia/Calcutta": "hi", "Asia/Kathmandu": "hi",
+      "Europe/Moscow": "ru", "Europe/Kyiv": "ru", "Europe/Alma_Ma": "ru",
+      "America/Mexico_City": "es", "America/Bogota": "es", "America/Argentina/Buenos_Aires": "es", "America/Lima": "es", "America/Santiago": "es", "America/Caracas": "es",
+      "America/Sao_Paulo": "pt", "Europe/Lisbon": "pt",
+      "Europe/Paris": "fr", "Europe/Madrid": "es", "Europe/Berlin": "de", "Europe/Rome": "fr",
+      "Africa/Lagos": "en", "Africa/Nairobi": "en", "Africa/Johannesburg": "en", "Africa/Cairo": "en", "Africa/Algiers": "fr", "Africa/Casablanca": "fr"
+    }
+  },
+
+  "ads": {
+    "comment": "ENABLE_ADS master switch. enabled=false (default) => the native adSlot() renderer in src/templates.mjs emits ZERO ad DOM on every page — clean for the AdSense review submission and local testing, never a placeholder box. After approval set enabled=true, fill clientId (ca-pub-…) and the per-unit slotIds below; only then do real <ins class=adsbygoogle> units render. Density is capped at the template call sites: tool/home/category pages keep at most 2 slots (header above the tool, inContent below the results), legal keeps 1 (inContent below the prose); no popups or interstitials anywhere.",
+    "enabled": false,
+    "provider": "adsense",
+    "clientId": "",
+    "slotIds": { "header": "", "inContent": "" },
+    "slots": {
+      "header": { "format": "horizontal", "size": "970x250", "label": "Leaderboard" },
+      "inContent": { "format": "fluid", "size": "responsive", "label": "Below the tool" }
+    },
+    "dataPrivacy": true
+  },
+
+  "analytics": { "gtagId": "" },
+  "consent": {
+    "enabled": true,
+    "regions": ["EU", "EEA", "GB", "CH"],
+    "note": "AdSense requires GDPR consent for EU/EEA/UK traffic. Turn on the platform CMP (or Google CMP) before going live."
+  }
+}

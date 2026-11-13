@@ -1,0 +1,48 @@
+{
+  "t": {
+    "screen-recorder": {
+      "title": "Enregistreur d'écran",
+      "h1": "Enregistrez votre écran en ligne gratuitement",
+      "desc": "Capturez l'écran, une fenêtre ou un onglet, audio système en option. Enregistrez, arrêtez, prévisualisez et téléchargez le WebM — sans installation ni envoi.",
+      "intro": "L'enregistreur d'écran utilise l'API de capture d'affichage du navigateur pour enregistrer tout votre écran, une seule fenêtre ou un onglet, avec l'audio lorsque c'est pris en charge. La vidéo est assemblée localement et proposée au téléchargement ; elle ne touche jamais un serveur.",
+      "steps": [
+        "Appuyez sur Enregistrer et choisissez quoi partager (écran, fenêtre ou onglet).",
+        "Incluez facultativement l'audio dans le sélecteur de partage.",
+        "Appuyez sur Arrêter, ou mettez fin au partage, lorsque vous avez terminé.",
+        "Prévisualisez le clip et téléchargez le WebM."
+      ],
+      "faq": [
+        {
+          "q": "Quels navigateurs prennent en charge l'enregistrement d'écran ?",
+          "a": "Chrome et Edge sur ordinateur offrent la capture d'affichage la plus fiable, et Firefox la prend aussi en charge. Les navigateurs mobiles ne le font généralement pas ; utilisez donc un navigateur de bureau."
+        },
+        {
+          "q": "Peut-il enregistrer l'audio système ?",
+          "a": "Lorsque vous partagez un onglet ou tout l'écran, le sélecteur propose une option audio. L'inclusion de l'audio système dépend du navigateur et de ce que vous avez partagé."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Enregistreur webcam",
+      "h1": "Enregistrez une vidéo depuis votre webcam en ligne",
+      "desc": "Enregistrez-vous avec caméra et micro dans le navigateur. Prévisualisez le flux en direct, lancez l'enregistrement, puis téléchargez — gratuit, sans logiciel.",
+      "intro": "L'enregistreur webcam affiche un aperçu en direct de votre caméra, le capture avec le microphone via MediaRecorder et enregistre le clip localement pour prévisualisation et téléchargement. La vidéo ne quitte jamais votre appareil, sauf si vous la téléchargez.",
+      "steps": [
+        "Appuyez sur Enregistrer et autorisez l'accès à la caméra et au microphone.",
+        "Vérifiez l'aperçu en direct et cadrez-vous.",
+        "Appuyez sur Arrêter lorsque vous avez terminé.",
+        "Prévisualisez l'enregistrement et téléchargez-le."
+      ],
+      "faq": [
+        {
+          "q": "La vidéo est-elle envoyée quelque part ?",
+          "a": "Non. Elle est enregistrée et conservée dans votre navigateur, puis proposée en téléchargement local. Rien n'est envoyé à un serveur."
+        },
+        {
+          "q": "Quel est le format de l'enregistrement ?",
+          "a": "Une vidéo WebM (VP8/VP9 avec audio Opus) lorsque le navigateur la prend en charge, lisible dans les navigateurs modernes et la plupart des éditeurs. Certains navigateurs peuvent produire du MP4."
+        }
+      ]
+    }
+  }
+}

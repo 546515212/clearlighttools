@@ -1,0 +1,219 @@
+{
+  "t": {
+    "percentage-calculator": {
+      "desc": "Jawab empat pertanyaan persentase yang benar-benar dicari orang: berapa X persen dari Y, X itu berapa persen dari Y, naik atau turun X persen.",
+      "intro": "Tiap mode menampilkan aritmetiknya, jadi Anda bisa memeriksa jawabannya atau menjelaskan metodenya kepada orang lain.",
+      "steps": [
+        "Pilih jenis pertanyaannya.",
+        "Isi dua angkanya.",
+        "Baca jawaban dan langkah pengerjaannya."
+      ],
+      "faq": [
+        {
+          "q": "Dari 40 ke 52 — berapa persentase kenaikannya?",
+          "a": "30 persen: bagi selisihnya dengan angka awal, jadi 12 / 40 = 0.3."
+        },
+        {
+          "q": "Mengapa naik 20 persen lalu turun 20 persen tidak kembali netral?",
+          "a": "Perubahan kedua memakai basis baru yang lebih besar. 100 menjadi 120, lalu 96."
+        }
+      ]
+    },
+    "bmi-calculator": {
+      "desc": "Hitung body mass index, lihat kategori mana yang berlaku untuk Anda, dan dapatkan rentang berat yang sehat untuk tinggi badan Anda.",
+      "intro": "BMI adalah angka skrining, bukan diagnosis — kalkulator ini menampilkan kategori beserta batasnya agar Anda membacanya dengan benar.",
+      "steps": [
+        "Pilih satuan metrik atau imperial.",
+        "Masukkan tinggi dan berat badan.",
+        "Baca BMI Anda dan rentang kategorinya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah BMI akurat untuk atlet?",
+          "a": "Kurang akurat. Otot lebih berat daripada lemak, jadi orang yang ramping dan berotot bisa ditandai kelebihan berat badan."
+        },
+        {
+          "q": "Apakah anak-anak dinilai dengan cara yang sama?",
+          "a": "Tidak. Untuk usia di bawah 18 dipakai persentil usia dan jenis kelamin, jadi konsultasikan ke klinisi alih-alih memakai angka ini."
+        }
+      ]
+    },
+    "age-calculator": {
+      "desc": "Dapatkan usia persis dalam tahun, bulan, dan hari, total hari yang dijalani, ulang tahun berikutnya, hari lahir Anda, dan tiap tonggak usia.",
+      "intro": "Berguna untuk formulir yang meminta jumlah hari, dan untuk merencanakan ulang tahun di minggu sebelumnya.",
+      "steps": [
+        "Masukkan tanggal lahir.",
+        "Bila perlu, pilih tanggal lain sebagai pembanding.",
+        "Baca rincian hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa ada dua angka usia?",
+          "a": "Usia tahun penuh versus total bulan dan hari; formulir resmi biasanya meminta tahun penuh."
+        },
+        {
+          "q": "Bagaimana tahun kabisat ditangani?",
+          "a": "Dengan tepat: ulang tahun 29 Februari dihitung setahun pada hari berikutnya di tahun bukan kabisat."
+        }
+      ]
+    },
+    "date-calculator": {
+      "desc": "Hitung jarak hari antar tanggal, tambah atau kurangi hari dan hari kerja, dan dapatkan tanggal hasil lengkap dengan nama harinya.",
+      "intro": "Berguna untuk tenggat, masa sewa, rencana proyek, dan pertanyaan tentang berapa lama sesuatu berlangsung.",
+      "steps": [
+        "Pilih mode hitung di antara tanggal atau tambah ke tanggal.",
+        "Masukkan tanggal-tanggalnya dan jumlah hari.",
+        "Putuskan apakah akhir pekan dan hari libur ikut dihitung.",
+        "Baca tanggal hasil dan totalnya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah tanggal akhir ikut dihitung?",
+          "a": "Secara default selisihnya menghitung hari penuh di antara keduanya, jadi alat ini menyatakan dengan jelas apakah salah satu hari termasuk."
+        },
+        {
+          "q": "Bisakah saya mengurangi hari kerja?",
+          "a": "Bisa, beralihlah ke mode hari kerja; hari libur nasional tetap perlu dihitung manual."
+        }
+      ]
+    },
+    "loan-calculator": {
+      "desc": "Perkirakan cicilan bulanan pinjaman pribadi atau kredit rumah, total bunga yang dibayar, dan berapa besar porsi bunga di tahun-tahun awal.",
+      "intro": "Perhitungannya memakai formula amortisasi standar, dan ringkasannya menampilkan rasio bunga terhadap pokok yang tidak selalu diiklankan oleh pemberi pinjaman.",
+      "steps": [
+        "Masukkan jumlah pinjaman, suku bunga tahunan, dan jangka waktunya.",
+        "Baca cicilan bulanannya.",
+        "Periksa total bunga dan total yang dibayar.",
+        "Bandingkan beberapa jangka waktu untuk melihat berapa biaya sebenarnya pinjaman yang lebih panjang."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini sudah termasuk biaya atau asuransi?",
+          "a": "Belum, hitungannya hanya pokok dan bunga. Tambahkan produk seperti asuransi kredit ke jumlah pinjaman untuk mendekati cicilan sebenarnya."
+        },
+        {
+          "q": "Suku bunga berapa yang harus saya ketik?",
+          "a": "Suku bunga nominal tahunan dibagi dua belas akan diterapkan otomatis, jadi masukkan persen tahunan yang diiklankan."
+        }
+      ]
+    },
+    "discount-calculator": {
+      "desc": "Masukkan harga awal dan diskonnya untuk melihat berapa yang Anda bayar, berapa yang Anda hemat, dan berapa harga barang bila beberapa promo bertumpuk.",
+      "intro": "Alat ini juga menjawab pertanyaan terbalik: jika Anda tahu harga sebelum dan sesudah, ia memberi tahu persen diskonnnya.",
+      "steps": [
+        "Ketik harga awalnya.",
+        "Masukkan persen diskon, atau harga akhirnya.",
+        "Baca berapa yang Anda bayar dan berapa yang Anda hemat.",
+        "Tambahkan diskon kedua untuk menguji promo bertumpuk."
+      ],
+      "faq": [
+        {
+          "q": "Apakah diskon 30 persen lalu 20 persen sama dengan 50 persen?",
+          "a": "Tidak, potongan kedua berlaku pada harga yang sudah turun, jadi total sebenarnya adalah 44 persen."
+        },
+        {
+          "q": "Bisakah sekalian dengan pajak penjualan?",
+          "a": "Bisa, tambahkan tarif pajak untuk melihat jumlah yang benar-benar keluar dari rekening Anda."
+        }
+      ]
+    },
+    "unit-converter": {
+      "desc": "Satu konverter untuk satuan sehari-hari: meter dan feet, kilogram dan pound, Celsius dan Fahrenheit, liter, mil per jam, megabita, dan lainnya.",
+      "intro": "Nilai dikonversi dua arah sambil Anda mengetik, dan faktor yang dipakai ikut ditampilkan agar Anda bisa memeriksa hasil yang terdengar aneh.",
+      "steps": [
+        "Pilih kategorinya.",
+        "Pilih satuan asal dan ketik nilainya.",
+        "Baca angka hasil konversi, atau tukar satuan untuk arah sebaliknya."
+      ],
+      "faq": [
+        {
+          "q": "Seberapa teliti angka yang ditampilkan?",
+          "a": "Enam angka penting; arahkan kursor ke field untuk melihat nilai desimal pastinya."
+        },
+        {
+          "q": "Apakah pint UK dan US berbeda?",
+          "a": "Ya, 568 ml versus 473 ml, dan konverter ini memisahkannya."
+        }
+      ]
+    },
+    "color-converter": {
+      "desc": "Bergerak di antara HEX, RGB, HSL, dan nama CSS, cek kontras terhadap putih dan hitam, dan dapatkan nuansa yang aksesibel secara otomatis.",
+      "intro": "Tempel nilai dalam notasi apa pun dan notasi lainnya langsung terupdate, termasuk rasio kontras WCAG yang Anda butuhkan sebelum melepas warna tombol.",
+      "steps": [
+        "Ketik atau pilih sebuah warna.",
+        "Baca HEX, RGB, dan HSL-nya.",
+        "Cek kontras di latar terang dan latar gelap."
+      ],
+      "faq": [
+        {
+          "q": "Kontras berapa yang saya butuhkan?",
+          "a": "4.5:1 untuk teks biasa dan 3:1 untuk teks besar menurut WCAG AA."
+        },
+        {
+          "q": "Mengapa HEX saya tampak berbeda di ponsel?",
+          "a": "Layar menerapkan profil warna; nilai angkanya identik meskipun hasil tampilannya tidak."
+        }
+      ]
+    },
+    "calorie-calculator": {
+      "title": "Kalkulator Kalori",
+      "h1": "Kalkulator kalori harian dan BMR",
+      "desc": "Perkirakan basal metabolic rate dengan persamaan Mifflin-St Jeor dan kalori harian untuk mempertahankan, menurunkan, atau menaikkan berat badan.",
+      "intro": "Angka-angka ini adalah estimasi berdasarkan rata-rata populasi, berguna sebagai titik awal dan bukan sebagai resep dokter.",
+      "steps": [
+        "Masukkan usia, jenis kelamin, tinggi, dan berat badan.",
+        "Pilih tingkat aktivitas Anda.",
+        "Baca BMR dan kalori pemeliharaan.",
+        "Bandingkan target defisit dan surplus yang ringan."
+      ],
+      "faq": [
+        {
+          "q": "Seberapa akurat kalkulator ini?",
+          "a": "Umumnya meleset sepuluh hingga dua puluh persen untuk dewasa sehat; pengukuran pengeluaran energi secara langsung adalah satu-satunya jawaban yang tepat."
+        },
+        {
+          "q": "Haruskah saya makan sesuai angka defisit itu?",
+          "a": "Jadikan angka itu rujukan dan konsultasikan setiap perubahan signifikan dengan profesional yang berkualifikasi."
+        }
+      ]
+    },
+    "timestamp-converter": {
+      "desc": "Konversi timestamp Unix atau milidetik menjadi tanggal lokal dan UTC yang terbaca, atau ubah tanggal menjadi angka yang API Anda harapkan.",
+      "intro": "Alat ini juga memberi tahu satuan dari nilai yang Anda tempel — penyebab umum tanggal jatuh di tahun 1970 atau 45000.",
+      "steps": [
+        "Tempel timestamp-nya, atau pilih sebuah tanggal.",
+        "Periksa hasil deteksi detik versus milidetik.",
+        "Baca keluaran lokal, UTC, dan ISO."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa tanggal saya jadi Januari 1970?",
+          "a": "Anda mengirim nilai dengan satuan yang salah atau string yang diparse menjadi nol."
+        },
+        {
+          "q": "Zona waktu mana yang dipakai?",
+          "a": "Zona browser Anda untuk baris waktu lokal, plus string UTC dan ISO yang eksplisit."
+        }
+      ]
+    },
+    "random-number-generator": {
+      "desc": "Ambil angka dalam suatu rentang, lempar dadu, flip koin, acak daftar nama, atau undi pemenang tanpa pengulangan untuk giveaway.",
+      "intro": "Nilainya berasal dari sumber acak kriptografis browser, jadi hasilnya layak dipakai untuk keputusan yang benar-benar penting bagi Anda.",
+      "steps": [
+        "Atur nilai minimum dan maksimum.",
+        "Pilih berapa banyak nilai dan apakah pengulangan boleh.",
+        "Klik Hasilkan, atau pakai preset dadu dan koin."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini benar-benar acak?",
+          "a": "Alat ini memakai entropy pool sistem operasi Anda, sumber terkuat yang diizinkan dijangkau sebuah browser."
+        },
+        {
+          "q": "Bisakah saya memilih beberapa pemenang dari sebuah daftar?",
+          "a": "Bisa, tempel nama-namanya, aktifkan mode tanpa pengulangan, dan atur berapa yang akan diambil."
+        }
+      ]
+    }
+  }
+}

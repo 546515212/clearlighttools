@@ -1,0 +1,256 @@
+
+### src/scripts/lib.js (4)
+    79  "Nothing to copy"
+         |  if (!s) { toast(D.common.errorGeneric || 'Nothing to copy'); return false; }
+    99  "This browser blocks copying"
+         |  toast(D.common.notSupported || 'This browser blocks copying');
+   246  "Something went wrong."
+         |  box.append(el('p', { class: 'note err run-error', text: `${D.common.errorGeneric || 'Somethi
+   272  "could not load …"
+         |  const s = el('script', { src: `/_assets/vendor/${file}`, onload: () => res(window[globalName
+
+### src/scripts/runtime.js (2)
+    38  "This tool could not start."
+         |  root.replaceChildren(el('p', { class: 'note err', text: `${D.common.libMissing || 'This tool
+   162  "Our tools are also available in …"
+         |  el('p', { text: D.tool.langSuggested || `Our tools are also available in ${cfg.localeNames[s
+
+### src/scripts/tools/calc.js (43)
+    80  "use a negative number for a drop"
+         |  el('div', { class: 'controls' }, field(L('afterChange', 'After the change'), af, ''), field(
+    83  "Four everyday percentage questions. Type in any box and every result updates."
+         |  root.append(el('p', { class: 'lede', text: 'Four everyday percentage questions. Type in any 
+   106  "Enter a realistic height and weight."
+         |  return res.append(note('Enter a realistic height and weight.', 'err'));
+   124  "you are inside the range"
+         |  : 'you are inside the range')),
+   125  "BMI is a population screen, not a diagnosis. It ignores muscle mass, bone density, age, sex
+         |  note('BMI is a population screen, not a diagnosis. It ignores muscle mass, bone density, age
+   145  "Pick both dates — the day has to exist in that month."
+         |  if (!b || !a) return res.append(note('Pick both dates — the day has to exist in that month.'
+   146  "The birth date is after the reference date."
+         |  if (b > a) return res.append(note('The birth date is after the reference date.', 'err'));
+   164  "Month lengths are borrowed from the real calendar, so end-of-month birthdays stay correct t
+         |  note('Month lengths are borrowed from the real calendar, so end-of-month birthdays stay corr
+   181  "Pick a start date."
+         |  if (!s) return addRes.append(note('Pick a start date.', 'err'));
+   182  "Enter an amount."
+         |  if (!Number.isFinite(n)) return addRes.append(note('Enter an amount.', 'err'));
+   211  "weekends skipped while counting"
+         |  stat(L('calendarDays', 'Calendar days'), String(diff), skip ? 'weekends skipped while counti
+   218  "Pick both dates."
+         |  if (!s || !e) return gapRes.append(note('Pick both dates.', 'err'));
+   234  "the second date is earlier"
+         |  stat(L('betweenDates', 'Between the two dates'), `${abs.toLocaleString(locale())} days`, fli
+   238  "Mon–Fri, public holidays not counted"
+         |  stat(L('workingDays', 'Working days'), workdays.toLocaleString(locale()), 'Mon–Fri, public h
+   251  "compared with the start date above"
+         |  el('div', { class: 'controls' }, field(L('secondDate', 'Second date'), end, 'compared with t
+   263  "Enter a positive amount, a term longer than zero and a rate of 0 or more."
+         |  if (!(P > 0) || !(Y > 0) || !Number.isFinite(R) || R < 0) return res.append(note('Enter a po
+   273  "That payment does not even cover the monthly interest, so the balance never reaches zero. I
+         |  res.append(note('That payment does not even cover the monthly interest, so the balance never
+   292  "Paid in year"
+         |  el('thead', {}, el('tr', {}, ...['Year', 'Paid in year', 'Interest in year', 'Principal in y
+   292  "Interest in year"
+         |  el('thead', {}, el('tr', {}, ...['Year', 'Paid in year', 'Interest in year', 'Principal in y
+   292  "Principal in year"
+         |  el('thead', {}, el('tr', {}, ...['Year', 'Paid in year', 'Interest in year', 'Principal in y
+   302  "With no extra payment you would pay …"
+         |  EX ? note(`With no extra payment you would pay ${money(plainTotal)} in total; the ${money(EX
+   303  "Assumes a fixed rate with monthly compounding and equal payments. Real contracts add fees, 
+         |  note('Assumes a fixed rate with monthly compounding and equal payments. Real contracts add f
+   320  "Enter a price."
+         |  if (!Number.isFinite(P) || P < 0) return res.replaceChildren(note('Enter a price.', 'err'));
+   326  "before any tax"
+         |  stat(L('payAfter', 'You pay'), money(withTax), v ? `including ${show(v)}% tax` : 'before any
+   330  "calculated on the discounted price"
+         |  stat(L('taxAmount', 'Tax amount'), money(withTax - final), 'calculated on the discounted pri
+   332  "Tax is applied after the discount, which is how most shops and marketplaces do it — check y
+         |  note('Tax is applied after the discount, which is how most shops and marketplaces do it — ch
+   401  "Enter a number."
+         |  if (!Number.isFinite(v)) return list.append(note('Enter a number.', 'err'));
+   407  "Temperature is not a ratio scale, so 20 °C is not “twice as hot” as 10 °C."
+         |  cat === 'temperature' ? note('Temperature is not a ratio scale, so 20 °C is not “twice as ho
+   536  "Paste any of these values straight into CSS. Print colours (CMYK) never match screen colour
+         |  note('Paste any of these values straight into CSS. Print colours (CMYK) never match screen c
+   558  "Use an age between 10 and 100, height in cm (100–230) and weight in kg (25–350)."
+         |  return res.append(note('Use an age between 10 and 100, height in cm (100–230) and weight in 
+   573  "weight stays where it is"
+         |  shift ? `${shift > 0 ? '+' : '−'}${Math.round(Math.abs(shift) * 100)}% versus maintenance ($
+   578  "These are population equations, so they are a starting point, not a prescription. Weigh in 
+         |  note('These are population equations, so they are a starting point, not a prescription. Weig
+   583  "Athlete or heavy manual work"
+         |  field(L('activity', 'Activity'), select([[1.2, 'Sedentary — desk work, no exercise'], [1.375
+   597  "Paste an epoch number or a date."
+         |  if (!raw) return res.append(note('Paste an epoch number or a date.', 'err'));
+   608  "That is neither a timestamp I recognise nor a valid date."
+         |  if (!Number.isFinite(date.getTime())) return res.append(note('That is neither a timestamp I 
+   630  "In the future by"
+         |  stat(delta === 0 ? 'Exactly now' : delta > 0 ? 'In the future by' : 'In the past by', human,
+   630  "In the past by"
+         |  stat(delta === 0 ? 'Exactly now' : delta > 0 ? 'In the future by' : 'In the past by', human,
+   631  "this far ahead usually means the unit is wrong"
+         |  date.getFullYear() > 2100 ? 'this far ahead usually means the unit is wrong' : '')),
+   636  "A 10-digit number is seconds, a 13-digit one is milliseconds. Force the unit above if your 
+         |  note('A 10-digit number is seconds, a 13-digit one is milliseconds. Force the unit above if 
+   649  "4, 13 — never output these"
+         |  skipIn.setAttribute('placeholder', '4, 13 — never output these');
+   661  "Enter two numbers."
+         |  if (!Number.isFinite(mi) || !Number.isFinite(ma)) return res.append(note('Enter two numbers.
+   668  "You cannot draw …"
+         |  if (unique && n > span - skip.size) return res.append(note(`You cannot draw ${n} unique valu
+   693  "Uses crypto.getRandomValues(), so it is fair enough for raffles, sample data and test ids. 
+         |  note('Uses crypto.getRandomValues(), so it is fair enough for raffles, sample data and test 
+
+### src/scripts/tools/image.js (25)
+   329  "This is not valid base64: the character count is impossible."
+         |  if (body.length % 4 === 1) { out.append(note('This is not valid base64: the character count 
+   336  "Decoded the bytes, but they do not look like a PNG, JPEG, GIF, WebP or BMP image."
+         |  if (!mime) { out.append(note('Decoded the bytes, but they do not look like a PNG, JPEG, GIF,
+   384  "The QR library could not be loaded."
+         |  catch { out.append(note('The QR library could not be loaded.', 'err')); return; }
+   391  "Too much text for one code (…"
+         |  out.append(note(`Too much text for one code (${err?.message || err}). Shorten it, or use err
+   416  "This browser cannot copy images"
+         |  } catch { toast('This browser cannot copy images'); }
+   438  "Use a square image, at least 512×512 for the largest size"
+         |  imagePanel(root, { one: true, hint: 'Use a square image, at least 512×512 for the largest si
+   441  "Could not read that image."
+         |  catch { out.replaceChildren(note('Could not read that image.', 'err')); }
+   446  "Pick at least one size"
+         |  if (!chosen.size) throw new Error('Pick at least one size');
+   524  "Enter a 3, 6 or 8-digit hex value such as #36F or #3366FF"
+         |  if (!m) { out.append(note('Enter a 3, 6 or 8-digit hex value such as #36F or #3366FF', 'err'
+   574  "Could not decode that image."
+         |  try { src = await loadCanvas(f); } catch { canvasWrap.append(note('Could not decode that ima
+   584  "That pixel is transparent"
+         |  if (d[3] === 0) return toast('That pixel is transparent');
+   587  "Click the picture to sample a pixel."
+         |  canvasWrap.append(c, note('Click the picture to sample a pixel.'));
+   620  "Add at least two images"
+         |  if (files.length < 2) throw new Error('Add at least two images');
+   675  "Could not decode that file. Browsers refuse some AAC/AMR/DRM recordings."
+         |  info.append(note('Could not decode that file. Browsers refuse some AAC/AMR/DRM recordings.',
+   690  "End must be after start"
+         |  if (!(b > a)) throw new Error('End must be after start');
+   719  "WAV is uncompressed, so it is bigger than the MP3 you started with. Use a lower sample rate
+         |  out.append(note('WAV is uncompressed, so it is bigger than the MP3 you started with. Use a l
+   735  "Unsupported file type"
+         |  if (!f) { toast(D.common.wrongType || 'Unsupported file type'); return; }
+   744  "This browser cannot play that file, so it cannot re-encode it either."
+         |  video.onerror = () => { status.replaceChildren(); status.append(note('This browser cannot pl
+   756  "This browser has no MediaRecorder/canvas capture support"
+         |  if (!window.MediaRecorder || !HTMLCanvasElement.prototype.captureStream) throw new Error('Th
+   757  "The clip has not finished loading"
+         |  if (!video.videoWidth) throw new Error('The clip has not finished loading');
+   778  "No supported WebM recording profile in this browser"
+         |  if (!mime) throw new Error('No supported WebM recording profile in this browser');
+   801  "The browser blocked playback, so recording cannot start. Press play yourself and try again.
+         |  status.append(note('The browser blocked playback, so recording cannot start. Press play your
+   811  "Nothing was recorded"
+         |  if (!blob.size) throw new Error('Nothing was recorded');
+   814  "Re-encoding happens live: a 3 minute clip takes 3 minutes. The container is WebM; browsers 
+         |  out.append(note('Re-encoding happens live: a 3 minute clip takes 3 minutes. The container is
+   832  "live preview only"
+         |  field(L('blur', 'Blur'), rangeInput(0, 0, 10, 0.5, v => { blur = v; sync(); }, 'px'), 'live 
+
+### src/scripts/tools/pdf.js (9)
+    54  "Unsupported file type"
+         |  if (!ok.length) { toast(D.common.wrongType || 'Unsupported file type'); return; }
+   165  "Enter a page range such as 2-5"
+         |  if (!idx.length) throw new Error('Enter a page range such as 2-5');
+   196  "leave empty for every page"
+         |  field(L('pageRange', 'Page range'), textInput(range, v => range = v), 'leave empty for every
+   202  "That range does not match any page"
+         |  if (!idx.length) throw new Error('That range does not match any page');
+   226  "Type the stamp text first"
+         |  if (!text.trim()) throw new Error('Type the stamp text first');
+   246  "The stamp is drawn as real text, so it scales cleanly in print."
+         |  root.append(el('div', { class: 'btn-row' }, go, el('span', { class: 'note', text: 'The stamp
+   313  "This PDF has no text layer — it is a scan of paper. Text extraction needs OCR, which does n
+         |  out.append(note('This PDF has no text layer — it is a scan of paper. Text extraction needs O
+   365  "<h1>Quarterly note</h1>\\n<p>Paste your own HTML here, then open the print dialog.</p>\\n<s
+         |  let html = '<h1>Quarterly note</h1>\n<p>Paste your own HTML here, then open the print dialog
+   380  "Choose Save as PDF as the destination."
+         |  el('span', { class: 'note', text: 'Choose Save as PDF as the destination.' }))),
+
+### src/scripts/tools/text.js (38)
+    66  "Paste or type your text here…"
+         |  const a = area('Paste or type your text here…', '240px');
+    69  "the a an and or but if then of to in on for with as at by from is are was were be been bein
+         |  const STOP = new Set('the a an and or but if then of to in on for with as at by from is are 
+    98  "Type at least a couple of sentences to see word frequencies."
+         |  top.length ? el('div', { class: 'badges' }, ...top.map(([w, n]) => el('span', { class: 'badg
+   105  "Type or paste text…"
+         |  const inA = area('Type or paste text…', '150px');
+   132  "Every Word Here"
+         |  title: L('titleCase', 'Title Case'), every: 'Every Word Here', camel: 'camelCase', pascal: '
+   135  "Works on whole text or a single identifier"
+         |  }), mode, v => { mode = v; render(); }), 'Works on whole text or a single identifier'),
+   145  "One item per line…"
+         |  const inA = area('One item per line…', '200px');
+   195  "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut 
+         |  const WORDS = 'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor 
+   208  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+         |  if (p === 0 && classic) sents[0] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   212  "<h1>Lorem ipsum dolor sit amet</h1>\\n"
+         |  ? (withHeading ? '<h1>Lorem ipsum dolor sit amet</h1>\n' : '') + blocks.map(b => `  <p>${b}<
+   231  "Paste text to encode, or base64 to decode…"
+         |  const inA = area('Paste text to encode, or base64 to decode…', '180px');
+   251  "Could not decode this: …"
+         |  err.append(note(`Could not decode this: ${e.message || e}. Base64 length must not leave a si
+   256  "Text is treated as UTF-8, so accents and CJK work"
+         |  field(L('direction', 'Direction'), select([['encode', L('textToBase64', 'Text → base64')], [
+   341  "Escape before putting text inside HTML"
+         |  field(L('direction', 'Direction'), select([['escape', L('escapeForHtml', 'Escape for HTML')]
+   408  "Not valid JSON…"
+         |  msg.append(note(`Not valid JSON${line ? ` around line ${line}` : ''}: ${e.message}`, 'err'))
+   450  "No data rows were found — only a header line."
+         |  if (!rows.length) { err.append(note('No data rows were found — only a header line.', 'err'))
+   471  "Showing 8 of …"
+         |  tableBox.replaceChildren(el('h3', { text: L('preview', 'Preview') }), tb, rows.length > 8 ? 
+   498  "The Markdown library could not be loaded."
+         |  catch { err.append(note('The Markdown library could not be loaded.', 'err')); return; }
+   500  "Unexpected marked build."
+         |  if (!parse) { err.append(note('Unexpected marked build.', 'err')); return; }
+   505  "Could not render: …"
+         |  err.append(note(`Could not render: ${e.message || e}`, 'err'));
+   545  "Text to hash…"
+         |  const inA = area('Text to hash…', '130px');
+   559  "MD5 is implemented for text only"
+         |  if (file) throw new Error('MD5 is implemented for text only');
+   574  "Could not hash: …"
+         |  out.replaceChildren(note(`Could not hash: ${e.message || e}. Web Crypto hashes need an https
+   578  "All four SHA sizes"
+         |  field(L('algorithm', 'Algorithm'), select([...ALGOS.map(a => [a, a]), ['ALL', 'All four SHA 
+   578  "MD5 and SHA-1 are for checksums only"
+         |  field(L('algorithm', 'Algorithm'), select([...ALGOS.map(a => [a, a]), ['ALL', 'All four SHA 
+   638  "v4 is the safe default"
+         |  field(L('version', 'Version'), select([['4', 'v4 — random'], ['7', 'v7 — sortable by time'],
+   716  "Generated with the browser cryptographic random number generator. Nothing is stored or sent
+         |  note('Generated with the browser cryptographic random number generator. Nothing is stored or
+   747  "Type a pattern to test."
+         |  if (!pattern) { msg.append(note('Type a pattern to test.')); return; }
+   758  "Stopped after 5000 matches — the pattern may match empty strings everywhere."
+         |  if (++guard > 5000) { msg.append(note('Stopped after 5000 matches — the pattern may match em
+   762  "add the g flag to find more than one"
+         |  stats(root, [['Matches', String(matches.length), flags.includes('g') ? '' : 'add the g flag 
+   770  "Showing 60 of …"
+         |  hits.append(el('h3', { text: L('matches', 'Matches') }), ...rows, matches.length > 60 ? note
+   772  "No match. Try removing anchors (^ $) or the case-sensitive flag."
+         |  hits.append(note('No match. Try removing anchors (^ $) or the case-sensitive flag.'));
+   811  "No differences — both sides match."
+         |  !shown.length ? note(onlyDiff ? 'No differences — both sides match.' : 'Nothing to compare y
+   811  "Nothing to compare yet."
+         |  !shown.length ? note(onlyDiff ? 'No differences — both sides match.' : 'Nothing to compare y
+   825  "Type the text you want read aloud."
+         |  const a = area('Type the text you want read aloud.', '160px');
+   831  "This browser has no speech engine. Edge, Chrome and Safari on macOS/iOS do."
+         |  root.append(note('This browser has no speech engine. Edge, Chrome and Safari on macOS/iOS do
+   849  "Nothing to read."
+         |  if (!a.value.trim()) { msg.replaceChildren(note('Nothing to read.', 'err')); return; }
+   869  "Audio comes from your own system voices, so there is no file to download. Record with your 
+         |  msg, note('Audio comes from your own system voices, so there is no file to download. Record 
+
+candidates outside a dictionary fallback: 121

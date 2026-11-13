@@ -1,0 +1,17 @@
+{
+  "w": {
+    "clipInfo": "{0} {1}",
+    "pages": "P",
+    "rate": "R",
+    "percent": "{0}% vs {1}%",
+    "iconHint": "<link rel=\"icon\" href=\"a.png\">"
+  },
+  "t": {
+    "merge-pdf": {
+      "title": {
+        "text": "T"
+      },
+      "intro": "I"
+    }
+  }
+}

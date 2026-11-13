@@ -1,0 +1,26 @@
+{
+  "t": {
+    "pdf-page-numbers": {
+      "title": "Números de página PDF",
+      "h1": "Añade números de página a un PDF en línea",
+      "desc": "Inserta números de página en un PDF arriba o abajo, a izquierda, centro o derecha. Elige número inicial, tamaño de letra y prefijo. Gratis, sin subir nada.",
+      "intro": "Esta herramienta estampa un número de página de texto real en cada página de tu PDF con pdf-lib, así que los números se ven nítidos a cualquier zoom y se pueden seleccionar. Colócalos en el encabezado o el pie, omite la portada y añade un prefijo opcional.",
+      "steps": [
+        "Carga el PDF que quieras numerar.",
+        "Elige la posición, la alineación y el número inicial.",
+        "Fija el tamaño de letra y un prefijo opcional; omite la portada si hace falta.",
+        "Pulsa «Añadir números de página» y descarga."
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo empezar desde una página o un número concretos?",
+          "a": "Sí. Fija el número inicial y usa el intervalo de páginas para numerar solo ciertas páginas, o marca «omitir la primera página» para dejar la portada sin numerar."
+        },
+        {
+          "q": "¿Los números se añaden como texto o como imagen?",
+          "a": "Como texto vectorial real, así que se escalan con nitidez al imprimir y se pueden seleccionar y buscar en el PDF final."
+        }
+      ]
+    }
+  }
+}

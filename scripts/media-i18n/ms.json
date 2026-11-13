@@ -1,0 +1,347 @@
+{
+  "search": "Cari 60 alat percuma…",
+  "home": "ClearLight Tools — Alat PDF, Imej, Audio & Video Dalam Talian Percuma",
+  "cat": {
+    "image": "Alat imej",
+    "image.tagline": "Mampat, tukar dan ubah saiz foto, jana kod QR dan favicon, pilih warna dan buat GIF.",
+    "audio": "Alat audio",
+    "audio.tagline": "Potong, cantum, tukar dan rakam bunyi; ubah kelantangan, kelajuan dan pic, serta imbangkan trek.",
+    "video": "Alat video",
+    "video.tagline": "Mampat klip dan rakam skrin atau webcam anda — semuanya dalam pelayar."
+  },
+  "kw": {
+    "join audio files": "cantum fail audio",
+    "merge mp3": "gabung MP3",
+    "combine audio online": "gabung audio dalam talian",
+    "audio converter": "penukar audio",
+    "convert to mp3": "tukar kepada MP3",
+    "wav to mp3": "WAV ke MP3",
+    "change audio volume": "ubah kelantangan audio",
+    "increase mp3 volume": "naikkan kelantangan MP3",
+    "audio volume booster": "penggalak kelantangan audio",
+    "reverse audio": "balikkan audio",
+    "play audio backwards": "main audio secara terbalik",
+    "reverse mp3 online": "balikkan MP3 dalam talian",
+    "change audio speed": "ubah kelajuan audio",
+    "speed up audio": "lajukan audio",
+    "slow down audio online": "perlahankan audio dalam talian",
+    "change pitch": "ubah pic",
+    "pitch shifter online": "pengubah pic dalam talian",
+    "raise pitch of audio": "tinggikan pic audio",
+    "audio equalizer": "pengimbang audio",
+    "online equalizer": "pengimbang dalam talian",
+    "bass boost audio": "galakan bes audio",
+    "voice recorder online": "perakam suara dalam talian",
+    "record audio": "rakam audio",
+    "online microphone recorder": "perakam mikrofon dalam talian",
+    "screen recorder online": "perakam skrin dalam talian",
+    "record screen free": "rakam skrin percuma",
+    "online screen capture": "tangkap skrin dalam talian",
+    "webcam recorder": "perakam webcam",
+    "record camera online": "rakam kamera dalam talian",
+    "video recorder online": "perakam video dalam talian",
+    "add page numbers to pdf": "tambah nombor halaman pada PDF",
+    "pdf page numbering": "penomboran halaman PDF",
+    "number pdf pages": "nomborkan halaman PDF"
+  },
+  "w": {
+    "decodingFile": "Menyahkod {0}…",
+    "mp3SmallestWavLossless": "MP3 kecil dan universal; WAV tanpa kehilangan dan bersaiz besar.",
+    "mp3Only": "MP3 sahaja",
+    "addAudioFilesInOrder": "Tambah fail audio mengikut turutan yang anda mahu cantumkan. Gunakan anak panah untuk menyusun semula.",
+    "join": "Cantum",
+    "ui0Files1Duration": "{0} fail · {1}",
+    "ui0To1": "{0} → {1}",
+    "volumeHint": "100% ialah kelantangan asal. Galakan jauh melebihi paras itu boleh menyebabkan herotan.",
+    "ui0Volume": "kelantangan {0}%",
+    "reverseHint": "Membalikkan bentuk gelombang supaya bunyi dimainkan secara terbalik. Tempoh dan pic kekal sama.",
+    "speed": "Kelajuan",
+    "speedHint": "Mengubah tempo tanpa mengubah pic. 100% ialah kelajuan asal.",
+    "ui0SpeedResult": "{0} · kelajuan {1}%",
+    "pitchHint": "Mengubah pic tanpa mengubah tempoh bunyi. +12 ialah kenaikan satu oktaf.",
+    "ui0Semitones": "{0} semiton",
+    "eqBass": "Bes",
+    "eqLowMid": "Mid rendah",
+    "eqMid": "Mid",
+    "eqHighMid": "Mid tinggi",
+    "eqTreble": "Treble",
+    "preset": "Pratetap",
+    "presetFlat": "Rata",
+    "presetBass": "Galakan bes",
+    "presetVocal": "Vokal",
+    "presetTreble": "Galakan treble",
+    "eqHint": "Galakkan atau kurangkan lima jalur, kemudian tekan Guna untuk memproses perubahan itu.",
+    "eqApplied": "EQ 5 jalur digunakan",
+    "noWebAudio": "Pelayar ini tidak menyokong Web Audio, jadi ia tidak dapat menyahkod bunyi.",
+    "recorderReady": "Tekan Rakam untuk mula. Tiada apa-apa dimuat naik.",
+    "noScreenCapture": "Pelayar ini tidak dapat menangkap skrin. Cuba Chrome atau Edge pada desktop.",
+    "noMicCamera": "Pelayar ini tidak dapat mencapai mikrofon atau kamera. Halaman selamat (https) diperlukan.",
+    "ui0SOfRecording": "rakaman {0}",
+    "recordingSaved": "Rakaman anda di bawah. Muat turun untuk menyimpannya.",
+    "record": "Rakam",
+    "requestingPermission": "Benarkan akses apabila pelayar anda memintanya.",
+    "recordingInProgress": "Merakam… tekan Henti apabila selesai.",
+    "permissionDenied": "Akses dinafikan. Dayakan kebenaran mikrofon, kamera atau skrin dan cuba lagi.",
+    "recordingFailed": "Rakaman tidak dapat dimulakan.",
+    "bottom": "Bawah",
+    "top": "Atas",
+    "alignment": "Jajaran",
+    "alignLeft": "Kiri",
+    "alignCenter": "Tengah",
+    "alignRight": "Kanan",
+    "startNumber": "Nombor mula",
+    "prefixHint": "Teks pilihan sebelum nombor, cth. \"Halaman \".",
+    "skipFirst": "Langkau halaman pertama (kulit)",
+    "addPageNumbers": "Tambah nombor halaman",
+    "noPagesSelected": "Tiada halaman lagi untuk dinomborkan dengan julat itu.",
+    "ui0PagesNumbered": "{0} halaman dinomborkan",
+    "pageNumbersNote": "Nombor ditambah sebagai teks sebenar di jidar; kandungan halaman asal tidak disentuh.",
+    "loadingFile": "Memuatkan {0}…",
+    "preparing": "Menyediakan…",
+    "audioReversed": "Diterbalikkan"
+  },
+  "t": {
+    "audio-joiner": {
+      "title": "Pencantum Audio",
+      "h1": "Cantum fail audio dan gabung MP3 dalam talian",
+      "desc": "Gabungkan fail MP3, WAV, M4A dan OGG menjadi satu trek mengikut turutan pilihan anda. Percuma, tanpa muat naik, tanpa tera air — gabung audio dalam pelayar.",
+      "intro": "Tambah dua atau lebih klip, seretkannya mengikut turutan yang betul, dan pencantum akan menyahkod setiap satu, memadankan kadar sampel dan bilangan saluran, lalu mencantumkannya menjadi satu MP3 atau WAV. Semuanya berjalan secara setempat, jadi rakaman peribadi tidak pernah meninggalkan peranti anda.",
+      "steps": [
+        "Tambah fail audio yang anda mahu gabungkan.",
+        "Seret atau gunakan anak panah untuk menetapkan turutan main balik.",
+        "Pilih MP3 atau WAV dan kadar bit.",
+        "Tekan Cantum dan muat turun trek tunggal itu."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya mencantum fail berformat berbeza?",
+          "a": "Ya. Setiap fail dinyahkod kepada sampel mentah, kemudian disampel semula kepada kadar dan bilangan saluran yang sama sebelum dicantumkan, jadi MP3, WAV, M4A dan OGG boleh dicampur."
+        },
+        {
+          "q": "Adakah had bilangan fail yang boleh saya gabung?",
+          "a": "Tiada had tetap, tetapi audio yang panjang disimpan dalam memori semasa ia dinyahkod dan dikodkan, jadi pastikan jumlah keseluruhannya munasabah pada peranti bermemori rendah."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Penukar Audio",
+      "h1": "Tukar audio kepada MP3, WAV dan banyak lagi dalam talian",
+      "desc": "Tukar WAV kepada MP3, M4A, OGG dan format audio lain dalam pelayar anda. Pilih kadar sampel dan kadar bit, kemudian muat turun — tanpa muat naik, tanpa akaun.",
+      "intro": "Penukar ini menyahkod fail anda dengan enjin audio pelayar, menyampelnya semula kepada kadar yang anda pilih, dan mengekodnya semula kepada MP3 (kecil dan universal) atau WAV (tanpa kehilangan). Oleh sebab semuanya berlaku pada komputer anda, fail asal tidak pernah meninggalkan peranti anda.",
+      "steps": [
+        "Muatkan fail audio yang anda mahu tukar.",
+        "Pilih kadar sampel output.",
+        "Pilih MP3 atau WAV dan, bagi MP3, kadar bit.",
+        "Tekan Tukar dan muat turun fail baharu."
+      ],
+      "faq": [
+        {
+          "q": "Format input apakah yang boleh dibacanya?",
+          "a": "Apa sahaja yang boleh dinyahkod oleh pelayar anda — lazimnya MP3, WAV, OGG, M4A/AAC dan FLAC. Sesetengah codec yang dilindungi DRM atau yang luar biasa akan ditolak oleh pelayar itu sendiri."
+        },
+        {
+          "q": "Mengapakah MP3 saya lebih kecil daripada WAV?",
+          "a": "MP3 menggunakan mampatan yang menghilangkan sedikit data; WAV menyimpan setiap sampel tanpa mampatan. Untuk suara dan perkongsian, MP3 pada 128–192 kbps biasanya sudah memadai; pilih WAV untuk master tanpa kehilangan."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Penggalak Kelantangan",
+      "h1": "Ubah kelantangan audio — naikkan atau rendahkan dalam talian",
+      "desc": "Naikkan atau turunkan kelantangan fail MP3, WAV atau M4A. Tetapkan paras dari 0 hingga 400%, pratonton dan muat turun. Percuma dan sepenuhnya dalam pelayar.",
+      "intro": "Alat ini mendarab setiap sampel dengan gandaan yang anda tetapkan, jadi 100% mengekalkan kelantangan asal, 200% menggandakannya dan 50% mengurangkannya separuh. Galakan jauh melepasi 100% boleh memotong puncak yang kuat, jadi pratonton sebelum anda mengeksport.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Seret peluncur kelantangan ke paras yang anda mahu.",
+        "Pilih output MP3 atau WAV.",
+        "Tekan Guna, dengar, kemudian muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Mengapakah audio menjadi herot apabila saya menggalakkannya banyak?",
+          "a": "Sampel yang melebihi skala penuh akan dipotong. Jika audio asal sudah kuat, galakan besar akan menolak puncak melepasi had; cuba gandaan yang lebih kecil dahulu."
+        },
+        {
+          "q": "Bolehkah saya rendahkan kelantangan fail?",
+          "a": "Ya — tetapkan peluncur di bawah 100%. 50% ialah separuh amplitud, iaitu penurunan kelantangan yang jelas ketara."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Pembalikan Audio",
+      "h1": "Balikkan audio dan main bunyi secara terbalik dalam talian",
+      "desc": "Balikkan fail audio supaya ia dimainkan dari hujung ke permulaan. Tempoh dan pic kekal sama. Pembalik MP3/WAV percuma tanpa muat naik.",
+      "intro": "Pembalikan menyalin bentuk gelombang dari sampel terakhir ke sampel pertama, jadi bunyi dimainkan secara terbalik sambil mengekalkan tempoh dan picnya. Inilah cara klasik untuk membuat efek riser, menyemak mesej tersembunyi, atau mendengar lagu secara terbalik.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Jika mahu, pilih output MP3 atau WAV.",
+        "Tekan Balikkan.",
+        "Main hasilnya dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Adakah pembalikan mengubah pic atau kelajuan?",
+          "a": "Tidak. Sampel cuma dibaca dalam turutan bertentangan, jadi tempoh dan frekuensi tidak berubah — hanya arah masa yang terbalik."
+        },
+        {
+          "q": "Apakah kegunaan audio terbalik?",
+          "a": "Efek riser peralihan, reka bentuk bunyi, menyemak mesej tersembunyi (backmasking), atau klip gaya palindrom yang kedengaran sama sama ada dimainkan ke hadapan atau ke belakang."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Pengubah Kelajuan Audio",
+      "h1": "Lajukan atau perlahankan audio tanpa mengubah pic",
+      "desc": "Ubah tempo audio dari 50% hingga 200% sambil pic kekal semula jadi. Lajukan syarahan atau perlahankan muzik untuk mempelajarinya — dalam pelayar anda.",
+      "intro": "Pengubah kelajuan menggunakan regangan masa overlap-add, jadi suara yang dilajukan tidak berbunyi seperti chipmunk dan lagu yang diperlahankan tidak menurunkan picnya. 100% ialah kelajuan asal; 200% memainkannya dua kali ganda lebih pantas dalam separuh masa.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Tetapkan peluncur kelajuan (50%–200%).",
+        "Pilih output MP3 atau WAV.",
+        "Tekan Guna dan muat turun klip yang telah diubah masanya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah melajukan audio akan menaikkan pic?",
+          "a": "Tidak — itulah tujuan regangan masa. Tempo berubah tetapi pic kekal sama, tidak seperti fail yang sekadar disampel semula."
+        },
+        {
+          "q": "Seberapa ekstrem perubahan kelajuan boleh dibuat?",
+          "a": "Peluncur berjulat dari 50% hingga 200%. Regangan yang sangat besar boleh menambah sedikit getaran bunyi pada bahan yang kompleks; perubahan sederhana kedengaran paling semula jadi."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Pengubah Pic",
+      "h1": "Ubah pic audio lebih tinggi atau lebih rendah dalam talian",
+      "desc": "Alihkan pic audio sehingga 12 semiton ke mana-mana arah tanpa mengubah tempoh. Tinggikan atau rendahkan suara atau alat muzik, kemudian muat turun percuma.",
+      "intro": "Pengubahan pic menyampel semula audio untuk mengalihkan frekuensi, kemudian meregangkan masanya kembali ke tempoh asal, jadi klip kekal sama tempohnya tetapi kedengaran lebih tinggi atau lebih rendah. +12 semiton ialah satu oktaf ke atas; −12 ialah satu oktaf ke bawah.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Tetapkan anjakan pic dalam semiton (−12 hingga +12).",
+        "Pilih output MP3 atau WAV.",
+        "Tekan Guna dan muat turun klip yang telah dianjak picnya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah mengubah pic mengubah tempoh fail?",
+          "a": "Tidak. Alat ini memulihkan tempoh asal selepas anjakan, jadi hanya pic yang berubah, bukan masanya."
+        },
+        {
+          "q": "Apakah itu semiton?",
+          "a": "Langkah terkecil dalam muzik Barat — satu kekunci pada piano. Dua belas semiton membentuk satu oktaf, jadi +12 menggandakan frekuensi dan −12 mengurangkannya separuh."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Pengimbang Audio",
+      "h1": "Pengimbang audio dalam talian dengan galakan bes dan treble",
+      "desc": "Laraskan lima jalur (60 Hz–12 kHz): galakkan bes, cerahkan treble atau bentuk vokal. Guna pratetap atau laras halus, kemudian eksport MP3 atau WAV percuma.",
+      "intro": "Pengimbang puncak lima jalur membolehkan anda memotong atau menggalakkan bes, mid rendah, mid, mid tinggi dan treble sehingga 12 dB setiap satu. Mulakan dengan pratetap — Rata, Galakan bes, Vokal atau Galakan treble — kemudian laraskan secara halus dan janakan perubahan itu ke fail baharu.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Pilih pratetap atau seret lima peluncur jalur.",
+        "Pilih output MP3 atau WAV.",
+        "Tekan Guna dan muat turun trek yang telah diimbangkan."
+      ],
+      "faq": [
+        {
+          "q": "Apakah yang dikawal oleh lima jalur itu?",
+          "a": "60 Hz ialah berat bes, 250 Hz kehangatan, 1 kHz badan vokal, 4 kHz kehadiran dan kejelasan, manakala 12 kHz udara dan kilauan. Galakkan atau kurangkan setiap jalur mengikut citarasa anda."
+        },
+        {
+          "q": "Adakah EQ digunakan pada fail yang dimuat turun?",
+          "a": "Ya. Tidak seperti pengimbang yang hanya bertindak semasa main balik, alat ini memproses penapisan ke dalam MP3 atau WAV yang dieksport, jadi perubahan itu kekal dalam fail yang anda simpan."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Perakam Suara",
+      "h1": "Rakam audio dalam talian dengan mikrofon anda",
+      "desc": "Rakam suara anda dari mikrofon terus dalam pelayar. Tekan rakam, henti, pratonton dan muat turun — tanpa aplikasi, tanpa muat naik, tanpa akaun.",
+      "intro": "Perakam ini menangkap bunyi mikrofon anda dengan API MediaRecorder pelayar dan menyimpan rakaman secara setempat supaya anda boleh pratonton dan muat turun. Tiada apa-apa dihantar ke pelayan; rakaman kekal pada peranti anda sehingga anda menyimpannya.",
+      "steps": [
+        "Tekan Rakam dan benarkan akses mikrofon.",
+        "Bercakap atau mainkan bunyi yang anda mahu rakam.",
+        "Tekan Henti apabila selesai.",
+        "Pratonton rakaman dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Di manakah rakaman saya disimpan?",
+          "a": "Hanya dalam memori pelayar anda sehingga anda memuat turunnya. Tiada apa-apa dimuat naik, jadi sebaik sahaja anda menutup halaman, rakaman yang belum disimpan akan hilang."
+        },
+        {
+          "q": "Mengapakah pelayar meminta kebenaran?",
+          "a": "Akses mikrofon sentiasa memerlukan persetujuan jelas anda. Jika anda menolaknya, dayakan semula kebenaran mikrofon untuk laman ini dan tekan Rakam sekali lagi."
+        }
+      ]
+    },
+    "screen-recorder": {
+      "title": "Perakam Skrin",
+      "h1": "Rakam skrin anda dalam talian secara percuma",
+      "desc": "Tangkap skrin, tetingkap atau tab anda dengan audio sistem pilihan. Rakam, henti, pratonton dan muat turun video WebM — tanpa pemasangan, tanpa muat naik.",
+      "intro": "Perakam skrin menggunakan API tangkapan paparan pelayar untuk merakam seluruh skrin anda, satu tetingkap atau satu tab, dengan audio jika disokong. Video digabungkan secara setempat dan ditawarkan sebagai muat turun; ia tidak pernah sampai ke pelayan.",
+      "steps": [
+        "Tekan Rakam dan pilih apa yang hendak dikongsi (skrin, tetingkap atau tab).",
+        "Jika mahu, sertakan audio dalam pemilih perkongsian.",
+        "Tekan Henti, atau tamatkan perkongsian, apabila selesai.",
+        "Pratonton klip dan muat turun WebM itu."
+      ],
+      "faq": [
+        {
+          "q": "Pelayar manakah yang menyokong rakaman skrin?",
+          "a": "Chrome dan Edge pada desktop mempunyai tangkapan paparan yang paling boleh dipercayai, dan Firefox turut menyokongnya. Pelayar mudah alih secara amnya tidak menyokongnya, jadi gunakan pelayar desktop."
+        },
+        {
+          "q": "Bolehkah ia merakam audio sistem?",
+          "a": "Apabila anda berkongsi tab atau seluruh skrin, pemilih perkongsian menawarkan pilihan audio. Sama ada audio sistem disertakan bergantung pada pelayar dan apa yang anda kongsi."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Perakam Webcam",
+      "h1": "Rakam video dari webcam anda dalam talian",
+      "desc": "Rakam diri anda dengan kamera dan mikrofon dalam pelayar. Pratonton suapan langsung, tekan rakam, kemudian muat turun — percuma, tanpa perisian.",
+      "intro": "Perakam webcam memaparkan pratonton langsung dari kamera anda, menangkapnya bersama mikrofon melalui MediaRecorder, dan menyimpan klip secara setempat untuk pratonton dan muat turun. Video itu tidak pernah meninggalkan peranti anda melainkan anda memuat turunnya.",
+      "steps": [
+        "Tekan Rakam dan benarkan akses kamera dan mikrofon.",
+        "Semak pratonton langsung dan pastikan diri anda berada dalam bingkai.",
+        "Tekan Henti apabila selesai.",
+        "Pratonton rakaman dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Adakah video dimuat naik ke mana-mana?",
+          "a": "Tidak. Ia dirakam dan disimpan dalam pelayar anda, kemudian ditawarkan sebagai muat turun setempat. Tiada apa-apa dihantar ke pelayan."
+        },
+        {
+          "q": "Apakah format rakaman itu?",
+          "a": "Video WebM (VP8/VP9 dengan audio Opus) jika pelayar menyokongnya; ia boleh dimainkan dalam pelayar moden dan kebanyakan editor. Sesetengah pelayar mungkin menghasilkan MP4."
+        }
+      ]
+    },
+    "pdf-page-numbers": {
+      "title": "Nombor Halaman PDF",
+      "h1": "Tambah nombor halaman pada PDF dalam talian",
+      "desc": "Sisipkan nombor halaman ke dalam PDF di atas atau bawah, kiri, tengah atau kanan. Tetapkan nombor mula, saiz fon dan awalan. Percuma, tanpa muat naik.",
+      "intro": "Alat ini mengecap nombor halaman teks sebenar pada setiap halaman PDF anda dengan pdf-lib, jadi nombor kekal tajam pada sebarang zum dan boleh dipilih. Letakkannya di pengepala atau pengaki, langkau halaman kulit, dan tambah awalan pilihan.",
+      "steps": [
+        "Muatkan PDF yang anda mahu nomborkan.",
+        "Pilih kedudukan, jajaran dan nombor permulaan.",
+        "Tetapkan saiz fon dan awalan pilihan; langkau kulit jika perlu.",
+        "Tekan Tambah nombor halaman dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya mula dari halaman atau nombor tertentu?",
+          "a": "Ya. Tetapkan nombor permulaan dan gunakan julat halaman untuk menomborkan halaman tertentu sahaja, atau tandakan “langkau halaman pertama” supaya kulit tidak bernombor."
+        },
+        {
+          "q": "Adakah nombor ditambah sebagai teks atau imej?",
+          "a": "Sebagai teks vektor sebenar, jadi nombor itu berskala dengan kemas dalam cetakan dan boleh dipilih serta dicari dalam PDF yang siap."
+        }
+      ]
+    }
+  }
+}

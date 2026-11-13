@@ -1,0 +1,70 @@
+{
+  "w": {
+    "pages": "Pages",
+    "clipInfo": "{0} clip · {1} Hz",
+    "iconHint": "Add <link rel=\"icon\" href=\"a.png\"> now",
+    "rate": "Rate",
+    "percent": "{0}% versus {1}%"
+  },
+  "t": {
+    "merge-pdf": {
+      "title": "Merge PDF",
+      "intro": "Combine several files in the order you chose.",
+      "steps": [
+        "Drop the files you want to merge into the panel",
+        "Reorder them in whatever order you like"
+      ],
+      "faq": [
+        {
+          "q": "Does the file leave my computer?",
+          "a": "No. Everything runs in your browser."
+        }
+      ]
+    },
+    "prose-a": {
+      "title": "Merge several documents into one file",
+      "desc": "Combine several separate documents into one single file in the order you choose yourself.",
+      "intro": "Merging copies the page objects of each file into one document without rasterising them, so text stays selectable.",
+      "steps": [
+        "Drop the files you want to work with into the panel on the left",
+        "Choose the order they should appear in and press the button"
+      ],
+      "faq": [
+        {
+          "q": "Does the merged file keep the original bookmarks and links?",
+          "a": "Yes, both sets of references are rewritten so they still point at the right page."
+        }
+      ]
+    },
+    "prose-b": {
+      "title": "Merge several documents into one file",
+      "desc": "Combine several separate documents into one single file in the order you choose yourself.",
+      "intro": "Merging copies the page objects of each file into one document without rasterising them, so text stays selectable.",
+      "steps": [
+        "Drop the files you want to work with into the panel on the left",
+        "Choose the order they should appear in and press the button"
+      ],
+      "faq": [
+        {
+          "q": "Does the merged file keep the original bookmarks and links?",
+          "a": "Yes, both sets of references are rewritten so they still point at the right page."
+        }
+      ]
+    },
+    "prose-c": {
+      "title": "Merge several documents into one file",
+      "desc": "Combine several separate documents into one single file in the order you choose yourself.",
+      "intro": "Merging copies the page objects of each file into one document without rasterising them, so text stays selectable.",
+      "steps": [
+        "Drop the files you want to work with into the panel on the left",
+        "Choose the order they should appear in and press the button"
+      ],
+      "faq": [
+        {
+          "q": "Does the merged file keep the original bookmarks and links?",
+          "a": "Yes, both sets of references are rewritten so they still point at the right page."
+        }
+      ]
+    }
+  }
+}

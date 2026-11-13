@@ -1,0 +1,15 @@
+{
+  "t": {
+    "merge-pdf": {
+      "title": "Joindre PDF",
+      "intro": "Combinez plusieurs fichiers dans l’ordre choisi."
+    }
+  },
+  "w": {
+    "pages": "Paginas",
+    "clipInfo": "{1}片段 · {0} Hz",
+    "iconHint": "Ajoutez <link rel=\"icon\" href=\"a.png\"> maintenant",
+    "rate": "Debit",
+    "percent": "{0}% versus {1}%"
+  }
+}

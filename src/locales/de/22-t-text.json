@@ -1,0 +1,351 @@
+{
+  "t": {
+    "word-counter": {
+      "desc": "Zähle Wörter, Zeichen, Leerzeichen, Sätze, Absätze, Lesezeit und Wortwiederholungen beim Tippen. Nützlich für Aufsätze, Tweets und SEO-Briefings.",
+      "intro": "Das Zählen läuft lokal und sofort, und die Liste der häufigsten Wörter zeigt, welche Wendungen du übermäßig verwendest.",
+      "steps": [
+        "Füge deinen Text ein.",
+        "Lies die Summen ab: Wörter, Zeichen mit und ohne Leerzeichen, Sätze, Absätze.",
+        "Prüf Lesezeit und Vorlesezeit.",
+        "Sieh dir die häufigsten wiederholten Wörter an."
+      ],
+      "faq": [
+        {
+          "q": "Wie wird die Lesezeit berechnet?",
+          "a": "200 Wörter pro Minute beim stillen Lesen und 150 beim Sprechen — die üblichen Redaktionswerte."
+        },
+        {
+          "q": "Zählen Wörter mit Bindestrich nur einmal?",
+          "a": "Ja, sie gelten als ein Wort, so wie es die meisten Vorgaben in Schule und Verlagswesen handhaben."
+        }
+      ]
+    },
+    "case-converter": {
+      "title": "Schreibweise umwandeln",
+      "h1": "Wandle Text in GROSSBUCHSTABEN, Kleinbuchstaben oder „Alle Wörter groß“ um",
+      "desc": "Wandle einen Textblock per Klick in „Alle Wörter groß“, „Satzanfang groß“, camelCase, snake_case, kebab-case oder „iNVERSE cASE“ um.",
+      "intro": "Die Regeln kennen die Sprache: kleine Wörter wie of und the bleiben im Titel klein, und snake_case oder kebab-case sind sicher für Dateinamen und Code.",
+      "steps": [
+        "Füge den Text ein.",
+        "Wähle eine Schreibweise.",
+        "Kopier das Ergebnis oder lade es herunter."
+      ],
+      "faq": [
+        {
+          "q": "Warum ist „Alle Wörter groß“ bei meinen Überschriften nicht perfekt?",
+          "a": "Abkürzungen und Markennamen sind Ausnahmen; korrigier sie in der Ausgabe oder stell die Automatik für Titel ab."
+        },
+        {
+          "q": "Funktioniert das mit Akzenten?",
+          "a": "Ja, die Umwandlung beachtet Unicode, deshalb behalten É, ß und ı ihre Sprachregeln, soweit möglich."
+        }
+      ]
+    },
+    "remove-duplicate-lines": {
+      "title": "Doppelte Zeilen entfernen",
+      "h1": "Räume eine Liste auf: Dopplungen entfernen, sortieren und Zeilen stutzen",
+      "desc": "Lösche wiederholte Zeilen aus einer Liste, ignoriere Groß-/Kleinschreibung, entferne Extraleerzeichen und Leerzeilen, sortiere von A bis Z oder nach Länge.",
+      "intro": "Typischer Fall: du fügst eine E-Mail- oder Telefonliste aus einer Tabellenkalkulation ein und bekommst am Ende eine saubere Spalte, die sich importieren lässt.",
+      "steps": [
+        "Füge die Liste ein.",
+        "Kreuz die Aufräumoptionen an, die du brauchst.",
+        "Sieh nach, wie viele Zeilen entfernt wurden.",
+        "Kopier das Ergebnis oder lade es herunter."
+      ],
+      "faq": [
+        {
+          "q": "Gilt eine Zeile mit Leerzeichen am Ende als eindeutig?",
+          "a": "Nur wenn „Leerzeichen entfernen“ aus ist; schalt es ein, um unsichtbare Unterschiede einzufangen."
+        },
+        {
+          "q": "Kann ich die Dopplungen sichtbar lassen?",
+          "a": "Ja, nutz zuerst „Dopplungen zählen“, um jede Zeile zusammen mit ihrer Anzahl zu sehen."
+        }
+      ]
+    },
+    "lorem-ipsum-generator": {
+      "desc": "Erzeuge genau die Menge Platztext, die dein Mock-up braucht — Wörter, Sätze oder Absätze, wahlweise mit dem klassischen Cicero-Anfang.",
+      "intro": "Nützlich für Gestalter, die realistische Zeilenlängen ohne erfundenen Text brauchen, und für Entwickler, die eine Tabelle mit glaubwürdigen Daten füllen.",
+      "steps": [
+        "Wähle Absätze, Sätze oder Wörter.",
+        "Bestimme die Menge.",
+        "Entscheide, ob der Text mit Lorem ipsum dolor sit amet beginnt.",
+        "Kopiere den Text."
+      ],
+      "faq": [
+        {
+          "q": "Warum überhaupt lateinischer Fülltext?",
+          "a": "Er hindert Auftraggeber daran, die Wörter zu lesen und darüber zu diskutieren — die Diskussion bleibt beim Layout."
+        },
+        {
+          "q": "Gibt es auch lesbaren englischen Text?",
+          "a": "Kreuz die Option für lesbaren Text an, dann gibt der Generator klare englische Füllsätze aus — praktisch bei Prüfungen der Barrierefreiheit."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "desc": "Kodiere Text in Base64 oder hole ihn zurück, mit Unterstützung für das URL-sichere Alphabet und sofortigen Meldungen bei ungültigen Zeichen.",
+      "intro": "Base64 ist der Weg, wie Token, Header und eingebettete Assets sicher durch Systeme reisen, die nur einfache Zeichen akzeptieren.",
+      "steps": [
+        "Gib die Eingabe ein oder füge sie ein.",
+        "Wähle „Kodieren“ oder „Dekodieren“.",
+        "Nimm das URL-sichere Alphabet, wenn der Wert in eine Abfragezeichenkette gehört.",
+        "Kopiere das Ergebnis."
+      ],
+      "faq": [
+        {
+          "q": "Ist Base64 eine Verschlüsselung?",
+          "a": "Nein. Es ist eine umkehrbare Kodierung ohne Geheimnis — benutz sie nie, um ein Passwort zu schützen."
+        },
+        {
+          "q": "Warum schlägt das Dekodieren fehl?",
+          "a": "Meist ist ein Zeichen zu viel im String oder die Länge ist kein Vielfaches von vier; das Werkzeug zeigt auf die Stelle."
+        }
+      ]
+    },
+    "url-encode-decode": {
+      "title": "URL kodieren / dekodieren",
+      "h1": "Escape und unescape Bestandteile einer URL",
+      "desc": "Prozentkodiere einen Abfragewert oder eine ganze URL, oder mache aus einem eskapierten String wieder lesbaren Text — wie encodeURIComponent.",
+      "intro": "Das häufigste Support-Thema — ein kaputter Link wegen eines Leerzeichens, eines & oder eines Akzentzeichens — ist hier in einem Schritt behoben.",
+      "steps": [
+        "Füge den Wert ein.",
+        "Wähle den Modus für Abfragewert, Abfragezeichenkette oder die ganze URL.",
+        "Kodiere oder dekodiere.",
+        "Kopiere das sichere Ergebnis."
+      ],
+      "faq": [
+        {
+          "q": "Was ist der Unterschied zwischen encodeURI und encodeURIComponent?",
+          "a": "encodeURIComponent escapt auch Zeichen, die in einer URL-Struktur erlaubt sind — genau das willst du bei einem einzelnen Abfragewert."
+        },
+        {
+          "q": "Warum ist ein Pluszeichen anders als %20?",
+          "a": "Formulare nutzen + für Leerzeichen, echte URLs %20. Das Werkzeug zeigt beides, damit du zu deinem Server passt."
+        }
+      ]
+    },
+    "html-entities": {
+      "title": "HTML escapen",
+      "h1": "HTML-Entities escapen und unescapen",
+      "desc": "Wandle <, >, &, Anführungszeichen und Akzentbuchstaben in sichere Entities um — oder hole aus Entities wieder Zeichen für die Anzeige zurück.",
+      "intro": "Nutze es, wenn du Code in einen Blog einfügst, ein CMS-Feld schreibst, das deine Tags frisst, oder eine ausgelesene Seite aufräumst.",
+      "steps": [
+        "Füge dein Markup oder deinen Text ein.",
+        "Wähle „Für HTML escapen“ oder „Entities unescapen“.",
+        "Kopiere das Ergebnis."
+      ],
+      "faq": [
+        {
+          "q": "Warum löscht mein CMS weiter die Tags?",
+          "a": "Sein Editor interpretiert sie als HTML. Escap den Block vorher, dann bleibt er unversehrt."
+        },
+        {
+          "q": "Werden auch numerische Entities umgewandelt?",
+          "a": "Ja, benannte sowie dezimale und hexadezimale numerische Formen werden erkannt."
+        }
+      ]
+    },
+    "reverse-text": {
+      "title": "Text umkehren",
+      "h1": "Kehre Text um, stell ihn auf den Kopf oder spiegele ihn",
+      "desc": "Schreibe eine Zeichenkette rückwärts, erzeug für Social-Media-Posts Unicode auf dem Kopf oder drehe die Wortreihenfolge um, ohne die Wörter zu verwürfeln.",
+      "intro": "Beliebt für Bios und Sticker, und wirklich hilfreich, wenn du schnell ein spiegelbildliches Etikett brauchst.",
+      "steps": [
+        "Gib den Text ein.",
+        "Wähle rückwärts, auf dem Kopf oder die Wortreihenfolge.",
+        "Kopiere die Ausgabe."
+      ],
+      "faq": [
+        {
+          "q": "Warum drehen sich einige Buchstaben nicht?",
+          "a": "Einige Glyphen haben kein Unicode-Gegenstück; sie bleiben unverändert, damit der Text lesbar bleibt."
+        },
+        {
+          "q": "Bleiben Emojis erhalten?",
+          "a": "Zusammengesetzte Emoji-Folgen bleiben zusammen, statt in einzelne Flaggen zu zerfallen."
+        }
+      ]
+    },
+    "json-formatter": {
+      "desc": "Gib unordentliches JSON schön aus, finde die Zeile des Syntaxfehlers, sortiere Schlüssel, minimiere Nutzdaten und klappe Knoten der Baumansicht ein und aus.",
+      "intro": "Entwickler fügen hier eine API-Antwort ein, um sie zu lesen; die Fehlermeldung zeigt auf das problematische Zeichen, statt nur pauschal ungültiges JSON zu melden.",
+      "steps": [
+        "Füge das JSON ein.",
+        "Lass es formatieren und stell die „Einrückung“ ein, wenn du 2 oder 4 Leerzeichen brauchst.",
+        "Beheb einen gemeldeten Fehler und probier es erneut.",
+        "Nimm „Minimieren“, wenn die Datei ausgeliefert werden muss."
+      ],
+      "faq": [
+        {
+          "q": "Akzeptiert das auch JSON Lines?",
+          "a": "Ja, ein Objekt pro Zeile wird erkannt und als Folge formatiert."
+        },
+        {
+          "q": "Warum werden meine großen Zahlen gerundet?",
+          "a": "JavaScript kann sie nicht als Ganzzahl halten; mit der Option zum Behalten großer Zahlen bleiben sie als Zeichenkette erhalten."
+        }
+      ]
+    },
+    "csv-to-json": {
+      "desc": "Lade einen Tabellenexport hoch oder füge ihn ein und bekomme ein Objekt-Array, das Anführungszeichen, Tausendertrenner und Leerezellen korrekt behandelt.",
+      "intro": "Es arbeitet ein echter RFC-4180-Parser, deshalb verschieben Kommata in Anführungszeichen und eingebettete Zeilenumbrüche die Spalten nicht.",
+      "steps": [
+        "Füge CSV-Text ein oder leg eine .csv-Datei ab.",
+        "Stell das „Trennzeichen“ ein und ob die erste Zeile eine Kopfzeile ist.",
+        "Wandle um.",
+        "Lade die .json herunter oder kopier sie."
+      ],
+      "faq": [
+        {
+          "q": "Werden Zahlen zu Zahlen umgewandelt?",
+          "a": "Ja, und ISO-Daten bleiben Zeichenketten. Ist „Zahlen und Bool umwandeln“ aus, bleibt alles Text."
+        },
+        {
+          "q": "Geht das auch umgekehrt?",
+          "a": "Für ein flaches Array aus Objekten gibt es im „JSON-Formatierer“ die Aktion zum Herunterladen als CSV."
+        }
+      ]
+    },
+    "markdown-to-html": {
+      "desc": "Füge Markdown ein und kopier das gerenderte HTML heraus — mit Tabellen, eingezäuntem Code, fußnotenartigen Links und optionaler GitHub-Art.",
+      "intro": "Dieselbe Render-Engine betreibt auch die Dokumentation dieser Seite, deshalb ist die Vorschau exakt das, was du kopierst.",
+      "steps": [
+        "Schreib oder füge Markdown ein.",
+        "Beobachte die Live-Felder für HTML und Vorschau.",
+        "Kopier das HTML oder lade die Datei herunter."
+      ],
+      "faq": [
+        {
+          "q": "Wird die Ausgabe bereinigt?",
+          "a": "Rohes HTML wird durchgereicht, denn das ist gültiges Markdown; schalt vor der Anzeige nicht vertrauenswürdiger Eingabe einen Sanitizer dazwischen."
+        },
+        {
+          "q": "Bekomme ich aus HTML wieder Markdown?",
+          "a": "In diesem Werkzeug nicht; die Richtung ist bewusst einseitig, damit die Vorschau schnell bleibt."
+        }
+      ]
+    },
+    "hash-generator": {
+      "desc": "Hole einen Message-Digest aus beliebigem Text oder eine Prüfsumme einer Datei für den Download-Abgleich — in dem Algorithmus, den dein System erwartet.",
+      "intro": "Starke Hashes kommen aus der Crypto-Engine deines Browsers; MD5 ist nur zur Abwärtskompatibilität lokal umgesetzt.",
+      "steps": [
+        "Gib den Text ein oder lade eine Datei.",
+        "Wähl einen oder mehrere Algorithmen.",
+        "Kopier die Digests.",
+        "Vergleich sie mit der veröffentlichten Prüfsumme."
+      ],
+      "faq": [
+        {
+          "q": "Ist MD5 sicher?",
+          "a": "Nein — Kollisionen sind praktisch machbar. Nutz es nur als historischen Fingerabdruck, niemals für Sicherheit."
+        },
+        {
+          "q": "Kann ich ein Passwort hashen?",
+          "a": "Das solltest du nicht. Passwörter brauchen eine langsame Funktion mit Salt, etwa bcrypt oder Argon2 — und so etwas sollte ein Browser-Werkzeug nicht für dich ausführen."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "desc": "Erzeuge so viele Bezeichner der Version 4, wie du brauchst, im Format deines Werkzeugs: mit Bindestrichen, in geschweiften Klammern, groß oder pur.",
+      "intro": "Die Werte kommen aus der kryptografischen Zufallsquelle des Browsers und taugen damit für Schlüssel, Sessions und Testdaten.",
+      "steps": [
+        "Bestimme, wie viele UUIDs du willst.",
+        "Wähl das Format.",
+        "Kopier die Liste oder lade sie herunter."
+      ],
+      "faq": [
+        {
+          "q": "Sind die wirklich eindeutig?",
+          "a": "Version 4 nutzt 122 Zufallsbits; Kollisionen sind astronomisch unwahrscheinlich, solange du nicht Milliarden erzeugst."
+        },
+        {
+          "q": "Was ist Version 7?",
+          "a": "Ein zeitgeordnetes UUID, das Einfügungen in einem Datenbank-Index der Reihe nach hält — nützlich für große Tabellen."
+        }
+      ]
+    },
+    "password-generator": {
+      "desc": "Baue ein merkfähiges oder unknackbares Passwort mit Länge und Zeichen deiner Wahl, sieh seine Stärke und kopier es, ohne dass es einen Server berührt.",
+      "intro": "Die Vorschläge stammen aus der Zufallsquelle deines Browsers direkt in der Seite, daher wird nichts übertragen oder protokolliert.",
+      "steps": [
+        "Stell die Länge ein; 16 Zeichen oder mehr gelten heute als ratsam.",
+        "Wähl die Zeichensätze, die du brauchst.",
+        "Lass das Passwort erzeugen.",
+        "Kopier es in deinen Passwortmanager."
+      ],
+      "faq": [
+        {
+          "q": "Ist ein Online-Generator sicher?",
+          "a": "Dieser läuft vollständig in der Seite und schickt nichts weg — im Netzwerk-Reiter deines Browsers kannst du das nachprüfen."
+        },
+        {
+          "q": "Sollte ich stattdessen einen Passwortmanager nutzen?",
+          "a": "Ja. Hier erzeugen, dort speichern und ein Passwort niemals auf zwei Seiten verwenden."
+        }
+      ]
+    },
+    "regex-tester": {
+      "desc": "Prüfe ein Muster gegen Beispieltext — mit live Hervorhebung, Details zu den Erfassungsgruppen, Schaltern und einer Aufschlüsselung in einfacher Sprache.",
+      "intro": "Schreib das Muster einmal aus, statt zu raten: jeder Treffer wird hervorgehoben und jede Gruppe mit ihrer Position aufgelistet.",
+      "steps": [
+        "Gib Muster und Schalter ein.",
+        "Füge den Teststring ein.",
+        "Lies die hervorgehobenen Treffer und Gruppen ab.",
+        "Öffne die Erklärung für die Aufschlüsselung bis auf die Ebene einzelner Token."
+      ],
+      "faq": [
+        {
+          "q": "Warum funktioniert mein Muster woanders, nur hier nicht?",
+          "a": "JavaScript hatte in älteren Engines keinen Lookbehind und kennt keine Syntax für benannte Mengen; der Tester meldet den Engine-Unterschied."
+        },
+        {
+          "q": "Schützt das vor katastrophalem Backtracking?",
+          "a": "Muster, die explodieren, laufen mit einer klaren Warnung in ein Zeitlimit, statt den Tab einzufrieren."
+        }
+      ]
+    },
+    "diff-checker": {
+      "desc": "Vergleiche zwei Datei-, Vertrags- oder Artikelversionen zeilenweise — mit farbig markierten Hinzufügungen, Löschungen und kopierfertiger Zusammenfassung.",
+      "intro": "Praktisch, bevor du ein Dokument an eine Kollegin zurückschickst: Du siehst genau, welche Sätze sich bewegt haben.",
+      "steps": [
+        "Füge links das Original und rechts die geänderte Fassung ein.",
+        "Ignorier Groß-/Kleinschreibung oder Leerzeichen, wenn dich das Formatieren stört.",
+        "Lies den farbigen Unterschied ab.",
+        "Kopier, wenn nötig, nur die geänderten Zeilen."
+      ],
+      "faq": [
+        {
+          "q": "Wie groß dürfen die Dateien sein?",
+          "a": "Einige tausend Zeilen sind bequem; darüber nimmt ein spezialisiertes Diff-Werkzeug dem Browser diese Arbeit ab."
+        },
+        {
+          "q": "Erkennt es Änderungen auf Wortebene?",
+          "a": "Ja, weicht eine Zeile ab, fällt das Werkzeug innerhalb dieser Zeile auf den Wortvergleich zurück."
+        }
+      ]
+    },
+    "text-to-speech": {
+      "title": "Text vorlesen lassen",
+      "h1": "Text mit einer natürlichen Browser-Stimme vorlesen",
+      "desc": "Mach aus jedem Absatz gesprochene Sprache, wähle Stimme und Sprache, stell Geschwindigkeit und Tonhöhe ein und korrigier ein Skript nach dem Gehör.",
+      "intro": "Die Stimmen sind die, die dein Betriebssystem schon installiert hat — kein Konto, kein Download, und auf den meisten Geräten läuft es ohne Netz.",
+      "steps": [
+        "Füge den Text ein.",
+        "Wähl eine Stimme; die Liste spiegelt dein System.",
+        "Stell „Geschwindigkeit“ und „Tonhöhe“ ein.",
+        "Drück „Abspielen“."
+      ],
+      "faq": [
+        {
+          "q": "Kann ich das Audio herunterladen?",
+          "a": "Nicht direkt; die Browser-API streamt es. Wenn du eine Datei brauchst, nimm die Audioaufnahme deines Betriebssystems."
+        },
+        {
+          "q": "Warum gibt es nur wenige Stimmen?",
+          "a": "Die Zahl hängt vom Betriebssystem und den installierten Sprachpaketen ab. Unter Windows und macOS kannst du weitere nachinstallieren."
+        }
+      ]
+    }
+  }
+}

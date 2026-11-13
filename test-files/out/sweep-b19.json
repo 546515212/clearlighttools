@@ -1,0 +1,127 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:21:42.761Z",
+ "planned": [
+  "hash-generator",
+  "uuid-generator",
+  "password-generator",
+  "regex-tester",
+  "diff-checker",
+  "text-to-speech",
+  "percentage-calculator"
+ ],
+ "rows": [
+  {
+   "tool": "hash-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "5 charactersSHA-2562cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824Copy",
+    "SHA-2562cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824Copy",
+    "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 1121
+  },
+  {
+   "tool": "uuid-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".txt"
+   ],
+   "bytes": [
+    "uuid-uuids.txt | 369 | text/plain"
+   ],
+   "output": [
+    "ResultRegenerateCopy.txt",
+    "Generated10random (RFC 4122)Unique10Characters369",
+    "Generated10random (RFC 4122)"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 2011
+  },
+  {
+   "tool": "password-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "PasswordsRegenerateCopy firstGenerated with the browser cryptographic random number generator. Nothing is stor",
+    "Length16pool 84 charactersEntropy102.3 bitsvery strongBrute force~3.6e+14 years at a trillion guesses per seco",
+    "Length16pool 84 characters"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 994
+  },
+  {
+   "tool": "regex-tester",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Highlightedorder 4821 and order 9015No match. Try removing anchors (^ $) or the case-sensitive flag.Replace wi",
+    "order 4821 and order 9015",
+    "Matches0Subject25 chars1 lines"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 990
+  },
+  {
+   "tool": "diff-checker",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Changed lines41 added · 3 removedIdentical0lines− alpha− beta− gamma+ null",
+    "Changed lines41 added · 3 removedIdentical0lines",
+    "Changed lines41 added · 3 removed"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 1000
+  },
+  {
+   "tool": "text-to-speech",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Play"
+   ],
+   "bytes": [],
+   "output": [
+    "Words2≈ listening1 minat normal speed",
+    "Words2",
+    "≈ listening1 minat normal speed"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 1997
+  },
+  {
+   "tool": "percentage-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "What is X% of Y?PercentofResult5025% × 200X is what percent of Y?ValueofResult83.33%÷ 180Increase or decreaseF",
+    "Result5025% × 200",
+    "Result83.33%÷ 180"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 1002
+  }
+ ],
+ "finishedAt": "2026-11-07T12:21:51.885Z"
+}

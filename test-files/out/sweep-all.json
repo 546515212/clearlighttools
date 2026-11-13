@@ -1,0 +1,166 @@
+{
+ "done": false,
+ "startedAt": "2026-11-07T10:23:10.211Z",
+ "planned": [
+  "compress-pdf",
+  "merge-pdf",
+  "split-pdf",
+  "split-pdf",
+  "rotate-pdf",
+  "watermark-pdf",
+  "pdf-to-jpg",
+  "pdf-to-text",
+  "images-to-pdf",
+  "html-to-pdf",
+  "compress-image",
+  "convert-image",
+  "resize-image",
+  "image-to-base64",
+  "base64-to-image",
+  "qr-code-generator",
+  "favicon-generator",
+  "color-picker",
+  "image-to-gif",
+  "trim-audio",
+  "image-contrast-brightness",
+  "word-counter",
+  "case-converter",
+  "remove-duplicate-lines",
+  "lorem-ipsum-generator",
+  "base64-encode-decode",
+  "url-encode-decode",
+  "html-entities",
+  "reverse-text",
+  "json-formatter",
+  "csv-to-json",
+  "markdown-to-html",
+  "hash-generator",
+  "uuid-generator",
+  "password-generator",
+  "regex-tester",
+  "diff-checker",
+  "text-to-speech",
+  "percentage-calculator",
+  "bmi-calculator",
+  "age-calculator",
+  "date-calculator",
+  "loan-calculator",
+  "discount-calculator",
+  "unit-converter",
+  "color-converter",
+  "calorie-calculator",
+  "timestamp-converter",
+  "random-number-generator"
+ ],
+ "rows": [
+  {
+   "tool": "compress-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "compress-pdf-sample-long.pdf | 7424 | application/pdf"
+   ],
+   "output": [
+    "sample-long.pdf7.3 KB−1%Download",
+    "sample-long.pdf7.3 KB−1%Download"
+   ],
+   "filled": [],
+   "ms": 4679
+  },
+  {
+   "tool": "merge-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "merge-pdf-merged-6-pages.pdf | 4074 | application/pdf"
+   ],
+   "output": [
+    "merged-6-pages.pdf4.0 KB6 pagesDownload",
+    "merged-6-pages.pdf4.0 KB6 pagesDownload"
+   ],
+   "filled": [],
+   "ms": 4996
+  },
+  {
+   "tool": "split-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "split-pdf-sample-a-pages.pdf | 1256 | application/pdf"
+   ],
+   "output": [
+    "sample-a-pages.pdf1.2 KB1pDownload",
+    "sample-a-pages.pdf1.2 KB1pDownload"
+   ],
+   "filled": [],
+   "ms": 5002
+  },
+  {
+   "tool": "split-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download all (.zip)"
+   ],
+   "bytes": [
+    "split-each-sample-long-split.zip | 16399 | application/zip"
+   ],
+   "output": [
+    "12 files produced.Download all (.zip)"
+   ],
+   "filled": [
+    "Mode=each"
+   ],
+   "ms": 6000
+  },
+  {
+   "tool": "rotate-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Apply",
+    "Download"
+   ],
+   "bytes": [
+    "rotate-pdf-sample-a.pdf | 2436 | application/pdf"
+   ],
+   "output": [
+    "sample-a.pdf2.4 KB3 pages rotatedDownload",
+    "sample-a.pdf2.4 KB3 pages rotatedDownload"
+   ],
+   "filled": [],
+   "ms": 4992
+  },
+  {
+   "tool": "watermark-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Add watermark",
+    "Download"
+   ],
+   "bytes": [
+    "watermark-pdf-sample-a.pdf | 3361 | application/pdf"
+   ],
+   "output": [
+    "sample-a.pdf3.3 KB3 pages stampedDownload",
+    "sample-a.pdf3.3 KB3 pages stampedDownload"
+   ],
+   "filled": [],
+   "ms": 4995
+  }
+ ]
+}

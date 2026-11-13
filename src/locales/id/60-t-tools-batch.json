@@ -1,0 +1,202 @@
+{
+  "t": {
+    "shoe-size-converter": {
+      "title": "Konverter Ukuran Sepatu",
+      "h1": "Konverter ukuran sepatu — US, EU, UK, dan CN",
+      "desc": "Konversi ukuran sepatu antara US, EU, UK, dan CN untuk pria dan wanita. Masukkan ukuran atau panjang kaki dan lihat semua sistem sekaligus — gratis.",
+      "intro": "Konverter ini memetakan ukuran sepatu atau panjang kaki dalam sentimeter ke sistem US, EU, UK, dan CN, untuk kecocokan pria maupun wanita. Ketik ukuran dalam sistem mana pun, atau ukur kaki Anda dari tumit hingga jari, dan ia menunjukkan padanannya di semua sistem lain plus panjang kaki dalam cm dan inci. Konversi adalah standar ritel perkiraan dan berbeda menurut merek dan acuan sepatu.",
+      "steps": [
+        "Pilih kecocokan pria atau wanita.",
+        "Pilih sistem ukuran yang Anda tahu (US, EU, UK, CN, atau cm).",
+        "Masukkan ukuran atau panjang kaki Anda.",
+        "Baca ukuran padanan di setiap sistem."
+      ],
+      "faq": [
+        {
+          "q": "Bagaimana cara mengukur kaki untuk ukuran yang tepat?",
+          "a": "Berdirilah di atas kertas pada malam hari, tandai tumit dan jari terpanjang, lalu ukur jaraknya dalam sentimeter. Masukkan panjang itu di sistem cm; ukur kedua kaki dan gunakan yang lebih besar."
+        },
+        {
+          "q": "Apakah konversi ini tepat?",
+          "a": "Ini adalah standar ritel perkiraan. Merek dan acuan sepatu berbeda, jadi selalu periksa tabel ukuran merek itu sendiri dan pilih ukuran yang lebih besar jika berada di antara dua ukuran."
+        }
+      ]
+    },
+    "rmb-uppercase": {
+      "title": "Konverter Huruf Besar RMB",
+      "h1": "Konversi jumlah ke huruf besar RMB Tiongkok",
+      "desc": "Konversi angka ke jumlah RMB huruf besar Tiongkok yang digunakan pada cek dan faktur. Menangani yuan, jiao, dan fen. Gratis, instan, tanpa unggah.",
+      "intro": "Ketik jumlah dan konverter menuliskannya dalam bentuk huruf besar keuangan Tiongkok (daxie) yang digunakan pada cek, faktur, dan kontrak untuk mencegah pemalsuan. Ia menangani yuan, jiao, dan fen, menandai jumlah bulat yang tepat dengan benar, dan bekerja hingga tepat di bawah satu triliun. Perhitungan menggunakan sen bilangan bulat untuk menghindari kesalahan pembulatan desimal.",
+      "steps": [
+        "Masukkan jumlah, misalnya 1234.56.",
+        "Jumlah RMB huruf besar muncul seketika.",
+        "Periksa bagian yuan, jiao, dan fen.",
+        "Salin hasilnya untuk cek atau faktur Anda."
+      ],
+      "faq": [
+        {
+          "q": "Untuk apa jumlah huruf besar Tiongkok?",
+          "a": "Ini adalah bentuk keuangan tahan-palsu (daxie) yang diwajibkan pada cek, faktur, dan kontrak di Tiongkok, di mana angka biasa dapat diubah. Setiap digit memiliki karakter kompleks yang sulit dipalsukan."
+        },
+        {
+          "q": "Bagaimana desimal ditangani?",
+          "a": "Tempat desimal pertama adalah jiao dan yang kedua adalah fen. Jumlah bulat yang tepat diakhiri dengan karakter yang menandai 'tanpa sen', sehingga 100 dan 100.00 keduanya ditulis dengan benar."
+        }
+      ]
+    },
+    "world-clock": {
+      "title": "Jam Dunia",
+      "h1": "Jam dunia — zona waktu dan perencana rapat",
+      "desc": "Lihat waktu langsung di 12 kota dunia, bandingkan zona waktu, dan rencanakan rapat lintas zona, dengan sorotan jam kerja. Gratis, tanpa daftar.",
+      "intro": "Jam dunia menampilkan waktu langsung di dua belas kota besar, masing-masing dengan tanggalnya dan titik hijau selama jam kerja lokal (09.00–18.00). Seret perencana untuk menyelaraskan rapat lintas zona waktu dan lihat pukul berapa di setiap kota, dengan lencana saat sebuah kota berada pada hari kalender yang berbeda. Waktu ditampilkan terhadap zona waktu Anda sendiri.",
+      "steps": [
+        "Lihat waktu langsung di dua belas kota dunia.",
+        "Perhatikan titik hijau jam kerja dan lencana hari.",
+        "Seret perencana untuk menetapkan waktu rapat.",
+        "Baca waktu lokal di setiap kota."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini memperhitungkan daylight saving time?",
+          "a": "Ya. Waktu dihitung dengan basis data zona waktu browser Anda, sehingga transisi daylight saving diterapkan secara otomatis untuk setiap kota."
+        },
+        {
+          "q": "Bagaimana cara merencanakan rapat lintas zona waktu?",
+          "a": "Seret penggeser perencana ke suatu waktu di zona Anda sendiri; setiap kartu kota diperbarui untuk menampilkan waktu lokalnya, dan lencana menandai kota mana pun yang jatuh pada hari yang berbeda."
+        }
+      ]
+    },
+    "pomodoro-timer": {
+      "title": "Timer Pomodoro",
+      "h1": "Timer fokus Pomodoro dengan istirahat",
+      "desc": "Timer Pomodoro untuk kerja fokus: sesi 25 menit, istirahat singkat dan panjang, penghitung sesi, dan lonceng opsional. Gratis, di browser.",
+      "intro": "Teknik Pomodoro bergantian antara kerja fokus dengan istirahat singkat, dan istirahat lebih panjang setelah beberapa putaran. Tetapkan durasi fokus, istirahat singkat, dan istirahat panjang, mulai timer, dan ia menghitung mundur dengan penghitung sesi dan lonceng opsional di setiap perubahan fase. Mode layar penuh menjaga hitung mundur besar tetap terlihat saat Anda bekerja. Timer berjalan selama tab terbuka.",
+      "steps": [
+        "Tetapkan durasi fokus dan istirahat Anda.",
+        "Tekan Mulai untuk memulai sesi fokus.",
+        "Bekerja hingga lonceng, lalu beristirahat.",
+        "Ulangi; istirahat panjang datang setelah beberapa putaran."
+      ],
+      "faq": [
+        {
+          "q": "Berapa durasi Pomodoro default?",
+          "a": "Siklus klasik adalah 25 menit fokus, istirahat singkat 5 menit, dan istirahat panjang 15 menit setelah empat sesi fokus. Anda dapat mengubah ketiga durasi dan jumlah putaran."
+        },
+        {
+          "q": "Apakah tetap akurat jika saya berpindah tab?",
+          "a": "Timer menghitung terhadap jam, bukan mengurangi, sehingga tetap akurat bahkan saat browser membatasi tab latar belakang. Biarkan tab terbuka, atau gunakan layar penuh untuk hitung mundur besar."
+        }
+      ]
+    },
+    "random-picker": {
+      "title": "Pemilih Acak",
+      "h1": "Pemilih nama acak dan putar-roda",
+      "desc": "Putar roda untuk memilih nama acak, atau undi pemenang seketika. Tambahkan satu nama per baris, hapus pemenang, dan pilih seluruh tim. Gratis.",
+      "intro": "Ketik satu nama per baris, putar roda, dan pemenang dipilih dengan crypto.getRandomValues() sehingga setiap nama memiliki peluang yang sama. Hapus pemenang setelah setiap undian untuk memilih seluruh tim secara berurutan, atau gunakan Undi cepat untuk hasil instan tanpa animasi. Atur ulang untuk memulai lagi. Semuanya berjalan secara lokal di browser Anda.",
+      "steps": [
+        "Masukkan satu nama per baris.",
+        "Tekan Putar roda (atau Undi cepat).",
+        "Baca pemenangnya.",
+        "Hapus pemenang untuk mengundi lagi, atau atur ulang."
+      ],
+      "faq": [
+        {
+          "q": "Apakah pilihannya benar-benar acak?",
+          "a": "Ya. Ia menggunakan crypto.getRandomValues() browser, sumber acak yang aman secara kriptografis, sehingga setiap nama memiliki peluang yang sama dan hasilnya tidak dapat diprediksi."
+        },
+        {
+          "q": "Bisakah saya memilih beberapa pemenang tanpa pengulangan?",
+          "a": "Ya. Gunakan 'Hapus pemenang' setelah setiap undian untuk mengeluarkan nama itu dari roda, sehingga Anda dapat memilih seluruh tim secara berurutan. Atur ulang memulihkan semua nama."
+        }
+      ]
+    },
+    "invoice-generator": {
+      "title": "Pembuat Invoice",
+      "h1": "Pembuat invoice gratis — buat faktur PDF",
+      "desc": "Buat invoice profesional di browser Anda. Tambahkan detail, item, pajak, dan diskon, lalu unduh PDF atau PNG. Gratis, tanpa unggah, tanpa akun.",
+      "intro": "Isi detail penjual dan klien, tambahkan item dengan kuantitas dan harga, tetapkan diskon dan tarif pajak, dan pembuat menata invoice yang rapi dengan total. Pratinjau, lalu ekspor PDF satu halaman atau gambar PNG. Semuanya digambar secara lokal di browser Anda, sehingga detail keuangan Anda tidak pernah meninggalkan perangkat Anda.",
+      "steps": [
+        "Masukkan detail Anda dan detail klien.",
+        "Tambahkan item dengan kuantitas dan harga satuan.",
+        "Tetapkan mata uang, diskon, dan tarif pajak.",
+        "Buat, lalu unduh PDF atau PNG."
+      ],
+      "faq": [
+        {
+          "q": "Apakah data invoice saya diunggah ke mana pun?",
+          "a": "Tidak. Invoice dirender pada kanvas di browser Anda dan diekspor secara lokal sebagai PDF atau PNG. Tidak ada yang dikirim ke server, sehingga angka Anda tetap pribadi."
+        },
+        {
+          "q": "Bisakah saya menggunakan mata uang dan tarif pajak sendiri?",
+          "a": "Ya. Pilih dari delapan mata uang dan tetapkan persentase diskon dan tarif pajak apa pun; subtotal, diskon, pajak, dan total dihitung untuk Anda."
+        }
+      ]
+    },
+    "signature-pad": {
+      "title": "Pad Tanda Tangan",
+      "h1": "Gambar tanda tangan online — PNG transparan",
+      "desc": "Gambar tanda tangan dengan mouse, jari, atau stylus dan unduh sebagai PNG transparan. Urungkan, bersihkan, dan pangkas ruang kosong. Gratis.",
+      "intro": "Tanda tangani kanvas dengan mouse, layar sentuh, atau stylus, pilih warna dan lebar pena, dan unduh PNG dengan latar belakang transparan sehingga menempel rapi pada kontrak atau formulir. Urungkan goresan, bersihkan pad, atau pangkas ruang kosong di sekitar tanda tangan Anda. Tidak ada yang diunggah — gambar tetap di browser Anda.",
+      "steps": [
+        "Gambar tanda tangan Anda di pad.",
+        "Sesuaikan warna dan lebar pena jika perlu.",
+        "Urungkan atau bersihkan untuk memperbaiki kesalahan; pangkas ruang kosong.",
+        "Unduh PNG transparan."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa latar belakangnya transparan?",
+          "a": "PNG diekspor dengan saluran alpha, sehingga hanya goresan Anda yang buram. Itu memungkinkan Anda menempatkan tanda tangan di atas dokumen tanpa kotak putih di sekelilingnya."
+        },
+        {
+          "q": "Bisakah saya menandatangani di ponsel atau tablet?",
+          "a": "Ya. Pad menggunakan pointer event, sehingga jari atau stylus berfungsi seperti mouse. Gambar, lalu unduh PNG ke perangkat Anda."
+        }
+      ]
+    },
+    "id-photo-maker": {
+      "title": "Pembuat Foto ID",
+      "h1": "Pembuat foto paspor dan ID online",
+      "desc": "Buat foto paspor, visa, dan ID di rumah. Pangkas ke ukuran yang tepat, tetapkan dpi, dan ganti latar belakang dengan putih, biru, atau merah. Gratis.",
+      "intro": "Unggah potret, pilih preset (Tiongkok 1 inci, Tiongkok 2 inci, paspor/visa, atau paspor AS) atau ukuran khusus dalam milimeter, dan tetapkan resolusi cetak. Perbesar dan geser untuk membingkai kepala, lalu opsional ganti latar belakang polos dengan putih, biru, atau merah. Foto diproses secara lokal dan diunduh sebagai JPEG siap cetak.",
+      "steps": [
+        "Unggah potret yang jelas dan menghadap depan.",
+        "Pilih preset ukuran atau tetapkan lebar dan tinggi khusus.",
+        "Perbesar dan sesuaikan posisi; opsional ganti latar belakang.",
+        "Buat foto dan unduh JPEG."
+      ],
+      "faq": [
+        {
+          "q": "Apakah foto ini akan diterima untuk paspor saya?",
+          "a": "Ini menghasilkan foto berukuran tepat dan beresolusi tinggi, tetapi penerimaan bergantung pada aturan otoritas penerbit Anda untuk pose, pencahayaan, dan latar belakang. Selalu periksa persyaratan resmi sebelum mencetak."
+        },
+        {
+          "q": "Bagaimana penggantian latar belakang bekerja?",
+          "a": "Ia mengambil warna di sudut kiri atas foto Anda, jadi mulailah dengan latar belakang polos yang diterangi merata. Sesuaikan toleransi untuk menghapus lebih banyak atau lebih sedikit latar belakang lama."
+        }
+      ]
+    },
+    "contract-generator": {
+      "title": "Pembuat Kontrak",
+      "h1": "Pembuat NDA dan perjanjian layanan gratis",
+      "desc": "Buat NDA timbal balik atau perjanjian layanan dari templat sederhana. Isi para pihak, tujuan, dan ketentuan, lalu unduh atau cetak. Gratis.",
+      "intro": "Pilih perjanjian kerahasiaan timbal balik atau perjanjian layanan, isi para pihak, tanggal berlaku, tujuan atau ruang lingkup, jangka waktu, dan hukum yang berlaku, dan pembuat menyusun draf berbahasa lugas. Unduh sebagai file teks atau cetak. Draf dibuat di browser Anda dan tidak pernah diunggah. Ini adalah templat umum, bukan nasihat hukum — minta pengacara yang berkualifikasi meninjaunya sebelum menandatangani.",
+      "steps": [
+        "Pilih NDA atau perjanjian layanan.",
+        "Masukkan para pihak, tanggal, dan ketentuan utama.",
+        "Buat draf dan baca kembali.",
+        "Unduh .txt atau cetak."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini kontrak yang mengikat secara hukum?",
+          "a": "Ini adalah templat umum untuk memulai, bukan nasihat hukum. Hukum berbeda menurut negara dan situasi, jadi minta pengacara yang berkualifikasi meninjau dan menyesuaikannya sebelum ada yang menandatangani."
+        },
+        {
+          "q": "Apa yang dapat saya sesuaikan?",
+          "a": "Para pihak, tanggal berlaku, tujuan atau ruang lingkup layanan, biaya, jangka waktu, dan hukum yang berlaku. Hapus klausul yang tidak berlaku dan tambahkan detail khusus untuk kesepakatan Anda."
+        }
+      ]
+    }
+  }
+}

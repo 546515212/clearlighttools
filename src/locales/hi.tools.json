@@ -1,0 +1,198 @@
+{
+  "compress-pdf": {
+    "title": "PDF को संपीड़ित करें",
+    "h1": "PDF फ़ाइल की साइज़ कम करें"
+  },
+  "merge-pdf": {
+    "title": "PDF मिलाएं",
+    "h1": "कई PDF को एक फ़ाइल में मिलाएं"
+  },
+  "split-pdf": {
+    "title": "PDF विभाजित करें",
+    "h1": "PDF को पृष्ठों में तोड़ें"
+  },
+  "rotate-pdf": {
+    "title": "PDF घुमाएं",
+    "h1": "PDF पेज का रोटेशन बदलें"
+  },
+  "watermark-pdf": {
+    "title": "PDF में वॉटरमार्क",
+    "h1": "PDF पर टेक्स्ट वॉटरमार्क डालें"
+  },
+  "pdf-to-jpg": {
+    "title": "PDF से JPG",
+    "h1": "PDF पेज को JPG या PNG में बदलें"
+  },
+  "pdf-to-text": {
+    "title": "PDF से टेक्स्ट",
+    "h1": "PDF से टेक्स्ट निकालें"
+  },
+  "images-to-pdf": {
+    "title": "इमेज से PDF",
+    "h1": "फ़ोटो को एक PDF में बदलें"
+  },
+  "html-to-pdf": {
+    "title": "HTML से PDF",
+    "h1": "HTML को PDF के रूप में सेव करें"
+  },
+  "compress-image": {
+    "title": "इमेज संपीड़ित करें",
+    "h1": "JPG, PNG और WebP संपीड़न"
+  },
+  "convert-image": {
+    "title": "इमेज फ़ॉर्मेट बदलें",
+    "h1": "इमेज को PNG, JPG या WebP में बदलें"
+  },
+  "resize-image": {
+    "title": "इमेज रिसाइज़",
+    "h1": "इमेज का आकार बदलें"
+  },
+  "image-to-base64": {
+    "title": "छवि से Base64",
+    "h1": "इमेज को Base64 URI में बदलें"
+  },
+  "base64-to-image": {
+    "title": "Base64 से इमेज",
+    "h1": "Base64 को इमेज में बदलें"
+  },
+  "qr-code-generator": {
+    "title": "QR कोड जेनरेटर",
+    "h1": "मुफ़्त QR कोड बनाएं"
+  },
+  "favicon-generator": {
+    "title": "Favicon जेनरेटर",
+    "h1": "इमेज से Favicon बनाएं"
+  },
+  "color-picker": {
+    "title": "कलर पिकर",
+    "h1": "इमेज से रंग चुनें"
+  },
+  "image-to-gif": {
+    "title": "इमेज से GIF",
+    "h1": "चित्रों से एनिमेटेड GIF बनाएं"
+  },
+  "trim-audio": {
+    "title": "ऑडियो काटें",
+    "h1": "MP3 और WAV ऑडियो ट्रिम"
+  },
+  "compress-video": {
+    "title": "वीडियो संपीड़ित करें",
+    "h1": "ब्राउज़र में वीडियो का साइज़ कम करें"
+  },
+  "image-contrast-brightness": {
+    "title": "फ़ोटो एडजस्ट",
+    "h1": "ब्राइटनेस और कंट्रास्ट बदलें"
+  },
+  "word-counter": {
+    "title": "वर्ड काउंटर",
+    "h1": "शब्द और अक्षर गिनें"
+  },
+  "case-converter": {
+    "title": "केस कन्वर्टर",
+    "h1": "अक्षरों का रूप बदलें"
+  },
+  "remove-duplicate-lines": {
+    "title": "डुप्लिकेट हटाएं",
+    "h1": "दोहरी पंक्तियां हटाएं"
+  },
+  "lorem-ipsum-generator": {
+    "title": "Lorem Ipsum",
+    "h1": "डेमो टेक्स्ट बनाएं"
+  },
+  "base64-encode-decode": {
+    "title": "Base64 एन्कोड/डिकोड",
+    "h1": "टेक्स्ट को Base64 में बदलें"
+  },
+  "url-encode-decode": {
+    "title": "URL एन्कोड/डिकोड",
+    "h1": "URL को escape करें"
+  },
+  "html-entities": {
+    "title": "HTML एंटीटीज़",
+    "h1": "HTML एस्केप और यूनेस्केप"
+  },
+  "reverse-text": {
+    "title": "टेक्स्ट उलटा करें",
+    "h1": "टेक्स्ट रिवर्स करें"
+  },
+  "json-formatter": {
+    "title": "JSON फ़ॉर्मैटर",
+    "h1": "JSON को सुंदर बनाएं"
+  },
+  "csv-to-json": {
+    "title": "CSV से JSON",
+    "h1": "CSV को JSON में बदलें"
+  },
+  "markdown-to-html": {
+    "title": "Markdown से HTML",
+    "h1": "Markdown बदलें HTML में"
+  },
+  "hash-generator": {
+    "title": "हैश जेनरेटर",
+    "h1": "MD5, SHA-1, SHA-256"
+  },
+  "uuid-generator": {
+    "title": "UUID जेनरेटर",
+    "h1": "random UUID बनाएं"
+  },
+  "password-generator": {
+    "title": "पासवर्ड जेनरेटर",
+    "h1": "मज़बूत पासवर्ड बनाएं"
+  },
+  "regex-tester": {
+    "title": "Regex टेस्टर",
+    "h1": "JavaScript regex आज़माएं"
+  },
+  "diff-checker": {
+    "title": "डिफ़ चेकर",
+    "h1": "दो टेक्स्ट तुलना"
+  },
+  "text-to-speech": {
+    "title": "टेक्स्ट टू स्पीच",
+    "h1": "टेक्स्ट सुनें"
+  },
+  "percentage-calculator": {
+    "title": "प्रतिशत कैलकुलेटर",
+    "h1": "पर्सेंटेज निकालें"
+  },
+  "bmi-calculator": {
+    "title": "BMI कैलकुलेटर",
+    "h1": "बॉडी मास इंडेक्स निकालें"
+  },
+  "age-calculator": {
+    "title": "आयु कैलकुलेटर",
+    "h1": "उम्र गणना"
+  },
+  "date-calculator": {
+    "title": "तारीख़ कैलकुलेटर",
+    "h1": "दिनों की गणना"
+  },
+  "loan-calculator": {
+    "title": "ऋण कैलकुलेटर",
+    "h1": "EMI और लोन गणना"
+  },
+  "discount-calculator": {
+    "title": "छूट कैलकुलेटर",
+    "h1": "डिस्काउंट के बाद दाम"
+  },
+  "unit-converter": {
+    "title": "इकाई कन्वर्टर",
+    "h1": "लंबाई, वज़न और तापमान"
+  },
+  "color-converter": {
+    "title": "रंग कन्वर्टर",
+    "h1": "HEX से RGB और HSL"
+  },
+  "calorie-calculator": {
+    "title": "कैलोरी कैलकुलेटर",
+    "h1": "दैनिक कैलोरी"
+  },
+  "timestamp-converter": {
+    "title": "टाइमस्टैम्प कन्वर्टर",
+    "h1": "Unix से डेट"
+  },
+  "random-number-generator": {
+    "title": "रैंडम नंबर",
+    "h1": "रैंडम नंबर जेनरेटर"
+  }
+}

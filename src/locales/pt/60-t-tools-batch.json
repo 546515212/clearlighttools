@@ -1,0 +1,202 @@
+{
+  "t": {
+    "shoe-size-converter": {
+      "title": "Conversor de tamanho de sapato",
+      "h1": "Conversor de tamanho de sapato — US, EU, UK e CN",
+      "desc": "Converta tamanhos de sapato entre US, EU, UK e CN para homem e mulher. Introduza um tamanho ou o comprimento do pé e veja todos os sistemas. Grátis e rápido.",
+      "intro": "Este conversor faz corresponder um tamanho de sapato ou um comprimento de pé em centímetros entre os sistemas US, EU, UK e CN, tanto para o ajuste de homem como de mulher. Escreva um tamanho em qualquer sistema, ou meça o pé do calcanhar à ponta, e verá o equivalente em todos os outros, além do comprimento do pé em cm e polegadas. As conversões são padrões comerciais aproximados e variam consoante a marca e a forma.",
+      "steps": [
+        "Escolha o ajuste de homem ou de mulher.",
+        "Selecione o sistema de tamanhos que conhece (US, EU, UK, CN ou cm).",
+        "Introduza o seu tamanho ou o comprimento do pé.",
+        "Consulte os tamanhos equivalentes em todos os sistemas."
+      ],
+      "faq": [
+        {
+          "q": "Como meço o pé para acertar no tamanho?",
+          "a": "Fique de pé sobre uma folha de papel ao final do dia, marque o calcanhar e o dedo mais comprido e meça a distância em centímetros. Introduza esse comprimento no sistema cm; meça os dois pés e use o maior."
+        },
+        {
+          "q": "Estas conversões são exatas?",
+          "a": "São padrões comerciais aproximados. As marcas e as formas dos sapatos diferem, por isso consulte sempre a tabela de tamanhos do fabricante e escolha o tamanho maior se ficar entre dois."
+        }
+      ]
+    },
+    "rmb-uppercase": {
+      "title": "Conversor de RMB em maiúsculas",
+      "h1": "Converta um valor em RMB maiúsculas chinesas",
+      "desc": "Converta um número no valor em maiúsculas chinesas do RMB usado em cheques e faturas. Aceita yuan, jiao e fen. Grátis, instantâneo e sem carregamentos.",
+      "intro": "Escreva um valor e o conversor redige-o na forma financeira chinesa em maiúsculas (daxie) usada em cheques, faturas e contratos para evitar adulterações. Aceita yuan, jiao e fen, marca corretamente um valor inteiro exato e funciona até pouco menos de um bilião. O cálculo usa cêntimos inteiros para evitar erros de vírgula flutuante.",
+      "steps": [
+        "Introduza o valor, por exemplo 1234.56.",
+        "O valor em RMB maiúsculas aparece de imediato.",
+        "Verifique as partes de yuan, jiao e fen.",
+        "Copie o resultado para o seu cheque ou fatura."
+      ],
+      "faq": [
+        {
+          "q": "Para que serve o valor em maiúsculas chinesas?",
+          "a": "É a forma financeira resistente a adulterações (daxie) exigida em cheques, faturas e contratos na China, onde os dígitos normais poderiam ser alterados. Cada dígito tem um carácter complexo difícil de falsificar."
+        },
+        {
+          "q": "Como são tratados os decimais?",
+          "a": "A primeira casa decimal é jiao e a segunda é fen. Um valor inteiro exato termina com um carácter que indica «sem cêntimos», pelo que 100 e 100.00 são ambos escritos corretamente."
+        }
+      ]
+    },
+    "world-clock": {
+      "title": "Relógio mundial",
+      "h1": "Relógio mundial — fusos horários e planeador de reuniões",
+      "desc": "Veja a hora em direto em 12 cidades do mundo, compare fusos horários e planeie uma reunião entre eles, com o horário laboral destacado. Grátis, sem registo.",
+      "intro": "O relógio mundial mostra a hora em direto em doze cidades importantes, cada uma com a sua data e um ponto verde durante o horário laboral local (09:00–18:00). Arraste o planeador para marcar uma reunião entre fusos horários e veja a que horas cai em cada cidade, com um distintivo quando uma cidade está num dia diferente do calendário. As horas são mostradas em relação ao seu próprio fuso horário.",
+      "steps": [
+        "Veja a hora em direto em doze cidades do mundo.",
+        "Repare nos pontos verdes do horário laboral e nos distintivos de dia.",
+        "Arraste o planeador para definir a hora de uma reunião.",
+        "Leia a hora local em cada cidade."
+      ],
+      "faq": [
+        {
+          "q": "Tem em conta a hora de verão?",
+          "a": "Sim. As horas são calculadas com a base de dados de fusos horários do seu navegador, pelo que as mudanças da hora de verão são aplicadas automaticamente em cada cidade."
+        },
+        {
+          "q": "Como planeio uma reunião entre fusos horários?",
+          "a": "Arraste o controlo do planeador até uma hora do seu próprio fuso; cada cartão de cidade atualiza-se para mostrar a sua hora local, e um distintivo marca as cidades que caem noutro dia."
+        }
+      ]
+    },
+    "pomodoro-timer": {
+      "title": "Temporizador Pomodoro",
+      "h1": "Temporizador Pomodoro de concentração com pausas",
+      "desc": "Um temporizador Pomodoro para trabalho concentrado: sessões de 25 minutos, pausas curtas e longas, contador de sessões e aviso sonoro opcional. Grátis.",
+      "intro": "A técnica Pomodoro alterna o trabalho concentrado com pausas curtas e uma pausa mais longa após algumas rondas. Defina a duração da concentração, da pausa curta e da pausa longa, inicie o temporizador e ele fará a contagem decrescente com um contador de sessões e um aviso sonoro opcional em cada mudança de fase. O modo de ecrã inteiro mantém visível uma contagem decrescente grande enquanto trabalha. O temporizador funciona enquanto o separador estiver aberto.",
+      "steps": [
+        "Defina a duração da concentração e das pausas.",
+        "Prima Iniciar para começar uma sessão de concentração.",
+        "Trabalhe até ao aviso sonoro e depois faça uma pausa.",
+        "Repita; a pausa longa chega após algumas rondas."
+      ],
+      "faq": [
+        {
+          "q": "Quais são as durações Pomodoro por defeito?",
+          "a": "O ciclo clássico é de 25 minutos de concentração, uma pausa curta de 5 minutos e uma pausa longa de 15 minutos após quatro sessões de concentração. Pode alterar as três durações e o número de rondas."
+        },
+        {
+          "q": "Continua preciso se mudar de separador?",
+          "a": "O temporizador conta pelo relógio em vez de ir subtraindo, pelo que continua preciso mesmo quando o navegador abranda um separador em segundo plano. Mantenha o separador aberto ou use o ecrã inteiro para ver uma contagem decrescente grande."
+        }
+      ]
+    },
+    "random-picker": {
+      "title": "Sorteador aleatório",
+      "h1": "Sorteador de nomes aleatório e roleta para girar",
+      "desc": "Gire uma roleta para escolher um nome ao acaso ou sorteie um vencedor de imediato. Adicione um nome por linha, remova vencedores e escolha uma equipa. Grátis.",
+      "intro": "Escreva um nome por linha, gire a roleta e é escolhido um vencedor com crypto.getRandomValues(), de modo que cada nome tem a mesma probabilidade. Remova o vencedor após cada sorteio para escolher uma equipa completa por ordem, ou use o Sorteio rápido para um resultado instantâneo sem a animação. Reponha para começar de novo. Tudo é executado localmente no seu navegador.",
+      "steps": [
+        "Introduza um nome por linha.",
+        "Prima Girar a roleta (ou Sorteio rápido).",
+        "Leia o vencedor.",
+        "Remova o vencedor para sortear de novo, ou reponha."
+      ],
+      "faq": [
+        {
+          "q": "O sorteio é verdadeiramente aleatório?",
+          "a": "Sim. Usa o crypto.getRandomValues() do navegador, uma fonte de aleatoriedade criptograficamente segura, pelo que cada nome tem a mesma probabilidade e o resultado não é previsível."
+        },
+        {
+          "q": "Posso escolher vários vencedores sem repetições?",
+          "a": "Sim. Use «Remover vencedor» após cada sorteio para tirar esse nome da roleta e assim escolher uma equipa completa por ordem. Repor restaura todos os nomes."
+        }
+      ]
+    },
+    "invoice-generator": {
+      "title": "Gerador de faturas",
+      "h1": "Gerador de faturas grátis — crie uma fatura em PDF",
+      "desc": "Crie uma fatura profissional no seu navegador. Adicione os seus dados, as linhas, o imposto e o desconto, e descarregue um PDF ou PNG. Grátis.",
+      "intro": "Preencha os dados do vendedor e do cliente, adicione linhas com quantidades e preços, defina um desconto e uma taxa de imposto, e o gerador compõe uma fatura clara com os totais. Pré-visualize-a e depois exporte-a como PDF de uma página ou como imagem PNG. Tudo é desenhado localmente no seu navegador, pelo que os seus dados financeiros nunca saem do seu dispositivo.",
+      "steps": [
+        "Introduza os seus dados e os do cliente.",
+        "Adicione linhas com quantidade e preço unitário.",
+        "Defina a moeda, o desconto e a taxa de imposto.",
+        "Gere a fatura e descarregue o PDF ou o PNG."
+      ],
+      "faq": [
+        {
+          "q": "Os dados da minha fatura são carregados para algum lado?",
+          "a": "Não. A fatura é desenhada num canvas do seu navegador e exportada localmente como PDF ou PNG. Nada é enviado para um servidor, pelo que os seus valores permanecem privados."
+        },
+        {
+          "q": "Posso usar a minha própria moeda e taxa de imposto?",
+          "a": "Sim. Escolha entre oito moedas e defina qualquer percentagem de desconto e taxa de imposto; o subtotal, o desconto, o imposto e o total são calculados automaticamente."
+        }
+      ]
+    },
+    "signature-pad": {
+      "title": "Bloco de assinaturas",
+      "h1": "Desenhe a sua assinatura online — PNG transparente",
+      "desc": "Desenhe a sua assinatura com o rato, o dedo ou uma caneta óptica e descarregue um PNG transparente. Anule, limpe e recorte o espaço vazio. Grátis.",
+      "intro": "Assine na área de desenho com o rato, um ecrã tátil ou uma caneta óptica, escolha a cor e a espessura da caneta e descarregue um PNG com fundo transparente para que se sobreponha de forma limpa a um contrato ou formulário. Anule traços, limpe o bloco ou recorte o espaço vazio à volta da sua assinatura. Nada é carregado — o desenho permanece no seu navegador.",
+      "steps": [
+        "Desenhe a sua assinatura no bloco.",
+        "Ajuste a cor e a espessura da caneta, se necessário.",
+        "Anule ou limpe para corrigir erros; recorte o espaço vazio.",
+        "Descarregue o PNG transparente."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que o fundo é transparente?",
+          "a": "O PNG é exportado com canal alfa, pelo que apenas os seus traços são opacos. Isso permite-lhe colocar a assinatura sobre um documento sem uma caixa branca à volta."
+        },
+        {
+          "q": "Posso assinar num telemóvel ou tablet?",
+          "a": "Sim. O bloco usa eventos de ponteiro, pelo que o dedo ou a caneta óptica funcionam tal como um rato. Desenhe e depois descarregue o PNG para o seu dispositivo."
+        }
+      ]
+    },
+    "id-photo-maker": {
+      "title": "Criador de fotos tipo passe",
+      "h1": "Criador online de fotos de passaporte e tipo passe",
+      "desc": "Faça fotos de passaporte, visto e tipo passe em casa. Recorte no tamanho certo, defina os dpi e substitua o fundo por branco, azul ou vermelho. Grátis.",
+      "intro": "Carregue um retrato, escolha um tamanho predefinido (China 1 polegada, China 2 polegadas, passaporte/visto ou passaporte dos EUA) ou um tamanho personalizado em milímetros, e defina a resolução de impressão. Faça zoom e desloque a imagem para enquadrar a cabeça e, se quiser, substitua um fundo liso por branco, azul ou vermelho. A foto é processada localmente e descarregada como JPEG pronta a imprimir.",
+      "steps": [
+        "Carregue um retrato nítido e de frente.",
+        "Escolha um tamanho predefinido ou defina uma largura e altura personalizadas.",
+        "Faça zoom e ajuste a posição; opcionalmente substitua o fundo.",
+        "Crie a foto e descarregue o JPEG."
+      ],
+      "faq": [
+        {
+          "q": "Esta foto será aceite para o meu passaporte?",
+          "a": "Produz uma foto com o tamanho correto e alta resolução, mas a aceitação depende das regras da sua entidade emissora quanto à pose, iluminação e fundo. Verifique sempre os requisitos oficiais antes de imprimir."
+        },
+        {
+          "q": "Como funciona a substituição do fundo?",
+          "a": "Remove a cor do canto superior esquerdo da sua foto, por isso comece com um fundo liso e uniformemente iluminado. Ajuste a tolerância para remover mais ou menos parte do fundo antigo."
+        }
+      ]
+    },
+    "contract-generator": {
+      "title": "Gerador de contratos",
+      "h1": "Gerador grátis de NDA e contratos de serviços",
+      "desc": "Gere um NDA mútuo ou um contrato de serviços a partir de um modelo simples. Preencha as partes, o objeto e as condições, e descarregue ou imprima. Grátis.",
+      "intro": "Escolha um acordo mútuo de confidencialidade ou um contrato de prestação de serviços, preencha as partes, a data de entrada em vigor, o objeto ou o âmbito, a duração e a lei aplicável, e o gerador compõe uma minuta em linguagem clara. Descarregue-a como ficheiro de texto ou imprima-a. A minuta é criada no seu navegador e nunca é carregada. Isto é um modelo geral, não aconselhamento jurídico — peça a um advogado qualificado que o revise antes de assinar.",
+      "steps": [
+        "Escolha NDA ou contrato de prestação de serviços.",
+        "Introduza as partes, a data e as condições principais.",
+        "Gere a minuta e leia-a com atenção.",
+        "Descarregue o .txt ou imprima-o."
+      ],
+      "faq": [
+        {
+          "q": "Este é um contrato legalmente vinculativo?",
+          "a": "É um modelo geral para começar, não aconselhamento jurídico. As leis variam consoante o país e a situação, por isso peça a um advogado qualificado que o reveja e adapte antes de alguém assinar."
+        },
+        {
+          "q": "O que posso personalizar?",
+          "a": "As partes, a data de entrada em vigor, o objeto ou o âmbito dos serviços, os honorários, a duração e a lei aplicável. Elimine as cláusulas que não se aplicam e adicione os detalhes específicos do seu acordo."
+        }
+      ]
+    }
+  }
+}

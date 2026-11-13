@@ -1,0 +1,373 @@
+{
+ "done": false,
+ "startedAt": "2026-11-07T11:01:46.844Z",
+ "planned": [
+  "compress-pdf",
+  "merge-pdf",
+  "split-pdf",
+  "split-pdf",
+  "rotate-pdf",
+  "watermark-pdf",
+  "pdf-to-jpg",
+  "pdf-to-text",
+  "images-to-pdf",
+  "html-to-pdf",
+  "compress-image",
+  "convert-image",
+  "resize-image",
+  "image-to-base64",
+  "base64-to-image",
+  "qr-code-generator",
+  "favicon-generator",
+  "color-picker",
+  "image-to-gif",
+  "trim-audio",
+  "image-contrast-brightness",
+  "word-counter",
+  "case-converter",
+  "remove-duplicate-lines",
+  "lorem-ipsum-generator",
+  "base64-encode-decode",
+  "url-encode-decode",
+  "html-entities",
+  "reverse-text",
+  "json-formatter",
+  "csv-to-json",
+  "markdown-to-html",
+  "hash-generator",
+  "uuid-generator",
+  "password-generator",
+  "regex-tester",
+  "diff-checker",
+  "text-to-speech",
+  "percentage-calculator",
+  "bmi-calculator",
+  "age-calculator",
+  "date-calculator",
+  "loan-calculator",
+  "discount-calculator",
+  "unit-converter",
+  "color-converter",
+  "calorie-calculator",
+  "timestamp-converter",
+  "random-number-generator"
+ ],
+ "rows": [
+  {
+   "tool": "compress-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "s49-compress-pdf-sample-long.pdf | 7424 | application/pdf"
+   ],
+   "output": [
+    "sample-long.pdf7.3 KB−1%Download",
+    "sample-long.pdf7.3 KB−1%Download"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 6035
+  },
+  {
+   "tool": "merge-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Merge",
+    "Download"
+   ],
+   "bytes": [
+    "s49-merge-pdf-merged-6-pages.pdf | 4073 | application/pdf"
+   ],
+   "output": [
+    "merged-6-pages.pdf4.0 KB6 pagesDownload",
+    "merged-6-pages.pdf4.0 KB6 pagesDownload"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 5009
+  },
+  {
+   "tool": "split-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "s49-split-pdf-sample-a-pages.pdf | 1255 | application/pdf"
+   ],
+   "output": [
+    "sample-a-pages.pdf1.2 KB1pDownload",
+    "sample-a-pages.pdf1.2 KB1pDownload"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 4998
+  },
+  {
+   "tool": "split-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download all (.zip)"
+   ],
+   "bytes": [
+    "s49-split-each-sample-long-split.zip | 16388 | application/zip"
+   ],
+   "output": [
+    "12 files produced.Download all (.zip)"
+   ],
+   "filled": [
+    "Mode=each"
+   ],
+   "throttleMs": 1048,
+   "ms": 5990
+  },
+  {
+   "tool": "rotate-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Apply",
+    "Download"
+   ],
+   "bytes": [
+    "s49-rotate-pdf-sample-a.pdf | 2435 | application/pdf"
+   ],
+   "output": [
+    "sample-a.pdf2.4 KB3 pages rotatedDownload",
+    "sample-a.pdf2.4 KB3 pages rotatedDownload"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 5003
+  },
+  {
+   "tool": "watermark-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Add watermark",
+    "Download"
+   ],
+   "bytes": [
+    "s49-watermark-pdf-sample-a.pdf | 3360 | application/pdf"
+   ],
+   "output": [
+    "sample-a.pdf3.3 KB3 pages stampedDownload",
+    "sample-a.pdf3.3 KB3 pages stampedDownload"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 5001
+  },
+  {
+   "tool": "pdf-to-jpg",
+   "ok": false,
+   "why": "Run still working after 120 s | notes: file tool produced no download button (new buttons: none; buttons after run: 1/3)",
+   "clicks": [
+    "Run"
+   ],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 260994
+  },
+  {
+   "tool": "pdf-to-text",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Extract text",
+    "Download as .txt"
+   ],
+   "bytes": [
+    "s49-pdf-to-text-sample-a.txt | 391 | text/plain"
+   ],
+   "output": [
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH",
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH",
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 6007
+  },
+  {
+   "tool": "images-to-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Create PDF",
+    "Download"
+   ],
+   "bytes": [
+    "s49-images-to-pdf-photo-pdf.pdf | 32627 | application/pdf"
+   ],
+   "output": [
+    "photo-pdf.pdf32 KB2 pagesDownload",
+    "photo-pdf.pdf32 KB2 pagesDownload"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 4990
+  },
+  {
+   "tool": "html-to-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 109010
+  },
+  {
+   "tool": "compress-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Compress",
+    "Download"
+   ],
+   "bytes": [
+    "s49-compress-image-photo.jpg | 4144 | image/jpeg"
+   ],
+   "output": [
+    "photo.jpg4.0 KB34 KB → 4.0 KB (−88%)Download",
+    "photo.jpg4.0 KB34 KB → 4.0 KB (−88%)Download"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 6988
+  },
+  {
+   "tool": "convert-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Convert",
+    "Download"
+   ],
+   "bytes": [
+    "s49-convert-image-photo.png | 5624 | image/png"
+   ],
+   "output": [
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload",
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 6998
+  },
+  {
+   "tool": "resize-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Resize",
+    "Download"
+   ],
+   "bytes": [
+    "s49-resize-image-photo.png | 88387 | image/png"
+   ],
+   "output": [
+    "photo.png86 KB240×160 → 1024×683Download",
+    "photo.png86 KB240×160 → 1024×683Download"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 7011
+  },
+  {
+   "tool": "image-to-base64",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "photo-small.png · 12 KB · 16,166 characters of text (base64 is ~33% larger than the bytes it encodes)Copy"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 1997
+  },
+  {
+   "tool": "base64-to-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download"
+   ],
+   "bytes": [
+    "s49-base64-to-image-decoded.png | 12108 | image/png"
+   ],
+   "output": [
+    "decoded.png12 KBimage/png · 80×60 · from 16,144 base64 charactersDownload",
+    "decoded.png12 KBimage/png · 80×60 · from 16,144 base64 charactersDownload"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 4995
+  },
+  {
+   "tool": "qr-code-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download PNG",
+    "Download SVG"
+   ],
+   "bytes": [
+    "s49-qr-code-qr-code.png | 4199 | image/png",
+    "s49-qr-code-qr-code.svg | 6057 | image/svg+xml"
+   ],
+   "output": [
+    "29×29 modules · 296px · payload 28 BDownload PNGDownload SVGCopy imagePrintText payload: https://example.com/p",
+    "29×29 modules · 296px · payload 28 B"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 5999
+  },
+  {
+   "tool": "favicon-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Generate",
+    "Download",
+    "Download",
+    "Download",
+    "Download",
+    "Download",
+    "Download .zip"
+   ],
+   "bytes": [
+    "s49-favicon-favicon-16x16.png | 663 | image/png",
+    "s49-favicon-favicon-32x32.png | 1288 | image/png",
+    "s49-favicon-favicon-48x48.png | 2088 | image/png",
+    "s49-favicon-favicon-180x180.png | 8099 | image/png",
+    "s49-favicon-favicon.ico | 12208 | image/x-icon",
+    "s49-favicon-favicon.zip | 24910 | application/zip"
+   ],
+   "output": [
+    "favicon-16x16.png663 B16×16Downloadfavicon-32x32.png1.3 KB32×32Downloadfavicon-48x48.png2.0 KB48×48Downloadfav",
+    "favicon-16x16.png663 B16×16Download",
+    "favicon-32x32.png1.3 KB32×32Download"
+   ],
+   "filled": [],
+   "throttleMs": 1048,
+   "ms": 505996
+  }
+ ]
+}

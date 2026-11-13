@@ -1,0 +1,184 @@
+{
+  "t": {
+    "compress-pdf": {
+      "desc": "Verkleinere ein PDF im Browser: ohne eingebetteten Ballast, Bilder neu gesampelt, Text bleibt markierbar. Kein Upload, kein Wasserzeichen, keine Anmeldung.",
+      "intro": "„PDF komprimieren“ arbeitet vollständig auf deinem eigenen Rechner. Das Werkzeug liest die Datei, ersetzt doppelte Font- und Objektreferenzen, verringert bei Bedarf die Auflösung großer Bilder und gibt das kleinere PDF über den normalen Browser-Download zurück.",
+      "steps": [
+        "Leg eine oder mehrere PDF-Dateien auf das Panel, oder klick darauf, um sie auszusuchen.",
+        "Wähle eine Stufe: „Beste Qualität“ erhält alles, „Empfohlen“ balanciert Größe und Aussehen, „Kleinste Datei“ resampelt die Bilder am stärksten.",
+        "Lass komprimieren und sieh dir die Werte vorher und nachher für jede Datei an.",
+        "Lade das Ergebnis herunter, oder alle Dateien zusammen als zip."
+      ],
+      "faq": [
+        {
+          "q": "Warum wird ein gescanntes PDF kaum kleiner?",
+          "a": "Eine Scan-Seite ist im Grunde ein Foto. Die Ersparnis entsteht dadurch, dass diese Seitenbilder neu kodiert werden — nimm die Stufe „Kleinste Datei“, oder wandle die Seiten zuerst in JPG um."
+        },
+        {
+          "q": "Werden dabei Seiten oder Text entfernt?",
+          "a": "Nein. Seitenzahl, Textebene und Links bleiben unversehrt; nur überflüssige Objekte und überdimensionierte Bilder werden neu kodiert."
+        }
+      ]
+    },
+    "merge-pdf": {
+      "desc": "Füge mehrere PDFs in der gewählten Reihenfolge zusammen, mit frei verschiebbaren Seitenvorschauen vor dem Verbinden. Läuft kostenlos lokal im Browser.",
+      "intro": "„PDF zusammenführen“ kopiert die Seitenobjekte jeder Datei in ein einziges Dokument, ohne sie zu rastern — deshalb bleibt der Text nach dem Zusammenführen markierbar und durchsuchbar.",
+      "steps": [
+        "Füge jedes PDF hinzu, das du verbinden möchtest.",
+        "Zieh die Vorschaubilder, um die Reihenfolge festzulegen, oder entferne eine Datei, die du versehentlich hinzugefügt hast.",
+        "Drück „Zusammenführen“.",
+        "Lade die zusammengeführte PDF herunter."
+      ],
+      "faq": [
+        {
+          "q": "Kann ich Seiten aus nur einem Teil einer Datei übernehmen?",
+          "a": "Ja, löse zuerst mit „PDF teilen“ den gewünschten Bereich heraus und füge dann die Stücke zusammen, die du brauchst."
+        },
+        {
+          "q": "Gibt es eine Obergrenze für die Anzahl der Dateien?",
+          "a": "Nur der Arbeitsspeicher deines Geräts. Praktisch lassen sich einige hundert Seiten auch auf einem Smartphone bequem zusammenführen."
+        }
+      ]
+    },
+    "split-pdf": {
+      "desc": "Löse einen Seitenbereich aus einem PDF, schreibe jede Seite in eine eigene Datei oder zerteile ein langes Dokument in Blöcke — alles läuft lokal.",
+      "intro": "„PDF teilen“ baut aus den behaltenen Seiten eine neue Datei. Da die Seitenobjekte kopiert statt neu gerendert werden, ist die Qualität identisch mit dem Original.",
+      "steps": [
+        "Öffne dein PDF im Panel.",
+        "Wähle „Bereich extrahieren“, „Jede Seite als eigene Datei speichern“ oder „In Blöcke aufteilen“.",
+        "Gib den Bereich ein, zum Beispiel 3-8 oder 1,4,9-12.",
+        "Lass aufteilen und lade das Ergebnis herunter."
+      ],
+      "faq": [
+        {
+          "q": "Kann ich stattdessen Seiten löschen?",
+          "a": "Ja. Markiere alle Seiten, die du behalten willst, oder gib den Bereich, der entfallen soll, ins Gegenfeld ein — das Werkzeug erzeugt die Datei ohne diese Seiten."
+        },
+        {
+          "q": "Bleiben beim Aufteilen die Lesezeichen erhalten?",
+          "a": "Lesezeichen, die auf entfernte Seiten zeigen, entfallen; Seiteninhalt, Links und Textebenen bleiben erhalten."
+        }
+      ]
+    },
+    "rotate-pdf": {
+      "desc": "Drehe alle Seiten oder nur die von dir ausgewählten um 90, 180 oder 270 Grad. Kostenlos, sofort erledigt, und die Datei verlässt deinen Computer nicht.",
+      "intro": "Die Seiten werden nur neu ausgerichtet, es gibt keine Neukodierung — eine Drehung kostet daher nichts an Qualität und dauert selbst bei einer großen Datei nur eine Sekunde.",
+      "steps": [
+        "Leg das PDF ab.",
+        "Wähle 90° rechts, 180° oder 90° links.",
+        "Beschränke die Änderung optional auf einen Seitenbereich.",
+        "Drück „Anwenden“ und lade herunter."
+      ],
+      "faq": [
+        {
+          "q": "Warum sehen meine Querformatseiten nach dem Scannen falsch aus?",
+          "a": "Viele Scanner schreiben das Bild gedreht und setzen nur einen Seiten-Marker. Dreh deshalb gezielt den betroffenen Bereich statt des ganzen Dokuments."
+        },
+        {
+          "q": "Kann ich einzelne Seiten unterschiedlich drehen?",
+          "a": "Ja, lass das Werkzeug pro Bereich laufen; jeder Durchlauf lässt den Rest unberührt."
+        }
+      ]
+    },
+    "watermark-pdf": {
+      "desc": "Stemple DRAFT, VERTRAULICH, ein Datum oder den Firmennamen auf jede Seite — mit Kontrolle über Größe, Farbe, Deckkraft und Winkel.",
+      "intro": "Das Wasserzeichen wird als echter Vektortext auf jeder Seite gezeichnet, skaliert deshalb im Druck sauber und lässt sich nicht verschieben, indem jemand eine Bildebene anfasst.",
+      "steps": [
+        "Lade das PDF, das du stempeln möchtest.",
+        "Gib den Text ein und wähle Farbe, Deckkraft und Drehung.",
+        "Entscheide, ob der Stempel hinter oder über dem Inhalt liegt.",
+        "Drück „Wasserzeichen hinzufügen“ und lade herunter."
+      ],
+      "faq": [
+        {
+          "q": "Kann ich nur einige Seiten stempeln?",
+          "a": "Ja, beschränke den Stempel auf einen Seitenbereich wie 1 oder 2-5."
+        },
+        {
+          "q": "Ist der Stempeltext markierbar?",
+          "a": "Er wird als Text eingefügt und taucht deshalb in den Suchergebnissen der fertigen Datei auf."
+        }
+      ]
+    },
+    "pdf-to-jpg": {
+      "desc": "Rendere jede PDF-Seite als JPG oder PNG in Wunschauflösung, sieh die Bilder am Bildschirm und lade eine Seite oder alle zusammen als zip herunter.",
+      "intro": "Zum Rendern dient dieselbe Engine, die PDFs in deinem Browser anzeigt, deshalb stimmen Schriften und Layout exakt mit dem Original überein. Hochgeladen wird nirgendwohin.",
+      "steps": [
+        "Leg die PDF-Datei ab.",
+        "Stelle das Ausgabeformat und den Faktor für die Auflösung ein.",
+        "Sieh dir die gerenderten Seiten in der Vorschau an.",
+        "Lade ein einzelnes Bild oder das komplette zip herunter."
+      ],
+      "faq": [
+        {
+          "q": "Welche Qualität nehme ich für den Druck?",
+          "a": "Für Textdokumente PNG bei 2x und für Foto-Seiten JPG bei 2x; 3x kommt bei A4 nahe an 300 dpi heran."
+        },
+        {
+          "q": "Kann ich nur eine einzelne Seite bekommen?",
+          "a": "Ja, rendere statt des ganzen Dokuments einfach den Bereich, den du brauchst."
+        }
+      ]
+    },
+    "pdf-to-text": {
+      "desc": "Zieh den lesbaren Text aus einem PDF, behalte Zeilen- oder Absatzformat, kopiere ihn in die Zwischenablage oder speichere ihn als .txt. Läuft im Browser.",
+      "intro": "Der Text stammt aus der PDF-eigenen Textebene, deshalb ist die Extraktion bei Dokumenten und Berichten treffsicher. Gescannte Seiten haben keine Textebene und brauchen OCR.",
+      "steps": [
+        "Füge dein PDF hinzu.",
+        "Wähle die Lesereihenfolge, die Zeilen zu Absätzen verbindet, oder ein Textelement pro Zeile.",
+        "Drück „Text extrahieren“.",
+        "Kopiere das Ergebnis oder lade es als Textdatei herunter."
+      ],
+      "faq": [
+        {
+          "q": "Warum habe ich ein leeres Ergebnis bekommen?",
+          "a": "Die Datei ist vermutlich ein Scan von Papier. OCR ist eine Technologie auf der Serverseite; als Ausweg schickst du die Seiten durch eine OCR-App, der du vertraust."
+        },
+        {
+          "q": "Bleiben Tabellen erhalten?",
+          "a": "Mit der Lesereihenfolge bleiben die Spalten über die Abstände erhalten, auch wenn komplexe Tabellen besser als Bilder ausgegeben werden."
+        }
+      ]
+    },
+    "images-to-pdf": {
+      "desc": "Füge JPG-, PNG-, WebP- oder GIF-Fotos zu einem PDF zusammen — in deiner Reihenfolge und mit Seitengröße, Rand und Ausrichtung nach deiner Wahl.",
+      "intro": "Besonders praktisch für einen Scan-Stapel vom Handy: Fotos ablegen, sortieren, und es entsteht ein Dokument, das sich sauber mailen und korrekt drucken lässt.",
+      "steps": [
+        "Wähle die Fotos aus.",
+        "Zieh zum Umsortieren und lösch, was doppelt fotografiert wurde.",
+        "Wähle Seitengröße und Ränder.",
+        "Drück „PDF erstellen“ und lade herunter."
+      ],
+      "faq": [
+        {
+          "q": "Passt das Werkzeug die Bilder an die Seite an?",
+          "a": "Ja, jedes Bild wird ohne Beschnitt in den druckbaren Bereich skaliert — außer du wählst „Seite füllen (zuschneiden)“."
+        },
+        {
+          "q": "Kann ich eine Bildunterschrift ergänzen?",
+          "a": "Nutze danach „PDF-Wasserzeichen“, um auf jede Seite einen Titel oder ein Datum zu stempeln."
+        }
+      ]
+    },
+    "html-to-pdf": {
+      "desc": "Füge HTML ein, wähle Papierformat und Ränder und drucke die gerenderte Ansicht direkt aus dem Browser als PDF. Kostenlos und privat.",
+      "intro": "Das Werkzeug baut aus deinem Markup eine saubere Druckansicht und übergibt sie dem PDF-Schreiber deines Browsers, der CSS, Bilder und Seitenumbrüche versteht.",
+      "steps": [
+        "Füge dein HTML ein oder lade eine .html-Datei.",
+        "Stelle Papierformat, Ausrichtung und Ränder ein.",
+        "Öffne den Druckdialog.",
+        "Wähle „Als PDF speichern“ als Ziel."
+      ],
+      "faq": [
+        {
+          "q": "Kann ich eine live erreichbare URL umwandeln?",
+          "a": "Browser dürfen das Markup einer anderen Seite nicht von hier aus lesen. Füge das HTML ein, oder nutze auf der betreffenden Seite den eingebauten PDF-Druck."
+        },
+        {
+          "q": "Werden externe Bilder übernommen?",
+          "a": "Nur wenn der Browser sie laden kann; eingebettete data:-URI funktionieren immer."
+        }
+      ]
+    }
+  }
+}

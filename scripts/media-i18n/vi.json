@@ -1,0 +1,347 @@
+{
+  "search": "Tìm kiếm 60 công cụ miễn phí…",
+  "home": "ClearLight Tools — Công cụ PDF, Ảnh, Âm thanh, Video trực tuyến miễn phí",
+  "cat": {
+    "image": "Công cụ hình ảnh",
+    "image.tagline": "Nén, chuyển đổi và thay đổi kích thước ảnh, tạo mã QR và favicon, chọn màu và tạo GIF.",
+    "audio": "Công cụ âm thanh",
+    "audio.tagline": "Cắt, ghép, chuyển đổi và ghi âm; thay đổi âm lượng, tốc độ và cao độ, và cân bằng các bản âm thanh.",
+    "video": "Công cụ video",
+    "video.tagline": "Nén các đoạn video và ghi màn hình hoặc webcam — tất cả trong trình duyệt."
+  },
+  "kw": {
+    "join audio files": "ghép các tệp âm thanh",
+    "merge mp3": "ghép MP3",
+    "combine audio online": "kết hợp âm thanh trực tuyến",
+    "audio converter": "công cụ chuyển đổi âm thanh",
+    "convert to mp3": "chuyển đổi sang MP3",
+    "wav to mp3": "WAV sang MP3",
+    "change audio volume": "thay đổi âm lượng âm thanh",
+    "increase mp3 volume": "tăng âm lượng MP3",
+    "audio volume booster": "công cụ tăng âm lượng âm thanh",
+    "reverse audio": "đảo ngược âm thanh",
+    "play audio backwards": "phát âm thanh ngược",
+    "reverse mp3 online": "đảo ngược MP3 trực tuyến",
+    "change audio speed": "thay đổi tốc độ âm thanh",
+    "speed up audio": "tăng tốc âm thanh",
+    "slow down audio online": "làm chậm âm thanh trực tuyến",
+    "change pitch": "thay đổi cao độ",
+    "pitch shifter online": "công cụ dịch cao độ trực tuyến",
+    "raise pitch of audio": "nâng cao độ âm thanh",
+    "audio equalizer": "bộ cân bằng âm thanh",
+    "online equalizer": "bộ cân bằng trực tuyến",
+    "bass boost audio": "tăng âm trầm cho âm thanh",
+    "voice recorder online": "ghi âm giọng nói trực tuyến",
+    "record audio": "ghi âm thanh",
+    "online microphone recorder": "ghi âm micrô trực tuyến",
+    "screen recorder online": "ghi màn hình trực tuyến",
+    "record screen free": "ghi màn hình miễn phí",
+    "online screen capture": "quay màn hình trực tuyến",
+    "webcam recorder": "công cụ ghi webcam",
+    "record camera online": "ghi camera trực tuyến",
+    "video recorder online": "ghi video trực tuyến",
+    "add page numbers to pdf": "thêm số trang vào PDF",
+    "pdf page numbering": "đánh số trang PDF",
+    "number pdf pages": "đánh số các trang PDF"
+  },
+  "w": {
+    "decodingFile": "Đang giải mã {0}…",
+    "mp3SmallestWavLossless": "MP3 nhỏ gọn và phổ dụng; WAV không mất dữ liệu và dung lượng lớn.",
+    "mp3Only": "Chỉ MP3",
+    "addAudioFilesInOrder": "Thêm các tệp âm thanh theo thứ tự bạn muốn ghép. Dùng các mũi tên để sắp xếp lại.",
+    "join": "Ghép",
+    "ui0Files1Duration": "{0} tệp · {1}",
+    "ui0To1": "{0} → {1}",
+    "volumeHint": "100% là độ lớn ban đầu. Tăng vượt xa mức đó có thể gây méo tiếng.",
+    "ui0Volume": "âm lượng {0}%",
+    "reverseHint": "Đảo ngược dạng sóng để âm thanh phát ngược lại. Thời lượng và cao độ giữ nguyên.",
+    "speed": "Tốc độ",
+    "speedHint": "Thay đổi nhịp độ mà không đổi cao độ. 100% là tốc độ ban đầu.",
+    "ui0SpeedResult": "{0} · tốc độ {1}%",
+    "pitchHint": "Dịch cao độ mà không thay đổi thời lượng âm thanh. +12 là tăng một quãng tám.",
+    "ui0Semitones": "{0} nửa cung",
+    "eqBass": "Âm trầm",
+    "eqLowMid": "Trung trầm",
+    "eqMid": "Trung",
+    "eqHighMid": "Trung cao",
+    "eqTreble": "Âm bổng",
+    "preset": "Cài đặt sẵn",
+    "presetFlat": "Phẳng",
+    "presetBass": "Tăng âm trầm",
+    "presetVocal": "Giọng hát",
+    "presetTreble": "Tăng âm bổng",
+    "eqHint": "Tăng hoặc giảm năm dải tần, rồi nhấn Áp dụng để kết xuất thay đổi.",
+    "eqApplied": "Đã áp dụng EQ 5 dải",
+    "noWebAudio": "Trình duyệt này không hỗ trợ Web Audio nên không thể giải mã âm thanh.",
+    "recorderReady": "Nhấn Ghi để bắt đầu. Không có gì được tải lên.",
+    "noScreenCapture": "Trình duyệt này không thể quay màn hình. Hãy thử Chrome hoặc Edge trên máy tính.",
+    "noMicCamera": "Trình duyệt này không thể truy cập micrô hoặc camera. Cần một trang bảo mật (https).",
+    "ui0SOfRecording": "Bản ghi {0}",
+    "recordingSaved": "Bản ghi của bạn ở bên dưới. Hãy tải xuống để lưu lại.",
+    "record": "Ghi",
+    "requestingPermission": "Hãy cho phép truy cập khi trình duyệt yêu cầu.",
+    "recordingInProgress": "Đang ghi… hãy nhấn Dừng khi hoàn tất.",
+    "permissionDenied": "Truy cập bị từ chối. Hãy bật quyền micrô, camera hoặc màn hình rồi thử lại.",
+    "recordingFailed": "Không thể bắt đầu ghi.",
+    "bottom": "Dưới",
+    "top": "Trên",
+    "alignment": "Căn lề",
+    "alignLeft": "Trái",
+    "alignCenter": "Giữa",
+    "alignRight": "Phải",
+    "startNumber": "Số bắt đầu",
+    "prefixHint": "Văn bản tùy chọn trước số, ví dụ \"Trang \".",
+    "skipFirst": "Bỏ qua trang đầu (bìa)",
+    "addPageNumbers": "Thêm số trang",
+    "noPagesSelected": "Không còn trang nào để đánh số với phạm vi đó.",
+    "ui0PagesNumbered": "Đã đánh số {0} trang",
+    "pageNumbersNote": "Số được thêm dưới dạng văn bản thật ở lề; nội dung trang gốc không bị thay đổi.",
+    "loadingFile": "Đang tải {0}…",
+    "preparing": "Đang chuẩn bị…",
+    "audioReversed": "Đã đảo ngược"
+  },
+  "t": {
+    "audio-joiner": {
+      "title": "Ghép âm thanh",
+      "h1": "Ghép tệp âm thanh và gộp MP3 trực tuyến",
+      "desc": "Gộp các tệp MP3, WAV, M4A và OGG thành một bản theo thứ tự bạn chọn. Miễn phí, không tải lên, không hình mờ — ghép âm thanh trong trình duyệt.",
+      "intro": "Thêm hai hoặc nhiều đoạn, kéo chúng vào đúng thứ tự, và công cụ ghép sẽ giải mã từng tệp, khớp tần số lấy mẫu và số kênh, rồi nối chúng thành một MP3 hoặc WAV duy nhất. Mọi thứ chạy cục bộ, nên các bản ghi riêng tư không bao giờ rời khỏi thiết bị của bạn.",
+      "steps": [
+        "Thêm các tệp âm thanh bạn muốn ghép.",
+        "Kéo hoặc dùng mũi tên để đặt thứ tự phát.",
+        "Chọn MP3 hoặc WAV và tốc độ bit.",
+        "Nhấn Ghép và tải xuống bản âm thanh duy nhất."
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể ghép các tệp khác định dạng không?",
+          "a": "Có. Mỗi tệp được giải mã thành các mẫu thô, rồi lấy mẫu lại về cùng tần số và số kênh trước khi nối, nên có thể trộn MP3, WAV, M4A và OGG."
+        },
+        {
+          "q": "Có giới hạn số tệp tôi có thể gộp không?",
+          "a": "Không có giới hạn cố định, nhưng âm thanh dài được giữ trong bộ nhớ khi giải mã và mã hóa, vì vậy hãy giữ tổng dung lượng hợp lý trên thiết bị ít bộ nhớ."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Chuyển đổi âm thanh",
+      "h1": "Chuyển đổi âm thanh sang MP3, WAV và nhiều định dạng khác trực tuyến",
+      "desc": "Chuyển WAV sang MP3, M4A, OGG và định dạng âm thanh khác trong trình duyệt. Chọn tần số lấy mẫu và tốc độ bit rồi tải về — không tải lên, không cần tài khoản.",
+      "intro": "Công cụ chuyển đổi giải mã tệp của bạn bằng bộ máy âm thanh của trình duyệt, lấy mẫu lại về tần số bạn chọn, rồi mã hóa lại thành MP3 (nhỏ gọn và phổ dụng) hoặc WAV (không mất dữ liệu). Vì tất cả diễn ra trên máy của bạn, tệp gốc không bao giờ rời khỏi thiết bị.",
+      "steps": [
+        "Tải tệp âm thanh bạn muốn chuyển đổi.",
+        "Chọn tần số lấy mẫu đầu ra.",
+        "Chọn MP3 hoặc WAV; với MP3, chọn thêm tốc độ bit.",
+        "Nhấn Chuyển đổi và tải xuống tệp mới."
+      ],
+      "faq": [
+        {
+          "q": "Công cụ đọc được những định dạng đầu vào nào?",
+          "a": "Bất cứ định dạng nào trình duyệt của bạn giải mã được — thường là MP3, WAV, OGG, M4A/AAC và FLAC. Một số codec được bảo vệ bằng DRM hoặc hiếm gặp sẽ bị chính trình duyệt từ chối."
+        },
+        {
+          "q": "Vì sao tệp MP3 của tôi nhỏ hơn WAV?",
+          "a": "MP3 là nén mất dữ liệu; WAV lưu mọi mẫu không nén. Với giọng nói và chia sẻ, MP3 ở 128–192 kbps thường là đủ; hãy chọn WAV khi cần bản gốc không mất dữ liệu."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Tăng âm lượng",
+      "h1": "Thay đổi âm lượng âm thanh — tăng hoặc giảm trực tuyến",
+      "desc": "Tăng hoặc giảm âm lượng của tệp MP3, WAV hoặc M4A. Đặt mức từ 0 đến 400%, xem trước và tải xuống. Miễn phí và hoàn toàn trong trình duyệt.",
+      "intro": "Công cụ này nhân mỗi mẫu với hệ số khuếch đại bạn đặt, nên 100% giữ độ lớn ban đầu, 200% tăng gấp đôi và 50% giảm một nửa. Tăng vượt xa 100% có thể cắt ngọn các đỉnh lớn, vì vậy hãy xem trước khi xuất.",
+      "steps": [
+        "Tải tệp âm thanh.",
+        "Kéo thanh trượt âm lượng đến mức bạn muốn.",
+        "Chọn đầu ra MP3 hoặc WAV.",
+        "Nhấn Áp dụng, nghe thử, rồi tải xuống."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao âm thanh bị méo khi tôi tăng nhiều?",
+          "a": "Các mẫu vượt quá thang đo đầy đủ sẽ bị cắt ngọn. Nếu bản gốc đã lớn, tăng nhiều sẽ đẩy các đỉnh vượt giới hạn; hãy thử mức khuếch đại nhỏ hơn trước."
+        },
+        {
+          "q": "Tôi có thể làm tệp nhỏ tiếng hơn không?",
+          "a": "Có — đặt thanh trượt dưới 100%. 50% là một nửa biên độ, khiến độ lớn giảm rõ rệt."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Đảo ngược âm thanh",
+      "h1": "Đảo ngược âm thanh và phát tiếng ngược trực tuyến",
+      "desc": "Đảo một tệp âm thanh để phát ngược, từ cuối về đầu. Thời lượng và cao độ giữ nguyên. Công cụ đảo MP3/WAV miễn phí, không cần tải lên.",
+      "intro": "Đảo ngược sao chép dạng sóng từ mẫu cuối về mẫu đầu, nên âm thanh phát ngược mà vẫn giữ độ dài và cao độ. Đây là cách kinh điển để tạo hiệu ứng riser, kiểm tra thông điệp ẩn, hoặc nghe một bài hát ngược.",
+      "steps": [
+        "Tải tệp âm thanh.",
+        "Tùy chọn đầu ra MP3 hoặc WAV.",
+        "Nhấn Đảo ngược.",
+        "Phát kết quả và tải xuống."
+      ],
+      "faq": [
+        {
+          "q": "Đảo ngược có làm thay đổi cao độ hoặc tốc độ không?",
+          "a": "Không. Các mẫu chỉ được đọc theo thứ tự ngược lại, nên thời lượng và tần số không đổi — chỉ chiều thời gian bị đảo."
+        },
+        {
+          "q": "Tôi có thể dùng âm thanh đảo ngược để làm gì?",
+          "a": "Tạo hiệu ứng riser chuyển cảnh, thiết kế âm thanh, dò tìm thông điệp ẩn khi phát ngược, hoặc làm một đoạn đối xứng nghe xuôi hay ngược đều giống nhau."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Thay đổi tốc độ âm thanh",
+      "h1": "Tăng hoặc giảm tốc độ âm thanh mà không đổi cao độ",
+      "desc": "Đổi nhịp độ âm thanh từ 50% đến 200% mà vẫn giữ cao độ tự nhiên. Tăng tốc bài giảng hoặc làm chậm nhạc để học — ngay trong trình duyệt.",
+      "intro": "Công cụ đổi tốc độ dùng kỹ thuật giãn thời gian overlap-add, nên giọng nói được tăng tốc không biến thành tiếng sóc chuột và bài hát làm chậm không bị hạ cao độ. 100% là tốc độ gốc; 200% phát nhanh gấp đôi trong một nửa thời gian.",
+      "steps": [
+        "Tải tệp âm thanh.",
+        "Đặt thanh trượt tốc độ (50%–200%).",
+        "Chọn đầu ra MP3 hoặc WAV.",
+        "Nhấn Áp dụng và tải xuống đoạn đã đổi tốc độ."
+      ],
+      "faq": [
+        {
+          "q": "Tăng tốc âm thanh có làm cao độ tăng không?",
+          "a": "Không — đó chính là mục đích của giãn thời gian. Nhịp độ thay đổi nhưng cao độ giữ nguyên, khác với việc chỉ lấy mẫu lại tệp."
+        },
+        {
+          "q": "Có thể thay đổi tốc độ đến mức nào?",
+          "a": "Thanh trượt chạy từ 50% đến 200%. Mức giãn quá lớn có thể gây rung tiếng nhẹ trên chất liệu phức tạp; thay đổi vừa phải nghe tự nhiên nhất."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Dịch cao độ",
+      "h1": "Thay đổi cao độ âm thanh lên hoặc xuống trực tuyến",
+      "desc": "Dịch cao độ âm thanh tới 12 nửa cung theo cả hai chiều mà không đổi thời lượng. Nâng hoặc hạ giọng nói hay nhạc cụ, rồi tải xuống miễn phí.",
+      "intro": "Dịch cao độ lấy mẫu lại âm thanh để dịch chuyển tần số, rồi giãn thời gian đưa về độ dài ban đầu, nên đoạn âm thanh vẫn dài như cũ nhưng nghe cao hơn hoặc thấp hơn. +12 nửa cung là tăng một quãng tám; −12 là giảm một quãng tám.",
+      "steps": [
+        "Tải tệp âm thanh.",
+        "Đặt mức dịch cao độ theo nửa cung (−12 đến +12).",
+        "Chọn đầu ra MP3 hoặc WAV.",
+        "Nhấn Áp dụng và tải xuống đoạn đã dịch cao độ."
+      ],
+      "faq": [
+        {
+          "q": "Đổi cao độ có làm thay đổi độ dài tệp không?",
+          "a": "Không. Công cụ khôi phục thời lượng ban đầu sau khi dịch, nên chỉ cao độ thay đổi, còn thời gian thì không."
+        },
+        {
+          "q": "Nửa cung là gì?",
+          "a": "Bước nhỏ nhất trong âm nhạc phương Tây — một phím đàn piano. Mười hai nửa cung tạo thành một quãng tám, nên +12 tăng gấp đôi tần số và −12 giảm một nửa."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Bộ cân bằng âm thanh",
+      "h1": "Bộ cân bằng âm thanh trực tuyến, tăng âm trầm và âm bổng",
+      "desc": "Điều chỉnh năm dải (60 Hz–12 kHz) để tăng âm trầm, làm sáng âm bổng hoặc định hình giọng hát. Dùng cài đặt sẵn hoặc tinh chỉnh, rồi xuất MP3/WAV miễn phí.",
+      "intro": "Bộ cân bằng đỉnh năm dải cho phép bạn cắt hoặc tăng âm trầm, trung trầm, trung, trung cao và âm bổng, mỗi dải tới 12 dB. Hãy bắt đầu từ một cài đặt sẵn — Phẳng, Tăng âm trầm, Giọng hát hoặc Tăng âm bổng — rồi tinh chỉnh và kết xuất thay đổi vào tệp mới.",
+      "steps": [
+        "Tải tệp âm thanh.",
+        "Chọn một cài đặt sẵn hoặc kéo thanh trượt của năm dải.",
+        "Chọn đầu ra MP3 hoặc WAV.",
+        "Nhấn Áp dụng và tải xuống bản âm thanh đã cân bằng."
+      ],
+      "faq": [
+        {
+          "q": "Năm dải tần điều khiển những gì?",
+          "a": "60 Hz là độ nặng của âm trầm, 250 Hz là độ ấm, 1 kHz là phần thân của giọng hát, 4 kHz là độ hiện diện và rõ ràng, còn 12 kHz là độ thoáng và lấp lánh. Tăng hoặc giảm từng dải theo ý thích."
+        },
+        {
+          "q": "EQ có được áp dụng vào tệp tải xuống không?",
+          "a": "Có. Khác với bộ cân bằng chỉ khi phát, công cụ này kết xuất phần lọc vào MP3 hoặc WAV xuất ra, nên thay đổi là vĩnh viễn trong tệp bạn giữ."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Máy ghi âm",
+      "h1": "Ghi âm trực tuyến bằng micrô của bạn",
+      "desc": "Ghi giọng nói của bạn từ micrô ngay trong trình duyệt. Nhấn ghi, dừng, xem trước và tải xuống — không cần ứng dụng, không tải lên, không tài khoản.",
+      "intro": "Công cụ ghi âm thu micrô của bạn bằng API MediaRecorder của trình duyệt và lưu bản ghi cục bộ để bạn xem trước và tải xuống. Không có gì được gửi tới máy chủ; bản ghi ở lại trên thiết bị của bạn cho đến khi bạn lưu nó.",
+      "steps": [
+        "Nhấn Ghi và cho phép truy cập micrô.",
+        "Nói hoặc phát âm thanh bạn muốn thu.",
+        "Nhấn Dừng khi bạn hoàn tất.",
+        "Xem trước bản ghi và tải xuống."
+      ],
+      "faq": [
+        {
+          "q": "Bản ghi của tôi được lưu ở đâu?",
+          "a": "Chỉ trong bộ nhớ trình duyệt cho đến khi bạn tải xuống. Không có gì được tải lên, nên khi đóng trang, bản ghi chưa lưu sẽ mất."
+        },
+        {
+          "q": "Vì sao trình duyệt yêu cầu quyền?",
+          "a": "Truy cập micrô luôn cần sự đồng ý rõ ràng của bạn. Nếu đã từ chối, hãy bật lại quyền micrô cho trang này và nhấn Ghi lần nữa."
+        }
+      ]
+    },
+    "screen-recorder": {
+      "title": "Ghi màn hình",
+      "h1": "Ghi màn hình trực tuyến miễn phí",
+      "desc": "Quay màn hình, một cửa sổ hoặc một tab kèm âm thanh hệ thống tùy chọn. Ghi, dừng, xem trước và tải xuống video WebM — không cài đặt, không tải lên.",
+      "intro": "Công cụ ghi màn hình dùng API quay màn hình của trình duyệt để ghi toàn bộ màn hình, một cửa sổ hoặc một tab, kèm âm thanh nếu được hỗ trợ. Video được ghép cục bộ và cung cấp để tải xuống; nó không bao giờ chạm tới máy chủ.",
+      "steps": [
+        "Nhấn Ghi và chọn nội dung chia sẻ (màn hình, cửa sổ hoặc tab).",
+        "Có thể kèm âm thanh trong hộp chọn chia sẻ.",
+        "Nhấn Dừng, hoặc kết thúc chia sẻ, khi hoàn tất.",
+        "Xem trước đoạn quay và tải xuống WebM."
+      ],
+      "faq": [
+        {
+          "q": "Trình duyệt nào hỗ trợ ghi màn hình?",
+          "a": "Chrome và Edge trên máy tính có khả năng quay màn hình ổn định nhất, và Firefox cũng hỗ trợ. Trình duyệt di động thường thì không, nên hãy dùng trình duyệt máy tính."
+        },
+        {
+          "q": "Có ghi được âm thanh hệ thống không?",
+          "a": "Khi bạn chia sẻ một tab hoặc toàn màn hình, hộp chọn sẽ đưa ra tùy chọn âm thanh. Việc có kèm âm thanh hệ thống hay không tùy thuộc trình duyệt và nội dung bạn chia sẻ."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Ghi webcam",
+      "h1": "Ghi video từ webcam của bạn trực tuyến",
+      "desc": "Ghi lại chính bạn bằng camera và micrô trong trình duyệt. Xem trước luồng trực tiếp, nhấn ghi, rồi tải xuống — miễn phí, không cần phần mềm.",
+      "intro": "Công cụ ghi webcam hiển thị bản xem trước trực tiếp từ camera, thu cùng micrô qua MediaRecorder, và lưu đoạn video cục bộ để xem trước và tải xuống. Video không bao giờ rời khỏi thiết bị trừ khi bạn tải nó xuống.",
+      "steps": [
+        "Nhấn Ghi và cho phép truy cập camera và micrô.",
+        "Kiểm tra bản xem trước trực tiếp và căn khung hình.",
+        "Nhấn Dừng khi bạn hoàn tất.",
+        "Xem trước bản ghi và tải xuống."
+      ],
+      "faq": [
+        {
+          "q": "Video có bị tải lên đâu không?",
+          "a": "Không. Video được ghi và giữ trong trình duyệt, rồi cung cấp dưới dạng tải xuống cục bộ. Không có gì được gửi tới máy chủ."
+        },
+        {
+          "q": "Bản ghi ở định dạng nào?",
+          "a": "Video WebM (VP8/VP9 kèm âm thanh Opus) khi trình duyệt hỗ trợ, phát được trên các trình duyệt hiện đại và hầu hết phần mềm biên tập. Một số trình duyệt có thể tạo MP4."
+        }
+      ]
+    },
+    "pdf-page-numbers": {
+      "title": "Số trang PDF",
+      "h1": "Thêm số trang vào PDF trực tuyến",
+      "desc": "Chèn số trang vào PDF ở trên hoặc dưới, trái, giữa hoặc phải. Đặt số bắt đầu, cỡ chữ và tiền tố. Miễn phí, không tải lên.",
+      "intro": "Công cụ này dùng pdf-lib để đóng dấu số trang dạng văn bản thật lên mỗi trang PDF của bạn, nên số luôn sắc nét ở mọi mức thu phóng và có thể chọn được. Đặt chúng ở đầu trang hoặc chân trang, bỏ qua bìa, và thêm tiền tố tùy chọn.",
+      "steps": [
+        "Tải tệp PDF bạn muốn đánh số.",
+        "Chọn vị trí, căn lề và số bắt đầu.",
+        "Đặt cỡ chữ và tiền tố tùy chọn; bỏ qua bìa nếu cần.",
+        "Nhấn Thêm số trang và tải xuống."
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể bắt đầu từ một trang hoặc số cụ thể không?",
+          "a": "Có. Đặt số bắt đầu và dùng phạm vi trang để chỉ đánh số một số trang nhất định, hoặc tích “bỏ qua trang đầu” để không đánh số bìa."
+        },
+        {
+          "q": "Số được thêm dưới dạng văn bản hay hình ảnh?",
+          "a": "Dưới dạng văn bản vector thật, nên chúng co giãn rõ nét khi in và có thể chọn cũng như tìm kiếm trong tệp PDF hoàn chỉnh."
+        }
+      ]
+    }
+  }
+}

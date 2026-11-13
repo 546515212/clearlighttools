@@ -1,0 +1,219 @@
+{
+  "t": {
+    "percentage-calculator": {
+      "desc": "Trả lời bốn bài toán phần trăm mà người ta thực sự tìm kiếm: X phần trăm của Y là bao nhiêu, X chiếm bao nhiêu phần trăm của Y, tăng hoặc giảm X phần trăm.",
+      "intro": "Mỗi chế độ đều hiển thị phép tính, nên bạn có thể kiểm tra lại đáp số hoặc giải thích cách làm cho người khác.",
+      "steps": [
+        "Chọn loại câu hỏi.",
+        "Điền hai số.",
+        "Đọc đáp số và các bước giải."
+      ],
+      "faq": [
+        {
+          "q": "Từ 40 lên 52 — mức tăng là bao nhiêu phần trăm?",
+          "a": "30 phần trăm: lấy hiệu số chia cho số ban đầu, tức 12 / 40 = 0.3."
+        },
+        {
+          "q": "Vì sao tăng 20 phần trăm rồi giảm 20 phần trăm không trở về như cũ?",
+          "a": "Lần thay đổi thứ hai lấy trên mốc mới đã lớn hơn. 100 thành 120, rồi thành 96."
+        }
+      ]
+    },
+    "bmi-calculator": {
+      "desc": "Tính chỉ số khối cơ thể, xem bạn nằm trong khoảng nào và lấy khoảng cân nặng được coi là lành mạnh cho chiều cao của bạn.",
+      "intro": "BMI là con số dùng để sàng lọc, không phải là chẩn đoán — máy tính hiển thị các khoảng và ngưỡng của chúng để bạn đọc đúng.",
+      "steps": [
+        "Chọn hệ mét (cm, kg) hoặc hệ Anh (ft/in, lb).",
+        "Nhập chiều cao và cân nặng.",
+        "Xem BMI của bạn và khoảng phân loại."
+      ],
+      "faq": [
+        {
+          "q": "BMI có chính xác với người tập thể thao không?",
+          "a": "Kém. Cơ nặng hơn mỡ, nên một người nạc và nhiều cơ vẫn có thể bị xếp vào nhóm thừa cân."
+        },
+        {
+          "q": "Trẻ em có được đánh giá theo cùng cách không?",
+          "a": "Không. Dưới 18 tuổi phải xét theo phân vị của tuổi và giới tính, nên hãy hỏi bác sĩ thay vì dùng con số này."
+        }
+      ]
+    },
+    "age-calculator": {
+      "desc": "Lấy tuổi chính xác đến năm, tháng và ngày, kèm tổng số ngày đã sống, ngày sinh nhật kế tiếp, thứ trong tuần bạn chào đời và năm bạn chạm từng mốc tuổi.",
+      "intro": "Tiện cho những biểu mẫu hỏi theo số ngày, và để lên kế hoạch sinh nhật từ ngay tuần trước đó.",
+      "steps": [
+        "Nhập ngày sinh.",
+        "Tùy chọn: chọn một ngày khác để đối chiếu.",
+        "Xem bảng phân tách."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao xuất hiện hai con số tuổi?",
+          "a": "Số tuổi chẵn đã trọn so với tổng số tháng và ngày; biểu mẫu chính thức thường cần số tuổi chẵn."
+        },
+        {
+          "q": "Năm nhuận được xử lý thế nào?",
+          "a": "Một cách chính xác: người sinh ngày 29 tháng 2 tính thêm một tuổi vào ngày kế tiếp đối với năm không nhuận."
+        }
+      ]
+    },
+    "date-calculator": {
+      "desc": "Đếm số ngày giữa các mốc ngày, cộng hoặc trừ số ngày và ngày làm việc, và lấy ngày dương lịch kết quả kèm tên thứ trong tuần.",
+      "intro": "Hữu ích cho hạn chót, thời hạn thuê nhà, kế hoạch dự án và mọi câu hỏi về việc một chuyện kéo dài bao lâu.",
+      "steps": [
+        "Chọn Số ngày giữa hai mốc hoặc Cộng hoặc trừ thời gian.",
+        "Nhập các ngày và số ngày.",
+        "Quyết định cuối tuần và ngày lễ có được tính hay không.",
+        "Đọc ngày kết quả và tổng số."
+      ],
+      "faq": [
+        {
+          "q": "Ngày kết thúc có được tính không?",
+          "a": "Mặc định, hiệu số đếm các ngày trọn vẹn giữa hai mốc, nên công cụ nói rõ ngày đầu hay ngày cuối có được tính kèm hay không."
+        },
+        {
+          "q": "Tôi có thể trừ ngày làm việc không?",
+          "a": "Được, hãy chuyển sang ngày làm việc; còn ngày lễ thì bạn vẫn phải tự trừ thủ công."
+        }
+      ]
+    },
+    "loan-calculator": {
+      "desc": "Ước tính số tiền trả hằng tháng của một khoản vay cá nhân hoặc vay thế chấp, tổng tiền lãi phải trả, và phần lớn bao nhiêu trong những năm đầu chỉ để trả lãi.",
+      "intro": "Phép tính dùng công thức trả dần tiêu chuẩn, và phần tóm tắt cho thấy tỉ lệ giữa tiền lãi và vốn vay mà bên cho vay không phải lúc nào cũng quảng bá.",
+      "steps": [
+        "Nhập số tiền vay, lãi suất hằng năm và kỳ hạn.",
+        "Xem số tiền trả hằng tháng.",
+        "Xem tổng tiền lãi và tổng tiền đã trả.",
+        "So sánh các kỳ hạn để thấy một khoản vay dài hơn thực sự tốn bao nhiêu."
+      ],
+      "faq": [
+        {
+          "q": "Con số này đã gồm phí hay bảo hiểm chưa?",
+          "a": "Chưa, ở đây chỉ có vốn và lãi. Hãy cộng thêm các sản phẩm như bảo hiểm khoản vay vào số tiền vay để ước lượng sát số trả thực tế."
+        },
+        {
+          "q": "Tôi nên nhập lãi suất nào?",
+          "a": "Lãi suất danh nghĩa hằng năm tự động được chia cho mười hai theo tháng, nên hãy nhập con số phần trăm năm mà ngân hàng quảng bá."
+        }
+      ]
+    },
+    "discount-calculator": {
+      "desc": "Nhập giá gốc và mức giảm giá để xem bạn phải trả bao nhiêu, tiết kiệm bao nhiêu, và món hàng tốn bao nhiêu khi nhiều ưu đãi cộng dồn.",
+      "intro": "Công cụ còn trả lời câu hỏi ngược: nếu bạn biết giá trước và sau, nó cho biết mức giảm bao nhiêu phần trăm.",
+      "steps": [
+        "Nhập giá gốc.",
+        "Nhập phần trăm Giảm giá 1, hoặc giá cuối cùng.",
+        "Xem số bạn phải trả và số bạn tiết kiệm.",
+        "Thêm Giảm giá 2 để thử một ưu đãi cộng dồn."
+      ],
+      "faq": [
+        {
+          "q": "Giảm 30 phần trăm rồi giảm 20 phần trăm có bằng 50 phần trăm không?",
+          "a": "Không, lần giảm thứ hai áp lên giá đã giảm, nên tổng giảm thực tế chỉ là 44 phần trăm."
+        },
+        {
+          "q": "Có tính kèm thuế bán hàng không?",
+          "a": "Có, hãy nhập Thuế / VAT để thấy số tiền thực sự trừ khỏi tài khoản của bạn."
+        }
+      ]
+    },
+    "unit-converter": {
+      "desc": "Một công cụ chuyển đổi duy nhất cho đơn vị thường ngày: mét và feet, kilogam và pound, Celsius và Fahrenheit, lít, dặm mỗi giờ, megabyte và nhiều hơn.",
+      "intro": "Các giá trị chuyển đổi theo cả hai chiều khi bạn gõ, và hệ số được dùng cũng hiện ra để bạn kiểm tra lại một kết quả trông lạ.",
+      "steps": [
+        "Chọn nhóm đơn vị.",
+        "Chọn đơn vị nguồn và nhập giá trị.",
+        "Đọc số đã chuyển đổi, hoặc đảo hai đơn vị để đi theo chiều ngược lại."
+      ],
+      "faq": [
+        {
+          "q": "Độ chính xác hiển thị là bao nhiêu?",
+          "a": "Sáu chữ số có nghĩa; rê chuột vào ô để xem giá trị thập phân đầy đủ."
+        },
+        {
+          "q": "Pint của Anh và của Mỹ có khác nhau không?",
+          "a": "Có, 568 ml so với 473 ml, và công cụ giữ hai đơn vị này tách riêng."
+        }
+      ]
+    },
+    "color-converter": {
+      "desc": "Chuyển qua lại giữa HEX, RGB, HSL và tên màu CSS, kiểm tra độ tương phản với màu trắng và đen, và tự động lấy các sắc độ dễ tiếp cận.",
+      "intro": "Dán một giá trị ở bất kỳ ký pháp nào và các giá trị còn lại cập nhật tức thì, kể cả tỉ lệ tương phản WCAG mà bạn cần trước khi chốt màu cho một nút bấm.",
+      "steps": [
+        "Nhập hoặc chọn một màu.",
+        "Đọc HEX, RGB và HSL.",
+        "Kiểm tra tương phản trên nền sáng và nền tối."
+      ],
+      "faq": [
+        {
+          "q": "Tôi cần độ tương phản bao nhiêu?",
+          "a": "4.5:1 cho văn bản thông thường và 3:1 cho chữ lớn theo mức WCAG AA."
+        },
+        {
+          "q": "Vì sao mã HEX của tôi trông khác trên điện thoại?",
+          "a": "Màn hình có áp profile màu; các giá trị số thì giống hệt nhau dù cảm nhận của mắt thì không."
+        }
+      ]
+    },
+    "calorie-calculator": {
+      "title": "Máy tính calo",
+      "h1": "Máy tính calo hằng ngày và chỉ số BMR",
+      "desc": "Ước tính tỉ lệ trao đổi chất cơ bản theo công thức Mifflin-St Jeor và lượng calo hằng ngày để giữ cân, giảm cân hoặc tăng cân.",
+      "intro": "Các con số chỉ là ước tính dựng trên mức trung bình của quần thể, hữu ích như một điểm khởi đầu chứ không thay thế tư vấn của chuyên gia.",
+      "steps": [
+        "Nhập tuổi, giới tính, chiều cao và cân nặng.",
+        "Chọn mức độ vận động của bạn.",
+        "Xem BMR và lượng calo duy trì cân nặng.",
+        "So sánh mục tiêu thâm hụt nhẹ và mục tiêu dư thừa nhẹ."
+      ],
+      "faq": [
+        {
+          "q": "Máy tính này chính xác tới đâu?",
+          "a": "Thường trong khoảng mười đến hai mươi phần trăm với một người trưởng thành khỏe mạnh; chỉ có đo mức tiêu hao năng lượng thực tế mới cho con số chính xác."
+        },
+        {
+          "q": "Tôi có nên ăn theo mức thâm hụt không?",
+          "a": "Hãy coi nó là một mốc tham khảo và kiểm tra mọi thay đổi đáng kể với một chuyên gia có bằng cấp."
+        }
+      ]
+    },
+    "timestamp-converter": {
+      "desc": "Chuyển một mốc thời gian Unix hoặc tính bằng mili giây thành ngày giờ địa phương và UTC dễ đọc, hoặc đổi một ngày thành con số mà API của bạn mong đợi.",
+      "intro": "Công cụ còn cho biết bạn đã dán đơn vị nào, vốn là nguyên nhân thường gặp khiến ngày rơi vào năm 1970 hay 45000.",
+      "steps": [
+        "Dán mốc thời gian, hoặc chọn một ngày.",
+        "Xem phần nhận diện giữa giây và mili giây.",
+        "Đọc kết quả giờ địa phương, UTC và ISO."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao ngày của tôi rơi vào tháng 1 năm 1970?",
+          "a": "Bạn đã truyền một giá trị sai đơn vị hoặc một chuỗi mà phân tích ra số không."
+        },
+        {
+          "q": "Múi giờ nào được dùng?",
+          "a": "Múi giờ của trình duyệt cho dòng giờ địa phương, cùng với chuỗi UTC và ISO ghi rõ ràng."
+        }
+      ]
+    },
+    "random-number-generator": {
+      "desc": "Chọn số trong một khoảng, gieo xúc xắc, tung đồng xu, xáo trộn danh sách tên, hoặc quay người trúng thưởng không trùng nhau cho chương trình tặng quà.",
+      "intro": "Các giá trị lấy từ nguồn ngẫu nhiên mật mã của trình duyệt, nên kết quả đủ tin cho những quyết định mà bạn thực sự quan tâm.",
+      "steps": [
+        "Đặt giá trị nhỏ nhất và lớn nhất.",
+        "Chọn số lượng giá trị và có cho phép trùng hay không.",
+        "Bấm Tạo, hoặc dùng các mẫu có sẵn cho xúc xắc và đồng xu."
+      ],
+      "faq": [
+        {
+          "q": "Có thực sự ngẫu nhiên không?",
+          "a": "Nó dùng kho entropy của hệ điều hành, tức là nguồn mạnh nhất mà một trình duyệt được phép chạm tới."
+        },
+        {
+          "q": "Tôi có thể chọn nhiều người thắng từ một danh sách không?",
+          "a": "Được, hãy dán các tên, bật Không lặp lại và đặt số người sẽ quay."
+        }
+      ]
+    }
+  }
+}

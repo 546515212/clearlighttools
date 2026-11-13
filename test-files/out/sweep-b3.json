@@ -1,0 +1,117 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T11:27:35.222Z",
+ "planned": [
+  "color-picker",
+  "image-to-gif",
+  "trim-audio",
+  "image-contrast-brightness",
+  "word-counter",
+  "case-converter"
+ ],
+ "rows": [
+  {
+   "tool": "color-picker",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%"
+   ],
+   "filled": [],
+   "throttleMs": 656,
+   "ms": 1673
+  },
+  {
+   "tool": "image-to-gif",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Create GIF",
+    "Download"
+   ],
+   "bytes": [
+    "image-to-gif-animation.gif | 37380 | image/gif"
+   ],
+   "output": [
+    "2 frames · 480×320 · 37 KB · 0.8s per loopDownload",
+    "2 frames · 480×320 · 37 KB · 0.8s per loopDownload"
+   ],
+   "filled": [],
+   "throttleMs": 656,
+   "ms": 6998
+  },
+  {
+   "tool": "trim-audio",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Cut",
+    "Download"
+   ],
+   "bytes": [
+    "trim-audio-tone.wav | 105884 | audio/wav"
+   ],
+   "output": [
+    "tone.wav103 KB00:01.20 clip · 44100 Hz · monoDownloadWAV is uncompressed, so it is bigger than the MP3 you sta",
+    "tone.wav103 KB00:01.20 clip · 44100 Hz · monoDownload"
+   ],
+   "filled": [],
+   "throttleMs": 656,
+   "ms": 5992
+  },
+  {
+   "tool": "image-contrast-brightness",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Apply",
+    "Download"
+   ],
+   "bytes": [
+    "contrast-image-photo.png | 5624 | image/png"
+   ],
+   "output": [
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload",
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload"
+   ],
+   "filled": [],
+   "throttleMs": 656,
+   "ms": 6993
+  },
+  {
+   "tool": "word-counter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Words1283% uniqueCharacters6150 without spacesSentences2Lines11 paragraphsReading time1 min≈200 wpmSpeaking ti",
+    "Words1283% unique",
+    "Characters6150 without spaces"
+   ],
+   "filled": [],
+   "throttleMs": 656,
+   "ms": 1003
+  },
+  {
+   "tool": "case-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy",
+    "Words4Characters21Caseupper",
+    "Words4"
+   ],
+   "filled": [],
+   "throttleMs": 656,
+   "ms": 1003
+  }
+ ],
+ "finishedAt": "2026-11-07T11:27:58.891Z"
+}

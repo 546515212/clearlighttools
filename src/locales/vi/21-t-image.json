@@ -1,0 +1,253 @@
+{
+  "t": {
+    "compress-image": {
+      "desc": "Giảm dung lượng ảnh mà không mất chất lượng nhìn thấy được, đặt hai ảnh trước và sau cạnh nhau để so, và xử lý nhiều tệp cùng lúc — tất cả trong trình duyệt.",
+      "intro": "Việc nén mã hóa lại bức ảnh bằng chính bộ mã hóa ảnh của trình duyệt. Siêu dữ liệu EXIF được loại bỏ theo mặc định, và đó thường là chỗ ẩn phần tiết kiệm dung lượng lớn nhất.",
+      "steps": [
+        "Thả một hoặc nhiều bức ảnh vào.",
+        "Kéo thanh trượt chất lượng, thường 70 đến 85 là đủ cho web.",
+        "Bấm Nén.",
+        "So sánh dung lượng rồi tải về."
+      ],
+      "faq": [
+        {
+          "q": "Nên dùng mức chất lượng nào cho website?",
+          "a": "80 cho ảnh chụp, 90 cho ảnh màn hình nhiều chữ, và chuyển sang WebP khi trình duyệt có hỗ trợ."
+        },
+        {
+          "q": "Có dùng được với ảnh HEIC từ iPhone không?",
+          "a": "Safari và Chrome trên hầu hết thiết bị đều giải mã được HEIC; nếu máy của bạn thì không, hãy chuyển sang JPEG trước bằng công cụ Chuyển đổi ảnh."
+        }
+      ]
+    },
+    "convert-image": {
+      "desc": "Đổi định dạng ảnh trong một bước: PNG sang JPG, JPG sang WebP, WebP sang PNG và nhiều dạng khác, có xử lý vùng trong suốt và chỉnh chất lượng.",
+      "intro": "Việc giải mã và mã hóa lại diễn ra trên canvas, nên quá trình chuyển đổi không gây mất mát gì ngoài chính định dạng đích. Ảnh PNG trong suốt sẽ được thêm nền tùy chọn khi lưu dưới dạng JPG.",
+      "steps": [
+        "Thêm ảnh của bạn.",
+        "Chọn định dạng đích.",
+        "Đặt chất lượng và, với JPG, đặt nền cho vùng trong suốt.",
+        "Chuyển đổi và tải về, hoặc lấy tất cả tệp trong một tệp zip."
+      ],
+      "faq": [
+        {
+          "q": "WebP có thực sự nhỏ hơn không?",
+          "a": "Thường nhỏ hơn 25 đến 35 phần trăm so với JPEG cùng chất lượng, và mọi trình duyệt hiện nay đều hiển thị được nó."
+        },
+        {
+          "q": "Công cụ có hỗ trợ BMP, TIFF hay SVG không?",
+          "a": "Trình duyệt giải mã được BMP và TIFF; còn SVG là vector và không thể chuyển thành ảnh raster nếu không thực thi nó, nên định dạng này cố ý bị bỏ qua."
+        }
+      ]
+    },
+    "resize-image": {
+      "desc": "Đặt chiều rộng và chiều cao chính xác, giữ nguyên tỷ lệ, hoặc cắt theo tỷ lệ có sẵn như 1:1, 4:5 hay 16:9. Hữu ích cho ảnh đại diện, hình thu nhỏ và biểu mẫu.",
+      "intro": "Việc đổi kích thước dùng đường kết xuất canvas chất lượng cao, và bạn có thể kéo khung cắt tới đúng phần đáng chú ý của bức ảnh trước khi xuất.",
+      "steps": [
+        "Tải bức ảnh lên.",
+        "Nhập chiều rộng mới hoặc chọn một tỷ lệ có sẵn.",
+        "Kéo khung cắt để đặt chủ thể đúng chỗ.",
+        "Áp dụng và tải về."
+      ],
+      "faq": [
+        {
+          "q": "Phóng to ảnh có làm ảnh nét hơn không?",
+          "a": "Không công cụ nào tạo ra được chi tiết vốn không có; phóng to chỉ khiến tệp lớn hơn. Hãy giữ mức phóng to dưới 150 phần trăm."
+        },
+        {
+          "q": "Tôi có thể đổi kích thước nhiều ảnh giống hệt nhau không?",
+          "a": "Được, hãy thêm tất cả tệp và cùng một quy tắc sẽ áp dụng cho từng ảnh."
+        }
+      ]
+    },
+    "image-to-base64": {
+      "desc": "Lấy một data URI sẵn để dán từ bất kỳ bức ảnh nào, kèm sẵn đoạn mã CSS và HTML, dành cho biểu tượng nhúng nội tuyến và trang ngoại tuyến.",
+      "intro": "Việc mã hóa được thực hiện từ byte của tệp đang nằm trong bộ nhớ. Rất tiện cho một logo bạn muốn nhúng trực tiếp, để trình duyệt chỉ phải gửi một yêu cầu thay vì hai.",
+      "steps": [
+        "Chọn bức ảnh.",
+        "Chọn đầu ra: data URI, Base64 thô, hay đoạn CSS.",
+        "Sao chép kết quả.",
+        "Dán vào stylesheet hoặc HTML của bạn."
+      ],
+      "faq": [
+        {
+          "q": "Tệp có thể lớn đến mức nào?",
+          "a": "Hãy giữ tài nguyên nhúng nội tuyến dưới khoảng 30 KB; tệp lớn hơn làm trang chậm đi thay vì nhanh hơn."
+        },
+        {
+          "q": "Vì sao chuỗi lại dài đến vậy?",
+          "a": "Base64 dài thêm khoảng 33 phần trăm vì nó gói ba byte thành bốn ký tự."
+        }
+      ]
+    },
+    "base64-to-image": {
+      "title": "Base64 sang ảnh",
+      "h1": "Đổi một chuỗi Base64 trở lại thành tệp ảnh",
+      "desc": "Dán một data URI hoặc một khối Base64 thô, xem trước bức ảnh và tải về dưới dạng PNG, JPG hoặc WebP.",
+      "intro": "Hữu ích khi một trang web hay một email đưa cho bạn bức ảnh dưới dạng văn bản. Bộ giải mã chấp nhận cả phần đầu mime, khoảng trắng và ký tự xuống dòng.",
+      "steps": [
+        "Dán chuỗi.",
+        "Kiểm tra bản xem trước.",
+        "Tải bức ảnh đã giải mã về."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao bản xem trước vẫn trống?",
+          "a": "Thông thường là do chuỗi bị cắt ngắn khi sao chép. Một chuỗi Base64 ảnh hợp lệ kết thúc bằng phần đệm = hoặc ==, hoặc có số ký tự là bội số của bốn."
+        },
+        {
+          "q": "Có giải mã được văn bản thay vì ảnh không?",
+          "a": "Hãy dùng công cụ Mã hóa/giải mã Base64 cho các chuỗi văn bản thuần."
+        }
+      ]
+    },
+    "qr-code-generator": {
+      "desc": "Tạo mã QR độ phân giải cao cho URL, Wi-Fi, vCard, SMS hoặc văn bản thuần, cùng tùy chọn kích thước, lề và màu. Không hết hạn, không cần tài khoản.",
+      "intro": "Mã được vẽ ngay trên thiết bị của bạn, nên không bao giờ hết hạn và không thể bị trỏ sang một đích khác — một lợi thế thực sự so với các dịch vụ QR động.",
+      "steps": [
+        "Chọn loại nội dung và điền vào.",
+        "Đặt kích thước pixel, vùng đệm và mức sửa lỗi.",
+        "Chỉnh màu nếu cần, nhưng vẫn giữ độ tương phản đủ mạnh.",
+        "Tải về dưới dạng PNG hoặc SVG."
+      ],
+      "faq": [
+        {
+          "q": "Mã QR miễn phí có hết hạn không?",
+          "a": "Ở đây thì không. Mã tĩnh được in thẳng vào chính bức ảnh, nên nó còn dùng được chừng nào liên kết đích còn hoạt động."
+        },
+        {
+          "q": "Vì sao mã của liên kết tôi dày đặc quá?",
+          "a": "URL dài cần một ký tự mã lớn hơn. Hãy rút gọn liên kết, hoặc tăng kích thước pixel và mức sửa lỗi nếu bạn in ra."
+        }
+      ]
+    },
+    "favicon-generator": {
+      "desc": "Tải logo lên và lấy về mọi kích thước một trang cần: favicon.ico, các ảnh PNG từ 16 đến 180 px, một Apple touch icon cùng các thẻ HTML tương ứng.",
+      "intro": "Việc cắt ảnh được căn giữa và mỗi kích thước kết xuất riêng, nhờ đó những nét mảnh vẫn rõ ở 16 px thay vì bị nhòe từ một bản phóng duy nhất.",
+      "steps": [
+        "Thêm một ảnh vuông, lý tưởng là 512 px trở lên.",
+        "Chọn màu nền hoặc giữ trong suốt.",
+        "Tạo.",
+        "Tải tệp zip và dán đoạn HTML vào phần head của trang."
+      ],
+      "faq": [
+        {
+          "q": "Thực sự tôi cần những tệp nào?",
+          "a": "favicon.ico cho trình duyệt cũ, một ảnh PNG 32 px, một apple-touch-icon 180 px và cặp 192/512 px nếu bạn dùng manifest."
+        },
+        {
+          "q": "Logo của tôi có chữ rất nhỏ và chữ đó biến mất.",
+          "a": "Favicon cần một dấu hiệu đã đơn giản hóa; hãy để nguyên logo đầy đủ cho touch icon mà thôi."
+        }
+      ]
+    },
+    "color-picker": {
+      "desc": "Lấy giá trị HEX, RGB và HSL chính xác của bất kỳ pixel nào: bấm vào trong bức ảnh hoặc dùng công cụ lấy màu trên màn hình, rồi dựng một bảng màu đi kèm.",
+      "intro": "Trên các trình duyệt được hỗ trợ, công cụ lấy màu đọc được mọi thứ trên màn hình của bạn, kể cả một video hay một tệp thiết kế mà bạn không xuất ra được.",
+      "steps": [
+        "Tải một bức ảnh lên, hoặc khởi động công cụ lấy màu màn hình.",
+        "Bấm vào pixel bạn muốn.",
+        "Sao chép HEX, RGB hoặc HSL.",
+        "Tùy chọn: trích toàn bộ bảng màu từ bức ảnh."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao hai ảnh màn hình lại cho giá trị khác nhau?",
+          "a": "Quản lý màu và profile hiển thị làm lệch giá trị khi kết xuất; công cụ báo cáo pixel đã được lưu, tức chính là giá trị trình duyệt sẽ gửi đi."
+        },
+        {
+          "q": "Công cụ lấy màu có chạy trên điện thoại không?",
+          "a": "API màn hình chỉ có trên máy tính; thay vào đó hãy tải ảnh màn hình lên rồi chạm vào ảnh."
+        }
+      ]
+    },
+    "image-to-gif": {
+      "title": "Ảnh thành GIF",
+      "h1": "Tạo GIF động từ một loạt ảnh",
+      "desc": "Biến một loạt ảnh hoặc chuỗi khung hình thành GIF động lặp vòng, với quyền chỉnh độ trễ, số vòng lặp và chiều rộng cuối cùng.",
+      "intro": "Việc mã hóa chạy ngay trong tab trình duyệt thay vì trên một worker, nên bạn dễ theo dõi tiến độ và hủy một tác vụ sắp cho ra tệp quá lớn.",
+      "steps": [
+        "Thêm các khung hình theo đúng thứ tự chúng sẽ phát.",
+        "Đặt chiều rộng và độ trễ giữa các khung hình.",
+        "Chọn lặp vô hạn hoặc một số vòng cố định.",
+        "Bấm Tạo GIF và tải về."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao GIF của tôi khổng lồ thế?",
+          "a": "GIF chỉ có 256 màu và mã hóa rất kém hiệu quả. Hãy cắt bớt khung hình, thu nhỏ chiều rộng, hoặc giữ một đoạn WebM/MP4 thay thế."
+        },
+        {
+          "q": "Tôi có thể tạo GIF từ video không?",
+          "a": "Bản hiện tại thì không; hãy tải lên các khung hình bạn muốn, hoặc cắt đoạn phim bằng công cụ video trước."
+        }
+      ]
+    },
+    "trim-audio": {
+      "title": "Cắt âm thanh",
+      "h1": "Cắt tệp MP3, WAV và M4A trực tuyến",
+      "desc": "Đặt điểm vào và điểm ra, thêm hiệu ứng nhỏ dần, xuất đoạn gọn dạng WAV hoặc sẵn cho MP3. Không có gì được tải lên, bản ghi riêng tư vẫn là riêng tư.",
+      "intro": "Việc giải mã dùng engine âm thanh của trình duyệt, sau đó cửa sổ mẫu được ghi ra một tệp WAV 16-bit. Rất hợp cho nhạc chuông, phần mở đầu podcast hay bản ghi buổi học.",
+      "steps": [
+        "Tải lên tệp âm thanh.",
+        "Phát lên và đánh dấu điểm bắt đầu cùng điểm kết thúc, hoặc nhập số giây.",
+        "Thêm hiệu ứng nhỏ dần nếu chỗ cắt quá đột ngột.",
+        "Bấm Cắt và tải về."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao WAV xuất ra nghe y hệt mà dung lượng lại lớn hơn?",
+          "a": "WAV không nén. Hãy đưa tệp đã xuất qua các công cụ cùng họ với Nén ảnh, hoặc mã hóa sang MP3 bằng trình phát bạn vẫn dùng."
+        },
+        {
+          "q": "Có cắt chính xác ở giữa một bài hát được không?",
+          "a": "Độ phân giải đúng một mẫu, nên hãy nhập mốc thời gian hoặc chỉnh từng 0.05 giây để có một chỗ cắt gọn."
+        }
+      ]
+    },
+    "compress-video": {
+      "title": "Nén video",
+      "h1": "Giảm dung lượng video ngay trong trình duyệt",
+      "desc": "Mã hóa lại video sang WebM với độ phân giải hoặc tốc độ bit thấp hơn để vừa với email, biểu mẫu tải tệp hay trang web. Tệp vẫn nằm trên thiết bị của bạn.",
+      "intro": "Công cụ hoạt động bằng cách phát đoạn video, vẽ lại từng khung hình lên canvas rồi ghi chính canvas đó — nên nó chạy theo thời gian thực và cho ra một tệp WebM.",
+      "steps": [
+        "Mở video.",
+        "Chọn tỉ lệ và tốc độ bit đích.",
+        "Bấm Bắt đầu và để nó chạy; phát lại và chuyển đổi diễn ra cùng lúc.",
+        "Tải tệp .webm kết quả về."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao tôi phải chờ hết cả đoạn video?",
+          "a": "Việc ghi diễn ra trực tiếp từ quá trình phát. Video dài hai phút thì cần đúng hai phút."
+        },
+        {
+          "q": "Âm thanh có được giữ không?",
+          "a": "Có, khi trình duyệt của bạn hỗ trợ ghi track âm thanh; nếu đoạn phim dùng codec lạ thì phần âm thanh có thể bị bỏ, và công cụ sẽ cảnh báo bạn."
+        }
+      ]
+    },
+    "image-contrast-brightness": {
+      "title": "Chỉnh ảnh",
+      "h1": "Đổi độ sáng, độ tương phản và độ bão hòa của một bức ảnh",
+      "desc": "Sửa một bức ảnh quá tối, cứu một bức ảnh nhạt màu, chuyển sang trắng đen hoặc làm mờ phông nền bằng các thanh trượt trực tiếp, rồi xuất kết quả.",
+      "intro": "Mỗi bộ lọc là một phép toán CSS-canvas, nên bạn thấy ngay kết quả trước khi xuất và ảnh gốc không bao giờ bị ghi đè.",
+      "steps": [
+        "Tải bức ảnh lên.",
+        "Kéo các thanh trượt; bản xem trước bên phải cập nhật tức thì.",
+        "Tùy chọn: áp dụng trắng đen, màu nâu cổ hoặc làm mờ.",
+        "Xuất dưới dạng PNG hoặc JPG."
+      ],
+      "faq": [
+        {
+          "q": "Công cụ có cứu được bức ảnh phơi sáng tệ không?",
+          "a": "Nó có thể nâng vùng tối và cân bằng lại độ tương phản, nhưng chi tiết đã mất do cháy sáng hoặc bít đen thì không lấy lại được."
+        },
+        {
+          "q": "Tôi có thể dùng lại cài đặt cho các ảnh khác không?",
+          "a": "Được, hãy thêm tất cả tệp trước khi bấm Áp dụng, cùng một bộ thanh trượt sẽ được dùng cho từng ảnh."
+        }
+      ]
+    }
+  }
+}

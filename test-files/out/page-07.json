@@ -1,0 +1,25 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:27:44.884Z",
+ "planned": [
+  "/de/calc/loan-calculator/"
+ ],
+ "rows": [
+  {
+   "tool": "/de/calc/loan-calculator/",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Monthly payment607,5336 paymentsTotal interest1.871,199,36% of what you borrowedTotal repaid21.871,191,0935593",
+    "Monthly payment607,5336 payments",
+    "Total interest1.871,199,36% of what you borrowedTotal repaid21.871,191,093559324× the amountTerm3 y 0 mas agre"
+   ],
+   "filled": [],
+   "throttleMs": 1007,
+   "ms": 1999
+  }
+ ],
+ "finishedAt": "2026-11-07T12:27:46.885Z"
+}

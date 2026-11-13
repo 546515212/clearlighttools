@@ -1,0 +1,354 @@
+{
+  "search": "Rechercher 78 outils gratuits…",
+  "kw": {
+    "zero width watermark": "filigrane à largeur nulle",
+    "hidden text watermark": "filigrane de texte caché",
+    "invisible unicode watermark": "filigrane unicode invisible",
+    "css shadow generator": "générateur d'ombre css",
+    "box shadow generator": "générateur box-shadow",
+    "css grid generator": "générateur de grille css",
+    "json to svg": "json en svg",
+    "json tree diagram": "diagramme d'arbre json",
+    "json structure visualizer": "visualiseur de structure json",
+    "aes encrypt online": "chiffrement aes en ligne",
+    "aes decrypt online": "déchiffrement aes en ligne",
+    "encrypt text with password": "chiffrer un texte avec mot de passe",
+    "photo mosaic tool": "outil de mosaïque photo",
+    "pixelate image online": "pixeliser une image en ligne",
+    "blur face in photo": "flouter un visage sur une photo",
+    "image grid splitter": "découpe d'image en grille",
+    "nine square split": "découpe en neuf carrés",
+    "instagram grid maker": "créateur de grille instagram",
+    "webcam test online": "test webcam en ligne",
+    "microphone test online": "test microphone en ligne",
+    "camera test": "test de caméra",
+    "online teleprompter": "téléprompteur en ligne",
+    "free teleprompter": "téléprompteur gratuit",
+    "script prompter": "prompteur de script",
+    "sound level meter": "sonomètre",
+    "decibel meter online": "mesureur de décibels en ligne",
+    "noise meter": "mesureur de bruit"
+  },
+  "w": {
+    "wfHint": "Faites glisser sur la forme d'onde pour choisir la partie à conserver, ou saisissez les temps ci-dessous.",
+    "slmUnit": "décibels (relatif, non étalonné)",
+    "slmIntro": "Appuyez sur Démarrer et autorisez l'accès au microphone pour voir le niveau sonore relatif autour de vous.",
+    "slmStopped": "Sonomètre arrêté.",
+    "slmRunning": "Écoute… le niveau se met à jour en direct.",
+    "slmNow": "Actuel",
+    "slmMax": "Crête",
+    "slmAvg": "Moyenne",
+    "slmDenied": "L'accès au microphone a été refusé. Autorisez-le dans les réglages de votre navigateur et réessayez.",
+    "slmFail": "Impossible de démarrer le microphone.",
+    "slmReset": "Réinitialiser la crête",
+    "slmNote": "Il s'agit d'un sonomètre relatif, et non d'un instrument de mesure étalonné : la valeur en décibels est référencée à la pleine échelle numérique, elle dépend donc de votre microphone et de son gain. Utilisez-le pour comparer le volume sonore ou repérer un bruit, pas pour des mesures légales ou de sécurité. L'audio est analysé dans votre navigateur et jamais enregistré ni envoyé.",
+    "mosWaiting": "Ajoutez une image, puis faites glisser sur les zones que vous voulez masquer.",
+    "mosDecodeFail": "Impossible de lire cette image.",
+    "mosHint": "PNG, JPG, WebP…",
+    "mosReset": "Restaurer l'original",
+    "mosNeedImage": "Ajoutez d'abord une image",
+    "mosMode": "Effet",
+    "mosPixel": "Pixeliser",
+    "mosBlur": "Flouter",
+    "mosBrush": "Taille du pinceau",
+    "mosStrength": "Intensité",
+    "mosStrengthHint": "plus grand = blocs plus grossiers / flou plus fort",
+    "mosNote": "Faites glisser sur un visage, une plaque d'immatriculation ou tout détail privé pour le pixeliser ou le flouter. L'image est modifiée sur un canvas dans votre navigateur et jamais envoyée. Téléchargez le résultat en PNG.",
+    "gridWaiting": "Ajoutez une image pour la découper en une grille de carrés.",
+    "gridPreview": "grille {0} × {1} · {2} morceaux",
+    "gridHint": "PNG, JPG, WebP…",
+    "gridSplit": "Découper l'image",
+    "gridSize": "Grille",
+    "gridSizeHint": "3 × 3 est la grille classique de neuf carrés pour les réseaux sociaux",
+    "gridSquare": "Recadrer en carré d'abord",
+    "gridNote": "L'image est découpée en morceaux égaux sur un canvas dans votre navigateur. Téléchargez-les un par un ou dans un seul ZIP, puis publiez-les dans l'ordre pour une grille de neuf carrés sans raccord. Rien n'est envoyé.",
+    "zwCarrier": "Texte porteur — le message visible que les gens liront…",
+    "zwSecret": "Texte secret à cacher à l'intérieur…",
+    "zwPasted": "Collez ici le texte filigrané pour révéler son message caché…",
+    "zwEmbed": "Intégrer le message caché",
+    "zwNeedSecret": "Saisissez d'abord un message secret à cacher",
+    "zwVisibleChars": "Caractères visibles",
+    "zwHiddenChars": "Caractères cachés",
+    "zwInvisible": "invisible",
+    "zwTotalChars": "Longueur totale",
+    "zwNone": "Aucun message caché n'a été trouvé dans ce texte.",
+    "zwRevealedChars": "Caractères révélés",
+    "zwCarrierLabel": "Texte porteur",
+    "zwPastedLabel": "Texte filigrané",
+    "zwSecretLabel": "Message secret",
+    "zwExtract": "Révéler le message caché",
+    "zwMode": "Action",
+    "zwEmbedMode": "Cacher un message",
+    "zwExtractMode": "Révéler un message",
+    "zwNote": "Le secret est encodé en caractères Unicode à largeur nulle (U+200B/U+200C) enveloppés de word-joiners. Ils sont invisibles et survivent au copier-coller ordinaire, mais tout éditeur qui supprime le formatage ou normalise Unicode les retirera. C'est de l'obfuscation, pas du chiffrement — ne l'utilisez pas pour cacher des mots de passe ou des données sensibles.",
+    "cssOffsetX": "Ombre X",
+    "cssOffsetY": "Ombre Y",
+    "cssBlur": "Flou",
+    "cssSpread": "Étalement",
+    "cssRadius": "Rayon des coins",
+    "cssOpacity": "Opacité de l'ombre",
+    "cssShadowColor": "Couleur de l'ombre",
+    "cssBoxColor": "Couleur de la boîte",
+    "cssInset": "Ombre interne",
+    "cssColumns": "Colonnes",
+    "cssGap": "Espacement",
+    "cssItems": "Éléments",
+    "cssRowHeight": "Hauteur des lignes",
+    "cssMode": "Générateur",
+    "cssBoxMode": "Ombre portée et rayon",
+    "cssGridMode": "Mise en page en grille",
+    "cssGenerated": "CSS généré",
+    "cssNote": "Faites glisser les curseurs et regardez l'aperçu et le CSS se mettre à jour en direct. Copiez le CSS dans votre feuille de style. Tout est calculé dans votre navigateur.",
+    "jsvgInput": "Collez le JSON ici — un objet ou un tableau devient un arbre de structure…",
+    "jsvgBadJson": "Ce n'est pas un JSON valide. Vérifiez s'il manque une virgule ou un guillemet.",
+    "jsvgRender": "Générer le diagramme",
+    "jsvgNeedJson": "Collez d'abord du JSON",
+    "jsvgRenderFirst": "Générez d'abord un diagramme",
+    "jsvgInputLabel": "Entrée JSON",
+    "jsvgSvgCode": "Code SVG",
+    "jsvgNote": "Le JSON est analysé et disposé en arbre de structure de gauche à droite, dessiné entièrement dans votre navigateur. Téléchargez-le en SVG à intégrer dans vos documents ou diapositives, ou copiez le balisage. Les grands tableaux sont limités à 40 branches et 8 niveaux de profondeur pour garder le diagramme lisible.",
+    "jsvgHint": "Saisissez du JSON et appuyez sur Générer pour dessiner sa structure en arbre SVG.",
+    "encInput": "Saisissez ou collez le texte à chiffrer ou déchiffrer…",
+    "encPassPlaceholder": "Phrase secrète",
+    "encNoSubtle": "Ce navigateur ne prend pas en charge Web Crypto. Une page sécurisée (https) est requise.",
+    "encrypt": "Chiffrer",
+    "encNeedText": "Saisissez d'abord du texte",
+    "encNeedPass": "Saisissez une phrase secrète",
+    "decrypt": "Déchiffrer",
+    "encNeedCipher": "Collez d'abord le texte chiffré",
+    "encBadCipher": "Ce n'est pas un texte chiffré valide.",
+    "encWrongPass": "Impossible de déchiffrer — phrase secrète incorrecte ou texte corrompu.",
+    "encPassHint": "La même phrase secrète est nécessaire pour déchiffrer. Elle n'est jamais stockée ni envoyée où que ce soit.",
+    "encNote": "AES-256-GCM avec une clé dérivée par PBKDF2 (150 000 itérations, SHA-256). Le sel aléatoire et l'IV sont intégrés à la sortie, la phrase secrète seule suffit donc à déchiffrer. Tout s'exécute dans votre navigateur via la Web Crypto API — rien n'est envoyé.",
+    "camIntro": "Testez votre caméra, votre microphone et votre écran — le tout localement. Rien n'est enregistré ni envoyé.",
+    "camMicLevel": "Niveau du microphone",
+    "camStartCam": "Démarrer la caméra",
+    "camStartMic": "Tester le microphone",
+    "camStopCam": "Arrêter la caméra",
+    "camRunning": "La caméra est en direct. Si vous vous voyez, la caméra fonctionne.",
+    "camDenied": "L'accès à la caméra a été refusé. Autorisez-le dans les réglages de votre navigateur et réessayez.",
+    "camFail": "Impossible de démarrer la caméra.",
+    "camStopMic": "Arrêter le microphone",
+    "camMicRunning": "Parlez ou tapotez le microphone — la barre de niveau doit bouger.",
+    "camMicDenied": "L'accès au microphone a été refusé. Autorisez-le dans les réglages de votre navigateur et réessayez.",
+    "camMicFail": "Impossible de démarrer le microphone.",
+    "camRed": "Rouge",
+    "camGreen": "Vert",
+    "camBlue": "Bleu",
+    "camWhite": "Blanc",
+    "camBlack": "Noir",
+    "camGray": "Gris",
+    "camScreen": "Test de pixels morts de l'écran",
+    "camScreenHint": "Tapotez n'importe où pour changer de couleur et repérer les pixels bloqués ou morts.",
+    "camExit": "Quitter",
+    "camNote": "L'aperçu de la caméra et le niveau du microphone s'exécutent entièrement dans votre navigateur via getUserMedia et la Web Audio API. Aucune vidéo ni audio n'est enregistré, sauvegardé ou envoyé où que ce soit. Utilisez le test d'écran pour repérer les pixels morts sur un moniteur ou l'écran d'un téléphone.",
+    "teleInput": "Collez ici votre script ou votre discours…",
+    "teleNeedText": "Collez d'abord votre script",
+    "teleReset": "Redémarrer",
+    "teleFullscreen": "Plein écran",
+    "teleScript": "Votre script",
+    "teleSpeedHint": "pixels de défilement par seconde",
+    "teleMirror": "Miroir (pour un séparateur de faisceau)",
+    "teleNote": "Collez votre discours, réglez la taille de police et la vitesse de défilement, puis appuyez sur Démarrer. Miroir retourne le texte pour un téléprompteur à séparateur de faisceau, et Plein écran remplit l'affichage. Votre script reste dans cet onglet du navigateur et n'est jamais envoyé."
+  },
+  "t": {
+    "zero-width-watermark": {
+      "title": "Filigrane à largeur nulle",
+      "h1": "Filigrane à largeur nulle — cachez du texte dans du texte",
+      "desc": "Cachez un message secret dans du texte via des caractères Unicode invisibles à largeur nulle. Survit au copier-coller. Gratuit, intégrez ou révélez-le en local.",
+      "intro": "Cet outil cache un message secret dans un texte d'apparence normale en l'encodant sous forme de caractères Unicode invisibles à largeur nulle (U+200B et U+200C) enveloppés de word-joiners. Le texte porteur se lit exactement de la même façon, mais la charge cachée voyage avec lui lorsque vous copiez et collez. Passez en mode Révéler pour extraire un message d'un texte filigrané. C'est de l'obfuscation, pas du chiffrement : tout ce qui supprime le formatage ou normalise Unicode retirera la marque, ne l'utilisez donc jamais pour des mots de passe ou des données sensibles.",
+      "steps": [
+        "Saisissez le texte porteur visible.",
+        "Saisissez le message secret à cacher.",
+        "Appuyez sur Intégrer et copiez le texte filigrané.",
+        "Pour le relire, collez-le en mode Révéler."
+      ],
+      "faq": [
+        {
+          "q": "Le message caché survit-il au copier-coller ?",
+          "a": "Oui, lors d'un copier-coller ordinaire en texte brut, car les caractères à largeur nulle font partie de la chaîne. Mais les éditeurs de texte enrichi, les plateformes sociales et tout outil qui normalise Unicode ou supprime le formatage peuvent les retirer ; testez donc toujours sur la destination."
+        },
+        {
+          "q": "Est-ce un chiffrement sécurisé ?",
+          "a": "Non. C'est de la stéganographie par obscurité : quiconque sait chercher les caractères à largeur nulle peut révéler le message. Utilisez l'outil de chiffrement/déchiffrement AES pour un vrai secret."
+        }
+      ]
+    },
+    "css-generator": {
+      "title": "Générateur CSS ombre et grille",
+      "h1": "Générateur CSS — ombre portée, rayon et grille",
+      "desc": "Générez visuellement box-shadow, border-radius et grilles CSS. Faites glisser les curseurs, voyez l'aperçu en direct, copiez le CSS. Gratuit, sans inscription.",
+      "intro": "Concevez du CSS visuellement au lieu de deviner des nombres. En mode Boîte, faites glisser les curseurs de décalage de l'ombre, de flou, d'étalement, de rayon des coins, de couleur et d'opacité, avec une ombre interne facultative, et regardez l'aperçu se mettre à jour en direct. En mode Grille, définissez le nombre de colonnes, l'espacement, le nombre d'éléments et la hauteur des lignes pour disposer une grille responsive. Le CSS correspondant est généré au fur et à mesure — copiez-le directement dans votre feuille de style. Tout s'exécute dans votre navigateur.",
+      "steps": [
+        "Choisissez Ombre portée et rayon ou Mise en page en grille.",
+        "Faites glisser les curseurs pour façonner l'effet.",
+        "Regardez l'aperçu et le CSS se mettre à jour en direct.",
+        "Copiez le CSS généré dans votre projet."
+      ],
+      "faq": [
+        {
+          "q": "Quel CSS génère-t-il ?",
+          "a": "Du CSS standard, prêt à copier : une règle .box avec background, border-radius et box-shadow, ou une règle .grid utilisant display:grid avec grid-template-columns et gap. Aucun préfixe vendeur n'est nécessaire pour ces propriétés dans les navigateurs modernes."
+        },
+        {
+          "q": "Puis-je utiliser le CSS de grille sur un vrai site ?",
+          "a": "Oui. La règle de grille utilise repeat() et des colonnes fractionnaires, elle est donc responsive. Collez-la dans votre feuille de style et placez votre contenu dans le conteneur de grille."
+        }
+      ]
+    },
+    "json-to-svg": {
+      "title": "Diagramme JSON en SVG",
+      "h1": "JSON en SVG — visualisez un arbre de structure",
+      "desc": "Transformez du JSON en arbre SVG coloré. Collez un objet ou un tableau, générez le diagramme, puis téléchargez le SVG ou copiez le balisage. Gratuit, local.",
+      "intro": "Collez n'importe quel objet ou tableau JSON et l'outil l'analyse et le dispose en arbre de structure de gauche à droite, dessiné en un SVG coloré entièrement dans votre navigateur. Chaque clé devient un nœud, les objets et tableaux imbriqués se ramifient, et les valeurs feuilles sont affichées en ligne. Téléchargez le résultat en SVG à intégrer dans votre documentation ou vos diapositives, ou copiez le balisage brut. Les grands tableaux sont limités à 40 branches et huit niveaux de profondeur pour garder le diagramme lisible.",
+      "steps": [
+        "Collez votre JSON dans le champ de saisie.",
+        "Appuyez sur Générer le diagramme.",
+        "Inspectez l'aperçu de l'arbre de structure.",
+        "Téléchargez le SVG ou copiez le balisage."
+      ],
+      "faq": [
+        {
+          "q": "Quelles formes de JSON sont prises en charge ?",
+          "a": "Tout JSON valide : objets, tableaux, chaînes, nombres, booléens et null. Les objets et tableaux deviennent des nœuds de ramification ; les valeurs primitives sont affichées comme des feuilles. Un JSON invalide signale une erreur claire au lieu de dessiner."
+        },
+        {
+          "q": "Le SVG est-il modifiable ?",
+          "a": "Oui. C'est du balisage SVG brut, vous pouvez donc l'ouvrir dans n'importe quel éditeur vectoriel ou le coller dans du HTML. Le téléchargement est un fichier .svg autonome, sans dépendance externe."
+        }
+      ]
+    },
+    "encrypt-decrypt": {
+      "title": "Chiffrer / Déchiffrer du texte",
+      "h1": "Chiffrer / déchiffrer du texte AES en ligne",
+      "desc": "Chiffrez et déchiffrez du texte avec AES-256-GCM et une phrase secrète, dans votre navigateur. Dérivation de clé PBKDF2, rien n'est envoyé. Gratuit et privé.",
+      "intro": "Protégez un message avec une cryptographie moderne et robuste sans rien installer. Saisissez votre texte et une phrase secrète, puis Chiffrer : l'outil dérive une clé de 256 bits avec PBKDF2 (150 000 itérations, SHA-256) et chiffre avec AES-GCM, en intégrant le sel aléatoire et l'IV dans la sortie base64, si bien que la phrase secrète seule suffit à déchiffrer plus tard. Collez le texte chiffré et la même phrase secrète pour Déchiffrer. Tout utilise la Web Crypto API du navigateur et ne quitte jamais votre appareil.",
+      "steps": [
+        "Saisissez ou collez le texte.",
+        "Saisissez une phrase secrète robuste.",
+        "Appuyez sur Chiffrer pour produire le texte chiffré.",
+        "Pour l'inverser, collez le texte chiffré et appuyez sur Déchiffrer."
+      ],
+      "faq": [
+        {
+          "q": "Quel est le niveau de sécurité ?",
+          "a": "Il utilise AES-256-GCM, une norme de chiffrement authentifié, avec une clé dérivée par PBKDF2 à 150 000 itérations. La sécurité dépend d'une phrase secrète robuste et gardée secrète ; le sel et l'IV sont aléatoires à chaque chiffrement."
+        },
+        {
+          "q": "Puis-je déchiffrer sans ce site ?",
+          "a": "La sortie est du base64 standard empaquetant le sel (16 octets), l'IV (12 octets) et le texte chiffré AES-GCM. Toute bibliothèque qui reproduit PBKDF2-SHA256 à 150 000 itérations et AES-256-GCM peut le déchiffrer avec la même phrase secrète."
+        }
+      ]
+    },
+    "image-mosaic": {
+      "title": "Mosaïque et flou photo",
+      "h1": "Mosaïque photo — pixelisez et floutez en local",
+      "desc": "Pixelisez ou floutez visages, plaques et détails privés d'une photo au pinceau. Modifiez en local sur un canvas et téléchargez un PNG. Gratuit, sans envoi.",
+      "intro": "Masquez les parties sensibles d'une image sans l'envoyer où que ce soit. Importez une photo, choisissez Pixeliser ou Flouter, réglez la taille et l'intensité du pinceau, puis faites glisser sur les visages, plaques d'immatriculation ou documents que vous voulez obscurcir. L'effet est appliqué sur un canvas dans votre navigateur ; restaurez l'original à tout moment et téléchargez le résultat en PNG. Rien n'est envoyé.",
+      "steps": [
+        "Importez une photo.",
+        "Choisissez Pixeliser ou Flouter et réglez le pinceau.",
+        "Faites glisser sur les zones à masquer.",
+        "Téléchargez le PNG modifié."
+      ],
+      "faq": [
+        {
+          "q": "La pixelisation est-elle réversible ?",
+          "a": "Une pixelisation forte moyenne chaque bloc en une seule couleur, détruisant le détail d'origine : elle est donc irréversible à partir du résultat. Utilisez une taille de bloc grossière pour les données sensibles ; un flou léger peut parfois être amélioré, préférez donc la pixelisation pour les visages et les plaques."
+        },
+        {
+          "q": "Mes photos sont-elles envoyées ?",
+          "a": "Non. L'image est dessinée et modifiée sur un canvas entièrement dans votre navigateur, et le PNG est généré localement. Rien n'est transmis à un serveur."
+        }
+      ]
+    },
+    "grid-splitter": {
+      "title": "Découpe d'image en grille",
+      "h1": "Découpe d'image en grille — neuf carrés et NxN",
+      "desc": "Découpez une image en grille 3×3 (neuf carrés) ou NxN pour les réseaux sociaux. Recadrez en carré, puis téléchargez les morceaux en ZIP. Gratuit, local.",
+      "intro": "Découpez une image en une grille sans raccord pour Instagram, Weibo ou tout fil social. Importez une image, choisissez une grille de 2×2 à 6×6 (3×3 est la grille classique de neuf carrés), et recadrez éventuellement en carré d'abord pour que chaque morceau soit carré. L'outil la découpe sur un canvas dans votre navigateur, puis vous téléchargez les morceaux individuellement ou dans un seul ZIP, prêts à publier dans l'ordre. Rien n'est envoyé.",
+      "steps": [
+        "Importez l'image que vous voulez découper.",
+        "Choisissez la taille de grille, p. ex. 3×3.",
+        "Activez Recadrer en carré pour des morceaux carrés.",
+        "Découpez et téléchargez les morceaux ou le ZIP."
+      ],
+      "faq": [
+        {
+          "q": "Comment publier une grille de neuf carrés sans raccord ?",
+          "a": "Découpez en 3×3, téléchargez le ZIP, puis importez les neuf morceaux dans votre application sociale dans l'ordre numéroté (grid-01 à grid-09). La plupart des applications permettent de sélectionner plusieurs images à la fois ; respectez l'ordre pour que l'image s'aligne."
+        },
+        {
+          "q": "Pourquoi recadrer en carré d'abord ?",
+          "a": "Un fil de neuf carrés affiche des vignettes carrées. Recadrer la source en un carré centré avant la découpe garde chaque morceau carré et évite les bords irréguliers. Désactivez-le pour découper le rectangle entier à la place."
+        }
+      ]
+    },
+    "camera-mic-test": {
+      "title": "Test caméra et micro",
+      "h1": "Test de la caméra, du microphone et de l'écran",
+      "desc": "Testez votre webcam, microphone et écran dans le navigateur. Aperçu caméra en direct, niveau du micro et test de pixels morts en couleur. Gratuit, privé.",
+      "intro": "Vérifiez votre matériel avant un appel ou un enregistrement, entièrement dans votre navigateur. Démarrez la caméra pour un aperçu en direct, testez le microphone et regardez la barre de niveau bouger pendant que vous parlez, et lancez le test de pixels morts de l'écran pour faire défiler des couleurs unies en plein écran et repérer les pixels bloqués. Aucune vidéo ni audio n'est enregistré, sauvegardé ou envoyé — les flux s'arrêtent quand vous appuyez sur Arrêter ou quittez la page.",
+      "steps": [
+        "Appuyez sur Démarrer la caméra pour vérifier la vidéo.",
+        "Appuyez sur Tester le microphone et parlez.",
+        "Lancez le test d'écran et tapotez pour changer de couleur.",
+        "Arrêtez chaque test quand vous avez terminé."
+      ],
+      "faq": [
+        {
+          "q": "Enregistre-t-il ou envoie-t-il quoi que ce soit ?",
+          "a": "Non. La caméra et le microphone sont seulement prévisualisés et analysés en direct dans votre navigateur via getUserMedia et la Web Audio API. Rien n'est enregistré, sauvegardé ou envoyé où que ce soit, et les pistes s'arrêtent quand vous appuyez sur Arrêter."
+        },
+        {
+          "q": "Pourquoi le navigateur demande-t-il une permission ?",
+          "a": "Accéder à une caméra ou un microphone exige toujours votre permission explicite, et une page sécurisée (https). Si vous l'avez refusée, autorisez-la dans les réglages de site de votre navigateur et réessayez."
+        }
+      ]
+    },
+    "teleprompter": {
+      "title": "Téléprompteur",
+      "h1": "Téléprompteur en ligne pour votre script",
+      "desc": "Téléprompteur en ligne gratuit : collez votre script, faites-le défiler en grand, réglez vitesse et taille de police, miroir et plein écran. Rien n'est envoyé.",
+      "intro": "Lisez votre discours fluidement pendant l'enregistrement. Collez votre script, réglez une taille de police et une vitesse de défilement confortables, puis appuyez sur Démarrer pour faire défiler le texte. Miroir le retourne horizontalement pour un téléprompteur à séparateur de faisceau, et Plein écran remplit l'affichage pour lire à distance. Votre script reste dans cet onglet du navigateur et n'est jamais envoyé.",
+      "steps": [
+        "Collez votre script ou votre discours.",
+        "Réglez la taille de police et la vitesse de défilement.",
+        "Appuyez sur Démarrer pour faire défiler ; miroir si vous utilisez un dispositif.",
+        "Utilisez Plein écran pour un grand affichage."
+      ],
+      "faq": [
+        {
+          "q": "À quoi sert l'option miroir ?",
+          "a": "Un téléprompteur à séparateur de faisceau reflète l'écran sur une vitre devant l'objectif, ce qui inverse le texte. Le miroir le retourne horizontalement pour qu'il se lise correctement dans le reflet. Laissez-le désactivé quand vous lisez directement à l'écran."
+        },
+        {
+          "q": "Mon script est-il sauvegardé ou envoyé quelque part ?",
+          "a": "Non. Le script ne vit que dans cet onglet du navigateur pendant que vous utilisez l'outil et n'est jamais envoyé ni stocké sur un serveur. Actualiser la page l'efface."
+        }
+      ]
+    },
+    "sound-level-meter": {
+      "title": "Sonomètre",
+      "h1": "Sonomètre — mesureur de décibels en ligne",
+      "desc": "Sonomètre en ligne gratuit : voyez en direct le niveau de décibels relatif autour de vous, avec crête et moyenne. Micro en local, rien n'est enregistré.",
+      "intro": "Mesurez le volume sonore de votre environnement avec le microphone de votre appareil. Appuyez sur Démarrer, autorisez l'accès, et le sonomètre affiche le niveau sonore relatif en décibels avec une barre en direct plus les relevés de crête et de moyenne. C'est un sonomètre relatif, non étalonné, référencé à la pleine échelle numérique : utilisez-le pour comparer le volume ou repérer un bruit plutôt que pour des mesures légales ou de sécurité. L'audio est analysé dans votre navigateur et jamais enregistré ni envoyé.",
+      "steps": [
+        "Appuyez sur Démarrer et autorisez l'accès au microphone.",
+        "Regardez le relevé de décibels et la barre en direct.",
+        "Consultez les niveaux de crête et de moyenne.",
+        "Réinitialisez la crête ou arrêtez quand vous avez terminé."
+      ],
+      "faq": [
+        {
+          "q": "Est-ce un sonomètre étalonné ?",
+          "a": "Non. C'est un sonomètre relatif référencé à la pleine échelle numérique, la valeur absolue dépend donc de votre microphone et de son gain. Il est utile pour comparer le volume sonore, pas pour des mesures de bruit certifiées."
+        },
+        {
+          "q": "L'audio est-il enregistré ?",
+          "a": "Non. Le flux du microphone est seulement analysé en direct dans votre navigateur pour calculer le niveau. Rien n'est enregistré, sauvegardé ou envoyé, et le micro s'arrête quand vous appuyez sur Arrêter ou quittez la page."
+        }
+      ]
+    }
+  }
+}

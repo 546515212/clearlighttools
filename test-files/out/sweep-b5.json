@@ -1,0 +1,139 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T11:28:49.230Z",
+ "planned": [
+  "csv-to-json",
+  "markdown-to-html",
+  "hash-generator",
+  "uuid-generator",
+  "password-generator",
+  "regex-tester",
+  "diff-checker",
+  "text-to-speech"
+ ],
+ "rows": [
+  {
+   "tool": "csv-to-json",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "CSVResultCopy.jsonPreviewnameageAnn31Bo25null",
+    "nameageAnn31Bo25",
+    "Rows2Columns2Delimited bycomma"
+   ],
+   "filled": [],
+   "throttleMs": 663,
+   "ms": 1650
+  },
+  {
+   "tool": "markdown-to-html",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "MarkdownHTMLCopy.htmlPreviewTitle Some bold text and a link.",
+    "Title Some bold text and a link.",
+    "HTML characters99Words rendered7Headings1"
+   ],
+   "filled": [],
+   "throttleMs": 663,
+   "ms": 1000
+  },
+  {
+   "tool": "hash-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "5 charactersSHA-2562cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824Copy",
+    "SHA-2562cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824Copy",
+    "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+   ],
+   "filled": [],
+   "throttleMs": 663,
+   "ms": 1002
+  },
+  {
+   "tool": "uuid-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "ResultRegenerateCopy.txt",
+    "Generated10random (RFC 4122)Unique10Characters369",
+    "Generated10random (RFC 4122)"
+   ],
+   "filled": [],
+   "throttleMs": 663,
+   "ms": 1007
+  },
+  {
+   "tool": "password-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "PasswordsRegenerateCopy firstGenerated with the browser cryptographic random number generator. Nothing is stor",
+    "Length16pool 84 charactersEntropy102.3 bitsvery strongBrute force~3.6e+14 years at a trillion guesses per seco",
+    "Length16pool 84 characters"
+   ],
+   "filled": [],
+   "throttleMs": 663,
+   "ms": 1001
+  },
+  {
+   "tool": "regex-tester",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Highlightedorder 4821 and order 9015No match. Try removing anchors (^ $) or the case-sensitive flag.Replace wi",
+    "order 4821 and order 9015",
+    "Matches0Subject25 chars1 lines"
+   ],
+   "filled": [],
+   "throttleMs": 663,
+   "ms": 993
+  },
+  {
+   "tool": "diff-checker",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Changed lines41 added · 3 removedIdentical0lines− alpha− beta− gamma+ null",
+    "Changed lines41 added · 3 removedIdentical0lines",
+    "Changed lines41 added · 3 removed"
+   ],
+   "filled": [],
+   "throttleMs": 663,
+   "ms": 992
+  },
+  {
+   "tool": "text-to-speech",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Play"
+   ],
+   "bytes": [],
+   "output": [
+    "Words2≈ listening1 minat normal speed",
+    "Words2",
+    "≈ listening1 minat normal speed"
+   ],
+   "filled": [],
+   "throttleMs": 663,
+   "ms": 2000
+  }
+ ],
+ "finishedAt": "2026-11-07T11:28:58.884Z"
+}

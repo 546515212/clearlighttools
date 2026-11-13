@@ -1,0 +1,29 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T11:45:15.818Z",
+ "planned": [
+  "/en/pdf/compress-pdf/"
+ ],
+ "rows": [
+  {
+   "tool": "/en/pdf/compress-pdf/",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "page-compress-pdf-sample-long.pdf | 7424 | application/pdf"
+   ],
+   "output": [
+    "sample-long.pdf7.3 KB−1%Download",
+    "sample-long.pdf7.3 KB−1%Download"
+   ],
+   "filled": [],
+   "throttleMs": 60,
+   "ms": 9067
+  }
+ ],
+ "finishedAt": "2026-11-07T11:45:24.886Z"
+}

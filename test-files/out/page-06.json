@@ -1,0 +1,25 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:26:50.429Z",
+ "planned": [
+  "/es/text/word-counter/"
+ ],
+ "rows": [
+  {
+   "tool": "/es/text/word-counter/",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Words1493% uniqueCharacters8572 without spacesSentences1Lines11 paragraphsReading time1 min≈200 wpmSpeaking ti",
+    "Words1493% unique",
+    "Characters8572 without spaces"
+   ],
+   "filled": [],
+   "throttleMs": 462,
+   "ms": 1455
+  }
+ ],
+ "finishedAt": "2026-11-07T12:26:51.886Z"
+}

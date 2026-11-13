@@ -1,0 +1,219 @@
+{
+  "t": {
+    "percentage-calculator": {
+      "desc": "Beantworte die vier wirklich gesuchten Prozentfragen: wie viel X Prozent von Y sind, X wie viel Prozent von Y ausmacht, Zu- oder Abnahme um X Prozent.",
+      "intro": "Jeder Modus zeigt die Rechnung, sodass du das Ergebnis nachprüfen oder jemandem die Methode erklären kannst.",
+      "steps": [
+        "Wähl die Frageart.",
+        "Trag die zwei Zahlen ein.",
+        "Lies das Ergebnis und die vorgerechneten Schritte."
+      ],
+      "faq": [
+        {
+          "q": "Von 40 auf 52 — wie hoch ist die Zunahme in Prozent?",
+          "a": "30 Prozent: Die Differenz durch den Ausgangswert teilen, also 12 / 40 = 0,3."
+        },
+        {
+          "q": "Warum sind 20 Prozent mehr und danach 20 Prozent weniger nicht neutral?",
+          "a": "Die zweite Änderung bezieht sich auf den neuen, größeren Ausgangswert. Aus 100 werden 120 und danach 96."
+        }
+      ]
+    },
+    "bmi-calculator": {
+      "desc": "Berechne den Body-Mass-Index, sieh in welche Kategorie du fällst, und erfahre den Gewichtsbereich, der für deine Größe als gesund zählt.",
+      "intro": "Der BMI ist ein Screening-Wert, keine Diagnose — der Rechner zeigt die Kategorien und ihre Grenzen, damit du sie richtig einordnest.",
+      "steps": [
+        "Wähl „Metrisch (cm, kg)“ oder „Imperisch (ft/in, lb)“.",
+        "Gib Größe und Gewicht ein.",
+        "Lies deinen BMI und den Bereich der Kategorie ab."
+      ],
+      "faq": [
+        {
+          "q": "Stimmt der BMI bei Sportlichen?",
+          "a": "Schlecht. Muskel wiegt mehr als Fett, deshalb kann eine schlanke, muskulöse Person als übergewichtig eingestuft werden."
+        },
+        {
+          "q": "Werden Kinder genauso bewertet?",
+          "a": "Nein. Unter 18 zählen Perzentile nach Alter und Geschlecht, sprich deshalb lieber mit einer Fachperson, statt dich auf diesen Wert zu stützen."
+        }
+      ]
+    },
+    "age-calculator": {
+      "desc": "Hole das genaue Alter in Jahren, Monaten und Tagen, plus gelebte Tage, den nächsten Geburtstag, den Wochentag deiner Geburt und das Meilenstein-Jahr.",
+      "intro": "Praktisch für Formulare, die nach Tagen fragen, und um einen Geburtstag in der Woche vorher zu planen, bevor er ansteht.",
+      "steps": [
+        "Gib das Geburtsdatum ein.",
+        "Wähl optional ein anderes Datum, gegen das gerechnet wird.",
+        "Lies die Aufschlüsselung."
+      ],
+      "faq": [
+        {
+          "q": "Warum erscheinen zwei Altersangaben?",
+          "a": "Volle Jahre gegenüber den Monaten und Tagen insgesamt; offizielle Formulare wollen meist die vollen Jahre."
+        },
+        {
+          "q": "Wie werden Schaltjahre behandelt?",
+          "a": "Exakt: Ein Geburtstag am 29. Februar zählt in gemeinen Jahren am Folgetag als weiteres Jahr."
+        }
+      ]
+    },
+    "date-calculator": {
+      "desc": "Zähle Tage zwischen Terminen, addiere oder subtrahiere Tage und Werktage und hole dir das Ergebnis-Kalenderdatum samt Wochentagsnamen.",
+      "intro": "Nützlich für Fristen, Mietzeiträume, Projektpläne und jede Frage, wie lange etwas dauert.",
+      "steps": [
+        "Wähl „Tage zwischen zwei Daten“ oder „Zeit addieren oder subtrahieren“.",
+        "Gib die Daten und die Anzahl der Tage ein.",
+        "Entscheide, ob Wochenenden und Feiertage zählen.",
+        "Lies das Ergebnis-Datum und die Gesamtzahl ab."
+      ],
+      "faq": [
+        {
+          "q": "Ist der Endtag enthalten?",
+          "a": "Standardmäßig zählt die Differenz die vollen Tage zwischen beiden, deshalb sagt das Werkzeug ausdrücklich, ob einer der beiden Tage mitzählt."
+        },
+        {
+          "q": "Kann ich Werktage abziehen?",
+          "a": "Ja, wechsel auf „Werktage“; gesetzliche Feiertage musst du weiterhin von Hand mitrechnen."
+        }
+      ]
+    },
+    "loan-calculator": {
+      "desc": "Schätze die Monatsrate für einen Konsumkredit oder eine Hypothek, die insgesamt gezahlten Zinsen und den Zinsanteil der ersten Jahre.",
+      "intro": "Die Rechnung nutzt die übliche Annuitätenformel, und die Übersicht zeigt das Verhältnis von Zinsen zum Kapital, das Kreditgeber nicht immer aktiv bewerben.",
+      "steps": [
+        "Gib den Betrag, den jährlichen Zinssatz und die Laufzeit ein.",
+        "Lies die Monatsrate ab.",
+        "Prüf die Zinsen insgesamt und die gesamte Rückzahlung.",
+        "Vergleich Laufzeiten, um zu sehen, was ein längerer Kredit wirklich kostet."
+      ],
+      "faq": [
+        {
+          "q": "Sind Gebühren oder eine Versicherung enthalten?",
+          "a": "Nein, es geht nur um Kapital und Zinsen. Rechne Produkte wie eine Restschuldversicherung zum Betrag, um die echte Rate anzunähern."
+        },
+        {
+          "q": "Welchen Zinssatz soll ich eintippen?",
+          "a": "Der Nominalzins pro Jahr wird automatisch durch zwölf geteilt und monatlich angewandt, gib also den beworbenen Jahresprozentsatz ein."
+        }
+      ]
+    },
+    "discount-calculator": {
+      "desc": "Gib den Originalpreis und den Rabatt ein, um zu sehen, was du zahlst, was du sparst und was der Artikel kostet, wenn mehrere Angebote übereinanderkommen.",
+      "intro": "Beantwortet auch die Rückfrage: Kennst du den Preis vorher und nachher, nennt dir das Werkzeug den Rabatt in Prozent.",
+      "steps": [
+        "Tippe den Originalpreis ein.",
+        "Gib den Rabatt in Prozent an, oder den Endpreis.",
+        "Lies, was du zahlst und was du sparst.",
+        "Trag unter „Rabatt 2 (%)“ den weiteren Rabatt ein, um ein gestapeltes Angebot zu testen."
+      ],
+      "faq": [
+        {
+          "q": "Sind 30 Prozent und danach 20 Prozent Rabatt zusammen 50 Prozent?",
+          "a": "Nein, der zweite Abzug gilt für den bereits reduzierten Preis, insgesamt sind es also 44 Prozent Rabatt."
+        },
+        {
+          "q": "Kann die Steuer mitgerechnet werden?",
+          "a": "Ja, gib einen Steuersatz ein, um den Betrag zu sehen, der dein Konto tatsächlich verlässt."
+        }
+      ]
+    },
+    "unit-converter": {
+      "desc": "Ein Umrechner für die Einheiten des Alltags: Meter und Fuß, Kilogramm und Pfund, Celsius und Fahrenheit, Liter, Meilen pro Stunde, Megabyte und mehr.",
+      "intro": "Die Werte rechnen beim Tippen in beide Richtungen, und der verwendete Faktor wird angezeigt, damit du ein merkwürdiges Ergebnis gegenprüfen kannst.",
+      "steps": [
+        "Wähl die Kategorie.",
+        "Nimm die Quelleneinheit und gib den Wert ein.",
+        "Lies die umgerechnete Zahl ab, oder nutz „⇄ tauschen“ für die Gegenrichtung."
+      ],
+      "faq": [
+        {
+          "q": "Mit welcher Genauigkeit wird angezeigt?",
+          "a": "Sechs signifikante Stellen; fahr mit der Maus über das Feld, um den exakten Dezimalwert zu sehen."
+        },
+        {
+          "q": "Unterscheiden sich britische und US-amerikanische Pints?",
+          "a": "Ja, 568 ml gegenüber 473 ml, und der Umrechner hält sie auseinander."
+        }
+      ]
+    },
+    "color-converter": {
+      "desc": "Wechsle zwischen HEX, RGB, HSL und CSS-Namen, prüf den Kontrast gegen Weiß und Schwarz und hole dir automatisch zugängliche Abstufungen.",
+      "intro": "Füge einen Wert in jeder Notation ein und die übrigen aktualisieren sich sofort — inklusive des WCAG-Kontrastwerts, den du brauchst, bevor du eine Button-Farbe auslieferst.",
+      "steps": [
+        "Gib eine Farbe ein oder wähle eine aus.",
+        "Lies HEX, RGB und HSL ab.",
+        "Prüf den Kontrast auf hellem und auf dunklem Hintergrund."
+      ],
+      "faq": [
+        {
+          "q": "Welchen Kontrast brauche ich?",
+          "a": "Nach WCAG AA 4,5:1 für normalen Fließtext und 3:1 für große Schrift."
+        },
+        {
+          "q": "Warum sieht mein HEX auf dem Handy anders aus?",
+          "a": "Bildschirme legen Farbprofile an; die Zahlenwerte sind identisch, auch wenn die Wahrnehmung es nicht ist."
+        }
+      ]
+    },
+    "calorie-calculator": {
+      "title": "Kalorienrechner",
+      "h1": "Rechner für Kalorien pro Tag und Grundumsatz",
+      "desc": "Schätze den Grundumsatz nach der Mifflin-St-Jeor-Gleichung und die täglichen Kalorien, um dein Gewicht zu halten, zu reduzieren oder zu erhöhen.",
+      "intro": "Die Zahlen sind Schätzungen auf Basis von Durchschnittswerten einer Population, brauchbar als Ausgangspunkt statt als Verordnung.",
+      "steps": [
+        "Gib Alter, Geschlecht, Größe und Gewicht ein.",
+        "Wähl dein „Aktivitätsniveau“.",
+        "Lies den Grundumsatz und die Kalorien für die „Erhaltung“ ab.",
+        "Vergleich die sanften Ziele für Defizit und Überschuss."
+      ],
+      "faq": [
+        {
+          "q": "Wie genau ist das?",
+          "a": "Für einen gesunden Erwachsenen meist innerhalb von zehn bis zwanzig Prozent; der gemessene Energieverbrauch ist die einzige exakte Antwort."
+        },
+        {
+          "q": "Soll ich mich an den Defizit-Wert halten?",
+          "a": "Behandel ihn als Orientierung und klär jede größere Änderung mit einer qualifizierten Fachperson."
+        }
+      ]
+    },
+    "timestamp-converter": {
+      "desc": "Wandle einen Unix- oder Millisekunden-Zeitstempel in ein lesbares Datum in Ortszeit und UTC um — oder ein Datum in die Zahl für deine API.",
+      "intro": "Das Werkzeug sagt dir auch, welche Einheit du eingefügt hast — die übliche Ursache für ein Datum im Jahr 1970 oder 45000.",
+      "steps": [
+        "Füge den Zeitstempel ein oder wähle ein Datum.",
+        "Prüf die Erkennung von Sekunden gegenüber Millisekunden.",
+        "Lies die Ausgaben für Ortszeit, UTC und ISO 8601 ab."
+      ],
+      "faq": [
+        {
+          "q": "Warum liegt mein Datum im Januar 1970?",
+          "a": "Du hast einen Wert in der falschen Einheit übergeben oder einen String, der als Null interpretiert wurde."
+        },
+        {
+          "q": "Welche Zeitzone wird verwendet?",
+          "a": "Für die Zeile in Ortszeit die Zone deines Browsers, dazu ausdrücklich UTC und ein ISO-String."
+        }
+      ]
+    },
+    "random-number-generator": {
+      "desc": "Zieh eine Zahl in einem Bereich, würfel, wirf eine Münze, mische eine Namensliste oder wähle Gewinner ohne Dopplung für eine Verlosung.",
+      "intro": "Die Werte stammen aus der kryptografischen Zufallsquelle des Browsers, die Ergebnisse taugen also für Entscheidungen, die dir wirklich wichtig sind.",
+      "steps": [
+        "Setz das Minimum und das Maximum.",
+        "Bestimme, wie viele Werte du brauchst und ob Dopplungen erlaubt sind.",
+        "Erzeuge, oder nutz die Vorgaben für Würfel und Münze."
+      ],
+      "faq": [
+        {
+          "q": "Ist das wirklich zufällig?",
+          "a": "Es nutzt den Entropie-Pool deines Betriebssystems — die stärkste Quelle, die ein Browser erreichen darf."
+        },
+        {
+          "q": "Kann ich aus einer Liste mehrere Gewinner ziehen?",
+          "a": "Ja, füge die Namen ein, schalt „Ohne Wiederholungen“ ein und bestimm, wie viele gezogen werden."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:17:48.257Z",
+ "planned": [
+  "image-to-base64",
+  "base64-to-image",
+  "qr-code-generator",
+  "favicon-generator",
+  "color-picker",
+  "image-to-gif"
+ ],
+ "rows": [
+  {
+   "tool": "image-to-base64",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "photo-small.png · 12 KB · 16,166 characters of text (base64 is ~33% larger than the bytes it encodes)Copy"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 2624
+  },
+  {
+   "tool": "base64-to-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download"
+   ],
+   "bytes": [
+    "base64-to-image-decoded.png | 12108 | image/png"
+   ],
+   "output": [
+    "decoded.png12 KBimage/png · 80×60 · from 16,144 base64 charactersDownload",
+    "decoded.png12 KBimage/png · 80×60 · from 16,144 base64 charactersDownload"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 5012
+  },
+  {
+   "tool": "qr-code-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download PNG",
+    "Download SVG",
+    "Print"
+   ],
+   "bytes": [
+    "qr-code-qr-code.png | 4199 | image/png",
+    "qr-code-qr-code.svg | 6057 | image/svg+xml"
+   ],
+   "output": [
+    "29×29 modules · 296px · payload 28 BDownload PNGDownload SVGCopy imagePrintText payload: https://example.com/p",
+    "29×29 modules · 296px · payload 28 B"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 7983
+  },
+  {
+   "tool": "favicon-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Generate",
+    "Download",
+    "Download",
+    "Download",
+    "Download",
+    "Download",
+    "Download .zip"
+   ],
+   "bytes": [
+    "favicon-favicon-16x16.png | 663 | image/png",
+    "favicon-favicon-32x32.png | 1288 | image/png",
+    "favicon-favicon-48x48.png | 2088 | image/png",
+    "favicon-favicon-180x180.png | 8099 | image/png",
+    "favicon-favicon.ico | 12208 | image/x-icon",
+    "favicon-favicon.zip | 24910 | application/zip"
+   ],
+   "output": [
+    "favicon-16x16.png663 B16×16Downloadfavicon-32x32.png1.3 KB32×32Downloadfavicon-48x48.png2 KB48×48Downloadfavic",
+    "favicon-16x16.png663 B16×16Download",
+    "favicon-32x32.png1.3 KB32×32Download"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 19005
+  },
+  {
+   "tool": "color-picker",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 1007
+  },
+  {
+   "tool": "image-to-gif",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Create GIF",
+    "Download"
+   ],
+   "bytes": [
+    "image-to-gif-animation.gif | 37380 | image/gif"
+   ],
+   "output": [
+    "2 frames · 480×320 · 37 KB · 0.8s per loopDownload",
+    "2 frames · 480×320 · 37 KB · 0.8s per loopDownload"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 6984
+  }
+ ],
+ "finishedAt": "2026-11-07T12:18:30.882Z"
+}

@@ -1,0 +1,29 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T11:56:50.680Z",
+ "planned": [
+  "/de/pdf/compress-pdf/"
+ ],
+ "rows": [
+  {
+   "tool": "/de/pdf/compress-pdf/",
+   "ok": false,
+   "why": "notes: expected text never appeared:  Komprimieren | Datei",
+   "clicks": [
+    "Ausführen",
+    "Download"
+   ],
+   "bytes": [
+    "page-compress-pdf-de-sample-long.pdf | 7424 | application/pdf"
+   ],
+   "output": [
+    "sample-long.pdf7,3 KB−1%Download",
+    "sample-long.pdf7,3 KB−1%Download"
+   ],
+   "filled": [],
+   "throttleMs": 207,
+   "ms": 9200
+  }
+ ],
+ "finishedAt": "2026-11-07T11:56:59.881Z"
+}

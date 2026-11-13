@@ -1,0 +1,184 @@
+{
+  "t": {
+    "compress-pdf": {
+      "desc": "Perkecil PDF langsung di browser Anda: hilangkan data berlebih dan resample gambar, teks tetap dapat diseleksi. Tanpa unggah, tanpa watermark, tanpa akun.",
+      "intro": "Compress PDF bekerja sepenuhnya di perangkat Anda sendiri. Alat ini membaca file, menulis ulang referensi font dan objek yang duplikat, boleh jadi menurunkan resolusi gambar besar, lalu menyerahkan PDF yang lebih kecil kembali lewat unduhan browser Anda.",
+      "steps": [
+        "Letakkan satu atau beberapa file PDF di panel, atau klik untuk memilihnya.",
+        "Pilih level: terbaik mempertahankan semua detail, seimbang menyeimbangkan ukuran, dan terkecil me-resample gambar paling agresif.",
+        "Klik Kompres dan lihat angka sebelum/sesudah untuk tiap file.",
+        "Unduh hasilnya, atau ambil semuanya dalam satu zip."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa PDF hasil scan hampir tidak mengecil?",
+          "a": "Halaman hasil scan pada dasarnya adalah foto. Penghematannya berasal dari mengodekan ulang gambar halaman, jadi gunakan level terkecil atau ubah halaman ke JPEG terlebih dahulu."
+        },
+        {
+          "q": "Apakah alat ini menghapus halaman atau teks?",
+          "a": "Tidak. Jumlah halaman, lapisan teks, dan tautan tetap utuh; hanya objek redundan dan gambar yang terlalu besar yang dikodekan ulang."
+        }
+      ]
+    },
+    "merge-pdf": {
+      "desc": "Gabungkan beberapa PDF dalam urutan yang Anda pilih, dengan thumbnail halaman yang bisa digeser sebelum digabungkan. Berjalan lokal di browser Anda, gratis.",
+      "intro": "Merge PDF menyalin objek halaman tiap file ke satu dokumen tanpa merasterkannya, sehingga teks tetap dapat diseleksi dan dicari setelah penggabungan.",
+      "steps": [
+        "Tambahkan semua PDF yang ingin digabungkan.",
+        "Seret thumbnail untuk mengatur urutan, atau hapus file yang salah tambah.",
+        "Klik Gabungkan.",
+        "Unduh PDF hasil gabungan."
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya menggabungkan halaman dari sebagian file saja?",
+          "a": "Bisa, gunakan Split PDF dulu untuk memisahkan rentang yang diinginkan, lalu gabungkan bagian yang Anda perlukan."
+        },
+        {
+          "q": "Adakah batas jumlah file?",
+          "a": "Hanya memori perangkat Anda. Praktisnya, beberapa ratus halaman dapat digabungkan dengan nyaman di ponsel."
+        }
+      ]
+    },
+    "split-pdf": {
+      "desc": "Ambil satu rentang halaman dari PDF, pisahkan setiap halaman menjadi file sendiri, atau pecah dokumen panjang menjadi beberapa bagian. Semuanya berjalan lokal.",
+      "intro": "Split PDF membangun file baru dari halaman yang Anda pertahankan. Karena menyalin objek halaman alih-alih mencetaknya, kualitasnya identik dengan aslinya.",
+      "steps": [
+        "Buka PDF Anda di panel.",
+        "Pilih mode: ekstrak rentang, setiap halaman terpisah, atau pecah menjadi beberapa bagian.",
+        "Ketik rentangnya, misalnya 3-8 atau 1,4,9-12.",
+        "Klik Pisah dan unduh hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya menghapus halaman saja?",
+          "a": "Bisa. Pilih semua halaman yang ingin disimpan, atau ketik rentang yang ingin dibuang di kolom komplemen, dan alat ini menghasilkan file tanpa halaman tersebut."
+        },
+        {
+          "q": "Apakah pemisahan mempertahankan bookmark?",
+          "a": "Bookmark yang menunjuk ke halaman yang dibuang akan hilang; isi halaman, tautan, dan lapisan teks tetap dipertahankan."
+        }
+      ]
+    },
+    "rotate-pdf": {
+      "desc": "Putar semua halaman, atau hanya halaman yang Anda pilih, sebesar 90, 180, atau 270 derajat. Gratis, instan, dan file tidak pernah meninggalkan komputer Anda.",
+      "intro": "Halaman diorientasikan ulang di tempat; tidak ada pengepakan ulang, jadi rotasi tidak menurunkan kualitas dan hanya butuh sedetik bahkan untuk file besar.",
+      "steps": [
+        "Letakkan file PDF.",
+        "Pilih 90° ke kanan, 180°, atau 90° ke kiri.",
+        "Bila perlu, batasi perubahan hanya ke rentang halaman tertentu.",
+        "Klik Terapkan dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa halaman landscape saya tampak salah setelah pemindaian?",
+          "a": "Banyak scanner menulis gambar yang sudah diputar dengan page-flag. Putar hanya rentang halaman tertentu, bukan seluruh dokumen."
+        },
+        {
+          "q": "Bisakah saya memutar halaman berbeda dengan cara berbeda?",
+          "a": "Bisa, jalankan alat ini sekali per rentang; tiap proses membiarkan sisanya tidak berubah."
+        }
+      ]
+    },
+    "watermark-pdf": {
+      "desc": "Bubuhi DRAFT, CONFIDENTIAL, tanggal, atau nama perusahaan Anda di semua halaman, dengan kendali atas ukuran, warna, opasitas, dan sudut.",
+      "intro": "Watermark digambar sebagai teks vektor asli di tiap halaman, sehingga tetap tajam saat dicetak dan tidak bergeser saat lapisan gambar dipindahkan.",
+      "steps": [
+        "Muat PDF yang ingin dibubuhi.",
+        "Ketik teksnya dan pilih warna, opasitas, serta rotasi.",
+        "Pilih apakah watermark berada di belakang atau di atas konten.",
+        "Klik Tambah watermark, lalu unduh."
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya memberi watermark hanya pada sebagian halaman?",
+          "a": "Bisa, batasi bubuhan hanya ke rentang halaman seperti 1 atau 2-5."
+        },
+        {
+          "q": "Apakah teks watermark bisa diseleksi?",
+          "a": "Ia disisipkan sebagai teks, jadi akan ikut muncul di hasil pencarian file akhirnya."
+        }
+      ]
+    },
+    "pdf-to-jpg": {
+      "desc": "Render tiap halaman PDF menjadi JPG atau PNG dengan resolusi pilihan Anda, pratinjau di layar, lalu unduh satu halaman atau semuanya sebagai zip.",
+      "intro": "Rendering memakai mesin yang sama yang menampilkan PDF di browser Anda, jadi font dan tata letaknya persis sama dengan aslinya. Tidak ada file yang diunggah ke mana pun.",
+      "steps": [
+        "Letakkan file PDF.",
+        "Atur format keluaran dan pengali resolusi.",
+        "Pratinjau halaman-halaman yang dirender.",
+        "Unduh satu gambar atau zip lengkap."
+      ],
+      "faq": [
+        {
+          "q": "Kualitas mana yang cocok untuk mencetak?",
+          "a": "Gunakan PNG 2x untuk dokumen teks dan JPG 2x untuk halaman berfoto; 3x mendekati 300 dpi pada kertas A4."
+        },
+        {
+          "q": "Bisakah saya mengambil satu halaman saja?",
+          "a": "Bisa, render rentang yang Anda perlukan alih-alih seluruh dokumen."
+        }
+      ]
+    },
+    "pdf-to-text": {
+      "desc": "Ambil teks terbaca dari PDF, pertahankan tata letak baris atau paragraf, salin ke papan klip, atau simpan sebagai file .txt. Berjalan di browser Anda.",
+      "intro": "Teks diambil dari lapisan teks PDF itu sendiri, jadi ekstraksinya akurat untuk dokumen dan laporan. Halaman hasil scan tidak punya lapisan teks dan membutuhkan OCR.",
+      "steps": [
+        "Tambahkan PDF Anda.",
+        "Pilih mode tata letak atau teks biasa.",
+        "Klik Ekstrak.",
+        "Salin hasilnya atau unduh sebagai file teks."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa hasil yang saya dapat kosong?",
+          "a": "Kemungkinan file itu adalah hasil scan kertas. OCR adalah teknologi sisi server; jalan keluarnya adalah memproses halaman tersebut lewat aplikasi OCR yang Anda percaya."
+        },
+        {
+          "q": "Apakah tabel ikut dipertahankan?",
+          "a": "Kolom dijaga dengan spasi saat Anda memilih mode tata letak, meski tabel kompleks lebih baik ditangani dengan mengonversinya ke gambar."
+        }
+      ]
+    },
+    "images-to-pdf": {
+      "desc": "Gabungkan foto JPG, PNG, WebP, atau GIF menjadi satu PDF, dalam urutan yang Anda mau, dengan ukuran halaman, margin, dan orientasi yang dapat diatur.",
+      "intro": "Sangat praktis untuk tumpukan hasil scan dari ponsel: letakkan foto Anda, atur urutannya, dan Anda mendapat satu dokumen yang rapi dikirim email dan dicetak dengan benar.",
+      "steps": [
+        "Pilih foto-foto Anda.",
+        "Seret untuk mengubah urutan dan hapus foto yang terambil dua kali.",
+        "Pilih ukuran halaman dan margin.",
+        "Klik Buat PDF dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Apakah foto disesuaikan dengan halaman?",
+          "a": "Ya, tiap gambar diperkecil di dalam area cetak tanpa dipotong, kecuali Anda memilih opsi isi halaman."
+        },
+        {
+          "q": "Bisakah saya menambahkan keterangan?",
+          "a": "Gunakan alat Watermark PDF setelahnya untuk membubuhkan judul atau tanggal di tiap halaman."
+        }
+      ]
+    },
+    "html-to-pdf": {
+      "desc": "Tempel HTML, pilih ukuran kertas dan margin, lalu cetak hasil renderannya ke PDF langsung dari browser Anda. Gratis dan privat.",
+      "intro": "Alat ini menyusun tampilan cetak yang bersih dari markup Anda dan menyerahkannya ke penulis PDF bawaan browser, yang memahami CSS, gambar, dan pemutusan halaman.",
+      "steps": [
+        "Tempel HTML Anda atau muat file .html.",
+        "Atur kertas, orientasi, dan margin.",
+        "Buka dialog cetak.",
+        "Pilih Simpan sebagai PDF sebagai tujuannya."
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya mengonversi URL yang aktif?",
+          "a": "Browser memblokir pembacaan markup situs lain dari sebuah halaman, jadi tempel HTML-nya atau gunakan fitur Print to PDF bawaan browser pada halaman itu."
+        },
+        {
+          "q": "Apakah gambar eksternal ikut disertakan?",
+          "a": "Hanya jika browser dapat memuatnya; data URI inline selalu berhasil."
+        }
+      ]
+    }
+  }
+}

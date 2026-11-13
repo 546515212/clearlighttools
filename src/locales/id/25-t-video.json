@@ -1,0 +1,48 @@
+{
+  "t": {
+    "screen-recorder": {
+      "title": "Perekam Layar",
+      "h1": "Rekam layar Anda online gratis",
+      "desc": "Tangkap layar, jendela, atau tab Anda dengan audio sistem opsional. Rekam, berhenti, pratinjau, dan unduh video WebM — tanpa instal, tanpa unggah.",
+      "intro": "Perekam layar memakai API display-capture browser untuk merekam seluruh layar, satu jendela, atau tab Anda, dengan audio bila didukung. Video dirakit secara lokal dan ditawarkan sebagai unduhan; tidak pernah menyentuh server.",
+      "steps": [
+        "Tekan Rekam dan pilih yang ingin dibagikan (layar, jendela, atau tab).",
+        "Opsional: sertakan audio di pemilih berbagi.",
+        "Tekan Berhenti, atau akhiri berbagi, saat selesai.",
+        "Pratinjau klip dan unduh WebM."
+      ],
+      "faq": [
+        {
+          "q": "Browser mana yang mendukung perekaman layar?",
+          "a": "Chrome dan Edge di desktop memiliki display capture paling andal, dan Firefox juga mendukungnya. Browser seluler umumnya tidak, jadi gunakan browser desktop."
+        },
+        {
+          "q": "Bisakah merekam audio sistem?",
+          "a": "Saat Anda membagikan tab atau seluruh layar, pemilih menawarkan opsi audio. Apakah audio sistem disertakan bergantung pada browser dan apa yang Anda bagikan."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Perekam Webcam",
+      "h1": "Rekam video dari webcam Anda online",
+      "desc": "Rekam diri Anda dengan kamera dan mikrofon di browser. Pratinjau tampilan langsung, tekan rekam, lalu unduh — gratis, tanpa perangkat lunak.",
+      "intro": "Perekam webcam menampilkan pratinjau langsung dari kamera Anda, menangkapnya bersama mikrofon melalui MediaRecorder, dan menyimpan klip secara lokal untuk dipratinjau dan diunduh. Video tidak pernah meninggalkan perangkat Anda kecuali Anda mengunduhnya.",
+      "steps": [
+        "Tekan Rekam dan izinkan akses kamera dan mikrofon.",
+        "Periksa pratinjau langsung dan atur posisi Anda dalam bingkai.",
+        "Tekan Berhenti saat selesai.",
+        "Pratinjau rekaman dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Apakah video diunggah ke suatu tempat?",
+          "a": "Tidak. Video direkam dan disimpan di browser Anda, lalu ditawarkan sebagai unduhan lokal. Tidak ada yang dikirim ke server."
+        },
+        {
+          "q": "Apa format rekamannya?",
+          "a": "Video WebM (VP8/VP9 dengan audio Opus) bila browser mendukungnya, yang bisa diputar di browser modern dan sebagian besar editor. Beberapa browser mungkin menghasilkan MP4."
+        }
+      ]
+    }
+  }
+}

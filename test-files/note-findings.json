@@ -1,0 +1,412 @@
+[
+ {
+  "file": "src\\scripts\\tools\\calc.js",
+  "found": [
+   {
+    "line": 106,
+    "why": "hardcoded string literal",
+    "arg": "'Enter a realistic height and weight.'"
+   },
+   {
+    "line": 125,
+    "why": "hardcoded string literal",
+    "arg": "'BMI is a population screen, not a diagnosis. It ignores muscle mass, bone density, age, sex and where fat sits, so athletes and older adults often land in the wrong band.'"
+   },
+   {
+    "line": 145,
+    "why": "hardcoded string literal",
+    "arg": "'Pick both dates — the day has to exist in that month.'"
+   },
+   {
+    "line": 146,
+    "why": "hardcoded string literal",
+    "arg": "'The birth date is after the reference date.'"
+   },
+   {
+    "line": 164,
+    "why": "hardcoded string literal",
+    "arg": "'Month lengths are borrowed from the real calendar, so end-of-month birthdays stay correct through February.'"
+   },
+   {
+    "line": 181,
+    "why": "hardcoded string literal",
+    "arg": "'Pick a start date.'"
+   },
+   {
+    "line": 182,
+    "why": "hardcoded string literal",
+    "arg": "'Enter an amount.'"
+   },
+   {
+    "line": 218,
+    "why": "hardcoded string literal",
+    "arg": "'Pick both dates.'"
+   },
+   {
+    "line": 263,
+    "why": "hardcoded string literal",
+    "arg": "'Enter a positive amount, a term longer than zero and a rate of 0 or more.'"
+   },
+   {
+    "line": 273,
+    "why": "hardcoded string literal",
+    "arg": "'That payment does not even cover the monthly interest, so the balance never reaches zero. Increase the payment or shorten the term.'"
+   },
+   {
+    "line": 302,
+    "why": "hardcoded string literal",
+    "arg": "`With no extra payment you would pay ${money(plainTotal)} in total; the ${money(EX)} a month saves ${money(plainTotal - totalPaid)}.`"
+   },
+   {
+    "line": 303,
+    "why": "hardcoded string literal",
+    "arg": "'Assumes a fixed rate with monthly compounding and equal payments. Real contracts add fees, insurance or different compounding, and then the numbers move.'"
+   },
+   {
+    "line": 320,
+    "why": "hardcoded string literal",
+    "arg": "'Enter a price.'"
+   },
+   {
+    "line": 331,
+    "why": "hardcoded string literal",
+    "arg": "`Stacked ${show(a)}% and ${show(e)}% are one discount of ${show(single)}%, not ${show(a + e)}%.`"
+   },
+   {
+    "line": 332,
+    "why": "hardcoded string literal",
+    "arg": "'Tax is applied after the discount, which is how most shops and marketplaces do it — check your local rules for digital goods.'"
+   },
+   {
+    "line": 401,
+    "why": "hardcoded string literal",
+    "arg": "'Enter a number.'"
+   },
+   {
+    "line": 407,
+    "why": "hardcoded string literal",
+    "arg": "'Temperature is not a ratio scale, so 20 °C is not “twice as hot” as 10 °C.'"
+   },
+   {
+    "line": 419,
+    "why": "hardcoded string literal",
+    "arg": "`Base unit: ${UNITS[cat][0]}. Every line above is converted through it, so rounding stays consistent.`"
+   },
+   {
+    "line": 485,
+    "why": "hardcoded string literal",
+    "arg": "'I understand #rgb, #rrggbb, #rrggbbaa, rgb(10,20,30,.5) and hsl(210,60%,50%).'"
+   },
+   {
+    "line": 515,
+    "why": "hardcoded string literal",
+    "arg": "`Alpha ${Math.round(a * 100)}% — shown over the panel background.`"
+   },
+   {
+    "line": 536,
+    "why": "hardcoded string literal",
+    "arg": "'Paste any of these values straight into CSS. Print colours (CMYK) never match screen colours exactly.'"
+   },
+   {
+    "line": 558,
+    "why": "hardcoded string literal",
+    "arg": "'Use an age between 10 and 100, height in cm (100–230) and weight in kg (25–350).'"
+   },
+   {
+    "line": 578,
+    "why": "hardcoded string literal",
+    "arg": "'These are population equations, so they are a starting point, not a prescription. Weigh in weekly and adjust by 150–200 kcal if the scale refuses to move. Pregnancy, breastfeeding, kidney disease and eating disorders need a professional instead of a calculator.'"
+   },
+   {
+    "line": 597,
+    "why": "hardcoded string literal",
+    "arg": "'Paste an epoch number or a date.'"
+   },
+   {
+    "line": 608,
+    "why": "hardcoded string literal",
+    "arg": "'That is neither a timestamp I recognise nor a valid date.'"
+   },
+   {
+    "line": 636,
+    "why": "hardcoded string literal",
+    "arg": "'A 10-digit number is seconds, a 13-digit one is milliseconds. Force the unit above if your value is unusual, such as 0 or a negative date.'"
+   },
+   {
+    "line": 661,
+    "why": "hardcoded string literal",
+    "arg": "'Enter two numbers.'"
+   },
+   {
+    "line": 668,
+    "why": "hardcoded string literal",
+    "arg": "`You cannot draw ${n} unique values from ${span} possibilities between ${lo} and ${hi}.`"
+   },
+   {
+    "line": 693,
+    "why": "hardcoded string literal",
+    "arg": "'Uses crypto.getRandomValues(), so it is fair enough for raffles, sample data and test ids. It is not a source of secrets, and it is not reproducible — for a repeatable study use a seeded generator.'"
+   }
+  ]
+ },
+ {
+  "file": "src\\scripts\\tools\\image.js",
+  "found": [
+   {
+    "line": 182,
+    "why": "hardcoded string literal",
+    "arg": "`${f.name}: ${bytes(f.size)} → ${bytes(blob.size)}. Lower the quality, add a max width, or set a target size.`"
+   },
+   {
+    "line": 329,
+    "why": "hardcoded string literal",
+    "arg": "'This is not valid base64: the character count is impossible.'"
+   },
+   {
+    "line": 336,
+    "why": "hardcoded string literal",
+    "arg": "'Decoded the bytes, but they do not look like a PNG, JPEG, GIF, WebP or BMP image.'"
+   },
+   {
+    "line": 384,
+    "why": "hardcoded string literal",
+    "arg": "'The QR library could not be loaded.'"
+   },
+   {
+    "line": 391,
+    "why": "hardcoded string literal",
+    "arg": "`Too much text for one code (${err?.message || err}). Shorten it, or use error level L.`"
+   },
+   {
+    "line": 408,
+    "why": "hardcoded string literal",
+    "arg": "`${n}×${n} modules · ${size}px · payload ${bytes(new TextEncoder().encode(data).length)}`"
+   },
+   {
+    "line": 424,
+    "why": "hardcoded string literal",
+    "arg": "`${mode === 'wifi' ? 'Wi-Fi' : 'Text'} payload: ${data.length > 90 ? data.slice(0, 90) + '…' : data}`"
+   },
+   {
+    "line": 440,
+    "why": "hardcoded string literal",
+    "arg": "`${src.width}×${src.height} ready.`"
+   },
+   {
+    "line": 441,
+    "why": "hardcoded string literal",
+    "arg": "'Could not read that image.'"
+   },
+   {
+    "line": 477,
+    "why": "hardcoded string literal",
+    "arg": "'Reference it with <link rel=\"icon\" href=\"favicon-32x32.png\" sizes=\"32x32\" type=\"image/png\"> and <link rel=\"apple-touch-icon\" href=\"favicon-180x180.png\">.'"
+   },
+   {
+    "line": 524,
+    "why": "hardcoded string literal",
+    "arg": "'Enter a 3, 6 or 8-digit hex value such as #36F or #3366FF'"
+   },
+   {
+    "line": 574,
+    "why": "hardcoded string literal",
+    "arg": "'Could not decode that image.'"
+   },
+   {
+    "line": 587,
+    "why": "hardcoded string literal",
+    "arg": "'Click the picture to sample a pixel.'"
+   },
+   {
+    "line": 642,
+    "why": "hardcoded string literal",
+    "arg": "`${files.length} frames · ${w}×${h} · ${bytes(blob.size)} · ${(files.length * delay / 1000).toFixed(1)}s per loop`"
+   },
+   {
+    "line": 675,
+    "why": "hardcoded string literal",
+    "arg": "'Could not decode that file. Browsers refuse some AAC/AMR/DRM recordings.'"
+   },
+   {
+    "line": 719,
+    "why": "hardcoded string literal",
+    "arg": "'WAV is uncompressed, so it is bigger than the MP3 you started with. Use a lower sample rate and mono for voice; re-encode to MP3 with a dedicated encoder if you need the smallest file.'"
+   },
+   {
+    "line": 744,
+    "why": "hardcoded string literal",
+    "arg": "'This browser cannot play that file, so it cannot re-encode it either.'"
+   },
+   {
+    "line": 801,
+    "why": "hardcoded string literal",
+    "arg": "'The browser blocked playback, so recording cannot start. Press play yourself and try again.'"
+   },
+   {
+    "line": 814,
+    "why": "hardcoded string literal",
+    "arg": "'Re-encoding happens live: a 3 minute clip takes 3 minutes. The container is WebM; browsers cannot write MP4 locally.'"
+   }
+  ]
+ },
+ {
+  "file": "src\\scripts\\tools\\pdf.js",
+  "found": [
+   {
+    "line": 116,
+    "why": "hardcoded string literal",
+    "arg": "`${f.name}: already efficient (${bytes(f.size)} → ${bytes(blob.size)}). Try the Smallest file level.`"
+   },
+   {
+    "line": 182,
+    "why": "hardcoded string literal",
+    "arg": "`${jobs.length} files produced.`"
+   },
+   {
+    "line": 313,
+    "why": "hardcoded string literal",
+    "arg": "'This PDF has no text layer — it is a scan of paper. Text extraction needs OCR, which does not run in a browser tab.'"
+   }
+  ]
+ },
+ {
+  "file": "src\\scripts\\tools\\text.js",
+  "found": [
+   {
+    "line": 98,
+    "why": "hardcoded string literal",
+    "arg": "'Type at least a couple of sentences to see word frequencies.'"
+   },
+   {
+    "line": 99,
+    "why": "hardcoded string literal",
+    "arg": "`These ${top.length} words make up ${Math.round(top.reduce((acc, x) => acc + x[1], 0) / Math.max(1, tokens.length) * 100)}% of all words used.`"
+   },
+   {
+    "line": 251,
+    "why": "hardcoded string literal",
+    "arg": "`Could not decode this: ${e.message || e}. Base64 length must not leave a single leftover character.`"
+   },
+   {
+    "line": 291,
+    "why": "hardcoded string literal",
+    "arg": "`Cannot decode: ${e.message || e}. A % must be followed by exactly two hex digits.`"
+   },
+   {
+    "line": 408,
+    "why": "hardcoded string literal",
+    "arg": "`Not valid JSON${line ? ` around line ${line}` : ''}: ${e.message}`"
+   },
+   {
+    "line": 450,
+    "why": "hardcoded string literal",
+    "arg": "'No data rows were found — only a header line.'"
+   },
+   {
+    "line": 471,
+    "why": "hardcoded string literal",
+    "arg": "`Showing 8 of ${rows.length} rows.`"
+   },
+   {
+    "line": 498,
+    "why": "hardcoded string literal",
+    "arg": "'The Markdown library could not be loaded.'"
+   },
+   {
+    "line": 500,
+    "why": "hardcoded string literal",
+    "arg": "'Unexpected marked build.'"
+   },
+   {
+    "line": 505,
+    "why": "hardcoded string literal",
+    "arg": "`Could not render: ${e.message || e}`"
+   },
+   {
+    "line": 574,
+    "why": "hardcoded string literal",
+    "arg": "`Could not hash: ${e.message || e}. Web Crypto hashes need an https or localhost page.`"
+   },
+   {
+    "line": 716,
+    "why": "hardcoded string literal",
+    "arg": "'Generated with the browser cryptographic random number generator. Nothing is stored or sent; for shared secrets use a password manager.'"
+   },
+   {
+    "line": 747,
+    "why": "hardcoded string literal",
+    "arg": "'Type a pattern to test.'"
+   },
+   {
+    "line": 752,
+    "why": "hardcoded string literal",
+    "arg": "`Invalid pattern: ${e.message}`"
+   },
+   {
+    "line": 758,
+    "why": "hardcoded string literal",
+    "arg": "'Stopped after 5000 matches — the pattern may match empty strings everywhere.'"
+   },
+   {
+    "line": 770,
+    "why": "hardcoded string literal",
+    "arg": "`Showing 60 of ${matches.length}.`"
+   },
+   {
+    "line": 772,
+    "why": "hardcoded string literal",
+    "arg": "'No match. Try removing anchors (^ $) or the case-sensitive flag.'"
+   },
+   {
+    "line": 781,
+    "why": "hardcoded string literal",
+    "arg": "`Replacement failed: ${e.message}`"
+   },
+   {
+    "line": 811,
+    "why": "text does not come from the dictionary",
+    "arg": "onlyDiff ? 'No differences — both sides match.' : 'Nothing to compare yet.'"
+   },
+   {
+    "line": 831,
+    "why": "hardcoded string literal",
+    "arg": "'This browser has no speech engine. Edge, Chrome and Safari on macOS/iOS do.'"
+   },
+   {
+    "line": 844,
+    "why": "hardcoded string literal",
+    "arg": "`${list.length} voices available from your operating system.`"
+   },
+   {
+    "line": 849,
+    "why": "hardcoded string literal",
+    "arg": "'Nothing to read.'"
+   },
+   {
+    "line": 854,
+    "why": "hardcoded string literal",
+    "arg": "`Playback failed: ${e.error || e.message || 'unknown'}.`"
+   },
+   {
+    "line": 855,
+    "why": "hardcoded string literal",
+    "arg": "'Finished.'"
+   },
+   {
+    "line": 857,
+    "why": "hardcoded string literal",
+    "arg": "'Speaking…'"
+   },
+   {
+    "line": 868,
+    "why": "hardcoded string literal",
+    "arg": "'Stopped.'"
+   },
+   {
+    "line": 869,
+    "why": "hardcoded string literal",
+    "arg": "'Audio comes from your own system voices, so there is no file to download. Record with your OS if you need an MP3.'"
+   }
+  ]
+ }
+]

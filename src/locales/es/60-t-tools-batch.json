@@ -1,0 +1,202 @@
+{
+  "t": {
+    "shoe-size-converter": {
+      "title": "Conversor de tallas de zapatos",
+      "h1": "Conversor de tallas de zapatos — US, EU, UK y CN",
+      "desc": "Convierte tallas de zapatos entre US, EU, UK y CN para hombre y mujer. Introduce una talla o la longitud del pie y ve todos los sistemas. Gratis.",
+      "intro": "Este conversor equivale una talla de zapatos o una longitud de pie en centímetros entre los sistemas US, EU, UK y CN, tanto para hombre como para mujer. Escribe una talla en cualquier sistema, o mide tu pie del talón a la punta, y verás el equivalente en todos los demás, además de la longitud del pie en cm y pulgadas. Las conversiones son estándares comerciales aproximados y varían según la marca y la horma.",
+      "steps": [
+        "Elige el ajuste de hombre o de mujer.",
+        "Selecciona el sistema de tallas que conoces (US, EU, UK, CN o cm).",
+        "Introduce tu talla o la longitud del pie.",
+        "Consulta las tallas equivalentes en todos los sistemas."
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo mido mi pie para acertar con la talla?",
+          "a": "Ponte de pie sobre un papel por la tarde, marca el talón y el dedo más largo y mide la distancia en centímetros. Introduce esa longitud en el sistema cm; mide los dos pies y usa el mayor."
+        },
+        {
+          "q": "¿Son exactas estas conversiones?",
+          "a": "Son estándares comerciales aproximados. Las marcas y las hormas difieren, así que consulta siempre la tabla de tallas del fabricante y elige la talla mayor si estás entre dos."
+        }
+      ]
+    },
+    "rmb-uppercase": {
+      "title": "Conversor de RMB a mayúsculas",
+      "h1": "Convierte un importe a RMB en mayúsculas chinas",
+      "desc": "Convierte un número al importe en mayúsculas chinas del RMB que se usa en cheques y facturas. Admite yuan, jiao y fen. Gratis y sin subir datos.",
+      "intro": "Escribe un importe y el conversor lo redacta en la forma financiera china en mayúsculas (daxie) que se usa en cheques, facturas y contratos para evitar manipulaciones. Admite yuan, jiao y fen, marca correctamente un importe entero exacto y funciona hasta justo por debajo de un billón. El cálculo usa céntimos enteros para evitar errores de coma flotante.",
+      "steps": [
+        "Introduce el importe, por ejemplo 1234.56.",
+        "El importe en RMB mayúsculas aparece al instante.",
+        "Comprueba las partes de yuan, jiao y fen.",
+        "Copia el resultado para tu cheque o factura."
+      ],
+      "faq": [
+        {
+          "q": "¿Para qué sirve el importe en mayúsculas chinas?",
+          "a": "Es la forma financiera resistente a manipulaciones (daxie) que se exige en cheques, facturas y contratos en China, donde los dígitos normales podrían alterarse. Cada dígito tiene un carácter complejo difícil de falsificar."
+        },
+        {
+          "q": "¿Cómo se tratan los decimales?",
+          "a": "El primer decimal es jiao y el segundo es fen. Un importe entero exacto termina con un carácter que indica «sin céntimos», así que 100 y 100.00 se escriben correctamente."
+        }
+      ]
+    },
+    "world-clock": {
+      "title": "Reloj mundial",
+      "h1": "Reloj mundial — zonas horarias y planificador de reuniones",
+      "desc": "Consulta la hora en directo en 12 ciudades, compara zonas horarias y planifica una reunión entre ellas, con el horario laboral resaltado. Gratis.",
+      "intro": "El reloj mundial muestra la hora en directo en doce ciudades importantes, cada una con su fecha y un punto verde durante el horario laboral local (09:00–18:00). Arrastra el planificador para cuadrar una reunión entre zonas horarias y ver a qué hora cae en cada ciudad, con una etiqueta cuando una ciudad está en otro día del calendario. Las horas se muestran respecto a tu propia zona horaria.",
+      "steps": [
+        "Consulta la hora en directo en doce ciudades del mundo.",
+        "Fíjate en los puntos verdes del horario laboral y en las etiquetas de día.",
+        "Arrastra el planificador para fijar la hora de una reunión.",
+        "Lee la hora local en cada ciudad."
+      ],
+      "faq": [
+        {
+          "q": "¿Tiene en cuenta el horario de verano?",
+          "a": "Sí. Las horas se calculan con la base de datos de zonas horarias de tu navegador, así que los cambios de horario de verano se aplican automáticamente en cada ciudad."
+        },
+        {
+          "q": "¿Cómo planifico una reunión entre zonas horarias?",
+          "a": "Arrastra el control del planificador hasta una hora de tu propia zona; cada tarjeta de ciudad se actualiza para mostrar su hora local, y una etiqueta marca las ciudades que caen en otro día."
+        }
+      ]
+    },
+    "pomodoro-timer": {
+      "title": "Temporizador Pomodoro",
+      "h1": "Temporizador Pomodoro de concentración con descansos",
+      "desc": "Temporizador Pomodoro para trabajar concentrado: sesiones de 25 minutos, descansos cortos y largos, contador de sesiones y aviso sonoro. Gratis.",
+      "intro": "La técnica Pomodoro alterna el trabajo concentrado con descansos cortos, y un descanso más largo después de varias rondas. Define la duración de la concentración, del descanso corto y del descanso largo, inicia el temporizador y hará la cuenta atrás con un contador de sesiones y un aviso sonoro opcional en cada cambio de fase. El modo de pantalla completa mantiene visible una cuenta atrás grande mientras trabajas. El temporizador funciona mientras la pestaña esté abierta.",
+      "steps": [
+        "Define la duración de la concentración y de los descansos.",
+        "Pulsa Iniciar para comenzar una sesión de concentración.",
+        "Trabaja hasta que suene el aviso y luego descansa.",
+        "Repite; el descanso largo llega después de varias rondas."
+      ],
+      "faq": [
+        {
+          "q": "¿Cuáles son las duraciones Pomodoro por defecto?",
+          "a": "El ciclo clásico es de 25 minutos de concentración, un descanso corto de 5 minutos y un descanso largo de 15 minutos después de cuatro sesiones de concentración. Puedes cambiar las tres duraciones y el número de rondas."
+        },
+        {
+          "q": "¿Sigue siendo preciso si cambio de pestaña?",
+          "a": "El temporizador cuenta según el reloj en lugar de ir restando, así que sigue siendo preciso incluso cuando el navegador ralentiza una pestaña en segundo plano. Mantén la pestaña abierta o usa la pantalla completa para ver una cuenta atrás grande."
+        }
+      ]
+    },
+    "random-picker": {
+      "title": "Selector aleatorio",
+      "h1": "Selector de nombres al azar y ruleta para girar",
+      "desc": "Gira una ruleta para elegir un nombre al azar o sortea un ganador al instante. Añade un nombre por línea, quita ganadores y elige un equipo. Gratis.",
+      "intro": "Escribe un nombre por línea, gira la ruleta y se elige un ganador con crypto.getRandomValues(), de modo que cada nombre tiene la misma probabilidad. Quita al ganador después de cada sorteo para elegir un equipo completo por orden, o usa el Sorteo rápido para obtener un resultado instantáneo sin la animación. Restablece para empezar de nuevo. Todo se ejecuta localmente en tu navegador.",
+      "steps": [
+        "Introduce un nombre por línea.",
+        "Pulsa Girar la ruleta (o Sorteo rápido).",
+        "Lee el ganador.",
+        "Quita al ganador para volver a sortear, o restablece."
+      ],
+      "faq": [
+        {
+          "q": "¿Es el sorteo realmente aleatorio?",
+          "a": "Sí. Usa crypto.getRandomValues() del navegador, una fuente de aleatoriedad criptográficamente segura, así que cada nombre tiene la misma probabilidad y el resultado no es predecible."
+        },
+        {
+          "q": "¿Puedo elegir varios ganadores sin repeticiones?",
+          "a": "Sí. Usa «Quitar ganador» después de cada sorteo para sacar ese nombre de la ruleta y así elegir un equipo completo por orden. Restablecer devuelve todos los nombres."
+        }
+      ]
+    },
+    "invoice-generator": {
+      "title": "Generador de facturas",
+      "h1": "Generador de facturas gratis — crea una factura en PDF",
+      "desc": "Crea una factura profesional en tu navegador. Añade tus datos, las líneas, los impuestos y el descuento, y descarga un PDF o PNG. Gratis.",
+      "intro": "Rellena los datos del vendedor y del cliente, añade líneas con cantidades y precios, define un descuento y un tipo de impuesto, y el generador compone una factura clara con los totales. Previsualízala y luego expórtala como PDF de una página o como imagen PNG. Todo se dibuja localmente en tu navegador, así que tus datos financieros nunca salen de tu dispositivo.",
+      "steps": [
+        "Introduce tus datos y los del cliente.",
+        "Añade líneas con cantidad y precio unitario.",
+        "Define la moneda, el descuento y el tipo de impuesto.",
+        "Genera la factura y descarga el PDF o el PNG."
+      ],
+      "faq": [
+        {
+          "q": "¿Se suben a algún sitio los datos de mi factura?",
+          "a": "No. La factura se dibuja en un canvas de tu navegador y se exporta localmente como PDF o PNG. No se envía nada a un servidor, así que tus cifras siguen siendo privadas."
+        },
+        {
+          "q": "¿Puedo usar mi propia moneda y tipo de impuesto?",
+          "a": "Sí. Elige entre ocho monedas y define cualquier porcentaje de descuento y tipo de impuesto; el subtotal, el descuento, los impuestos y el total se calculan por ti."
+        }
+      ]
+    },
+    "signature-pad": {
+      "title": "Bloc de firmas",
+      "h1": "Dibuja tu firma online — PNG transparente",
+      "desc": "Dibuja tu firma con el ratón, el dedo o un lápiz óptico y descarga un PNG transparente. Deshaz, borra y recorta el espacio vacío. Gratis.",
+      "intro": "Firma en el lienzo con el ratón, una pantalla táctil o un lápiz óptico, elige el color y el grosor del trazo y descarga un PNG con fondo transparente para que encaje limpiamente en un contrato o un formulario. Deshaz trazos, borra el bloc o recorta el espacio vacío alrededor de tu firma. No se sube nada: el dibujo permanece en tu navegador.",
+      "steps": [
+        "Dibuja tu firma en el bloc.",
+        "Ajusta el color y el grosor del trazo si hace falta.",
+        "Deshaz o borra para corregir errores; recorta el espacio vacío.",
+        "Descarga el PNG transparente."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué el fondo es transparente?",
+          "a": "El PNG se exporta con canal alfa, así que solo tus trazos son opacos. Eso te permite colocar la firma sobre un documento sin un recuadro blanco alrededor."
+        },
+        {
+          "q": "¿Puedo firmar en un móvil o una tableta?",
+          "a": "Sí. El bloc usa eventos de puntero, así que el dedo o el lápiz óptico funcionan igual que un ratón. Dibuja y luego descarga el PNG en tu dispositivo."
+        }
+      ]
+    },
+    "id-photo-maker": {
+      "title": "Creador de fotos de carnet",
+      "h1": "Creador online de fotos de pasaporte y de carnet",
+      "desc": "Haz fotos de pasaporte, visado y carnet en casa. Recorta al tamaño correcto, define los dpi y cambia el fondo a blanco, azul o rojo. Gratis.",
+      "intro": "Sube un retrato, elige un tamaño predefinido (China 1 pulgada, China 2 pulgadas, pasaporte/visado o pasaporte de EE. UU.) o un tamaño personalizado en milímetros, y define la resolución de impresión. Haz zoom y desplaza la imagen para encuadrar la cabeza y, si quieres, sustituye un fondo liso por blanco, azul o rojo. La foto se procesa localmente y se descarga como JPEG lista para imprimir.",
+      "steps": [
+        "Sube un retrato nítido y de frente.",
+        "Elige un tamaño predefinido o define un ancho y un alto personalizados.",
+        "Haz zoom y ajusta la posición; opcionalmente cambia el fondo.",
+        "Crea la foto y descarga el JPEG."
+      ],
+      "faq": [
+        {
+          "q": "¿Aceptarán esta foto para mi pasaporte?",
+          "a": "Genera una foto con el tamaño correcto y alta resolución, pero la aceptación depende de las normas de la autoridad emisora sobre la pose, la iluminación y el fondo. Consulta siempre los requisitos oficiales antes de imprimir."
+        },
+        {
+          "q": "¿Cómo funciona el cambio de fondo?",
+          "a": "Elimina el color de la esquina superior izquierda de tu foto, así que empieza con un fondo liso y uniformemente iluminado. Ajusta la tolerancia para quitar más o menos parte del fondo antiguo."
+        }
+      ]
+    },
+    "contract-generator": {
+      "title": "Generador de contratos",
+      "h1": "Generador gratis de NDA y contratos de servicios",
+      "desc": "Genera un NDA mutuo o un contrato de servicios desde una plantilla sencilla. Rellena las partes, el objeto y las condiciones, y descarga o imprime.",
+      "intro": "Elige un acuerdo mutuo de confidencialidad o un contrato de servicios, rellena las partes, la fecha de entrada en vigor, el objeto o el alcance, la duración y la ley aplicable, y el generador compone un borrador en lenguaje claro. Descárgalo como archivo de texto o imprímelo. El borrador se crea en tu navegador y nunca se sube. Esto es una plantilla general, no asesoramiento legal: que un abogado cualificado la revise antes de firmar.",
+      "steps": [
+        "Elige NDA o contrato de servicios.",
+        "Introduce las partes, la fecha y las condiciones clave.",
+        "Genera el borrador y léelo con atención.",
+        "Descarga el .txt o imprímelo."
+      ],
+      "faq": [
+        {
+          "q": "¿Es este un contrato legalmente vinculante?",
+          "a": "Es una plantilla general para empezar, no asesoramiento legal. Las leyes varían según el país y la situación, así que pide a un abogado cualificado que la revise y la adapte antes de que nadie firme."
+        },
+        {
+          "q": "¿Qué puedo personalizar?",
+          "a": "Las partes, la fecha de entrada en vigor, el objeto o el alcance de los servicios, los honorarios, la duración y la ley aplicable. Elimina las cláusulas que no se apliquen y añade los detalles específicos de tu acuerdo."
+        }
+      ]
+    }
+  }
+}

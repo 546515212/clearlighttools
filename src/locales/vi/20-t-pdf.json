@@ -1,0 +1,184 @@
+{
+  "t": {
+    "compress-pdf": {
+      "desc": "Giảm dung lượng PDF ngay trong trình duyệt: bỏ dữ liệu nhúng thừa, lấy mẫu lại ảnh, văn bản vẫn chọn được. Không tải lên, không hình mờ, không cần đăng ký.",
+      "intro": "Công cụ nén PDF chạy hoàn toàn trên máy của bạn. Nó đọc tệp, viết lại các tham chiếu phông chữ và đối tượng bị trùng lặp, tùy chọn hạ lấy mẫu những ảnh lớn, rồi trả về một tệp PDF nhỏ hơn qua mục tải xuống của trình duyệt.",
+      "steps": [
+        "Kéo thả một hoặc nhiều tệp PDF vào bảng, hoặc bấm để chọn tệp.",
+        "Chọn mức nén: Chất lượng tốt nhất giữ nguyên mọi thứ, Khuyên dùng cân bằng dung lượng, Tệp nhỏ nhất hạ lấy mẫu ảnh mạnh nhất.",
+        "Bấm Nén và theo dõi số dung lượng trước và sau của từng tệp.",
+        "Tải kết quả về, hoặc tải tất cả trong một tệp zip."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao PDF scan gần như không giảm dung lượng?",
+          "a": "Trang scan thực chất là một bức ảnh, nên phần tiết kiệm đến từ việc mã hóa lại ảnh của các trang đó. Vì vậy hãy dùng mức Tệp nhỏ nhất hoặc chuyển các trang sang JPEG trước."
+        },
+        {
+          "q": "Công cụ có xóa trang hoặc chữ không?",
+          "a": "Không. Số trang, lớp văn bản và các liên kết vẫn nguyên vẹn; chỉ những đối tượng thừa và ảnh quá lớn bị mã hóa lại."
+        }
+      ]
+    },
+    "merge-pdf": {
+      "desc": "Ghép nhiều tệp PDF theo thứ tự bạn chọn, với hình thu nhỏ từng trang kéo được trước khi hợp nhất. Chạy miễn phí ngay trên máy, trong trình duyệt.",
+      "intro": "Công cụ ghép PDF sao chép đối tượng trang của từng tệp vào một tài liệu duy nhất mà không chuyển chúng thành ảnh, nên văn bản vẫn chọn được và tìm kiếm được sau khi ghép.",
+      "steps": [
+        "Thêm mọi tệp PDF bạn muốn ghép.",
+        "Kéo các hình thu nhỏ để đặt thứ tự, hoặc gỡ một tệp bạn thêm nhầm.",
+        "Bấm Ghép.",
+        "Tải tệp PDF đã ghép về."
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể ghép chỉ một phần trang của một tệp không?",
+          "a": "Được, hãy dùng công cụ Tách PDF trước để lấy riêng khoảng trang cần, rồi ghép những phần đó lại."
+        },
+        {
+          "q": "Có giới hạn số tệp không?",
+          "a": "Chỉ có bộ nhớ của thiết bị là giới hạn. Trên thực tế, vài trăm trang vẫn ghép trơn tru ngay trên điện thoại."
+        }
+      ]
+    },
+    "split-pdf": {
+      "desc": "Tách một khoảng trang ra khỏi PDF, chia mỗi trang thành một tệp riêng, hoặc cắt một tài liệu dài thành nhiều khối. Mọi thứ đều diễn ra trên máy của bạn.",
+      "intro": "Công cụ tách PDF dựng lại một tệp mới từ những trang bạn giữ. Vì nó sao chép đối tượng trang thay vì in chúng thành ảnh, chất lượng giống hệt bản gốc.",
+      "steps": [
+        "Mở tệp PDF của bạn trong bảng.",
+        "Chọn Trích xuất một khoảng, Lưu mỗi trang thành một tệp riêng, hoặc Tách thành các khối.",
+        "Nhập khoảng trang, ví dụ 3-8 hoặc 1,4,9-12.",
+        "Bấm Tách và tải kết quả về."
+      ],
+      "faq": [
+        {
+          "q": "Thay vào đó tôi có thể xóa trang không?",
+          "a": "Được. Hãy chọn mọi trang bạn muốn giữ, hoặc nhập khoảng trang cần loại bỏ vào ô bù trừ, công cụ sẽ tạo tệp mà không có những trang đó."
+        },
+        {
+          "q": "Tách trang có giữ lại đánh dấu trang không?",
+          "a": "Những đánh dấu trỏ tới trang đã bị loại sẽ mất; nội dung trang, liên kết và lớp văn bản vẫn được giữ."
+        }
+      ]
+    },
+    "rotate-pdf": {
+      "desc": "Xoay mọi trang, hoặc chỉ những trang bạn chọn, 90, 180 hay 270 độ. Miễn phí, tức thì và tệp không rời khỏi máy tính của bạn.",
+      "intro": "Các trang được đổi hướng ngay tại chỗ, không có bước mã hóa lại, nên việc xoay không làm giảm chất lượng và chỉ mất một giây ngay cả với tệp lớn.",
+      "steps": [
+        "Thả tệp PDF vào.",
+        "Chọn xoay 90° phải, 180° hoặc 90° trái.",
+        "Tùy chọn giới hạn thay đổi trong một khoảng trang.",
+        "Bấm Áp dụng và tải về."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao các trang ngang của tôi bị lệch sau khi scan?",
+          "a": "Nhiều máy scan ghi ảnh đã xoay kèm một cờ định hướng trang. Vì vậy hãy xoay đúng khoảng trang đó thay vì cả tài liệu."
+        },
+        {
+          "q": "Tôi có thể xoay từng trang theo hướng khác nhau không?",
+          "a": "Được, hãy chạy công cụ mỗi lần cho một khoảng trang; mỗi lần chạy đều không đụng tới phần còn lại."
+        }
+      ]
+    },
+    "watermark-pdf": {
+      "desc": "Đóng dấu DRAFT, CONFIDENTIAL, một ngày tháng hay tên công ty của bạn lên mọi trang, với quyền chỉnh kích thước, màu, độ mờ và góc nghiêng.",
+      "intro": "Hình mờ được vẽ bằng văn bản vector thật trên từng trang, nên in ra vẫn sắc nét và không thể bị xê dịch bằng cách kéo một lớp ảnh.",
+      "steps": [
+        "Tải lên tệp PDF bạn muốn đóng dấu.",
+        "Nhập văn bản con dấu và chọn màu, độ mờ cùng góc xoay.",
+        "Chọn đặt dấu nằm phía sau hay phía trên nội dung.",
+        "Bấm Thêm hình mờ, rồi tải về."
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể đóng dấu chỉ trên một số trang không?",
+          "a": "Được, hãy giới hạn con dấu trong một khoảng trang như 1 hoặc 2-5."
+        },
+        {
+          "q": "Chữ đó có chọn được không?",
+          "a": "Chữ được chèn dưới dạng văn bản, nên nó xuất hiện trong kết quả tìm kiếm của tệp hoàn chỉnh."
+        }
+      ]
+    },
+    "pdf-to-jpg": {
+      "desc": "Kết xuất từng trang PDF thành JPG hoặc PNG ở độ phân giải bạn chọn, xem trước trên màn hình và tải một trang hoặc toàn bộ dưới dạng tệp zip.",
+      "intro": "Việc kết xuất dùng chính engine hiển thị PDF trong trình duyệt của bạn, nên phông chữ và bố cục khớp tuyệt đối với bản gốc. Không có gì được tải lên.",
+      "steps": [
+        "Thả tệp PDF vào.",
+        "Đặt định dạng đầu ra và hệ số độ phân giải.",
+        "Xem trước các trang đã kết xuất.",
+        "Tải một ảnh lẻ hoặc toàn bộ tệp zip."
+      ],
+      "faq": [
+        {
+          "q": "Nên chọn chất lượng nào để in?",
+          "a": "Hãy dùng PNG ở mức 2x cho tài liệu nhiều chữ và JPG ở mức 2x cho trang ảnh; mức 3x gần đạt 300 dpi trên giấy A4."
+        },
+        {
+          "q": "Tôi có thể lấy riêng một trang không?",
+          "a": "Được, hãy kết xuất khoảng trang bạn cần thay vì cả tài liệu."
+        }
+      ]
+    },
+    "pdf-to-text": {
+      "desc": "Lấy phần văn bản đọc được ra khỏi PDF, giữ bố cục dòng hoặc đoạn, sao chép vào clipboard hoặc lưu thành tệp .txt. Chạy ngay trong trình duyệt.",
+      "intro": "Văn bản lấy từ lớp chữ riêng của tệp PDF, nên việc trích xuất chính xác với tài liệu và báo cáo. Trang scan không có lớp văn bản và cần dùng OCR thay thế.",
+      "steps": [
+        "Thêm tệp PDF của bạn.",
+        "Chọn Giữ bố cục hoặc Văn bản.",
+        "Bấm Trích xuất văn bản.",
+        "Sao chép kết quả hoặc tải về dưới dạng tệp văn bản."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao kết quả trả về trống?",
+          "a": "Có lẽ tệp đó là bản scan giấy. OCR là công nghệ chạy ở phía máy chủ; cách xử lý là chạy các trang qua một ứng dụng OCR mà bạn tin tưởng."
+        },
+        {
+          "q": "Công cụ có giữ được bảng biểu không?",
+          "a": "Các cột được giữ kèm khoảng trắng khi bạn chọn Giữ bố cục, dù với bảng phức tạp thì chuyển sang ảnh vẫn ổn hơn."
+        }
+      ]
+    },
+    "images-to-pdf": {
+      "desc": "Gộp các ảnh JPG, PNG, WebP hoặc GIF thành một tệp PDF, theo thứ tự bạn muốn, với kích thước trang, lề và hướng trang do bạn tự chỉnh.",
+      "intro": "Đặc biệt hữu ích với chồng ảnh scan bằng điện thoại: thả ảnh vào, xếp thứ tự, và bạn có một tài liệu gửi qua email gọn gàng, in ra đúng khổ.",
+      "steps": [
+        "Chọn các bức ảnh.",
+        "Kéo để đổi thứ tự và xóa ảnh chụp bị trùng.",
+        "Chọn kích thước trang và lề.",
+        "Bấm Tạo PDF và tải về."
+      ],
+      "faq": [
+        {
+          "q": "Ảnh có được ép vừa theo trang không?",
+          "a": "Có, mỗi ảnh được co giãn nằm trong vùng in được mà không bị cắt, trừ khi bạn chọn Lấp (cắt)."
+        },
+        {
+          "q": "Tôi có thể thêm chú thích không?",
+          "a": "Hãy dùng công cụ Đóng dấu PDF sau đó để in một tiêu đề hoặc ngày tháng lên từng trang."
+        }
+      ]
+    },
+    "html-to-pdf": {
+      "desc": "Dán HTML, chọn khổ giấy và lề, rồi in kết quả đã hiển thị ra PDF trực tiếp từ trình duyệt của bạn. Miễn phí và riêng tư.",
+      "intro": "Công cụ này dựng một bản xem in gọn gàng từ mã HTML của bạn và trao cho trình viết PDF của chính trình duyệt, vốn hiểu CSS, hình ảnh và điểm ngắt trang.",
+      "steps": [
+        "Dán HTML của bạn hoặc tải lên một tệp .html.",
+        "Đặt khổ giấy, hướng trang và lề.",
+        "Mở hộp thoại in.",
+        "Chọn Lưu dưới dạng PDF làm máy in đích."
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể chuyển đổi một URL đang chạy không?",
+          "a": "Trình duyệt chặn việc đọc mã của trang khác từ trong một trang, nên hãy dán HTML hoặc dùng tính năng In ra PDF tích hợp của trình duyệt trên chính trang đó."
+        },
+        {
+          "q": "Ảnh từ nguồn bên ngoài có được đưa vào không?",
+          "a": "Chỉ khi trình duyệt tải được chúng; còn data URI nhúng trực tiếp thì luôn hoạt động."
+        }
+      ]
+    }
+  }
+}

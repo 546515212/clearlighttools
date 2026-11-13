@@ -1,0 +1,29 @@
+{
+ "imgCount": 3,
+ "stats": [
+  {
+   "w": 840,
+   "h": 1120,
+   "meanLuma": 228,
+   "minLuma": 0,
+   "darkPixels": 127502,
+   "darkPct": 13.55
+  },
+  {
+   "w": 840,
+   "h": 1120,
+   "meanLuma": 228,
+   "minLuma": 0,
+   "darkPixels": 127578,
+   "darkPct": 13.56
+  },
+  {
+   "w": 840,
+   "h": 1120,
+   "meanLuma": 228,
+   "minLuma": 0,
+   "darkPixels": 127561,
+   "darkPct": 13.56
+  }
+ ]
+}

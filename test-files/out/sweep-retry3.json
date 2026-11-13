@@ -1,0 +1,49 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T10:49:54.518Z",
+ "planned": [
+  "image-to-gif",
+  "image-contrast-brightness"
+ ],
+ "rows": [
+  {
+   "tool": "image-to-gif",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Create GIF",
+    "Download"
+   ],
+   "bytes": [
+    "gif2-animation.gif | 37380 | image/gif"
+   ],
+   "output": [
+    "2 frames · 480×320 · 37 KB · 0.8s per loopDownload",
+    "2 frames · 480×320 · 37 KB · 0.8s per loopDownload"
+   ],
+   "filled": [],
+   "throttleMs": 367,
+   "ms": 7363
+  },
+  {
+   "tool": "image-contrast-brightness",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Apply",
+    "Download"
+   ],
+   "bytes": [
+    "contrast2-photo.png | 5624 | image/png"
+   ],
+   "output": [
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload",
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload"
+   ],
+   "filled": [],
+   "throttleMs": 367,
+   "ms": 7009
+  }
+ ],
+ "finishedAt": "2026-11-07T10:50:08.894Z"
+}

@@ -1,0 +1,121 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T11:29:26.397Z",
+ "planned": [
+  "percentage-calculator",
+  "bmi-calculator",
+  "age-calculator",
+  "date-calculator",
+  "loan-calculator",
+  "discount-calculator",
+  "unit-converter"
+ ],
+ "rows": [
+  {
+   "tool": "percentage-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "What is X% of Y?PercentofResult5025% × 200X is what percent of Y?ValueofResult83.33%÷ 180Increase or decreaseF",
+    "Result5025% × 200",
+    "Result83.33%÷ 180"
+   ],
+   "filled": [],
+   "throttleMs": 498,
+   "ms": 1486
+  },
+  {
+   "tool": "bmi-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Your BMI23.5Healthy rangeunder < 18.5healthy 18.5–24.9over 25–29.9obese ≥ 30Healthy weight here53.5 kg – 72 kg",
+    "Your BMI23.5Healthy range",
+    "Healthy weight here53.5 kg – 72 kgyou are inside the range"
+   ],
+   "filled": [],
+   "throttleMs": 498,
+   "ms": 1006
+  },
+  {
+   "tool": "age-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Age31 years, 4 months, 23 daysborn Thursday, June 15, 1995Total days11,4681,638 weeksTotal hours275,23216,513,",
+    "Age31 years, 4 months, 23 daysborn Thursday, June 15, 1995",
+    "Total days11,4681,638 weeksTotal hours275,23216,513,920 minutesNext birthdayin 220 daysTuesday, June 15Birthda"
+   ],
+   "filled": [],
+   "throttleMs": 498,
+   "ms": 1001
+  },
+  {
+   "tool": "date-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "30 days laterMonday, December 7, 20262026-12-07Calendar days30plain daysWeeks + days4 w 2 d720 hoursThat month",
+    "30 days laterMonday, December 7, 20262026-12-07",
+    "Calendar days30plain daysWeeks + days4 w 2 d720 hoursThat monthDecember has 31 days"
+   ],
+   "filled": [],
+   "throttleMs": 498,
+   "ms": 987
+  },
+  {
+   "tool": "loan-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Monthly payment607.5336 paymentsTotal interest1,871.199.36% of what you borrowedTotal repaid21,871.191.0935593",
+    "Monthly payment607.5336 payments",
+    "Total interest1,871.199.36% of what you borrowedTotal repaid21,871.191.093559324× the amountTerm3 y 0 mas agre"
+   ],
+   "filled": [],
+   "throttleMs": 498,
+   "ms": 1001
+  },
+  {
+   "tool": "discount-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "You pay90.00before any taxYou save30.0025% off the sticker priceAfter discount90.0090.00Tax amount0.00calculat",
+    "You pay90.00before any tax",
+    "You save30.0025% off the sticker priceAfter discount90.0090.00Tax amount0.00calculated on the discounted price"
+   ],
+   "filled": [],
+   "throttleMs": 498,
+   "ms": 1000
+  },
+  {
+   "tool": "unit-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "1 m equalsResult3.280839895 ft1 m = 3.280839895 ftAll units at oncem1copykm0.001copycm100copymm1,000copyµm1,00",
+    "Result3.280839895 ft1 m = 3.280839895 ft",
+    "m1copykm0.001copycm100copymm1,000copyµm1,000,000copynm1,000,000,000copymi0.0006213711922copyyd1.093613298copyf"
+   ],
+   "filled": [],
+   "throttleMs": 498,
+   "ms": 999
+  }
+ ],
+ "finishedAt": "2026-11-07T11:29:33.883Z"
+}

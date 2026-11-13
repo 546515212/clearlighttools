@@ -1,0 +1,19 @@
+{
+  "w": {
+    "clipInfo": "{0} {1}",
+    "pages": "P",
+    "rate": "R",
+    "percent": "{0}% {1}%",
+    "iconHint": "<link rel=\"icon\" href=\"a.png\">"
+  },
+  "t": {
+    "merge-pdf": {
+      "title": "T",
+      "intro": "I",
+      "steps": [
+        "Déposez les fichiers dans le panneau",
+        "Reorder them in whatever order you like"
+      ]
+    }
+  }
+}

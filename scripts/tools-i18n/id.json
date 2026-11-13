@@ -1,0 +1,354 @@
+{
+  "search": "Cari 78 alat gratis…",
+  "kw": {
+    "zero width watermark": "tanda air lebar nol",
+    "hidden text watermark": "tanda air teks tersembunyi",
+    "invisible unicode watermark": "tanda air unicode tak terlihat",
+    "css shadow generator": "pembuat bayangan css",
+    "box shadow generator": "pembuat box shadow",
+    "css grid generator": "pembuat grid css",
+    "json to svg": "json ke svg",
+    "json tree diagram": "diagram pohon json",
+    "json structure visualizer": "visualisasi struktur json",
+    "aes encrypt online": "enkripsi aes online",
+    "aes decrypt online": "dekripsi aes online",
+    "encrypt text with password": "enkripsi teks dengan kata sandi",
+    "photo mosaic tool": "alat mosaik foto",
+    "pixelate image online": "pikselasi gambar online",
+    "blur face in photo": "buramkan wajah di foto",
+    "image grid splitter": "pemotong grid gambar",
+    "nine square split": "potong sembilan kotak",
+    "instagram grid maker": "pembuat grid instagram",
+    "webcam test online": "tes webcam online",
+    "microphone test online": "tes mikrofon online",
+    "camera test": "tes kamera",
+    "online teleprompter": "teleprompter online",
+    "free teleprompter": "teleprompter gratis",
+    "script prompter": "prompter naskah",
+    "sound level meter": "pengukur tingkat suara",
+    "decibel meter online": "pengukur desibel online",
+    "noise meter": "pengukur kebisingan"
+  },
+  "w": {
+    "wfHint": "Seret di sepanjang gelombang suara untuk memilih bagian yang ingin disimpan, atau ketik waktunya di bawah.",
+    "slmUnit": "desibel (relatif, tidak terkalibrasi)",
+    "slmIntro": "Tekan Mulai dan izinkan akses mikrofon untuk melihat tingkat suara relatif di sekitar Anda.",
+    "slmStopped": "Pengukur berhenti.",
+    "slmRunning": "Mendengarkan… level diperbarui langsung.",
+    "slmNow": "Saat ini",
+    "slmMax": "Puncak",
+    "slmAvg": "Rata-rata",
+    "slmDenied": "Akses mikrofon ditolak. Izinkan di setelan peramban Anda dan coba lagi.",
+    "slmFail": "Tidak dapat memulai mikrofon.",
+    "slmReset": "Atur ulang puncak",
+    "slmNote": "Ini adalah pengukur relatif, bukan instrumen tingkat suara terkalibrasi: nilai desibel mengacu pada skala penuh digital, sehingga bergantung pada mikrofon Anda dan gain-nya. Gunakan untuk membandingkan kelantangan atau mendeteksi kebisingan, bukan untuk pengukuran hukum atau keselamatan. Audio dianalisis di peramban Anda dan tidak pernah direkam atau diunggah.",
+    "mosWaiting": "Tambahkan gambar, lalu seret di area yang ingin Anda sembunyikan.",
+    "mosDecodeFail": "Tidak dapat membaca gambar itu.",
+    "mosHint": "PNG, JPG, WebP…",
+    "mosReset": "Pulihkan asli",
+    "mosNeedImage": "Tambahkan gambar terlebih dahulu",
+    "mosMode": "Efek",
+    "mosPixel": "Pikselasi",
+    "mosBlur": "Blur",
+    "mosBrush": "Ukuran kuas",
+    "mosStrength": "Intensitas",
+    "mosStrengthHint": "lebih besar = blok lebih kasar / blur lebih kuat",
+    "mosNote": "Seret di wajah, pelat nomor, atau detail pribadi mana pun untuk memikselkan atau memburamkannya. Gambar diedit pada kanvas di peramban Anda dan tidak pernah diunggah. Unduh hasilnya sebagai PNG.",
+    "gridWaiting": "Tambahkan gambar untuk memotongnya menjadi grid persegi.",
+    "gridPreview": "{0} × {1} grid · {2} potongan",
+    "gridHint": "PNG, JPG, WebP…",
+    "gridSplit": "Potong gambar",
+    "gridSize": "Grid",
+    "gridSizeHint": "3 × 3 adalah grid sembilan kotak media sosial klasik",
+    "gridSquare": "Pangkas menjadi persegi dulu",
+    "gridNote": "Gambar dipotong menjadi bagian-bagian sama besar pada kanvas di peramban Anda. Unduh satu per satu atau sebagai satu ZIP, lalu posting berurutan untuk grid sembilan kotak yang mulus. Tidak ada yang diunggah.",
+    "zwCarrier": "Teks pembawa — pesan terlihat yang akan dibaca orang…",
+    "zwSecret": "Teks rahasia untuk disembunyikan di dalamnya…",
+    "zwPasted": "Tempel teks bertanda air di sini untuk mengungkap pesan tersembunyinya…",
+    "zwEmbed": "Sematkan pesan tersembunyi",
+    "zwNeedSecret": "Ketik pesan rahasia untuk disembunyikan terlebih dahulu",
+    "zwVisibleChars": "Karakter terlihat",
+    "zwHiddenChars": "Karakter tersembunyi",
+    "zwInvisible": "tak terlihat",
+    "zwTotalChars": "Panjang total",
+    "zwNone": "Tidak ada pesan tersembunyi yang ditemukan dalam teks ini.",
+    "zwRevealedChars": "Karakter terungkap",
+    "zwCarrierLabel": "Teks pembawa",
+    "zwPastedLabel": "Teks bertanda air",
+    "zwSecretLabel": "Pesan rahasia",
+    "zwExtract": "Ungkap pesan tersembunyi",
+    "zwMode": "Tindakan",
+    "zwEmbedMode": "Sembunyikan pesan",
+    "zwExtractMode": "Ungkap pesan",
+    "zwNote": "Rahasia dikodekan sebagai karakter Unicode lebar-nol (U+200B/U+200C) yang dibungkus word-joiner. Karakter ini tak terlihat dan bertahan saat salin-tempel biasa, tetapi editor mana pun yang menghapus pemformatan atau menormalkan Unicode akan menghilangkannya. Ini adalah pengaburan, bukan enkripsi — jangan gunakan untuk menyembunyikan kata sandi atau data sensitif.",
+    "cssOffsetX": "Bayangan X",
+    "cssOffsetY": "Bayangan Y",
+    "cssBlur": "Blur",
+    "cssSpread": "Spread",
+    "cssRadius": "Radius sudut",
+    "cssOpacity": "Opasitas bayangan",
+    "cssShadowColor": "Warna bayangan",
+    "cssBoxColor": "Warna kotak",
+    "cssInset": "Bayangan inset",
+    "cssColumns": "Kolom",
+    "cssGap": "Celah",
+    "cssItems": "Item",
+    "cssRowHeight": "Tinggi baris",
+    "cssMode": "Generator",
+    "cssBoxMode": "Bayangan kotak & radius",
+    "cssGridMode": "Tata letak grid",
+    "cssGenerated": "CSS yang dihasilkan",
+    "cssNote": "Seret penggeser dan lihat pratinjau serta CSS diperbarui langsung. Salin CSS ke stylesheet Anda. Semuanya dihitung di peramban Anda.",
+    "jsvgInput": "Tempel JSON di sini — objek atau array menjadi pohon struktur…",
+    "jsvgBadJson": "Itu bukan JSON yang valid. Periksa koma atau tanda kutip yang hilang.",
+    "jsvgRender": "Render diagram",
+    "jsvgNeedJson": "Tempel JSON terlebih dahulu",
+    "jsvgRenderFirst": "Render diagram terlebih dahulu",
+    "jsvgInputLabel": "Input JSON",
+    "jsvgSvgCode": "Kode SVG",
+    "jsvgNote": "JSON diurai dan ditata sebagai pohon struktur dari kiri ke kanan, digambar sepenuhnya di peramban Anda. Unduh sebagai SVG yang bisa Anda masukkan ke dokumen atau slide, atau salin markup-nya. Array besar dibatasi hingga 40 cabang dan kedalaman 8 tingkat agar diagram tetap terbaca.",
+    "jsvgHint": "Masukkan JSON dan tekan Render untuk menggambar strukturnya sebagai pohon SVG.",
+    "encInput": "Ketik atau tempel teks untuk dienkripsi atau didekripsi…",
+    "encPassPlaceholder": "Frasa sandi",
+    "encNoSubtle": "Peramban ini tidak mendukung Web Crypto. Halaman aman (https) diperlukan.",
+    "encrypt": "Enkripsi",
+    "encNeedText": "Masukkan teks terlebih dahulu",
+    "encNeedPass": "Masukkan frasa sandi",
+    "decrypt": "Dekripsi",
+    "encNeedCipher": "Tempel teks terenkripsi terlebih dahulu",
+    "encBadCipher": "Itu bukan teks terenkripsi yang valid.",
+    "encWrongPass": "Tidak dapat mendekripsi — frasa sandi salah atau teks rusak.",
+    "encPassHint": "Frasa sandi yang sama diperlukan untuk mendekripsi. Frasa sandi tidak pernah disimpan atau dikirim ke mana pun.",
+    "encNote": "AES-256-GCM dengan kunci yang diturunkan dari PBKDF2 (150.000 iterasi, SHA-256). Salt acak dan IV dikemas ke dalam output, sehingga frasa sandi saja dapat mendekripsinya. Semuanya berjalan di peramban Anda melalui Web Crypto API — tidak ada yang diunggah.",
+    "camIntro": "Uji kamera, mikrofon, dan layar Anda — semuanya secara lokal. Tidak ada yang direkam atau diunggah.",
+    "camMicLevel": "Level mikrofon",
+    "camStartCam": "Mulai kamera",
+    "camStartMic": "Uji mikrofon",
+    "camStopCam": "Hentikan kamera",
+    "camRunning": "Kamera aktif. Jika Anda dapat melihat diri sendiri, kamera berfungsi.",
+    "camDenied": "Akses kamera ditolak. Izinkan di setelan peramban Anda dan coba lagi.",
+    "camFail": "Tidak dapat memulai kamera.",
+    "camStopMic": "Hentikan mikrofon",
+    "camMicRunning": "Bicara atau ketuk mikrofon — bilah level seharusnya bergerak.",
+    "camMicDenied": "Akses mikrofon ditolak. Izinkan di setelan peramban Anda dan coba lagi.",
+    "camMicFail": "Tidak dapat memulai mikrofon.",
+    "camRed": "Merah",
+    "camGreen": "Hijau",
+    "camBlue": "Biru",
+    "camWhite": "Putih",
+    "camBlack": "Hitam",
+    "camGray": "Abu-abu",
+    "camScreen": "Uji piksel mati layar",
+    "camScreenHint": "Ketuk di mana saja untuk mengganti warna dan mencari piksel macet atau mati.",
+    "camExit": "Keluar",
+    "camNote": "Pratinjau kamera dan level mikrofon berjalan sepenuhnya di peramban Anda melalui getUserMedia dan Web Audio API. Tidak ada video atau audio yang direkam, disimpan, atau dikirim ke mana pun. Gunakan uji layar untuk menemukan piksel mati pada monitor atau layar ponsel.",
+    "teleInput": "Tempel naskah atau pidato Anda di sini…",
+    "teleNeedText": "Tempel naskah Anda terlebih dahulu",
+    "teleReset": "Mulai ulang",
+    "teleFullscreen": "Layar penuh",
+    "teleScript": "Naskah Anda",
+    "teleSpeedHint": "piksel gulir per detik",
+    "teleMirror": "Cermin (untuk beam-splitter)",
+    "teleNote": "Tempel pidato Anda, atur ukuran font dan kecepatan gulir, lalu tekan Mulai. Cermin membalik teks untuk rig teleprompter beam-splitter, dan Layar penuh memenuhi tampilan. Naskah Anda tetap di tab peramban ini dan tidak pernah diunggah."
+  },
+  "t": {
+    "zero-width-watermark": {
+      "title": "Tanda Air Lebar-Nol",
+      "h1": "Tanda air lebar-nol — sembunyikan teks di dalam teks",
+      "desc": "Sembunyikan pesan rahasia dalam teks biasa dengan karakter Unicode lebar-nol tak terlihat. Bertahan saat salin-tempel. Sematkan atau ungkap gratis di peramban.",
+      "intro": "Alat ini menyembunyikan pesan rahasia di dalam teks yang tampak biasa dengan mengodekannya sebagai karakter Unicode lebar-nol tak terlihat (U+200B dan U+200C) yang dibungkus word-joiner. Teks pembawa terbaca sama persis, tetapi muatan tersembunyi ikut terbawa saat Anda menyalin dan menempel. Beralih ke Ungkap untuk mengekstrak pesan dari teks bertanda air. Ini adalah pengaburan, bukan enkripsi: apa pun yang menghapus pemformatan atau menormalkan Unicode akan menghilangkan tanda itu, jadi jangan pernah gunakan untuk kata sandi atau data sensitif.",
+      "steps": [
+        "Ketik teks pembawa yang terlihat.",
+        "Ketik pesan rahasia yang ingin disembunyikan.",
+        "Tekan Sematkan dan salin teks bertanda air.",
+        "Untuk membacanya kembali, tempel ke mode Ungkap."
+      ],
+      "faq": [
+        {
+          "q": "Apakah pesan tersembunyi bertahan saat salin-tempel?",
+          "a": "Ya, melalui salin-tempel teks biasa, karena karakter lebar-nol adalah bagian dari string. Tetapi editor rich-text, platform sosial, dan alat apa pun yang menormalkan Unicode atau menghapus pemformatan dapat menghilangkannya, jadi selalu uji di tempat tujuan."
+        },
+        {
+          "q": "Apakah ini enkripsi yang aman?",
+          "a": "Tidak. Ini adalah steganografi melalui pengaburan — siapa pun yang tahu untuk mencari karakter lebar-nol dapat mengungkap pesan itu. Gunakan alat enkripsi/dekripsi AES untuk kerahasiaan sesungguhnya."
+        }
+      ]
+    },
+    "css-generator": {
+      "title": "Generator Bayangan & Grid CSS",
+      "h1": "Generator CSS — bayangan kotak, radius, dan grid",
+      "desc": "Buat CSS box-shadow, border-radius, dan tata letak grid secara visual. Seret penggeser, lihat pratinjau langsung, dan salin CSS. Gratis, tanpa daftar.",
+      "intro": "Rancang CSS secara visual alih-alih menebak angka. Dalam mode Kotak, seret penggeser untuk offset bayangan, blur, spread, radius sudut, warna, dan opasitas, dengan bayangan inset opsional, dan lihat pratinjau langsung diperbarui. Dalam mode Grid, atur jumlah kolom, celah, jumlah item, dan tinggi baris untuk menata grid responsif. CSS yang sesuai dihasilkan saat Anda bekerja — salin langsung ke stylesheet Anda. Semuanya berjalan di peramban Anda.",
+      "steps": [
+        "Pilih Bayangan kotak & radius atau Tata letak grid.",
+        "Seret penggeser untuk membentuk efek.",
+        "Lihat pratinjau dan CSS diperbarui langsung.",
+        "Salin CSS yang dihasilkan ke proyek Anda."
+      ],
+      "faq": [
+        {
+          "q": "CSS apa yang dihasilkan?",
+          "a": "CSS standar siap salin: aturan .box dengan background, border-radius, dan box-shadow, atau aturan .grid yang memakai display:grid dengan grid-template-columns dan gap. Tidak perlu prefiks vendor untuk properti ini di peramban modern."
+        },
+        {
+          "q": "Bisakah saya memakai CSS grid di situs sungguhan?",
+          "a": "Ya. Aturan grid memakai repeat() dan kolom fraksional, sehingga responsif. Tempel ke stylesheet Anda dan letakkan konten Anda di dalam kontainer grid."
+        }
+      ]
+    },
+    "json-to-svg": {
+      "title": "Diagram JSON ke SVG",
+      "h1": "JSON ke SVG — visualisasikan pohon struktur",
+      "desc": "Ubah JSON menjadi pohon struktur SVG berwarna. Tempel objek atau array, render diagram, lalu unduh SVG atau salin markup. Gratis, lokal.",
+      "intro": "Tempel objek atau array JSON apa pun dan alat ini mengurai serta menatanya sebagai pohon struktur dari kiri ke kanan, digambar sebagai SVG berwarna sepenuhnya di peramban Anda. Setiap kunci menjadi simpul, objek dan array bersarang bercabang, dan nilai daun ditampilkan sebaris. Unduh hasilnya sebagai SVG yang bisa Anda masukkan ke dokumentasi atau slide, atau salin markup mentahnya. Array besar dibatasi hingga 40 cabang dan kedalaman delapan tingkat agar diagram tetap terbaca.",
+      "steps": [
+        "Tempel JSON Anda ke input.",
+        "Tekan Render diagram.",
+        "Periksa pratinjau pohon struktur.",
+        "Unduh SVG atau salin markup."
+      ],
+      "faq": [
+        {
+          "q": "Bentuk JSON apa yang didukung?",
+          "a": "JSON valid apa pun: objek, array, string, angka, boolean, dan null. Objek dan array menjadi simpul bercabang; nilai primitif ditampilkan sebagai daun. JSON tidak valid melaporkan error yang jelas alih-alih menggambar."
+        },
+        {
+          "q": "Apakah SVG bisa diedit?",
+          "a": "Ya. Ini markup SVG biasa, jadi Anda dapat membukanya di editor vektor mana pun atau menempelnya ke HTML. Unduhannya adalah file .svg mandiri tanpa dependensi eksternal."
+        }
+      ]
+    },
+    "encrypt-decrypt": {
+      "title": "Enkripsi / Dekripsi Teks",
+      "h1": "Enkripsi / dekripsi teks AES online",
+      "desc": "Enkripsi dan dekripsi teks dengan AES-256-GCM dan frasa sandi, langsung di peramban. Penurunan kunci PBKDF2, tanpa unggah. Gratis dan pribadi.",
+      "intro": "Lindungi pesan dengan kriptografi modern yang kuat tanpa memasang apa pun. Ketik teks dan frasa sandi Anda, lalu Enkripsi: alat ini menurunkan kunci 256-bit dengan PBKDF2 (150.000 iterasi, SHA-256) dan mengenkripsi dengan AES-GCM, mengemas salt acak dan IV ke dalam output base64 sehingga frasa sandi saja cukup untuk mendekripsi nanti. Tempel ciphertext dan frasa sandi yang sama untuk Dekripsi. Semuanya memakai Web Crypto API peramban dan tidak pernah meninggalkan perangkat Anda.",
+      "steps": [
+        "Ketik atau tempel teks.",
+        "Masukkan frasa sandi yang kuat.",
+        "Tekan Enkripsi untuk menghasilkan ciphertext.",
+        "Untuk membaliknya, tempel ciphertext dan Dekripsi."
+      ],
+      "faq": [
+        {
+          "q": "Seberapa aman ini?",
+          "a": "Ini memakai AES-256-GCM, standar enkripsi terautentikasi, dengan kunci yang diturunkan oleh PBKDF2 pada 150.000 iterasi. Keamanan bergantung pada frasa sandi Anda yang kuat dan rahasia; salt dan IV acak untuk setiap enkripsi."
+        },
+        {
+          "q": "Bisakah saya mendekripsi tanpa situs ini?",
+          "a": "Outputnya adalah base64 standar yang mengemas salt (16 byte), IV (12 byte), dan ciphertext AES-GCM. Pustaka apa pun yang mereproduksi PBKDF2-SHA256 pada 150.000 iterasi dan AES-256-GCM dapat mendekripsinya dengan frasa sandi yang sama."
+        }
+      ]
+    },
+    "image-mosaic": {
+      "title": "Mosaik & Blur Foto",
+      "h1": "Mosaik foto — pikselasi dan blur secara lokal",
+      "desc": "Pikselasi atau buramkan wajah, pelat nomor, dan detail pribadi di foto dengan menyeret kuas. Edit lokal di kanvas dan unduh PNG. Gratis, tanpa unggah.",
+      "intro": "Sembunyikan bagian sensitif gambar tanpa mengirimnya ke mana pun. Unggah foto, pilih Pikselasi atau Blur, atur ukuran dan intensitas kuas, lalu seret di wajah, pelat nomor, atau dokumen yang ingin Anda kaburkan. Efek diterapkan pada kanvas di peramban Anda; pulihkan asli kapan saja dan unduh hasilnya sebagai PNG. Tidak ada yang diunggah.",
+      "steps": [
+        "Unggah foto.",
+        "Pilih Pikselasi atau Blur dan atur kuas.",
+        "Seret di area yang ingin disembunyikan.",
+        "Unduh PNG yang sudah diedit."
+      ],
+      "faq": [
+        {
+          "q": "Apakah pikselasi bisa dibalik?",
+          "a": "Pikselasi kuat merata-ratakan setiap blok menjadi satu warna, menghancurkan detail asli, sehingga tidak dapat diurungkan dari output. Gunakan ukuran blok kasar untuk data sensitif; blur ringan kadang bisa dipertajam, jadi utamakan pikselasi untuk wajah dan pelat nomor."
+        },
+        {
+          "q": "Apakah foto saya diunggah?",
+          "a": "Tidak. Gambar digambar dan diedit pada kanvas sepenuhnya di peramban Anda, dan PNG dihasilkan secara lokal. Tidak ada yang dikirim ke server."
+        }
+      ]
+    },
+    "grid-splitter": {
+      "title": "Pemotong Grid Gambar",
+      "h1": "Pemotong grid gambar — sembilan kotak dan NxN",
+      "desc": "Potong gambar menjadi grid sembilan kotak 3×3 atau tata letak NxN untuk media sosial. Pangkas persegi, lalu unduh potongan sebagai ZIP. Gratis, lokal.",
+      "intro": "Potong satu gambar menjadi grid mulus untuk Instagram, Weibo, atau feed media sosial mana pun. Unggah gambar, pilih grid dari 2×2 hingga 6×6 (3×3 adalah sembilan kotak klasik), dan opsional pangkas menjadi persegi dulu agar setiap potongan persegi. Alat ini memotongnya pada kanvas di peramban Anda, lalu Anda mengunduh potongan satu per satu atau sebagai satu ZIP, siap diposting berurutan. Tidak ada yang diunggah.",
+      "steps": [
+        "Unggah gambar yang ingin Anda potong.",
+        "Pilih ukuran grid, mis. 3×3.",
+        "Aktifkan Pangkas menjadi persegi untuk potongan persegi.",
+        "Potong dan unduh potongan atau ZIP."
+      ],
+      "faq": [
+        {
+          "q": "Bagaimana cara memposting sembilan kotak yang mulus?",
+          "a": "Potong menjadi 3×3, unduh ZIP, dan unggah sembilan potongan ke aplikasi sosial Anda dalam urutan bernomor (grid-01 hingga grid-09). Kebanyakan aplikasi memungkinkan Anda memilih beberapa gambar sekaligus; jaga urutannya agar gambar tersusun rapi."
+        },
+        {
+          "q": "Mengapa pangkas menjadi persegi dulu?",
+          "a": "Feed sembilan kotak menampilkan thumbnail persegi. Memangkas sumber menjadi persegi di tengah sebelum memotong menjaga setiap potongan tetap persegi dan menghindari tepi yang tidak rata. Matikan untuk memotong seluruh persegi panjang sebagai gantinya."
+        }
+      ]
+    },
+    "camera-mic-test": {
+      "title": "Uji Kamera & Mikrofon",
+      "h1": "Uji kamera, mikrofon, dan layar",
+      "desc": "Uji webcam, mikrofon, dan layar Anda di peramban. Lihat pratinjau kamera langsung, pengukur level mikrofon, dan uji warna piksel mati. Gratis, pribadi.",
+      "intro": "Periksa perangkat keras Anda sebelum panggilan atau perekaman, sepenuhnya di peramban. Mulai kamera untuk pratinjau langsung, uji mikrofon dan lihat bilah level bergerak saat Anda bicara, dan jalankan uji piksel mati layar untuk mengganti warna polos layar penuh secara bergilir dan menemukan piksel macet. Tidak ada video atau audio yang direkam, disimpan, atau diunggah — stream berhenti saat Anda menekan Hentikan atau meninggalkan halaman.",
+      "steps": [
+        "Tekan Mulai kamera untuk memeriksa video.",
+        "Tekan Uji mikrofon dan bicara.",
+        "Jalankan uji layar dan ketuk untuk mengganti warna.",
+        "Hentikan setiap uji saat Anda selesai."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini merekam atau mengunggah sesuatu?",
+          "a": "Tidak. Kamera dan mikrofon hanya dipratinjau dan dianalisis langsung di peramban Anda melalui getUserMedia dan Web Audio API. Tidak ada yang direkam, disimpan, atau dikirim ke mana pun, dan track berhenti saat Anda menekan Hentikan."
+        },
+        {
+          "q": "Mengapa peramban meminta izin?",
+          "a": "Mengakses kamera atau mikrofon selalu memerlukan izin eksplisit Anda, dan halaman aman (https). Jika Anda menolaknya, izinkan di setelan situs peramban Anda dan coba lagi."
+        }
+      ]
+    },
+    "teleprompter": {
+      "title": "Teleprompter",
+      "h1": "Teleprompter online untuk naskah Anda",
+      "desc": "Teleprompter online gratis: tempel naskah Anda, gulir dalam teks besar, atur kecepatan dan ukuran font, cerminkan, dan layar penuh. Tanpa unggah.",
+      "intro": "Baca pidato Anda dengan lancar saat merekam. Tempel naskah Anda, atur ukuran font dan kecepatan gulir yang nyaman, lalu tekan Mulai untuk menggulir teks. Cermin membaliknya secara horizontal untuk rig teleprompter beam-splitter, dan Layar penuh memenuhi tampilan agar Anda dapat membaca dari jarak jauh. Naskah Anda tetap di tab peramban ini dan tidak pernah diunggah.",
+      "steps": [
+        "Tempel naskah atau pidato Anda.",
+        "Atur ukuran font dan kecepatan gulir.",
+        "Tekan Mulai untuk menggulir; cerminkan jika Anda memakai rig.",
+        "Gunakan Layar penuh untuk tampilan besar."
+      ],
+      "faq": [
+        {
+          "q": "Untuk apa opsi cermin?",
+          "a": "Teleprompter beam-splitter memantulkan layar ke kaca di depan lensa, yang membalik teks. Pencerminan membaliknya secara horizontal agar terbaca benar dalam pantulan. Biarkan mati saat membaca langsung dari layar."
+        },
+        {
+          "q": "Apakah naskah saya disimpan atau dikirim ke mana pun?",
+          "a": "Tidak. Naskah hanya berada di tab peramban ini selama Anda memakai alat dan tidak pernah diunggah atau disimpan di server. Memuat ulang halaman akan menghapusnya."
+        }
+      ]
+    },
+    "sound-level-meter": {
+      "title": "Pengukur Tingkat Suara",
+      "h1": "Pengukur tingkat suara — pengukur desibel online",
+      "desc": "Pengukur tingkat suara online gratis: lihat level desibel relatif di sekitar Anda langsung, dengan puncak dan rata-rata. Pakai mikrofon lokal, tanpa rekam.",
+      "intro": "Ukur seberapa keras lingkungan Anda memakai mikrofon perangkat Anda. Tekan Mulai, izinkan akses, dan pengukur menampilkan tingkat suara relatif dalam desibel dengan bilah langsung plus bacaan puncak dan rata-rata. Ini adalah pengukur relatif, tidak terkalibrasi, yang mengacu pada skala penuh digital, jadi gunakan untuk membandingkan kelantangan atau mendeteksi kebisingan alih-alih untuk pengukuran hukum atau keselamatan. Audio dianalisis di peramban Anda dan tidak pernah direkam atau diunggah.",
+      "steps": [
+        "Tekan Mulai dan izinkan akses mikrofon.",
+        "Lihat bacaan dan bilah desibel langsung.",
+        "Periksa level puncak dan rata-rata.",
+        "Atur ulang puncak atau Hentikan saat selesai."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini pengukur desibel terkalibrasi?",
+          "a": "Tidak. Ini pengukur relatif yang mengacu pada skala penuh digital, sehingga nilai absolut bergantung pada mikrofon Anda dan gain-nya. Ini berguna untuk membandingkan kelantangan, bukan untuk pengukuran kebisingan bersertifikat."
+        },
+        {
+          "q": "Apakah audio direkam?",
+          "a": "Tidak. Stream mikrofon hanya dianalisis langsung di peramban Anda untuk menghitung level. Tidak ada yang direkam, disimpan, atau diunggah, dan mikrofon berhenti saat Anda menekan Hentikan atau meninggalkan halaman."
+        }
+      ]
+    }
+  }
+}

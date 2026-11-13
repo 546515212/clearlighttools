@@ -1,0 +1,111 @@
+{
+  "_note": [
+    "The big sweep (sweep-plan.json) mounts tools into a scratch div, which by-passes the page shell:",
+    "the nav, the ad slots, the locale dictionary, the data-libs preload and the router never run.",
+    "These rows drive tools on their real URL instead, one page load each, so drive.mjs is called",
+    "without a \"tool\" key and mounts into the page's own #tool-root.",
+    "",
+    "It cannot be one background sweep: every row needs its own navigation, and a navigation destroys",
+    "the JS context that would be running the sweep. So this file is a checklist the operator walks",
+    "one page at a time (docs/TESTING.md, section 4).",
+    "",
+    "expect* keys are asserted by drive.mjs run(): strings that must appear in the preview iframe,",
+    "the output area or a field value. locale rows are checked with d.localeInfo() instead."
+  ],
+  "pages": [
+    {
+      "url": "/en/pdf/compress-pdf/",
+      "fixtures": ["sample-long.pdf"],
+      "prefix": "page-compress-pdf",
+      "wait": 4000,
+      "_why": "the flagship page: shell + pdf-lib + pdf.js preload + real drop zone + download"
+    },
+    {
+      "url": "/de/pdf/compress-pdf/",
+      "fixtures": ["sample-long.pdf"],
+      "prefix": "page-compress-pdf-de",
+      "wait": 4000,
+      "expect": ["Herunterladen", "Stufe"],
+      "_why": "proves the dictionary reaches the widget panel, not just the chrome. Two strings, because they come from two different layers: \"Herunterladen\" is the result row's own download button (w.download, which used to be silently replaced by the English table) and \"Stufe\" is a settings-field label. drive.mjs only scans the preview iframe, the output area, field values and .file-row/.result-card — so the earlier expectation \"komprimieren\" could never be satisfied here: that word lives in the h1, which check-locale-leak.mjs asserts statically for all 13 locales."
+    },
+    {
+      "url": "/zh/calc/bmi-calculator/",
+      "prefix": "page-bmi-zh",
+      "set": { "身高": "175", "体重": "70" },
+      "expect": ["你的 BMI", "22.9", "56.7 kg"],
+      "_why": "calculators have no download; the rendered number is the whole result. The strings are read off what /zh/ renders (身高/体重 are the field labels, 22.9 is 70 / 1.75² to the one decimal the tool quotes). An earlier version of this row asked for \"22.96\" and \"BMI\", both of which were wrong: the value is one-decimal and the label is translated, so there is no bare \"BMI\" in the output. Known leak on the same page, asserted nowhere because it is not a bug in the harness: the band badges (\"under < 18.5\", \"obese ≥ 30\") and \"you are inside the range\" are literals in calc.js that never reach the dictionary, so they render English on the most translated locale the site has. See docs/TESTING.md, gap list."
+    },
+    {
+      "url": "/es/text/word-counter/",
+      "prefix": "page-word-counter-es",
+      "text": "Hola mundo, esto es una prueba de contador de palabras para verificar la herramienta.",
+      "expect": ["Words14"],
+      "_why": "live count without a button, on a real Spanish page. \"14\" is the true word count of that sentence (the plan used to say 12, which was a guess and passed nothing), and it is asserted glued to its label because \"14\" on its own also matches the \"1493% unique\" that the same line renders — an expectation that any output satisfies is worse than none. The label being English here is the known widget-layer gap (the tools call 343 distinct w keys and each locale authors 56), not a regression; when that layer gets translated this string becomes \"Palabras14\" and the row must be updated with it."
+    },
+    {
+      "url": "/de/calc/loan-calculator/",
+      "prefix": "page-loan-de",
+      "wait": 800,
+      "expect": ["607,53"],
+      "_why": "the separator is the test: a German visitor must read 607,53 — a comma, not the English 607.53 the tool used to print whatever the browser's own locale said. Run against the same defaults on /en/ in the same build, the two pages render 607,53 / 1.871,19 / 21.871,19 and 607.53 / 1,871.19 / 21,871.19, so the difference is the site's locale, not the machine's. English grouping would also match a Japanese page, which is why this row is German."
+    },
+    {
+      "url": "/en/image/qr-code-generator/",
+      "prefix": "page-qr",
+      "text": "https://example.com/deep/link?with=query",
+      "expect": ["Download"],
+      "_why": "vendor library (qrcode-generator) is loaded through data-libs on the page, not by the driver"
+    },
+    {
+      "url": "/en/pdf/pdf-to-jpg/",
+      "fixtures": ["sample-a.pdf"],
+      "prefix": "page-pdf-to-jpg",
+      "wait": 6000,
+      "rafShim": true,
+      "_why": "the slowest raster tool, on its real URL, with the multi-file zip path; rafShim because a hidden driver tab gets no animation frames and pdf.js paces rendering with rAF"
+    },
+    {
+      "url": "/en/this-page-does-not-exist/",
+      "expect404": true,
+      "_why": "the English 404 page, not a redirect to a locale"
+    },
+    {
+      "url": "/ja/thing-that-is-not-there/",
+      "expect404": "ja",
+      "_why": "a locale-prefixed unknown path must serve the Japanese 404 page"
+    }
+  ],
+  "routing": [
+    {
+      "_what": "the root always opens the English home, whatever the environment: each case sets a country and/or a th_locale cookie, then visits / and must land on /en/ with English in the header",
+      "cases": [
+        { "country": "DE", "cookie": "", "expect": "/en/" },
+        { "country": "CN", "cookie": "zh", "expect": "/en/" },
+        { "country": "JP", "cookie": "ja", "expect": "/en/" },
+        { "country": "BR", "cookie": "pt", "expect": "/en/" },
+        { "country": "", "cookie": "zh", "expect": "/en/" }
+      ]
+    },
+    {
+      "_what": "GET /__geo?country=DE sets the dev_country cookie and redirects to /, which still lands on /en/ — the IP no longer changes the entry language"
+    },
+    {
+      "_what": "a non-English th_locale cookie does not redirect the root: set th_locale=ja, visit /, stay on /en/ (the cookie is inert for routing now)"
+    },
+    {
+      "_what": "the manual header language menu is the only way to change language: click 中文 -> /zh/ with a Chinese header; in-site links stay locale-prefixed so the choice persists by URL, not by auto-redirect"
+    },
+    {
+      "_what": "GET /api/geo still answers {country} from the platform header; it now feeds only the GDPR consent banner, never the language"
+    },
+    {
+      "_what": "production hosts issue a server redirect / -> /en/ (vercel.json permanent 308; dist/_redirects 301). The local dev server uses the client fallback in router.js, so the redirect is asserted statically by check-routing.mjs (R4/R5), not by a dev-server HTTP status"
+    }
+  ],
+  "not_scriptable": [
+    "window.print() in html-to-pdf blocks the tab: the preview is asserted in the sweep, the dialog needs a human",
+    "the real AdSense loader and a real CMP consent dialog (ads are off by default locally — ENABLE_ADS=false renders no ad DOM)",
+    "an actual iOS Safari or Android browser: showSaveFilePicker, clipboard write and MediaRecorder are unverified",
+    "a real visitor IP: the geo guess here is the ?country= parameter, not MaxMind"
+  ]
+}

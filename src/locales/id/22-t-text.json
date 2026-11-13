@@ -1,0 +1,351 @@
+{
+  "t": {
+    "word-counter": {
+      "desc": "Hitung kata, karakter, spasi, kalimat, paragraf, waktu baca, dan pengulangan kata kunci sambil Anda mengetik. Cocok untuk esai, tweet, dan brief SEO.",
+      "intro": "Penghitungan berjalan lokal dan instan, dan daftar kata kunci memberi tahu frasa mana yang terlalu sering Anda pakai.",
+      "steps": [
+        "Tempel teks Anda.",
+        "Baca totalnya: kata, karakter dengan dan tanpa spasi, kalimat, paragraf.",
+        "Cek waktu baca dan waktu bicara.",
+        "Tinjau kata-kata yang paling sering diulang."
+      ],
+      "faq": [
+        {
+          "q": "Bagaimana waktu baca dihitung?",
+          "a": "200 kata per menit untuk membaca dalam hati dan 150 untuk berbicara, angka standar dunia editorial."
+        },
+        {
+          "q": "Apakah kata ber-hyphen dihitung satu kali?",
+          "a": "Ya, dihitung sebagai satu kata, sama dengan aturan batas kata yang dipakai sekolah dan penerbit pada umumnya."
+        }
+      ]
+    },
+    "case-converter": {
+      "title": "Pengubah Kapitalisasi",
+      "h1": "Ubah teks menjadi UPPERCASE, lowercase, atau Title Case",
+      "desc": "Konversi blok teks ke title case, sentence case, camelCase, snake_case, kebab-case, atau inverse case dalam satu klik.",
+      "intro": "Aturannya memahami bahasa: kata-kata kecil seperti of dan the tetap lowercase di judul, dan keluaran snake atau kebab aman untuk nama file dan kode.",
+      "steps": [
+        "Tempel teksnya.",
+        "Pilih kasus huruf.",
+        "Salin atau unduh hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa Title Case tidak sempurna di judul saya?",
+          "a": "Akronim dan nama merek adalah pengecualian; sunting langsung di hasilnya atau matikan mode judul pintar."
+        },
+        {
+          "q": "Apakah mendukung huruf beraksen?",
+          "a": "Ya, konversinya memahami Unicode sehingga É, ß, dan ı tetap mengikuti aturan bahasanya masing-masing sebisa mungkin."
+        }
+      ]
+    },
+    "remove-duplicate-lines": {
+      "title": "Hapus Baris Duplikat",
+      "h1": "Bersihkan daftar: hapus duplikat, urutkan, dan pangkas baris",
+      "desc": "Hapus baris yang berulang dari sebuah daftar, abaikan besar-kecil huruf, pangkas spasi liar, buang baris kosong, dan urutkan A-Z atau dari yang terpanjang.",
+      "intro": "Kegunaan umum: menempel daftar email atau nomor telepon dari spreadsheet dan berakhir dengan satu kolom bersih yang siap diimpor.",
+      "steps": [
+        "Tempel daftarnya.",
+        "Centang opsi pembersihan yang Anda perlukan.",
+        "Lihat berapa baris yang terhapus.",
+        "Salin atau unduh hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah baris dengan spasi di ujung dianggap unik?",
+          "a": "Hanya jika opsi pangkas spasi dimatikan; aktifkan untuk menangkap perbedaan yang tak terlihat."
+        },
+        {
+          "q": "Bisakah saya melihat duplikatnya terlebih dahulu?",
+          "a": "Bisa, jalankan penghitung duplikat untuk menampilkan tiap baris beserta jumlah kemunculannya."
+        }
+      ]
+    },
+    "lorem-ipsum-generator": {
+      "desc": "Hasilkan teks dummy persis sebanyak yang mock-up Anda butuhkan — kata, kalimat, atau paragraf, termasuk pembuka klasik Cicero.",
+      "intro": "Berguna bagi desainer yang butuh panjang baris realistis tanpa harus mengarang kata, dan bagi developer yang mengisi tabel dengan data yang meyakinkan.",
+      "steps": [
+        "Pilih paragraf, kalimat, atau kata.",
+        "Atur jumlahnya.",
+        "Putuskan apakah ingin mulai dengan Lorem ipsum dolor sit amet.",
+        "Salin teksnya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa harus memakai teks latin?",
+          "a": "Teks latin menghentikan stakeholder membaca kata-katanya dan berdebat soal itu, jadi diskusi tetap fokus pada tata letak."
+        },
+        {
+          "q": "Bisakah saya mendapat teks bahasa Inggris yang realistis?",
+          "a": "Centang opsi mudah dibaca untuk memakai teks pengganti berbahasa Inggris biasa demi tinjauan aksesibilitas."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "desc": "Encode teks ke Base64 atau decode kembali, dengan dukungan alfabet URL-safe dan error karakter tidak valid yang muncul seketika.",
+      "intro": "Base64 adalah cara token, header, dan aset inline melintas dengan aman melalui sistem yang hanya menerima karakter biasa.",
+      "steps": [
+        "Ketik atau tempel inputnya.",
+        "Pilih Encode atau Decode.",
+        "Pilih alfabet URL-safe bila nilainya akan masuk ke query string.",
+        "Salin hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah Base64 itu enkripsi?",
+          "a": "Bukan. Ini pengodean reversibel tanpa rahasia, jadi jangan pernah memakainya untuk melindungi password."
+        },
+        {
+          "q": "Mengapa decoding gagal?",
+          "a": "Biasanya karena karakter liar atau panjang yang bukan kelipatan empat; alat ini menunjuk persis posisinya."
+        }
+      ]
+    },
+    "url-encode-decode": {
+      "title": "Encode / Decode URL",
+      "h1": "Lakukan escape dan unescape pada komponen URL",
+      "desc": "Percent-encode nilai query, encode seluruh URL, atau decode string escaped kembali menjadi teks terbaca, dengan semantik encodeURIComponent.",
+      "intro": "Tiket support paling umum — tautan yang rusak karena spasi, ampersand, atau huruf beraksen — beres di sini dalam satu langkah.",
+      "steps": [
+        "Tempel nilainya.",
+        "Pilih mode komponen, path, atau URL penuh.",
+        "Encode atau decode.",
+        "Salin hasil yang aman."
+      ],
+      "faq": [
+        {
+          "q": "Apa beda encodeURI dan encodeURIComponent?",
+          "a": "encodeURIComponent juga meng-escape karakter yang sebenarnya legal dalam struktur URL, dan itulah yang Anda inginkan untuk satu nilai query."
+        },
+        {
+          "q": "Mengapa tanda plus berbeda dari %20?",
+          "a": "Formulir memakai + untuk spasi, URL sungguhan memakai %20. Alat ini menampilkan keduanya agar cocok dengan server Anda."
+        }
+      ]
+    },
+    "html-entities": {
+      "title": "Escape HTML",
+      "h1": "Lakukan escape dan unescape entity HTML",
+      "desc": "Ubah <, >, &, tanda kutip, dan huruf beraksen menjadi entity yang aman, atau kembalikan entity menjadi karakter untuk ditampilkan.",
+      "intro": "Pakai alat ini saat menempel kode ke blog, mengisi field CMS yang suka memakan tag Anda, atau membersihkan halaman hasil scraping.",
+      "steps": [
+        "Tempel markup atau teks Anda.",
+        "Klik Escape atau Unescape.",
+        "Salin hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa CMS saya terus menghapus tag?",
+          "a": "Editornya mem-parse tag tersebut sebagai HTML. Escape blok itu terlebih dahulu dan isinya akan bertahan utuh."
+        },
+        {
+          "q": "Apakah mendukung entity numerik?",
+          "a": "Ya, bentuk named maupun bentuk numerik desimal atau heksadesimal sama-sama dikenali."
+        }
+      ]
+    },
+    "reverse-text": {
+      "title": "Balik Teks",
+      "h1": "Balik urutan teks, jungkirkan, atau cerminkan",
+      "desc": "Tulis string secara terbalik, buat Unicode jungkir-balik untuk posting media sosial, atau balik urutan kata tanpa mengacak tiap katanya.",
+      "intro": "Populer untuk bio dan stiker, serta benar-benar berguna saat Anda butuh cermin visual cepat dari sebuah label.",
+      "steps": [
+        "Ketik teksnya.",
+        "Pilih terbalik, jungkir-balik, atau urutan kata.",
+        "Salin keluarannya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa sebagian huruf tidak ikut terbalik?",
+          "a": "Beberapa glif tidak punya padanan cermin di Unicode; dipertahankan apa adanya agar teks tetap terbaca."
+        },
+        {
+          "q": "Apakah emoji ikut dipertahankan?",
+          "a": "Rangkaian emoji gabungan tetap menyatu dan tidak terpecah menjadi bagian-bagian terpisah."
+        }
+      ]
+    },
+    "json-formatter": {
+      "desc": "Rapikan JSON berantakan dengan pretty-print, temukan persis baris error sintaks, urutkan key, perkecil payload, dan buka-tutup node pada tampilan tree.",
+      "intro": "Developer menempel respons API di sini untuk membacanya; pesan error menunjuk karakter penyebabnya, bukan sekadar menulis Invalid JSON.",
+      "steps": [
+        "Tempel JSON-nya.",
+        "Klik Format, dan atur indentasi bila Anda butuh 2 atau 4 spasi.",
+        "Perbaiki error yang dilaporkan lalu jalankan ulang.",
+        "Gunakan Minify saat file harus dikirim ke produksi."
+      ],
+      "faq": [
+        {
+          "q": "Apakah menerima JSON Lines?",
+          "a": "Ya, satu object per baris dikenali dan diformat sebagai sebuah rangkaian."
+        },
+        {
+          "q": "Mengapa angka besar saya dibulatkan?",
+          "a": "JavaScript tidak bisa menyimpannya sebagai integer; alat ini mempertahankan angka besar sebagai string saat opsi simpan angka besar dinyalakan."
+        }
+      ]
+    },
+    "csv-to-json": {
+      "desc": "Unggah atau tempel ekspor spreadsheet dan dapatkan array of objects, dengan penanganan benar untuk field berkutip, pemisah ribuan, dan sel kosong.",
+      "intro": "Parser RFC-4180 sungguhan yang dipakai, jadi koma di dalam kutip dan baris baru sisipan tidak menggeser kolom.",
+      "steps": [
+        "Tempel teks CSV atau letakkan file .csv.",
+        "Atur delimiter dan apakah baris pertama berisi header.",
+        "Klik Konversi.",
+        "Unduh .json atau salin hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah angka ikut dikonversi menjadi angka?",
+          "a": "Ya, dan tanggal ISO tetap menjadi string. Matikan inferensi tipe agar semuanya tetap berupa teks."
+        },
+        {
+          "q": "Bisakah arah sebaliknya?",
+          "a": "Gunakan aksi unduh-sebagai-CSV di JSON Formatter untuk array datar berisi objects."
+        }
+      ]
+    },
+    "markdown-to-html": {
+      "desc": "Tempel Markdown lalu salin HTML hasil renderannya, dengan dukungan tabel, fenced code, tautan ala footnote, dan opsi gaya GitHub.",
+      "intro": "Renderer yang sama menggerakkan dokumentasi situs ini sendiri, jadi apa yang Anda lihat di pratinjau adalah apa yang Anda salin.",
+      "steps": [
+        "Tulis atau tempel Markdown.",
+        "Ikuti panel HTML dan pratinjau yang terupdate langsung.",
+        "Salin HTML atau unduh file-nya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah outputnya disanitasi?",
+          "a": "HTML mentah dilewatkan begitu saja karena itu bagian Markdown yang valid; tambahkan sanitiser sebelum menampilkan input yang tidak tepercaya."
+        },
+        {
+          "q": "Bisakah HTML dikembalikan menjadi Markdown?",
+          "a": "Tidak di alat ini; arahnya sengaja satu jalan agar pratinjaunya tetap cepat."
+        }
+      ]
+    },
+    "hash-generator": {
+      "desc": "Dapatkan message digest dari teks apa pun, atau checksum file untuk verifikasi unduhan, dalam algoritme yang sistem Anda harapkan.",
+      "intro": "Hash kuat berasal dari mesin crypto browser; MD5 diimplementasikan lokal hanya untuk kompatibilitas lama.",
+      "steps": [
+        "Ketik teksnya, atau muat sebuah file.",
+        "Pilih satu atau beberapa algoritme.",
+        "Salin digest-nya.",
+        "Bandingkan dengan checksum yang dipublikasikan."
+      ],
+      "faq": [
+        {
+          "q": "Apakah MD5 aman?",
+          "a": "Tidak — collision sudah praktis terjadi. Gunakan hanya sebagai fingerprint lama, jangan untuk keamanan."
+        },
+        {
+          "q": "Bisakah saya me-hash password?",
+          "a": "Sebaiknya jangan. Password membutuhkan fungsi lambat dan ber-salt seperti bcrypt atau Argon2, yang tidak seharusnya dijalankan alat browser untuk Anda."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "desc": "Buat identitas version 4 sebanyak yang Anda butuhkan, dalam format yang alat Anda harapkan: dengan dash, kurung kurawal, huruf kapital, atau biasa.",
+      "intro": "Nilainya diambil dari sumber acak kriptografis browser, jadi cocok untuk key, sesi, dan data uji.",
+      "steps": [
+        "Atur berapa UUID yang Anda inginkan.",
+        "Pilih formatnya.",
+        "Salin daftarnya atau unduh."
+      ],
+      "faq": [
+        {
+          "q": "Apakah nilai ini benar-benar unik?",
+          "a": "Version 4 memakai 122 bit acak; collision sangat mustahil kecuali Anda membuat miliaran nilai."
+        },
+        {
+          "q": "Apa itu version 7?",
+          "a": "UUID berurutan waktu yang menjaga sisipan tetap sekuensial di index database, berguna untuk tabel besar."
+        }
+      ]
+    },
+    "password-generator": {
+      "desc": "Susun password yang mudah diingat atau sulit ditebak dengan panjang dan simbol yang Anda izinkan, lihat kekuatannya, dan salin tanpa pernah melewati server.",
+      "intro": "Saran dibuat dari sumber acak browser Anda di dalam halaman, jadi tidak ada yang dikirim atau dicatat ke mana pun.",
+      "steps": [
+        "Atur panjangnya; 16 karakter atau lebih adalah saran terkini.",
+        "Pilih set karakter yang Anda perlukan.",
+        "Klik Buat.",
+        "Salin ke pengelola password Anda."
+      ],
+      "faq": [
+        {
+          "q": "Apakah generator online aman?",
+          "a": "Yang ini berjalan seluruhnya di dalam halaman dan tidak mengirim apa pun, dan Anda bisa memastikannya sendiri di tab network."
+        },
+        {
+          "q": "Lebih baik pakai pengelola password saja?",
+          "a": "Ya. Buat di sini, simpan di sana, dan jangan pernah memakai ulang satu password di beberapa situs."
+        }
+      ]
+    },
+    "regex-tester": {
+      "desc": "Cocokkan pola dengan teks contoh lengkap dengan highlighting langsung, detail capture-group, flags, dan uraian ekspresi dalam bahasa awam.",
+      "intro": "Tulis polanya sekali daripada menebak: tiap match disorot dan tiap group dicantumkan beserta posisinya.",
+      "steps": [
+        "Masukkan pola dan flags-nya.",
+        "Tempel string uji.",
+        "Baca match dan group yang disorot.",
+        "Buka penjelasannya untuk uraian token demi token."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa pola saya jalan di tempat lain tetapi tidak di sini?",
+          "a": "JavaScript tidak punya look-behind di mesin lama dan tidak punya sintaks named-set; penguji ini melaporkan perbedaan mesinnya."
+        },
+        {
+          "q": "Apakah aman dari catastrophic backtracking?",
+          "a": "Pola yang meledak dihentikan oleh batas waktu dengan peringatan yang jelas, alih-alih membuat tab membeku."
+        }
+      ]
+    },
+    "diff-checker": {
+      "desc": "Perbandingan baris demi baris antara dua versi file, kontrak, atau artikel, dengan penambahan dan penghapusan berwarna serta ringkasan siap salin.",
+      "intro": "Cocok sebelum mengirim dokumen kembali ke rekan kerja: terlihat persis kalimat mana yang berubah.",
+      "steps": [
+        "Tempel versi asli di kiri dan versi perubahan di kanan.",
+        "Abaikan kapitalisasi atau spasi bila perbedaan format mengganggu.",
+        "Baca diff berwarna tersebut.",
+        "Salin hanya baris yang berubah bila Anda membutuhkannya."
+      ],
+      "faq": [
+        {
+          "q": "Seberapa besar file yang mampu ditangani?",
+          "a": "Beberapa ribu baris masih nyaman; lebih dari itu, sebaiknya pakai alat diff khusus agar browser tidak kewalahan."
+        },
+        {
+          "q": "Apakah mendukung perubahan tingkat kata?",
+          "a": "Ya, saat sebuah baris berbeda, alat ini turun ke perbandingan kata di dalam baris tersebut."
+        }
+      ]
+    },
+    "text-to-speech": {
+      "title": "Teks Jadi Suara",
+      "h1": "Bacakan teks dengan suara natural dari browser",
+      "desc": "Ubah paragraf apa pun menjadi suara, pilih voice dan bahasa, atur kecepatan dan nada, dan proofread naskah dengan telinga Anda.",
+      "intro": "Suaranya adalah yang sudah terpasang di sistem operasi Anda — tanpa akun, tanpa unduhan, dan berjalan luring di kebanyakan perangkat.",
+      "steps": [
+        "Tempel teksnya.",
+        "Pilih suara; daftarnya mengikuti sistem Anda.",
+        "Atur kecepatan dan pitch.",
+        "Klik Putar."
+      ],
+      "faq": [
+        {
+          "q": "Bisakah audionya diunduh?",
+          "a": "Tidak langsung; API browser hanya melakukan streaming. Gunakan perekam audio di OS Anda bila membutuhkan file."
+        },
+        {
+          "q": "Mengapa suara yang tersedia sedikit?",
+          "a": "Jumlahnya bergantung pada sistem operasi dan paket bahasa yang terpasang. Windows dan macOS memungkinkan Anda menambah lebih banyak."
+        }
+      ]
+    }
+  }
+}

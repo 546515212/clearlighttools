@@ -1,0 +1,26 @@
+{
+  "t": {
+    "pdf-page-numbers": {
+      "title": "Số trang PDF",
+      "h1": "Thêm số trang vào PDF trực tuyến",
+      "desc": "Chèn số trang vào PDF ở trên hoặc dưới, trái, giữa hoặc phải. Đặt số bắt đầu, cỡ chữ và tiền tố. Miễn phí, không tải lên.",
+      "intro": "Công cụ này dùng pdf-lib để đóng dấu số trang dạng văn bản thật lên mỗi trang PDF của bạn, nên số luôn sắc nét ở mọi mức thu phóng và có thể chọn được. Đặt chúng ở đầu trang hoặc chân trang, bỏ qua bìa, và thêm tiền tố tùy chọn.",
+      "steps": [
+        "Tải tệp PDF bạn muốn đánh số.",
+        "Chọn vị trí, căn lề và số bắt đầu.",
+        "Đặt cỡ chữ và tiền tố tùy chọn; bỏ qua bìa nếu cần.",
+        "Nhấn Thêm số trang và tải xuống."
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể bắt đầu từ một trang hoặc số cụ thể không?",
+          "a": "Có. Đặt số bắt đầu và dùng phạm vi trang để chỉ đánh số một số trang nhất định, hoặc tích “bỏ qua trang đầu” để không đánh số bìa."
+        },
+        {
+          "q": "Số được thêm dưới dạng văn bản hay hình ảnh?",
+          "a": "Dưới dạng văn bản vector thật, nên chúng co giãn rõ nét khi in và có thể chọn cũng như tìm kiếm trong tệp PDF hoàn chỉnh."
+        }
+      ]
+    }
+  }
+}

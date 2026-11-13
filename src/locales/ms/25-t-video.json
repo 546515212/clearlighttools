@@ -1,0 +1,48 @@
+{
+  "t": {
+    "screen-recorder": {
+      "title": "Perakam Skrin",
+      "h1": "Rakam skrin anda dalam talian secara percuma",
+      "desc": "Tangkap skrin, tetingkap atau tab anda dengan audio sistem pilihan. Rakam, henti, pratonton dan muat turun video WebM — tanpa pemasangan, tanpa muat naik.",
+      "intro": "Perakam skrin menggunakan API tangkapan paparan pelayar untuk merakam seluruh skrin anda, satu tetingkap atau satu tab, dengan audio jika disokong. Video digabungkan secara setempat dan ditawarkan sebagai muat turun; ia tidak pernah sampai ke pelayan.",
+      "steps": [
+        "Tekan Rakam dan pilih apa yang hendak dikongsi (skrin, tetingkap atau tab).",
+        "Jika mahu, sertakan audio dalam pemilih perkongsian.",
+        "Tekan Henti, atau tamatkan perkongsian, apabila selesai.",
+        "Pratonton klip dan muat turun WebM itu."
+      ],
+      "faq": [
+        {
+          "q": "Pelayar manakah yang menyokong rakaman skrin?",
+          "a": "Chrome dan Edge pada desktop mempunyai tangkapan paparan yang paling boleh dipercayai, dan Firefox turut menyokongnya. Pelayar mudah alih secara amnya tidak menyokongnya, jadi gunakan pelayar desktop."
+        },
+        {
+          "q": "Bolehkah ia merakam audio sistem?",
+          "a": "Apabila anda berkongsi tab atau seluruh skrin, pemilih perkongsian menawarkan pilihan audio. Sama ada audio sistem disertakan bergantung pada pelayar dan apa yang anda kongsi."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Perakam Webcam",
+      "h1": "Rakam video dari webcam anda dalam talian",
+      "desc": "Rakam diri anda dengan kamera dan mikrofon dalam pelayar. Pratonton suapan langsung, tekan rakam, kemudian muat turun — percuma, tanpa perisian.",
+      "intro": "Perakam webcam memaparkan pratonton langsung dari kamera anda, menangkapnya bersama mikrofon melalui MediaRecorder, dan menyimpan klip secara setempat untuk pratonton dan muat turun. Video itu tidak pernah meninggalkan peranti anda melainkan anda memuat turunnya.",
+      "steps": [
+        "Tekan Rakam dan benarkan akses kamera dan mikrofon.",
+        "Semak pratonton langsung dan pastikan diri anda berada dalam bingkai.",
+        "Tekan Henti apabila selesai.",
+        "Pratonton rakaman dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Adakah video dimuat naik ke mana-mana?",
+          "a": "Tidak. Ia dirakam dan disimpan dalam pelayar anda, kemudian ditawarkan sebagai muat turun setempat. Tiada apa-apa dihantar ke pelayan."
+        },
+        {
+          "q": "Apakah format rakaman itu?",
+          "a": "Video WebM (VP8/VP9 dengan audio Opus) jika pelayar menyokongnya; ia boleh dimainkan dalam pelayar moden dan kebanyakan editor. Sesetengah pelayar mungkin menghasilkan MP4."
+        }
+      ]
+    }
+  }
+}

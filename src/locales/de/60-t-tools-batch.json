@@ -1,0 +1,202 @@
+{
+  "t": {
+    "shoe-size-converter": {
+      "title": "Schuhgrößen umrechnen",
+      "h1": "Schuhgrößen umrechnen — US, EU, UK und CN",
+      "desc": "Schuhgrößen für Herren und Damen zwischen US, EU, UK und CN umrechnen. Größe oder Fußlänge eingeben, alle Systeme auf einen Blick — gratis und sofort.",
+      "intro": "Dieser Umrechner ordnet eine Schuhgröße oder eine Fußlänge in Zentimetern den Systemen US, EU, UK und CN zu — für Herren- und Damenpassform. Gib eine Größe in einem beliebigen System ein oder miss deinen Fuß von der Ferse bis zur Zehe, und er zeigt die Entsprechung in allen anderen Systemen plus die Fußlänge in cm und Zoll. Die Umrechnungen sind ungefähre Handelsstandards und unterscheiden sich je nach Marke und Leisten.",
+      "steps": [
+        "Wähle Herren- oder Damenpassform.",
+        "Wähle das Größensystem, das du kennst (US, EU, UK, CN oder cm).",
+        "Gib deine Größe oder Fußlänge ein.",
+        "Lies die entsprechenden Größen in jedem System ab."
+      ],
+      "faq": [
+        {
+          "q": "Wie messe ich meinen Fuß für die richtige Größe?",
+          "a": "Stell dich abends auf ein Blatt Papier, markiere Ferse und längste Zehe und miss den Abstand in Zentimetern. Gib diese Länge im cm-System ein; miss beide Füße und nimm den größeren."
+        },
+        {
+          "q": "Sind diese Umrechnungen exakt?",
+          "a": "Es sind ungefähre Handelsstandards. Marken und Schuhleisten unterscheiden sich, prüfe deshalb immer die Größentabelle des Herstellers und wähle die größere Größe, wenn du zwischen zwei liegst."
+        }
+      ]
+    },
+    "rmb-uppercase": {
+      "title": "RMB in Großschrift",
+      "h1": "Betrag in chinesische RMB-Großschrift umrechnen",
+      "desc": "Eine Zahl in den chinesischen RMB-Betrag in Großschrift umrechnen, wie auf Schecks und Rechnungen. Mit Yuan, Jiao und Fen. Gratis, sofort, kein Upload.",
+      "intro": "Gib einen Betrag ein, und der Umrechner schreibt ihn in der finanziellen chinesischen Großschrift (Daxie), die auf Schecks, Rechnungen und Verträgen verwendet wird, um Manipulationen zu verhindern. Er verarbeitet Yuan, Jiao und Fen, markiert einen glatten Gesamtbetrag korrekt und funktioniert bis knapp unter eine Billion. Die Rechnung nutzt ganzzahlige Fen, um Gleitkommafehler zu vermeiden.",
+      "steps": [
+        "Gib den Betrag ein, zum Beispiel 1234.56.",
+        "Der RMB-Betrag in Großschrift erscheint sofort.",
+        "Prüfe die Teile Yuan, Jiao und Fen.",
+        "Kopiere das Ergebnis für deinen Scheck oder deine Rechnung."
+      ],
+      "faq": [
+        {
+          "q": "Wofür ist der chinesische Betrag in Großschrift?",
+          "a": "Es ist die fälschungssichere Finanzform (Daxie), die in China auf Schecks, Rechnungen und Verträgen verlangt wird, weil normale Ziffern verändert werden könnten. Jede Ziffer hat ein komplexes Schriftzeichen, das schwer zu fälschen ist."
+        },
+        {
+          "q": "Wie werden Dezimalstellen behandelt?",
+          "a": "Die erste Dezimalstelle ist Jiao, die zweite Fen. Ein glatter Gesamtbetrag endet mit einem Zeichen für „keine Fen“, sodass 100 und 100.00 beide korrekt geschrieben werden."
+        }
+      ]
+    },
+    "world-clock": {
+      "title": "Weltuhr",
+      "h1": "Weltuhr — Zeitzonen und Meeting-Planer",
+      "desc": "Live-Zeit in 12 Weltstädten, Zeitzonen vergleichen und ein Meeting über sie hinweg planen — mit Markierung der Geschäftszeiten. Gratis, ohne Anmeldung.",
+      "intro": "Die Weltuhr zeigt die Live-Zeit in zwölf großen Städten, jeweils mit Datum und einem grünen Punkt während der örtlichen Geschäftszeiten (09:00–18:00). Zieh den Planer, um ein Meeting über Zeitzonen hinweg abzustimmen, und sieh, welche Uhrzeit es in jeder Stadt ergibt — mit einem Abzeichen, wenn eine Stadt auf einem anderen Kalendertag liegt. Die Zeiten werden gegen deine eigene Zeitzone angezeigt.",
+      "steps": [
+        "Sieh die Live-Zeit in zwölf Weltstädten.",
+        "Beachte die grünen Punkte für Geschäftszeiten und die Tages-Abzeichen.",
+        "Zieh den Planer, um eine Meeting-Zeit festzulegen.",
+        "Lies die Ortszeit in jeder Stadt ab."
+      ],
+      "faq": [
+        {
+          "q": "Berücksichtigt sie die Sommerzeit?",
+          "a": "Ja. Die Zeiten werden mit der Zeitzonen-Datenbank deines Browsers berechnet, sodass Sommerzeit-Umstellungen für jede Stadt automatisch angewendet werden."
+        },
+        {
+          "q": "Wie plane ich ein Meeting über Zeitzonen hinweg?",
+          "a": "Zieh den Planer-Schieberegler auf eine Zeit in deiner eigenen Zone; jede Städtekarte aktualisiert sich und zeigt ihre Ortszeit, und ein Abzeichen markiert jede Stadt, die auf einen anderen Tag fällt."
+        }
+      ]
+    },
+    "pomodoro-timer": {
+      "title": "Pomodoro-Timer",
+      "h1": "Pomodoro-Fokus-Timer mit Pausen",
+      "desc": "Ein Pomodoro-Timer für konzentriertes Arbeiten: 25-Minuten-Einheiten, kurze und lange Pausen, ein Zähler und ein optionaler Signalton. Gratis, im Browser.",
+      "intro": "Die Pomodoro-Technik wechselt konzentriertes Arbeiten mit kurzen Pausen ab, und nach einigen Runden folgt eine längere Pause. Stell die Längen für Fokus, kurze Pause und lange Pause ein, starte den Timer, und er zählt herunter — mit einem Zähler für die Einheiten und einem optionalen Signalton bei jedem Phasenwechsel. Der Vollbildmodus hält einen großen Countdown sichtbar, während du arbeitest. Der Timer läuft, solange der Tab geöffnet ist.",
+      "steps": [
+        "Stell deine Fokus- und Pausenlängen ein.",
+        "Drücke Start, um eine Fokus-Einheit zu beginnen.",
+        "Arbeite bis zum Signalton und mach dann Pause.",
+        "Wiederhole; nach einigen Runden kommt eine lange Pause."
+      ],
+      "faq": [
+        {
+          "q": "Wie lang sind die Pomodoro-Phasen standardmäßig?",
+          "a": "Der klassische Zyklus sind 25 Minuten Fokus, eine 5-minütige kurze Pause und eine 15-minütige lange Pause nach vier Fokus-Einheiten. Du kannst alle drei Längen und die Zahl der Runden ändern."
+        },
+        {
+          "q": "Bleibt er genau, wenn ich den Tab wechsle?",
+          "a": "Der Timer zählt gegen die Uhr, statt einfach herunterzuzählen, deshalb bleibt er genau, auch wenn der Browser einen Hintergrund-Tab drosselt. Lass den Tab offen oder nutze Vollbild für einen großen Countdown."
+        }
+      ]
+    },
+    "random-picker": {
+      "title": "Namen auslosen",
+      "h1": "Zufällige Namensauswahl und Glücksrad zum Drehen",
+      "desc": "Dreh ein Rad für einen zufälligen Namen oder zieh sofort einen Gewinner. Ein Name pro Zeile, Gewinner entfernen, ein ganzes Team auslosen. Gratis, kein Upload.",
+      "intro": "Gib einen Namen pro Zeile ein, dreh das Rad, und ein Gewinner wird mit crypto.getRandomValues() gewählt, sodass jeder Name die gleiche Chance hat. Entferne den Gewinner nach jeder Ziehung, um ein ganzes Team der Reihe nach auszulosen, oder nutze die Schnellziehung für ein sofortiges Ergebnis ohne Animation. Setze zurück, um neu zu starten. Alles läuft lokal in deinem Browser.",
+      "steps": [
+        "Gib einen Namen pro Zeile ein.",
+        "Drücke „Rad drehen“ (oder Schnellziehung).",
+        "Lies den Gewinner ab.",
+        "Entferne den Gewinner für eine neue Ziehung oder setze zurück."
+      ],
+      "faq": [
+        {
+          "q": "Ist die Auswahl wirklich zufällig?",
+          "a": "Ja. Sie nutzt crypto.getRandomValues() des Browsers, eine kryptografisch sichere Zufallsquelle, sodass jeder Name die gleiche Chance hat und das Ergebnis nicht vorhersagbar ist."
+        },
+        {
+          "q": "Kann ich mehrere Gewinner ohne Wiederholung ziehen?",
+          "a": "Ja. Nutze nach jeder Ziehung „Gewinner entfernen“, um diesen Namen aus dem Rad zu nehmen, sodass du ein ganzes Team der Reihe nach auslosen kannst. Zurücksetzen stellt alle Namen wieder her."
+        }
+      ]
+    },
+    "invoice-generator": {
+      "title": "Rechnungsgenerator",
+      "h1": "Kostenloser Rechnungsgenerator — PDF-Rechnung erstellen",
+      "desc": "Erstelle eine professionelle Rechnung im Browser. Eigene Daten, Positionen, Steuer und Rabatt eintragen, dann PDF oder PNG herunterladen. Gratis, kein Upload.",
+      "intro": "Trag die Daten von Verkäufer und Kunde ein, füge Positionen mit Mengen und Preisen hinzu, setze Rabatt und Steuersatz, und der Generator baut eine übersichtliche Rechnung mit Summen. Sieh sie dir in der Vorschau an und exportiere dann ein einseitiges PDF oder ein PNG-Bild. Alles wird lokal in deinem Browser gezeichnet, deine Finanzdaten verlassen also nie dein Gerät.",
+      "steps": [
+        "Gib deine Daten und die Daten des Kunden ein.",
+        "Füge Positionen mit Menge und Einzelpreis hinzu.",
+        "Stell Währung, Rabatt und Steuersatz ein.",
+        "Erzeuge die Rechnung und lade PDF oder PNG herunter."
+      ],
+      "faq": [
+        {
+          "q": "Werden meine Rechnungsdaten irgendwo hochgeladen?",
+          "a": "Nein. Die Rechnung wird auf einem Canvas in deinem Browser gerendert und lokal als PDF oder PNG exportiert. Nichts wird an einen Server gesendet, deine Zahlen bleiben also privat."
+        },
+        {
+          "q": "Kann ich meine eigene Währung und meinen Steuersatz nutzen?",
+          "a": "Ja. Wähle aus acht Währungen und setze einen beliebigen Rabattprozentsatz und Steuersatz; Zwischensumme, Rabatt, Steuer und Gesamtsumme werden für dich berechnet."
+        }
+      ]
+    },
+    "signature-pad": {
+      "title": "Unterschrift zeichnen",
+      "h1": "Unterschrift online zeichnen — transparentes PNG",
+      "desc": "Zeichne deine Unterschrift mit Maus, Finger oder Stift und lade ein transparentes PNG herunter. Rückgängig, leeren, Rand abschneiden. Gratis, kein Upload.",
+      "intro": "Unterschreibe auf der Zeichenfläche mit Maus, Touchscreen oder Stift, wähle Stiftfarbe und Stiftbreite und lade ein PNG mit transparentem Hintergrund herunter, das sich sauber über einen Vertrag oder ein Formular legen lässt. Mach Striche rückgängig, leere die Fläche oder schneide den leeren Rand um deine Unterschrift ab. Nichts wird hochgeladen — die Zeichnung bleibt in deinem Browser.",
+      "steps": [
+        "Zeichne deine Unterschrift auf die Fläche.",
+        "Passe Stiftfarbe und Stiftbreite bei Bedarf an.",
+        "Mach Fehler rückgängig oder leere die Fläche; schneide leeren Rand ab.",
+        "Lade das transparente PNG herunter."
+      ],
+      "faq": [
+        {
+          "q": "Warum ist der Hintergrund transparent?",
+          "a": "Das PNG wird mit einem Alphakanal exportiert, sodass nur deine Striche deckend sind. So kannst du die Unterschrift über ein Dokument legen, ohne dass ein weißer Kasten darum entsteht."
+        },
+        {
+          "q": "Kann ich auf einem Handy oder Tablet unterschreiben?",
+          "a": "Ja. Die Fläche nutzt Pointer-Events, sodass Finger oder Stift genau wie eine Maus funktionieren. Zeichne und lade das PNG dann auf dein Gerät herunter."
+        }
+      ]
+    },
+    "id-photo-maker": {
+      "title": "Passbild erstellen",
+      "h1": "Pass- und Ausweisfotos online erstellen",
+      "desc": "Pass-, Visa- und Ausweisfotos zu Hause erstellen. Auf die richtige Größe zuschneiden, dpi einstellen, Hintergrund weiß, blau oder rot ersetzen. Gratis.",
+      "intro": "Lade ein Porträt hoch, wähle eine Vorgabe (China 1 Zoll, China 2 Zoll, Pass/Visum oder US-Pass) oder eine eigene Größe in Millimetern und stell die Druckauflösung ein. Zoome und verschiebe, um den Kopf richtig zu platzieren, und ersetze optional einen einfarbigen Hintergrund durch Weiß, Blau oder Rot. Das Foto wird lokal verarbeitet und als druckfertiges JPEG heruntergeladen.",
+      "steps": [
+        "Lade ein klares Porträt von vorne hoch.",
+        "Wähle eine Größenvorgabe oder stell eigene Breite und Höhe ein.",
+        "Zoome und passe die Position an; ersetze optional den Hintergrund.",
+        "Erstelle das Foto und lade das JPEG herunter."
+      ],
+      "faq": [
+        {
+          "q": "Wird dieses Foto für meinen Pass akzeptiert?",
+          "a": "Es erzeugt ein Foto in der richtigen Größe und hohen Auflösung, aber die Annahme hängt von den Regeln deiner ausstellenden Behörde zu Pose, Licht und Hintergrund ab. Prüfe immer die offiziellen Vorgaben, bevor du druckst."
+        },
+        {
+          "q": "Wie funktioniert das Ersetzen des Hintergrunds?",
+          "a": "Es entfernt die Farbe in der oberen linken Ecke deines Fotos, starte also mit einem einfarbigen, gleichmäßig ausgeleuchteten Hintergrund. Passe die Toleranz an, um mehr oder weniger vom alten Hintergrund zu entfernen."
+        }
+      ]
+    },
+    "contract-generator": {
+      "title": "Vertragsgenerator",
+      "h1": "Kostenloser Generator für NDA und Dienstleistungsvertrag",
+      "desc": "Gegenseitige NDA oder Dienstleistungsvertrag aus einer Vorlage erzeugen. Parteien, Zweck und Bedingungen eintragen, dann herunterladen oder drucken. Gratis.",
+      "intro": "Wähle eine gegenseitige Geheimhaltungsvereinbarung (NDA) oder einen Dienstleistungsvertrag, trag die Parteien, das Datum des Inkrafttretens, den Zweck oder Leistungsumfang, die Laufzeit und das anwendbare Recht ein, und der Generator setzt einen Entwurf in einfacher Sprache zusammen. Lade ihn als Textdatei herunter oder drucke ihn. Der Entwurf entsteht in deinem Browser und wird nie hochgeladen. Dies ist eine allgemeine Vorlage, keine Rechtsberatung — lass sie vor der Unterschrift von einem qualifizierten Anwalt prüfen.",
+      "steps": [
+        "Wähle NDA oder Dienstleistungsvertrag.",
+        "Gib Parteien, Datum und die wichtigsten Bedingungen ein.",
+        "Erzeuge den Entwurf und lies ihn durch.",
+        "Lade die .txt-Datei herunter oder drucke sie."
+      ],
+      "faq": [
+        {
+          "q": "Ist das ein rechtsverbindlicher Vertrag?",
+          "a": "Es ist eine allgemeine Vorlage als Ausgangspunkt, keine Rechtsberatung. Gesetze unterscheiden sich je nach Land und Situation, lass sie deshalb von einem qualifizierten Anwalt prüfen und anpassen, bevor jemand unterschreibt."
+        },
+        {
+          "q": "Was kann ich anpassen?",
+          "a": "Die Parteien, das Datum des Inkrafttretens, Zweck oder Leistungsumfang, Honorar, Laufzeit und das anwendbare Recht. Streich Klauseln, die nicht zutreffen, und ergänze die Details, die für dein Geschäft wichtig sind."
+        }
+      ]
+    }
+  }
+}

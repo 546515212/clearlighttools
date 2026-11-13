@@ -1,0 +1,219 @@
+{
+  "t": {
+    "percentage-calculator": {
+      "desc": "Jawab empat soalan peratusan yang benar-benar dicari orang: berapa X peratus daripada Y, X itu berapa peratus daripada Y, naik atau turun sebanyak X peratus.",
+      "intro": "Setiap mod menunjukkan kiraannya, jadi anda boleh menyemak jawapan atau menjelaskan kaedahnya kepada orang lain.",
+      "steps": [
+        "Pilih jenis soalan.",
+        "Isi dua nombor itu.",
+        "Baca jawapan dan langkah pengiraannya."
+      ],
+      "faq": [
+        {
+          "q": "Daripada 40 kepada 52 — berapa kenaikan peratusnya?",
+          "a": "30 peratus: bahagikan bezanya dengan nombor asal, jadi 12 / 40 = 0.3."
+        },
+        {
+          "q": "Mengapa kenaikan 20 peratus kemudian penurunan 20 peratus bukan neutral?",
+          "a": "Perubahan kedua memakai asas baharu yang lebih besar. 100 menjadi 120, kemudian 96."
+        }
+      ]
+    },
+    "bmi-calculator": {
+      "desc": "Kira indeks jisim tubuh, lihat kelompok mana anda tergolong, dan dapatkan julat berat yang dianggap sihat untuk ketinggian anda.",
+      "intro": "BMI ialah angka saringan, bukan diagnosis — pengira ini menunjukkan kelompok serta hadnya supaya anda boleh membacanya dengan betul.",
+      "steps": [
+        "Pilih metrik atau imperial.",
+        "Masukkan ketinggian dan berat.",
+        "Baca BMI anda dan julat kategori."
+      ],
+      "faq": [
+        {
+          "q": "Adakah BMI tepat untuk atlet?",
+          "a": "Kurang tepat. Otot lebih berat daripada lemak, jadi orang yang kurap dan berotot boleh ditandakan sebagai berlebihan berat."
+        },
+        {
+          "q": "Adakah kanak-kanak dinilai dengan cara yang sama?",
+          "a": "Tidak. Umur bawah 18 tahun menggunakan percentile mengikut umur dan jantina, jadi berbincanglah dengan pengamal klinikal dan bukan bergantung pada angka ini."
+        }
+      ]
+    },
+    "age-calculator": {
+      "desc": "Dapatkan umur tepat dalam tahun, bulan dan hari, jumlah hari kehidupan, hari jadi seterusnya, hari minggu lahir dan tahun mencapai setiap tanda umur.",
+      "intro": "Mudah untuk borang yang meminta jumlah hari, dan untuk merancang hari jadi pada minggu sebelum ia tiba.",
+      "steps": [
+        "Masukkan tarikh lahir.",
+        "Jika perlu, pilih tarikh lain sebagai ukuran bandingan.",
+        "Baca perinciannya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa dua umur muncul?",
+          "a": "Tahun lengkap berbanding jumlah bulan dan hari; borang rasmi biasanya mahukan tahun lengkap."
+        },
+        {
+          "q": "Bagaimana tahun lompat dikendalikan?",
+          "a": "Dengan tepat: hari lahir 29 Februari dikira bertambah setahun pada hari berikutnya dalam tahun yang bukan lompat."
+        }
+      ]
+    },
+    "date-calculator": {
+      "desc": "Kira bilangan hari antara tarikh, tambah atau tolak hari serta hari kerja, dan dapatkan tarikh kalendar terhasil bersama nama hari minggu.",
+      "intro": "Berguna untuk tarikh akhir, tempoh sewaan, rancangan projek dan soalan tentang berapa lama sesuatu berlangsung.",
+      "steps": [
+        "Pilih Kira antara atau Tambah pada tarikh.",
+        "Masukkan tarikh dan bilangan hari.",
+        "Putuskan sama ada hujung minggu dan cuti umum dikira.",
+        "Baca tarikh hasil dan jumlahnya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah tarikh penghitungan termasuk?",
+          "a": "Secara lalai bezanya mengira hari penuh antara kedua-dua tarikh, jadi alat ini menyatakan dengan jelas sama ada mana-mana hari termasuk."
+        },
+        {
+          "q": "Bolehkah saya menolak hari perniagaan?",
+          "a": "Boleh, tukar kepada hari kerja; cuti umum masih perlu dikira secara manual."
+        }
+      ]
+    },
+    "loan-calculator": {
+      "desc": "Anggarkan bayaran bulanan pinjaman peribadi atau kredit perumahan, jumlah faedah yang dibayar, dan berapa banyak tahun awal habis pada faedah.",
+      "intro": "Kiraannya ialah formula amortisasi standard, dan ringkasan menunjukkan nisbah faedah kepada pokok yang tidak sentiasa diiklankan oleh pemberi pinjaman.",
+      "steps": [
+        "Masukkan jumlah, kadar tahunan dan tempoh.",
+        "Baca bayaran bulanan.",
+        "Periksa jumlah faedah dan jumlah yang dibayar balik.",
+        "Bandingkan tempoh untuk melihat berapa kos sebenar pinjaman yang lebih panjang."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ini termasuk yuran atau insurans?",
+          "a": "Tidak, ia hanya pokok dan faedah. Tambahkan produk seperti insurans kredit perumahan kepada jumlah itu untuk menganggarkan bayaran sebenar."
+        },
+        {
+          "q": "Kadar mana yang patut saya taipkan?",
+          "a": "Kadar tahunan nominal dibahagi dua belas dan dipakai setiap bulan secara automatik, jadi masukkan peratus tahunan yang diiklankan."
+        }
+      ]
+    },
+    "discount-calculator": {
+      "desc": "Masukkan harga asal dan diskaun untuk melihat berapa yang anda bayar, berapa yang anda jimat, dan berapa harga item itu jika beberapa tawaran bertindan.",
+      "intro": "Ia juga menjawab soalan songsang: jika anda tahu harga sebelum dan selepas, ia memaklumkan peratusan diskaunnya.",
+      "steps": [
+        "Taipkan harga asal.",
+        "Tambahkan peratus diskaun, atau harga akhir.",
+        "Baca berapa yang anda bayar dan berapa yang anda jimat.",
+        "Tambah diskaun kedua untuk menguji tawaran yang bertindan."
+      ],
+      "faq": [
+        {
+          "q": "Adakah diskaun 30 peratus kemudian 20 peratus sama dengan 50 peratus?",
+          "a": "Tidak, potongan kedua dipakai pada harga yang sudah dikurangkan, jadi jumlah sebenar ialah 44 peratus diskaun."
+        },
+        {
+          "q": "Bolehkah ia mengira cukai jualan?",
+          "a": "Boleh, tambahkan kadar cukai untuk melihat jumlah yang benar-benar keluar dari akaun anda."
+        }
+      ]
+    },
+    "unit-converter": {
+      "desc": "Satu penukar untuk unit harian: meter dan kaki, kilogram dan paun, Celsius dan Fahrenheit, liter, batu per jam, megabait dan banyak lagi.",
+      "intro": "Nilai ditukar dua hala sambil anda menaip, dan faktor yang digunakan turut dipaparkan supaya anda boleh membuat semakan waras bagi hasil yang pelik.",
+      "steps": [
+        "Pilih kategori.",
+        "Pilih unit sumber dan taipkan nilainya.",
+        "Baca nombor yang ditukar, atau tukar unit untuk pergi ke arah sebaliknya."
+      ],
+      "faq": [
+        {
+          "q": "Ketepatan mana yang dipaparkan?",
+          "a": "Enam angka bererti; hala tunjuk medan itu untuk nilai perpuluhan yang tepat."
+        },
+        {
+          "q": "Adakah pint UK dan US berbeza?",
+          "a": "Ya, 568 ml berbanding 473 ml, dan penukar ini mengekalkannya berasingan."
+        }
+      ]
+    },
+    "color-converter": {
+      "desc": "Berpindah antara HEX, RGB, HSL dan nama CSS, periksa kontras terhadap putih dan hitam, dan dapatkan nada warna yang boleh diakses secara automatik.",
+      "intro": "Tampal nilai dalam mana-mana notasi dan yang lain berubah serta-merta, termasuk nisbah kontras WCAG yang anda perlukan sebelum mengeluarkan warna butang.",
+      "steps": [
+        "Taip atau pilih satu warna.",
+        "Baca HEX, RGB dan HSL.",
+        "Periksa kontras pada latar cerah dan gelap."
+      ],
+      "faq": [
+        {
+          "q": "Berapa kontras yang saya perlukan?",
+          "a": "4.5:1 untuk teks biasa dan 3:1 untuk teks besar di bawah WCAG AA."
+        },
+        {
+          "q": "Mengapa HEX saya kelihatan berbeza pada telefon?",
+          "a": "Skrin memakai profil warna; nilai berangkanya sama tepat walaupun persepsinya tidak."
+        }
+      ]
+    },
+    "calorie-calculator": {
+      "title": "Pengira Kalori",
+      "h1": "Pengira kalori harian dan BMR",
+      "desc": "Anggarkan kadar metabolik basal dengan persamaan Mifflin-St Jeor serta kalori harian untuk mengekalkan, menurunkan atau menaikkan berat badan.",
+      "intro": "Angka ini ialah anggaran yang dibina atas purata populasi, berguna sebagai titik permulaan dan bukan preskripsi.",
+      "steps": [
+        "Masukkan umur, jantina, ketinggian dan berat.",
+        "Pilih tahap aktiviti anda.",
+        "Baca BMR dan kalori pengekalan berat.",
+        "Bandingkan sasaran defisit dan lebihan yang sederhana."
+      ],
+      "faq": [
+        {
+          "q": "Betapa tepatkah pengira ini?",
+          "a": "Biasanya dalam lingkungan sepuluh hingga dua puluh peratus untuk dewasa yang sihat; perbelanjaan tenaga yang diukur ialah satu-satunya jawapan tepat."
+        },
+        {
+          "q": "Patutkah saya makan mengikut angka defisit itu?",
+          "a": "Anggapnya sebagai rujukan dan semak sebarang perubahan ketara dengan pakar berkelayakan."
+        }
+      ]
+    },
+    "timestamp-converter": {
+      "desc": "Tukar cap masa Unix atau milisaat kepada tarikh lokal dan UTC yang boleh dibaca, atau tukar sesuatu tarikh kepada nombor yang API anda jangkakan.",
+      "intro": "Ia juga memaklumkan unit yang anda tampal, iaitu punca biasa sesuatu tarikh jatuh ke tahun 1970 atau 45000.",
+      "steps": [
+        "Tampal cap masa itu, atau pilih satu tarikh.",
+        "Periksa pengesanan saat berbanding milisaat.",
+        "Baca output lokal, UTC dan ISO."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa tarikh saya jatuh pada Januari 1970?",
+          "a": "Anda memberi nilai dalam unit yang salah atau rentetan yang dihurai kepada sifar."
+        },
+        {
+          "q": "Zon masa mana yang digunakan?",
+          "a": "Zon pelayar anda untuk baris lokal, beserta rentetan UTC dan ISO yang dinyatakan secara jelas."
+        }
+      ]
+    },
+    "random-number-generator": {
+      "desc": "Pilih nombor dalam sesuatu julat, lambung dadu, lambung duit syiling, kacak senarai nama, atau cabut pemenang tanpa pengulangan untuk giveaway.",
+      "intro": "Nilai datang daripada sumber rawak kryptografik pelayar, jadi hasilnya sesuai untuk keputusan yang benar-benar penting bagi anda.",
+      "steps": [
+        "Tetapkan minimum dan maksimum.",
+        "Pilih berapa banyak nilai dan sama ada pengulangan dibenarkan.",
+        "Jana, atau guna pra tetapan dadu dan syiling."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia benar-benar rawak?",
+          "a": "Ia menggunakan kolam entropi sistem operasi anda, iaitu sumber terkuat yang dibenarkan untuk dicapai oleh pelayar."
+        },
+        {
+          "q": "Bolehkah saya memilih beberapa pemenang daripada satu senarai?",
+          "a": "Boleh, tampal nama-nama itu, hidupkan pilihan tanpa pengulangan dan tetapkan bilangan yang perlu dicabut."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T11:40:12.643Z",
+ "planned": [
+  "pdf-to-jpg"
+ ],
+ "rows": [
+  {
+   "tool": "pdf-to-jpg",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download all (.zip) (3)"
+   ],
+   "bytes": [
+    "pdf-to-jpg-sample-a-pages.zip | 95189 | application/zip"
+   ],
+   "output": [
+    "sample-a-p1.jpgsample-a-p2.jpgsample-a-p3.jpgDownload all (.zip) (3)"
+   ],
+   "filled": [],
+   "throttleMs": 241,
+   "ms": 13243
+  }
+ ],
+ "finishedAt": "2026-11-07T11:40:25.888Z"
+}

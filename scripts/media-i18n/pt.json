@@ -1,0 +1,347 @@
+{
+  "search": "Buscar 60 ferramentas gratuitas…",
+  "home": "ClearLight Tools — Ferramentas online grátis: PDF, imagem, áudio e vídeo",
+  "cat": {
+    "image": "Ferramentas de imagem",
+    "image.tagline": "Comprima, converta e redimensione fotos, crie códigos QR e favicons, escolha cores e faça GIFs.",
+    "audio": "Ferramentas de áudio",
+    "audio.tagline": "Corte, junte, converta e grave sons; altere volume, velocidade e tom e equalize faixas.",
+    "video": "Ferramentas de vídeo",
+    "video.tagline": "Comprima clipes e grave sua tela ou webcam — tudo no navegador."
+  },
+  "kw": {
+    "join audio files": "juntar arquivos de áudio",
+    "merge mp3": "mesclar MP3",
+    "combine audio online": "combinar áudio online",
+    "audio converter": "conversor de áudio",
+    "convert to mp3": "converter para MP3",
+    "wav to mp3": "WAV para MP3",
+    "change audio volume": "alterar o volume do áudio",
+    "increase mp3 volume": "aumentar o volume do MP3",
+    "audio volume booster": "amplificador de volume de áudio",
+    "reverse audio": "inverter áudio",
+    "play audio backwards": "tocar áudio ao contrário",
+    "reverse mp3 online": "inverter MP3 online",
+    "change audio speed": "alterar a velocidade do áudio",
+    "speed up audio": "acelerar áudio",
+    "slow down audio online": "desacelerar áudio online",
+    "change pitch": "alterar o tom",
+    "pitch shifter online": "modificador de tom online",
+    "raise pitch of audio": "aumentar o tom do áudio",
+    "audio equalizer": "equalizador de áudio",
+    "online equalizer": "equalizador online",
+    "bass boost audio": "áudio com reforço de graves",
+    "voice recorder online": "gravador de voz online",
+    "record audio": "gravar áudio",
+    "online microphone recorder": "gravador de microfone online",
+    "screen recorder online": "gravador de tela online",
+    "record screen free": "gravar a tela grátis",
+    "online screen capture": "captura de tela online",
+    "webcam recorder": "gravador de webcam",
+    "record camera online": "gravar a câmera online",
+    "video recorder online": "gravador de vídeo online",
+    "add page numbers to pdf": "adicionar números de página ao PDF",
+    "pdf page numbering": "numeração de páginas de PDF",
+    "number pdf pages": "numerar páginas de PDF"
+  },
+  "w": {
+    "decodingFile": "Decodificando {0}…",
+    "mp3SmallestWavLossless": "MP3 é pequeno e universal; WAV não tem perdas e é grande.",
+    "mp3Only": "Somente MP3",
+    "addAudioFilesInOrder": "Adicione os arquivos de áudio na ordem em que deseja juntá-los. Use as setas para reordenar.",
+    "join": "Juntar",
+    "ui0Files1Duration": "{0} arquivos · {1}",
+    "ui0To1": "{0} → {1}",
+    "volumeHint": "100% é o volume original. Aumentar muito acima disso pode distorcer.",
+    "ui0Volume": "{0}% de volume",
+    "reverseHint": "Inverte a forma de onda para que o som toque ao contrário. A duração e o tom permanecem iguais.",
+    "speed": "Velocidade",
+    "speedHint": "Altera o ritmo sem mudar o tom. 100% é a velocidade original.",
+    "ui0SpeedResult": "{0} · {1}% de velocidade",
+    "pitchHint": "Desloca o tom sem alterar a duração do som. +12 sobe uma oitava.",
+    "ui0Semitones": "{0} semitons",
+    "eqBass": "Graves",
+    "eqLowMid": "Médio-graves",
+    "eqMid": "Médios",
+    "eqHighMid": "Médio-agudos",
+    "eqTreble": "Agudos",
+    "preset": "Predefinição",
+    "presetFlat": "Plano",
+    "presetBass": "Reforço de graves",
+    "presetVocal": "Vocal",
+    "presetTreble": "Reforço de agudos",
+    "eqHint": "Reforce ou corte cinco bandas e pressione Aplicar para renderizar a alteração.",
+    "eqApplied": "Equalizador de 5 bandas aplicado",
+    "noWebAudio": "Este navegador não oferece suporte a Web Audio, portanto não consegue decodificar o som.",
+    "recorderReady": "Pressione Gravar para começar. Nada é enviado.",
+    "noScreenCapture": "Este navegador não consegue capturar a tela. Tente o Chrome ou o Edge no computador.",
+    "noMicCamera": "Este navegador não consegue acessar o microfone ou a câmera. É necessária uma página segura (https).",
+    "ui0SOfRecording": "Gravação de {0}",
+    "recordingSaved": "Sua gravação está abaixo. Baixe-a para guardá-la.",
+    "record": "Gravar",
+    "requestingPermission": "Permita o acesso quando o navegador solicitar.",
+    "recordingInProgress": "Gravando… pressione Parar quando terminar.",
+    "permissionDenied": "O acesso foi negado. Ative a permissão de microfone, câmera ou tela e tente novamente.",
+    "recordingFailed": "Não foi possível iniciar a gravação.",
+    "bottom": "Parte inferior",
+    "top": "Parte superior",
+    "alignment": "Alinhamento",
+    "alignLeft": "Esquerda",
+    "alignCenter": "Centro",
+    "alignRight": "Direita",
+    "startNumber": "Número inicial",
+    "prefixHint": "Texto opcional antes do número, por exemplo, “Página ”.",
+    "skipFirst": "Pular a primeira página (capa)",
+    "addPageNumbers": "Adicionar números de página",
+    "noPagesSelected": "Não restam páginas para numerar com esse intervalo.",
+    "ui0PagesNumbered": "{0} páginas numeradas",
+    "pageNumbersNote": "Os números são adicionados como texto real na margem; o conteúdo original da página não é alterado.",
+    "loadingFile": "Carregando {0}…",
+    "preparing": "Preparando…",
+    "audioReversed": "Invertido"
+  },
+  "t": {
+    "audio-joiner": {
+      "title": "Juntar Áudio",
+      "h1": "Junte arquivos de áudio e mescle MP3 online",
+      "desc": "Combine arquivos MP3, WAV, M4A e OGG em uma faixa na ordem que você escolher. Grátis, sem upload, sem marca d'água — mescle áudio no navegador.",
+      "intro": "Adicione dois ou mais clipes e arraste-os para a ordem certa: a ferramenta decodifica cada arquivo, iguala a taxa de amostragem e os canais e concatena tudo em um único MP3 ou WAV. Tudo roda localmente, então gravações privadas nunca saem do seu dispositivo.",
+      "steps": [
+        "Adicione os arquivos de áudio que deseja combinar.",
+        "Arraste ou use as setas para definir a ordem de reprodução.",
+        "Escolha MP3 ou WAV e uma taxa de bits.",
+        "Pressione Juntar e baixe a faixa única."
+      ],
+      "faq": [
+        {
+          "q": "Posso juntar arquivos de formatos diferentes?",
+          "a": "Sim. Cada arquivo é decodificado em amostras brutas e depois reamostrado para uma taxa e um número de canais comuns antes da concatenação, então MP3, WAV, M4A e OGG podem ser misturados."
+        },
+        {
+          "q": "Há um limite de quantos arquivos posso mesclar?",
+          "a": "Não há um limite fixo, mas áudios longos ficam na memória durante a decodificação e a codificação, então mantenha o total razoável em dispositivos com pouca memória."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Conversor de Áudio",
+      "h1": "Converta áudio para MP3, WAV e outros formatos online",
+      "desc": "Converta WAV para MP3, M4A, OGG e outros formatos de áudio no navegador. Escolha a taxa de amostragem e a taxa de bits e baixe — sem upload, sem conta.",
+      "intro": "O conversor decodifica seu arquivo com o mecanismo de áudio do navegador, reamostra-o para a taxa que você escolher e o recodifica em MP3 (pequeno e universal) ou WAV (sem perdas). Como tudo acontece na sua máquina, o original nunca sai do seu dispositivo.",
+      "steps": [
+        "Carregue o arquivo de áudio que deseja converter.",
+        "Escolha a taxa de amostragem de saída.",
+        "Escolha MP3 ou WAV e, para MP3, uma taxa de bits.",
+        "Pressione Converter e baixe o novo arquivo."
+      ],
+      "faq": [
+        {
+          "q": "Quais formatos de entrada ele consegue ler?",
+          "a": "Qualquer formato que seu navegador consiga decodificar — normalmente MP3, WAV, OGG, M4A/AAC e FLAC. Alguns codecs incomuns ou protegidos por DRM são recusados pelo próprio navegador."
+        },
+        {
+          "q": "Por que meu MP3 é menor que o WAV?",
+          "a": "MP3 é compressão com perdas; WAV armazena cada amostra sem compressão. Para voz e compartilhamento, MP3 a 128–192 kbps costuma ser suficiente; escolha WAV para uma matriz sem perdas."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Amplificador de Volume",
+      "h1": "Altere o volume do áudio — aumente ou diminua online",
+      "desc": "Aumente ou diminua o volume de um arquivo MP3, WAV ou M4A. Defina o nível de 0 a 400%, ouça a prévia e baixe. Grátis e totalmente no navegador.",
+      "intro": "Esta ferramenta multiplica cada amostra pelo ganho que você definir, então 100% mantém o volume original, 200% o dobra e 50% o reduz à metade. Aumentar muito além de 100% pode distorcer os picos altos, então ouça a prévia antes de exportar.",
+      "steps": [
+        "Carregue o arquivo de áudio.",
+        "Arraste o controle de volume até o nível desejado.",
+        "Escolha a saída MP3 ou WAV.",
+        "Pressione Aplicar, ouça e depois baixe."
+      ],
+      "faq": [
+        {
+          "q": "Por que o áudio distorce quando aumento muito o volume?",
+          "a": "As amostras acima da escala máxima são cortadas. Se o original já está alto, um grande aumento empurra os picos além do limite; tente primeiro um ganho menor."
+        },
+        {
+          "q": "Posso deixar o arquivo mais baixo?",
+          "a": "Sim — posicione o controle abaixo de 100%. 50% é metade da amplitude, uma queda de volume claramente perceptível."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Inverter Áudio",
+      "h1": "Inverta o áudio e toque o som ao contrário online",
+      "desc": "Inverta um arquivo de áudio para que toque ao contrário, do fim ao início. Duração e tom permanecem iguais. Inversor de MP3/WAV grátis, sem upload.",
+      "intro": "A inversão copia a forma de onda da última amostra até a primeira, então o som toca ao contrário mantendo a duração e o tom. É a maneira clássica de criar um efeito de subida (riser), procurar mensagens ocultas ou ouvir uma música ao contrário.",
+      "steps": [
+        "Carregue o arquivo de áudio.",
+        "Opcionalmente, escolha a saída MP3 ou WAV.",
+        "Pressione Inverter.",
+        "Reproduza o resultado e baixe-o."
+      ],
+      "faq": [
+        {
+          "q": "Inverter muda o tom ou a velocidade?",
+          "a": "Não. As amostras são simplesmente lidas na ordem oposta, então a duração e as frequências não mudam — apenas o sentido do tempo se inverte."
+        },
+        {
+          "q": "Para que posso usar o áudio invertido?",
+          "a": "Efeitos de subida para transições, design de som, busca por mensagens ocultas gravadas ao contrário ou um clipe em estilo palíndromo, que soa igual nos dois sentidos."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Alterar Velocidade do Áudio",
+      "h1": "Acelere ou desacelere o áudio sem alterar o tom",
+      "desc": "Altere a velocidade do áudio de 50% a 200% mantendo o tom natural. Acelere aulas ou desacelere músicas para aprendê-las — no seu navegador.",
+      "intro": "O alterador de velocidade usa alongamento de tempo por sobreposição e soma (overlap-add), então uma voz acelerada não vira um esquilo e uma música desacelerada não fica mais grave. 100% é a velocidade original; 200% toca duas vezes mais rápido na metade do tempo.",
+      "steps": [
+        "Carregue o arquivo de áudio.",
+        "Ajuste o controle de velocidade (50%–200%).",
+        "Escolha a saída MP3 ou WAV.",
+        "Pressione Aplicar e baixe o clipe com o novo ritmo."
+      ],
+      "faq": [
+        {
+          "q": "Acelerar o áudio aumenta o tom?",
+          "a": "Não — esse é o objetivo do alongamento de tempo. O ritmo muda, mas o tom permanece igual, ao contrário de simplesmente reamostrar o arquivo."
+        },
+        {
+          "q": "Quão extrema pode ser a mudança de velocidade?",
+          "a": "O controle vai de 50% a 200%. Alongamentos muito grandes podem adicionar uma leve oscilação em materiais complexos; mudanças moderadas soam mais naturais."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Modificador de Tom",
+      "h1": "Aumente ou diminua o tom do áudio online",
+      "desc": "Desloque o tom do áudio em até 12 semitons para cima ou para baixo sem mudar a duração. Aumente ou diminua o tom de uma voz ou instrumento e baixe grátis.",
+      "intro": "O deslocamento de tom reamostra o áudio para mover a frequência e depois o alonga no tempo de volta à duração original, então o clipe dura o mesmo tempo, mas soa mais agudo ou mais grave. +12 semitons sobem uma oitava; −12 descem uma oitava.",
+      "steps": [
+        "Carregue o arquivo de áudio.",
+        "Defina o deslocamento de tom em semitons (−12 a +12).",
+        "Escolha a saída MP3 ou WAV.",
+        "Pressione Aplicar e baixe o clipe com o tom alterado."
+      ],
+      "faq": [
+        {
+          "q": "Mudar o tom altera a duração do arquivo?",
+          "a": "Não. A ferramenta restaura a duração original após o deslocamento, então apenas o tom muda, não o tempo."
+        },
+        {
+          "q": "O que é um semitom?",
+          "a": "O menor intervalo da música ocidental — uma tecla do piano. Doze semitons formam uma oitava, então +12 dobra a frequência e −12 a reduz à metade."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Equalizador de Áudio",
+      "h1": "Equalizador de áudio online com reforço de graves e agudos",
+      "desc": "Ajuste cinco bandas (60 Hz–12 kHz) para reforçar graves, realçar agudos ou moldar uma voz. Use predefinições ou ajuste fino e exporte MP3 ou WAV grátis.",
+      "intro": "Um equalizador de pico de cinco bandas permite cortar ou reforçar graves, médio-graves, médios, médio-agudos e agudos em até 12 dB cada. Comece por uma predefinição — Plano, Reforço de graves, Vocal ou Reforço de agudos — depois faça o ajuste fino e renderize a alteração em um novo arquivo.",
+      "steps": [
+        "Carregue o arquivo de áudio.",
+        "Escolha uma predefinição ou arraste os cinco controles de banda.",
+        "Escolha a saída MP3 ou WAV.",
+        "Pressione Aplicar e baixe a faixa equalizada."
+      ],
+      "faq": [
+        {
+          "q": "O que as cinco bandas controlam?",
+          "a": "60 Hz é o peso dos graves, 250 Hz é o calor, 1 kHz é o corpo das vozes, 4 kHz é presença e clareza e 12 kHz é ar e brilho. Reforce ou corte cada uma a gosto."
+        },
+        {
+          "q": "A equalização é aplicada ao arquivo baixado?",
+          "a": "Sim. Diferente de um equalizador apenas de reprodução, este renderiza a filtragem no MP3 ou WAV exportado, então a alteração é permanente no arquivo que você guarda."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Gravador de Voz",
+      "h1": "Grave áudio online com seu microfone",
+      "desc": "Grave sua voz pelo microfone direto no navegador. Pressione gravar, pare, ouça a prévia e baixe — sem aplicativo, sem upload, sem conta.",
+      "intro": "O gravador captura seu microfone com a API MediaRecorder do navegador e salva a gravação localmente para você ouvir a prévia e baixá-la. Nada é enviado a um servidor; a gravação fica no seu dispositivo até você guardá-la.",
+      "steps": [
+        "Pressione Gravar e permita o acesso ao microfone.",
+        "Fale ou reproduza o som que deseja capturar.",
+        "Pressione Parar quando terminar.",
+        "Ouça a prévia da gravação e baixe-a."
+      ],
+      "faq": [
+        {
+          "q": "Onde minha gravação fica armazenada?",
+          "a": "Apenas na memória do navegador até você baixá-la. Nada é enviado, então, ao fechar a página, uma gravação não salva se perde."
+        },
+        {
+          "q": "Por que o navegador pede permissão?",
+          "a": "O acesso ao microfone sempre exige seu consentimento explícito. Se você o negou, reative a permissão de microfone para este site e pressione Gravar novamente."
+        }
+      ]
+    },
+    "screen-recorder": {
+      "title": "Gravador de Tela",
+      "h1": "Grave sua tela online grátis",
+      "desc": "Capture sua tela, uma janela ou uma aba com áudio do sistema opcional. Grave, pare, veja a prévia e baixe um vídeo WebM — sem instalação, sem upload.",
+      "intro": "O gravador de tela usa a API de captura de tela do navegador para gravar a tela inteira, uma única janela ou uma aba, com áudio quando houver suporte. O vídeo é montado localmente e oferecido como download; ele nunca passa por um servidor.",
+      "steps": [
+        "Pressione Gravar e escolha o que compartilhar (tela, janela ou aba).",
+        "Se quiser, inclua o áudio no seletor de compartilhamento.",
+        "Pressione Parar, ou encerre o compartilhamento, ao terminar.",
+        "Veja a prévia do clipe e baixe o WebM."
+      ],
+      "faq": [
+        {
+          "q": "Quais navegadores oferecem suporte à gravação de tela?",
+          "a": "Chrome e Edge no computador têm a captura de tela mais confiável, e o Firefox também oferece suporte. Navegadores móveis geralmente não, então use um navegador de computador."
+        },
+        {
+          "q": "Ele pode gravar o áudio do sistema?",
+          "a": "Ao compartilhar uma aba ou a tela inteira, o seletor oferece uma opção de áudio. A inclusão do áudio do sistema depende do navegador e do que você compartilhou."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Gravador de Webcam",
+      "h1": "Grave vídeo da sua webcam online",
+      "desc": "Grave a si mesmo com a câmera e o microfone no navegador. Veja a prévia ao vivo, pressione gravar e baixe — grátis, sem software.",
+      "intro": "O gravador de webcam mostra uma prévia ao vivo da sua câmera, captura a imagem junto com o microfone por meio do MediaRecorder e salva o clipe localmente para prévia e download. O vídeo nunca sai do seu dispositivo, a menos que você o baixe.",
+      "steps": [
+        "Pressione Gravar e permita o acesso à câmera e ao microfone.",
+        "Confira a prévia ao vivo e enquadre-se.",
+        "Pressione Parar quando terminar.",
+        "Veja a prévia da gravação e baixe-a."
+      ],
+      "faq": [
+        {
+          "q": "O vídeo é enviado para algum lugar?",
+          "a": "Não. Ele é gravado e mantido no seu navegador, depois oferecido como download local. Nada é enviado a um servidor."
+        },
+        {
+          "q": "Qual é o formato da gravação?",
+          "a": "Um vídeo WebM (VP8/VP9 com áudio Opus) quando o navegador oferece suporte, que roda em navegadores modernos e na maioria dos editores. Alguns navegadores podem gerar MP4."
+        }
+      ]
+    },
+    "pdf-page-numbers": {
+      "title": "Números de Página em PDF",
+      "h1": "Adicione números de página a um PDF online",
+      "desc": "Insira números de página no PDF em cima ou embaixo, à esquerda, ao centro ou à direita. Defina número inicial, tamanho da fonte e prefixo. Grátis, sem upload.",
+      "intro": "Esta ferramenta carimba um número de página em texto real em cada página do seu PDF com o pdf-lib, então os números ficam nítidos em qualquer zoom e podem ser selecionados. Posicione-os no cabeçalho ou no rodapé, pule a capa e adicione um prefixo opcional.",
+      "steps": [
+        "Carregue o PDF que deseja numerar.",
+        "Escolha a posição, o alinhamento e o número inicial.",
+        "Defina o tamanho da fonte e um prefixo opcional; pule a capa se necessário.",
+        "Pressione Adicionar números de página e baixe."
+      ],
+      "faq": [
+        {
+          "q": "Posso começar de uma página ou número específico?",
+          "a": "Sim. Defina o número inicial e use o intervalo de páginas para numerar apenas algumas, ou marque “pular a primeira página” para deixar a capa sem número."
+        },
+        {
+          "q": "Os números são adicionados como texto ou imagem?",
+          "a": "Como texto vetorial real, então escalam com nitidez na impressão e podem ser selecionados e pesquisados no PDF final."
+        }
+      ]
+    }
+  }
+}

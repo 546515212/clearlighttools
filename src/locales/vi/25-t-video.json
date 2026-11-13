@@ -1,0 +1,48 @@
+{
+  "t": {
+    "screen-recorder": {
+      "title": "Ghi màn hình",
+      "h1": "Ghi màn hình trực tuyến miễn phí",
+      "desc": "Quay màn hình, một cửa sổ hoặc một tab kèm âm thanh hệ thống tùy chọn. Ghi, dừng, xem trước và tải xuống video WebM — không cài đặt, không tải lên.",
+      "intro": "Công cụ ghi màn hình dùng API quay màn hình của trình duyệt để ghi toàn bộ màn hình, một cửa sổ hoặc một tab, kèm âm thanh nếu được hỗ trợ. Video được ghép cục bộ và cung cấp để tải xuống; nó không bao giờ chạm tới máy chủ.",
+      "steps": [
+        "Nhấn Ghi và chọn nội dung chia sẻ (màn hình, cửa sổ hoặc tab).",
+        "Có thể kèm âm thanh trong hộp chọn chia sẻ.",
+        "Nhấn Dừng, hoặc kết thúc chia sẻ, khi hoàn tất.",
+        "Xem trước đoạn quay và tải xuống WebM."
+      ],
+      "faq": [
+        {
+          "q": "Trình duyệt nào hỗ trợ ghi màn hình?",
+          "a": "Chrome và Edge trên máy tính có khả năng quay màn hình ổn định nhất, và Firefox cũng hỗ trợ. Trình duyệt di động thường thì không, nên hãy dùng trình duyệt máy tính."
+        },
+        {
+          "q": "Có ghi được âm thanh hệ thống không?",
+          "a": "Khi bạn chia sẻ một tab hoặc toàn màn hình, hộp chọn sẽ đưa ra tùy chọn âm thanh. Việc có kèm âm thanh hệ thống hay không tùy thuộc trình duyệt và nội dung bạn chia sẻ."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Ghi webcam",
+      "h1": "Ghi video từ webcam của bạn trực tuyến",
+      "desc": "Ghi lại chính bạn bằng camera và micrô trong trình duyệt. Xem trước luồng trực tiếp, nhấn ghi, rồi tải xuống — miễn phí, không cần phần mềm.",
+      "intro": "Công cụ ghi webcam hiển thị bản xem trước trực tiếp từ camera, thu cùng micrô qua MediaRecorder, và lưu đoạn video cục bộ để xem trước và tải xuống. Video không bao giờ rời khỏi thiết bị trừ khi bạn tải nó xuống.",
+      "steps": [
+        "Nhấn Ghi và cho phép truy cập camera và micrô.",
+        "Kiểm tra bản xem trước trực tiếp và căn khung hình.",
+        "Nhấn Dừng khi bạn hoàn tất.",
+        "Xem trước bản ghi và tải xuống."
+      ],
+      "faq": [
+        {
+          "q": "Video có bị tải lên đâu không?",
+          "a": "Không. Video được ghi và giữ trong trình duyệt, rồi cung cấp dưới dạng tải xuống cục bộ. Không có gì được gửi tới máy chủ."
+        },
+        {
+          "q": "Bản ghi ở định dạng nào?",
+          "a": "Video WebM (VP8/VP9 kèm âm thanh Opus) khi trình duyệt hỗ trợ, phát được trên các trình duyệt hiện đại và hầu hết phần mềm biên tập. Một số trình duyệt có thể tạo MP4."
+        }
+      ]
+    }
+  }
+}

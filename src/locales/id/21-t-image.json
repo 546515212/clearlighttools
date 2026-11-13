@@ -1,0 +1,253 @@
+{
+  "t": {
+    "compress-image": {
+      "desc": "Perkecil foto tanpa penurunan kualitas yang terlihat, bandingkan sebelum dan sesudah berdampingan, dan proses banyak file sekaligus — semuanya di dalam browser.",
+      "intro": "Kompresi mengodekan ulang gambar lewat encoder gambar bawaan browser Anda. Metadata EXIF dihapus secara default, dan justru di situlah penghematan terbesar sering tersembunyi.",
+      "steps": [
+        "Letakkan satu atau banyak foto.",
+        "Geser slider kualitas; biasanya 70 hingga 85 sudah cukup untuk web.",
+        "Klik Kompres.",
+        "Bandingkan ukurannya dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Kualitas berapa yang bagus untuk situs web?",
+          "a": "80 untuk fotografi, 90 untuk screenshot penuh teks, dan ubah ke WebP bila browser mendukungnya."
+        },
+        {
+          "q": "Apakah bisa menangani HEIC dari iPhone?",
+          "a": "Safari dan Chrome di sebagian besar perangkat dapat mengodekan HEIC; jika perangkat Anda tidak bisa, konversi dulu ke JPEG dengan alat Convert Image."
+        }
+      ]
+    },
+    "convert-image": {
+      "desc": "Ubah format gambar dalam satu langkah: PNG ke JPG, JPG ke WebP, WebP ke PNG, dan lainnya, dengan penanganan transparansi dan kontrol kualitas.",
+      "intro": "Decoding dan re-encoding terjadi di canvas, jadi konversinya bebas kerugian di luar format target itu sendiri. PNG transparan mendapat latar opsional saat disimpan sebagai JPG.",
+      "steps": [
+        "Tambahkan gambar Anda.",
+        "Pilih format target.",
+        "Atur kualitas dan, untuk JPG, latar belakang bagi area transparan.",
+        "Konversi dan unduh, atau ambil semua file dalam satu zip."
+      ],
+      "faq": [
+        {
+          "q": "Apakah WebP benar-benar lebih kecil?",
+          "a": "Umumnya 25 hingga 35 persen lebih kecil dari JPEG dengan kualitas setara, dan semua browser modern menampilkannya."
+        },
+        {
+          "q": "Apakah BMP, TIFF, atau SVG didukung?",
+          "a": "Browser dapat mengodekan BMP dan TIFF; SVG adalah vektor dan tidak bisa dirasterkan tanpa mengeksekusinya, jadi sengaja dilewati."
+        }
+      ]
+    },
+    "resize-image": {
+      "desc": "Tetapkan lebar dan tinggi yang presisi, jaga rasionya, atau potong ke preset seperti 1:1, 4:5, atau 16:9. Berguna untuk avatar, thumbnail, dan formulir.",
+      "intro": "Pengubahan ukuran memakai jalur canvas berkualitas tinggi, dan kotak potong bisa digeser ke bagian terpenting foto sebelum ekspor.",
+      "steps": [
+        "Muat gambar.",
+        "Ketik lebar baru atau pilih preset rasio.",
+        "Seret bingkai potong untuk menempatkan subjek.",
+        "Terapkan dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Apakah memperbesar gambar membuatnya lebih tajam?",
+          "a": "Tidak ada alat yang bisa menciptakan detail; memperbesar hanya membuat file lebih membengkak. Jaga pembesaran di bawah 150 persen."
+        },
+        {
+          "q": "Bisakah saya mengubah ukuran banyak foto dengan aturan sama?",
+          "a": "Bisa, tambahkan semua file dan aturan yang sama akan berlaku untuk masing-masing."
+        }
+      ]
+    },
+    "image-to-base64": {
+      "desc": "Dapatkan data URI siap tempel dari gambar mana pun, lengkap dengan snippet CSS dan HTML yang sudah dibungkus, untuk ikon inline dan halaman luring.",
+      "intro": "Pengodean dilakukan dari byte file di memori. Berguna untuk logo yang ingin Anda inline-kan agar browser hanya membuat satu permintaan, bukan dua.",
+      "steps": [
+        "Pilih gambarnya.",
+        "Pilih keluaran: data URI, Base64 mentah, atau snippet CSS.",
+        "Salin hasilnya.",
+        "Tempel ke stylesheet atau HTML Anda."
+      ],
+      "faq": [
+        {
+          "q": "Seberapa besar file yang boleh?",
+          "a": "Simpan aset inline di bawah sekitar 30 KB; file yang lebih besar justru memperlambat halaman, bukan mempercepatnya."
+        },
+        {
+          "q": "Mengapa string-nya sepanjang itu?",
+          "a": "Base64 tumbuh sekitar 33 persen karena mengemas tiga byte menjadi empat karakter."
+        }
+      ]
+    },
+    "base64-to-image": {
+      "title": "Base64 ke Gambar",
+      "h1": "Ubah string Base64 kembali menjadi file gambar",
+      "desc": "Tempel data URI atau blok Base64 mentah, pratinjau gambarnya, lalu unduh sebagai PNG, JPG, atau WebP.",
+      "intro": "Berguna saat sebuah halaman atau email memberi Anda gambar dalam bentuk teks. Decoder menerima awalan mime, spasi, dan baris baru.",
+      "steps": [
+        "Tempel string-nya.",
+        "Periksa pratinjau.",
+        "Unduh gambar hasil decode."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa pratinjau tetap kosong?",
+          "a": "Biasanya string terpotong saat disalin. Base64 gambar yang valid panjangnya kelipatan empat karakter dan berakhiran padding = atau ==."
+        },
+        {
+          "q": "Bisakah ini mengodekan teks, bukan gambar?",
+          "a": "Gunakan alat Base64 encode/decode untuk string biasa."
+        }
+      ]
+    },
+    "qr-code-generator": {
+      "desc": "Buat QR code resolusi tinggi untuk URL, login Wi-Fi, vCard, SMS, atau teks biasa, dengan pilihan ukuran, margin, dan warna. Tanpa kedaluwarsa, tanpa akun.",
+      "intro": "Kode digambar di perangkat Anda sendiri, jadi tidak akan pernah kedaluwarsa atau diam-diam dialihkan ke tujuan lain — keunggulan nyata dibanding layanan QR dinamis.",
+      "steps": [
+        "Pilih jenis konten dan isi datanya.",
+        "Atur ukuran piksel, quiet zone, dan koreksi kesalahan.",
+        "Sesuaikan warna bila perlu, jaga kontras tetap kuat.",
+        "Unduh sebagai PNG atau SVG."
+      ],
+      "faq": [
+        {
+          "q": "Apakah QR code gratis bisa kedaluwarsa?",
+          "a": "Tidak, di sini tidak. Kode statis tercetak langsung di dalam gambarnya, jadi tetap berfungsi selama tautan tujuannya hidup."
+        },
+        {
+          "q": "Mengapa kode untuk tautan saya sangat padat?",
+          "a": "URL panjang membutuhkan simbol yang lebih besar. Perpendek tautannya, atau perbesar ukuran piksel dan koreksi kesalahan untuk dicetak."
+        }
+      ]
+    },
+    "favicon-generator": {
+      "desc": "Unggah logo dan unduh semua ukuran yang dibutuhkan situs: favicon.ico, PNG 16 hingga 180 px, Apple touch icon, dan tag HTML yang cocok.",
+      "intro": "Pemotongan dilakukan terpusat dan tiap ukuran dirender ulang secara terpisah, sehingga garis tipis tetap terbaca di 16 px alih-alih berbayang dari satu salinan yang diperbesar.",
+      "steps": [
+        "Tambahkan gambar persegi, idealnya 512 px atau lebih besar.",
+        "Pilih latar belakang atau pertahankan transparansi.",
+        "Klik Hasilkan.",
+        "Unduh zip-nya dan tempel snippet HTML ke bagian head Anda."
+      ],
+      "faq": [
+        {
+          "q": "File mana yang benar-benar saya butuhkan?",
+          "a": "favicon.ico untuk browser lama, PNG 32 px, apple-touch-icon 180 px, dan pasangan 192/512 px jika Anda memakai manifest."
+        },
+        {
+          "q": "Logo saya punya teks kecil dan teksnya hilang.",
+          "a": "Favicon membutuhkan tanda yang disederhanakan; simpan logo lengkap hanya untuk touch icon."
+        }
+      ]
+    },
+    "color-picker": {
+      "desc": "Dapatkan HEX, RGB, dan HSL persis dari piksel mana pun: klik di dalam gambar atau gunakan eyedropper layar, lalu susun palet yang serasi.",
+      "intro": "Di browser yang mendukung, eyedropper membaca apa pun di layar Anda, termasuk video atau file desain yang tidak bisa Anda ekspor.",
+      "steps": [
+        "Muat gambar, atau jalankan eyedropper layar.",
+        "Klik piksel yang Anda inginkan.",
+        "Salin HEX, RGB, atau HSL.",
+        "Bila perlu, ekstrak palet lengkap dari gambar tersebut."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa dua screenshot memberi nilai berbeda?",
+          "a": "Manajemen warna dan profil tampilan menggeser nilai yang dirender; alat ini melaporkan piksel tersimpan, yaitu nilai yang akan dikirim browser."
+        },
+        {
+          "q": "Apakah eyedropper berfungsi di ponsel?",
+          "a": "API layar hanya tersedia di desktop; unggah screenshot-nya lalu ketuk gambarnya sebagai gantinya."
+        }
+      ]
+    },
+    "image-to-gif": {
+      "title": "Gambar ke GIF",
+      "h1": "Buat GIF animasi dari sekumpulan gambar",
+      "desc": "Ubah rentetan foto atau frame menjadi GIF animasi yang berulang, dengan kendali atas jeda, jumlah loop, dan lebar akhir.",
+      "intro": "Pengodean berjalan di tab browser dan bukan di worker, jadi Anda mudah memantau progresnya dan membatalkan proses yang hasilnya akan terlalu besar.",
+      "steps": [
+        "Tambahkan frame sesuai urutan pemutaran yang diinginkan.",
+        "Atur lebar dan jeda antar frame.",
+        "Pilih loop terus-menerus atau jumlah tertentu.",
+        "Klik Buat GIF dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa GIF saya besar sekali?",
+          "a": "GIF hanya punya 256 warna dan tidak efisien. Kurangi frame, perkecil lebar, atau simpan saja klip WebM/MP4."
+        },
+        {
+          "q": "Bisakah saya membuat GIF dari video?",
+          "a": "Belum di versi ini; unggah frame yang Anda inginkan, atau potong klipnya dulu dengan alat video."
+        }
+      ]
+    },
+    "trim-audio": {
+      "title": "Potong Audio",
+      "h1": "Potong file MP3, WAV, dan M4A secara online",
+      "desc": "Atur titik masuk dan keluar, tambahkan fade-out, dan ekspor klip WAV bersih atau siap MP3. Tidak ada yang diunggah, jadi rekaman pribadi tetap pribadi.",
+      "intro": "Decoding memakai mesin audio browser Anda, lalu jendela sampel ditulis ke WAV 16-bit. Cocok untuk nada dering, intro podcast, atau rekaman kelas.",
+      "steps": [
+        "Muat file audio.",
+        "Putar dan tandai awal serta akhirnya, atau ketik angka detiknya.",
+        "Tambahkan fade-out jika potongannya terdengar mendadak.",
+        "Klik Potong dan unduh."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa WAV hasilnya terdengar sama tetapi lebih besar?",
+          "a": "WAV tidak dikompresi. Lewatkan file ekspor itu ke alat audio sejenis lainnya, atau encode ke MP3 dengan pemutar biasa Anda."
+        },
+        {
+          "q": "Apakah bisa memotong sangat presisi di tengah lagu?",
+          "a": "Resolusinya satu sampel, jadi ketik timestamp-nya atau geser per 0.05 s untuk potongan yang rapi."
+        }
+      ]
+    },
+    "compress-video": {
+      "title": "Kompres Video",
+      "h1": "Perkecil ukuran video di browser",
+      "desc": "Encode ulang klip menjadi WebM dengan resolusi atau bitrate lebih rendah agar muat di email, unggahan formulir, atau halaman web. File tetap di perangkat Anda.",
+      "intro": "Caranya memutar klip, menggambar ulang tiap frame di canvas, lalu merekam canvas tersebut — jadi prosesnya berjalan waktu nyata dan menghasilkan file WebM.",
+      "steps": [
+        "Buka video.",
+        "Pilih skala dan bitrate target.",
+        "Klik Mulai dan biarkan berjalan; pemutaran dan konversi terjadi bersamaan.",
+        "Unduh file .webm hasilnya."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa saya harus menunggu sepanjang klip?",
+          "a": "Perekaman berjalan langsung dari pemutaran. Video berdurasi dua menit butuh dua menit."
+        },
+        {
+          "q": "Apakah audionya dipertahankan?",
+          "a": "Ya, bila browser Anda mendukung perekaman track audio; jika klip memakai codec tidak biasa, audio bisa terbuang, dan alat ini akan memperingatkan Anda."
+        }
+      ]
+    },
+    "image-contrast-brightness": {
+      "title": "Atur Foto",
+      "h1": "Ubah kecerahan, kontras, dan saturasi gambar",
+      "desc": "Perbaiki foto gelap, cerahkan foto pudar, ubah ke grayscale, atau buramkan latar dengan slider langsung, lalu ekspor hasilnya.",
+      "intro": "Semua filter adalah operasi CSS-canvas, jadi Anda melihat hasilnya sebelum mengekspor dan file asli tidak pernah tertimpa.",
+      "steps": [
+        "Muat gambar.",
+        "Geser slider; pratinjau di sisi kanan langsung terupdate.",
+        "Opsional: terapkan grayscale, sepia, atau blur.",
+        "Ekspor sebagai PNG atau JPG."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini bisa memperbaiki foto dengan eksposur buruk?",
+          "a": "Alat ini bisa mengangkat bayangan dan menyeimbangkan ulang kontras, tetapi detail yang hilang karena clipping tidak bisa dikembalikan."
+        },
+        {
+          "q": "Bisakah saya memakai pengaturan yang sama di foto lain?",
+          "a": "Bisa, tambahkan semua file sebelum menekan Terapkan dan setelan slider yang sama akan dipakai untuk tiap file."
+        }
+      ]
+    }
+  }
+}

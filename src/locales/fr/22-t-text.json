@@ -1,0 +1,351 @@
+{
+  "t": {
+    "word-counter": {
+      "desc": "Comptez mots, caractères, phrases, paragraphes, temps de lecture et répétitions de mots-clés en tapant. Pratique pour dissertations, tweets et briefs SEO.",
+      "intro": "Le comptage est local et instantané, et la liste de mots-clés vous dit quelles expressions vous utilisez trop.",
+      "steps": [
+        "Collez votre texte.",
+        "Lisez les totaux : mots, caractères avec et sans espaces, phrases, paragraphes.",
+        "Consultez le temps de lecture et le temps de parole.",
+        "Parcourez les mots les plus répétés."
+      ],
+      "faq": [
+        {
+          "q": "Comment le temps de lecture est-il calculé ?",
+          "a": "200 mots par minute pour la lecture silencieuse et 150 pour la parole, les chiffres rédactionnels usuels."
+        },
+        {
+          "q": "Les mots avec trait d'union comptent-ils une fois ?",
+          "a": "Oui, ils comptent comme un seul mot, comme le font la plupart des limites scolaires et de publication."
+        }
+      ]
+    },
+    "case-converter": {
+      "title": "Convertisseur de casse",
+      "h1": "Passer un texte en MAJUSCULES, en minuscules ou avec la majuscule à chaque mot",
+      "desc": "Passez un bloc de texte en majuscule à chaque mot, en majuscule en début de phrase, en camelCase, snake_case, kebab-case ou casse inversée, en un seul clic.",
+      "intro": "Les règles tiennent compte de la langue : les petits mots comme of et the restent en minuscules dans les titres, et les sorties snake ou kebab conviennent aux noms de fichiers et au code.",
+      "steps": [
+        "Collez le texte.",
+        "Choisissez une casse.",
+        "Copiez ou téléchargez le résultat."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi la casse de titre n'est-elle pas parfaite sur mes titres ?",
+          "a": "Les sigles et les noms de marques font exception ; corrigez-les dans la sortie ou désactivez les titres intelligents."
+        },
+        {
+          "q": "Gère-t-il les accents ?",
+          "a": "Oui, la conversion tient compte d'Unicode, donc É, ß et ı gardent les règles de leur langue autant que possible."
+        }
+      ]
+    },
+    "remove-duplicate-lines": {
+      "title": "Supprimer les lignes dupliquées",
+      "h1": "Nettoyer une liste : dédupliquer, trier et rogner les lignes",
+      "desc": "Supprimez les lignes répétées d'une liste, ignorez la casse, enlevez les espaces parasites et les lignes vides, puis triez de A à Z ou par longueur.",
+      "intro": "Usage typique : coller une liste de courriels ou de téléphones depuis un tableur et se retrouver avec une seule colonne propre, prête à importer.",
+      "steps": [
+        "Collez la liste.",
+        "Cochez les options de nettoyage dont vous avez besoin.",
+        "Regardez combien de lignes ont été retirées.",
+        "Copiez ou téléchargez le résultat."
+      ],
+      "faq": [
+        {
+          "q": "Une ligne avec une espace finale est-elle considérée comme unique ?",
+          "a": "Seulement si Supprimer les espaces est désactivé ; activez-le pour rattraper les différences invisibles."
+        },
+        {
+          "q": "Puis-je garder les doublons visibles ?",
+          "a": "Oui, lancez d'abord Compter les doublons pour voir chaque ligne avec son nombre d'occurrences."
+        }
+      ]
+    },
+    "lorem-ipsum-generator": {
+      "desc": "Générez exactement la quantité de texte fictif dont votre maquette a besoin — mots, phrases ou paragraphes —, y compris l'ouverture classique de Cicéron.",
+      "intro": "Utile pour les designers qui ont besoin de longueurs de ligne réalistes sans inventer de contenu, et pour les développeurs qui remplissent un tableau avec des données crédibles.",
+      "steps": [
+        "Choisissez paragraphes, phrases ou mots.",
+        "Fixez la quantité.",
+        "Décidez de commencer par Lorem ipsum dolor sit amet.",
+        "Copiez le texte."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi employer du faux texte en latin ?",
+          "a": "Cela empêche les commanditaires de lire les mots et de les discuter, donc la conversation reste centrée sur la mise en page."
+        },
+        {
+          "q": "Puis-je obtenir de l'anglais réaliste à la place ?",
+          "a": "Cochez l'option lisible pour employer du texte anglais simple lors des revues d'accessibilité."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "desc": "Encodez du texte en Base64 ou décodez-le en retour, avec l'alphabet sûr pour l'URL et des erreurs de caractère invalide immédiates.",
+      "intro": "Le Base64 est la façon dont les jetons, les en-têtes et les ressources en ligne traversent sans risque des systèmes qui n'acceptent que des caractères simples.",
+      "steps": [
+        "Saisissez ou collez l'entrée.",
+        "Choisissez Encoder ou Décoder.",
+        "Sélectionnez l'alphabet sûr pour l'URL si la valeur doit aller dans une chaîne de requête.",
+        "Copiez le résultat."
+      ],
+      "faq": [
+        {
+          "q": "Le Base64 est-il un chiffrement ?",
+          "a": "Non. C'est un encodage réversible sans secret, donc ne l'utilisez jamais pour protéger un mot de passe."
+        },
+        {
+          "q": "Pourquoi le décodage échoue-t-il ?",
+          "a": "Le plus souvent un caractère parasite ou une longueur qui n'est pas un multiple de quatre ; l'outil pointe la position en cause."
+        }
+      ]
+    },
+    "url-encode-decode": {
+      "title": "Encoder / décoder une URL",
+      "h1": "Échapper et déséchapper les composantes d'une URL",
+      "desc": "Encodez en pourcent une valeur de requête ou une URL entière, ou décodez une chaîne échappée en texte lisible, avec la logique de encodeURIComponent.",
+      "intro": "Le ticket d'assistance le plus courant — un lien qui casse à cause d'une espace, d'un esperluette ou d'un caractère accentué — se règle ici en une étape.",
+      "steps": [
+        "Collez la valeur.",
+        "Choisissez le mode composante, chemin ou URL complète.",
+        "Encodez ou décodez.",
+        "Copiez le résultat sûr."
+      ],
+      "faq": [
+        {
+          "q": "Quelle différence entre encodeURI et encodeURIComponent ?",
+          "a": "encodeURIComponent échappe aussi des caractères légaux dans la structure d'une URL, ce qui est précisément ce qu'on veut pour une seule valeur de requête."
+        },
+        {
+          "q": "Pourquoi un signe plus diffère-t-il de %20 ?",
+          "a": "Les formulaires emploient + pour les espaces, les URL réelles emploient %20. L'outil montre les deux pour que vous vous aligniez sur votre serveur."
+        }
+      ]
+    },
+    "html-entities": {
+      "title": "Échapper du HTML",
+      "h1": "Échapper et déséchapper les entités HTML",
+      "desc": "Transformez <, >, &, les guillemets et les lettres accentuées en entités sûres, ou convertissez les entités en caractères pour l'affichage.",
+      "intro": "Employez-le quand vous collez du code dans un blog, que vous remplissez un champ de CMS qui avale vos balises, ou que vous nettoyez une page aspirée.",
+      "steps": [
+        "Collez votre balisage ou votre texte.",
+        "Appuyez sur Échapper ou Déséchapper.",
+        "Copiez le résultat."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi mon CMS continue-t-il à supprimer mes balises ?",
+          "a": "Son éditeur les analyse comme du HTML. Échappez d'abord le bloc et il survivra intact."
+        },
+        {
+          "q": "Convertit-il les entités numériques ?",
+          "a": "Oui, les formes nommées comme les formes numériques décimales ou hexadécimales sont reconnues."
+        }
+      ]
+    },
+    "reverse-text": {
+      "title": "Texte à l'envers",
+      "h1": "Retourner un texte, le basculer tête en bas ou le mettre en miroir",
+      "desc": "Écrivez une chaîne à l'envers, produisez de l'Unicode tête en bas pour les réseaux sociaux, ou inversez l'ordre des mots sans chambouler chaque mot.",
+      "intro": "Populaire pour les biographies et les autocollants, et vraiment utile quand il faut un miroir visuel rapide d'un libellé.",
+      "steps": [
+        "Saisissez le texte.",
+        "Choisissez l'envers, la tête en bas ou l'ordre des mots.",
+        "Copiez la sortie."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi certaines lettres ne basculent-elles pas ?",
+          "a": "Quelques glyphes n'ont pas d'équivalent miroir en Unicode ; ils sont gardés tels quels pour que le texte reste lisible."
+        },
+        {
+          "q": "Conserve-t-il les emoji ?",
+          "a": "Les séquences d'emoji composées restent ensemble au lieu de se scinder en drapeaux séparés."
+        }
+      ]
+    },
+    "json-formatter": {
+      "desc": "Mettez en forme un JSON désordonné, repérez la ligne d'une erreur de syntaxe, triez les clés, minifiez la charge utile, puis repliez l'arborescence.",
+      "intro": "Les développeurs collent ici une réponse d'API pour la lire ; le message d'erreur pointe le caractère fautif au lieu de dire simplement JSON invalide.",
+      "steps": [
+        "Collez le JSON.",
+        "Appuyez sur Mettre en forme, et réglez l'indentation s'il vous faut 2 ou 4 espaces.",
+        "Corrigez l'erreur signalée puis relancez.",
+        "Utilisez Minifier quand le fichier doit être déployé."
+      ],
+      "faq": [
+        {
+          "q": "Accepte-t-il le JSON Lines ?",
+          "a": "Oui, un objet par ligne est détecté puis mis en forme comme une séquence."
+        },
+        {
+          "q": "Pourquoi mes grands nombres sont-ils arrondis ?",
+          "a": "JavaScript ne peut pas les conserver comme entiers ; l'outil les garde sous forme de chaîne quand Conserver les grands nombres est activé."
+        }
+      ]
+    },
+    "csv-to-json": {
+      "desc": "Téléversez ou collez une exportation de tableur et obtenez un tableau d'objets, en gérant guillemets, séparateurs de milliers et cellules vides.",
+      "intro": "Un véritable analyseur RFC-4180 est employé, donc les virgules entre guillemets et les sauts de ligne embarqués ne décalent pas les colonnes.",
+      "steps": [
+        "Collez le texte CSV ou déposez un fichier .csv.",
+        "Réglez le séparateur et indiquez si la première ligne porte les en-têtes.",
+        "Appuyez sur Convertir.",
+        "Téléchargez le .json ou copiez-le."
+      ],
+      "faq": [
+        {
+          "q": "Les nombres deviennent-ils des nombres ?",
+          "a": "Oui, et les dates ISO restent des chaînes. Désactivez l'inférence de type pour tout conserver en texte."
+        },
+        {
+          "q": "Puis-je faire l'inverse ?",
+          "a": "Utilisez l'action d'export CSV du Formateur JSON pour un tableau plat d'objets."
+        }
+      ]
+    },
+    "markdown-to-html": {
+      "desc": "Collez du Markdown et copiez le HTML obtenu, avec les tableaux, le code encadré, les liens façon notes de bas de page et l'option de façon GitHub.",
+      "intro": "Le même moteur de rendu alimente la documentation du site, donc ce que vous voyez en prévisualisation est ce que vous copiez.",
+      "steps": [
+        "Écrivez ou collez du Markdown.",
+        "Suivez les volets HTML en direct et prévisualisation.",
+        "Copiez le HTML ou téléchargez le fichier."
+      ],
+      "faq": [
+        {
+          "q": "Assainit-il la sortie ?",
+          "a": "Le HTML brut est transmis tel quel, car c'est du Markdown valide ; ajoutez un assainisseur avant d'afficher une entrée non fiable."
+        },
+        {
+          "q": "Puis-je retrouver le Markdown depuis le HTML ?",
+          "a": "Pas avec cet outil ; il est volontairement unidirectionnel pour garder la prévisualisation rapide."
+        }
+      ]
+    },
+    "hash-generator": {
+      "desc": "Obtenez l'empreinte d'un message ou la somme de contrôle d'un fichier pour vérifier un téléchargement, dans l'algorithme qu'attend votre système.",
+      "intro": "Les empreintes fortes viennent du moteur cryptographique du navigateur ; le MD5 est implémenté en local pour la seule compatibilité avec l'existant.",
+      "steps": [
+        "Saisissez le texte, ou chargez un fichier.",
+        "Choisissez un ou plusieurs algorithmes.",
+        "Copiez les empreintes.",
+        "Comparez-les avec la somme de contrôle publiée."
+      ],
+      "faq": [
+        {
+          "q": "Le MD5 est-il sûr ?",
+          "a": "Non — on peut provoquer des collisions en pratique. Ne l'employez que comme empreinte de compatibilité, jamais pour la sécurité."
+        },
+        {
+          "q": "Puis-je hacher un mot de passe ?",
+          "a": "Vous ne devriez pas. Un mot de passe demande une fonction lente et salée comme bcrypt ou Argon2, qu'un outil de navigateur ne devrait pas exécuter à votre place."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "desc": "Créez autant d'identifiants de version 4 que nécessaire, au format attendu par votre outil : avec tirets, avec accolades, en majuscules ou en brut.",
+      "intro": "Les valeurs viennent de la source aléatoire cryptographique du navigateur, donc elles conviennent aux clés, aux sessions et aux données de test.",
+      "steps": [
+        "Indiquez combien d'UUID vous voulez.",
+        "Choisissez le format.",
+        "Copiez la liste ou téléchargez-la."
+      ],
+      "faq": [
+        {
+          "q": "Sont-ils vraiment uniques ?",
+          "a": "La version 4 utilise 122 bits aléatoires ; les collisions sont astronomiquement improbables sauf si vous en générez des milliards."
+        },
+        {
+          "q": "Qu'est-ce que la version 7 ?",
+          "a": "Un UUID trié par le temps qui garde les insertions séquentielles dans un index de base de données, utile pour les grandes tables."
+        }
+      ]
+    },
+    "password-generator": {
+      "desc": "Créez un mot de passe mémorable ou difficile à deviner, avec la longueur et les symboles voulus, voyez sa force et copiez-le sans passer par un serveur.",
+      "intro": "Les suggestions sont tirées de la source aléatoire du navigateur à l'intérieur de la page, donc rien n'est transmis ni journalisé.",
+      "steps": [
+        "Réglez la longueur ; 16 caractères ou plus correspond au conseil actuel.",
+        "Choisissez les jeux de caractères dont vous avez besoin.",
+        "Appuyez sur Générer.",
+        "Copiez-le dans votre gestionnaire de mots de passe."
+      ],
+      "faq": [
+        {
+          "q": "Un générateur en ligne est-il sûr ?",
+          "a": "Celui-ci tourne entièrement dans la page et n'envoie rien où que ce soit, ce que vous pouvez vérifier dans l'onglet réseau."
+        },
+        {
+          "q": "Devrais-je plutôt employer un gestionnaire de mots de passe ?",
+          "a": "Oui. Générez ici, stockez là, et ne réutilisez jamais un mot de passe d'un site à l'autre."
+        }
+      ]
+    },
+    "regex-tester": {
+      "desc": "Confrontez un motif à un texte d'exemple avec surlignage en direct, le détail des groupes capturants, les attributs et une explication en langage clair.",
+      "intro": "Écrivez le motif une fois au lieu de deviner : chaque correspondance est surlignée et chaque groupe est listé avec sa position.",
+      "steps": [
+        "Saisissez le motif et les attributs.",
+        "Collez la chaîne de test.",
+        "Lisez les correspondances surlignées et les groupes.",
+        "Ouvrez l'explication pour une décomposition jeton par jeton."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi mon motif fonctionne-t-il ailleurs mais pas ici ?",
+          "a": "JavaScript n'a pas de look-behind dans les anciens moteurs et pas de syntaxe d'ensembles nommés ; le testeur signale la différence de moteur."
+        },
+        {
+          "q": "Protège-t-il du backtracking catastrophique ?",
+          "a": "Les motifs qui explosent sont interrompus par un délai avec un avertissement clair, au lieu de figer l'onglet."
+        }
+      ]
+    },
+    "diff-checker": {
+      "desc": "Comparez ligne à ligne deux versions d'un fichier, d'un contrat ou d'un article, avec ajouts et suppressions colorés et un résumé prêt à copier.",
+      "intro": "Idéal avant de renvoyer un document à un collègue : il montre exactement quelles phrases ont bougé.",
+      "steps": [
+        "Collez l'original à gauche et la version modifiée à droite.",
+        "Ignorez la casse ou les espaces si le bruit de formatage vous gêne.",
+        "Lisez le différentiel coloré.",
+        "Copiez seulement les lignes modifiées si vous en avez besoin."
+      ],
+      "faq": [
+        {
+          "q": "Quelle taille maximale pour les fichiers ?",
+          "a": "Quelques milliers de lignes restent confortables ; au-delà, un outil de comparaison dédié sert mieux le navigateur."
+        },
+        {
+          "q": "Traite-t-il les changements au mot ?",
+          "a": "Oui, quand une ligne diffère, l'outil retombe sur une comparaison par mots à l'intérieur de cette ligne."
+        }
+      ]
+    },
+    "text-to-speech": {
+      "title": "Synthèse vocale",
+      "h1": "Lire un texte à voix haute avec une voix naturelle du navigateur",
+      "desc": "Transformez n'importe quel paragraphe en parole, choisissez une voix et une langue, réglez la vitesse et le ton, et relisez un script à l'oreille.",
+      "intro": "Les voix sont celles que votre système d'exploitation a déjà installées — pas de compte, pas de téléchargement, et cela marche sans réseau sur la plupart des appareils.",
+      "steps": [
+        "Collez le texte.",
+        "Choisissez une voix ; la liste reflète votre système.",
+        "Réglez la vitesse et le ton.",
+        "Appuyez sur Lecture."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je télécharger l'audio ?",
+          "a": "Pas directement ; l'API du navigateur le diffuse en flux. Utilisez l'enregistreur audio de votre système si vous avez besoin d'un fichier."
+        },
+        {
+          "q": "Pourquoi y a-t-il peu de voix ?",
+          "a": "Le nombre dépend du système d'exploitation et des packs de langues installés. Windows et macOS permettent d'en ajouter."
+        }
+      ]
+    }
+  }
+}

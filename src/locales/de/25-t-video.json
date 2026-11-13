@@ -1,0 +1,48 @@
+{
+  "t": {
+    "screen-recorder": {
+      "title": "Bildschirmrekorder",
+      "h1": "Bildschirm kostenlos online aufnehmen",
+      "desc": "Nimm Bildschirm, Fenster oder Tab mit optionalem Systemton auf. Aufnehmen, stoppen, ansehen und als WebM herunterladen — ohne Installation und Upload.",
+      "intro": "Der Bildschirmrekorder nutzt die Display-Capture-API des Browsers, um den gesamten Bildschirm, ein einzelnes Fenster oder einen Tab aufzunehmen — mit Ton, wo unterstützt. Das Video wird lokal zusammengesetzt und als Download angeboten; es berührt niemals einen Server.",
+      "steps": [
+        "Klicke auf „Aufnehmen“ und wähle, was du teilen möchtest (Bildschirm, Fenster oder Tab).",
+        "Aktiviere im Freigabedialog optional den Ton.",
+        "Klicke auf „Stoppen“ oder beende die Freigabe, wenn du fertig bist.",
+        "Sieh dir den Clip an und lade das WebM herunter."
+      ],
+      "faq": [
+        {
+          "q": "Welche Browser unterstützen die Bildschirmaufnahme?",
+          "a": "Chrome und Edge auf dem Desktop bieten die zuverlässigste Bildschirmaufnahme, auch Firefox unterstützt sie. Mobile Browser können es in der Regel nicht — nutze einen Desktop-Browser."
+        },
+        {
+          "q": "Kann auch der Systemton aufgenommen werden?",
+          "a": "Wenn du einen Tab oder den ganzen Bildschirm teilst, bietet der Dialog eine Tonoption. Ob der Systemton enthalten ist, hängt vom Browser und von der geteilten Quelle ab."
+        }
+      ]
+    },
+    "webcam-recorder": {
+      "title": "Webcam-Rekorder",
+      "h1": "Video online mit der Webcam aufnehmen",
+      "desc": "Nimm dich im Browser mit Kamera und Mikrofon selbst auf. Sieh die Live-Vorschau, klicke auf Aufnehmen und lade herunter — kostenlos, ohne Software.",
+      "intro": "Der Webcam-Rekorder zeigt eine Live-Vorschau deiner Kamera, nimmt sie zusammen mit dem Mikrofon über MediaRecorder auf und speichert den Clip lokal für Vorschau und Download. Das Video verlässt dein Gerät nur, wenn du es selbst herunterlädst.",
+      "steps": [
+        "Klicke auf „Aufnehmen“ und erlaube den Zugriff auf Kamera und Mikrofon.",
+        "Prüfe die Live-Vorschau und richte deinen Bildausschnitt ein.",
+        "Klicke auf „Stoppen“, wenn du fertig bist.",
+        "Sieh dir die Aufnahme an und lade sie herunter."
+      ],
+      "faq": [
+        {
+          "q": "Wird das Video irgendwohin hochgeladen?",
+          "a": "Nein. Es wird im Browser aufgenommen und gespeichert und dann als lokaler Download angeboten. Nichts wird an einen Server gesendet."
+        },
+        {
+          "q": "In welchem Format wird aufgenommen?",
+          "a": "Als WebM-Video (VP8/VP9 mit Opus-Ton), sofern der Browser es unterstützt; das läuft in modernen Browsern und den meisten Editoren. Manche Browser erzeugen möglicherweise MP4."
+        }
+      ]
+    }
+  }
+}

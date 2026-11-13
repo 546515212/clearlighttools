@@ -1,0 +1,11 @@
+{
+ "log": [
+  "fetched 2425 @10ms",
+  "lib global workerSrc= @10ms",
+  "doc pages=3 @89ms",
+  "page1 @89ms",
+  "viewport 840x1120 @90ms",
+  "render called @90ms",
+  "toBlob 5849 @100ms"
+ ]
+}

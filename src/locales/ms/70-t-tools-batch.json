@@ -1,0 +1,202 @@
+{
+  "t": {
+    "zero-width-watermark": {
+      "title": "Tera Air Lebar Sifar",
+      "h1": "Tera air lebar sifar — sembunyikan teks dalam teks",
+      "desc": "Sembunyikan mesej rahsia dalam teks biasa dengan aksara Unicode lebar sifar halimunan. Kekal selepas salin-tampal. Benam atau dedahkan percuma, dalam pelayar.",
+      "intro": "Alat ini menyembunyikan mesej rahsia di dalam teks yang kelihatan biasa dengan mengodkannya sebagai aksara Unicode lebar sifar halimunan (U+200B dan U+200C) yang dibalut dalam pencantum perkataan. Teks pembawa dibaca sama sahaja, tetapi muatan tersembunyi ikut bersamanya apabila anda menyalin dan menampal. Tukar kepada Dedahkan untuk mengeluarkan mesej daripada teks bertera air. Ini ialah pengaburan, bukan penyulitan: apa-apa yang membuang pemformatan atau menormalkan Unicode akan mengeluarkan tera itu, jadi jangan sekali-kali gunakannya untuk kata laluan atau data sensitif.",
+      "steps": [
+        "Taip teks pembawa yang kelihatan.",
+        "Taip mesej rahsia untuk disembunyikan.",
+        "Tekan Benamkan dan salin teks bertera air.",
+        "Untuk membacanya semula, tampalkannya ke dalam mod Dedahkan."
+      ],
+      "faq": [
+        {
+          "q": "Adakah mesej tersembunyi bertahan melalui salin-tampal?",
+          "a": "Ya, melalui salin-tampal teks biasa, kerana aksara lebar sifar ialah sebahagian daripada rentetan. Tetapi editor teks kaya, platform sosial dan mana-mana alat yang menormalkan Unicode atau membuang pemformatan boleh mengeluarkannya, jadi sentiasa uji pada destinasi."
+        },
+        {
+          "q": "Adakah ini penyulitan yang selamat?",
+          "a": "Tidak. Ia ialah steganografi melalui pengaburan — sesiapa yang tahu mencari aksara lebar sifar boleh mendedahkan mesej itu. Gunakan alat sulitkan/nyahsulit AES untuk kerahsiaan sebenar."
+        }
+      ]
+    },
+    "css-generator": {
+      "title": "Penjana Bayang & Grid CSS",
+      "h1": "Penjana CSS — bayang kotak, jejari dan grid",
+      "desc": "Jana box-shadow, border-radius dan susun atur grid CSS secara visual. Seret peluncur, lihat pratonton langsung dan salin CSS. Percuma, tanpa daftar.",
+      "intro": "Reka bentuk CSS secara visual dan bukannya meneka nombor. Dalam mod Kotak, seret peluncur untuk ofset bayang, kabur, sebaran, jejari penjuru, warna dan kelegapan, dengan bayang inset pilihan, dan lihat pratonton langsung dikemas kini. Dalam mod Grid, tetapkan bilangan lajur, jurang, bilangan item dan tinggi baris untuk menyusun grid responsif. CSS yang sepadan dijana semasa anda bekerja — salin terus ke dalam lembaran gaya anda. Semuanya berjalan dalam pelayar anda.",
+      "steps": [
+        "Pilih Bayang & jejari kotak atau Susun atur grid.",
+        "Seret peluncur untuk membentuk kesan.",
+        "Lihat pratonton dan CSS dikemas kini secara langsung.",
+        "Salin CSS yang dijana ke dalam projek anda."
+      ],
+      "faq": [
+        {
+          "q": "Apakah CSS yang dijana?",
+          "a": "CSS standard yang sedia disalin: peraturan .box dengan background, border-radius dan box-shadow, atau peraturan .grid menggunakan display:grid dengan grid-template-columns dan gap. Tiada awalan vendor diperlukan untuk sifat ini dalam pelayar moden."
+        },
+        {
+          "q": "Bolehkah saya menggunakan CSS grid pada laman sebenar?",
+          "a": "Ya. Peraturan grid menggunakan repeat() dan lajur pecahan, jadi ia responsif. Tampalkannya ke dalam lembaran gaya anda dan letakkan kandungan anda di dalam bekas grid."
+        }
+      ]
+    },
+    "json-to-svg": {
+      "title": "Rajah JSON ke SVG",
+      "h1": "JSON ke SVG — gambarkan pokok struktur",
+      "desc": "Tukar JSON menjadi pokok struktur SVG berwarna-warni. Tampal objek atau tatasusunan, render rajah, muat turun SVG atau salin penandanya. Percuma, setempat.",
+      "intro": "Tampal mana-mana objek atau tatasusunan JSON dan alat ini menghuraikannya serta menyusunnya sebagai pokok struktur kiri-ke-kanan, dilukis sebagai SVG berwarna-warni sepenuhnya dalam pelayar anda. Setiap kunci menjadi nod, objek dan tatasusunan tersarang bercabang keluar, dan nilai daun dipaparkan sebaris. Muat turun hasilnya sebagai SVG yang boleh anda masukkan ke dalam dokumentasi atau slaid, atau salin penanda mentah. Tatasusunan besar dihadkan kepada 40 cabang dan lapan aras dalam untuk memastikan rajah mudah dibaca.",
+      "steps": [
+        "Tampal JSON anda ke dalam input.",
+        "Tekan Render rajah.",
+        "Periksa pratonton pokok struktur.",
+        "Muat turun SVG atau salin penandanya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah bentuk JSON yang disokong?",
+          "a": "Mana-mana JSON yang sah: objek, tatasusunan, rentetan, nombor, boolean dan null. Objek dan tatasusunan menjadi nod bercabang; nilai primitif dipaparkan sebagai daun. JSON tidak sah melaporkan ralat yang jelas dan bukannya melukis."
+        },
+        {
+          "q": "Bolehkah SVG disunting?",
+          "a": "Ya. Ia ialah penanda SVG biasa, jadi anda boleh membukanya dalam mana-mana editor vektor atau menampalnya ke dalam HTML. Muat turun itu ialah fail .svg serba lengkap tanpa pergantungan luaran."
+        }
+      ]
+    },
+    "encrypt-decrypt": {
+      "title": "Sulitkan / Nyahsulit Teks",
+      "h1": "Sulitkan / nyahsulit teks AES dalam talian",
+      "desc": "Sulitkan dan nyahsulit teks dengan AES-256-GCM dan frasa laluan, terus dalam pelayar anda. Terbitan kunci PBKDF2, tiada muat naik. Percuma dan peribadi.",
+      "intro": "Lindungi mesej dengan kriptografi moden yang kukuh tanpa memasang apa-apa. Taip teks anda dan frasa laluan, kemudian Sulitkan: alat ini menerbitkan kunci 256-bit dengan PBKDF2 (150,000 lelaran, SHA-256) dan menyulitkan dengan AES-GCM, membungkus salt rawak dan IV ke dalam output base64 supaya frasa laluan sahaja sudah cukup untuk menyahsulit kemudian. Tampal teks sulit dan frasa laluan yang sama untuk Nyahsulit. Semuanya menggunakan Web Crypto API pelayar dan tidak pernah meninggalkan peranti anda.",
+      "steps": [
+        "Taip atau tampal teks.",
+        "Masukkan frasa laluan yang kukuh.",
+        "Tekan Sulitkan untuk menghasilkan teks sulit.",
+        "Untuk menterbalikkannya, tampal teks sulit dan Nyahsulit."
+      ],
+      "faq": [
+        {
+          "q": "Sejauh mana selamatnya ini?",
+          "a": "Ia menggunakan AES-256-GCM, suatu standard penyulitan disahkan, dengan kunci yang diterbitkan oleh PBKDF2 pada 150,000 lelaran. Keselamatan bergantung pada frasa laluan anda yang kukuh dan rahsia; salt dan IV adalah rawak bagi setiap penyulitan."
+        },
+        {
+          "q": "Bolehkah saya menyahsulit tanpa laman ini?",
+          "a": "Output ialah base64 standard yang membungkus salt (16 bait), IV (12 bait) dan teks sulit AES-GCM. Mana-mana pustaka yang menghasilkan semula PBKDF2-SHA256 pada 150,000 lelaran dan AES-256-GCM boleh menyahsulitnya dengan frasa laluan yang sama."
+        }
+      ]
+    },
+    "image-mosaic": {
+      "title": "Mozek & Kabur Foto",
+      "h1": "Mozek foto — pikselkan dan kaburkan secara setempat",
+      "desc": "Pikselkan atau kaburkan wajah, plat nombor dan butiran peribadi dalam foto dengan seretan berus. Sunting pada kanvas, muat turun PNG. Percuma, tanpa muat naik.",
+      "intro": "Sembunyikan bahagian sensitif imej tanpa menghantarnya ke mana-mana. Muat naik foto, pilih Pikselkan atau Kabur, tetapkan saiz dan kekuatan berus, kemudian seret merentas wajah, plat nombor atau dokumen yang anda mahu kaburkan. Kesan diterapkan pada kanvas dalam pelayar anda; pulihkan asal pada bila-bila masa dan muat turun hasilnya sebagai PNG. Tiada apa-apa dimuat naik.",
+      "steps": [
+        "Muat naik foto.",
+        "Pilih Pikselkan atau Kabur dan tetapkan berus.",
+        "Seret pada kawasan untuk disembunyikan.",
+        "Muat turun PNG yang disunting."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah pemikselan diterbalikkan?",
+          "a": "Pemikselan kuat memuratakan setiap blok kepada satu warna, memusnahkan butiran asal, jadi ia tidak boleh dibuat asal daripada output. Gunakan saiz blok kasar untuk data sensitif; kabur ringan kadangkala boleh dipertingkatkan, jadi utamakan pemikselan untuk wajah dan plat."
+        },
+        {
+          "q": "Adakah foto saya dimuat naik?",
+          "a": "Tidak. Imej dilukis dan disunting pada kanvas sepenuhnya dalam pelayar anda, dan PNG dijana secara setempat. Tiada apa-apa dihantar ke pelayan."
+        }
+      ]
+    },
+    "grid-splitter": {
+      "title": "Pembahagi Grid Imej",
+      "h1": "Pembahagi grid imej — sembilan petak dan NxN",
+      "desc": "Potong imej ke grid sembilan petak 3×3 atau susun atur NxN untuk media sosial. Pangkas ke segi empat sama, muat turun kepingan sebagai ZIP. Percuma, setempat.",
+      "intro": "Potong satu gambar menjadi grid bersambung untuk Instagram, Weibo atau mana-mana suapan sosial. Muat naik imej, pilih grid dari 2×2 hingga 6×6 (3×3 ialah sembilan petak klasik), dan jika mahu pangkas ke segi empat sama dahulu supaya setiap kepingan berbentuk segi empat sama. Alat ini memotongnya pada kanvas dalam pelayar anda, kemudian anda muat turun kepingan secara individu atau sebagai satu ZIP, sedia untuk disiarkan mengikut turutan. Tiada apa-apa dimuat naik.",
+      "steps": [
+        "Muat naik imej yang anda mahu bahagikan.",
+        "Pilih saiz grid, cth. 3×3.",
+        "Hidupkan Pangkas ke segi empat sama untuk kepingan segi empat sama.",
+        "Bahagi dan muat turun kepingan atau ZIP."
+      ],
+      "faq": [
+        {
+          "q": "Bagaimana saya menyiarkan sembilan petak yang bersambung?",
+          "a": "Bahagi kepada 3×3, muat turun ZIP, dan muat naik sembilan kepingan ke apl sosial anda mengikut turutan bernombor (grid-01 hingga grid-09). Kebanyakan apl membolehkan anda memilih berbilang imej serentak; kekalkan turutan supaya gambar bersambung dengan betul."
+        },
+        {
+          "q": "Mengapa pangkas ke segi empat sama dahulu?",
+          "a": "Suapan sembilan petak memaparkan imej kecil segi empat sama. Memangkas sumber ke segi empat sama yang berpusat sebelum membahagi memastikan setiap kepingan segi empat sama dan mengelakkan tepi tidak rata. Matikannya untuk membahagi segi empat tepat penuh sebaliknya."
+        }
+      ]
+    },
+    "camera-mic-test": {
+      "title": "Ujian Kamera & Mikrofon",
+      "h1": "Ujian kamera, mikrofon dan skrin",
+      "desc": "Uji webcam, mikrofon dan skrin anda dalam pelayar. Lihat pratonton kamera langsung, meter aras mikrofon dan ujian warna piksel mati. Percuma, peribadi.",
+      "intro": "Periksa perkakasan anda sebelum panggilan atau rakaman, sepenuhnya dalam pelayar anda. Mulakan kamera untuk pratonton langsung, uji mikrofon dan lihat bar aras bergerak semasa anda bercakap, dan jalankan ujian piksel mati skrin untuk mengitar warna polos skrin penuh dan mengesan piksel tersekat. Tiada video atau audio dirakam, disimpan atau dimuat naik — strim berhenti apabila anda menekan Henti atau meninggalkan halaman.",
+      "steps": [
+        "Tekan Mula kamera untuk memeriksa video.",
+        "Tekan Uji mikrofon dan bercakap.",
+        "Jalankan ujian skrin dan ketik untuk mengitar warna.",
+        "Hentikan setiap ujian apabila selesai."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia merakam atau memuat naik apa-apa?",
+          "a": "Tidak. Kamera dan mikrofon hanya dipratonton dan dianalisis secara langsung dalam pelayar anda melalui getUserMedia dan Web Audio API. Tiada apa-apa dirakam, disimpan atau dihantar ke mana-mana, dan trek berhenti apabila anda menekan Henti."
+        },
+        {
+          "q": "Mengapa pelayar meminta kebenaran?",
+          "a": "Mengakses kamera atau mikrofon sentiasa memerlukan kebenaran jelas anda, dan halaman selamat (https). Jika anda menolaknya, benarkannya dalam tetapan laman pelayar anda dan cuba lagi."
+        }
+      ]
+    },
+    "teleprompter": {
+      "title": "Teleprompter",
+      "h1": "Teleprompter dalam talian untuk skrip anda",
+      "desc": "Teleprompter dalam talian percuma: tampal skrip anda, tatal dalam teks besar, laraskan kelajuan dan saiz fon, cerminkan dan skrin penuh. Tiada muat naik.",
+      "intro": "Baca ucapan anda dengan lancar semasa merakam. Tampal skrip anda, tetapkan saiz fon dan kelajuan tatal yang selesa, kemudian tekan Mula untuk menggulung teks. Cermin menterbalikkannya secara mendatar untuk rig teleprompter pembelah alur, dan Skrin penuh memenuhi paparan supaya anda boleh membaca dari jauh. Skrip anda kekal dalam tab pelayar ini dan tidak pernah dimuat naik.",
+      "steps": [
+        "Tampal skrip atau ucapan anda.",
+        "Tetapkan saiz fon dan kelajuan tatal.",
+        "Tekan Mula untuk menggulung; cerminkan jika anda menggunakan rig.",
+        "Gunakan Skrin penuh untuk paparan besar."
+      ],
+      "faq": [
+        {
+          "q": "Apakah kegunaan pilihan cermin?",
+          "a": "Teleprompter pembelah alur memantulkan skrin pada kaca di hadapan kanta, yang menterbalikkan teks. Pencerminan menterbalikkannya secara mendatar supaya ia dibaca dengan betul dalam pantulan. Biarkannya mati apabila membaca terus dari skrin."
+        },
+        {
+          "q": "Adakah skrip saya disimpan atau dihantar ke mana-mana?",
+          "a": "Tidak. Skrip hanya berada dalam tab pelayar ini semasa anda menggunakan alat dan tidak pernah dimuat naik atau disimpan pada pelayan. Menyegarkan halaman mengosongkannya."
+        }
+      ]
+    },
+    "sound-level-meter": {
+      "title": "Meter Aras Bunyi",
+      "h1": "Meter aras bunyi — meter desibel dalam talian",
+      "desc": "Meter aras bunyi dalam talian percuma: lihat aras desibel relatif sekeliling secara langsung, dengan puncak dan purata. Guna mikrofon setempat, tiada rakaman.",
+      "intro": "Ukur kelantangan persekitaran anda menggunakan mikrofon peranti anda. Tekan Mula, benarkan akses, dan meter memaparkan aras bunyi relatif dalam desibel dengan bar langsung serta bacaan puncak dan purata. Ia ialah meter relatif yang tidak ditentukur, dirujuk kepada skala penuh digital, jadi gunakannya untuk membandingkan kelantangan atau mengesan hingar dan bukannya untuk pengukuran undang-undang atau keselamatan. Audio dianalisis dalam pelayar anda dan tidak pernah dirakam atau dimuat naik.",
+      "steps": [
+        "Tekan Mula dan benarkan akses mikrofon.",
+        "Lihat bacaan dan bar desibel langsung.",
+        "Semak aras puncak dan purata.",
+        "Tetapkan semula puncak atau Henti apabila selesai."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ini meter desibel yang ditentukur?",
+          "a": "Tidak. Ia ialah meter relatif yang dirujuk kepada skala penuh digital, jadi nilai mutlak bergantung pada mikrofon anda dan gandaannya. Ia berguna untuk membandingkan kelantangan, bukan untuk pengukuran hingar yang diperakui."
+        },
+        {
+          "q": "Adakah audio dirakam?",
+          "a": "Tidak. Strim mikrofon hanya dianalisis secara langsung dalam pelayar anda untuk mengira aras. Tiada apa-apa dirakam, disimpan atau dimuat naik, dan mikrofon berhenti apabila anda menekan Henti atau meninggalkan halaman."
+        }
+      ]
+    }
+  }
+}

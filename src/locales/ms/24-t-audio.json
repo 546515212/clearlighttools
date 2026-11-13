@@ -1,0 +1,180 @@
+{
+  "t": {
+    "audio-joiner": {
+      "title": "Pencantum Audio",
+      "h1": "Cantum fail audio dan gabung MP3 dalam talian",
+      "desc": "Gabungkan fail MP3, WAV, M4A dan OGG menjadi satu trek mengikut turutan pilihan anda. Percuma, tanpa muat naik, tanpa tera air — gabung audio dalam pelayar.",
+      "intro": "Tambah dua atau lebih klip, seretkannya mengikut turutan yang betul, dan pencantum akan menyahkod setiap satu, memadankan kadar sampel dan bilangan saluran, lalu mencantumkannya menjadi satu MP3 atau WAV. Semuanya berjalan secara setempat, jadi rakaman peribadi tidak pernah meninggalkan peranti anda.",
+      "steps": [
+        "Tambah fail audio yang anda mahu gabungkan.",
+        "Seret atau gunakan anak panah untuk menetapkan turutan main balik.",
+        "Pilih MP3 atau WAV dan kadar bit.",
+        "Tekan Cantum dan muat turun trek tunggal itu."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya mencantum fail berformat berbeza?",
+          "a": "Ya. Setiap fail dinyahkod kepada sampel mentah, kemudian disampel semula kepada kadar dan bilangan saluran yang sama sebelum dicantumkan, jadi MP3, WAV, M4A dan OGG boleh dicampur."
+        },
+        {
+          "q": "Adakah had bilangan fail yang boleh saya gabung?",
+          "a": "Tiada had tetap, tetapi audio yang panjang disimpan dalam memori semasa ia dinyahkod dan dikodkan, jadi pastikan jumlah keseluruhannya munasabah pada peranti bermemori rendah."
+        }
+      ]
+    },
+    "audio-converter": {
+      "title": "Penukar Audio",
+      "h1": "Tukar audio kepada MP3, WAV dan banyak lagi dalam talian",
+      "desc": "Tukar WAV kepada MP3, M4A, OGG dan format audio lain dalam pelayar anda. Pilih kadar sampel dan kadar bit, kemudian muat turun — tanpa muat naik, tanpa akaun.",
+      "intro": "Penukar ini menyahkod fail anda dengan enjin audio pelayar, menyampelnya semula kepada kadar yang anda pilih, dan mengekodnya semula kepada MP3 (kecil dan universal) atau WAV (tanpa kehilangan). Oleh sebab semuanya berlaku pada komputer anda, fail asal tidak pernah meninggalkan peranti anda.",
+      "steps": [
+        "Muatkan fail audio yang anda mahu tukar.",
+        "Pilih kadar sampel output.",
+        "Pilih MP3 atau WAV dan, bagi MP3, kadar bit.",
+        "Tekan Tukar dan muat turun fail baharu."
+      ],
+      "faq": [
+        {
+          "q": "Format input apakah yang boleh dibacanya?",
+          "a": "Apa sahaja yang boleh dinyahkod oleh pelayar anda — lazimnya MP3, WAV, OGG, M4A/AAC dan FLAC. Sesetengah codec yang dilindungi DRM atau yang luar biasa akan ditolak oleh pelayar itu sendiri."
+        },
+        {
+          "q": "Mengapakah MP3 saya lebih kecil daripada WAV?",
+          "a": "MP3 menggunakan mampatan yang menghilangkan sedikit data; WAV menyimpan setiap sampel tanpa mampatan. Untuk suara dan perkongsian, MP3 pada 128–192 kbps biasanya sudah memadai; pilih WAV untuk master tanpa kehilangan."
+        }
+      ]
+    },
+    "change-volume": {
+      "title": "Penggalak Kelantangan",
+      "h1": "Ubah kelantangan audio — naikkan atau rendahkan dalam talian",
+      "desc": "Naikkan atau turunkan kelantangan fail MP3, WAV atau M4A. Tetapkan paras dari 0 hingga 400%, pratonton dan muat turun. Percuma dan sepenuhnya dalam pelayar.",
+      "intro": "Alat ini mendarab setiap sampel dengan gandaan yang anda tetapkan, jadi 100% mengekalkan kelantangan asal, 200% menggandakannya dan 50% mengurangkannya separuh. Galakan jauh melepasi 100% boleh memotong puncak yang kuat, jadi pratonton sebelum anda mengeksport.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Seret peluncur kelantangan ke paras yang anda mahu.",
+        "Pilih output MP3 atau WAV.",
+        "Tekan Guna, dengar, kemudian muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Mengapakah audio menjadi herot apabila saya menggalakkannya banyak?",
+          "a": "Sampel yang melebihi skala penuh akan dipotong. Jika audio asal sudah kuat, galakan besar akan menolak puncak melepasi had; cuba gandaan yang lebih kecil dahulu."
+        },
+        {
+          "q": "Bolehkah saya rendahkan kelantangan fail?",
+          "a": "Ya — tetapkan peluncur di bawah 100%. 50% ialah separuh amplitud, iaitu penurunan kelantangan yang jelas ketara."
+        }
+      ]
+    },
+    "reverse-audio": {
+      "title": "Pembalikan Audio",
+      "h1": "Balikkan audio dan main bunyi secara terbalik dalam talian",
+      "desc": "Balikkan fail audio supaya ia dimainkan dari hujung ke permulaan. Tempoh dan pic kekal sama. Pembalik MP3/WAV percuma tanpa muat naik.",
+      "intro": "Pembalikan menyalin bentuk gelombang dari sampel terakhir ke sampel pertama, jadi bunyi dimainkan secara terbalik sambil mengekalkan tempoh dan picnya. Inilah cara klasik untuk membuat efek riser, menyemak mesej tersembunyi, atau mendengar lagu secara terbalik.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Jika mahu, pilih output MP3 atau WAV.",
+        "Tekan Balikkan.",
+        "Main hasilnya dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Adakah pembalikan mengubah pic atau kelajuan?",
+          "a": "Tidak. Sampel cuma dibaca dalam turutan bertentangan, jadi tempoh dan frekuensi tidak berubah — hanya arah masa yang terbalik."
+        },
+        {
+          "q": "Apakah kegunaan audio terbalik?",
+          "a": "Efek riser peralihan, reka bentuk bunyi, menyemak mesej tersembunyi (backmasking), atau klip gaya palindrom yang kedengaran sama sama ada dimainkan ke hadapan atau ke belakang."
+        }
+      ]
+    },
+    "change-speed": {
+      "title": "Pengubah Kelajuan Audio",
+      "h1": "Lajukan atau perlahankan audio tanpa mengubah pic",
+      "desc": "Ubah tempo audio dari 50% hingga 200% sambil pic kekal semula jadi. Lajukan syarahan atau perlahankan muzik untuk mempelajarinya — dalam pelayar anda.",
+      "intro": "Pengubah kelajuan menggunakan regangan masa overlap-add, jadi suara yang dilajukan tidak berbunyi seperti chipmunk dan lagu yang diperlahankan tidak menurunkan picnya. 100% ialah kelajuan asal; 200% memainkannya dua kali ganda lebih pantas dalam separuh masa.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Tetapkan peluncur kelajuan (50%–200%).",
+        "Pilih output MP3 atau WAV.",
+        "Tekan Guna dan muat turun klip yang telah diubah masanya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah melajukan audio akan menaikkan pic?",
+          "a": "Tidak — itulah tujuan regangan masa. Tempo berubah tetapi pic kekal sama, tidak seperti fail yang sekadar disampel semula."
+        },
+        {
+          "q": "Seberapa ekstrem perubahan kelajuan boleh dibuat?",
+          "a": "Peluncur berjulat dari 50% hingga 200%. Regangan yang sangat besar boleh menambah sedikit getaran bunyi pada bahan yang kompleks; perubahan sederhana kedengaran paling semula jadi."
+        }
+      ]
+    },
+    "change-pitch": {
+      "title": "Pengubah Pic",
+      "h1": "Ubah pic audio lebih tinggi atau lebih rendah dalam talian",
+      "desc": "Alihkan pic audio sehingga 12 semiton ke mana-mana arah tanpa mengubah tempoh. Tinggikan atau rendahkan suara atau alat muzik, kemudian muat turun percuma.",
+      "intro": "Pengubahan pic menyampel semula audio untuk mengalihkan frekuensi, kemudian meregangkan masanya kembali ke tempoh asal, jadi klip kekal sama tempohnya tetapi kedengaran lebih tinggi atau lebih rendah. +12 semiton ialah satu oktaf ke atas; −12 ialah satu oktaf ke bawah.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Tetapkan anjakan pic dalam semiton (−12 hingga +12).",
+        "Pilih output MP3 atau WAV.",
+        "Tekan Guna dan muat turun klip yang telah dianjak picnya."
+      ],
+      "faq": [
+        {
+          "q": "Adakah mengubah pic mengubah tempoh fail?",
+          "a": "Tidak. Alat ini memulihkan tempoh asal selepas anjakan, jadi hanya pic yang berubah, bukan masanya."
+        },
+        {
+          "q": "Apakah itu semiton?",
+          "a": "Langkah terkecil dalam muzik Barat — satu kekunci pada piano. Dua belas semiton membentuk satu oktaf, jadi +12 menggandakan frekuensi dan −12 mengurangkannya separuh."
+        }
+      ]
+    },
+    "equalizer": {
+      "title": "Pengimbang Audio",
+      "h1": "Pengimbang audio dalam talian dengan galakan bes dan treble",
+      "desc": "Laraskan lima jalur (60 Hz–12 kHz): galakkan bes, cerahkan treble atau bentuk vokal. Guna pratetap atau laras halus, kemudian eksport MP3 atau WAV percuma.",
+      "intro": "Pengimbang puncak lima jalur membolehkan anda memotong atau menggalakkan bes, mid rendah, mid, mid tinggi dan treble sehingga 12 dB setiap satu. Mulakan dengan pratetap — Rata, Galakan bes, Vokal atau Galakan treble — kemudian laraskan secara halus dan janakan perubahan itu ke fail baharu.",
+      "steps": [
+        "Muatkan fail audio.",
+        "Pilih pratetap atau seret lima peluncur jalur.",
+        "Pilih output MP3 atau WAV.",
+        "Tekan Guna dan muat turun trek yang telah diimbangkan."
+      ],
+      "faq": [
+        {
+          "q": "Apakah yang dikawal oleh lima jalur itu?",
+          "a": "60 Hz ialah berat bes, 250 Hz kehangatan, 1 kHz badan vokal, 4 kHz kehadiran dan kejelasan, manakala 12 kHz udara dan kilauan. Galakkan atau kurangkan setiap jalur mengikut citarasa anda."
+        },
+        {
+          "q": "Adakah EQ digunakan pada fail yang dimuat turun?",
+          "a": "Ya. Tidak seperti pengimbang yang hanya bertindak semasa main balik, alat ini memproses penapisan ke dalam MP3 atau WAV yang dieksport, jadi perubahan itu kekal dalam fail yang anda simpan."
+        }
+      ]
+    },
+    "voice-recorder": {
+      "title": "Perakam Suara",
+      "h1": "Rakam audio dalam talian dengan mikrofon anda",
+      "desc": "Rakam suara anda dari mikrofon terus dalam pelayar. Tekan rakam, henti, pratonton dan muat turun — tanpa aplikasi, tanpa muat naik, tanpa akaun.",
+      "intro": "Perakam ini menangkap bunyi mikrofon anda dengan API MediaRecorder pelayar dan menyimpan rakaman secara setempat supaya anda boleh pratonton dan muat turun. Tiada apa-apa dihantar ke pelayan; rakaman kekal pada peranti anda sehingga anda menyimpannya.",
+      "steps": [
+        "Tekan Rakam dan benarkan akses mikrofon.",
+        "Bercakap atau mainkan bunyi yang anda mahu rakam.",
+        "Tekan Henti apabila selesai.",
+        "Pratonton rakaman dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Di manakah rakaman saya disimpan?",
+          "a": "Hanya dalam memori pelayar anda sehingga anda memuat turunnya. Tiada apa-apa dimuat naik, jadi sebaik sahaja anda menutup halaman, rakaman yang belum disimpan akan hilang."
+        },
+        {
+          "q": "Mengapakah pelayar meminta kebenaran?",
+          "a": "Akses mikrofon sentiasa memerlukan persetujuan jelas anda. Jika anda menolaknya, dayakan semula kebenaran mikrofon untuk laman ini dan tekan Rakam sekali lagi."
+        }
+      ]
+    }
+  }
+}

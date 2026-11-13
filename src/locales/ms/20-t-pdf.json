@@ -1,0 +1,184 @@
+{
+  "t": {
+    "compress-pdf": {
+      "desc": "Kecilkan PDF dalam pelayar anda: buang data berlebihan, sampel semula imej dan teks kekal boleh dipilih. Tiada muat naik, tiada tanda air, tiada pendaftaran.",
+      "intro": "Mampat PDF berfungsi sepenuhnya pada komputer anda sendiri. Ia membaca fail, menulis semula rujukan fon dan objek yang berulang, mengecilkan sampel imej besar jika anda mahu, lalu menyerahkan PDF yang lebih kecil melalui muat turun pelayar.",
+      "steps": [
+        "Seret satu atau lebih fail PDF ke panel, atau klik untuk memilihnya.",
+        "Pilih tahap: Kualiti terbaik mengekalkan semua butiran, Disyorkan mengimbangi saiz, Fail terkecil menyampel semula imej paling kuat.",
+        "Tekan Mampat dan perhatikan angka sebelum dan selepas bagi setiap fail.",
+        "Muat turun hasilnya, atau ambil semuanya dalam satu fail zip."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa PDF imbasan hampir tidak mengecil?",
+          "a": "Halaman imbasan sebenarnya ialah foto. Penjimatan datang daripada pengekodan semula imej halaman itu, jadi guna tahap Fail terkecil atau tukar halaman kepada JPEG dahulu."
+        },
+        {
+          "q": "Adakah ia membuang halaman atau teks?",
+          "a": "Tidak. Bilangan halaman, lapisan teks dan pautan kekal utuh; hanya objek berulang dan imej terlalu besar yang dikodkan semula."
+        }
+      ]
+    },
+    "merge-pdf": {
+      "desc": "Gabungkan beberapa PDF mengikut susunan pilihan anda, dengan gambar kecil halaman yang boleh diseret. Berfungsi setempat dalam pelayar anda, secara percuma.",
+      "intro": "Merge PDF menyalin objek halaman setiap fail ke dalam satu dokumen tanpa menjadikannya raster, jadi teks kekal boleh dipilih dan boleh dicari selepas penggabungan.",
+      "steps": [
+        "Tambah setiap PDF yang anda mahu gabungkan.",
+        "Seret gambar kecil untuk menyusun urutan, atau buang fail yang tersalah tambah.",
+        "Tekan Gabung.",
+        "Muat turun PDF yang telah digabungkan."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya menggabungkan halaman daripada sebahagian fail sahaja?",
+          "a": "Boleh, guna Split PDF dahulu untuk memisahkan julat yang diingini, kemudian gabungkan bahagian yang anda perlukan."
+        },
+        {
+          "q": "Adakah had pada bilangan fail?",
+          "a": "Hanya memori peranti anda. Secara praktikal, beberapa ratus halaman dapat digabungkan dengan selesa pada telefon."
+        }
+      ]
+    },
+    "split-pdf": {
+      "desc": "Keluarkan satu julat halaman daripada PDF, pisahkan setiap halaman ke fail berasingan, atau pecahkan dokumen panjang. Semuanya berlaku secara setempat.",
+      "intro": "Split PDF membina fail baharu daripada halaman yang anda kekalkan. Oleh sebab ia menyalin objek halaman dan bukan mencetaknya, kualitinya tepat sama dengan asal.",
+      "steps": [
+        "Buka PDF anda dalam panel.",
+        "Pilih Ekstrak julat, Setiap halaman berasingan, atau Bahagikan kepada cebisan.",
+        "Taipkan julatnya, sebagai contoh 3-8 atau 1,4,9-12.",
+        "Tekan Pisah dan muat turun outputnya."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya membuang halaman pula?",
+          "a": "Boleh. Pilih semua halaman yang mahu anda kekalkan, atau taipkan julat yang hendak dibuang dalam kotak pelengkap, dan alat ini menghasilkan fail tanpa halaman tersebut."
+        },
+        {
+          "q": "Adakah pemisahan mengekalkan tanda buku?",
+          "a": "Tanda buku yang menunjuk ke halaman yang dibuang akan hilang; kandungan halaman, pautan dan lapisan teks dikekalkan."
+        }
+      ]
+    },
+    "rotate-pdf": {
+      "desc": "Pusingkan setiap halaman atau hanya halaman pilihan anda sebanyak 90, 180 atau 270 darjah. Percuma, serta-merta, dan fail tidak meninggalkan komputer anda.",
+      "intro": "Halaman diorientasikan semula di tempatnya; tiada pengekodan semula, jadi pemutaran tidak menjejaskan kualiti dan hanya mengambil masa sesaat walaupun pada fail besar.",
+      "steps": [
+        "Seret fail PDF.",
+        "Pilih 90° ke kanan, 180° atau 90° ke kiri.",
+        "Jika perlu, hadkan perubahan kepada julat halaman tertentu.",
+        "Tekan Guna dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa halaman landskap saya nampak salah selepas pengimbasan?",
+          "a": "Banyak pengimbas menulis imej yang sudah diputar bersama penanda halaman. Putarkan julat tertentu sahaja, bukan keseluruhan dokumen."
+        },
+        {
+          "q": "Bolehkah saya memutar halaman tertentu dengan cara berbeza?",
+          "a": "Boleh, jalankan alat ini sekali untuk setiap julat; setiap kali ia dijalankan, halaman yang lain kekal tidak tersentuh."
+        }
+      ]
+    },
+    "watermark-pdf": {
+      "desc": "Tera DRAFT, CONFIDENTIAL, tarikh atau nama syarikat anda pada setiap halaman, dengan kawalan saiz, warna, kelegapan dan sudut.",
+      "intro": "Tanda air dilukis sebagai teks vektor sebenar pada setiap halaman, jadi ia berskala kemas ketika dicetak dan tidak boleh digeser oleh lapisan imej.",
+      "steps": [
+        "Muatkan PDF yang anda mahu tera.",
+        "Taipkan teks dan pilih warna, kelegapan serta putaran.",
+        "Pilih sama ada ia berada di belakang atau di atas kandungan.",
+        "Tekan Tambah tanda air, kemudian muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya memberi tanda air pada beberapa halaman sahaja?",
+          "a": "Boleh, hadkan tera kepada julat halaman seperti 1 atau 2-5."
+        },
+        {
+          "q": "Adakah teksnya boleh dipilih?",
+          "a": "Ia disisipkan sebagai teks, jadi ia muncul dalam hasil carian fail siap itu."
+        }
+      ]
+    },
+    "pdf-to-jpg": {
+      "desc": "Paparkan setiap halaman PDF sebagai JPG atau PNG pada resolusi yang anda pilih, pratonton di skrin dan muat turun satu halaman atau semuanya sebagai zip.",
+      "intro": "Pemaparan guna enjin yang sama yang memaparkan PDF dalam pelayar anda, jadi fon dan susunan tepat sama dengan asal. Tiada apa-apa yang dimuat naik ke mana-mana.",
+      "steps": [
+        "Seret fail PDF.",
+        "Tetapkan format output dan pendarab resolusi.",
+        "Pratonton halaman yang telah dipaparkan.",
+        "Muat turun satu imej atau zip lengkap."
+      ],
+      "faq": [
+        {
+          "q": "Kualiti mana yang patut saya pilih untuk pencetakan?",
+          "a": "Guna PNG pada 2x untuk dokumen teks dan JPG pada 2x untuk halaman foto; 3x menghampiri 300 dpi pada A4."
+        },
+        {
+          "q": "Bolehkah saya mendapatkan satu halaman sahaja?",
+          "a": "Boleh, paparkan julat yang anda perlukan dan bukan keseluruhan dokumen."
+        }
+      ]
+    },
+    "pdf-to-text": {
+      "desc": "Keluarkan teks boleh baca daripada PDF, kekalkan susunan baris atau perenggan, salin ke papan klip atau simpan sebagai fail .txt. Berfungsi dalam pelayar anda.",
+      "intro": "Teks datang daripada lapisan teks PDF itu sendiri, jadi pengekstrakannya tepat untuk dokumen dan laporan. Halaman imbasan tidak mempunyai lapisan teks dan memerlukan OCR.",
+      "steps": [
+        "Tambah PDF anda.",
+        "Pilih Kekalkan susunan atau Teks biasa.",
+        "Tekan Ekstrak.",
+        "Salin hasilnya atau muat turun sebagai fail teks."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa hasil saya kosong?",
+          "a": "Fail itu kemungkinan besar imbasan kertas. OCR ialah teknologi sisi pelayan; jalan kerjanya ialah memproses halaman melalui aplikasi OCR yang anda percayai."
+        },
+        {
+          "q": "Adakah ia mengekalkan jadual?",
+          "a": "Lajur dikekalkan dengan jarak apabila anda pilih Kekalkan susunan, walaupun jadual kompleks lebih baik ditangani dengan menukarnya kepada imej."
+        }
+      ]
+    },
+    "images-to-pdf": {
+      "desc": "Gabungkan foto JPG, PNG, WebP atau GIF menjadi satu PDF, mengikut susunan yang anda mahu, dengan saiz halaman, margin dan orientasi yang anda kawal.",
+      "intro": "Sangat berguna untuk timbunan imbasan daripada telefon: seret foto anda, susunkan, dan anda mendapat satu dokumen yang mudah dihantar melalui e-mel dan dicetak dengan betul.",
+      "steps": [
+        "Pilih foto anda.",
+        "Seret untuk menyusun semula dan buang gambar yang dirakam dua kali.",
+        "Pilih saiz halaman dan margin.",
+        "Tekan Cipta PDF dan muat turun."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia menyesuaikan foto mengikut halaman?",
+          "a": "Ya, setiap imej diskalakan dalam kawasan boleh cetak tanpa dipangkas melainkan anda pilih Isi halaman."
+        },
+        {
+          "q": "Bolehkah saya menambah kapsyen?",
+          "a": "Guna alat Watermark PDF selepas itu untuk mena tajuk atau tarikh pada setiap halaman."
+        }
+      ]
+    },
+    "html-to-pdf": {
+      "desc": "Tampal HTML, pilih saiz kertas dan margin, kemudian cetak hasil terpapar terus kepada PDF daripada pelayar anda. Percuma dan privasi terjamin.",
+      "intro": "Alat ini membina paparan cetak yang kemas daripada markup anda lalu menyerahkannya kepada penulis PDF dalam pelayar anda sendiri, yang memahami CSS, imej dan pemotongan halaman.",
+      "steps": [
+        "Tampal HTML anda atau muatkan fail .html.",
+        "Tetapkan kertas, orientasi dan margin.",
+        "Buka dialog cetak.",
+        "Pilih Simpan sebagai PDF sebagai destinasi."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya menukar URL yang masih aktif?",
+          "a": "Pelayar menyekat pembacaan markup tapak lain daripada sesuatu halaman, jadi tampal HTML itu atau guna Cetak ke PDF terbina dalam pelayar anda pada halaman berkenaan."
+        },
+        {
+          "q": "Adakah imej luar disertakan?",
+          "a": "Hanya apabila pelayar dapat memuatnya; URI data sebaris sentiasa berjaya."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+
+i18n-wrap dry run — 159 new dictionary key(s)
+
+pdf.js  (13 edit(s))
+  ui0AlreadyEfficient12        note()             "{0}: already efficient ({1} → {2}). Try the Smallest file level."
+  ui0FilesProduced             note()             "{0} files produced."
+  thisPdfHasNoText             note()             "This PDF has no text layer — it is a scan of paper. Text extraction needs OCR
+  unsupportedFileType          toast()            "Unsupported file type"
+  enterAPageRangeSuch          Error()            "Enter a page range such as 2-5"
+  thatRangeDoesNotMatch        Error()            "That range does not match any page"
+  typeTheStampTextFirst        Error()            "Type the stamp text first"
+  onlyUsedBySmallestFile       field() arg 3      "only used by Smallest file"
+  usedByChunkMode              field() arg 3      "used by chunk mode"
+  leaveEmptyForEveryPage       field() arg 3      "leave empty for every page"
+  emptyEveryPage               field() arg 3      "empty = every page"
+  theStampIsDrawnAs            text: attribute    "The stamp is drawn as real text, so it scales cleanly in print."
+  chooseSaveAsPdfAs            text: attribute    "Choose Save as PDF as the destination."
+
+image.js  (33 edit(s))
+  ui012LowerThe                note()             "{0}: {1} → {2}. Lower the quality, add a max width, or set a target size."
+  thisIsNotValidBase64         note()             "This is not valid base64: the character count is impossible."
+  decodedTheBytesButThey       note()             "Decoded the bytes, but they do not look like a PNG, JPEG, GIF, WebP or BMP im
+  theQrLibraryCouldNot         note()             "The QR library could not be loaded."
+  tooMuchTextForOne            note()             "Too much text for one code ({0}). Shorten it, or use error level L."
+  couldNotReadThatImage        note()             "Could not read that image."
+  enterA36Or                   note()             "Enter a 3, 6 or 8-digit hex value such as #36F or #3366FF"
+  couldNotDecodeThatImage      note()             "Could not decode that image."
+  clickThePictureToSample      note()             "Click the picture to sample a pixel."
+  ui0Frames123                 note()             "{0} frames · {1}×{2} · {3} · {4}s per loop"
+  couldNotDecodeThatFile       note()             "Could not decode that file. Browsers refuse some AAC/AMR/DRM recordings."
+  wavIsUncompressedSoIt        note()             "WAV is uncompressed, so it is bigger than the MP3 you started with. Use a low
+  thisBrowserCannotPlayThat    note()             "This browser cannot play that file, so it cannot re-encode it either."
+  theBrowserBlockedPlaybackSo  note()             "The browser blocked playback, so recording cannot start. Press play yourself 
+  reEncodingHappensLiveA       note()             "Re-encoding happens live: a 3 minute clip takes 3 minutes. The container is W
+  unsupportedFileType          toast()            "Unsupported file type"
+  nothingToCopy                toast()            "Nothing to copy"
+  thisBrowserCannotCopyImages  toast()            "This browser cannot copy images"
+  popupBlocked                 toast()            "Popup blocked"
+  thatPixelIsTransparent       toast()            "That pixel is transparent"
+  unsupportedFileType          toast()            "Unsupported file type"
+  decodeFailed                 Error()            "decode failed"
+  pickAtLeastOneSize           Error()            "Pick at least one size"
+  addAtLeastTwoImages          Error()            "Add at least two images"
+  endMustBeAfterStart          Error()            "End must be after start"
+  thisBrowserHasNoMediarecorder Error()            "This browser has no MediaRecorder/canvas capture support"
+  theClipHasNotFinished        Error()            "The clip has not finished loading"
+  noSupportedWebmRecordingProfile Error()            "No supported WebM recording profile in this browser"
+  nothingWasRecorded           Error()            "Nothing was recorded"
+  fillsTransparencyInJpg       field() arg 3      "fills transparency in JPG"
+  higherSurvivesMoreDamage     field() arg 3      "higher = survives more damage"
+  lowerSmallerFile             field() arg 3      "lower = smaller file"
+  livePreviewOnly              field() arg 3      "live preview only"
+
+text.js  (51 edit(s))
+  typeAtLeastACouple           note()             "Type at least a couple of sentences to see word frequencies."
+  these0WordsMakeUp            note()             "These {0} words make up {1}% of all words used."
+  couldNotDecodeThis0          note()             "Could not decode this: {0}. Base64 length must not leave a single leftover ch
+  cannotDecode0AMust           note()             "Cannot decode: {0}. A % must be followed by exactly two hex digits."
+  noDataRowsWereFound          note()             "No data rows were found — only a header line."
+  theMarkdownLibraryCouldNot   note()             "The Markdown library could not be loaded."
+  unexpectedMarkedBuild        note()             "Unexpected marked build."
+  couldNotRender0              note()             "Could not render: {0}"
+  couldNotHash0Web             note()             "Could not hash: {0}. Web Crypto hashes need an https or localhost page."
+  generatedWithTheBrowserCryptographic note()             "Generated with the browser cryptographic random number generator. Nothing is 
+  typeAPatternToTest           note()             "Type a pattern to test."
+  invalidPattern0              note()             "Invalid pattern: {0}"
+  stoppedAfter5000MatchesThe   note()             "Stopped after 5000 matches — the pattern may match empty strings everywhere."
+  noMatchTryRemovingAnchors    note()             "No match. Try removing anchors (^ $) or the case-sensitive flag."
+  replacementFailed0           note()             "Replacement failed: {0}"
+  noDifferencesBothSidesMatch  note()             "No differences — both sides match."
+  nothingToCompareYet          note()             "Nothing to compare yet."
+  thisBrowserHasNoSpeech       note()             "This browser has no speech engine. Edge, Chrome and Safari on macOS/iOS do."
+  ui0VoicesAvailableFromYour   note()             "{0} voices available from your operating system."
+  nothingToRead                note()             "Nothing to read."
+  audioComesFromYourOwn        note()             "Audio comes from your own system voices, so there is no file to download. Rec
+  nothingGenerated             toast()            "Nothing generated"
+  pasteOrTypeYourText          area()             "Paste or type your text here…"
+  typeOrPasteText              area()             "Type or paste text…"
+  oneItemPerLine2              area()             "One item per line…"
+  pasteTextToEncodeOr          area()             "Paste text to encode, or base64 to decode…"
+  typeSomething                area()             "Type something…"
+  textToHash                   area()             "Text to hash…"
+  firstLineSecondLineThird     area()             "First line\nSecond line\nThird line"
+  firstLineSecondOneThird      area()             "First line\nSecond one\nThird line\nFourth line"
+  typeTheTextYouWant           area()             "Type the text you want read aloud."
+  characterCountIsNotValid     Error()            "character count is not valid base64"
+  md5IsImplementedForText      Error()            "MD5 is implemented for text only"
+  sentenceCase                 select() options   "Sentence case"
+  allFourShaSizes              select() options   "All four SHA sizes"
+  md5LegacyNotSecure           select() options   "MD5 — legacy, not secure"
+  v7SortableByTime             select() options   "v7 — sortable by time"
+  loadingVoices                select() options   "Loading voices…"
+  worksOnWholeTextOr           field() arg 3      "Works on whole text or a single identifier"
+  onlyMattersForCaseInsensitive field() arg 3      "Only matters for case-insensitive matches"
+  textIsTreatedAsUtf           field() arg 3      "Text is treated as UTF-8, so accents and CJK work"
+  escapeBeforePuttingTextInside field() arg 3      "Escape before putting text inside HTML"
+  excelInManyRegionsExports    field() arg 3      "Excel in many regions exports semicolons"
+  md5AndSha1Are                field() arg 3      "MD5 and SHA-1 are for checksums only"
+  v4IsTheSafeDefault           field() arg 3      "v4 is the safe default"
+  ui16IsAGoodDefault           field() arg 3      "16 is a good default"
+  writtenAsPattern             field() arg 3      "written as /pattern/"
+  commonRecipes                field() arg 3      "common recipes"
+  dependsOnYourOsVoices        field() arg 3      "depends on your OS voices"
+  ui0WithoutSpaces             stat() arg 3       "{0} without spaces"
+  ui0AppearTwiceOrMore         stat() arg 3       "{0} appear twice or more"
+
+calc.js  (64 edit(s))
+  enterARealisticHeightAnd     note()             "Enter a realistic height and weight."
+  bmiIsAPopulationScreen       note()             "BMI is a population screen, not a diagnosis. It ignores muscle mass, bone den
+  pickBothDatesTheDay          note()             "Pick both dates — the day has to exist in that month."
+  theBirthDateIsAfter          note()             "The birth date is after the reference date."
+  monthLengthsAreBorrowedFrom  note()             "Month lengths are borrowed from the real calendar, so end-of-month birthdays 
+  pickAStartDate               note()             "Pick a start date."
+  enterAnAmount                note()             "Enter an amount."
+  pickBothDates                note()             "Pick both dates."
+  enterAPositiveAmountA        note()             "Enter a positive amount, a term longer than zero and a rate of 0 or more."
+  thatPaymentDoesNotEven       note()             "That payment does not even cover the monthly interest, so the balance never r
+  withNoExtraPaymentYou        note()             "With no extra payment you would pay {0} in total; the {1} a month saves {2}."
+  assumesAFixedRateWith        note()             "Assumes a fixed rate with monthly compounding and equal payments. Real contra
+  stacked0And1Are              note()             "Stacked {0}% and {1}% are one discount of {2}%, not {3}%."
+  taxIsAppliedAfterThe         note()             "Tax is applied after the discount, which is how most shops and marketplaces d
+  temperatureIsNotARatio       note()             "Temperature is not a ratio scale, so 20 °C is not “twice as hot” as 10 °C."
+  baseUnit0EveryLine           note()             "Base unit: {0}. Every line above is converted through it, so rounding stays c
+  iUnderstandRgbRrggbbRrggbbaa note()             "I understand #rgb, #rrggbb, #rrggbbaa, rgb(10,20,30,.5) and hsl(210,60%,50%).
+  alpha0ShownOverThe           note()             "Alpha {0}% — shown over the panel background."
+  pasteAnyOfTheseValues        note()             "Paste any of these values straight into CSS. Print colours (CMYK) never match
+  useAnAgeBetween10            note()             "Use an age between 10 and 100, height in cm (100–230) and weight in kg (25–35
+  theseArePopulationEquationsSo note()             "These are population equations, so they are a starting point, not a prescript
+  pasteAnEpochNumberOr         note()             "Paste an epoch number or a date."
+  thatIsNeitherATimestamp      note()             "That is neither a timestamp I recognise nor a valid date."
+  a10DigitNumberIs             note()             "A 10-digit number is seconds, a 13-digit one is milliseconds. Force the unit 
+  enterTwoNumbers              note()             "Enter two numbers."
+  youCannotDraw0Unique         note()             "You cannot draw {0} unique values from {1} possibilities between {2} and {3}.
+  usesCryptoGetrandomvaluesSoIt note()             "Uses crypto.getRandomValues(), so it is fair enough for raffles, sample data 
+  sedentaryDeskWorkNoExercise  select() options   "Sedentary — desk work, no exercise"
+  veryActive67Sessions         select() options   "Very active — 6–7 sessions"
+  athleteOrHeavyManualWork     select() options   "Athlete or heavy manual work"
+  useANegativeNumberFor        field() arg 3      "use a negative number for a drop"
+  defaultsToToday              field() arg 3      "defaults to today"
+  comparedWithTheStartDate     field() arg 3      "compared with the start date above"
+  ui0StandardSchedule          field() arg 3      "0 = standard schedule"
+  stackedCoupon0IfNone         field() arg 3      "stacked coupon, 0 if none"
+  theEquationUsesIt            field() arg 3      "the equation uses it"
+  epochIsoStringOr2026         field() arg 3      "epoch, ISO string, or 2026-06-01 14:30"
+  ui0WholeNumbers              field() arg 3      "0 = whole numbers"
+  ui0BringsItBackTo            stat() arg 3       "±{0}% brings it back to {1}"
+  about0MoreToReach            stat() arg 3       "about {0} more to reach 18.5"
+  about0LessToReach            stat() arg 3       "about {0} less to reach 24.9"
+  youAreInsideTheRange         stat() arg 3       "you are inside the range"
+  ui0LeapDaysLived             stat() arg 3       "{0} leap days lived"
+  weekendsSkippedWhileCounting stat() arg 3       "weekends skipped while counting"
+  theSecondDateIsEarlier       stat() arg 3       "the second date is earlier"
+  inclusiveOfLeapDays          stat() arg 3       "inclusive of leap days"
+  monFriPublicHolidaysNot      stat() arg 3       "Mon–Fri, public holidays not counted"
+  ui0OfWhatYouBorrowed         stat() arg 3       "{0}% of what you borrowed"
+  ui0TheAmount                 stat() arg 3       "{0}× the amount"
+  paidOff0MonthsEarlier        stat() arg 3       "paid off {0} months earlier than the schedule"
+  ofEveryPaymentAtThe          stat() arg 3       "of every payment at the start"
+  beforeAnyTax                 stat() arg 3       "before any tax"
+  ui0OffTheStickerPrice        stat() arg 3       "{0}% off the sticker price"
+  noDiscountApplied            stat() arg 3       "no discount applied"
+  calculatedOnTheDiscountedPrice stat() arg 3       "calculated on the discounted price"
+  wcagRelativeLuminance        stat() arg 3       "WCAG relative luminance"
+  weightStaysWhereItIs         stat() arg 3       "weight stays where it is"
+  ui7700Kcal1KgOf              stat() arg 3       "7700 kcal ≈ 1 kg of body fat"
+  thisFarAheadUsuallyMeans     stat() arg 3       "this far ahead usually means the unit is wrong"
+  withoutRepeats               stat() arg 3       "without repeats"
+  repeatsAllowed               stat() arg 3       "repeats allowed"
+  expectedAround0              stat() arg 3       "expected around {0}"
+  fourEverydayPercentageQuestionsType text: attribute    "Four everyday percentage questions. Type in any box and every result updates.
+  ui413NeverOutputThese        placeholder        "4, 13 — never output these"
+
+MANUAL — 11 site(s) the codemod refused to rewrite:
+  pdf.js@14886  button(): interpolation contains another literal
+      "`${L('downloadAll', 'Download all (.zip)')} (${items.length})`"
+  image.js@23695  note(): interpolation contains another literal
+      "`${mode === 'wifi' ? 'Wi-Fi' : 'Text'} payload: ${data.length > 90 ? data.slice(0, 90) + '"
+  image.js@2769  button(): interpolation contains another literal
+      "`${L('download', 'Download')} .zip`"
+  image.js@22519  button(): interpolation contains another literal
+      "`${L('download', 'Download')} PNG`"
+  image.js@22664  button(): interpolation contains another literal
+      "`${L('download', 'Download')} SVG`"
+  text.js@24721  note(): interpolation contains another literal
+      "`Not valid JSON${line ? ` around line ${line}` : ''}: ${e.message}`"
+  text.js@52210  note(): interpolation contains another literal
+      "`Playback failed: ${e.error || e.message || 'unknown'}.`"
+  text.js@24921  text: attribute: interpolation contains another literal
+      "`${line}: ${lines[line - 1] || ''}\\n${' '.repeat(Math.max(0, pos - (lines.slice(0, line - "
+  text.js@46880  text: attribute: interpolation contains another literal
+      "`groups: ${x.groups.map(g => g === undefined ? '∅' : JSON.stringify(g)).join(', ')}`"
+  calc.js@36878  stat() arg 3: interpolation contains another literal
+      "`${shift > 0 ? '+' : '−'}${Math.round(Math.abs(shift) * 100)}% versus maintenance (${int(M"
+  calc.js@44933  stat() arg 3: interpolation contains another literal
+      "`${dp} decimal place${dp === 1 ? '' : 's'}`"
+
+nothing written — re-run with --apply

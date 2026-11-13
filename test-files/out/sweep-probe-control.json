@@ -1,0 +1,53 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T11:26:34.804Z",
+ "planned": [
+  "remove-duplicate-lines",
+  "image-to-gif",
+  "image-contrast-brightness"
+ ],
+ "rows": [
+  {
+   "tool": "remove-duplicate-lines",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "ResultLines6 → 33 removedUnique32 appear twice or moreLongest line1charactersa ×2b ×2Copy.txt",
+    "Lines6 → 33 removedUnique32 appear twice or moreLongest line1characters",
+    "Lines6 → 33 removed"
+   ],
+   "filled": [],
+   "throttleMs": 85,
+   "ms": 1075
+  },
+  {
+   "tool": "image-to-gif",
+   "ok": false,
+   "why": "notes: file tool produced no download button (new buttons: none; buttons after run: create gif) / wrote the result into an output box that is not on the page: \"2 frames · 480×320 · 37 KB · 0.8s per loopDownload\"",
+   "clicks": [
+    "Create GIF"
+   ],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 85,
+   "ms": 6001
+  },
+  {
+   "tool": "image-contrast-brightness",
+   "ok": false,
+   "why": "notes: file tool produced no download button (new buttons: none; buttons after run: apply) / wrote the result into an output box that is not on the page: \"photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload\"",
+   "clicks": [
+    "Apply"
+   ],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 85,
+   "ms": 6004
+  }
+ ],
+ "finishedAt": "2026-11-07T11:26:47.889Z"
+}

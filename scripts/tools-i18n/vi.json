@@ -1,0 +1,354 @@
+{
+  "search": "Tìm 78 công cụ miễn phí…",
+  "kw": {
+    "zero width watermark": "hình mờ zero-width",
+    "hidden text watermark": "hình mờ văn bản ẩn",
+    "invisible unicode watermark": "hình mờ unicode vô hình",
+    "css shadow generator": "tạo bóng css",
+    "box shadow generator": "tạo box shadow",
+    "css grid generator": "tạo css grid",
+    "json to svg": "json sang svg",
+    "json tree diagram": "sơ đồ cây json",
+    "json structure visualizer": "trực quan cấu trúc json",
+    "aes encrypt online": "mã hóa aes online",
+    "aes decrypt online": "giải mã aes online",
+    "encrypt text with password": "mã hóa văn bản bằng mật khẩu",
+    "photo mosaic tool": "công cụ che mờ ảnh",
+    "pixelate image online": "pixel hóa ảnh online",
+    "blur face in photo": "làm mờ mặt trong ảnh",
+    "image grid splitter": "chia ảnh thành lưới",
+    "nine square split": "chia ảnh chín ô",
+    "instagram grid maker": "tạo lưới instagram",
+    "webcam test online": "kiểm tra webcam online",
+    "microphone test online": "kiểm tra micrô online",
+    "camera test": "kiểm tra camera",
+    "online teleprompter": "teleprompter online",
+    "free teleprompter": "teleprompter miễn phí",
+    "script prompter": "máy nhắc kịch bản",
+    "sound level meter": "máy đo mức âm thanh",
+    "decibel meter online": "máy đo decibel online",
+    "noise meter": "máy đo tiếng ồn"
+  },
+  "w": {
+    "wfHint": "Kéo ngang dạng sóng để chọn phần muốn giữ, hoặc nhập các mốc thời gian bên dưới.",
+    "slmUnit": "decibel (tương đối, chưa hiệu chuẩn)",
+    "slmIntro": "Nhấn Bắt đầu và cho phép truy cập micrô để xem mức âm thanh tương đối quanh bạn.",
+    "slmStopped": "Đồng hồ đã dừng.",
+    "slmRunning": "Đang nghe… mức cập nhật trực tiếp.",
+    "slmNow": "Hiện tại",
+    "slmMax": "Đỉnh",
+    "slmAvg": "Trung bình",
+    "slmDenied": "Quyền truy cập micrô bị từ chối. Hãy cho phép trong cài đặt trình duyệt và thử lại.",
+    "slmFail": "Không thể bật micrô.",
+    "slmReset": "Đặt lại đỉnh",
+    "slmNote": "Đây là đồng hồ tương đối, không phải thiết bị đo mức âm thanh đã hiệu chuẩn: giá trị decibel lấy mốc theo toàn dải số, nên nó phụ thuộc vào micrô của bạn và độ khuếch đại của nó. Hãy dùng nó để so sánh độ ồn hoặc phát hiện tiếng ồn, không phải cho các phép đo pháp lý hay an toàn. Âm thanh được phân tích trong trình duyệt của bạn và không bao giờ được ghi hay tải lên.",
+    "mosWaiting": "Thêm một ảnh, rồi kéo qua các vùng bạn muốn che.",
+    "mosDecodeFail": "Không thể đọc ảnh đó.",
+    "mosHint": "PNG, JPG, WebP…",
+    "mosReset": "Khôi phục ảnh gốc",
+    "mosNeedImage": "Hãy thêm một ảnh trước",
+    "mosMode": "Hiệu ứng",
+    "mosPixel": "Pixel hóa",
+    "mosBlur": "Làm mờ",
+    "mosBrush": "Kích thước cọ",
+    "mosStrength": "Độ mạnh",
+    "mosStrengthHint": "lớn hơn = khối thô hơn / làm mờ mạnh hơn",
+    "mosNote": "Kéo qua một khuôn mặt, biển số hoặc bất kỳ chi tiết riêng tư nào để pixel hóa hoặc làm mờ nó. Ảnh được chỉnh sửa trên canvas trong trình duyệt của bạn và không bao giờ được tải lên. Tải kết quả dưới dạng PNG.",
+    "gridWaiting": "Thêm một ảnh để cắt nó thành lưới các ô vuông.",
+    "gridPreview": "lưới {0} × {1} · {2} mảnh",
+    "gridHint": "PNG, JPG, WebP…",
+    "gridSplit": "Chia ảnh",
+    "gridSize": "Lưới",
+    "gridSizeHint": "3 × 3 là kiểu chín ô cổ điển trên mạng xã hội",
+    "gridSquare": "Cắt vuông trước",
+    "gridNote": "Ảnh được cắt thành các mảnh bằng nhau trên canvas trong trình duyệt của bạn. Tải từng mảnh một hoặc thành một tệp ZIP duy nhất, rồi đăng chúng theo thứ tự để có lưới chín ô liền mạch. Không có gì được tải lên.",
+    "zwCarrier": "Văn bản mang tin — thông điệp hiển thị mà mọi người sẽ đọc…",
+    "zwSecret": "Văn bản bí mật để giấu bên trong nó…",
+    "zwPasted": "Dán văn bản đã gắn hình mờ vào đây để hiện thông điệp ẩn của nó…",
+    "zwEmbed": "Nhúng thông điệp ẩn",
+    "zwNeedSecret": "Hãy nhập một thông điệp bí mật để giấu trước",
+    "zwVisibleChars": "Ký tự hiển thị",
+    "zwHiddenChars": "Ký tự ẩn",
+    "zwInvisible": "vô hình",
+    "zwTotalChars": "Tổng độ dài",
+    "zwNone": "Không tìm thấy thông điệp ẩn nào trong văn bản này.",
+    "zwRevealedChars": "Ký tự đã hiện",
+    "zwCarrierLabel": "Văn bản mang tin",
+    "zwPastedLabel": "Văn bản đã gắn hình mờ",
+    "zwSecretLabel": "Thông điệp bí mật",
+    "zwExtract": "Hiện thông điệp ẩn",
+    "zwMode": "Thao tác",
+    "zwEmbedMode": "Giấu một thông điệp",
+    "zwExtractMode": "Hiện một thông điệp",
+    "zwNote": "Tin bí mật được biểu diễn thành các ký tự Unicode zero-width (U+200B/U+200C) bọc trong các word-joiner. Chúng vô hình và sống sót qua thao tác sao chép-dán thông thường, nhưng bất kỳ trình soạn thảo nào xóa định dạng hoặc chuẩn hóa Unicode đều sẽ loại bỏ chúng. Đây là làm mờ (obfuscation), không phải mã hóa — đừng dùng nó để giấu mật khẩu hay dữ liệu nhạy cảm.",
+    "cssOffsetX": "Bóng X",
+    "cssOffsetY": "Bóng Y",
+    "cssBlur": "Độ nhòe",
+    "cssSpread": "Độ lan",
+    "cssRadius": "Bán kính bo góc",
+    "cssOpacity": "Độ mờ của bóng",
+    "cssShadowColor": "Màu bóng",
+    "cssBoxColor": "Màu hộp",
+    "cssInset": "Bóng inset",
+    "cssColumns": "Số cột",
+    "cssGap": "Khoảng cách",
+    "cssItems": "Số mục",
+    "cssRowHeight": "Chiều cao hàng",
+    "cssMode": "Bộ tạo",
+    "cssBoxMode": "Box shadow & bo góc",
+    "cssGridMode": "Bố cục lưới",
+    "cssGenerated": "CSS đã tạo",
+    "cssNote": "Kéo các thanh trượt và xem bản xem trước cùng CSS cập nhật trực tiếp. Sao chép CSS vào stylesheet của bạn. Mọi thứ được tính trong trình duyệt của bạn.",
+    "jsvgInput": "Dán JSON vào đây — một object hoặc array sẽ trở thành cây cấu trúc…",
+    "jsvgBadJson": "Đó không phải JSON hợp lệ. Hãy kiểm tra dấu phẩy hoặc dấu ngoặc kép bị thiếu.",
+    "jsvgRender": "Dựng sơ đồ",
+    "jsvgNeedJson": "Hãy dán một ít JSON trước",
+    "jsvgRenderFirst": "Hãy dựng một sơ đồ trước",
+    "jsvgInputLabel": "Đầu vào JSON",
+    "jsvgSvgCode": "Mã SVG",
+    "jsvgNote": "JSON được phân tích và dàn thành một cây cấu trúc từ trái sang phải, vẽ hoàn toàn trong trình duyệt của bạn. Tải nó dưới dạng SVG để đưa vào tài liệu hoặc slide, hoặc sao chép mã. Các array lớn được giới hạn ở 40 nhánh và sâu 8 cấp để giữ sơ đồ dễ đọc.",
+    "jsvgHint": "Nhập JSON và nhấn Dựng để vẽ cấu trúc của nó thành một cây SVG.",
+    "encInput": "Nhập hoặc dán văn bản để mã hóa hoặc giải mã…",
+    "encPassPlaceholder": "Cụm mật khẩu",
+    "encNoSubtle": "Trình duyệt này không hỗ trợ Web Crypto. Cần một trang bảo mật (https).",
+    "encrypt": "Mã hóa",
+    "encNeedText": "Hãy nhập một ít văn bản trước",
+    "encNeedPass": "Nhập một cụm mật khẩu",
+    "decrypt": "Giải mã",
+    "encNeedCipher": "Hãy dán văn bản đã mã hóa trước",
+    "encBadCipher": "Đó không phải văn bản mã hóa hợp lệ.",
+    "encWrongPass": "Không thể giải mã — sai cụm mật khẩu hoặc văn bản bị hỏng.",
+    "encPassHint": "Cần cùng cụm mật khẩu đó để giải mã. Nó không bao giờ được lưu hay gửi đi đâu.",
+    "encNote": "AES-256-GCM với khóa dẫn xuất từ PBKDF2 (150.000 vòng lặp, SHA-256). Salt và IV ngẫu nhiên được đóng gói vào đầu ra, nên chỉ cần cụm mật khẩu là giải mã được. Mọi thứ chạy trong trình duyệt của bạn qua Web Crypto API — không có gì được tải lên.",
+    "camIntro": "Kiểm tra camera, micrô và màn hình của bạn — tất cả cục bộ. Không có gì được ghi hay tải lên.",
+    "camMicLevel": "Mức micrô",
+    "camStartCam": "Bật camera",
+    "camStartMic": "Kiểm tra micrô",
+    "camStopCam": "Dừng camera",
+    "camRunning": "Camera đang chạy. Nếu bạn thấy mình, camera hoạt động tốt.",
+    "camDenied": "Quyền truy cập camera bị từ chối. Hãy cho phép trong cài đặt trình duyệt và thử lại.",
+    "camFail": "Không thể bật camera.",
+    "camStopMic": "Dừng micrô",
+    "camMicRunning": "Nói hoặc gõ vào micrô — thanh mức sẽ dịch chuyển.",
+    "camMicDenied": "Quyền truy cập micrô bị từ chối. Hãy cho phép trong cài đặt trình duyệt và thử lại.",
+    "camMicFail": "Không thể bật micrô.",
+    "camRed": "Đỏ",
+    "camGreen": "Xanh lá",
+    "camBlue": "Xanh dương",
+    "camWhite": "Trắng",
+    "camBlack": "Đen",
+    "camGray": "Xám",
+    "camScreen": "Kiểm tra điểm chết màn hình",
+    "camScreenHint": "Chạm bất cứ đâu để đổi màu và tìm các điểm kẹt hoặc điểm chết.",
+    "camExit": "Thoát",
+    "camNote": "Bản xem trước camera và mức micrô chạy hoàn toàn trong trình duyệt của bạn qua getUserMedia và Web Audio API. Không có video hay âm thanh nào được ghi, lưu hoặc gửi đi đâu. Dùng bài kiểm tra màn hình để phát hiện điểm chết trên màn hình máy tính hoặc điện thoại.",
+    "teleInput": "Dán kịch bản hoặc bài phát biểu của bạn vào đây…",
+    "teleNeedText": "Hãy dán kịch bản của bạn trước",
+    "teleReset": "Khởi động lại",
+    "teleFullscreen": "Toàn màn hình",
+    "teleScript": "Kịch bản của bạn",
+    "teleSpeedHint": "số pixel cuộn mỗi giây",
+    "teleMirror": "Lật gương (cho kính tách chùm)",
+    "teleNote": "Dán bài phát biểu của bạn, đặt cỡ chữ và tốc độ cuộn, rồi nhấn Bắt đầu. Lật gương đảo chữ cho giàn teleprompter dùng kính tách chùm, và Toàn màn hình lấp đầy màn hình. Kịch bản của bạn ở lại trong tab trình duyệt này và không bao giờ được tải lên."
+  },
+  "t": {
+    "zero-width-watermark": {
+      "title": "Hình mờ zero-width",
+      "h1": "Hình mờ zero-width — giấu văn bản trong văn bản",
+      "desc": "Giấu tin bí mật trong văn bản thường bằng ký tự Unicode zero-width vô hình, vẫn còn khi sao chép-dán. Nhúng hoặc hiện tin miễn phí trong trình duyệt.",
+      "intro": "Công cụ này giấu một tin nhắn bí mật bên trong một đoạn văn bản trông bình thường bằng cách chuyển nó thành các ký tự Unicode zero-width vô hình (U+200B và U+200C) được bọc trong các word-joiner. Văn bản mang tin đọc lên vẫn y hệt, nhưng phần tin ẩn sẽ đi theo nó khi bạn sao chép và dán. Chuyển sang chế độ Hiện để trích xuất tin nhắn từ văn bản đã gắn hình mờ. Đây là làm mờ (obfuscation), không phải mã hóa: bất cứ thứ gì xóa định dạng hoặc chuẩn hóa Unicode đều sẽ loại bỏ dấu, nên đừng bao giờ dùng nó cho mật khẩu hay dữ liệu nhạy cảm.",
+      "steps": [
+        "Nhập văn bản mang tin hiển thị.",
+        "Nhập tin nhắn bí mật cần giấu.",
+        "Nhấn Nhúng và sao chép văn bản đã gắn hình mờ.",
+        "Để đọc lại, hãy dán nó vào chế độ Hiện."
+      ],
+      "faq": [
+        {
+          "q": "Tin nhắn ẩn có còn sau khi sao chép-dán không?",
+          "a": "Có, với thao tác sao chép-dán văn bản thuần thông thường, vì các ký tự zero-width là một phần của chuỗi. Nhưng các trình soạn thảo văn bản có định dạng, nền tảng mạng xã hội và bất kỳ công cụ nào chuẩn hóa Unicode hoặc xóa định dạng đều có thể loại bỏ chúng, nên hãy luôn thử trên đích đến."
+        },
+        {
+          "q": "Đây có phải mã hóa an toàn không?",
+          "a": "Không. Đây là kỹ thuật giấu tin bằng sự mơ hồ (steganography) — bất kỳ ai biết tìm các ký tự zero-width đều có thể hiện ra tin nhắn. Hãy dùng công cụ mã hóa/giải mã AES để bảo mật thực sự."
+        }
+      ]
+    },
+    "css-generator": {
+      "title": "Tạo bóng & lưới CSS",
+      "h1": "Tạo CSS — box shadow, bo góc và lưới",
+      "desc": "Tạo CSS box-shadow, border-radius và bố cục lưới trực quan. Kéo thanh trượt, xem trước trực tiếp và sao chép CSS. Miễn phí, không cần đăng ký.",
+      "intro": "Thiết kế CSS trực quan thay vì đoán các con số. Ở chế độ Box, kéo thanh trượt để chỉnh độ lệch bóng, độ nhòe, độ lan, bán kính bo góc, màu và độ mờ, kèm tùy chọn bóng inset, và xem bản xem trước cập nhật trực tiếp. Ở chế độ Grid, đặt số cột, khoảng cách, số mục và chiều cao hàng để dàn một lưới responsive. CSS tương ứng được tạo ngay khi bạn thao tác — sao chép thẳng vào stylesheet của bạn. Mọi thứ chạy trong trình duyệt của bạn.",
+      "steps": [
+        "Chọn Box shadow & bo góc hoặc Bố cục lưới.",
+        "Kéo thanh trượt để tạo hình hiệu ứng.",
+        "Xem bản xem trước và CSS cập nhật trực tiếp.",
+        "Sao chép CSS đã tạo vào dự án của bạn."
+      ],
+      "faq": [
+        {
+          "q": "Công cụ tạo ra CSS nào?",
+          "a": "CSS chuẩn, sẵn sàng sao chép: một quy tắc .box với background, border-radius và box-shadow, hoặc một quy tắc .grid dùng display:grid với grid-template-columns và gap. Không cần tiền tố vendor cho các thuộc tính này trên trình duyệt hiện đại."
+        },
+        {
+          "q": "Tôi có thể dùng CSS lưới cho một trang web thật không?",
+          "a": "Có. Quy tắc lưới dùng repeat() và các cột phân số, nên nó responsive. Hãy dán nó vào stylesheet và đặt nội dung của bạn bên trong vùng chứa lưới."
+        }
+      ]
+    },
+    "json-to-svg": {
+      "title": "Sơ đồ JSON sang SVG",
+      "h1": "JSON sang SVG — trực quan cây cấu trúc",
+      "desc": "Biến JSON thành cây cấu trúc SVG đầy màu sắc. Dán một object hoặc array, dựng sơ đồ, rồi tải SVG hoặc sao chép mã. Miễn phí, cục bộ.",
+      "intro": "Dán bất kỳ object hoặc array JSON nào và công cụ sẽ phân tích rồi dàn nó thành một cây cấu trúc từ trái sang phải, được vẽ dưới dạng SVG đầy màu sắc hoàn toàn trong trình duyệt của bạn. Mỗi khóa trở thành một nút, các object và array lồng nhau phân nhánh ra, và các giá trị lá được hiển thị ngay trên dòng. Tải kết quả dưới dạng SVG để bạn đưa vào tài liệu hoặc slide, hoặc sao chép mã thô. Các array lớn được giới hạn ở 40 nhánh và sâu tám cấp để giữ sơ đồ dễ đọc.",
+      "steps": [
+        "Dán JSON của bạn vào ô nhập.",
+        "Nhấn Dựng sơ đồ.",
+        "Xem bản xem trước cây cấu trúc.",
+        "Tải SVG hoặc sao chép mã."
+      ],
+      "faq": [
+        {
+          "q": "Hỗ trợ những dạng JSON nào?",
+          "a": "Bất kỳ JSON hợp lệ nào: object, array, chuỗi, số, boolean và null. Object và array trở thành các nút phân nhánh; các giá trị nguyên thủy được hiển thị như lá. JSON không hợp lệ sẽ báo lỗi rõ ràng thay vì vẽ."
+        },
+        {
+          "q": "SVG có chỉnh sửa được không?",
+          "a": "Có. Đó là mã SVG thuần, nên bạn có thể mở nó trong bất kỳ trình soạn thảo vector nào hoặc dán vào HTML. Tệp tải xuống là một tệp .svg độc lập, không có phụ thuộc bên ngoài."
+        }
+      ]
+    },
+    "encrypt-decrypt": {
+      "title": "Mã hóa / Giải mã văn bản",
+      "h1": "Mã hóa / giải mã văn bản AES online",
+      "desc": "Mã hóa và giải mã văn bản bằng AES-256-GCM và một cụm mật khẩu, ngay trong trình duyệt. Dẫn xuất khóa PBKDF2, không tải lên. Miễn phí và riêng tư.",
+      "intro": "Bảo vệ một tin nhắn bằng mật mã học mạnh, hiện đại mà không cần cài đặt gì. Nhập văn bản và một cụm mật khẩu, rồi nhấn Mã hóa: công cụ dẫn xuất một khóa 256-bit bằng PBKDF2 (150.000 vòng lặp, SHA-256) và mã hóa bằng AES-GCM, đóng gói salt và IV ngẫu nhiên vào đầu ra base64 để chỉ cần cụm mật khẩu là đủ giải mã về sau. Dán bản mã và cùng cụm mật khẩu đó để Giải mã. Tất cả dùng Web Crypto API của trình duyệt và không bao giờ rời khỏi thiết bị của bạn.",
+      "steps": [
+        "Nhập hoặc dán văn bản.",
+        "Nhập một cụm mật khẩu mạnh.",
+        "Nhấn Mã hóa để tạo bản mã.",
+        "Để đảo ngược, dán bản mã và nhấn Giải mã."
+      ],
+      "faq": [
+        {
+          "q": "Công cụ này an toàn đến mức nào?",
+          "a": "Nó dùng AES-256-GCM, một chuẩn mã hóa có xác thực, với khóa được dẫn xuất bằng PBKDF2 ở 150.000 vòng lặp. Độ an toàn phụ thuộc vào việc cụm mật khẩu của bạn phải mạnh và bí mật; salt và IV là ngẫu nhiên cho mỗi lần mã hóa."
+        },
+        {
+          "q": "Tôi có thể giải mã mà không cần trang này không?",
+          "a": "Đầu ra là base64 chuẩn đóng gói salt (16 byte), IV (12 byte) và bản mã AES-GCM. Bất kỳ thư viện nào tái tạo được PBKDF2-SHA256 ở 150.000 vòng lặp và AES-256-GCM đều có thể giải mã nó bằng cùng cụm mật khẩu."
+        }
+      ]
+    },
+    "image-mosaic": {
+      "title": "Pixel hóa & làm mờ ảnh",
+      "h1": "Che ảnh — pixel hóa và làm mờ cục bộ",
+      "desc": "Pixel hóa hoặc làm mờ khuôn mặt, biển số và chi tiết riêng tư trong ảnh bằng cách kéo cọ. Chỉnh cục bộ trên canvas và tải PNG. Miễn phí, không tải lên.",
+      "intro": "Che các phần nhạy cảm của một ảnh mà không gửi nó đi đâu. Tải lên một ảnh, chọn Pixel hóa hoặc Làm mờ, đặt kích thước cọ và độ mạnh, rồi kéo qua các khuôn mặt, biển số hoặc tài liệu bạn muốn che. Hiệu ứng được áp dụng trên canvas trong trình duyệt của bạn; khôi phục ảnh gốc bất cứ lúc nào và tải kết quả dưới dạng PNG. Không có gì được tải lên.",
+      "steps": [
+        "Tải lên một ảnh.",
+        "Chọn Pixel hóa hoặc Làm mờ và đặt cọ.",
+        "Kéo qua các vùng cần che.",
+        "Tải ảnh PNG đã chỉnh sửa."
+      ],
+      "faq": [
+        {
+          "q": "Pixel hóa có đảo ngược được không?",
+          "a": "Pixel hóa mạnh lấy trung bình mỗi khối thành một màu, phá hủy chi tiết gốc, nên không thể hoàn tác từ đầu ra. Hãy dùng kích thước khối thô cho dữ liệu nhạy cảm; làm mờ nhẹ đôi khi có thể được tăng nét, nên ưu tiên pixel hóa cho khuôn mặt và biển số."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được vẽ và chỉnh sửa trên canvas hoàn toàn trong trình duyệt của bạn, và PNG được tạo cục bộ. Không có gì được gửi tới máy chủ."
+        }
+      ]
+    },
+    "grid-splitter": {
+      "title": "Chia ảnh thành lưới",
+      "h1": "Chia ảnh thành lưới — chín ô và NxN",
+      "desc": "Cắt ảnh thành lưới chín ô 3×3 hoặc bố cục NxN bất kỳ cho mạng xã hội. Cắt vuông, rồi tải các mảnh dưới dạng ZIP. Miễn phí, cục bộ.",
+      "intro": "Cắt một ảnh thành lưới liền mạch cho Instagram, Weibo hoặc bất kỳ bảng tin mạng xã hội nào. Tải lên một ảnh, chọn lưới từ 2×2 đến 6×6 (3×3 là kiểu chín ô cổ điển), và tùy chọn cắt vuông trước để mỗi mảnh đều vuông. Công cụ cắt nó trên canvas trong trình duyệt của bạn, rồi bạn tải từng mảnh riêng lẻ hoặc thành một tệp ZIP, sẵn sàng đăng theo thứ tự. Không có gì được tải lên.",
+      "steps": [
+        "Tải lên ảnh bạn muốn chia.",
+        "Chọn kích thước lưới, ví dụ 3×3.",
+        "Bật Cắt vuông để có các mảnh vuông.",
+        "Chia và tải các mảnh hoặc tệp ZIP."
+      ],
+      "faq": [
+        {
+          "q": "Làm sao để đăng một lưới chín ô liền mạch?",
+          "a": "Chia thành 3×3, tải tệp ZIP, và tải chín mảnh lên ứng dụng mạng xã hội theo thứ tự đánh số (grid-01 đến grid-09). Hầu hết ứng dụng cho phép chọn nhiều ảnh cùng lúc; giữ đúng thứ tự để ảnh khớp lại."
+        },
+        {
+          "q": "Vì sao nên cắt vuông trước?",
+          "a": "Bảng tin chín ô hiển thị các hình thu nhỏ vuông. Cắt ảnh gốc thành một hình vuông căn giữa trước khi chia giúp mỗi mảnh đều vuông và tránh các cạnh lệch. Tắt nó để chia toàn bộ hình chữ nhật thay thế."
+        }
+      ]
+    },
+    "camera-mic-test": {
+      "title": "Kiểm tra camera & mic",
+      "h1": "Kiểm tra camera, micrô và màn hình",
+      "desc": "Kiểm tra webcam, micrô và màn hình trong trình duyệt. Xem camera trực tiếp, đồng hồ mức micrô và bài kiểm tra màu điểm chết. Miễn phí, riêng tư.",
+      "intro": "Kiểm tra phần cứng của bạn trước một cuộc gọi hoặc bản ghi, hoàn toàn trong trình duyệt. Bật camera để xem trước trực tiếp, kiểm tra micrô và xem thanh mức dịch chuyển khi bạn nói, và chạy bài kiểm tra điểm chết màn hình để luân phiên các màu trơn toàn màn hình và phát hiện điểm kẹt. Không có video hay âm thanh nào được ghi, lưu hoặc tải lên — các luồng dừng khi bạn nhấn Dừng hoặc rời khỏi trang.",
+      "steps": [
+        "Nhấn Bật camera để kiểm tra video.",
+        "Nhấn Kiểm tra micrô và nói.",
+        "Chạy bài kiểm tra màn hình và chạm để đổi màu.",
+        "Dừng từng bài kiểm tra khi bạn xong."
+      ],
+      "faq": [
+        {
+          "q": "Công cụ có ghi hoặc tải lên gì không?",
+          "a": "Không. Camera và micrô chỉ được xem trước và phân tích trực tiếp trong trình duyệt của bạn qua getUserMedia và Web Audio API. Không có gì được ghi, lưu hoặc gửi đi đâu, và các track dừng khi bạn nhấn Dừng."
+        },
+        {
+          "q": "Vì sao trình duyệt hỏi quyền?",
+          "a": "Việc truy cập camera hoặc micrô luôn cần sự cho phép rõ ràng của bạn, và một trang bảo mật (https). Nếu bạn đã từ chối, hãy cho phép trong cài đặt trang của trình duyệt và thử lại."
+        }
+      ]
+    },
+    "teleprompter": {
+      "title": "Máy nhắc chữ (Teleprompter)",
+      "h1": "Máy nhắc chữ online cho kịch bản của bạn",
+      "desc": "Máy nhắc chữ online miễn phí: dán kịch bản, cuộn chữ cỡ lớn, chỉnh tốc độ và cỡ chữ, lật gương và toàn màn hình. Không tải lên.",
+      "intro": "Đọc bài phát biểu trôi chảy khi đang ghi hình. Dán kịch bản của bạn, đặt cỡ chữ thoải mái và tốc độ cuộn, rồi nhấn Bắt đầu để chạy chữ. Lật gương đảo chữ theo chiều ngang cho giàn teleprompter dùng kính tách chùm (beam-splitter), và Toàn màn hình lấp đầy màn hình để bạn đọc từ xa. Kịch bản của bạn ở lại trong tab trình duyệt này và không bao giờ được tải lên.",
+      "steps": [
+        "Dán kịch bản hoặc bài phát biểu của bạn.",
+        "Đặt cỡ chữ và tốc độ cuộn.",
+        "Nhấn Bắt đầu để chạy; lật gương nếu bạn dùng giàn.",
+        "Dùng Toàn màn hình để hiển thị lớn."
+      ],
+      "faq": [
+        {
+          "q": "Tùy chọn lật gương dùng để làm gì?",
+          "a": "Teleprompter dùng kính tách chùm phản chiếu màn hình lên tấm kính trước ống kính, khiến chữ bị đảo ngược. Lật gương đảo chữ theo chiều ngang để đọc đúng trong hình phản chiếu. Hãy tắt nó khi đọc trực tiếp từ màn hình."
+        },
+        {
+          "q": "Kịch bản của tôi có được lưu hoặc gửi đi đâu không?",
+          "a": "Không. Kịch bản chỉ tồn tại trong tab trình duyệt này khi bạn dùng công cụ và không bao giờ được tải lên hay lưu trên máy chủ. Tải lại trang sẽ xóa nó."
+        }
+      ]
+    },
+    "sound-level-meter": {
+      "title": "Máy đo mức âm thanh",
+      "h1": "Máy đo mức âm thanh — máy đo decibel online",
+      "desc": "Máy đo mức âm thanh online miễn phí: xem mức decibel tương đối quanh bạn trực tiếp, kèm đỉnh và trung bình. Dùng micrô cục bộ, không ghi âm.",
+      "intro": "Đo xem môi trường quanh bạn ồn đến mức nào bằng micrô của thiết bị. Nhấn Bắt đầu, cho phép truy cập, và đồng hồ hiển thị mức âm thanh tương đối tính bằng decibel với một thanh trực tiếp kèm số đo đỉnh và trung bình. Đây là đồng hồ tương đối, chưa hiệu chuẩn, lấy mốc theo toàn dải số (digital full scale), nên hãy dùng nó để so sánh độ ồn hoặc phát hiện tiếng ồn chứ không phải cho các phép đo pháp lý hay an toàn. Âm thanh được phân tích trong trình duyệt của bạn và không bao giờ được ghi hay tải lên.",
+      "steps": [
+        "Nhấn Bắt đầu và cho phép truy cập micrô.",
+        "Xem số đo decibel và thanh trực tiếp.",
+        "Kiểm tra mức đỉnh và trung bình.",
+        "Đặt lại đỉnh hoặc Dừng khi xong."
+      ],
+      "faq": [
+        {
+          "q": "Đây có phải máy đo decibel đã hiệu chuẩn không?",
+          "a": "Không. Đây là đồng hồ tương đối lấy mốc theo toàn dải số, nên giá trị tuyệt đối phụ thuộc vào micrô của bạn và độ khuếch đại của nó. Nó hữu ích để so sánh độ ồn, không phải cho các phép đo tiếng ồn được chứng nhận."
+        },
+        {
+          "q": "Âm thanh có bị ghi lại không?",
+          "a": "Không. Luồng micrô chỉ được phân tích trực tiếp trong trình duyệt của bạn để tính mức. Không có gì được ghi, lưu hoặc tải lên, và mic dừng khi bạn nhấn Dừng hoặc rời khỏi trang."
+        }
+      ]
+    }
+  }
+}

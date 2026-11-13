@@ -1,0 +1,47 @@
+{
+  "name": "clearlight-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static multi-language all-purpose toolbox site (PDF / image / text / calculators) with Google Ads slots and IP-based language routing.",
+  "scripts": {
+    "vendor": "node scripts/fetch-vendor.mjs",
+    "build": "node build.mjs",
+    "start": "node dev-server.mjs",
+    "dev": "node build.mjs && node dev-server.mjs",
+    "fixtures": "node scripts/fixtures.mjs",
+    "check:fixtures": "node scripts/fixtures.mjs && node scripts/fixtures-check.mjs",
+    "smoke": "node scripts/smoke.mjs --clicks",
+    "check:dsp": "node scripts/check-dsp.mjs",
+    "check:dom": "node scripts/check-dom-helpers.mjs",
+    "report": "node scripts/browser-report.mjs",
+    "report:merge": "node scripts/browser-merge.mjs",
+    "report:strict": "node scripts/browser-report.mjs --strict",
+    "check:labels": "node scripts/check-label-collisions.mjs --strict",
+    "check:wrap": "node scripts/i18n-wrap.mjs --selftest && node scripts/i18n-wrap.mjs --check",
+    "check:notes": "node scripts/check-note-literals.mjs --strict --selftest",
+    "check:imports": "node scripts/check-imports.mjs --strict",
+    "check:nullchildren": "node scripts/check-null-children.mjs --strict --selftest",
+    "check:fullwidth": "node scripts/check-fullwidth.mjs --strict --selftest",
+    "check": "node build.mjs && node scripts/i18n-report.mjs && npm run check:imports && npm run check:nullchildren && npm run check:labels && npm run check:wrap && npm run check:notes && npm run check:translations && npm run check:parity && npm run check:serp && npm run check:tkd && npm run check:toolseo && npm run check:seotags && npm run check:fullwidth && npm run check:locale && npm run check:widgets && npm run check:tokens && npm run check:routing && node scripts/fixtures.mjs && node scripts/fixtures-check.mjs && node scripts/smoke.mjs --clicks && npm run check:dsp && npm run check:dom && npm run check:locales && npm run check:residual",
+    "pages": "node build.mjs && wrangler pages dev dist",
+    "check:locale": "node scripts/check-locale-leak.mjs --strict --selftest",
+    "check:widgets": "node scripts/check-widget-labels.mjs --strict --selftest",
+    "check:routing": "node scripts/check-routing.mjs --strict --selftest",
+    "check:translations": "node scripts/check-translations.mjs --selftest && node scripts/check-translations.mjs",
+    "check:parity": "node scripts/check-shard-parity.mjs --all --strict",
+    "check:serp": "node scripts/check-desc-length.mjs --selftest && node scripts/check-desc-length.mjs",
+    "check:tkd": "node scripts/check-tkd.mjs --selftest && node scripts/check-tkd.mjs",
+    "check:tokens": "node scripts/check-option-tokens.mjs --selftest && node scripts/check-option-tokens.mjs",
+    "check:locales": "node scripts/smoke-all.mjs --selftest && node scripts/smoke-all.mjs",
+    "check:residual": "node scripts/check-residual-english.mjs --selftest --strict",
+    "check:toolseo": "node scripts/check-tool-seo.mjs --selftest && node scripts/check-tool-seo.mjs",
+    "check:seotags": "node scripts/check-seo-tags.mjs --selftest && node scripts/check-seo-tags.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

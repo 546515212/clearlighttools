@@ -1,0 +1,28 @@
+{
+ "done": true,
+ "startedAt": "2026-11-07T12:24:52.016Z",
+ "planned": [
+  "/zh/calc/bmi-calculator/"
+ ],
+ "rows": [
+  {
+   "tool": "/zh/calc/bmi-calculator/",
+   "ok": false,
+   "why": "notes: expected text never appeared: 22.96 | 体质指数",
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "你的 BMI22.9健康范围under < 18.5healthy 18.5–24.9over 25–29.9obese ≥ 30对应的健康体重56.7 kg – 76.3 kgyou are inside the ra",
+    "你的 BMI22.9健康范围",
+    "对应的健康体重56.7 kg – 76.3 kgyou are inside the range"
+   ],
+   "filled": [
+    "身高（厘米）=175",
+    "体重（公斤）=70"
+   ],
+   "throttleMs": 861,
+   "ms": 1871
+  }
+ ],
+ "finishedAt": "2026-11-07T12:24:53.891Z"
+}

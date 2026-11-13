@@ -1,0 +1,982 @@
+{
+ "mergedFrom": [
+  "sweep-b22.json (1 rows)",
+  "sweep-b21.json (9 rows)",
+  "sweep-b19.json (7 rows)",
+  "sweep-b18.json (7 rows)",
+  "sweep-b17.json (6 rows)",
+  "sweep-b16.json (6 rows)",
+  "sweep-b15.json (6 rows)",
+  "sweep-b14.json (1 rows)",
+  "sweep-b13.json (6 rows)",
+  "sweep-b12.json (1 rows)",
+  "sweep-b10.json (4 rows)",
+  "sweep-b9.json (6 rows)",
+  "sweep-b8.json (6 rows)",
+  "sweep-b7.json (4 rows)",
+  "sweep-b6.json (7 rows)",
+  "sweep-b5.json (8 rows)",
+  "sweep-b4.json (7 rows)",
+  "sweep-b3.json (6 rows)",
+  "sweep-b2.json (8 rows)",
+  "sweep-b1.json (6 rows)"
+ ],
+ "startedAt": "2026-11-07T12:23:51.672Z",
+ "finishedAt": "2026-11-07T12:24:40.967Z",
+ "done": true,
+ "planned": [
+  "compress-pdf",
+  "merge-pdf",
+  "split-pdf",
+  "split-pdf",
+  "rotate-pdf",
+  "watermark-pdf",
+  "pdf-to-jpg",
+  "pdf-to-text",
+  "images-to-pdf",
+  "html-to-pdf",
+  "compress-image",
+  "convert-image",
+  "resize-image",
+  "image-to-base64",
+  "base64-to-image",
+  "qr-code-generator",
+  "favicon-generator",
+  "color-picker",
+  "image-to-gif",
+  "trim-audio",
+  "image-contrast-brightness",
+  "word-counter",
+  "case-converter",
+  "remove-duplicate-lines",
+  "lorem-ipsum-generator",
+  "base64-encode-decode",
+  "url-encode-decode",
+  "html-entities",
+  "reverse-text",
+  "json-formatter",
+  "csv-to-json",
+  "markdown-to-html",
+  "hash-generator",
+  "uuid-generator",
+  "password-generator",
+  "regex-tester",
+  "diff-checker",
+  "text-to-speech",
+  "percentage-calculator",
+  "bmi-calculator",
+  "age-calculator",
+  "date-calculator",
+  "loan-calculator",
+  "discount-calculator",
+  "unit-converter",
+  "color-converter",
+  "calorie-calculator",
+  "timestamp-converter",
+  "random-number-generator"
+ ],
+ "rows": [
+  {
+   "tool": "compress-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "compress-pdf-sample-long.pdf | 7424 | application/pdf"
+   ],
+   "output": [
+    "sample-long.pdf7.3 KB−1%Download",
+    "sample-long.pdf7.3 KB−1%Download"
+   ],
+   "filled": [],
+   "throttleMs": 100,
+   "ms": 5092,
+   "_from": "sweep-b13.json"
+  },
+  {
+   "tool": "merge-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Merge",
+    "Download"
+   ],
+   "bytes": [
+    "merge-pdf-merged-6-pages.pdf | 4074 | application/pdf"
+   ],
+   "output": [
+    "merged-6-pages.pdf4 KB6 pagesDownload",
+    "merged-6-pages.pdf4 KB6 pagesDownload"
+   ],
+   "filled": [],
+   "throttleMs": 100,
+   "ms": 5012,
+   "_from": "sweep-b13.json"
+  },
+  {
+   "tool": "split-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download"
+   ],
+   "bytes": [
+    "split-pdf-sample-a-pages.pdf | 1256 | application/pdf"
+   ],
+   "output": [
+    "sample-a-pages.pdf1.2 KB1pDownload",
+    "sample-a-pages.pdf1.2 KB1pDownload"
+   ],
+   "filled": [],
+   "throttleMs": 100,
+   "ms": 4989,
+   "_from": "sweep-b13.json"
+  },
+  {
+   "tool": "split-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download all (.zip)"
+   ],
+   "bytes": [
+    "split-each-sample-long-split.zip | 16404 | application/zip"
+   ],
+   "output": [
+    "12 files produced.Download all (.zip)"
+   ],
+   "filled": [
+    "Mode=each"
+   ],
+   "throttleMs": 100,
+   "ms": 6010,
+   "_from": "sweep-b13.json"
+  },
+  {
+   "tool": "rotate-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Apply",
+    "Download"
+   ],
+   "bytes": [
+    "rotate-pdf-sample-a.pdf | 2436 | application/pdf"
+   ],
+   "output": [
+    "sample-a.pdf2.4 KB3 pages rotatedDownload",
+    "sample-a.pdf2.4 KB3 pages rotatedDownload"
+   ],
+   "filled": [],
+   "throttleMs": 100,
+   "ms": 4994,
+   "_from": "sweep-b13.json"
+  },
+  {
+   "tool": "watermark-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Add watermark",
+    "Download"
+   ],
+   "bytes": [
+    "watermark-pdf-sample-a.pdf | 3361 | application/pdf"
+   ],
+   "output": [
+    "sample-a.pdf3.3 KB3 pages stampedDownload",
+    "sample-a.pdf3.3 KB3 pages stampedDownload"
+   ],
+   "filled": [],
+   "throttleMs": 100,
+   "ms": 4993,
+   "_from": "sweep-b13.json"
+  },
+  {
+   "tool": "pdf-to-jpg",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Run",
+    "Download all (.zip) (3)"
+   ],
+   "bytes": [
+    "pdf-to-jpg-sample-a-pages.zip | 95189 | application/zip"
+   ],
+   "output": [
+    "sample-a-p1.jpgsample-a-p2.jpgsample-a-p3.jpgDownload all (.zip) (3)"
+   ],
+   "filled": [],
+   "throttleMs": 709,
+   "ms": 10708,
+   "_from": "sweep-b14.json"
+  },
+  {
+   "tool": "pdf-to-text",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Extract text",
+    "Download as .txt"
+   ],
+   "bytes": [
+    "pdf-to-text-sample-a.txt | 391 | text/plain"
+   ],
+   "output": [
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH",
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH",
+    "ALPHA page 1 of 3 The quick brown fox jumps over the lazy dog. 0123456789 - sample figures for extraction ALPH"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 6915,
+   "_from": "sweep-b15.json"
+  },
+  {
+   "tool": "images-to-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Create PDF",
+    "Download"
+   ],
+   "bytes": [
+    "images-to-pdf-photo-pdf.pdf | 32628 | application/pdf"
+   ],
+   "output": [
+    "photo-pdf.pdf32 KB2 pagesDownload",
+    "photo-pdf.pdf32 KB2 pagesDownload"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 4993,
+   "_from": "sweep-b15.json"
+  },
+  {
+   "tool": "html-to-pdf",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 4990,
+   "_from": "sweep-b15.json"
+  },
+  {
+   "tool": "compress-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Compress",
+    "Download"
+   ],
+   "bytes": [
+    "compress-image-photo.jpg | 4144 | image/jpeg"
+   ],
+   "output": [
+    "photo.jpg4 KB34 KB → 4 KB (−88%)Download",
+    "photo.jpg4 KB34 KB → 4 KB (−88%)Download"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 6998,
+   "_from": "sweep-b15.json"
+  },
+  {
+   "tool": "convert-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Convert",
+    "Download"
+   ],
+   "bytes": [
+    "convert-image-photo.png | 5624 | image/png"
+   ],
+   "output": [
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload",
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 7000,
+   "_from": "sweep-b15.json"
+  },
+  {
+   "tool": "resize-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Resize",
+    "Download"
+   ],
+   "bytes": [
+    "resize-image-photo.png | 88387 | image/png"
+   ],
+   "output": [
+    "photo.png86 KB240×160 → 1024×683Download",
+    "photo.png86 KB240×160 → 1024×683Download"
+   ],
+   "filled": [],
+   "throttleMs": 901,
+   "ms": 7011,
+   "_from": "sweep-b15.json"
+  },
+  {
+   "tool": "image-to-base64",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "photo-small.png · 12 KB · 16,166 characters of text (base64 is ~33% larger than the bytes it encodes)Copy"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 2624,
+   "_from": "sweep-b16.json"
+  },
+  {
+   "tool": "base64-to-image",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download"
+   ],
+   "bytes": [
+    "base64-to-image-decoded.png | 12108 | image/png"
+   ],
+   "output": [
+    "decoded.png12 KBimage/png · 80×60 · from 16,144 base64 charactersDownload",
+    "decoded.png12 KBimage/png · 80×60 · from 16,144 base64 charactersDownload"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 5012,
+   "_from": "sweep-b16.json"
+  },
+  {
+   "tool": "qr-code-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Download PNG",
+    "Download SVG",
+    "Print"
+   ],
+   "bytes": [
+    "qr-code-qr-code.png | 4199 | image/png",
+    "qr-code-qr-code.svg | 6057 | image/svg+xml"
+   ],
+   "output": [
+    "29×29 modules · 296px · payload 28 BDownload PNGDownload SVGCopy imagePrintText payload: https://example.com/p",
+    "29×29 modules · 296px · payload 28 B"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 7983,
+   "_from": "sweep-b16.json"
+  },
+  {
+   "tool": "favicon-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Generate",
+    "Download",
+    "Download",
+    "Download",
+    "Download",
+    "Download",
+    "Download .zip"
+   ],
+   "bytes": [
+    "favicon-favicon-16x16.png | 663 | image/png",
+    "favicon-favicon-32x32.png | 1288 | image/png",
+    "favicon-favicon-48x48.png | 2088 | image/png",
+    "favicon-favicon-180x180.png | 8099 | image/png",
+    "favicon-favicon.ico | 12208 | image/x-icon",
+    "favicon-favicon.zip | 24910 | application/zip"
+   ],
+   "output": [
+    "favicon-16x16.png663 B16×16Downloadfavicon-32x32.png1.3 KB32×32Downloadfavicon-48x48.png2 KB48×48Downloadfavic",
+    "favicon-16x16.png663 B16×16Download",
+    "favicon-32x32.png1.3 KB32×32Download"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 19005,
+   "_from": "sweep-b16.json"
+  },
+  {
+   "tool": "color-picker",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 1007,
+   "_from": "sweep-b16.json"
+  },
+  {
+   "tool": "image-to-gif",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Create GIF",
+    "Download"
+   ],
+   "bytes": [
+    "image-to-gif-animation.gif | 37380 | image/gif"
+   ],
+   "output": [
+    "2 frames · 480×320 · 37 KB · 0.8s per loopDownload",
+    "2 frames · 480×320 · 37 KB · 0.8s per loopDownload"
+   ],
+   "filled": [],
+   "throttleMs": 629,
+   "ms": 6984,
+   "_from": "sweep-b16.json"
+  },
+  {
+   "tool": "trim-audio",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Cut",
+    "Download"
+   ],
+   "bytes": [
+    "trim-audio-tone.wav | 105884 | audio/wav"
+   ],
+   "output": [
+    "tone.wav103 KB00:01.20 clip · 44100 Hz · monoDownloadWAV is uncompressed, so it is bigger than the MP3 you sta",
+    "tone.wav103 KB00:01.20 clip · 44100 Hz · monoDownload"
+   ],
+   "filled": [],
+   "throttleMs": 889,
+   "ms": 6890,
+   "_from": "sweep-b17.json"
+  },
+  {
+   "tool": "image-contrast-brightness",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Apply",
+    "Download"
+   ],
+   "bytes": [
+    "contrast-image-photo.png | 5624 | image/png"
+   ],
+   "output": [
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload",
+    "photo.png5.5 KB240×160 · 34 KB → 5.5 KBDownload"
+   ],
+   "filled": [],
+   "throttleMs": 889,
+   "ms": 6999,
+   "_from": "sweep-b17.json"
+  },
+  {
+   "tool": "word-counter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Words1283% uniqueCharacters6150 without spacesSentences2Lines11 paragraphsReading time1 min≈200 wpmSpeaking ti",
+    "Words1283% unique",
+    "Characters6150 without spaces"
+   ],
+   "filled": [],
+   "throttleMs": 889,
+   "ms": 992,
+   "_from": "sweep-b17.json"
+  },
+  {
+   "tool": "case-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy",
+    "Words4Characters21Caseupper",
+    "Words4"
+   ],
+   "filled": [],
+   "throttleMs": 889,
+   "ms": 1007,
+   "_from": "sweep-b17.json"
+  },
+  {
+   "tool": "remove-duplicate-lines",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".txt"
+   ],
+   "bytes": [
+    "dedupe-clean-lines.txt | 5 | text/plain"
+   ],
+   "output": [
+    "ResultLines6 → 33 removedUnique32 appear twice or moreLongest line1charactersa ×2b ×2Copy.txt",
+    "Lines6 → 33 removedUnique32 appear twice or moreLongest line1characters",
+    "Lines6 → 33 removed"
+   ],
+   "filled": [],
+   "throttleMs": 889,
+   "ms": 1990,
+   "_from": "sweep-b17.json"
+  },
+  {
+   "tool": "lorem-ipsum-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "ResultRegenerateCopy",
+    "Words209Sentences18Characters1427",
+    "Words209"
+   ],
+   "filled": [],
+   "throttleMs": 889,
+   "ms": 1003,
+   "_from": "sweep-b17.json"
+  },
+  {
+   "tool": "base64-encode-decode",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy",
+    "Input characters16Output characters28+75%",
+    "Input characters16"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 1801,
+   "_from": "sweep-b18.json"
+  },
+  {
+   "tool": "url-encode-decode",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 989,
+   "_from": "sweep-b18.json"
+  },
+  {
+   "tool": "html-entities",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy",
+    "Input characters29Output characters45",
+    "Input characters29"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 1008,
+   "_from": "sweep-b18.json"
+  },
+  {
+   "tool": "reverse-text",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "InputResultCopy"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 995,
+   "_from": "sweep-b18.json"
+  },
+  {
+   "tool": "json-formatter",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".json"
+   ],
+   "bytes": [
+    "json-formatted.json | 66 | application/json"
+   ],
+   "output": [
+    "JSON inputResultCopy.json",
+    "Valid JSONyesKeys41 arraysDepth34 leaf valuesSize66 chars",
+    "Valid JSONyes"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 1994,
+   "_from": "sweep-b18.json"
+  },
+  {
+   "tool": "csv-to-json",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".json"
+   ],
+   "bytes": [
+    "csv-data.json | 85 | application/json"
+   ],
+   "output": [
+    "CSVResultCopy.jsonPreviewnameageAnn31Bo25null",
+    "nameageAnn31Bo25",
+    "Rows2Columns2Delimited bycomma"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 2003,
+   "_from": "sweep-b18.json"
+  },
+  {
+   "tool": "markdown-to-html",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".html"
+   ],
+   "bytes": [
+    "md-rendered.html | 99 | text/html"
+   ],
+   "output": [
+    "MarkdownHTMLCopy.htmlPreviewTitle Some bold text and a link.",
+    "Title Some bold text and a link.",
+    "HTML characters99Words rendered7Headings1"
+   ],
+   "filled": [],
+   "throttleMs": 798,
+   "ms": 1993,
+   "_from": "sweep-b18.json"
+  },
+  {
+   "tool": "hash-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "5 charactersSHA-2562cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824Copy",
+    "SHA-2562cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824Copy",
+    "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 1121,
+   "_from": "sweep-b19.json"
+  },
+  {
+   "tool": "uuid-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    ".txt"
+   ],
+   "bytes": [
+    "uuid-uuids.txt | 369 | text/plain"
+   ],
+   "output": [
+    "ResultRegenerateCopy.txt",
+    "Generated10random (RFC 4122)Unique10Characters369",
+    "Generated10random (RFC 4122)"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 2011,
+   "_from": "sweep-b19.json"
+  },
+  {
+   "tool": "password-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "PasswordsRegenerateCopy firstGenerated with the browser cryptographic random number generator. Nothing is stor",
+    "Length16pool 84 charactersEntropy102.3 bitsvery strongBrute force~3.6e+14 years at a trillion guesses per seco",
+    "Length16pool 84 characters"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 994,
+   "_from": "sweep-b19.json"
+  },
+  {
+   "tool": "regex-tester",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Highlightedorder 4821 and order 9015No match. Try removing anchors (^ $) or the case-sensitive flag.Replace wi",
+    "order 4821 and order 9015",
+    "Matches0Subject25 chars1 lines"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 990,
+   "_from": "sweep-b19.json"
+  },
+  {
+   "tool": "diff-checker",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Changed lines41 added · 3 removedIdentical0lines− alpha− beta− gamma+ null",
+    "Changed lines41 added · 3 removedIdentical0lines",
+    "Changed lines41 added · 3 removed"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 1000,
+   "_from": "sweep-b19.json"
+  },
+  {
+   "tool": "text-to-speech",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Play"
+   ],
+   "bytes": [],
+   "output": [
+    "Words2≈ listening1 minat normal speed",
+    "Words2",
+    "≈ listening1 minat normal speed"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 1997,
+   "_from": "sweep-b19.json"
+  },
+  {
+   "tool": "percentage-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "What is X% of Y?PercentofResult5025% × 200X is what percent of Y?ValueofResult83.33%÷ 180Increase or decreaseF",
+    "Result5025% × 200",
+    "Result83.33%÷ 180"
+   ],
+   "filled": [],
+   "throttleMs": 128,
+   "ms": 1002,
+   "_from": "sweep-b19.json"
+  },
+  {
+   "tool": "bmi-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Your BMI23.5Healthy rangeunder < 18.5healthy 18.5–24.9over 25–29.9obese ≥ 30Healthy weight here53.5 kg – 72 kg",
+    "Your BMI23.5Healthy range",
+    "Healthy weight here53.5 kg – 72 kgyou are inside the range"
+   ],
+   "filled": [],
+   "throttleMs": 219,
+   "ms": 1212,
+   "_from": "sweep-b22.json"
+  },
+  {
+   "tool": "age-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Age31 years, 4 months, 23 daysborn Thursday, June 15, 1995Total days11,4681,638 weeksTotal hours275,23216,513,",
+    "Age31 years, 4 months, 23 daysborn Thursday, June 15, 1995",
+    "Total days11,4681,638 weeksTotal hours275,23216,513,920 minutesNext birthdayin 220 daysTuesday, June 15Birthda"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1203,
+   "_from": "sweep-b21.json"
+  },
+  {
+   "tool": "date-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "30 days laterMonday, December 7, 20262026-12-07Calendar days30plain daysWeeks + days4 w 2 d720 hoursThat month",
+    "30 days laterMonday, December 7, 20262026-12-07",
+    "Calendar days30plain daysWeeks + days4 w 2 d720 hoursThat monthDecember has 31 days"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1004,
+   "_from": "sweep-b21.json"
+  },
+  {
+   "tool": "loan-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Monthly payment607.5336 paymentsTotal interest1,871.199.36% of what you borrowedTotal repaid21,871.191.0935593",
+    "Monthly payment607.5336 payments",
+    "Total interest1,871.199.36% of what you borrowedTotal repaid21,871.191.093559324× the amountTerm3 y 0 mas agre"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1003,
+   "_from": "sweep-b21.json"
+  },
+  {
+   "tool": "discount-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "You pay90.00before any taxYou save30.0025% off the sticker priceAfter discount90.0090.00Tax amount0.00calculat",
+    "You pay90.00before any tax",
+    "You save30.0025% off the sticker priceAfter discount90.0090.00Tax amount0.00calculated on the discounted price"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 990,
+   "_from": "sweep-b21.json"
+  },
+  {
+   "tool": "unit-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "1 m equalsResult3.280839895 ft1 m = 3.280839895 ftAll units at oncem1copykm0.001copycm100copymm1,000copyµm1,00",
+    "Result3.280839895 ft1 m = 3.280839895 ft",
+    "m1copykm0.001copycm100copymm1,000copyµm1,000,000copynm1,000,000,000copymi0.0006213711922copyyd1.093613298copyf"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1009,
+   "_from": "sweep-b21.json"
+  },
+  {
+   "tool": "color-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "HEX#3366FFcopyRGBrgb(51, 102, 255)copyRGBArgba(51, 102, 255, 1)copyHSLhsl(225, 100%, 60%)copyCMYKcmyk(80%, 60%",
+    "#3366FF"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 1002,
+   "_from": "sweep-b21.json"
+  },
+  {
+   "tool": "calorie-calculator",
+   "ok": true,
+   "why": null,
+   "clicks": [],
+   "bytes": [],
+   "output": [
+    "Maintenance1,869 kcalBMR 1,359 kcal × 1.375 activityDaily target1,869 kcalweight stays where it isProtein99 kc",
+    "Maintenance1,869 kcalBMR 1,359 kcal × 1.375 activity",
+    "Daily target1,869 kcalweight stays where it isProtein99 kcal1.6 g/kg → 99 gFat502 kcal0.9 g/kg → 56 gCarbohydr"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 989,
+   "_from": "sweep-b21.json"
+  },
+  {
+   "tool": "timestamp-converter",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Now (seconds)",
+    "Now (seconds)",
+    "Now (milliseconds)",
+    "One year from now",
+    "Now (milliseconds)",
+    "Now (seconds)",
+    "Now (milliseconds)",
+    "One year from now",
+    "One year from now",
+    "Now (seconds)",
+    "Now (milliseconds)",
+    "One year from now"
+   ],
+   "bytes": [],
+   "output": [
+    "That moment isNovember 7, 2027read as seconds (10 digits)LocalSunday, November 7, 2027 at 8:22:58 PM GMT+8copy",
+    "That moment isNovember 7, 2027read as seconds (10 digits)",
+    "LocalSunday, November 7, 2027 at 8:22:58 PM GMT+8copyISO 86012027-11-07T12:22:58.000ZcopyUTCSun, 07 Nov 2027 1"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 12996,
+   "_from": "sweep-b21.json"
+  },
+  {
+   "tool": "random-number-generator",
+   "ok": true,
+   "why": null,
+   "clicks": [
+    "Draw again",
+    "Draw again",
+    ".txt",
+    ".txt"
+   ],
+   "bytes": [
+    "random-random-numbers.txt | 28 | text/plain",
+    "random-random-numbers.txt | 28 | text/plain"
+   ],
+   "output": [
+    "Drawn10repeats allowedRange1 – 1000 decimal placesSum519Average51.9expected around 50.5Lowest / highest3 / 88N",
+    "Drawn10repeats allowed",
+    "Range1 – 1000 decimal placesSum519Average51.9expected around 50.5Lowest / highest3 / 88"
+   ],
+   "filled": [],
+   "throttleMs": 214,
+   "ms": 5006,
+   "_from": "sweep-b21.json"
+  }
+ ]
+}
