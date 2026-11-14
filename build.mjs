@@ -242,6 +242,15 @@ if (cfg.ads.enabled && cfg.ads.clientId) {
 await write(P('dist', 'llms.txt'), `# ${cfg.brand}\n\n${cfg.productName}. ${cfg.locales.length} languages. Every tool runs client-side; no file is uploaded.\n\n` +
   tools.map(t => `- [${dicts.en.t[t.id].title}] ${base}/en/${T.toolPath(t)}`).join('\n') + '\n');
 
+// Bing Webmaster Tools ownership verification (XML file method). Bing fetches this exact root path
+// to confirm the site; the code is a public verification token, not a secret credential. Written here
+// so every build ships it (dist/ is wiped each run) and CI deploys it alongside robots.txt / ads.txt.
+await write(P('dist', 'BingSiteAuth.xml'), `<?xml version="1.0"?>
+<users>
+\t<user>C3574BCC73E076BE25885D8D98CED52F</user>
+</users>
+`);
+
 const today = new Date().toISOString().slice(0, 10);
 // Single root sitemap.xml, built by scanning the FINISHED dist/ tree — not an in-memory registry — so
 // it can only list pages that actually shipped. Rules:
