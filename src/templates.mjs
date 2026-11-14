@@ -293,14 +293,19 @@ export function toolPage({ cfg, dict, locale, tool }) {
   const needsNotice = (dict.w && Object.keys(dict.w).length) || locale === 'en' || locale === 'zh' ? '' : `<p class="note">${esc(dict.tool.translationNotice)}</p>`;
   const bundle = { pdf: 'pdf', image: 'image', audio: 'audio', video: 'video', text: 'text', calc: 'calc' }[tool.cat];
 
+  // Breadcrumb: store locale-relative paths so both the visible nav (via pageHref) and the
+  // JSON-LD absolute items share ONE source of truth. base is normalized (no trailing slash)
+  // so item URLs never double the locale prefix (was /en//en/…) and every level — including the
+  // current tool — carries an absolute item, per schema.org BreadcrumbList.
+  const base = cfg.baselineUrl.replace(/\/$/, '');
   const crumb = [
-    { name: dict.nav.home, url: pageHref(locale, '') },
-    { name: dict.cat[tool.cat], url: pageHref(locale, `${tool.cat}/`) },
-    { name: title, url: null }
+    { name: dict.nav.home, path: '' },
+    { name: dict.cat[tool.cat], path: `${tool.cat}/` },
+    { name: title, path: toolPath(tool) }
   ];
   const breadcrumbLd = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-    itemListElement: crumb.map((item, i) => ({ '@type': 'ListItem', position: i + 1, name: item.name, item: item.url ? `${cfg.baselineUrl}/${locale}/${item.url}` : undefined })).map(o => (o.item ? o : (delete o.item, o)))
+    itemListElement: crumb.map((item, i) => ({ '@type': 'ListItem', position: i + 1, name: item.name, item: `${base}/${locale}/${item.path}` }))
   };
   const appLd = {
     '@context': 'https://schema.org', '@type': 'WebApplication',
@@ -328,8 +333,8 @@ export function toolPage({ cfg, dict, locale, tool }) {
   const body = `<div class="wrap tool-layout">
   <div class="tool-main">
     ${adSlot('header', { dict })}
-    <nav class="breadcrumb" aria-label="${attr(dict.nav.home)}">
-      <a href="${crumb[0].url}">${esc(crumb[0].name)}</a><span><a href="${crumb[1].url}">${esc(crumb[1].name)}</a></span><span>${esc(crumb[2].name)}</span>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="${pageHref(locale, crumb[0].path)}">${esc(crumb[0].name)}</a><span><a href="${pageHref(locale, crumb[1].path)}">${esc(crumb[1].name)}</a></span><span aria-current="page">${esc(crumb[2].name)}</span>
     </nav>
     <div class="tool-head">
       <h1>${esc(h1)}</h1>
@@ -355,6 +360,13 @@ export function toolPage({ cfg, dict, locale, tool }) {
       <p>${esc(desc)}</p>
       <p>${esc((dict.tool.overview || {})[tool.cat] || '')}</p>
       <p>${esc(dict.tool.privacyLine)} ${esc((dict.tool.tip || {})[tool.cat] || '')}</p>
+    </section>
+
+    <section class="prose" id="related">
+      <h2>${esc(dict.tool.relatedTitle)}</h2>
+      <div class="related-grid">
+        ${related.map(t => toolCard(t, dict, locale)).join('\n        ')}
+      </div>
     </section>
 
     <section class="prose" id="about">
