@@ -16,7 +16,7 @@
     "home": "Accueil",
     "allTools": "Tous les outils",
     "search": "Rechercher",
-    "searchPlaceholder": "Rechercher 78 outils gratuits…",
+    "searchPlaceholder": "Rechercher 79 outils gratuits…",
     "language": "Langue",
     "menu": "Menu",
     "close": "Fermer",
@@ -25,8 +25,8 @@
     "new": "Nouveau"
   },
   "cat": {
-    "pdf": "Outils PDF",
-    "pdf.tagline": "Compressez, fusionnez, divisez et convertissez vos PDF dans le navigateur.",
+    "pdf": "Outils PDF et Word",
+    "pdf.tagline": "Compressez, fusionnez, divisez et convertissez des documents PDF et Word dans votre navigateur.",
     "image": "Outils image",
     "image.tagline": "Compressez, convertissez et redimensionnez des photos, créez QR codes, favicons et GIF, et choisissez des couleurs.",
     "text": "Texte et code",
@@ -140,7 +140,7 @@
     "langHint": "Le site s'ouvre en anglais par défaut. Choisissez votre langue ici.",
     "langSuggested": "Ces outils sont aussi disponibles en {lang} pour votre région.",
     "overview": {
-      "pdf": "Ces outils PDF traitent des documents entiers : fusionner des pages, découper des plages, pivoter, filigraner, compresser ou convertir en images et texte, en conservant la mise en page et l'ordre des pages que vous contrôlez.",
+      "pdf": "Ces outils PDF et Word travaillent sur des documents entiers : combiner des pages, diviser des plages, pivoter, filigraner, compresser ou convertir en images et en texte, et réduire des fichiers .docx en recompressant leurs images intégrées — en gardant la mise en page et l’ordre des pages d’origine sous votre contrôle.",
       "image": "Ces outils image couvrent les tâches photo courantes : compresser et convertir entre JPG, PNG et WebP, redimensionner au pixel près, créer QR codes et favicons, choisir des couleurs et assembler des GIF animés.",
       "audio": "Ces outils audio montent le son sans logiciel de bureau : découper et joindre des clips, convertir les formats, enregistrer au micro, et régler volume, vitesse, hauteur ou égalisation en écoutant le résultat.",
       "video": "Ces outils vidéo réalisent des travaux rapides dans le navigateur : compresser un enregistrement en fichier plus léger, ou capturer écran et webcam avec le son, puis télécharger le résultat aussitôt.",
@@ -148,7 +148,7 @@
       "calc": "Ces calculatrices et convertisseurs donnent des réponses instantanées : pourcentages, IMC, prêts et intérêts, unités, couleurs et dates, avec la formule affichée pour vérifier le calcul."
     },
     "tip": {
-      "pdf": "Gardez une copie de l'original avant de compresser ou découper : la compression échange un peu de qualité contre la taille, et un découpage est irréversible une fois l'onglet fermé.",
+      "pdf": "Gardez une copie de l’original avant de compresser ou de diviser : la compression échange un peu de qualité d’image contre de la taille, une division est irréversible une fois l’onglet fermé, et un .docx compressé garde son texte mais ré-encode les images qu’il contient.",
       "image": "Pour les photos, préférez JPG ou WebP à une qualité raisonnable ; gardez PNG pour les logos et captures aux bords nets ou transparents, car JPG les floute et perd le canal alpha.",
       "audio": "Travaillez sur une copie et préécoutez avant de télécharger : découpe et changement de vitesse sont destructifs pour le clip chargé, et réencoder deux fois un fichier lossy ajoute des artefacts audibles.",
       "video": "L'enregistrement d'écran et de webcam exige votre autorisation et un navigateur récent ; fermez les autres onglets pendant l'enregistrement pour laisser assez de CPU à l'encodeur et garder la fluidité.",

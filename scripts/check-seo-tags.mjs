@@ -11,7 +11,7 @@
 //   3. robots meta      contact + 404 are noindex,nofollow; the root chooser is index,follow; every
 //                       other page is index,follow,max-image-preview:large.
 //   4. sitemap.xml      ONE root sitemap.xml lists every indexable URL across ALL locales (home + 6
-//                       categories + all + 78 tools + 5 legal per locale = 91 × 13 = 1183; no root
+//                       categories + all + 79 tools + 5 legal per locale = 92 × 13 = 1196; no root
 //                       chooser, no 404, no _assets). Each <loc> is byte-identical to that page's
 //                       canonical (owner domain, HTTPS, no www, trailing slash) and carries a
 //                       build-date <lastmod> — and NOTHING else (no priority / changefreq / hreflang).
@@ -20,7 +20,7 @@
 //                       sitemap-index.xml and per-locale sitemap-<l>.xml must no longer exist.
 //
 //   node scripts/check-seo-tags.mjs              all locales, exit 1 on any hard finding / build gap
-//   node scripts/check-seo-tags.mjs --locale zh  one locale's pages (the sitemap is global, still 1183)
+//   node scripts/check-seo-tags.mjs --locale zh  one locale's pages (the sitemap is global, still 1196)
 //   node scripts/check-seo-tags.mjs --selftest   in-memory sabotage of every rule + counter-proofs
 //
 // Every canonical / hreflang / og:url / sitemap URL must sit on https://clearlighttools.com — a stale

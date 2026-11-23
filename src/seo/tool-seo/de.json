@@ -8,7 +8,7 @@
     "homeH1": "Kostenlose Online-Tools & schnelle Browser-Helfer"
   },
   "cats": {
-    "pdf": "PDF-Tools & Editoren",
+    "pdf": "PDF- & Word-Tools",
     "image": "Bild-Tools & Konverter",
     "audio": "Audio-Tools & Editoren",
     "video": "Video-Tools & Konverter",
@@ -94,6 +94,7 @@
     "rmb-uppercase": { "action": "Chinesisch", "verb": "Wandle RMB-Beträge in chinesische Großschrift um" },
     "world-clock": { "action": "Zeitzonen", "verb": "Vergleiche die aktuelle Uhrzeit in Städten weltweit" },
     "pomodoro-timer": { "action": "25-Minuten", "verb": "Starte fokussierte Arbeitssitzungen mit Pausen-Timern" },
-    "random-picker": { "action": "Rad drehen", "verb": "Lose zufällige Namen aus und drehe ein Entscheidungsrad" }
+    "random-picker": { "action": "Rad drehen", "verb": "Lose zufällige Namen aus und drehe ein Entscheidungsrad" },
+    "compress-word": { "action": "DOCX verkleinern", "verb": "Komprimiere Word-Dokumente auf eine kleinere Dateigröße" }
   }
 }

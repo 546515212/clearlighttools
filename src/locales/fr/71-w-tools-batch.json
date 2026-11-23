@@ -119,6 +119,16 @@
     "teleScript": "Votre script",
     "teleSpeedHint": "pixels de défilement par seconde",
     "teleMirror": "Miroir (pour un séparateur de faisceau)",
-    "teleNote": "Collez votre discours, réglez la taille de police et la vitesse de défilement, puis appuyez sur Démarrer. Miroir retourne le texte pour un téléprompteur à séparateur de faisceau, et Plein écran remplit l'affichage. Votre script reste dans cet onglet du navigateur et n'est jamais envoyé."
+    "teleNote": "Collez votre discours, réglez la taille de police et la vitesse de défilement, puis appuyez sur Démarrer. Miroir retourne le texte pour un téléprompteur à séparateur de faisceau, et Plein écran remplit l'affichage. Votre script reste dans cet onglet du navigateur et n'est jamais envoyé.",
+    "cwHint": "Déposez des documents Word .docx, ou cliquez pour choisir",
+    "cwLossless": "Sans perte (re-zip uniquement)",
+    "cwQualityHint": "plus bas = images intégrées plus petites",
+    "cwMaxDim": "Plus grand côté de l’image",
+    "cwKeepSize": "Garder la taille d’origine",
+    "cwDocOnly": ".docx uniquement — l’ancien format .doc et les documents chiffrés ne sont pas pris en charge.",
+    "cwNotDocx": "Ce n’est pas un fichier .docx lisible. L’ancien format .doc et les documents chiffrés ne sont pas pris en charge.",
+    "cwNotWord": "Ce fichier est une archive ZIP mais pas un document Word (.docx).",
+    "cwExtra": "−{0}% · {1} images",
+    "cwNote": "Un .docx est un ZIP de XML et d’images. Cet outil recompresse les images intégrées et ré-emballe le fichier ; votre texte, vos styles et votre mise en page restent intacts."
   }
 }

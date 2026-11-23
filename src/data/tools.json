@@ -1,5 +1,6 @@
 [
   { "id": "compress-pdf", "cat": "pdf", "hot": true, "type": "file", "needs": ["pdf-lib", "pdf.js"], "kw": ["reduce pdf size", "pdf compressor", "shrink pdf"] },
+  { "id": "compress-word", "cat": "pdf", "hot": true, "type": "file", "needs": ["jszip"], "kw": ["compress word document", "docx compressor", "reduce word file size", "shrink docx"] },
   { "id": "merge-pdf", "cat": "pdf", "hot": true, "type": "file", "needs": ["pdf-lib"], "kw": ["combine pdf", "join pdf files"] },
   { "id": "split-pdf", "cat": "pdf", "hot": true, "type": "file", "needs": ["pdf-lib"], "kw": ["extract pdf pages", "divide pdf"] },
   { "id": "rotate-pdf", "cat": "pdf", "type": "file", "needs": ["pdf-lib"], "kw": ["turn pdf pages"] },

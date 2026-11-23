@@ -16,7 +16,7 @@
     "home": "Beranda",
     "allTools": "Semua alat",
     "search": "Cari",
-    "searchPlaceholder": "Cari 78 alat percuma…",
+    "searchPlaceholder": "Cari 79 alat percuma…",
     "language": "Bahasa",
     "menu": "Menu",
     "close": "Tutup",
@@ -25,8 +25,8 @@
     "new": "Baru"
   },
   "cat": {
-    "pdf": "Alat PDF",
-    "pdf.tagline": "Mampat, gabung, pisah dan tukar PDF terus dalam pelayar.",
+    "pdf": "Alat PDF & Word",
+    "pdf.tagline": "Mampat, gabung, pisah dan tukar dokumen PDF dan Word terus dalam pelayar.",
     "image": "Alat imej",
     "image.tagline": "Mampat, tukar dan ubah saiz foto, jana kod QR dan favicon, pilih warna dan buat GIF.",
     "text": "Teks & kod",
@@ -140,7 +140,7 @@
     "langHint": "Laman dibuka dalam bahasa Inggeris secara lalai. Pilih bahasa anda di sini.",
     "langSuggested": "Alat ini juga tersedia dalam {lang} untuk wilayah anda.",
     "overview": {
-      "pdf": "Alat PDF ini bekerja pada keseluruhan dokumen: gabung halaman, pisah julat, putar, tera air, mampat atau tukar kepada imej dan teks, mengekalkan susun atur dan tertib halaman di bawah kawalan anda.",
+      "pdf": "Alat PDF dan Word ini berfungsi pada keseluruhan dokumen: menggabungkan halaman, memisahkan julat, memutarkan, tanda air, memampat atau menukar kepada imej dan teks, dan mengecilkan fail .docx dengan memampat semula imej terbenam — mengekalkan susun atur dan susunan halaman asal di bawah kawalan anda.",
       "image": "Alat imej ini mengurus tugas foto harian: mampat dan tukar antara JPG, PNG, WebP, saiz semula piksel tepat, jana kod QR dan favicon, pilih warna dan pasang GIF animasi.",
       "audio": "Alat audio ini menyunting bunyi tanpa editor desktop: potong dan cantum klip, tukar format, rakam dari mikrofon, dan laras volum, kelajuan, pic atau equalizer sambil mendengar hasil.",
       "video": "Alat video ini membuat kerja klip pantas dalam pelayar: mampat rakaman kepada fail lebih kecil, atau tangkap skrin dan webcam dengan audio, kemudian muat turun hasil serta-merta.",
@@ -148,7 +148,7 @@
       "calc": "Kalkulator dan penukar ini menjadikan nombor harian jawapan segera: peratus, BMI, pinjaman dan faedah, unit, warna dan tarikh, dengan formula dipapar supaya anda boleh semak kiraan."
     },
     "tip": {
-      "pdf": "Simpan salinan asal sebelum mampat atau pisah: mampatan menukar sedikit kualiti dengan saiz, dan pemisahan tidak boleh dibuat asal selepas tab ditutup.",
+      "pdf": "Simpan salinan asal sebelum memampat atau memisahkan: mampatan menukar sedikit kualiti imej dengan saiz, pemisahan tidak boleh dibatalkan selepas menutup tab, dan .docx yang dimampat mengekalkan teksnya tetapi mengekod semula gambar di dalamnya.",
       "image": "Untuk foto utamakan JPG atau WebP pada kualiti munasabah; kekalkan PNG untuk logo dan tangkapan skrin bertepi tajam atau lutsinar, kerana JPG mengaburkan tepi dan membuang saluran alfa.",
       "audio": "Bekerja pada salinan dan dengar dulu sebelum muat turun: potong dan tukar kelajuan merosakkan klip dimuatkan, dan pengekodan semula dua kali fail lossy menambah herotan boleh dengar.",
       "video": "Rakaman skrin dan webcam memerlukan kebenaran anda dan pelayar moden; tutup tab lain semasa merakam supaya pengekod mendapat CPU cukup dan kadar bingkai kekal lancar.",

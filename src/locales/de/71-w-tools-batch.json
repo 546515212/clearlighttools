@@ -119,6 +119,16 @@
     "teleScript": "Dein Skript",
     "teleSpeedHint": "Scroll-Pixel pro Sekunde",
     "teleMirror": "Spiegeln (für einen Strahlteiler)",
-    "teleNote": "Füge deine Rede ein, stell Schriftgröße und Scrollgeschwindigkeit ein und drücke dann Start. Spiegeln dreht den Text für einen Teleprompter-Aufbau mit Strahlteiler um, und Vollbild füllt den Bildschirm. Dein Skript bleibt in diesem Browser-Tab und wird nie hochgeladen."
+    "teleNote": "Füge deine Rede ein, stell Schriftgröße und Scrollgeschwindigkeit ein und drücke dann Start. Spiegeln dreht den Text für einen Teleprompter-Aufbau mit Strahlteiler um, und Vollbild füllt den Bildschirm. Dein Skript bleibt in diesem Browser-Tab und wird nie hochgeladen.",
+    "cwHint": ".docx-Word-Dokumente ablegen oder klicken zum Auswählen",
+    "cwLossless": "Verlustfrei (nur neu zippen)",
+    "cwQualityHint": "niedriger = kleinere eingebettete Bilder",
+    "cwMaxDim": "Längste Bildseite",
+    "cwKeepSize": "Originalgröße beibehalten",
+    "cwDocOnly": "Nur .docx — das alte .doc-Format und verschlüsselte Dokumente werden nicht unterstützt.",
+    "cwNotDocx": "Das ist keine lesbare .docx-Datei. Das alte .doc-Format und verschlüsselte Dokumente werden nicht unterstützt.",
+    "cwNotWord": "Diese Datei ist ein ZIP-Archiv, aber kein Word-Dokument (.docx).",
+    "cwExtra": "−{0}% · {1} Bilder",
+    "cwNote": "Eine .docx ist ein ZIP aus XML plus Bildern. Dieses Tool komprimiert die eingebetteten Bilder neu und packt das Paket neu; Text, Formatierungen und Layout bleiben unangetastet."
   }
 }

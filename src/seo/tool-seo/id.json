@@ -8,7 +8,7 @@
     "homeH1": "Alat online gratis & utilitas web cepat"
   },
   "cats": {
-    "pdf": "Utilitas PDF & Editor",
+    "pdf": "Utilitas PDF & Word",
     "image": "Alat Gambar & Konverter",
     "audio": "Alat Audio & Editor",
     "video": "Alat Video & Konverter",
@@ -94,6 +94,7 @@
     "rmb-uppercase": { "action": "Mandarin", "verb": "Ubah jumlah RMB menjadi huruf besar bahasa Mandarin" },
     "world-clock": { "action": "zona waktu", "verb": "Bandingkan waktu saat ini di berbagai kota seluruh dunia" },
     "pomodoro-timer": { "action": "25-menit", "verb": "Jalankan sesi kerja fokus dengan pengatur waktu istirahat" },
-    "random-picker": { "action": "putar roda", "verb": "Pilih nama secara acak dan putar roda keputusan Anda" }
+    "random-picker": { "action": "putar roda", "verb": "Pilih nama secara acak dan putar roda keputusan Anda" },
+    "compress-word": { "action": "perkecil ukuran", "verb": "Kompres dokumen Word menjadi ukuran file yang lebih kecil di browser" }
   }
 }

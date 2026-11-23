@@ -8,7 +8,7 @@
     "homeH1": "Herramientas online gratuitas y utilidades web rápidas"
   },
   "cats": {
-    "pdf": "Utilidades PDF y Editores",
+    "pdf": "Utilidades PDF y Word",
     "image": "Herramientas de Imagen y Conversores",
     "audio": "Herramientas de Audio y Editores",
     "video": "Herramientas de Vídeo y Conversores",
@@ -94,6 +94,7 @@
     "rmb-uppercase": { "action": "chino", "verb": "Convierte RMB a mayúsculas chinas" },
     "world-clock": { "action": "zonas horarias", "verb": "Compara la hora actual en ciudades del mundo" },
     "pomodoro-timer": { "action": "25 min", "verb": "Cronometra sesiones de trabajo y pausas" },
-    "random-picker": { "action": "gira ruleta", "verb": "Sortea nombres al azar y gira la ruleta" }
+    "random-picker": { "action": "gira ruleta", "verb": "Sortea nombres al azar y gira la ruleta" },
+    "compress-word": { "action": "reduce tamaño", "verb": "Comprime documentos Word a un tamaño menor" }
   }
 }

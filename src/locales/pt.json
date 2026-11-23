@@ -16,7 +16,7 @@
     "home": "Início",
     "allTools": "Todas as ferramentas",
     "search": "Pesquisar",
-    "searchPlaceholder": "Pesquisar 78 ferramentas grátis…",
+    "searchPlaceholder": "Pesquisar 79 ferramentas grátis…",
     "language": "Idioma",
     "menu": "Menu",
     "close": "Fechar",
@@ -25,8 +25,8 @@
     "new": "Novo"
   },
   "cat": {
-    "pdf": "Ferramentas PDF",
-    "pdf.tagline": "Compacte, junte, separe e converta PDFs no navegador.",
+    "pdf": "Ferramentas PDF e Word",
+    "pdf.tagline": "Comprima, junte, separe e converta documentos PDF e Word no seu navegador.",
     "image": "Ferramentas de imagem",
     "image.tagline": "Comprima, converta e redimensione fotos, crie códigos QR e favicons, escolha cores e faça GIFs.",
     "text": "Texto e código",
@@ -140,7 +140,7 @@
     "langHint": "O site abre em inglês por padrão. Escolha o seu idioma aqui.",
     "langSuggested": "Estas ferramentas também estão disponíveis em {lang} para a sua região.",
     "overview": {
-      "pdf": "Estas ferramentas PDF trabalham em documentos inteiros: juntar páginas, dividir intervalos, girar, marcar água, comprimir ou converter em imagens e texto, mantendo o layout e a ordem das páginas sob seu controle.",
+      "pdf": "Estas ferramentas de PDF e Word trabalham em documentos inteiros: combinam páginas, separam intervalos, giram, marcam água, comprimem ou convertem em imagens e texto, e reduzem arquivos .docx recomprimindo suas imagens incorporadas — mantendo o layout e a ordem das páginas originais sob seu controle.",
       "image": "Estas ferramentas de imagem resolvem tarefas do dia a dia: comprimir e converter entre JPG, PNG e WebP, redimensionar em pixels exatos, criar QR codes e favicons, escolher cores e montar GIFs animados.",
       "audio": "Estas ferramentas de áudio editam som sem editor de desktop: cortar e unir clipes, converter formatos, gravar pelo microfone e ajustar volume, velocidade, tom ou equalização enquanto ouve o resultado.",
       "video": "Estas ferramentas de vídeo fazem trabalhos rápidos no navegador: comprimir uma gravação em arquivo menor, ou capturar tela e webcam com áudio, e baixar o resultado na hora.",
@@ -148,7 +148,7 @@
       "calc": "Estas calculadoras e conversores transformam números do dia a dia em respostas instantâneas: porcentagens, IMC, empréstimos e juros, unidades, cores e datas, mostrando a fórmula para você conferir a conta."
     },
     "tip": {
-      "pdf": "Guarde uma cópia do original antes de comprimir ou dividir: a compressão troca um pouco de qualidade por tamanho, e uma divisão não pode ser desfeita depois de fechar a aba.",
+      "pdf": "Guarde uma cópia do original antes de comprimir ou separar: a compressão troca um pouco de qualidade de imagem por tamanho, uma separação não pode ser desfeita depois de fechar a aba, e um .docx comprimido mantém seu texto mas recodifica as imagens dentro dele.",
       "image": "Para fotos prefira JPG ou WebP com qualidade razoável; mantenha PNG para logos e capturas com bordas nítidas ou transparência, pois JPG os borra e perde o canal alfa.",
       "audio": "Trabalhe numa cópia e pré-escute antes de baixar: cortar e mudar velocidade é destrutivo para o clipe carregado, e recodificar duas vezes um arquivo com perdas adiciona artefatos audíveis.",
       "video": "Gravar tela e webcam exige sua permissão e um navegador moderno; feche outras abas durante a gravação para o codificador ter CPU suficiente e manter a fluidez.",

@@ -16,7 +16,7 @@
     "home": "Trang chủ",
     "allTools": "Tất cả công cụ",
     "search": "Tìm kiếm",
-    "searchPlaceholder": "Tìm 78 công cụ miễn phí…",
+    "searchPlaceholder": "Tìm 79 công cụ miễn phí…",
     "language": "Ngôn ngữ",
     "menu": "Danh mục",
     "close": "Đóng",
@@ -25,8 +25,8 @@
     "new": "Mới"
   },
   "cat": {
-    "pdf": "Công cụ PDF",
-    "pdf.tagline": "Nén, gộp, tách và chuyển đổi PDF ngay trong trình duyệt.",
+    "pdf": "Công cụ PDF & Word",
+    "pdf.tagline": "Nén, gộp, tách và chuyển đổi tài liệu PDF và Word ngay trong trình duyệt.",
     "image": "Công cụ hình ảnh",
     "image.tagline": "Nén, chuyển đổi và thay đổi kích thước ảnh, tạo mã QR và favicon, chọn màu và tạo GIF.",
     "text": "Văn bản & mã",
@@ -140,7 +140,7 @@
     "langHint": "Trang web mở bằng tiếng Anh theo mặc định. Chọn ngôn ngữ của bạn tại đây.",
     "langSuggested": "Theo khu vực của bạn, các công cụ này cũng có bản {lang}.",
     "overview": {
-      "pdf": "Các công cụ PDF này xử lý toàn bộ tài liệu: ghép trang, tách khoảng, xoay, đóng dấu chìm, nén hoặc chuyển sang ảnh và văn bản, giữ nguyên bố cục và thứ tự trang do bạn kiểm soát.",
+      "pdf": "Các công cụ PDF và Word này xử lý toàn bộ tài liệu: gộp trang, tách phạm vi, xoay, đóng dấu, nén hoặc chuyển sang ảnh và văn bản, và giảm dung lượng tệp .docx bằng cách nén lại ảnh nhúng — giữ bố cục và thứ tự trang gốc dưới sự kiểm soát của bạn.",
       "image": "Các công cụ ảnh này giải quyết việc thường ngày: nén và chuyển giữa JPG, PNG, WebP, đổi cỡ theo pixel chính xác, tạo mã QR và favicon, chọn màu và ghép GIF động.",
       "audio": "Các công cụ âm thanh này sửa tiếng mà không cần phần mềm máy tính: cắt và nối clip, đổi định dạng, ghi bằng mic, và chỉnh âm lượng, tốc độ, cao độ hoặc equalizer trong khi nghe kết quả.",
       "video": "Các công cụ video này làm việc nhanh trong trình duyệt: nén bản ghi thành tệp nhỏ hơn, hoặc quay màn hình và webcam kèm âm thanh, rồi tải kết quả ngay.",
@@ -148,7 +148,7 @@
       "calc": "Các máy tính và bộ chuyển này biến số thường ngày thành đáp án tức thì: phần trăm, BMI, vay và lãi, đơn vị, màu và ngày, kèm công thức để bạn kiểm tra cách tính."
     },
     "tip": {
-      "pdf": "Giữ một bản gốc trước khi nén hoặc tách: nén đánh đổi chút chất lượng lấy dung lượng, và thao tác tách không thể hoàn tác sau khi đóng tab.",
+      "pdf": "Hãy giữ một bản sao gốc trước khi nén hoặc tách: nén đánh đổi một chút chất lượng ảnh lấy dung lượng, thao tác tách không thể hoàn tác sau khi đóng tab, và tệp .docx đã nén giữ nguyên chữ nhưng mã hóa lại các ảnh bên trong.",
       "image": "Với ảnh hãy ưu tiên JPG hoặc WebP ở chất lượng hợp lý; giữ PNG cho logo và ảnh chụp màn hình có cạnh sắc hoặc trong suốt, vì JPG làm mờ cạnh và mất kênh alpha.",
       "audio": "Làm việc trên bản sao và nghe thử trước khi tải: cắt và đổi tốc độ phá hủy clip đã nạp, và mã hóa lại hai lần tệp mất mát sẽ thêm méo tiếng nghe được.",
       "video": "Quay màn hình và webcam cần bạn cho phép và trình duyệt mới; đóng các tab khác khi quay để bộ mã hóa đủ CPU và giữ khung hình mượt.",

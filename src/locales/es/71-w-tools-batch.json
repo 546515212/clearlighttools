@@ -119,6 +119,16 @@
     "teleScript": "Tu guion",
     "teleSpeedHint": "píxeles de desplazamiento por segundo",
     "teleMirror": "Espejo (para un divisor de haz)",
-    "teleNote": "Pega tu discurso, define el tamaño de letra y la velocidad de desplazamiento, y luego pulsa Iniciar. Espejo voltea el texto para un teleprónter con divisor de haz, y Pantalla completa llena la pantalla. Tu guion permanece en esta pestaña del navegador y nunca se sube."
+    "teleNote": "Pega tu discurso, define el tamaño de letra y la velocidad de desplazamiento, y luego pulsa Iniciar. Espejo voltea el texto para un teleprónter con divisor de haz, y Pantalla completa llena la pantalla. Tu guion permanece en esta pestaña del navegador y nunca se sube.",
+    "cwHint": "Suelta documentos Word .docx, o haz clic para elegir",
+    "cwLossless": "Sin pérdida (solo recomprimir ZIP)",
+    "cwQualityHint": "menor = imágenes incrustadas más pequeñas",
+    "cwMaxDim": "Lado mayor de la imagen",
+    "cwKeepSize": "Mantener tamaño original",
+    "cwDocOnly": "Solo .docx: el formato antiguo .doc y los documentos cifrados no son compatibles.",
+    "cwNotDocx": "Ese no es un archivo .docx legible. El formato antiguo .doc y los documentos cifrados no son compatibles.",
+    "cwNotWord": "Este archivo es un ZIP pero no un documento de Word (.docx).",
+    "cwExtra": "−{0}% · {1} imágenes",
+    "cwNote": "Un .docx es un ZIP de XML más imágenes. Esta herramienta recomprime las imágenes incrustadas y vuelve a empaquetar el archivo; tu texto, estilos y diseño quedan intactos."
   }
 }

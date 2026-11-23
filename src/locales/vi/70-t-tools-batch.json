@@ -197,6 +197,28 @@
           "a": "Không. Luồng micrô chỉ được phân tích trực tiếp trong trình duyệt của bạn để tính mức. Không có gì được ghi, lưu hoặc tải lên, và mic dừng khi bạn nhấn Dừng hoặc rời khỏi trang."
         }
       ]
+    },
+    "compress-word": {
+      "title": "Nén Word",
+      "h1": "Nén tài liệu Word trực tuyến miễn phí",
+      "desc": "Giảm dung lượng .docx bằng cách nén lại các ảnh bên trong ngay trong trình duyệt: tệp nhỏ hơn nhưng văn bản, kiểu và bố cục không đổi. Không tải lên, không đăng ký.",
+      "intro": "Nén Word chạy hoàn toàn trên máy của bạn. .docx thực chất là một gói ZIP gồm XML và các ảnh bạn dán vào, và những ảnh đó thường chiếm phần lớn dung lượng. Công cụ này mở gói, mã hóa lại từng ảnh nhúng ở chất lượng hợp lý, tùy chọn thu nhỏ ảnh quá lớn, chỉ giữ thay đổi khi thực sự tiết kiệm được byte, rồi nén lại tài liệu. Chữ, định dạng, bảng và thứ tự trang của bạn được giữ nguyên như cũ.",
+      "steps": [
+        "Thả một hoặc nhiều tài liệu Word .docx vào bảng, hoặc nhấp để chọn.",
+        "Chọn chế độ: Khuyến nghị cân bằng dung lượng và chất lượng, Không mất dữ liệu chỉ nén lại, Tệp nhỏ nhất thu nhỏ ảnh mạnh nhất.",
+        "Đặt chất lượng và cạnh lớn nhất của ảnh nếu bạn muốn giới hạn ảnh quá lớn.",
+        "Nhấn Chạy, so sánh dung lượng trước/sau và tải xuống tệp .docx nhỏ hơn."
+      ],
+      "faq": [
+        {
+          "q": "Word có mở được tài liệu đã nén không?",
+          "a": "Có. Chỉ các ảnh nhúng được mã hóa lại, ở định dạng gốc và tên tệp gốc, nên cấu trúc gói, kiểu nội dung và các liên kết vẫn hợp lệ. Văn bản, kiểu, bảng và bố cục không bị thay đổi."
+        },
+        {
+          "q": "Vì sao tài liệu của tôi hầu như không nhỏ đi?",
+          "a": "Một .docx chỉ có chữ thì hầu như không có gì để nén lại; phần tiết kiệm đến từ hình ảnh. Nếu chủ yếu là chữ, hãy thử chế độ Không mất dữ liệu hoặc xóa trước các ảnh không dùng trong Word. Tệp .doc cũ và tài liệu mã hóa không được hỗ trợ."
+        }
+      ]
     }
   }
 }

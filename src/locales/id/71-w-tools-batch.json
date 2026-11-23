@@ -119,6 +119,16 @@
     "teleScript": "Naskah Anda",
     "teleSpeedHint": "piksel gulir per detik",
     "teleMirror": "Cermin (untuk beam-splitter)",
-    "teleNote": "Tempel pidato Anda, atur ukuran font dan kecepatan gulir, lalu tekan Mulai. Cermin membalik teks untuk rig teleprompter beam-splitter, dan Layar penuh memenuhi tampilan. Naskah Anda tetap di tab peramban ini dan tidak pernah diunggah."
+    "teleNote": "Tempel pidato Anda, atur ukuran font dan kecepatan gulir, lalu tekan Mulai. Cermin membalik teks untuk rig teleprompter beam-splitter, dan Layar penuh memenuhi tampilan. Naskah Anda tetap di tab peramban ini dan tidak pernah diunggah.",
+    "cwHint": "Letakkan dokumen Word .docx, atau klik untuk memilih",
+    "cwLossless": "Tanpa kehilangan (zip ulang saja)",
+    "cwQualityHint": "lebih rendah = gambar tersemat lebih kecil",
+    "cwMaxDim": "Sisi terbesar gambar",
+    "cwKeepSize": "Pertahankan ukuran asli",
+    "cwDocOnly": "Hanya .docx — format lama .doc dan dokumen terenkripsi tidak didukung.",
+    "cwNotDocx": "Itu bukan file .docx yang dapat dibaca. Format lama .doc dan dokumen terenkripsi tidak didukung.",
+    "cwNotWord": "File ini adalah arsip ZIP tetapi bukan dokumen Word (.docx).",
+    "cwExtra": "−{0}% · {1} gambar",
+    "cwNote": ".docx adalah ZIP berisi XML dan gambar. Alat ini mengompres ulang gambar tersemat dan mengemas ulang file; teks, gaya, dan tata letak Anda tetap utuh."
   }
 }

@@ -16,7 +16,7 @@
     "home": "Inicio",
     "allTools": "Todas las herramientas",
     "search": "Buscar",
-    "searchPlaceholder": "Buscar 78 herramientas gratis…",
+    "searchPlaceholder": "Buscar 79 herramientas gratis…",
     "language": "Idioma",
     "menu": "Menú",
     "close": "Cerrar",
@@ -25,8 +25,8 @@
     "new": "Nuevo"
   },
   "cat": {
-    "pdf": "Herramientas PDF",
-    "pdf.tagline": "Comprime, une, separa y convierte PDFs en tu navegador.",
+    "pdf": "Herramientas PDF y Word",
+    "pdf.tagline": "Comprime, une, separa y convierte documentos PDF y Word en tu navegador.",
     "image": "Herramientas de imagen",
     "image.tagline": "Comprime, convierte y redimensiona fotos, genera códigos QR y favicons, elige colores y crea GIF.",
     "text": "Texto y código",
@@ -140,7 +140,7 @@
     "langHint": "El sitio se abre en inglés por defecto. Elige tu idioma aquí.",
     "langSuggested": "Estas herramientas también están disponibles en {lang} para tu región.",
     "overview": {
-      "pdf": "Estas herramientas PDF trabajan sobre documentos completos: combinan páginas, dividen rangos, rotan, marcan agua, comprimen o convierten a imágenes y texto, conservando el diseño y el orden de páginas que tú controlas.",
+      "pdf": "Estas herramientas de PDF y Word trabajan sobre documentos completos: combinan páginas, separan rangos, rotan, marcan agua, comprimen o convierten a imágenes y texto, y reducen archivos .docx recomprimiendo sus imágenes incrustadas, manteniendo el diseño y el orden de páginas originales bajo tu control.",
       "image": "Estas herramientas de imagen resuelven tareas cotidianas: comprimen y convierten entre JPG, PNG y WebP, redimensionan a píxeles exactos, crean códigos QR y favicons, eligen colores y montan GIF animados.",
       "audio": "Estas herramientas de audio editan sonido sin editor de escritorio: recortan y unen clips, convierten formatos, graban desde el micrófono y ajustan volumen, velocidad, tono o ecualización mientras escuchas el resultado.",
       "video": "Estas herramientas de vídeo cubren trabajos rápidos en el navegador: comprimen una grabación a un archivo menor o capturan pantalla y webcam con audio, y descargan el resultado al instante.",
@@ -148,7 +148,7 @@
       "calc": "Estas calculadoras y conversores convierten números cotidianos en respuestas al instante: porcentajes, IMC, préstamos e intereses, unidades, colores y fechas, mostrando la fórmula para que compruebes el cálculo."
     },
     "tip": {
-      "pdf": "Guarda una copia del original antes de comprimir o dividir: la compresión cambia algo de calidad por tamaño, y una división no se puede deshacer al cerrar la pestaña.",
+      "pdf": "Guarda una copia del original antes de comprimir o separar: la compresión cambia algo de calidad de imagen por tamaño, una separación no se puede deshacer tras cerrar la pestaña, y un .docx comprimido conserva su texto pero recodifica las imágenes que contiene.",
       "image": "Para fotos prefiere JPG o WebP con una calidad razonable; reserva PNG para logos y capturas con bordes nítidos o transparencia, porque JPG los difumina y pierde el canal alfa.",
       "audio": "Trabaja sobre una copia y previsualiza antes de descargar: recortar y cambiar velocidad es destructivo para el clip cargado, y recodificar dos veces un archivo con pérdida añade artefactos audibles.",
       "video": "Grabar pantalla y webcam requiere tu permiso y un navegador moderno; cierra otras pestañas mientras grabas para que el codificador tenga CPU suficiente y la fluidez se mantenga.",

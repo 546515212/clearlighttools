@@ -119,6 +119,16 @@
     "teleScript": "Skrip anda",
     "teleSpeedHint": "piksel tatal sesaat",
     "teleMirror": "Cermin (untuk pembelah alur)",
-    "teleNote": "Tampal ucapan anda, tetapkan saiz fon dan kelajuan tatal, kemudian tekan Mula. Cermin menterbalikkan teks untuk rig teleprompter pembelah alur, dan Skrin penuh memenuhi paparan. Skrip anda kekal dalam tab pelayar ini dan tidak pernah dimuat naik."
+    "teleNote": "Tampal ucapan anda, tetapkan saiz fon dan kelajuan tatal, kemudian tekan Mula. Cermin menterbalikkan teks untuk rig teleprompter pembelah alur, dan Skrin penuh memenuhi paparan. Skrip anda kekal dalam tab pelayar ini dan tidak pernah dimuat naik.",
+    "cwHint": "Lepaskan dokumen Word .docx, atau klik untuk pilih",
+    "cwLossless": "Tanpa kehilangan (zip semula sahaja)",
+    "cwQualityHint": "lebih rendah = gambar terbenam lebih kecil",
+    "cwMaxDim": "Sisi terbesar imej",
+    "cwKeepSize": "Kekalkan saiz asal",
+    "cwDocOnly": ".docx sahaja — format lama .doc dan dokumen tersulit tidak disokong.",
+    "cwNotDocx": "Itu bukan fail .docx yang boleh dibaca. Format lama .doc dan dokumen tersulit tidak disokong.",
+    "cwNotWord": "Fail ini ialah arkib ZIP tetapi bukan dokumen Word (.docx).",
+    "cwExtra": "−{0}% · {1} imej",
+    "cwNote": ".docx ialah ZIP yang mengandungi XML dan gambar. Alat ini memampat semula imej terbenam dan membungkus semula fail; teks, gaya dan susun atur anda kekal tidak berubah."
   }
 }

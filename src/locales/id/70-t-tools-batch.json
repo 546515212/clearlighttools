@@ -197,6 +197,28 @@
           "a": "Tidak. Stream mikrofon hanya dianalisis langsung di peramban Anda untuk menghitung level. Tidak ada yang direkam, disimpan, atau diunggah, dan mikrofon berhenti saat Anda menekan Hentikan atau meninggalkan halaman."
         }
       ]
+    },
+    "compress-word": {
+      "title": "Kompres Word",
+      "h1": "Kompres dokumen Word online gratis",
+      "desc": "Perkecil .docx dengan mengompres ulang gambar di dalamnya di browser Anda: file lebih kecil dengan teks, gaya, dan tata letak yang sama. Tanpa unggah, tanpa daftar.",
+      "intro": "Kompres Word berjalan sepenuhnya di perangkat Anda sendiri. .docx sebenarnya adalah paket ZIP berisi XML dan gambar yang Anda tempelkan, dan gambar itulah yang biasanya menjadi sebagian besar bobot file. Alat ini membuka paket, mengodekan ulang setiap foto tersemat pada kualitas yang wajar, mengecilkan gambar yang terlalu besar bila perlu, menyimpan perubahan hanya jika benar-benar menghemat byte, lalu meng-zip ulang dokumen. Kata-kata, pemformatan, tabel, dan urutan halaman Anda tetap persis seperti semula.",
+      "steps": [
+        "Letakkan satu atau beberapa dokumen Word .docx di panel, atau klik untuk memilihnya.",
+        "Pilih mode: Disarankan menyeimbangkan ukuran dan kualitas, Tanpa kehilangan hanya zip ulang, File terkecil mengecilkan gambar paling kuat.",
+        "Atur kualitas dan sisi terbesar gambar jika Anda ingin membatasi foto yang terlalu besar.",
+        "Tekan Jalankan, bandingkan ukuran sebelum/sesudah, dan unduh .docx yang lebih kecil."
+      ],
+      "faq": [
+        {
+          "q": "Apakah Word tetap bisa membuka dokumen yang dikompres?",
+          "a": "Ya. Hanya gambar tersemat yang dikodekan ulang, dalam format asli dan nama file asli, sehingga struktur paket, tipe konten, dan relasi tetap valid. Teks, gaya, tabel, dan tata letak tidak disentuh."
+        },
+        {
+          "q": "Mengapa dokumen saya hampir tidak mengecil?",
+          "a": ".docx yang hanya berisi teks hampir tidak punya apa-apa untuk dikompres ulang; penghematan berasal dari gambar. Jika sebagian besar teks, coba mode Tanpa kehilangan atau hapus dulu gambar yang tidak terpakai di Word. File .doc lama dan dokumen terenkripsi tidak didukung."
+        }
+      ]
     }
   }
 }

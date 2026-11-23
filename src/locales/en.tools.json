@@ -1178,7 +1178,17 @@
     "teleScript": "Your script",
     "teleSpeedHint": "scroll pixels per second",
     "teleMirror": "Mirror (for a beam-splitter)",
-    "teleNote": "Paste your speech, set the font size and scroll speed, then press Start. Mirror flips the text for a beam-splitter teleprompter rig, and Fullscreen fills the display. Your script stays in this browser tab and is never uploaded."
+    "teleNote": "Paste your speech, set the font size and scroll speed, then press Start. Mirror flips the text for a beam-splitter teleprompter rig, and Fullscreen fills the display. Your script stays in this browser tab and is never uploaded.",
+    "cwHint": "Drop .docx Word documents, or click to browse",
+    "cwLossless": "Lossless (re-zip only)",
+    "cwQualityHint": "lower = smaller embedded pictures",
+    "cwMaxDim": "Largest image side",
+    "cwKeepSize": "Keep original size",
+    "cwDocOnly": ".docx only — the old .doc format and encrypted documents are not supported.",
+    "cwNotDocx": "That is not a readable .docx file. The old .doc format and encrypted documents are not supported.",
+    "cwNotWord": "This file is a ZIP archive but not a Word document (.docx).",
+    "cwExtra": "−{0}% · {1} images",
+    "cwNote": "A .docx is a ZIP of XML plus pictures. This tool recompresses the embedded images and re-zips the package; your text, styles and layout stay untouched."
   },
   "t": {
     "compress-pdf": {
@@ -2881,6 +2891,28 @@
         {
           "q": "Is the audio recorded?",
           "a": "No. The microphone stream is only analysed live in your browser to compute the level. Nothing is recorded, saved or uploaded, and the mic stops when you press Stop or leave the page."
+        }
+      ]
+    },
+    "compress-word": {
+      "title": "Compress Word",
+      "h1": "Compress Word documents online for free",
+      "desc": "Shrink a .docx by recompressing the pictures inside it in your browser: a smaller file with the same text, styles and layout. No upload, no sign-up.",
+      "intro": "Compress Word runs entirely on your own machine. A .docx is really a ZIP package of XML plus the images you pasted into it, and those pictures are usually most of the weight. This tool opens the package, re-encodes each embedded photo at a sensible quality, optionally downscales oversized images, keeps a change only when it actually saves bytes, and re-zips the document. Your words, formatting, tables and page order are left exactly as they were.",
+      "steps": [
+        "Drop one or more .docx Word documents on the panel, or click to choose them.",
+        "Pick a mode: Recommended balances size and quality, Lossless only re-zips, Smallest file downscales pictures hardest.",
+        "Set the quality and the largest image side if you want to cap oversized photos.",
+        "Press Run, compare the before/after sizes, and download the smaller .docx."
+      ],
+      "faq": [
+        {
+          "q": "Will Word still open the compressed document?",
+          "a": "Yes. Only the embedded images are re-encoded, in their original format and under their original filenames, so the package structure, content types and relationships stay valid. Text, styles, tables and layout are untouched."
+        },
+        {
+          "q": "Why did my document barely shrink?",
+          "a": "A text-only .docx has little to recompress; the savings come from pictures. If it is mostly text, try the Lossless mode, or remove unused images in Word first. Old .doc files and encrypted documents are not supported."
         }
       ]
     }

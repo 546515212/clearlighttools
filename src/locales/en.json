@@ -17,7 +17,7 @@
     "home": "Home",
     "allTools": "All tools",
     "search": "Search tools",
-    "searchPlaceholder": "Search 78 free tools…",
+    "searchPlaceholder": "Search 79 free tools…",
     "language": "Language",
     "menu": "Menu",
     "close": "Close",
@@ -26,8 +26,8 @@
     "new": "New"
   },
   "cat": {
-    "pdf": "PDF tools",
-    "pdf.tagline": "Compress, merge, split and convert PDF files in your browser.",
+    "pdf": "PDF & Word tools",
+    "pdf.tagline": "Compress, merge, split and convert PDF and Word documents in your browser.",
     "image": "Image tools",
     "image.tagline": "Compress, convert and resize photos, build QR codes and favicons, pick colours and make GIFs.",
     "text": "Text & code tools",
@@ -141,7 +141,7 @@
     "langHint": "The site opens in English by default. Choose your language here.",
     "langSuggested": "These tools are also available in {lang} for your region.",
     "overview": {
-      "pdf": "These PDF tools work on whole documents: combine pages, split ranges, rotate, watermark, compress or convert to images and text, keeping the original layout and page order under your control.",
+      "pdf": "These PDF and Word tools work on whole documents: combine pages, split ranges, rotate, watermark, compress or convert to images and text, and shrink .docx files by recompressing their embedded pictures — keeping the original layout and page order under your control.",
       "image": "These image tools handle everyday photo jobs: compress and convert between JPG, PNG and WebP, resize to exact pixels, build QR codes and favicons, pick colours and assemble animated GIFs.",
       "audio": "These audio tools edit sound without a desktop editor: trim and join clips, convert formats, record from microphone, and adjust volume, speed, pitch or equalisation while you listen to the result.",
       "video": "These video tools cover quick clip jobs in the browser: compress a recording to a smaller file, or capture your screen and webcam with audio, then download the result straight away.",
@@ -149,7 +149,7 @@
       "calc": "These calculators and converters turn everyday numbers into answers instantly: percentages, BMI, loans and interest, units, colours and dates, with the formula shown so you can check the working."
     },
     "tip": {
-      "pdf": "Keep a copy of the original before compressing or splitting: compression trades some image quality for size, and a split cannot be undone once you close the tab.",
+      "pdf": "Keep a copy of the original before compressing or splitting: compression trades some image quality for size, a split cannot be undone once you close the tab, and a compressed .docx keeps its text but re-encodes the pictures inside it.",
       "image": "For photos prefer JPG or WebP at a sensible quality; keep PNG for logos and screenshots with sharp edges or transparency, since JPG would blur them and drop the alpha channel.",
       "audio": "Work on a copy and preview before downloading: trimming and speed changes are destructive to the loaded clip, and re-encoding a lossy file twice adds audible artefacts.",
       "video": "Screen and webcam recording needs your permission and a modern browser; close other tabs while recording so the encoder gets enough CPU and the frame rate stays smooth.",

@@ -197,6 +197,28 @@
           "a": "Nein. Der Mikrofon-Stream wird nur live in deinem Browser analysiert, um den Pegel zu berechnen. Nichts wird aufgezeichnet, gespeichert oder hochgeladen, und das Mikrofon stoppt, wenn du „Stopp“ drückst oder die Seite verlässt."
         }
       ]
+    },
+    "compress-word": {
+      "title": "Word komprimieren",
+      "h1": "Word-Dokumente kostenlos online komprimieren",
+      "desc": "Verkleinere eine .docx, indem du die enthaltenen Bilder im Browser neu komprimierst: kleinere Datei, gleicher Text, gleiche Formatierungen und Layout. Kein Upload, keine Anmeldung.",
+      "intro": "Word komprimieren läuft vollständig auf deinem eigenen Rechner. Eine .docx ist eigentlich ein ZIP-Paket aus XML plus den Bildern, die du eingefügt hast, und diese Bilder machen meist den Großteil des Gewichts aus. Dieses Tool öffnet das Paket, kodiert jedes eingebettete Foto mit sinnvoller Qualität neu, verkleinert übergroße Bilder auf Wunsch, behält eine Änderung nur, wenn sie wirklich Bytes spart, und zippt das Dokument neu. Deine Wörter, Formatierungen, Tabellen und die Seitenreihenfolge bleiben genau so, wie sie waren.",
+      "steps": [
+        "Lege ein oder mehrere .docx-Word-Dokumente auf dem Panel ab oder klicke, um sie auszuwählen.",
+        "Wähle einen Modus: Empfohlen balanciert Größe und Qualität, Verlustfrei zippt nur neu, Kleinste Datei verkleinert Bilder am stärksten.",
+        "Stelle Qualität und längste Bildseite ein, wenn du übergroße Fotos begrenzen willst.",
+        "Drücke Ausführen, vergleiche die Größen vorher/nachher und lade die kleinere .docx herunter."
+      ],
+      "faq": [
+        {
+          "q": "Öffnet Word das komprimierte Dokument noch?",
+          "a": "Ja. Nur die eingebetteten Bilder werden neu kodiert, in ihrem Originalformat und unter ihren Originaldateinamen, sodass Paketstruktur, Content-Types und Beziehungen gültig bleiben. Text, Formatierungen, Tabellen und Layout werden nicht angetastet."
+        },
+        {
+          "q": "Warum ist mein Dokument kaum kleiner geworden?",
+          "a": "Eine reine Text-.docx hat wenig zu komprimieren; die Ersparnis kommt von Bildern. Besteht sie hauptsächlich aus Text, probiere den Modus Verlustfrei oder entferne ungenutzte Bilder zuerst in Word. Alte .doc-Dateien und verschlüsselte Dokumente werden nicht unterstützt."
+        }
+      ]
     }
   }
 }

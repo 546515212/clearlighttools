@@ -16,7 +16,7 @@
     "home": "Beranda",
     "allTools": "Semua alat",
     "search": "Cari",
-    "searchPlaceholder": "Cari 78 alat gratis…",
+    "searchPlaceholder": "Cari 79 alat gratis…",
     "language": "Bahasa",
     "menu": "Menu",
     "close": "Tutup",
@@ -25,8 +25,8 @@
     "new": "Baru"
   },
   "cat": {
-    "pdf": "Alat PDF",
-    "pdf.tagline": "Kompres, gabung, pisah dan konversi PDF langsung di peramban.",
+    "pdf": "Alat PDF & Word",
+    "pdf.tagline": "Kompres, gabung, pisah, dan konversi dokumen PDF dan Word di browser Anda.",
     "image": "Alat gambar",
     "image.tagline": "Kompres, konversi, dan ubah ukuran foto, buat kode QR dan favicon, pilih warna, serta buat GIF.",
     "text": "Teks & kode",
@@ -140,7 +140,7 @@
     "langHint": "Situs dibuka dalam bahasa Inggris secara default. Pilih bahasa Anda di sini.",
     "langSuggested": "Untuk wilayah Anda, alat-alat ini juga tersedia dalam {lang}.",
     "overview": {
-      "pdf": "Alat PDF ini bekerja pada seluruh dokumen: menggabungkan halaman, memisahkan rentang, memutar, memberi watermark, mengompres, atau mengonversi ke gambar dan teks, menjaga tata letak dan urutan halaman di bawah kendali Anda.",
+      "pdf": "Alat PDF dan Word ini bekerja pada seluruh dokumen: menggabungkan halaman, memisahkan rentang, memutar, memberi tanda air, mengompres atau mengonversi ke gambar dan teks, serta mengecilkan file .docx dengan mengompres ulang gambar tersemat — menjaga tata letak dan urutan halaman asli di bawah kendali Anda.",
       "image": "Alat gambar ini menangani tugas foto sehari-hari: mengompres dan mengonversi antara JPG, PNG, WebP, mengubah ukuran piksel tepat, membuat kode QR dan favicon, memilih warna, dan merakit GIF animasi.",
       "audio": "Alat audio ini menyunting suara tanpa editor desktop: memotong dan menggabung klip, mengonversi format, merekam dari mikrofon, serta menyetel volume, kecepatan, nada, atau equalizer sambil mendengar hasil.",
       "video": "Alat video ini mengerjakan tugas klip cepat di peramban: mengompres rekaman menjadi berkas lebih kecil, atau menangkap layar dan webcam dengan audio, lalu mengunduh hasil segera.",
@@ -148,7 +148,7 @@
       "calc": "Kalkulator dan konverter ini mengubah angka sehari-hari menjadi jawaban instan: persentase, BMI, pinjaman dan bunga, satuan, warna, dan tanggal, dengan rumus ditampilkan agar Anda dapat memeriksa hitungan."
     },
     "tip": {
-      "pdf": "Simpan salinan asli sebelum mengompres atau memisahkan: kompresi menukar sedikit kualitas dengan ukuran, dan pemisahan tidak dapat dibatalkan setelah tab ditutup.",
+      "pdf": "Simpan salinan asli sebelum mengompres atau memisahkan: kompresi menukar sedikit kualitas gambar dengan ukuran, pemisahan tidak dapat dibatalkan setelah menutup tab, dan .docx yang dikompres mempertahankan teksnya tetapi mengodekan ulang gambar di dalamnya.",
       "image": "Untuk foto utamakan JPG atau WebP pada kualitas wajar; pertahankan PNG untuk logo dan tangkapan layar bertepi tajam atau transparan, karena JPG mengaburkan tepi dan membuang kanal alfa.",
       "audio": "Bekerja pada salinan dan dengarkan dulu sebelum mengunduh: pemotongan dan perubahan kecepatan merusak klip yang dimuat, dan encode ulang dua kali berkas lossy menambah distorsi yang terdengar.",
       "video": "Perekaman layar dan webcam memerlukan izin Anda dan peramban modern; tutup tab lain saat merekam agar encoder mendapat CPU cukup dan frame rate tetap mulus.",

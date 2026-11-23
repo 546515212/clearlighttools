@@ -16,7 +16,7 @@
     "home": "Start",
     "allTools": "Alle Werkzeuge",
     "search": "Suchen",
-    "searchPlaceholder": "78 kostenlose Tools suchen…",
+    "searchPlaceholder": "79 kostenlose Tools suchen…",
     "language": "Sprache",
     "menu": "Menü",
     "close": "Schließen",
@@ -25,8 +25,8 @@
     "new": "Neu"
   },
   "cat": {
-    "pdf": "PDF-Werkzeuge",
-    "pdf.tagline": "PDFs im Browser komprimieren, zusammenführen, teilen und umwandeln.",
+    "pdf": "PDF- & Word-Tools",
+    "pdf.tagline": "PDF- und Word-Dokumente im Browser komprimieren, zusammenfügen, teilen und konvertieren.",
     "image": "Bild-Tools",
     "image.tagline": "Fotos komprimieren, konvertieren und skalieren, QR-Codes und Favicons erstellen, Farben wählen und GIFs erzeugen.",
     "text": "Text & Code",
@@ -140,7 +140,7 @@
     "langHint": "Die Seite öffnet sich standardmäßig auf Englisch. Wähle hier deine Sprache.",
     "langSuggested": "Diese Werkzeuge gibt es in deiner Region auch auf {lang}.",
     "overview": {
-      "pdf": "Diese PDF-Werkzeuge bearbeiten ganze Dokumente: Seiten zusammenführen, Bereiche teilen, drehen, Wasserzeichen setzen, komprimieren oder in Bilder und Text umwandeln – Layout und Seitenreihenfolge bleiben unter deiner Kontrolle.",
+      "pdf": "Diese PDF- und Word-Tools bearbeiten ganze Dokumente: Seiten zusammenfügen, Bereiche teilen, drehen, Wasserzeichen, komprimieren oder in Bilder und Text konvertieren und .docx-Dateien verkleinern, indem ihre eingebetteten Bilder neu komprimiert werden — ursprüngliches Layout und Seitenreihenfolge bleiben unter deiner Kontrolle.",
       "image": "Diese Bildwerkzeuge erledigen alltägliche Fotoaufgaben: Komprimieren und Konvertieren zwischen JPG, PNG und WebP, pixelgenaues Skalieren, QR-Codes und Favicons erzeugen, Farben wählen und animierte GIFs bauen.",
       "audio": "Diese Audio-Werkzeuge bearbeiten Klang ohne Desktop-Editor: Clips schneiden und verbinden, Formate konvertieren, per Mikrofon aufnehmen und Lautstärke, Tempo, Tonhöhe oder Equalizer anpassen, während du das Ergebnis hörst.",
       "video": "Diese Video-Werkzeuge erledigen schnelle Clip-Aufgaben im Browser: eine Aufnahme kleiner komprimieren oder Bildschirm und Webcam mit Ton aufzeichnen und das Ergebnis sofort herunterladen.",
@@ -148,7 +148,7 @@
       "calc": "Diese Rechner und Umrechner liefern sofort Antworten: Prozente, BMI, Kredite und Zinsen, Einheiten, Farben und Daten – mit angezeigter Formel, damit du die Rechnung prüfen kannst."
     },
     "tip": {
-      "pdf": "Behalte vor dem Komprimieren oder Teilen eine Kopie des Originals: Komprimierung tauscht etwas Qualität gegen Größe, und ein Teilen lässt sich nach dem Schließen des Tabs nicht rückgängig machen.",
+      "pdf": "Behalte vor dem Komprimieren oder Teilen eine Kopie des Originals: Komprimierung tauscht etwas Bildqualität gegen Größe, ein Teilen lässt sich nach dem Schließen des Tabs nicht rückgängig machen, und eine komprimierte .docx behält ihren Text, kodiert aber die enthaltenen Bilder neu.",
       "image": "Für Fotos JPG oder WebP mit sinnvoller Qualität bevorzugen; PNG für Logos und Screenshots mit scharfen Kanten oder Transparenz behalten, da JPG sie verwischt und den Alphakanal verwirft.",
       "audio": "Arbeite auf einer Kopie und höre vor dem Download probe: Schneiden und Tempoändern sind für den geladenen Clip destruktiv, und zweimaliges Neucodieren einer verlustbehafteten Datei fügt hörbare Artefakte hinzu.",
       "video": "Bildschirm- und Webcam-Aufnahme brauchen deine Erlaubnis und einen modernen Browser; schließe beim Aufzeichnen andere Tabs, damit der Encoder genug CPU bekommt und die Bildrate flüssig bleibt.",

@@ -197,6 +197,28 @@
           "a": "Non. Le flux du microphone est seulement analysé en direct dans votre navigateur pour calculer le niveau. Rien n'est enregistré, sauvegardé ou envoyé, et le micro s'arrête quand vous appuyez sur Arrêter ou quittez la page."
         }
       ]
+    },
+    "compress-word": {
+      "title": "Compresser Word",
+      "h1": "Compresser des documents Word en ligne gratuitement",
+      "desc": "Réduisez un .docx en recompressant les images qu’il contient dans votre navigateur : un fichier plus petit, avec le même texte, les mêmes styles et la même mise en page. Sans envoi ni inscription.",
+      "intro": "Compresser Word fonctionne entièrement sur votre propre machine. Un .docx est en réalité un paquet ZIP de XML et des images que vous y avez collées, et ces images représentent souvent l’essentiel du poids. Cet outil ouvre le paquet, ré-encode chaque photo intégrée à une qualité raisonnable, réduit si besoin les images trop grandes, ne conserve un changement que lorsqu’il fait vraiment gagner des octets, puis ré-emballe le document. Vos mots, votre mise en forme, vos tableaux et l’ordre des pages restent exactement tels quels.",
+      "steps": [
+        "Déposez un ou plusieurs documents Word .docx sur le panneau, ou cliquez pour les choisir.",
+        "Choisissez un mode : Recommandé équilibre taille et qualité, Sans perte ne fait que ré-emballer, Fichier minimal réduit les images au maximum.",
+        "Réglez la qualité et le plus grand côté de l’image si vous voulez limiter les photos trop grandes.",
+        "Appuyez sur Exécuter, comparez les tailles avant/après et téléchargez le .docx plus petit."
+      ],
+      "faq": [
+        {
+          "q": "Word pourra-t-il ouvrir le document compressé ?",
+          "a": "Oui. Seules les images intégrées sont ré-encodées, dans leur format d’origine et sous leurs noms d’origine, donc la structure du paquet, les types de contenu et les relations restent valides. Le texte, les styles, les tableaux et la mise en page ne sont pas touchés."
+        },
+        {
+          "q": "Pourquoi mon document a-t-il à peine réduit ?",
+          "a": "Un .docx purement textuel a peu à recompresser ; le gain vient des images. S’il est surtout textuel, essayez le mode Sans perte ou supprimez d’abord les images inutilisées dans Word. Les anciens fichiers .doc et les documents chiffrés ne sont pas pris en charge."
+        }
+      ]
     }
   }
 }

@@ -197,6 +197,28 @@
           "a": "No. El flujo del micrófono solo se analiza en directo en tu navegador para calcular el nivel. No se graba, guarda ni sube nada, y el micrófono se detiene cuando pulsas Detener o sales de la página."
         }
       ]
+    },
+    "compress-word": {
+      "title": "Comprimir Word",
+      "h1": "Comprime documentos Word online gratis",
+      "desc": "Reduce un .docx recomprimiendo las imágenes que contiene en tu navegador: un archivo más pequeño con el mismo texto, estilos y diseño. Sin subidas ni registro.",
+      "intro": "Comprimir Word funciona por completo en tu propia máquina. Un .docx es en realidad un paquete ZIP de XML más las imágenes que pegaste en él, y esas imágenes suelen ser la mayor parte del peso. Esta herramienta abre el paquete, recodifica cada foto incrustada con una calidad razonable, reduce opcionalmente las imágenes demasiado grandes, conserva un cambio solo cuando realmente ahorra bytes y vuelve a comprimir el documento. Tus palabras, formato, tablas y orden de páginas quedan exactamente como estaban.",
+      "steps": [
+        "Suelta uno o varios documentos Word .docx en el panel, o haz clic para elegirlos.",
+        "Elige un modo: Recomendado equilibra tamaño y calidad, Sin pérdida solo reempaqueta, Archivo mínimo reduce las imágenes al máximo.",
+        "Ajusta la calidad y el lado mayor de la imagen si quieres limitar las fotos demasiado grandes.",
+        "Pulsa Ejecutar, compara los tamaños antes/después y descarga el .docx más pequeño."
+      ],
+      "faq": [
+        {
+          "q": "¿Word podrá abrir el documento comprimido?",
+          "a": "Sí. Solo se recodifican las imágenes incrustadas, en su formato original y con sus nombres originales, así que la estructura del paquete, los tipos de contenido y las relaciones siguen siendo válidos. El texto, los estilos, las tablas y el diseño no se tocan."
+        },
+        {
+          "q": "¿Por qué mi documento apenas se redujo?",
+          "a": "Un .docx de solo texto tiene poco que recomprimir; el ahorro viene de las imágenes. Si es mayormente texto, prueba el modo Sin pérdida o elimina antes las imágenes sin uso en Word. Los archivos .doc antiguos y los documentos cifrados no son compatibles."
+        }
+      ]
     }
   }
 }

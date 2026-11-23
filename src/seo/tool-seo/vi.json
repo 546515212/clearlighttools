@@ -8,7 +8,7 @@
     "homeH1": "Công cụ online miễn phí & tiện ích web nhanh"
   },
   "cats": {
-    "pdf": "Công cụ PDF & Trình chỉnh sửa",
+    "pdf": "Công cụ PDF & Word",
     "image": "Công cụ Ảnh & Chuyển đổi",
     "audio": "Công cụ Âm thanh & Trình chỉnh sửa",
     "video": "Công cụ Video & Chuyển đổi",
@@ -94,6 +94,7 @@
     "rmb-uppercase": { "action": "tiếng Trung", "verb": "Chuyển số tiền RMB sang chữ hoa tiếng Trung" },
     "world-clock": { "action": "múi giờ", "verb": "So sánh giờ hiện tại giữa các thành phố trên thế giới" },
     "pomodoro-timer": { "action": "25 phút", "verb": "Chạy các phiên làm việc tập trung kèm hẹn giờ nghỉ" },
-    "random-picker": { "action": "quay vòng", "verb": "Chọn tên ngẫu nhiên và quay vòng quay quyết định" }
+    "random-picker": { "action": "quay vòng", "verb": "Chọn tên ngẫu nhiên và quay vòng quay quyết định" },
+    "compress-word": { "action": "giảm dung lượng", "verb": "Nén tài liệu Word xuống kích thước nhỏ hơn ngay trong trình duyệt" }
   }
 }

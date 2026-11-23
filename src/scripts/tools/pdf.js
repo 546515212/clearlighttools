@@ -3,7 +3,7 @@ import {
   fmt,
   el, $, D, t, bytes, pct, extOf, stem, download, downloadZip, fileZone, orderableList,
   loadLib, pdfWorker, run, note, stat, card, select, numberInput, textInput, rangeInput, checkInput,
-  button, field, mmss, toast, copyText, loadCanvas, toBlob, locale, add, fill
+  button, field, mmss, toast, copyText, loadCanvas, canvasFrom, toBlob, locale, add, fill
 } from '../lib.js';
 
 const L = (k, fb) => t(k, fb);
@@ -121,6 +121,70 @@ export const tools = {
     }));
     root.append(el('div', { class: 'btn-row' }, go, el('span', { class: 'note', text: D.tool.privacyLine })));
     void redraw;
+  },
+
+  // A .docx is an OOXML ZIP: the bulk of a large document is the raster pictures under word/media/.
+  // We recompress those in the browser (same format, same filename, so [Content_Types].xml and the
+  // relationships stay valid), replace an entry only when the new bytes are actually smaller, then
+  // re-zip the whole package at DEFLATE level 9. Text, styles and layout are never touched. Nothing
+  // is uploaded. Old binary .doc and encrypted documents are not ZIPs, so they are refused clearly.
+  'compress-word': async (root) => {
+    const DOCX_MIME = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+    const { files } = filePanel(root, { accept: `.docx,${DOCX_MIME}`, multiple: true, hint: L('cwHint', 'Drop .docx Word documents, or click to browse') });
+    let mode = 'balanced', q = 0.7, maxDim = 1600;
+    const out = outputBox(root);
+    root.append(el('div', { class: 'controls' },
+      field(L('mode', 'Mode'), select([
+        ['balanced', L('qualityAuto', 'Recommended')],
+        ['lossless', L('cwLossless', 'Lossless (re-zip only)')],
+        ['smallest', L('qualitySmall', 'Smallest file')]
+      ], mode, v => { mode = v; }), ''),
+      field(L('quality', 'Quality'), rangeInput(70, 30, 95, 1, v => q = v / 100), L('cwQualityHint', 'lower = smaller embedded pictures')),
+      field(L('cwMaxDim', 'Largest image side'), select([
+        ['0', L('cwKeepSize', 'Keep original size')], ['1600', '1600 px'], ['1200', '1200 px'], ['800', '800 px']
+      ], String(maxDim), v => { maxDim = Number(v); }), '')));
+    root.append(note(L('cwDocOnly', '.docx only — the old .doc format and encrypted documents are not supported.')));
+    const go = button(L('process', 'Run'), () => run(go, async tick => {
+      out.replaceChildren();
+      if (!files.length) throw new Error(L('needFile', 'Add a file first'));
+      const JSZip = await loadLib('jszip');
+      for (const [i, f] of files.entries()) {
+        tick(`#${i + 1}/${files.length}`);
+        let zip;
+        try { zip = await JSZip.loadAsync(await f.arrayBuffer()); }
+        catch { throw new Error(L('cwNotDocx', 'That is not a readable .docx file. The old .doc format and encrypted documents are not supported.')); }
+        if (!zip.file('word/document.xml')) throw new Error(L('cwNotWord', 'This file is a ZIP archive but not a Word document (.docx).'));
+        let recompressed = 0;
+        if (mode !== 'lossless') {
+          const cap = mode === 'smallest' ? Math.min(maxDim || 1200, 1200) : (maxDim || 0);
+          const quality = mode === 'smallest' ? Math.min(q, 0.6) : q;
+          for (const entry of zip.file(/^word\/media\//i)) {
+            const ext = (entry.name.split('.').pop() || '').toLowerCase();
+            const mime = { jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', webp: 'image/webp' }[ext];
+            if (!mime) continue;                         // emf/wmf/gif/bmp/tiff/svg: canvas cannot re-encode these safely
+            try {
+              const original = await entry.async('blob');
+              const { canvas, img, width, height } = await loadCanvas(new File([original], entry.name));
+              const longest = Math.max(width, height);
+              const scale = cap && longest > cap ? cap / longest : 1;
+              if (mime === 'image/png' && scale === 1) continue;   // PNG is lossless: same-size re-encode rarely shrinks
+              const target = scale === 1 ? canvas : canvasFrom(img, Math.max(1, Math.round(width * scale)), Math.max(1, Math.round(height * scale)));
+              const blob = await toBlob(target, mime, quality);
+              if (blob && blob.size < original.size) { zip.file(entry.name, blob); recompressed++; }
+            } catch { /* an undecodable picture keeps its original bytes */ }
+          }
+        }
+        const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE', compressionOptions: { level: 9 }, mimeType: DOCX_MIME });
+        const gain = pct(blob.size, f.size);
+        if (blob.size < f.size) {
+          resultRow(out, extOf(f.name, 'docx'), blob.size, fmt(L('cwExtra', '−{0}% · {1} images'), gain, recompressed), blob);
+        } else {
+          out.append(note(fmt(L('ui0AlreadyEfficient12', '{0}: already efficient ({1} → {2}). Try the Smallest file level.'), f.name, bytes(f.size), bytes(blob.size)), 'ok'));
+        }
+      }
+    }));
+    root.append(el('div', { class: 'btn-row' }, go, el('span', { class: 'note', text: D.tool.privacyLine })));
+    root.append(note(L('cwNote', 'A .docx is a ZIP of XML plus pictures. This tool recompresses the embedded images and re-zips the package; your text, styles and layout stay untouched.')));
   },
 
   'merge-pdf': async (root) => {

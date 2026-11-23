@@ -119,6 +119,16 @@
     "teleScript": "Kịch bản của bạn",
     "teleSpeedHint": "số pixel cuộn mỗi giây",
     "teleMirror": "Lật gương (cho kính tách chùm)",
-    "teleNote": "Dán bài phát biểu của bạn, đặt cỡ chữ và tốc độ cuộn, rồi nhấn Bắt đầu. Lật gương đảo chữ cho giàn teleprompter dùng kính tách chùm, và Toàn màn hình lấp đầy màn hình. Kịch bản của bạn ở lại trong tab trình duyệt này và không bao giờ được tải lên."
+    "teleNote": "Dán bài phát biểu của bạn, đặt cỡ chữ và tốc độ cuộn, rồi nhấn Bắt đầu. Lật gương đảo chữ cho giàn teleprompter dùng kính tách chùm, và Toàn màn hình lấp đầy màn hình. Kịch bản của bạn ở lại trong tab trình duyệt này và không bao giờ được tải lên.",
+    "cwHint": "Thả tài liệu Word .docx, hoặc nhấp để chọn",
+    "cwLossless": "Không mất dữ liệu (chỉ nén ZIP lại)",
+    "cwQualityHint": "thấp hơn = ảnh nhúng nhỏ hơn",
+    "cwMaxDim": "Cạnh lớn nhất của ảnh",
+    "cwKeepSize": "Giữ kích thước gốc",
+    "cwDocOnly": "Chỉ .docx — định dạng .doc cũ và tài liệu mã hóa không được hỗ trợ.",
+    "cwNotDocx": "Đó không phải là tệp .docx đọc được. Định dạng .doc cũ và tài liệu mã hóa không được hỗ trợ.",
+    "cwNotWord": "Tệp này là kho nén ZIP nhưng không phải tài liệu Word (.docx).",
+    "cwExtra": "−{0}% · {1} ảnh",
+    "cwNote": ".docx là một ZIP gồm XML và hình ảnh. Công cụ này nén lại các ảnh nhúng và đóng gói lại tệp; văn bản, kiểu và bố cục của bạn giữ nguyên."
   }
 }

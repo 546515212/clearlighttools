@@ -119,6 +119,16 @@
     "teleScript": "O seu guião",
     "teleSpeedHint": "pixels de deslocamento por segundo",
     "teleMirror": "Espelhar (para um divisor de feixe)",
-    "teleNote": "Cole o seu discurso, defina o tamanho da letra e a velocidade de deslocamento e depois prima Iniciar. Espelhar inverte o texto para um suporte de teleprompter com divisor de feixe, e Ecrã inteiro preenche todo o ecrã. O seu guião fica neste separador do navegador e nunca é carregado."
+    "teleNote": "Cole o seu discurso, defina o tamanho da letra e a velocidade de deslocamento e depois prima Iniciar. Espelhar inverte o texto para um suporte de teleprompter com divisor de feixe, e Ecrã inteiro preenche todo o ecrã. O seu guião fica neste separador do navegador e nunca é carregado.",
+    "cwHint": "Solte documentos Word .docx, ou clique para escolher",
+    "cwLossless": "Sem perdas (apenas re-zipar)",
+    "cwQualityHint": "menor = imagens incorporadas menores",
+    "cwMaxDim": "Maior lado da imagem",
+    "cwKeepSize": "Manter tamanho original",
+    "cwDocOnly": "Apenas .docx — o formato antigo .doc e documentos criptografados não são suportados.",
+    "cwNotDocx": "Esse não é um arquivo .docx legível. O formato antigo .doc e documentos criptografados não são suportados.",
+    "cwNotWord": "Este arquivo é um ZIP, mas não um documento Word (.docx).",
+    "cwExtra": "−{0}% · {1} imagens",
+    "cwNote": "Um .docx é um ZIP de XML mais imagens. Esta ferramenta recomprime as imagens incorporadas e reempacota o arquivo; seu texto, estilos e layout permanecem intactos."
   }
 }

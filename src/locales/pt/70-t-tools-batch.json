@@ -197,6 +197,28 @@
           "a": "Não. A transmissão do microfone é apenas analisada em direto no seu navegador para calcular o nível. Nada é gravado, guardado ou carregado, e o microfone para quando prima Parar ou sai da página."
         }
       ]
+    },
+    "compress-word": {
+      "title": "Comprimir Word",
+      "h1": "Comprima documentos Word online grátis",
+      "desc": "Reduza um .docx recomprimindo as imagens dentro dele no seu navegador: um arquivo menor com o mesmo texto, estilos e layout. Sem upload, sem cadastro.",
+      "intro": "Comprimir Word funciona inteiramente na sua própria máquina. Um .docx é na verdade um pacote ZIP de XML mais as imagens que você colou nele, e essas imagens costumam ser a maior parte do peso. Esta ferramenta abre o pacote, recodifica cada foto incorporada com uma qualidade razoável, reduz opcionalmente imagens grandes demais, mantém uma mudança só quando ela realmente economiza bytes e rezipa o documento. Suas palavras, formatação, tabelas e ordem das páginas ficam exatamente como estavam.",
+      "steps": [
+        "Solte um ou mais documentos Word .docx no painel, ou clique para escolhê-los.",
+        "Escolha um modo: Recomendado equilibra tamanho e qualidade, Sem perdas apenas rezipa, Arquivo mínimo reduz as imagens ao máximo.",
+        "Ajuste a qualidade e o maior lado da imagem se quiser limitar fotos grandes demais.",
+        "Pressione Executar, compare os tamanhos antes/depois e baixe o .docx menor."
+      ],
+      "faq": [
+        {
+          "q": "O Word ainda abrirá o documento comprimido?",
+          "a": "Sim. Apenas as imagens incorporadas são recodificadas, no formato original e com os nomes de arquivo originais, então a estrutura do pacote, os tipos de conteúdo e os relacionamentos permanecem válidos. Texto, estilos, tabelas e layout não são tocados."
+        },
+        {
+          "q": "Por que meu documento quase não diminuiu?",
+          "a": "Um .docx só de texto tem pouco a recomprimir; a economia vem das imagens. Se for principalmente texto, tente o modo Sem perdas ou remova antes as imagens sem uso no Word. Arquivos .doc antigos e documentos criptografados não são suportados."
+        }
+      ]
     }
   }
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Internal-linking contract for every tool detail page (78 tools × 13 locales). The owner asked for
+// Internal-linking contract for every tool detail page (79 tools × 13 locales). The owner asked for
 // a breadcrumb (UI + JSON-LD) and a same-category "related tools" matrix on each tool page; this gate
 // proves both shipped correctly on the BUILT dist/ artifacts, in every locale, and keeps them correct.
 //

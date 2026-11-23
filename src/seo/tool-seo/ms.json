@@ -8,7 +8,7 @@
     "homeH1": "Alat online percuma & utiliti web pantas"
   },
   "cats": {
-    "pdf": "Utiliti PDF & Editor",
+    "pdf": "Utiliti PDF & Word",
     "image": "Alat Imej & Penukar",
     "audio": "Alat Audio & Editor",
     "video": "Alat Video & Penukar",
@@ -94,6 +94,7 @@
     "rmb-uppercase": { "action": "Cina", "verb": "Tukar jumlah RMB kepada huruf besar Cina" },
     "world-clock": { "action": "zon waktu", "verb": "Bandingkan waktu semasa merentas bandar dunia" },
     "pomodoro-timer": { "action": "25-min", "verb": "Jalankan sesi kerja fokus dengan pemasa rehat" },
-    "random-picker": { "action": "putar roda", "verb": "Pilih nama rawak dan putarkan roda keputusan" }
+    "random-picker": { "action": "putar roda", "verb": "Pilih nama rawak dan putarkan roda keputusan" },
+    "compress-word": { "action": "kecilkan saiz", "verb": "Mampatkan dokumen Word kepada saiz fail yang lebih kecil" }
   }
 }

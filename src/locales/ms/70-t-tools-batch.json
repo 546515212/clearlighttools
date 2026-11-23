@@ -197,6 +197,28 @@
           "a": "Tidak. Strim mikrofon hanya dianalisis secara langsung dalam pelayar anda untuk mengira aras. Tiada apa-apa dirakam, disimpan atau dimuat naik, dan mikrofon berhenti apabila anda menekan Henti atau meninggalkan halaman."
         }
       ]
+    },
+    "compress-word": {
+      "title": "Mampat Word",
+      "h1": "Mampat dokumen Word dalam talian percuma",
+      "desc": "Kecilkan .docx dengan memampat semula gambar di dalamnya dalam pelayar anda: fail lebih kecil dengan teks, gaya dan susun atur yang sama. Tanpa muat naik, tanpa daftar.",
+      "intro": "Mampat Word berjalan sepenuhnya pada mesin anda sendiri. .docx sebenarnya ialah pakej ZIP yang mengandungi XML dan imej yang anda tampal ke dalamnya, dan imej itu selalunya merupakan sebahagian besar berat fail. Alat ini membuka pakej, mengekod semula setiap foto terbenam pada kualiti yang munasabah, mengecilkan imej terlalu besar jika perlu, menyimpan perubahan hanya apabila ia benar-benar menjimatkan bait, dan mengezip semula dokumen. Perkataan, pemformatan, jadual dan susunan halaman anda kekal tepat seperti asal.",
+      "steps": [
+        "Lepaskan satu atau lebih dokumen Word .docx pada panel, atau klik untuk memilihnya.",
+        "Pilih mod: Disyorkan mengimbangi saiz dan kualiti, Tanpa kehilangan hanya zip semula, Fail terkecil mengecilkan imej paling kuat.",
+        "Tetapkan kualiti dan sisi terbesar imej jika anda mahu mengehadkan foto terlalu besar.",
+        "Tekan Jalankan, bandingkan saiz sebelum/selepas dan muat turun .docx yang lebih kecil."
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah Word membuka dokumen yang dimampat?",
+          "a": "Ya. Hanya imej terbenam dikod semula, dalam format asal dan di bawah nama fail asal, jadi struktur pakej, jenis kandungan dan hubungan kekal sah. Teks, gaya, jadual dan susun atur tidak disentuh."
+        },
+        {
+          "q": "Mengapa dokumen saya hampir tidak mengecil?",
+          "a": ".docx yang hanya teks hampir tiada apa-apa untuk dimampat semula; penjimatan datang daripada gambar. Jika kebanyakannya teks, cuba mod Tanpa kehilangan atau buang imej tidak digunakan dalam Word dahulu. Fail .doc lama dan dokumen tersulit tidak disokong."
+        }
+      ]
     }
   }
 }
