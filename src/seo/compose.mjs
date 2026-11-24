@@ -4,12 +4,18 @@
 //
 // Title formulas (brand kept verbatim, length counted in code points). The brand separator is a
 // pipe " | " (full-width "｜" for CJK) on every page type, per the owner's long-tail title spec.
-//   EN / Latin / Cyrillic / Devanagari tool:
-//     rich = "<Free Online> <name> - <action> | <brand>"  (used when <= 65 cps)
-//     mid  = "<Free> <name> | <brand>"                    (when rich would exceed 65)
-//     last = "<name> | <brand>"                           (when mid would still exceed 65)
-//   CJK tool (zh/ja/ko), brand alone is 16 cps so the action segment is dropped:
-//     rich = "<Free> <name>｜<brand>"  (<= 30 cps)  else  "<name>｜<brand>"
+//   Tool <title> — owner's uniform spec, e.g. "免费在线Word压缩工具｜ClearLight Tools": a free-online
+//   modifier + the keyword + a tool noun + the brand. The old "- <action>" long-tail segment is dropped
+//   in EVERY locale (the action field is retained in the seed but no longer composed into the title).
+//   EN / Latin / Cyrillic / Devanagari tool (kn = titleName || name):
+//     rich = "<Free Online> <kn> | <brand>"  (used when <= 65 cps)
+//     mid  = "<Free> <kn> | <brand>"         (when rich would exceed 65)
+//     last = "<kn> | <brand>"                (when mid would still exceed 65)
+//   CJK tool (zh/ja/ko): rich = "<Free Online><kn><toolWord>｜<brand>" (免费在线…工具). toolWord comes
+//     from seed.fixed (工具 / ツール / 도구) and is suppressed when kn already ends in a tool noun, so
+//     "图片压缩器" never becomes "图片压缩器工具". zh/ja tighten the stylistic Latin↔CJK space (Word压缩,
+//     PDF合并); ko keeps natural Hangul spacing. Brand alone is 16 cps and the ceiling is 30, so long
+//     names shed tiers — drop toolWord, then 在线, then 免费, then both — never truncating the brand.
 //   category / all (long-tail, owner spec — modifiers + secondary intent, NOT a bare "Image tools"):
 //     rich = "<Free Online> <seoName> | <brand>"  (<= 65)  else "<Free> <seoName> | <brand>"
 //            else "<seoName> | <brand>";  CJK: "<Free><seoName>｜<brand>" (<= 30) else "<seoName>｜<brand>"
@@ -34,21 +40,47 @@ export const EN_TOOL_DESC = { min: 135, max: 158 };
 export const CJK_TOOL_DESC = { min: 70, max: 85 };
 export const OTHER_DESC_MAX = 160;
 
+// CJK tool-noun morphemes (器/机/機 = zh/ja "device", 기 = ko "machine"). When the keyword already ends
+// in one — or in the toolWord itself — appending 工具/ツール/도구 would read redundantly, so it is skipped.
+const TOOL_NOUN_END = /[器机機기]$/;
+// Tighten the stylistic space between a Latin/digit token and an adjacent CJK token (zh/ja only): the
+// owner's spec writes "Word压缩" / "PDF合并", not "Word 压缩". Latin↔Latin spaces (Lorem Ipsum) are kept.
+const CJK_JOIN = '\\u4e00-\\u9fff\\u3040-\\u30ff\\uac00-\\ud7af';
+const tightenCjk = s => String(s)
+  .replace(new RegExp(`([A-Za-z0-9])\\s+([${CJK_JOIN}])`, 'g'), '$1$2')
+  .replace(new RegExp(`([${CJK_JOIN}])\\s+([A-Za-z0-9])`, 'g'), '$1$2');
+
 export function toolTitle(name, locale, entry, fx, brand) {
   // entry.titleName is an optional concise noun-form keyword (e.g. "Image Compressor" for the
   // "Compress Image" tool) used for the <title> ONLY, in any locale; the H1/nav keep the display name.
-  const kn = entry.titleName || name;
+  const kn0 = entry.titleName || name;
   if (CJK.has(locale)) {
-    // A few localized names are so long that name + 16-cp brand cannot fit 30 even without the free
-    // prefix; the titleName override (e.g. "Base64 変換") shortens them.
-    const rich = `${fx.free}${kn}｜${brand}`;
-    return cps(rich) <= TITLE_MAX.cjk ? rich : `${kn}｜${brand}`;
+    const kn = locale === 'ko' ? kn0 : tightenCjk(kn0);   // ko keeps natural Hangul spacing
+    const tw = fx.toolWord || '';
+    const full = tw && !kn.endsWith(tw) && !TOOL_NOUN_END.test(kn) ? kn + tw : kn;
+    // Owner pattern "<Free Online><kn><tool>｜<brand>". Ceiling 30 with a 16-cp brand, so long names
+    // shed the tool suffix, then 在线, then 免费, then both — the brand is never truncated.
+    const tiers = [
+      `${fx.freeOnline}${full}｜${brand}`,
+      `${fx.freeOnline}${kn}｜${brand}`,
+      `${fx.free}${full}｜${brand}`,
+      `${fx.free}${kn}｜${brand}`,
+      `${full}｜${brand}`,
+      `${kn}｜${brand}`,
+    ];
+    for (const t of tiers) if (cps(t) <= TITLE_MAX.cjk) return t;
+    return tiers[tiers.length - 1];
   }
-  const rich = `${fx.freeOnline} ${kn} - ${entry.action} | ${brand}`;
-  if (cps(rich) <= TITLE_MAX.other) return rich;
-  const mid = `${fx.free} ${kn} | ${brand}`;
-  // last resort: drop the free modifier too, keep keyword + brand whole (never truncate the brand)
-  return cps(mid) <= TITLE_MAX.other ? mid : `${kn} | ${brand}`;
+  // Non-CJK mirrors the same shape minus the CJK tool noun: "<Free Online> <kn> | <brand>". The old
+  // "- <action>" long-tail segment is dropped per the owner's uniform title spec.
+  const kn = kn0;
+  const tiers = [
+    `${fx.freeOnline} ${kn} | ${brand}`,
+    `${fx.free} ${kn} | ${brand}`,
+    `${kn} | ${brand}`,
+  ];
+  for (const t of tiers) if (cps(t) <= TITLE_MAX.other) return t;
+  return tiers[tiers.length - 1];   // last resort: keep keyword + brand whole (never truncate the brand)
 }
 
 export function toolDesc(name, entry, fx, locale) {
@@ -107,7 +139,7 @@ export function lengthVerdict(locale, title, desc) {
     if (dl < CJK_TOOL_DESC.min || dl > CJK_TOOL_DESC.max) { descOk = false; notes.push(`desc ${dl} outside ${CJK_TOOL_DESC.min}-${CJK_TOOL_DESC.max}`); }
   } else if (locale === 'en') {
     if (tl > TITLE_MAX.other) { titleOk = false; notes.push(`title ${tl}>${TITLE_MAX.other}`); }
-    else if (tl < 50) notes.push(`title ${tl}<50 (long-name fallback)`);
+    else if (tl < 40) notes.push(`title ${tl}<40 (short)`);   // uniform spec drops the action: 40-58 is normal
     if (dl < EN_TOOL_DESC.min || dl > EN_TOOL_DESC.max) { descOk = false; notes.push(`desc ${dl} outside ${EN_TOOL_DESC.min}-${EN_TOOL_DESC.max}`); }
   } else {
     if (tl > TITLE_MAX.other) { titleOk = false; notes.push(`title ${tl}>${TITLE_MAX.other}`); }

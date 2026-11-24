@@ -13,8 +13,8 @@
 //     src/seo/tool-seo/<locale>.json. This gate re-derives them with the SAME pure functions and the
 //     SAME name source the template uses (the built client dict's search[id].title), so a build that
 //     borrowed another locale's seed, or a regression to the bare navigation label, is a T4/D3/H1
-//     finding. Length is the owner's per-script window: EN title 50-65 (<=65 hard, <50 soft long-name
-//     fallback), CJK title <=30; EN desc 135-158, CJK desc 70-85, other desc <=160 (<120 soft).
+//     finding. Length is the owner's per-script window: EN title 40-65 (<=65 hard, <40 soft short),
+//     CJK title <=30; EN desc 135-158, CJK desc 70-85, other desc <=160 (<120 soft).
 //   * Home title/desc are owner-specified per locale in src/seo/keywords.json (homeTitle/homeDesc);
 //     home h1 is the seed's fixed.homeH1. The home description is exempt from the tool length window
 //     (it is a different page type, owner-exact) but still gated for presence/brand/distinctness.
@@ -175,7 +175,7 @@ export function judgeData({ seo, locales, brand }) {
 async function selftest() {
   const brand = 'ClearLight Tools';
   const enFx = { free: 'Free', freeOnline: 'Free Online', conn: ' with our free online ', tail: '. 100% browser-based, fast, and private—no login or file uploads required.', homeH1: 'Free Online Tools & Fast Browser Utilities' };
-  const zhFx = { free: '免费', freeOnline: '免费在线', conn: '：', tail: '。100% 浏览器本地运行，免登录、不上传文件。', homeH1: '免费在线工具与快速浏览器实用工具' };
+  const zhFx = { free: '免费', freeOnline: '免费在线', toolWord: '工具', conn: '：', tail: '。100% 浏览器本地运行，免登录、不上传文件。', homeH1: '免费在线工具与快速浏览器实用工具' };
   let bad = 0;
   const ok = (name, cond, extra = '') => { if (!cond) bad++; console.log(`  ${cond ? 'ok  ' : 'FAIL'} ${name}${cond ? '' : ' -> ' + extra}`); };
 
@@ -216,8 +216,8 @@ async function selftest() {
   ok('over-65 EN tool title fires T2 hard', judge({ rows: [{ ...cleanEnTool, title: longEn, expectedTitle: longEn }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
   const longZh = '免费' + 'x'.repeat(20) + '｜' + brand;   // 39 cps > 30
   ok('over-30 CJK tool title fires T2 hard', judge({ rows: [{ ...cleanZhTool, title: longZh, expectedTitle: longZh }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
-  const shortEn = toolTitle('Percentage Calculator', 'en', { action: 'calculate percentages' }, enFx, brand);  // rich 76>65 -> mid "Free Percentage Calculator | brand" 45 cps (<50 soft)
-  ok('EN long-name fallback title (<50) is a SOFT note, not hard', judge({ rows: [{ ...cleanEnTool, title: shortEn, expectedTitle: shortEn }], brand }).findings.some(f => f.rule === 'T2' && f.soft) && !judge({ rows: [{ ...cleanEnTool, title: shortEn, expectedTitle: shortEn }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
+  const shortEn = toolTitle('PDF', 'en', {}, enFx, brand);  // "Free Online PDF | brand" = 34 cps (<40 soft)
+  ok('EN short title (<40) is a SOFT note, not hard', judge({ rows: [{ ...cleanEnTool, title: shortEn, expectedTitle: shortEn }], brand }).findings.some(f => f.rule === 'T2' && f.soft) && !judge({ rows: [{ ...cleanEnTool, title: shortEn, expectedTitle: shortEn }], brand }).findings.some(f => f.rule === 'T2' && !f.soft));
   ok('title without the brand fires T3', judge({ rows: [{ ...cleanEnTool, title: 'Free Online Merge PDF - join files', expectedTitle: 'Free Online Merge PDF - join files' }], brand }).findings.some(f => f.rule === 'T3'));
   ok('bare-label title (regression) fires T4', judge({ rows: [{ ...cleanEnTool, title: plainTitle('Merge PDF', brand) }], brand }).findings.some(f => f.rule === 'T4'));
   ok('title wearing another locale modifier fires T4', judge({ rows: [{ ...cleanEnTool, title: enTitle.replace('Free Online', 'Gratis Online') }], brand }).findings.some(f => f.rule === 'T4'));

@@ -80,18 +80,28 @@ export function judgeLocale({ locale, seed, names, tools, brand, catKeys = [] })
 async function selftest() {
   const brand = 'ClearLight Tools';
   const enFx = { free: 'Free', freeOnline: 'Free Online', conn: ' with our free online ', tail: '. 100% browser-based, fast, and private—no login or file uploads required.', homeH1: 'Free Online Tools & Fast Browser Utilities' };
-  const zhFx = { free: '免费', freeOnline: '免费在线', conn: '：', tail: '。100% 浏览器本地运行，免登录、不上传文件。', homeH1: '免费在线工具与快速浏览器实用工具' };
+  const zhFx = { free: '免费', freeOnline: '免费在线', toolWord: '工具', conn: '：', tail: '。100% 浏览器本地运行，免登录、不上传文件。', homeH1: '免费在线工具与快速浏览器实用工具' };
+  const jaFx = { free: '無料', freeOnline: '無料オンライン', toolWord: 'ツール' };
+  const koFx = { free: '무료', freeOnline: '무료 온라인', toolWord: '도구' };
   let bad = 0;
   const ok = (name, cond, extra = '') => { if (!cond) bad++; console.log(`  ${cond ? 'ok  ' : 'FAIL'} ${name}${cond ? '' : ' -> ' + extra}`); };
 
   // formula pins (brand separator is a pipe ' | ', CJK '｜'; non-CJK title budget 65)
-  ok('EN rich title pin', toolTitle('Merge PDF', 'en', { action: 'join files' }, enFx, brand) === 'Free Online Merge PDF - join files | ClearLight Tools');
-  ok('EN mid-tier fallback pin (rich > 65)', toolTitle('Percentage Calculator', 'en', { action: 'calculate percentages now' }, enFx, brand) === 'Free Percentage Calculator | ClearLight Tools');
-  ok('CJK title keeps free + brand, drops action, compact sep', toolTitle('PDF 压缩', 'zh', { action: '压缩' }, zhFx, brand) === '免费PDF 压缩｜ClearLight Tools');
+  ok('EN rich title pin (free-online + keyword, no action)', toolTitle('Merge PDF', 'en', { action: 'join files' }, enFx, brand) === 'Free Online Merge PDF | ClearLight Tools');
+  ok('EN mid-tier fallback pin (rich > 65)', toolTitle('X'.repeat(38), 'en', {}, enFx, brand) === 'Free ' + 'X'.repeat(38) + ' | ClearLight Tools');
+  ok('CJK rich = freeOnline + keyword + toolWord + brand', toolTitle('PDF 压缩', 'zh', { action: '压缩' }, zhFx, brand) === '免费在线PDF压缩工具｜ClearLight Tools');
   ok('CJK over-30 drops the free prefix, keeps brand', toolTitle('一个非常长的中文工具名称超过限制', 'zh', { action: 'x' }, zhFx, brand) === '一个非常长的中文工具名称超过限制｜ClearLight Tools');
-  ok('CJK titleName override shortens a long name to fit 30', toolTitle('Base64 エンコード / デコード', 'ja', { action: 'x', titleName: 'Base64 変換' }, { free: '無料', freeOnline: '無料オンライン' }, brand) === '無料Base64 変換｜ClearLight Tools' && cps(toolTitle('Base64 エンコード / デコード', 'ja', { action: 'x', titleName: 'Base64 変換' }, { free: '無料' }, brand)) <= 30);
+  ok('CJK titleName override shortens a long name to fit 30', toolTitle('Base64 エンコード / デコード', 'ja', { action: 'x', titleName: 'Base64 変換' }, jaFx, brand) === '無料Base64変換ツール｜ClearLight Tools' && cps(toolTitle('Base64 エンコード / デコード', 'ja', { action: 'x', titleName: 'Base64 変換' }, jaFx, brand)) <= 30);
   ok('non-CJK third tier drops free when name+brand alone is near 65', toolTitle('CSS-Schatten- und Grid-Layout-Generator', 'de', { action: 'x' }, { free: 'Kostenlos', freeOnline: 'Kostenlos Online' }, brand) === 'CSS-Schatten- und Grid-Layout-Generator | ClearLight Tools');
-  ok('non-CJK titleName override (owner example): noun keyword + action', toolTitle('Compress Image', 'en', { action: 'Reduce Size', titleName: 'Image Compressor' }, enFx, brand) === 'Free Online Image Compressor - Reduce Size | ClearLight Tools');
+  ok('non-CJK titleName override (owner example): free-online + noun keyword', toolTitle('Compress Image', 'en', { action: 'Reduce Size', titleName: 'Image Compressor' }, enFx, brand) === 'Free Online Image Compressor | ClearLight Tools');
+  // owner's exact target titles for the uniform spec (免费在线 + keyword + 工具 ｜ brand)
+  ok('owner zh target: 免费在线Word压缩工具｜brand', toolTitle('Word 压缩', 'zh', {}, zhFx, brand) === '免费在线Word压缩工具｜ClearLight Tools');
+  ok('owner zh target: 免费在线PDF合并工具｜brand', toolTitle('PDF 合并', 'zh', {}, zhFx, brand) === '免费在线PDF合并工具｜ClearLight Tools');
+  // counter-proof: a keyword already ending in a tool noun must NOT double the suffix (器工具)
+  const zhRedundant = toolTitle('图片压缩器', 'zh', { titleName: '图片压缩器' }, zhFx, brand);
+  ok('mutation: CJK tool-noun suffix suppresses redundant toolWord', zhRedundant === '免费在线图片压缩器｜ClearLight Tools' && !zhRedundant.includes('器工具'));
+  // counter-proof: ko keeps natural Hangul spacing (zh/ja tighten the Latin↔CJK space, ko does not)
+  ok('ko keeps Hangul spacing in the keyword', toolTitle('Word 압축', 'ko', {}, koFx, brand) === '무료 온라인Word 압축｜ClearLight Tools');
   ok('EN desc composes verb+conn+name+tail', toolDesc('Merge PDF', { verb: 'Join PDF files' }, enFx, 'en') === 'Join PDF files with our free online Merge PDF. 100% browser-based, fast, and private—no login or file uploads required.');
   ok('CJK desc composes freeOnline+name+conn+verb+tail', toolDesc('PDF 压缩', { verb: '压缩文件' }, zhFx, 'zh') === '免费在线PDF 压缩：压缩文件。100% 浏览器本地运行，免登录、不上传文件。');
   ok('EN h1 pin', toolH1('Merge PDF', 'en', enFx) === 'Free Online Merge PDF');
@@ -105,8 +115,8 @@ async function selftest() {
   ok('CJK category over-30 drops free, keeps brand', catTitle('全ツール・ユーティリティ', 'ja', { free: '無料', freeOnline: '無料オンライン' }, brand) === '全ツール・ユーティリティ｜ClearLight Tools');
   ok('non-CJK category last tier (ru image, name+brand only)', catTitle('Инструменты для изображений и конвертеры', 'ru', { free: 'Бесплатно', freeOnline: 'Бесплатно Онлайн' }, brand) === 'Инструменты для изображений и конвертеры | ClearLight Tools');
   // counter-proof: the 65-cp non-CJK boundary really bites — rich at 65 stays rich, 66 falls back to mid
-  const rich65 = toolTitle('X'.repeat(25), 'en', { action: 'Y'.repeat(6) }, enFx, brand);   // 11+25+6+16+7 = 65
-  const rich66 = toolTitle('X'.repeat(25), 'en', { action: 'Y'.repeat(7) }, enFx, brand);   // 66 -> mid (49)
+  const rich65 = toolTitle('X'.repeat(34), 'en', {}, enFx, brand);   // 12+34+3+16 = 65
+  const rich66 = toolTitle('X'.repeat(35), 'en', {}, enFx, brand);   // 66 -> mid (59)
   ok('mutation: non-CJK title 65 stays rich / 66 falls back to mid', cps(rich65) === 65 && rich65.startsWith('Free Online ') && cps(rich66) < 65 && rich66.startsWith('Free ') && !rich66.startsWith('Free Online '));
   // counter-proof: catTitle never truncates the brand and never exceeds the budget, even for a long name
   const longCat = catTitle('Z'.repeat(40), 'en', enFx, brand);
